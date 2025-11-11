@@ -1,0 +1,141 @@
+name: genome_constraint_envs_O2_R
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # Core language and compilers (from O2 modules)
+  # NOTE: Before creating this environment, load the O2 modules:
+  #   module load conda/miniforge3/24.11.3-0
+  #   module load gcc/14.2.0
+  #   module load cuda/12.8
+  - r-base=4.4.2
+
+  # Core R packages for data manipulation
+  - r-tidyverse
+  - r-dplyr
+  - r-tidyr
+  - r-readr
+  - r-readxl
+  - r-writexl
+  - r-data.table
+  - r-stringr
+  - r-lubridate
+
+  # Visualization
+  - r-ggplot2
+  - r-plotly
+  - r-ggpubr
+  - r-ggtree
+  - r-complexheatmap
+  - r-circlize
+  - r-venndiagram
+  - r-pheatmap
+  - r-ggrepel
+  - r-ggforce
+  - r-patchwork
+
+  # Bioinformatics (Bioconductor)
+  - bioconductor-biostrings
+  - bioconductor-genomicranges
+  - bioconductor-genomeinfodb
+  - bioconductor-rtracklayer
+  - bioconductor-genomicfeatures
+  - bioconductor-biomart
+  - bioconductor-annotationdbi
+  - bioconductor-keggrest
+  - bioconductor-pathview
+  - bioconductor-clusterprofiler
+  - bioconductor-enrichplot
+  - bioconductor-deseq2
+  - bioconductor-limma
+  - bioconductor-edger
+  - bioconductor-phyloseq
+  - bioconductor-treeio
+  - bioconductor-ggtree
+  - bioconductor-apeglm
+
+  # Phylogeny and evolution
+  - r-ape
+  - r-phytools
+  - r-phangorn
+  - r-adephylo
+  - r-ggtree
+  - r-treeio
+
+  # Statistical modeling
+  - r-lme4
+  - r-nlme
+  - r-brms
+  - r-rstan
+  - r-caret
+  - r-randomforest
+  - r-gbm
+  - r-xgboost
+  - r-glmnet
+  - r-mgcv
+  - r-gam
+
+  # Genome size and constraint analysis
+  - r-phylolm
+  - r-caper
+  - r-picante
+  - r-geiger
+
+  # KEGG and pathway analysis
+  - r-keggrest
+  - r-pathview
+  - r-clusterprofiler
+  - r-enrichplot
+  - r-deseq2
+
+  # Data I/O
+  - r-hdf5r
+  - r-rhdf5
+  - r-arrow
+  - r-feather
+  - r-fst
+
+  # Utilities
+  - r-rmarkdown
+  - r-knitr
+  - r-bookdown
+  - r-dt
+  - r-shiny
+  - r-htmlwidgets
+
+  # Development and testing
+  - r-testthat
+  - r-devtools
+  - r-roxygen2
+  - r-usethis
+
+  # Parallel computing
+  - r-doparallel
+  - r-parallel
+  - r-future
+  - r-furrr
+
+  # O2 module tools available (versions from O2 modules)
+  - blast=2.16.0
+  - samtools=1.21
+  - bedtools=2.31.0
+  - bcftools=1.21
+  - htslib=1.21
+  - bwa=0.7.18
+  - bowtie2=2.5.4
+  - bowtie=1.3.1
+  - fastqc=0.12.1
+  - trimmomatic=0.39
+  - sratoolkit=3.2.0
+  - hisat2=2.2.1
+  - star=2.7.11b
+  - gatk=4.6.1.0
+  - vcftools=0.1.16
+  - snpeff=5.2f
+  - homer=5.1
+  - plink=1.90b7.7
+  - ucsc-tools=475
+

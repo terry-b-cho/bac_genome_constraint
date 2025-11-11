@@ -36,13 +36,40 @@ ENV/
 .Ruserdata
 *.Rproj.user/
 
-# Data files (uncomment if you want to ignore large data files)
-# *.tsv
-# *.csv
-# *.fasta
-# *.fa
-# *.gbk
-# *.gff
+# Data files - ignore large genome files and raw data
+# Genome assemblies (126GB - too large for git)
+data/ncbi/assemblies/
+data/ncbi/bac_genomes_5988_dir/
+
+# Large compressed data files
+data/ncbi/*.zip
+
+# Large GOLD metadata CSV files (hundreds of MB)
+data/gold/*.csv
+data/gold/*.xlsx
+
+# Genome sequence files
+*.fna
+*.faa
+*.fasta
+*.fa
+*.gbk
+*.gbff
+*.gff
+*.gff3
+
+# Large JSON files
+data/ncbi/metadata/assembly_data_report.jsonl
+data/ncbi/metadata/dataset_catalog.json
+
+# Keep smaller extracted metadata TSV and TXT files
+!data/ncbi/metadata/
+data/ncbi/metadata/*.jsonl
+data/ncbi/metadata/*.json
+!data/ncbi/metadata/*.tsv
+!data/ncbi/metadata/*.txt
+!data/metadata/
+!data/metadata/*.txt
 
 # IDE
 .vscode/
@@ -61,6 +88,7 @@ ENV/
 
 # Logs
 *.log
+scripts/0_data_download/logs/
 
 # Temporary files
 *.tmp

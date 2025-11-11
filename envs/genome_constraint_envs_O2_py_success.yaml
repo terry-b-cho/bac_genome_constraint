@@ -1,0 +1,106 @@
+name: genome_constraint_envs_O2_py
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  # Core language (from O2 modules)
+  # NOTE: Before using this environment, load the O2 modules:
+  #   module load conda/miniforge3/24.11.3-0
+  #   module load gcc/14.2.0
+  #   module load cuda/12.8
+  - python=3.13.1
+
+  # Core Python packages (successfully installed)
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - jupyter
+  - ipython
+  - notebook
+
+  # Utilities (successfully installed)
+  - tqdm
+  - click
+  - pyyaml
+  - requests
+  - beautifulsoup4
+  - lxml
+  - toml
+
+  # Machine learning and analysis (successfully installed)
+  - networkx
+  - scikit-learn
+  - scikit-bio
+  - statsmodels
+  - xgboost
+  - lightgbm
+  - joblib
+
+  # Bioinformatics core (successfully installed)
+  - biopython
+  - pysam
+
+  # Data I/O and formats (successfully installed)
+  - h5py
+  - pyarrow
+  - openpyxl
+  - xlsxwriter
+
+  # HPC and workflow management (successfully installed)
+  - plotly
+  - dask
+  - snakemake
+
+  # Phylogeny (successfully installed)
+  - dendropy
+  # Note: ete3 installed but has Python 3.13 compatibility issues (cgi module removed)
+  # Note: pybedtools not compatible with Python 3.13 (requires Python <3.8)
+
+  # Genome/annotation parsing (successfully installed)
+  - gffutils
+  - pyfaidx
+  - intervaltree
+
+  # Data I/O additional (successfully installed)
+  - zarr
+  - fastparquet
+  - altair
+  - bokeh
+
+  # Development tools (successfully installed)
+  - pytest
+  - scikit-optimize
+  - black
+  - flake8
+  - mypy
+  - ipdb
+
+  # Packages skipped due to Python 3.13 incompatibility:
+  # - pybedtools (requires Python <3.8)
+  # - pyvcf (requires Python <3.13)
+  # - pybigwig (requires Python <3.13)
+  # - bx-python (installation failed)
+  # - ete3 (installed but has cgi module issues with Python 3.13)
+  # - graphviz (installation failed, may need system package)
+  # - pygraphviz (depends on graphviz)
+  # - bioconductor-biobase (may need different installation method)
+  # - kegg-python (not found in conda channels)
+  # - scikit-bio (may have compatibility issues)
+  # - phylopypruner (not found in conda channels)
+  # - phylotreelib (not found in conda channels)
+  # - nextflow (may need separate installation)
+  # - multiprocessing-logging (not found in conda channels)
+  # - black, flake8, mypy, ipdb (installation in progress or failed)
+
+  # O2 modules available via 'module load' (do not install via conda):
+  # - blast, samtools, bedtools, bcftools, htslib, bwa, bowtie2, bowtie
+  # - fastqc, trimmomatic, sratoolkit, hisat2, star, gatk, vcftools
+  # - snpeff, homer, plink, ucsc-tools
+
+  # Successfully installed packages will be added below:
+
