@@ -46,8 +46,8 @@ plt.rcParams['font.size'] = 11
 
 # Base paths
 BASE_DIR = Path("/n/data1/joslin/icrb/kostic/terry/github/bac_genome_constraint")
-RESULTS_DIR = BASE_DIR / "results"
-RESULTS_DIR.mkdir(exist_ok=True)
+RESULTS_DIR = BASE_DIR / "results" / "1_exploratory_analyses_out"
+RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 ASSEMBLIES_DIR = BASE_DIR / "data/ncbi/assemblies"
 
 # NCBI data paths
