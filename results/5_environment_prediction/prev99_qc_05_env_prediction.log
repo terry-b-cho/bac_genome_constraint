@@ -1,0 +1,249 @@
+================================================================================
+Script 05: Environment Prediction from GO Terms and Genome Size
+
+O2 Module Requirements:
+  module load conda/miniforge3/24.11.3-0
+  module load gcc/14.2.0
+  module load cuda/12.8  # For GPU support
+
+  PREVALENCE THRESHOLD: 99.0%
+  NORMALIZATION: none
+  MODELS: all
+================================================================================
+
+1. Data Loading and Preparation
+--------------------------------------------------------------------------------
+Loading master table...
+  ✓ Loaded 2164 genomes from Parquet
+Loading valid environments...
+  ✓ Loaded 8 valid environments
+    Environments: Aquatic, Terrestrial, Mammals: Human, Plants, Mammals, Food production, Wastewater, Birds
+  Filtered to valid environments: 2164 → 2164 genomes
+  Class distribution:
+    Aquatic: 598 genomes (27.6%)
+    Terrestrial: 479 genomes (22.1%)
+    Mammals: Human: 406 genomes (18.8%)
+    Plants: 281 genomes (13.0%)
+    Mammals: 198 genomes (9.1%)
+    Food production: 103 genomes (4.8%)
+    Wastewater: 63 genomes (2.9%)
+    Birds: 36 genomes (1.7%)
+
+2. Feature Engineering
+--------------------------------------------------------------------------------
+  Found 208 GO term columns
+  Base features: 209 (208 GO terms + genes_total)
+  Added go_total (sum of all GO counts)
+  Checking feature variance...
+    Removing 1 features with zero variance
+  Final feature count: 209
+  Feature matrix shape: 2164 × 209
+
+3. Data Splitting
+--------------------------------------------------------------------------------
+  Splitting data (stratified): 80% train / 10% val / 10% test
+  Training set: 1731 genomes
+  Validation set: 216 genomes
+  Test set: 217 genomes
+  Training set class distribution:
+    Aquatic: 478 (27.6%)
+    Terrestrial: 383 (22.1%)
+    Mammals: Human: 325 (18.8%)
+    Plants: 225 (13.0%)
+    Mammals: 158 (9.1%)
+    Food production: 82 (4.7%)
+    Wastewater: 51 (2.9%)
+    Birds: 29 (1.7%)
+  Validation set class distribution:
+    Aquatic: 60 (27.8%)
+    Terrestrial: 48 (22.2%)
+    Mammals: Human: 40 (18.5%)
+    Plants: 28 (13.0%)
+    Mammals: 20 (9.3%)
+    Food production: 10 (4.6%)
+    Wastewater: 6 (2.8%)
+    Birds: 4 (1.9%)
+  Test set class distribution:
+    Aquatic: 60 (27.6%)
+    Terrestrial: 48 (22.1%)
+    Mammals: Human: 41 (18.9%)
+    Plants: 28 (12.9%)
+    Mammals: 20 (9.2%)
+    Food production: 11 (5.1%)
+    Wastewater: 6 (2.8%)
+    Birds: 3 (1.4%)
+
+4. Model Training
+--------------------------------------------------------------------------------
+  ✓ Saved scaler to prev99_env_prediction_scaler.pkl
+  Training baseline (majority class)...
+    ✓ Baseline trained
+  Training Random Forest...
+    ✓ Random Forest trained
+  Training Gradient Boosting...
+    ✓ Gradient Boosting trained
+  Training XGBoost...
+    ✓ XGBoost trained
+  Training Logistic Regression...
+    ✓ Logistic Regression trained
+
+5. Evaluation Metrics
+--------------------------------------------------------------------------------
+  Evaluating baseline...
+    Train accuracy: 0.2761 (balanced: 0.1250)
+    Val accuracy: 0.2778 (balanced: 0.1250)
+    Test accuracy: 0.2765 (balanced: 0.1250)
+    Macro F1: 0.0542, Weighted F1: 0.1198
+  Evaluating rf...
+    Train accuracy: 0.9838 (balanced: 0.9907)
+    Val accuracy: 0.6111 (balanced: 0.4249)
+    Test accuracy: 0.5945 (balanced: 0.4030)
+    Macro F1: 0.4095, Weighted F1: 0.5728
+    ⚠ WARNING: Possible overfitting (train-val diff: 0.3727)
+  Evaluating gb...
+    Train accuracy: 1.0000 (balanced: 1.0000)
+    Val accuracy: 0.5926 (balanced: 0.4537)
+    Test accuracy: 0.5899 (balanced: 0.3832)
+    Macro F1: 0.3907, Weighted F1: 0.5673
+    ⚠ WARNING: Possible overfitting (train-val diff: 0.4074)
+  Evaluating xgb...
+    Train accuracy: 0.9983 (balanced: 0.9992)
+    Val accuracy: 0.6019 (balanced: 0.4092)
+    Test accuracy: 0.5945 (balanced: 0.3949)
+    Macro F1: 0.4037, Weighted F1: 0.5672
+    ⚠ WARNING: Possible overfitting (train-val diff: 0.3964)
+  Evaluating lr...
+    Train accuracy: 0.7169 (balanced: 0.8132)
+    Val accuracy: 0.5093 (balanced: 0.4219)
+    Test accuracy: 0.4885 (balanced: 0.4138)
+    Macro F1: 0.3952, Weighted F1: 0.4980
+    ⚠ WARNING: Possible overfitting (train-val diff: 0.2077)
+
+Loading GO term labels for feature annotation...
+  ✓ Loaded 334 GO term labels
+
+6. Generating Visualizations
+--------------------------------------------------------------------------------
+  Generating Figure 1: Model Performance Comparison...
+  ✓ Saved prev99_fig01_model_performance_comparison.png and .pdf
+  Generating Figure 2: Confusion Matrices...
+  ✓ Saved prev99_fig02_confusion_matrices.png and .pdf
+  Generating Figure 3: ROC Curves (AUC)...
+  ✓ Saved prev99_fig03_roc_curves.png and .pdf
+  Generating Figure 4: Per-Class Performance Metrics...
+  ✓ Saved prev99_fig04_per_class_metrics.png and .pdf
+
+6. Feature Importance Analysis
+--------------------------------------------------------------------------------
+  Extracting feature importances from rf...
+    Top 10 features:
+      0003824: 0.021009
+      0022857: 0.018952
+      0016491: 0.018699
+      0000160: 0.017402
+      0005515: 0.016215
+      0007165: 0.014923
+      go_total: 0.014598
+      0055085: 0.014525
+      genes_total: 0.014469
+      0005975: 0.013526
+  Extracting feature importances from gb...
+    Top 10 features:
+      0003824: 0.050495
+      0055085: 0.041298
+      0016987: 0.028392
+      0015937: 0.027109
+      0022857: 0.023123
+      0016491: 0.022871
+      0009306: 0.018166
+      0016757: 0.017020
+      0051539: 0.016442
+      0009451: 0.014449
+  Extracting feature importances from xgb...
+    Top 10 features:
+      0015937: 0.044892
+      0055085: 0.022152
+      0008649: 0.017106
+      0003824: 0.016096
+      0015934: 0.015532
+      0009435: 0.014928
+      0016491: 0.013809
+      0003922: 0.013099
+      0006424: 0.013062
+      0009451: 0.012391
+  Extracting feature importances from lr...
+    Top 10 features:
+      0003746: 0.605604
+      0008757: 0.591488
+      0003824: 0.572756
+      0004252: 0.569087
+      0016020: 0.557929
+      0016491: 0.553060
+      0007165: 0.552873
+      0006414: 0.552078
+      0008033: 0.545447
+      0006289: 0.541332
+
+8. Generating Feature Importance Visualizations
+--------------------------------------------------------------------------------
+  Generating Figure 5: Top Feature Importances...
+  ✓ Saved prev99_fig05_feature_importance.png and .pdf
+    ✓ Figure 5 saved with annotated GO term labels
+
+9. Saving Outputs
+--------------------------------------------------------------------------------
+  ✓ Saved metrics to prev99_env_prediction_metrics.tsv
+  ✓ Saved confusion matrix (baseline) to prev99_env_prediction_confusion_matrix_baseline.tsv
+  ✓ Saved confusion matrix (rf) to prev99_env_prediction_confusion_matrix_rf.tsv
+  ✓ Saved confusion matrix (gb) to prev99_env_prediction_confusion_matrix_gb.tsv
+  ✓ Saved confusion matrix (xgb) to prev99_env_prediction_confusion_matrix_xgb.tsv
+  ✓ Saved confusion matrix (lr) to prev99_env_prediction_confusion_matrix_lr.tsv
+  ✓ Saved per-class metrics to prev99_env_prediction_per_class_metrics.tsv
+  ✓ Added GO term labels to feature importances
+  ✓ Saved feature importances to prev99_env_prediction_feature_importances.tsv
+  ✓ Saved model (baseline) to prev99_env_prediction_model_baseline.pkl
+  ✓ Saved model (rf) to prev99_env_prediction_model_rf.pkl
+  ✓ Saved model (gb) to prev99_env_prediction_model_gb.pkl
+  ✓ Saved model (xgb) to prev99_env_prediction_model_xgb.pkl
+  ✓ Saved model (lr) to prev99_env_prediction_model_lr.pkl
+
+8. Robustness Checks
+--------------------------------------------------------------------------------
+  Taxonomic distribution per environment:
+    Aquatic: 598 unique taxa
+    Terrestrial: 479 unique taxa
+    Mammals: Human: 406 unique taxa
+    Plants: 281 unique taxa
+    Mammals: 198 unique taxa
+    Food production: 103 unique taxa
+    Wastewater: 63 unique taxa
+    Birds: 36 unique taxa
+  Total unique taxa: 2164
+  GO annotation completeness:
+    Aquatic: 2926.8 mean total GO counts per genome
+    Terrestrial: 4108.2 mean total GO counts per genome
+    Mammals: Human: 2652.5 mean total GO counts per genome
+    Plants: 4355.9 mean total GO counts per genome
+    Mammals: 2399.5 mean total GO counts per genome
+    Food production: 2711.3 mean total GO counts per genome
+    Wastewater: 3161.0 mean total GO counts per genome
+    Birds: 2244.6 mean total GO counts per genome
+  Feature matrix statistics:
+    Mean: 50.85
+    Std: 23.37
+    Min: 0
+    Max: 11093
+
+================================================================================
+Summary
+================================================================================
+  Total genomes: 2164
+  Environments: 8
+  Features: 209
+  Models trained: 5
+  Best test accuracy by model:
+    baseline: 0.2765 (balanced: 0.1250)
+    rf: 0.5945 (balanced: 0.4030)
+    gb: 0.5899 (balanced: 0.3832)
+    xgb: 0.5945 (balanced: 0.3949)
+    lr: 0.4885 (balanced: 0.4138)
