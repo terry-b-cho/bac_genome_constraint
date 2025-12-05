@@ -1,115 +1,142 @@
-# Constraints on Bacterial Genome Size  
+# Constraints on Bacterial Genome Size
 
-HST.508 Final Project (Fall 2025)  
+HST.508 Final Project (Fall 2025)
 
-**Authors:** Aidan Pavao, Terry Cho  
+**Authors:** Aidan Pavao, Terry Cho
 
+## Project Overview
 
+Bacterial genomes vary nearly an order of magnitude in size. Interestingly, bacteria from similar environments across diverse taxa tend to have similar genome sizes (e.g., human skin commensals ~2.5 Mb). This project investigates how environmental factors constrain bacterial genome size through statistical analysis of gene content scaling laws, stratified by environment.
 
-## Project Description  
+**Key Questions:**
+- How does gene content scale with genome size across different functional categories?
+- Do scaling relationships differ between environments?
+- What functional categories show environment-specific scaling patterns?
 
-Bacterial genomes vary nearly an order of magnitude in size. Interestingly, bacteria from similar environments across diverse taxa tend to have similar genome sizes (e.g., human skin commensals ~2.5 Mb). It has been proposed that this convergence reflects metabolic complexity of the environment, while an alternative hypothesis suggests that genome size is constrained by nutrient limitation (e.g., nitrogen conservation).  
+## Data
 
+**Source:** NCBI Reference Genome Dataset  
+**Total Genomes:** 5,986 complete reference genomes (downloaded and organized)  
+**Location:** `data/ncbi/`
 
-
-The goal of this project is to model how environmental factors constrain bacterial genome size. We will analyze genome size, metabolic coding capacity (via KEGG), and other genomic signatures of nutrient limitation (e.g., amino acid usage, pathway composition) across multiple well-defined environments.
-
-
-
-## Data  
-
-Filtered reference genomes were obtained from NCBI:  
-
-[NCBI Reference Genome Dataset](https://www.ncbi.nlm.nih.gov/datasets/genome/?taxon=2&reference_only=true&annotated_only=true&refseq_annotation=true&genbank_annotation=true&typical_only=true&exclude_mags=true&exclude_multi_isolates=true&assembly_level=3:3)  
-
-**Criteria:**
+**Selection Criteria:**
 - Reference genomes only
 - Complete assembly level
 - Released since 2010
 - Annotated (RefSeq and GenBank)
 - Excluded atypical, MAGs, and multi-isolate assemblies
 
-**Total genomes:** 5,986 (downloaded and organized)
+**For detailed data documentation:** See `scripts/0_data_download/README.md`
 
-**Data location:** `data/ncbi/`
-
-**Directory structure:**
-```
-data/ncbi/
-├── assemblies/          # 5,986 genome directories (126 GB)
-│   └── GCF_*/          # One directory per assembly accession
-│       ├── *_genomic.fna    # Genome sequences
-│       ├── protein.faa      # Protein sequences
-│       ├── cds_from_genomic.fna  # Coding sequences
-│       ├── genomic.gff      # Gene annotations
-│       └── genomic.gbff     # GenBank format
-└── metadata/            # Summary files and manifests (29 MB)
-    ├── assembly_manifest.txt              # List of all accessions
-    ├── metadata_table.tsv                 # Basic metadata (6 columns)
-    ├── assembly_data_report_extracted.tsv # Detailed metadata (73 columns)
-    └── dataset_catalog_extracted.tsv      # File catalog
-```
-
-**For detailed documentation:** See `scripts/0_data_download/README.md` for complete directory structure, file descriptions, usage patterns, and script workflow.
-
-
-
-## Preliminary Analysis  
-
-Initial exploration includes:  
-
-- Histogram and scatter plots of genome size distribution  
-
-- Assessment of genome size variation across environments/ecology  
-
-- Verification that data are appropriate for downstream KEGG and nutrient limitation analyses  
-
-**Analysis scripts:** `scripts/1_exploratory_analyses/01_preliminary_analysis.ipynb`  
-
-
-
-## Planned Analysis  
-
-- KEGG annotation of protein sequences to estimate metabolic capacity  
-
-- Correlation of genome size with environment, metabolic coding capacity, and nutrient limitation signatures  
-
-- Model building (linear regression or machine learning) incorporating phylogeny and environment  
-
-
-
-## Contributions  
-
-- **Aidan Pavao:** Primary data analysis, visualization, modeling  
-
-- **Terry Cho:** Data setup, repository organization, documentation  
-
-
-
-## Repository Structure  
+## Repository Structure
 
 ```
 bac_genome_constraint/
-├── data/                    # Input datasets
-│   ├── ncbi/               # NCBI genome data (5,986 assemblies)
-│   └── metadata/           # Metadata files
-├── scripts/                # Analysis and plotting scripts
-│   └── 0_data_download/    # NCBI data download scripts and documentation
-├── results/                # Output figures and summary tables
-└── README.md               # Project overview
+├── data/                              # Input datasets
+│   └── ncbi/                          # NCBI genome assemblies (126 GB)
+│       ├── assemblies/                # 5,986 genome directories
+│       └── metadata/                  # Summary files and manifests
+│
+├── scripts/                           # Analysis pipelines
+│   ├── 0_data_download/               # NCBI data download and organization
+│   ├── 1_exploratory_analyses/        # Preliminary data exploration
+│   ├── 2_JGIgold_KEGG_anayses/       # KEGG pathway annotation
+│   ├── 3_GO_analyses/                 # Gene Ontology (GO) term extraction
+│   └── 4_statistical_analyses/        # Main statistical pipeline
+│       ├── 01_build_master_table_env.py      # Build master table + QC
+│       ├── 02_define_env_cohorts.py           # Environment filtering
+│       ├── 03_fit_global_scaling.py           # Global scaling laws
+│       ├── 04_fit_env_scaling_and_Z.py       # Environment-specific scaling + Z-scores
+│       ├── 04.5_plot_intermediate_figures.py # Intermediate diagnostics
+│       ├── 05_map_go_labels.py                # GO term annotation
+│       ├── 06_make_scaling_figures.py         # Publication figures
+│       ├── 07_scaling_extensions_tf_mobile_nutrient.py  # TF/mobile elements
+│       ├── extract_metabolic_go_terms.py       # Metabolism-focused analysis
+│       ├── create_prevalence_filtered_terms.py # GO term prevalence filtering
+│       └── prevalence_utils.py                 # Shared prevalence utilities
+│
+└── results/                           # Output files
+    ├── 1_exploratory_analyses_out/    # Preliminary analysis outputs
+    ├── 3_GO_analyses/                 # GO term counts and tables
+    └── 4_statistical_analyses/        # Statistical analysis outputs
+        ├── 01_master_table/           # Master data tables
+        ├── 02_env_cohorts/             # Environment-filtered data
+        ├── 03_global_scaling/          # Global scaling parameters
+        ├── 04_env_scaling/             # Environment-specific parameters + Z-scores
+        ├── 04.5_intermediate_figures/  # Diagnostic figures
+        ├── 05_go_labels/               # GO term labels and metabolic terms
+        ├── 06_figures/                 # Publication-quality figures
+        └── 07_extensions/              # TF/mobile element analyses
 ```
 
-**Data download documentation:** `scripts/0_data_download/README.md`
+## Analysis Pipeline
 
+### Main Statistical Pipeline (`scripts/4_statistical_analyses/`)
 
+The core analysis follows a sequential pipeline:
 
-## Timeline  
+1. **Script 01:** Build master table with QC filtering (CheckM completeness/contamination, gene counts)
+2. **Script 02:** Define environment cohorts (GOLD metadata) and filter to environments with ≥20 genomes
+3. **Script 03:** Fit global power-law scaling laws: `n_c(g) = β × n(g)^α` for each GO category
+4. **Script 04:** Fit environment-specific scaling laws and compute Z-scores comparing env vs. global parameters
+5. **Script 05:** Map GO term IDs to human-readable labels
+6. **Script 06:** Generate publication-quality figures (scaling plots, Z-statistics, environment comparisons)
+7. **Script 07:** Extend analyses to transcription factors and mobile elements
 
-- **Data criteria due:** Nov 7, 2025  
+**Optional Features:**
+- **Prevalence filtering:** Filter GO terms by prevalence threshold (e.g., `--prevalence-threshold 95` for terms present in ≥95% of genomes)
+- **Metabolic focus:** Generate metabolism-specific plots using `extract_metabolic_go_terms.py`
 
-- **Preliminary analysis due:** Nov 17, 2025  
+**For detailed methods and figure descriptions:** See `scripts/4_statistical_analyses/00_Figure_descriptions_n_methods.md`
 
-- **Presentation:** Dec 8–10, 2025  
+### Key Outputs
 
-- **Final paper due:** Dec 12, 2025  
+- **Scaling parameters:** Exponents (α) and offsets (β) for each GO category, globally and per-environment
+- **Z-statistics:** Quantify environment-specific deviations from global scaling
+- **Figures:** Publication-quality plots showing scaling relationships, Z-scores, and environment stratification
 
+## Usage
+
+### Running the Full Pipeline
+
+```bash
+# Basic run (no prevalence filtering)
+python3 scripts/4_statistical_analyses/01_build_master_table_env.py
+python3 scripts/4_statistical_analyses/02_define_env_cohorts.py
+python3 scripts/4_statistical_analyses/03_fit_global_scaling.py
+python3 scripts/4_statistical_analyses/04_fit_env_scaling_and_Z.py
+python3 scripts/4_statistical_analyses/05_map_go_labels.py
+python3 scripts/4_statistical_analyses/06_make_scaling_figures.py
+
+# With prevalence filtering (e.g., 95% threshold)
+python3 scripts/4_statistical_analyses/01_build_master_table_env.py --prevalence-threshold 95
+python3 scripts/4_statistical_analyses/02_define_env_cohorts.py --prevalence-threshold 95
+# ... (continue with --prevalence-threshold 95 for all scripts)
+```
+
+### Test Mode
+
+Most scripts support `--test-mode` for quick testing on subsets:
+```bash
+python3 scripts/4_statistical_analyses/03_fit_global_scaling.py --test-mode
+```
+
+## Dependencies
+
+- Python 3.x
+- pandas, numpy
+- matplotlib, seaborn (for plotting)
+- scipy (optional, for statistical functions; falls back to manual implementation)
+- pyarrow (for Parquet file I/O)
+
+## Contributions
+
+- **Aidan Pavao:** Primary data analysis, visualization, modeling
+- **Terry Cho:** Data setup, repository organization, documentation
+
+## Timeline
+
+- **Data criteria due:** Nov 7, 2025
+- **Preliminary analysis due:** Nov 17, 2025
+- **Presentation:** Dec 8–10, 2025
+- **Final paper due:** Dec 12, 2025
