@@ -87,8 +87,9 @@ data/ncbi/metadata/*.json
 # *.jpg
 # *.svg
 
-# Logs
+# Logs (but keep QC logs from analyses)
 *.log
+!results/**/qc_*.log
 scripts/0_data_download/logs/
 
 # Temporary files
