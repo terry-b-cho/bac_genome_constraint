@@ -1,0 +1,62 @@
+================================================================================
+Script 03: Global Scaling Fits - PATHWAY
+================================================================================
+
+Loading data...
+  ✓ Loaded 2164 genomes from master_table_env_filtered_pathway.parquet
+  Found 101 pathway category columns (no prevalence filter)
+
+  ✓ Loaded KEGG labels for 101 categories
+
+A. Pre-Regression Validation
+--------------------------------------------------------------------------------
+  Genomes removed due to zero counts:
+    Min: 0
+    Median: 226.0
+    Max: 2164
+  Genomes remaining per category after filtering:
+    Min: 0
+    Median: 1938.0
+    Max: 2164
+
+B. Fitting Global Scaling Laws
+--------------------------------------------------------------------------------
+  Successfully fitted 99 categories
+  Skipped 2 categories due to low sample size (<10)
+  Skipped 0 categories due to low variance
+
+C. Global Summary QC
+--------------------------------------------------------------------------------
+  Distribution of alpha_global:
+    Mean: 0.3434
+    Median: 0.3162
+    SD: 0.2856
+    Min: -0.2863
+    Max: 1.2326
+
+  QC Flags:
+    Categories with alpha < 0: 9
+    Categories with alpha > 4: 0
+    Categories with SE > 1: 0
+    Categories with R² < 0.2: 67
+
+  Top 10 categories with highest alpha_global:
+    Nitrogen metabolism (map00910): alpha=1.2326, R²=0.3881
+    Glyoxylate and dicarboxylate metabolism (map00630): alpha=1.1755, R²=0.4107
+    Glutathione metabolism (map00480): alpha=0.9104, R²=0.2979
+    Porphyrin metabolism (map00860): alpha=0.8499, R²=0.3210
+    Arginine biosynthesis (map00220): alpha=0.8414, R²=0.3132
+    Degradation of aromatic compounds (map01220): alpha=0.8402, R²=0.2457
+    Microbial metabolism in diverse environments (map01120): alpha=0.8182, R²=0.5890
+    Methane metabolism (map00680): alpha=0.8127, R²=0.2001
+    Benzoate degradation (map00362): alpha=0.7605, R²=0.2440
+    Pyruvate metabolism (map00620): alpha=0.7327, R²=0.4236
+
+  Categories skipped:
+    Low variation: 0
+    Low sample size (<10): 2
+
+D. Writing Outputs
+--------------------------------------------------------------------------------
+  ✓ global_scaling_params_pathway.tsv: 99 categories
+  ✓ global_scaling_params_pathway.parquet: 99 categories

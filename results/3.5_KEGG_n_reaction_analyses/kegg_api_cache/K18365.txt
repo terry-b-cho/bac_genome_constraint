@@ -1,0 +1,343 @@
+ENTRY       K18365                      KO
+SYMBOL      bphI, xylK, nahM, tesG
+NAME        4-hydroxy-2-oxovalerate/4-hydroxy-2-oxohexanoate aldolase [EC:4.1.3.39 4.1.3.43]
+PATHWAY     map00362  Benzoate degradation
+            map00621  Dioxin degradation
+            map00622  Xylene degradation
+            map00984  Steroid degradation
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01220  Degradation of aromatic compounds
+MODULE      M00569  Catechol meta-cleavage, catechol => acetyl-CoA / 4-methylcatechol => propanoyl-CoA
+REACTION    R00750  4-hydroxy-2-oxopentanoate pyruvate-lyase (acetaldehyde-forming)
+            R05298  4-hydroxy-2-oxohexanoate pyruvate-lyase (propanal-forming)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09111 Xenobiotics biodegradation and metabolism
+               00362 Benzoate degradation
+                K18365  bphI, xylK, nahM, tesG; 4-hydroxy-2-oxovalerate/4-hydroxy-2-oxohexanoate aldolase
+               00622 Xylene degradation
+                K18365  bphI, xylK, nahM, tesG; 4-hydroxy-2-oxovalerate/4-hydroxy-2-oxohexanoate aldolase
+               00621 Dioxin degradation
+                K18365  bphI, xylK, nahM, tesG; 4-hydroxy-2-oxovalerate/4-hydroxy-2-oxohexanoate aldolase
+               00984 Steroid degradation
+                K18365  bphI, xylK, nahM, tesG; 4-hydroxy-2-oxovalerate/4-hydroxy-2-oxohexanoate aldolase
+            Enzymes [BR:ko01000]
+             4. Lyases
+              4.1  Carbon-carbon lyases
+               4.1.3  Oxo-acid-lyases
+                4.1.3.39  4-hydroxy-2-oxovalerate aldolase
+                 K18365  bphI, xylK, nahM, tesG; 4-hydroxy-2-oxovalerate/4-hydroxy-2-oxohexanoate aldolase
+                4.1.3.43  4-hydroxy-2-oxohexanoate aldolase
+                 K18365  bphI, xylK, nahM, tesG; 4-hydroxy-2-oxovalerate/4-hydroxy-2-oxohexanoate aldolase
+            Dioxygenases [br01602.html]
+             Dioxygenases in aromatic ring cleavage
+              K18365
+DBLINKS     COG: COG0119
+            GO: 0008701
+GENES       PSD: DSC_09375
+            LSY: H8L67_00480(dmpG)
+            RGL: CS053_01770(dmpG)
+            RTH: LRK53_10290(dmpG)
+            RBD: ALSL_0877 ALSL_1082
+            VAF: D1115_22440(dmpG)
+            PATE: NNL38_21645(dmpG)
+            PRE: PCA10_13840
+            PFUW: KF707C_12190 KF707C_16050(salH) KF707C_16230(bphX3)
+            PLAL: FXN65_06430(dmpG)
+            PPI: ND084(nahM)
+            PPUT: L483_14055
+            PPUN: PP4_27280(mhpE)
+            PVR: PverR02_11585 PverR02_14710
+            PPUU: PputUW4_01662(mhpE)
+            PKC: PKB_4237(nahM)
+            PFZ: AV641_10525
+            PALK: PSAKL28_05980
+            PPSY: AOC04_07825
+            PFK: PFAS1_28765
+            PSET: THL1_1435
+            PSIL: PMA3_11725
+            PKE: DLD99_14740(dmpG)
+            PUM: HGP31_20770(dmpG)
+            PPSH: G5J76_13480(dmpG)
+            PAZE: KSS91_19285(dmpG)
+            PTAE: NCTC10697_02055(bphI)
+            PCAV: D3880_17515(dmpG)
+            PPHN: HU825_04960(dmpG) HU825_14765(dmpG)
+            PIZ: LAB08_R40950(dmpG)
+            PKM: PZ739_11535(dmpG)
+            PSHS: JJN09_05435(dmpG)
+            PLAU: I0D68_06170(dmpG)
+            PFOU: OZ911_14070(dmpG)
+            PSKP: KU43P_19460(mhpE_1)
+            PDEU: QEP73_19150(dmpG)
+            PBUB: V6B39_16915(dmpG)
+            PSML: V6P94_13780(dmpG)
+            PSMZ: V6L79_14200(dmpG)
+            PSWO: SD196_12925(dmpG)
+            PMOR: PMm318_A52870(dmpG)
+            PSAO: SK095_02800(dmpG) SK095_03830(dmpG) SK095_14850(dmpG)
+            PALL: UYA_06970 UYA_07050
+            PSC: A458_06510
+            PSTU: UIB01_22750
+            PBM: CL52_14720
+            SDEG: GOM96_01770(dmpG)
+            AVN: Avin_30570(lapG)
+            AVL: AvCA_30570(lapG)
+            AVD: AvCA6_30570(lapG)
+            HARR: HV822_17985(dmpG)
+            PPHA: BVH74_17970
+            HASM: QAO71_12440(dmpG)
+            MARJ: MARI_05460(bphI)
+            MSHE: MAALD49_03450(mhpE)
+            KAK: Kalk_07865(dmpG)
+            ALC: OTEC02_08820
+            AEI: AOY20_01975
+            ASJ: AsACE_CH00352(nahM)
+            ADV: DJ533_16960(dmpG)
+            ARJ: DOM24_01575(dmpG)
+            AWU: BEN71_02690(dmpG)
+            ACUM: C9E88_006015(dmpG)
+            ALW: FOB21_11710(dmpG)
+            ATN: FM020_13980(dmpG)
+            ACHI: CDG60_02965(dmpG)
+            ALJ: G8D99_13400(dmpG)
+            AWG: GFH30_01715(dmpG)
+            ASHA: G8E00_02255(dmpG)
+            ATG: J4G44_04390(dmpG)
+            AVB: RYU24_27150(mhpE)
+            ABOU: ACBO_27740(mhpE_2)
+            ACIU: A3K93_01265
+            APOT: MZO21_10840(dmpG)
+            ATZ: M5E07_14190(dmpG)
+            ACIE: KIP84_08190(dmpG)
+            ACIG: BS636_03595(dmpG)
+            ATV: ABEF79_01860(dmpG)
+            APIS: ACDW34_15755(dmpG)
+            ACAZ: ABJ384_12945(dmpG)
+            SPL: Spea_2116
+            SHL: Shal_2088
+            SWD: Swoo_1390
+            SHEM: HWQ47_08245(dmpG)
+            COLW: A3Q33_18585
+            CBER: B5D82_11260(dmpG)
+            THT: E2K93_11210(dmpG)
+            PHA: PSHAa2143(mhpE)
+            PTN: PTRA_a2596(bphI)
+            PNG: PNIG_a2790(bphI)
+            LAL: AT746_01290
+            SALH: HMF8227_02732(bphI)
+            HARO: R50071_12480(dmpG_2) R50071_15480(dmpG_3)
+            TTU: TERTU_1283(dmpG)
+            SPOI: IMCC21906_00395 IMCC21906_02714
+            SNAN: I6N98_10790(dmpG)
+            STAW: NCG89_14280(dmpG)
+            ZAL: AZF00_03870 AZF00_11420 AZF00_17810
+            HJA: BST95_09515
+            HALC: EY643_13285(dmpG)
+            AFUS: EYZ66_02685(dmpG) EYZ66_12975(dmpG)
+            PAQM: E0F26_07465(dmpG)
+            CYQ: Q91_0510 Q91_1491(lapG)
+            CZA: CYCME_0969(lapG) CYCME_2101(dmpG)
+            CYY: CPC19_05395(dmpG) CPC19_10505(dmpG)
+            BLEP: AL038_01290(dmpG)
+            THIS: HZT40_10615(dmpG)
+            AEH: Mlg_2462
+            TBN: TBH_C0930
+            MMW: Mmwyl1_3801
+            MPRI: MP3633_3149(mhpE)
+            MGEO: CFI10_00435(dmpG) CFI10_04970(dmpG) CFI10_06050(dmpG)
+            MSEC: LN244_04515(dmpG) LN244_04765(dmpG) LN244_11320(dmpG)
+            MRZ: KDW95_00755(dmpG)
+            NCU: F0U83_03055(dmpG)
+            NJP: NEJAP_0673(mhpE)
+            NIK: F5I99_02020(dmpG) F5I99_10095(dmpG) F5I99_10510(dmpG)
+            AJP: AMJAP_2526 AMJAP_2997
+            ENW: MJO57_21390(dmpG)
+            EMP: EZMO1_1319(tesG)
+            ASIM: FE240_03470(dmpG)
+            ZDF: AN401_14615
+            ZOB: ACEVBK_04810(dmpG) ACEVBK_04895(dmpG)
+            SOK: D0B54_06190(dmpG)
+            SINI: GT972_14660(dmpG)
+            FCE: JN531_005840(dmpG)
+            GBI: PG2T_09675
+            GPB: HDN1F_27070(tesG)
+            NZO: SAMEA4504057_0444(bphI)
+            NCI: NCTC10296_00917(bphI)
+            NWD: H3L96_04775(dmpG)
+            NDU: LVJ88_00580(dmpG)
+            VFF: VITFI_CDS1376
+            PTES: JQU52_04850(dmpG)
+            USU: LVJ78_03650(dmpG)
+            AQL: BXU06_16260 BXU06_16885 BXU06_17065
+            RPI: Rpic_4617
+            RPF: Rpic12D_3541
+            RIN: ACS15_4356
+            REH: H16_B0595(bpHI)
+            CNC: CNE_2c05400(bpHI)
+            CUH: BJN34_24650
+            RME: Rmet_1319(bphI)
+            CTI: RALTA_B0399(mhpE)
+            CBW: RR42_s2315
+            COX: E0W60_08015(dmpG)
+            CCAX: KZ686_10005(dmpG)
+            CUK: KB879_20415(dmpG)
+            CUPP: CTP10_R38450(dmpG)
+            BVI: Bcep1808_7605
+            BUR: Bcep18194_B1457 Bcep18194_B2959
+            BCJ: BCAM1615(bphI)
+            BCEN: DM39_3381(dmpG) DM39_4832(dmpG)
+            BCEO: I35_5475(bphI)
+            BCT: GEM_4109 GEM_5401
+            BCED: DM42_4991(dmpG) DM42_6343(dmpG)
+            BCEP: APZ15_31145
+            BPYR: ABD05_27810
+            BCON: NL30_04130 NL30_24590
+            BDF: WI26_15995 WI26_21155
+            BTEI: WS51_00570 WS51_05705
+            BPSL: WS57_06035 WS57_12155
+            BMEC: WJ16_26800
+            BSTL: BBJ41_10520 BBJ41_21350
+            BANN: JFN94_19135(dmpG) JFN94_25660(dmpG)
+            BARI: NLX30_30175(dmpG)
+            BAEN: L3V59_21750(dmpG) L3V59_30405(dmpG)
+            BUQ: AC233_11185
+            BURK: DM992_32615(dmpG)
+            BURF: Bsp3421_002158(dmpG)
+            BXE: Bxe_C1187(bphI)
+            BXB: DR64_8618(dmpG)
+            BFN: OI25_4591(dmpG)
+            PARB: CJU94_37880(dmpG) CJU94_38125(dmpG)
+            PCAF: DSC91_003289
+            PMEG: FNZ07_21155(dmpG)
+            PBRY: NDK50_32885(dmpG)
+            PPAI: E1956_37230(dmpG)
+            PHUN: U0042_26780(dmpG)
+            PPK: U875_01890
+            PRB: X636_07580
+            CABA: SBC2_49000(bphI)
+            LIMN: HKT17_03830(dmpG)
+            AXY: AXYL_04307(dmpG)
+            APES: FOC84_00305(dmpG)
+            AALN: Q3V95_01645(dmpG)
+            CDN: BN940_14431
+            AAQA: ACMYR3_10250(dmpG) ACMYR3_10405(dmpG) ACMYR3_13290(dmpG)
+            RFR: Rfer_0454
+            RLH: MIZ03_0650 MIZ03_1026
+            PNA: Pnap_4142
+            AJS: Ajs_0224
+            ACID: CBP33_01115
+            ACIP: CBP36_01210
+            ACIN: CBP34_01120
+            ACIS: CBP35_17740
+            AMON: H9L24_14175(dmpG)
+            VEI: Veis_2781
+            VBO: CKY39_28495(dmpG)
+            VAV: IG196_08140(dmpG)
+            VAE: RZE79_18240(dmpG)
+            CTT: CtCNB1_1351 CtCNB1_3147
+            CTES: O987_07730
+            COF: FOZ74_08315(dmpG)
+            CRJ: QMY55_07010(dmpG)
+            ADN: Alide_0339
+            ADK: Alide2_0284
+            OTD: J1M35_00045(dmpG)
+            HYL: LPB072_18200
+            HPSE: HPF_01850(bphI)
+            HYN: F9K07_02775(dmpG) F9K07_11450(dmpG) F9K07_31030(dmpG)
+            HTN: KI616_01945(dmpG)
+            DIH: G7047_09695(dmpG)
+            DIM: K2L43_01285(dmpG)
+            DIS: I3K84_11915(dmpG)
+            SIMP: C6571_13625(dmpG)
+            MELA: C6568_07850(dmpG)
+            MJE: LVC68_01015(dmpG)
+            STHM: IS481_10550(dmpG)
+            SAQA: OMP39_09130(dmpG)
+            MPT: Mpe_A2266 Mpe_A3321
+            METP: C1M51_06440(dmpG) C1M51_16320(dmpG)
+            SNN: EWH46_19310(dmpG)
+            SMIO: CATMQ487_04050(mhpE_1) CATMQ487_17590(mhpE_2) CATMQ487_31630(mhpE_3)
+            IDC: LRM40_19585(dmpG)
+            LCH: Lcho_3340
+            JAJ: EKL02_01800(dmpG) EKL02_13150(dmpG)
+            MASW: AM586_18660
+            TMJ: P0M04_30655(dmpG)
+            RBU: PG1C_14090
+            ABRE: pbN1_20580(mhpE)
+            DAR: Daro_0907 Daro_1356 Daro_3782 Daro_3808
+            DEY: HYN24_14110(dmpG) HYN24_14200(dmpG)
+            DDEN: KI615_16870(dmpG)
+            QAU: KI612_15145(dmpG)
+            FLE: KI610_08595(dmpG) KI610_13435(dmpG) KI610_15450(dmpG)
+            AZO: azo1857(lapG) azo1972(mhpE) azo2431(nahM)
+            AOA: dqs_2010 dqs_2127 dqs_2575
+            AZI: AzCIB_1509 AzCIB_4409
+            AZD: CDA09_09965(dmpG) CDA09_10335(dmpG) CDA09_10460(dmpG) CDA09_21430(dmpG)
+            AZR: CJ010_12270(dmpG) CJ010_12835(dmpG) CJ010_15205(dmpG)
+            TMZ: Tmz1t_2079 Tmz1t_3105
+            THU: AC731_001820 AC731_008905
+            THAU: C4PIVTH_2809(mhpE) C4PIVTH_4319(mhpE) C4PIVTH_4382(mhpE)
+            THK: CCZ27_04605(dmpG) CCZ27_10750(dmpG)
+            THAG: CKCBHOJB_01548(bphI_1) CKCBHOJB_02381(bphI_2)
+            AZQ: G3580_00550(dmpG) G3580_08280(dmpG)
+            ACOM: CEW83_03610(dmpG)
+            NPM: QEO92_31660(dmpG)
+            SHZ: shn_33310
+            CID: P73_1382
+            DAA: AKL17_3p0139
+            TEC: AKL02_008270(dmpG)
+            PGV: SL003B_p0059
+            NPP: PP1Y_AT32722
+            SPHJ: BSL82_10435
+            SGI: SGRAN_1579(mhpE)
+            SJP: SJA_C1-11910(mhpE_xylK)
+            SINB: SIDU_08310
+            SYB: TZ53_09030 TZ53_23475
+            SHYD: CJD35_06515(dmpG)
+            SBAR: H5V43_20635(dmpG)
+            SPTA: Sj15T_03550(mhpE)
+            SFLA: SPHFLASMR4Y_02366(bphI)
+            ALTN: LBX01_06750(dmpG)
+            PMAS: NCF86_10605(dmpG)
+            TFV: IDJ81_04960(dmpG)
+            TXI: TH3_21418
+            HTL: HPTL_0047
+            ACIB: ACBT_0259(dmpG)
+            AFC: AFAEC_1844(dmpG)
+            AAQI: AAQM_0982(dmpG)
+            ACLO: ACLO_a0139(dmpG)
+            ADZ: ADFLV_2551(dmpG)
+            ARC: ABLL_2442
+            AROS: NJU99_01650(dmpG)
+            ALK: ALEK_0383(dmpG)
+            AANA: AANAER_1260(dmpG)
+            SSM: Spirs_4175
+            GYC: GYMC61_2298
+            GYA: GYMC52_1426
+            GCT: GC56T3_2055
+            GGH: GHH_c14840(pheE)
+            GJF: M493_17920
+            AAD: TC41_0802(mhpE)
+            AACO: K1I37_06160(dmpG)
+            ADAU: NZD86_00705(dmpG) NZD86_06135(dmpG)
+            AFAS: NZD89_10110(dmpG)
+            ALIC: GI364_17540(dmpG)
+            BTS: Btus_0969
+            KYR: CVV65_10345(dmpG) CVV65_11290(dmpG)
+            DHD: Dhaf_1245
+            DCA: Desca_1927
+            LACY: A4V08_07730
+            MTHO: MOTHE_c17890
+            MTHZ: MOTHA_c18720
+            TOC: Toce_0378
+            STED: SPTER_03000 SPTER_36960(bphI)
+            SSPH: SPSPH_044540(mhpE)
+REFERENCE   PMID:16151114
+  AUTHORS   Horinouchi M, Hayashi T, Koshino H, Kurita T, Kudo T
+  TITLE     Identification of 9,17-dioxo-1,2,3,4,10,19-hexanorandrostan-5-oic acid, 4-hydroxy-2-oxohexanoic acid, and 2-hydroxyhexa-2,4-dienoic acid and related enzymes involved in testosterone degradation in Comamonas testosteroni TA441.
+  JOURNAL   Appl Environ Microbiol 71:5275-81 (2005)
+            DOI:10.1128/AEM.71.9.5275-5281.2005
+  SEQUENCE  [ctt:CtCNB1_1351]
+///

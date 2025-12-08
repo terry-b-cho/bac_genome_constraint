@@ -1,0 +1,826 @@
+ENTRY       K11787                      KO
+SYMBOL      GART
+NAME        phosphoribosylamine--glycine ligase / phosphoribosylglycinamide formyltransferase / phosphoribosylformylglycinamidine cyclo-ligase [EC:6.3.4.13 2.1.2.2 6.3.3.1]
+PATHWAY     map00230  Purine metabolism
+            map00670  One carbon pool by folate
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01523  Antifolate resistance
+MODULE      M00048  De novo purine biosynthesis, PRPP + glutamine => IMP
+REACTION    R04144  5-phospho-D-ribosylamine:glycine ligase (ADP-forming)
+            R04208  2-(formamido)-N1-(5-phosphoribosyl)acetamidine cyclo-ligase (ADP-forming)
+            R04325  10-formyltetrahydrofolate:5'-phosphoribosylglycinamide formyltransferase
+            R04326  
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09104 Nucleotide metabolism
+               00230 Purine metabolism
+                K11787  GART; phosphoribosylamine--glycine ligase / phosphoribosylglycinamide formyltransferase / phosphoribosylformylglycinamidine cyclo-ligase
+              09108 Metabolism of cofactors and vitamins
+               00670 One carbon pool by folate
+                K11787  GART; phosphoribosylamine--glycine ligase / phosphoribosylglycinamide formyltransferase / phosphoribosylformylglycinamidine cyclo-ligase
+             09160 Human Diseases
+              09176 Drug resistance: antineoplastic
+               01523 Antifolate resistance
+                K11787  GART; phosphoribosylamine--glycine ligase / phosphoribosylglycinamide formyltransferase / phosphoribosylformylglycinamidine cyclo-ligase
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.1  Transferring one-carbon groups
+               2.1.2  Hydroxymethyl-, formyl- and related transferases
+                2.1.2.2  phosphoribosylglycinamide formyltransferase 1
+                 K11787  GART; phosphoribosylamine--glycine ligase / phosphoribosylglycinamide formyltransferase / phosphoribosylformylglycinamidine cyclo-ligase
+             6. Ligases
+              6.3  Forming carbon-nitrogen bonds
+               6.3.3  Cyclo-ligases
+                6.3.3.1  phosphoribosylformylglycinamidine cyclo-ligase
+                 K11787  GART; phosphoribosylamine--glycine ligase / phosphoribosylglycinamide formyltransferase / phosphoribosylformylglycinamidine cyclo-ligase
+               6.3.4  Other carbon-nitrogen ligases
+                6.3.4.13  phosphoribosylamine---glycine ligase
+                 K11787  GART; phosphoribosylamine--glycine ligase / phosphoribosylglycinamide formyltransferase / phosphoribosylformylglycinamidine cyclo-ligase
+DBLINKS     GO: 0004637 0004644 0004641
+GENES       HSA: 2618(GART)
+            PTR: 107970128(GART)
+            PPS: 100991318(GART)
+            GGO: 101142154(GART)
+            PON: 100444934(GART)
+            PPYG: 129022522(GART)
+            NLE: 100585363(GART)
+            HMH: 116482425(GART)
+            SSYN: 129482937(GART)
+            MCC: 704926(GART)
+            MCF: 101925128(GART)
+            MTHB: 126951660
+            MNI: 105472697(GART)
+            CSAB: 103216649(GART)
+            CATY: 105575385(GART)
+            PANU: 100137547(GART)
+            TGE: 112620929(GART)
+            MLEU: 105553148(GART)
+            RRO: 104658753(GART)
+            RBB: 108536859(GART)
+            TFN: 117095719(GART)
+            PTEH: 111525392(GART)
+            CANG: 105517524(GART)
+            CJC: 100412337(GART)
+            SBQ: 101032514(GART)
+            ANAN: 105713468(GART)
+            MMUR: 105861505(GART)
+            LCAT: 123630702(GART)
+            ERUF: 138386107(GART)
+            PCOQ: 105820825(GART)
+            OGA: 100957350(GART)
+            MMU: 14450(Gart)
+            MCAL: 110311510(Gart)
+            MPAH: 110329397(Gart)
+            RNO: 288259(Gart)
+            MCOC: 116086139(Gart)
+            ANU: 117717807(Gart)
+            ASYL: 127666332(Gart)
+            MUN: 110541947(Gart)
+            CGE: 100689446(Gart)
+            MAUA: 101828280(Gart)
+            PROB: 127227519(Gart)
+            PLEU: 114698431(Gart)
+            PMAV: 102905603(Gart)
+            MORG: 121444517 121461903(Gart)
+            MFOT: 126515251
+            AAMP: 119825547(Gart)
+            CNL: 130871750(Gart)
+            NGI: 103736448(Gart)
+            HGL: 101697318(Gart)
+            CPOC: 100729412(Gart)
+            DORD: 105994021(Gart)
+            DSP: 122114228(Gart)
+            DMER: 138832496(Gart)
+            PLOP: 125351494(Gart)
+            NCAR: 124993425
+            MMMA: 107136445(Gart)
+            ITI: 101960767(Gart)
+            OCU: 100328811(GART)
+            OPI: 101529478(GART)
+            OCZ: 121156804(GART)
+            TUP: 102487990(GART)
+            GVR: 103586004(GART)
+            CFA: 100856570(GART)
+            CLUD: 112661742(GART)
+            VVP: 112909277(GART)
+            VLG: 121479445(GART)
+            NPO: 129502188(GART)
+            AML: 100479165(GART)
+            UMR: 103673116(GART)
+            UAH: 113264297(GART)
+            UAR: 123784210(GART)
+            ELK: 111155699
+            LLV: 125094922
+            MPUF: 101676521(GART)
+            MNP: 132012366(GART)
+            MLK: 131825329(GART)
+            NVS: 122908323(GART)
+            ORO: 101384632(GART)
+            EJU: 114218318(GART)
+            ZCA: 113918308(GART)
+            MLX: 118018835(GART)
+            NSU: 110570111(GART)
+            LWW: 102750243(GART)
+            FCA: 101087772(GART)
+            PYU: 121035984(GART)
+            PCOO: 112849369(GART)
+            PBG: 122491215(GART)
+            PVIV: 125174755(GART)
+            LRUF: 124526344
+            LGF: 123610629(GART)
+            AJU: 106966453
+            PTG: 102956979(GART)
+            PPAD: 109249721(GART)
+            PUC: 125921703
+            PLEZ: 122229980(GART)
+            HHV: 120229609(GART)
+            BTA: 281183(GART)
+            BOM: 102276357(GART)
+            BIU: 109567366(GART)
+            BBUB: 102392383(GART)
+            BKE: 129643312(GART)
+            BBIS: 105004616(GART)
+            CHX: 102172194(GART)
+            OAS: 101121731(GART)
+            BTAX: 128045342(GART)
+            CSUM: 138078620(GART)
+            ODA: 120854436(GART)
+            CCAD: 122428721(GART)
+            MREE: 136152312(GART)
+            OVR: 110136760(GART)
+            MBEZ: 129552531(GART)
+            SSC: 100620652(GART)
+            CFR: 102517474(GART)
+            CBAI: 105070227(GART)
+            CDK: 105089861(GART)
+            VPC: 102526238(GART)
+            BACU: 102999179(GART)
+            BMUS: 118894582(GART)
+            LVE: 103080650(GART)
+            OOR: 101285238(GART)
+            LALB: 132521312(GART)
+            GMF: 115865784(GART)
+            DDP: 132424574(GART)
+            DLE: 111163810(GART)
+            PSIU: 116753349(GART)
+            PPHC: 136122199(GART)
+            NASI: 112408602(GART)
+            ECB: 100052316(GART)
+            EPZ: 103549081(GART)
+            EAI: 106832833(GART)
+            MYB: 102262953(GART)
+            MYD: 102772036(GART)
+            MMYO: 118677255(GART)
+            MLF: 102424778(GART)
+            MDT: 132229843(GART)
+            MYUM: 139004325(GART)
+            PKL: 118716057(GART)
+            EFUS: 103289924(GART)
+            MNA: 107537466(GART)
+            DRO: 112305577(GART)
+            SHON: 118983252(GART)
+            AJM: 119035718(GART)
+            PDIC: 114490038(GART)
+            PHAS: 123828053(GART)
+            MMF: 118617075(GART)
+            PPAM: 129074257(GART)
+            HAI: 109373228(GART)
+            RFQ: 117035821(GART)
+            PALE: 102893033(GART)
+            PGIG: 120598631(GART)
+            PVP: 105295844(GART)
+            RAY: 107519587(GART)
+            MJV: 108396821(GART)
+            TOD: 119257226(GART)
+            SARA: 101558115(GART)
+            SFUM: 130018509(GART)
+            SETR: 126026039(GART)
+            LAV: 100672037(GART)
+            TMU: 101354872
+            ETF: 101653802(GART)
+            DNM: 101434283(GART)
+            MDO: 100026350(GART)
+            GAS: 123242454(GART)
+            SHR: 100925249(GART)
+            AFZ: 127553854
+            PCW: 110214813(GART)
+            TVP: 118837733(GART)
+            PBRV: 138151451(GART)
+            MLAO: 141506885(GART)
+            OAA: 100083317(GART) 100083336
+            TACU: 119945141(GART)
+            GGA: 395315(GART) 427977(GART-B)
+            PCOC: 116241974 116241995(GART)
+            MGP: 100539128(GART) 100542357
+            CJO: 107322963 107322977(GART)
+            TPAI: 128076347(GART) 128076363
+            LMUT: 125697151 125697160(GART)
+            NMEL: 110402500 110402542
+            APLA: 101790581 101803101
+            AACU: 137859617 137859625(GART)
+            ACYG: 106043414(GART) 106043431
+            CATA: 118247664 118247791
+            AFUL: 116491147(GART)
+            TGU: 100217856(GART) 100222702
+            LSR: 110479223(GART) 110479231
+            SCAN: 103824404(GART) 103824418
+            PMOA: 120504004 120504005(GART)
+            OTC: 121334741 121334747(GART)
+            PRUF: 121356332(GART) 121356339
+            ATRC: 139591482(GART) 139591888
+            GFR: 102045486(GART) 102045650
+            FAB: 101816412(GART) 101817498
+            PHI: 102100614 102109787
+            PMAJ: 107200378(GART) 107200385
+            CCAE: 111928826(GART) 111928969
+            CCW: 104698062(GART) 104698091
+            CBRC: 103621821(GART) 103621832
+            ACOE: 138105481(GART) 138105578
+            ETL: 114070711(GART)
+            ZAB: 102071268 102071439(GART)
+            ZLE: 135443715(GART) 135454092
+            ACHL: 103803702(GART) 103803703
+            SVG: 106864103 106864106(GART)
+            MMEA: 130583757 130583761(GART)
+            HRT: 120748479 120748480(GART)
+            CFAI: 136285712(GART)
+            CCIC: 134058148 134058149(GART)
+            FPG: 101917332(GART) 101920107
+            FCH: 102054569 102058598(GART)
+            CCRI: 104164340
+            NNT: 104413784(GART) 104413785
+            SHAB: 115601471 115601577
+            ACUN: 113479892(GART) 113485589
+            SURA: 141939122 141939123(GART)
+            TALA: 104361255(GART) 104361256
+            ACHC: 115343826 115343827
+            HALD: 104310807(GART) 104317815
+            HLE: 104839829(GART) 104839852
+            AGEN: 126053197 126053198
+            HHAR: 128144713(GART) 128144715
+            BBUT: 142033654(GART) 142033655
+            GCL: 127029447 127029448
+            CSTI: 104550213 104553807
+            LDI: 104339807(GART) 104348762
+            MNB: 103781336(GART)
+            DPUB: 104306412(GART) 104306427
+            PPUS: 135180051 135180161(GART)
+            AVIT: 104267149(GART) 104279688
+            BRHI: 104489356(GART) 104489357
+            EGZ: 104128165 104128228(GART)
+            NNI: 104020123(GART) 104020174
+            PCRI: 104037837(GART) 104037838
+            PCAO: 104042539(GART) 104042541
+            PARX: 142060555(GART) 142060564
+            PADL: 103920259(GART) 103920317
+            AFOR: 103901972(GART) 103902070
+            FGA: 104076686(GART) 104076687
+            CBOR: 142091974 142091992(GART)
+            GSTE: 104257467(GART) 104257468
+            CBOY: 140643660(GART) 140647393
+            MAME: 142417249 142417260(GART)
+            CLV: 102088577 102096509(GART)
+            CNIC: 135989512(GART) 135991385
+            MUI: 104538196(GART) 104538206
+            PGUU: 104468469(GART) 104468477
+            PLET: 104625314(GART) 104625315
+            EHS: 104506534
+            CMAC: 104479807(GART) 104479808
+            CUCA: 104064755(GART) 104064788
+            TEO: 104369892 104375614
+            BREG: 104629714(GART) 104633093
+            GAME: 129202045(GART)
+            OHA: 104328348(GART) 104328369
+            ACAR: 104531470(GART) 104531471
+            CPEA: 104395001(GART) 104395018
+            CVF: 104295172(GART) 104295199
+            RTD: 128910073 128910101(GART)
+            CRID: 134520631 134520636(GART)
+            LMIC: 141748712 141748725(GART)
+            NARQ: 141462892(GART) 141478870
+            AAM: 106494893 106494960
+            AROW: 112971849 112971877
+            NPD: 112948158(GART) 112948159
+            TGT: 104566670 104566671
+            DNE: 112988207 112988210
+            SCAM: 104139449(GART) 104139486
+            ASN: 102378888(GART) 102384374
+            AMJ: 102567665(GART) 102569060
+            CPOO: 109305783 109305785(GART)
+            GGN: 109302469 109302471(GART)
+            PSS: 102460115(GART) 102461235
+            CIZ: 142014312(GART) 142014326
+            CMY: 102929919 102946476(GART)
+            CCAY: 125644196 125644210
+            LKP: 140905371 140918124(GART)
+            NDS: 141983475 141997948
+            DCC: 119851722(GART)
+            CPIC: 101943710 101946162
+            TST: 117867212 117867315
+            EOB: 135879617
+            CABI: 116828284 116828286(GART)
+            MRV: 120371872(GART) 120388475
+            ACS: 100561300(gart) 100565628
+            ASAO: 132771882 132771886(GART)
+            PVT: 110080382(GART) 110080394
+            SUND: 121925252 121926976
+            PBI: 103048917 103067155(GART)
+            PMUR: 107290481 107290689
+            CTIG: 120296883(GART) 120319339
+            TSR: 106546638 106552129
+            PGUT: 117657118 117676320(GART) 132710508 132710509
+            PCAE: 139316786 139317285(GART)
+            APRI: 131199997 131200267
+            PTEX: 113436265(GART) 113436266
+            NSS: 113409759
+            VKO: 123029412(GART) 123029413
+            PMUA: 114596055 114596056
+            PRAF: 128412988 128412989
+            ZVI: 118084947 118085722
+            HCG: 128350497 128351301(GART)
+            GJA: 107121922 107121925
+            STOW: 125431150 125431306
+            EMC: 129326118(GART) 129326119
+            XLA: 100101294(gart.L) 108707418
+            XTR: 100485140 496927(gart)
+            NPR: 108787812(GART)
+            RTEM: 120927909
+            ACAT: 141127719 141129248(GART)
+            PADS: 140321539
+            BBUF: 120994518 120994519 120997670
+            BGAR: 122928736 122930815 122931865
+            DTC: 141097436(GART)
+            HSQ: 130357130(GART)
+            PCOB: 135050215(GART)
+            PWL: 138248680 138249601
+            MUO: 115458905 115469475 115469740
+            GSH: 117362792 117362793
+            DRE: 58141(garT)
+            SRX: 107726994(gart)
+            SANH: 107689944(gart)
+            SGH: 107572075(gart)
+            CCAR: 109111132(gart)
+            CAUA: 113080559(gart)
+            CGIB: 128014879
+            PTET: 122345465(gart)
+            LROH: 127176952(gart)
+            OMC: 131541437(gart)
+            PPRM: 120460481(gart)
+            RKG: 130096677(gart)
+            MAMB: 125272981(gart)
+            CIDE: 127521026 127521035
+            CERY: 137032822(gart)
+            MASI: 127443362 127445337
+            TROS: 130553611(gart)
+            TDW: 130411669(gart)
+            MANU: 129445126(gart)
+            PDAB: 135735633(gart)
+            IPU: 108258901
+            IFU: 128602443
+            PHYP: 113537379(gart)
+            SMEO: 124377913(gart)
+            TFD: 113648820(gart)
+            TVC: 132839158(gart)
+            CGAR: 128506900(gart)
+            NGRA: 132866068(gart)
+            TRN: 134328218(gart)
+            AMEX: 103047427(gart)
+            CMAO: 118798247(gart)
+            EEE: 113574576(gart)
+            CHAR: 105889596(gart)
+            SPIL: 134062231(gart)
+            ASAD: 121697294(gart)
+            TRU: 101075229(gart)
+            TFS: 130522795(gart)
+            TNG: GSTEN00015817G001
+            LCO: 104932032(gart)
+            TBEN: 117499100(gart)
+            CGOB: 115018514(gart)
+            PGEO: 117460495(gart)
+            GACU: 117562721(gart)
+            EMAC: 134861148(gart)
+            ELY: 117250198(gart)
+            EFO: 125884966(gart)
+            PLEP: 121962768(gart)
+            SLUC: 116044481(gart)
+            ECRA: 117939248(gart)
+            ESP: 116673898(gart)
+            PFLV: 114550974(gart)
+            GAT: 120816512 120824714
+            PPUG: 119219556(gart)
+            AFB: 129111834(gart)
+            CLUM: 117744041(gart)
+            PSWI: 130204641(gart)
+            CANA: 137794212(gart)
+            CVE: 137878946(gart)
+            MSAM: 119904058(gart)
+            SCHU: 122872421(gart)
+            EARM: 139306519(gart)
+            CUD: 121506446(gart)
+            SPUL: 138603472(gart)
+            LMIX: 132959459(gart)
+            HTC: 141786124
+            ALAT: 119015498(gart)
+            ASTR: 137591293(gart)
+            PKLU: 139223596(gart)
+            MZE: 101485338(gart)
+            ONL: 100706422(gart)
+            OAU: 116318479(gart)
+            OLA: 100049526(gart)
+            OML: 112160056(gart)
+            CSAI: 133424921(gart)
+            XMA: 102236613(gart)
+            XCO: 114140906(gart)
+            XHE: 116715899 116715900 116733649
+            PRET: 103476711(gart)
+            PFOR: 103156856(gart)
+            PLAI: 106940411(gart)
+            PMEI: 106910957(gart)
+            PPRL: 129353818
+            CVG: 107098796(gart)
+            CTUL: 119791183(gart)
+            GMU: 124861553(gart)
+            NFU: 107380853(gart)
+            KMR: 108245013(gart)
+            ALIM: 106523921(gart)
+            NWH: 119428902(gart)
+            AOCE: 111587765(gart)
+            EJA: 138207188(gart)
+            BFRE: 138628628(gart)
+            MCEP: 125000871(garT)
+            CSEM: 103389466(gart)
+            POV: 109645513
+            SSEN: 122760284(gart)
+            SSOE: 131440881(gart)
+            HHIP: 117775805(gart)
+            HSP: 118103684(gart)
+            PPLT: 128431133(gart)
+            SMAU: 118309820(gart)
+            LCF: 108894876
+            SDU: 111236692(gart)
+            SLAL: 111644444(gart) 111652198
+            XGL: 120797986(gart)
+            HCQ: 109528647(gart)
+            SSCV: 125988523(gart)
+            SBIA: 133504926(gart)
+            PEE: 133412147(gart)
+            PTAO: 133477564(gart)
+            BPEC: 110153183(gart)
+            ENY: 140362637(gart)
+            MALB: 109952606(gart)
+            BSPL: 114848658(gart)
+            SJO: 128354124(gart)
+            SSCO: 134006650(gart)
+            TTY: 137176938(gart)
+            GMH: 115543686(gart)
+            SASA: 106575120(gart)
+            STRU: 115179838(gart)
+            OTW: 112254021(gart)
+            OMY: 110527589(gart)
+            OGO: 124008143(gart)
+            ONE: 115134535(gart)
+            OKI: 109890454(gart)
+            OKE: 118363981 118370117(gart)
+            OMM: 135542444(gart)
+            OCLA: 139413126
+            SALP: 111953616 111971034
+            SNH: 120033148(gart) 120051214
+            SFON: 129840231(gart)
+            CCLU: 121535944
+            ELS: 105008058(gart)
+            OEP: 134007489(gart)
+            SFM: 108938543(gart)
+            PKI: 111855964(gart)
+            AANG: 118214096(gart)
+            AROT: 135241440(gart)
+            CCOG: 133116448(gart)
+            LOC: 102689420(gart)
+            PSPA: 121321000 121327997
+            ARUT: 117406364 117972905 117973046(gart)
+            PSEX: 120522674(gart)
+            LCM: 102366881(GART)
+            CMK: 103186759(gart)
+            RTP: 109913465(gart)
+            CPLA: 122555362(gart)
+            CPUN: 140486426(gart)
+            HOC: 132821148(gart)
+            SCAU: 119968813(gart)
+            LERI: 129702967(gart)
+            HAKA: 140727561(gart)
+            PMRN: 116956021(GART)
+            BFO: 118423361
+            BBEL: 109481176
+            CIN: 100177674
+            SCLV: 120342230 120342284
+            CLEP: 143445232
+            SPU: 580766
+            LPIC: 129259098
+            LVG: 121413542 121413605
+            AJJ: 139962595
+            APLC: 110974915
+            ARUN: 117296595
+            AAMU: 139946942
+            AFIL: 140156921
+            AJC: 117122555
+            SKO: 100370502
+            PFLL: 139142197
+            DME: Dmel_CG31628(Gart)
+            DER: 6541431
+            DSE: 6611485
+            DSI: Dsimw501_GD22518(Dsim_GD22518)
+            DYA: Dyak_GE18382
+            DAN: 6497761
+            DSR: 110185553
+            DPO: 4817813
+            DPE: 6593684
+            DMN: 108161417
+            DWI: 6642061
+            DGR: 6566505
+            DMO: Dmoj_GI11847
+            DAZ: 108611166
+            DNV: 115562844
+            DHE: 111593156
+            DVI: 6627736(Gart)
+            CCAT: 101453018
+            BOD: 106615897
+            BDR: 105225340
+            RZE: 108374194 108374353
+            AOQ: 129246916
+            ALUD: 128865260
+            TDA: 119663989 119687261
+            MDE: 101889546
+            SCAC: 106085952
+            LCQ: 111687291
+            LSQ: 119602312
+            CVJ: 135952250(Gart)
+            GFS: 119633133
+            ECOE: 129949530
+            CLON: 129608858
+            HIS: 119651584
+            AGA: 1279199
+            ACOZ: 120956491
+            AARA: 120899923
+            AMER: 121596657
+            ASTE: 118513440
+            AMAP: 126563848
+            AFUN: 125761955
+            AMOU: 128302601
+            AMRS: 128714083
+            ANIL: 128722450
+            AALI: 118461291
+            ADAR: 125948074
+            ACOS: 131267521
+            AAG: 5573654
+            AALB: 109407245 109414311 115254028
+            ASUA: 134212699
+            CQU: CpipJ_CPIJ009144
+            CPII: 120427835
+            CBRI: 134830979
+            CNS: 116349097
+            BCOO: 119085954
+            LLL: 129791558
+            PPAP: 129804667
+            AME: 100577675
+            ACER: 108001090
+            ALAB: 122710329
+            ADR: 102676727
+            AFLR: 100867555
+            BIM: 100745134
+            BBIF: 117206181
+            BVK: 117235347
+            BVAN: 117153799
+            BHUN: 126865003
+            BTER: 100649405
+            BAFF: 126916910
+            BPYO: 122565974
+            BPAS: 132905112
+            FVI: 122530054
+            CCAL: 108628546
+            OBB: 114871746
+            OLG: 117610985
+            MGEN: 117224854
+            NMEA: 116427720
+            CGIG: 122400933
+            SOC: 105195432
+            MPHA: 105833511
+            AEC: 105151040
+            ACEP: 105619803
+            ACOC: 108689570
+            MZT: 108720916(Gart)
+            CCOA: 108776536
+            TCZ: 108763060
+            TSEP: 108748750
+            PBAR: 105422190
+            VEM: 105566543
+            COBS: 139110179(Gart)
+            TLN: 139824932(Gart)
+            TAME: 143904170(Gart)
+            HST: 105181536
+            DQU: 106746782
+            CFO: 105258500
+            FEX: 115244635
+            PMEC: 138943352(Gart)
+            LHU: 105668386(Gart)
+            PGC: 109862194
+            OBO: 105285113
+            PCF: 106793389
+            PFUC: 122524738
+            VPS: 122628184
+            VCRB: 124422488
+            VVE: 124947492
+            NVI: 100118788
+            CSOL: 105366517
+            TPRE: 106649860
+            LHT: 122512570
+            LBD: 127277476
+            MDL: 103568662
+            CGLO: 123266352
+            CTYP: 141531686(Gart)
+            FAS: 105269109
+            DAM: 107037429
+            AGIF: 122848935
+            CINS: 118070755
+            VCAN: 122415023
+            CCIN: 107268763
+            DSM: 124410275
+            NPT: 124220167(Gart)
+            NFB: 124183350
+            NLO: 107220898
+            NVG: 124305194
+            AROA: 105687696
+            TCA: 661737
+            TMOL: 138138452(Gart)
+            DPA: 109538289
+            ESIM: 136409220(Gart)
+            EFOR: 136346466(Gart)
+            SOY: 115874265
+            RFG: 143206729(Gart)
+            AGRG: 126746928
+            ATD: 109608770
+            CSET: 123316526
+            HAXR: 123682891
+            AGB: 108903471
+            LDC: 111513014
+            DVV: 114339287
+            NVL: 108558768
+            APLN: 108736128
+            PPYR: 116179354
+            OTU: 111426615
+            BMOR: 101744981
+            BMAN: 114244943
+            MSEX: 115447492
+            DPL: KGM_206359
+            BANY: 112045029
+            MJU: 123872736
+            NIQ: 126773767
+            VCD: 124533972
+            MCIX: 123656274
+            PMAC: 106709179
+            PPOT: 106107617
+            PXU: 106115479
+            PRAP: 110993220
+            PBX: 123710459
+            PNAP: 125049227
+            ZCE: 119830621
+            CCRC: 123695969
+            LSIN: 126972745
+            AAGE: 121733402
+            HAW: 110379208
+            HZE: 124637383
+            TNL: 113499068
+            SLIU: 111365006
+            OFU: 114351184
+            ONU: 135075401
+            ATRA: 106137178
+            GMW: 113519917
+            ECLR: 140757254(Gart)
+            PXY: 105384475
+            PGW: 126371690
+            LGLY: 125230059
+            CSTB: 134746027
+            CFUM: 141437022(Gart)
+            CFEL: 113374266
+            CCRN: 123292417
+            API: 100168774
+            DNX: 107164822
+            AGS: 114133025
+            RMD: 113556016
+            ACOO: 126841930
+            DVT: 126907707
+            BTAB: 109040029
+            DCI: 103512854
+            CLEC: 106662492
+            HHAL: 106688074(Gart)
+            NLU: 111052553
+            LDA: 142333869(Gart)
+            HVI: 124366829 124374088
+            MQU: 129001988 129003773
+            PHU: Phum_PHUM292430
+            FOC: 113209951
+            TPAL: 117645972
+            ZNE: 110836263
+            CSEC: 111862131
+            PAME: 138701036(Gart)
+            SGRE: 126266788 126354610
+            BROR: 134534076
+            IEL: 124158892
+            HAMR: 139692562(Gart)
+            FCD: 110852602
+            PVM: 113827918(Gart)
+            PJA: 122250581
+            PCHN: 125035301
+            PMOO: 119572253
+            HAME: 121860996
+            PCLA: 123773906(Gart)
+            CQD: 128684480
+            PTRU: 123512648
+            ESN: 126985235
+            MNZ: 135203537
+            MRJ: 136853189(Gart)
+            PORN: 139753133(Gart)
+            HAZT: 108679322
+            OOT: 143028497(Gart)
+            PPOI: 119097321 119097323
+            ISC: 8026455
+            DSV: 119464398
+            DALB: 135920268(Gart)
+            RSAN: 119401292
+            RMP: 119163965
+            OTI: 135401282
+            VDE: 111253747
+            VJA: 111271956
+            GOE: 100900096
+            TUT: 107360181
+            DPTE: 113797879
+            DFR: 124493351
+            CSCU: 111614698
+            CVS: 136976281(Gart)
+            PTEP: 107443075
+            ABRU: 129987946
+            UDV: 129229434
+            SDM: 118193245
+            LPOL: 106464511
+            PMEO: 129597051
+            CEL: CELE_F38B6.4(F38B6.4)
+            CBR: CBG_10863
+            CRQ: GCK72_024627
+            NAI: NECAME_16045
+            TSP: Tsp_11763a
+            HRO: HELRODRAFT_193551
+            LGI: LOTGIDRAFT_207583
+            PVUL: 126826795
+            PCAN: 112557529
+            LSAX: 138978624
+            BARL: 143287479
+            BGT: 106056062
+            GAE: 121390076
+            HRF: 124126505
+            HRJ: 124287075
+            HASI: 137268670
+            HCRA: 139471858
+            CRG: 105346659
+            CANU: 128189987
+            CVN: 111132060 111135731
+            OED: 125664534
+            MYI: 110459783
+            PMAX: 117345237
+            AIRR: 138320079
+            YBA: 132543052
+            MCAF: 127706307
+            MMER: 123526837
+            RPHI: 132714413 132756742
+            DPOL: 127880970
+            MAEA: 128245652
+            OBI: 106876245
+            OSN: 115209602
+            LJP: 135475127
+            LAK: 106161237
+            LLON: 135496722
+            NVE: 5509911
+            EPA: 110248354
+            ATEN: 116296447
+            ADF: 107343906
+            AMIL: 114954638
+            MCAZ: 138052704
+            MFOO: 137996879 137998136
+            PDAM: 113666788
+            SPIS: 111328606
+            DGT: 114532554
+            XEN: 124443189
+            HMG: 100199281
+            HSY: 130645429
+            RES: 135685132
+            TAD: TRIADDRAFT_61620
+            CCLM: 134187431
+            MBR: MONBRDRAFT_21490
+            ACAN: ACA1_270360
+            AAF: AURANDRAFT_64345
+            DEX: HWD60_10980
+REFERENCE   PMID:2183217
+  AUTHORS   Schild D, Brake AJ, Kiefer MC, Young D, Barr PJ
+  TITLE     Cloning of three human multifunctional de novo purine biosynthetic genes by functional complementation of yeast mutations.
+  JOURNAL   Proc Natl Acad Sci U S A 87:2916-20 (1990)
+            DOI:10.1073/pnas.87.8.2916
+  SEQUENCE  [hsa:2618]
+///

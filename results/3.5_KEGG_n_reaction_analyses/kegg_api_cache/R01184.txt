@@ -1,0 +1,20 @@
+ENTRY       R01184                      Reaction
+NAME        myo-inositol:oxygen oxidoreductase
+DEFINITION  myo-Inositol + Oxygen <=> D-Glucuronate + H2O
+EQUATION    C00137 + C00007 <=> C00191 + C00001
+RCLASS      RC00465  C00137_C00191
+ENZYME      1.13.99.1
+PATHWAY     rn00053  Ascorbate and aldarate metabolism
+            rn00562  Inositol phosphate metabolism
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M00994  UDP-GlcA biosynthesis, myo-inositol => GlcA => UDP-GlcA
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.13  Acting on single donors with incorporation of molecular oxygen (oxygenases)
+               1.13.99  Miscellaneous
+                1.13.99.1
+                 R01184  myo-Inositol + Oxygen <=> D-Glucuronate + H2O
+ORTHOLOGY   K00469  inositol oxygenase [EC:1.13.99.1]
+DBLINKS     RHEA: 23699
+///

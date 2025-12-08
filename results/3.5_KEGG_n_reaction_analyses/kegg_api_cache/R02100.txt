@@ -1,0 +1,19 @@
+ENTRY       R02100                      Reaction
+NAME        dUTP nucleotidohydrolase
+DEFINITION  dUTP + H2O <=> dUMP + Diphosphate
+EQUATION    C00460 + C00001 <=> C00365 + C00013
+RCLASS      RC00002  C00365_C00460
+ENZYME      3.6.1.23
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+MODULE      M00938  Pyrimidine deoxyribonucleotide biosynthesis, UDP => dTTP
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.6  Acting on acid anhydrides
+               3.6.1  In phosphorus-containing anhydrides
+                3.6.1.23
+                 R02100  dUTP + H2O <=> dUMP + Diphosphate
+ORTHOLOGY   K01520  dUTP diphosphatase [EC:3.6.1.23]
+DBLINKS     RHEA: 10251
+///

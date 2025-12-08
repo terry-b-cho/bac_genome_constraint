@@ -1,0 +1,26 @@
+ENTRY       R00789                      Reaction
+NAME        ammonia:NADP+ oxidoreductase
+DEFINITION  Ammonia + 3 NADP+ + 2 H2O <=> Nitrite + 3 NADPH + 3 H+
+EQUATION    C00014 + 3 C00006 + 2 C00001 <=> C00088 + 3 C00005 + 3 C00080
+COMMENT     NADH (see R00787)
+            NH3 + H2O <=> NH4OH
+RCLASS      RC00001  C00005_C00006
+            RC00176  C00014_C00088
+ENZYME      1.7.1.4
+PATHWAY     rn00910  Nitrogen metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01310  Nitrogen cycle
+MODULE      M00531  Assimilatory nitrate reduction, nitrate => ammonia
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.7  Acting on other nitrogenous compounds as donors
+               1.7.1  With NAD+ or NADP+ as acceptor
+                1.7.1.4
+                 R00789  Ammonia + 3 NADP+ + 2 H2O <=> Nitrite + 3 NADPH + 3 H+
+ORTHOLOGY   K00361  nitrite reductase [NAD(P)H] [EC:1.7.1.4]
+            K17877  nitrite reductase (NAD(P)H) [EC:1.7.1.4]
+            K26138  nitrite reductase [NAD(P)H] small subunit [EC:1.7.1.4]
+            K26139  nitrite reductase [NAD(P)H] large subunit [EC:1.7.1.4]
+DBLINKS     RHEA: 24635
+///

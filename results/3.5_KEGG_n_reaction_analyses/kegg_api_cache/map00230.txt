@@ -1,0 +1,35 @@
+ENTRY       map00230                    Pathway
+NAME        Purine metabolism
+CLASS       Metabolism; Nucleotide metabolism
+PATHWAY_MAP map00230  Purine metabolism
+MODULE      M00005  PRPP biosynthesis, ribose-5P => PRPP [PATH:map00230]
+            M00048  De novo purine biosynthesis, PRPP + glutamine => IMP [PATH:map00230]
+            M00049  Adenine ribonucleotide biosynthesis, IMP => ADP,ATP [PATH:map00230]
+            M00050  Guanine ribonucleotide biosynthesis, IMP => GDP,GTP [PATH:map00230]
+            M00053  Deoxyribonucleotide biosynthesis, ADP/GDP/CDP/UDP => dATP/dGTP/dCTP/dUTP [PATH:map00230]
+            M00546  Purine degradation, xanthine => urea [PATH:map00230]
+            M00958  Adenine ribonucleotide degradation, AMP => Urate [PATH:map00230]
+            M00959  Guanine ribonucleotide degradation, GMP => Urate [PATH:map00230]
+            M00968  Pentose bisphosphate pathway (nucleoside degradation), archaea, nucleoside/NMP => 3-PGA/glycerone phosphate [PATH:map00230]
+DBLINKS     GO: 0006163 0042278
+REFERENCE   PMID:10601204
+  AUTHORS   Cusa E, Obradors N, Baldoma L, Badia J, Aguilar J.
+  TITLE     Genetic analysis of a chromosomal region containing genes required for assimilation of allantoin nitrogen and linked glyoxylate metabolism in Escherichia coli.
+  JOURNAL   J Bacteriol 181:7479-84 (1999)
+            DOI:10.1128/JB.181.24.7479-7484.1999
+REFERENCE   PMID:10986234
+  AUTHORS   Xi H, Schneider BL, Reitzer L.
+  TITLE     Purine catabolism in Escherichia coli and function of xanthine dehydrogenase in purine salvage.
+  JOURNAL   J Bacteriol 182:5332-41 (2000)
+            DOI:10.1128/JB.182.19.5332-5341.2000
+REL_PATHWAY map00030  Pentose phosphate pathway
+            map00220  Arginine biosynthesis
+            map00250  Alanine, aspartate and glutamate metabolism
+            map00260  Glycine, serine and threonine metabolism
+            map00340  Histidine metabolism
+            map00630  Glyoxylate and dicarboxylate metabolism
+            map00730  Thiamine metabolism
+            map00740  Riboflavin metabolism
+            map00790  Folate biosynthesis
+KO_PATHWAY  ko00230
+///

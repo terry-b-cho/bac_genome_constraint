@@ -1,0 +1,22 @@
+ENTRY       R00262                      Reaction
+NAME        L-threo-3-methylaspartate carboxy-aminomethylmutase
+DEFINITION  L-threo-3-Methylaspartate <=> L-Glutamate
+EQUATION    C03618 <=> C00025
+RCLASS      RC01221  C00025_C03618
+ENZYME      5.4.99.1
+PATHWAY     rn00630  Glyoxylate and dicarboxylate metabolism
+            rn00660  C5-Branched dibasic acid metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00740  Methylaspartate cycle
+BRITE       Enzymatic reactions [BR:br08201]
+             5. Isomerase reactions
+              5.4  Intramolecular transferases
+               5.4.99  Transferring other groups
+                5.4.99.1
+                 R00262  L-threo-3-Methylaspartate <=> L-Glutamate
+ORTHOLOGY   K01846  methylaspartate mutase sigma subunit [EC:5.4.99.1]
+            K19268  methylaspartate mutase epsilon subunit [EC:5.4.99.1]
+DBLINKS     RHEA: 12860
+///

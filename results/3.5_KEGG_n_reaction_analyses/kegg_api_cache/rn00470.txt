@@ -1,0 +1,173 @@
+ENTRY       rn00470                     Pathway
+NAME        D-Amino acid metabolism
+CLASS       Metabolism; Metabolism of other amino acids
+PATHWAY_MAP rn00470  D-Amino acid metabolism
+MODULE      M00947  D-Arginine racemization, D-arginine => L-arginine [PATH:rn00470]
+            M00948  Hydroxyproline degradation, trans-4-hydroxy-L-proline => 2-oxoglutarate [PATH:rn00470]
+            M00949  Staphylopine biosynthesis, L-histidine => staphylopine [PATH:rn00470]
+DBLINKS     GO: 0046416
+REACTION    R00221  D-serine ammonia-lyase
+            R00260  glutamate racemase
+            R00264  2,5-dioxopentanoate:NADP+ 5-oxidoreductase
+            R00279  D-glutamate:oxygen oxidoreductase (deaminating)
+            R00359  D-aspartate:oxygen oxidoreductase (deaminating)
+            R00401  alanine racemase
+            R00451  meso-2,6-diaminoheptanedioate carboxy-lyase (L-lysine-forming)
+            R00460  lysine racemase
+            R00491  aspartate racemase
+            R00567  arginine racemase
+            R00579  glutamine racemase
+            R00589  serine racemase
+            R00655  methionine racemase
+            R00672  ornithine racemase
+            R00686  L-phenylalanine racemase (ATP-hydrolysing)
+            R00903  cysteine racemase
+            R01148  D-alanine:2-oxoglutarate aminotransferase
+            R01150  D-alanine:D-alanine ligase (ADP-forming)
+            R01255  proline racemase
+            R01344  D-alanine:2-oxo acid aminotransferase
+            R01374  D-phenylalanine:quinone oxidoreductase (deaminating)
+            R01467  threonine racemase
+            R01579  D-glutamine amidohydrolase
+            R01582  D-phenylalanine:2-oxoglutarate aminotransferase
+            R01583  D-glutamate hydro-lyase (cyclizing; 5-oxo-D-proline-forming)
+            R01874  D-cysteine sulfide-lyase (deaminating; pyruvate-forming)
+            R02280  1-pyrroline-4-hydroxy-2-carboxylate aminohydrolase (decyclizing)
+            R02457  D-ornithine:oxygen oxidoreductase (deaminating)
+            R02458  D-arginine amidinohydrolase
+            R02459  D-ornithine:2-oxoglutarate aminotransferase
+            R02460  bacitracin synthetase 2
+            R02461  D-ornithine 4,5-aminomutase
+            R02718  D-alanine:poly(ribitol phosphate) ligase (AMP-forming)
+            R02735  LL-2,6-diaminoheptanedioate 2-epimerase
+            R02783  UDP-N-acetylmuramoyl-L-alanine:D-glutamate ligase (ADP-forming)
+            R02825  
+            R02851  D-lysine:2-oxocarboxylate aminotransferase
+            R02852  D-2,6-diaminohexanoic acid 5,6-aminomutase
+            R02854  
+            R02894  D-proline:oxygen oxidoreductase
+            R02895  
+            R02923  D-arginine:oxygen oxidoreductase (deaminating)
+            R02924  D-arginine:2-oxoglutarate aminotransferase
+            R03001  D-methionine:pyruvate aminotransferase
+            R03249  
+            R03250  
+            R03296  trans-4-hydroxy-L-proline 2-epimerase
+            R03691  ATP:lombricine N-phosphotransferase
+            R03903  acetyl-CoA:D-amino-acid N-acetyltransferase
+            R04012  D-glutamine:D-glutamyl-peptide 5-glutamyltransferase
+            R04200  D-threo-2,4-diaminopentanoate:NAD+ oxidoreductase (deaminating)
+            R04201  D-threo-2,4-diaminopentanoate:NADP+ oxidoreductase(deaminating)
+            R04221  cis-4-hydroxy-D-proline:oxygen oxidoreductase (deaminating)
+            R04369  D-alanine:alanyl-poly(glycerolphosphate) ligase (ADP-forming)
+            R04446  
+            R04447  
+            R04687  2,5-diaminohexanoate:NAD+ oxidoreductase (deaminating)
+            R04688  2,5-diaminohexanoate:NADP+ oxidoreductase (deaminating)
+            R08195  D-threonine acetaldehyde-lyase (glycine-forming)
+            R09496  D-proline:acceptor oxidoreductase
+            R11018  D-arginine:acceptor oxidoreductase (deaminating)
+            R11031  L-arginine:NAD+ oxidoreductase (deaminating)
+            R11032  L-arginine:NADP+ oxidoreductase (deaminating)
+            R11428  cis-4-hydroxy-D-proline:acceptor oxidoreductase
+            R12237  staphylopine:NADP+ oxidoreductase [(2S)-2-amino-4-{[(1R)-1-carboxy-2-(1H-imidazol-4-yl)ethyl]amino}butanoate]-forming
+            R12304  D-ornithine carboxy-lyase
+            R12305  D-lysine carboxy-lyase
+            R12313  histidine racemase
+            R12341  S-adenosyl-L-methionine:D-histidine N-[(3S)-3-amino-3-carboxypropyl]-transferase
+            R13096  
+            R13097  N-acetyl-glutamate racemase
+            R13098  
+COMPOUND    C00022  Pyruvate
+            C00025  L-Glutamate
+            C00026  2-Oxoglutarate
+            C00036  Oxaloacetate
+            C00037  Glycine
+            C00041  L-Alanine
+            C00047  L-Lysine
+            C00049  L-Aspartate
+            C00062  L-Arginine
+            C00064  L-Glutamine
+            C00065  L-Serine
+            C00073  L-Methionine
+            C00077  L-Ornithine
+            C00079  L-Phenylalanine
+            C00084  Acetaldehyde
+            C00097  L-Cysteine
+            C00133  D-Alanine
+            C00134  Putrescine
+            C00135  L-Histidine
+            C00148  L-Proline
+            C00166  Phenylpyruvate
+            C00188  L-Threonine
+            C00217  D-Glutamate
+            C00402  D-Aspartate
+            C00431  5-Aminopentanoate
+            C00433  2,5-Dioxopentanoate
+            C00515  D-Ornithine
+            C00624  N-Acetyl-L-glutamate
+            C00666  LL-2,6-Diaminoheptanedioate
+            C00680  meso-2,6-Diaminoheptanedioate
+            C00692  UDP-N-acetylmuramoyl-L-alanyl-D-glutamate
+            C00739  D-Lysine
+            C00740  D-Serine
+            C00763  D-Proline
+            C00792  D-Arginine
+            C00793  D-Cysteine
+            C00819  D-Glutamine
+            C00820  D-Threonine
+            C00855  D-Methionine
+            C00993  D-Alanyl-D-alanine
+            C01110  5-Amino-2-oxopentanoic acid
+            C01157  Hydroxyproline
+            C01180  4-Methylthio-2-oxobutanoic acid
+            C01667  Bacitracin
+            C01672  Cadaverine
+            C01726  D-Lombricine
+            C02237  5-Oxo-D-proline
+            C02265  D-Phenylalanine
+            C02855  N-Phospho-D-lombricine
+            C03239  6-Amino-2-oxohexanoate
+            C03341  2-Amino-4-oxopentanoic acid
+            C03440  cis-4-Hydroxy-D-proline
+            C03564  1-Pyrroline-2-carboxylate
+            C03771  5-Guanidino-2-oxopentanoate
+            C03933  5-D-Glutamyl-D-glutamyl-peptide
+            C03943  (2R,4S)-2,4-Diaminopentanoate
+            C04260  O-D-Alanyl-poly(ribitol phosphate)
+            C04282  1-Pyrroline-4-hydroxy-2-carboxylate
+            C04457  D-Alanyl-alanyl-poly(glycerolphosphate)
+            C05161  (2R,5S)-2,5-Diaminohexanoate
+            C05620  N-Acetyl-D-phenylalanine
+            C05825  2-Amino-5-oxohexanoate
+            C05939  Linatine
+            C05941  2-Oxo-4-hydroxy-5-aminovalerate
+            C05942  Pyrrole-2-carboxylate
+            C06419  D-Histidine
+            C22024  Staphylopine
+            C22025  (2S)-2-Amino-4-{[(1R)-1-carboxy-2-(1H-imidazol-4-yl)ethyl]amino}butanoate
+            C22611  N-Acetyl-D-glutamate
+REFERENCE   PMID:33788945
+  AUTHORS   Miyamoto T, Homma H
+  TITLE     D-Amino acid metabolism in bacteria.
+  JOURNAL   J Biochem 170:5-13 (2021)
+            DOI:10.1093/jb/mvab043
+REFERENCE   PMID:27230378
+  AUTHORS   Ghssein G, Brutesco C, Ouerdane L, Fojcik C, Izaute A, Wang S, Hajjar C, Lobinski R, Lemaire D, Richaud P, Voulhoux R, Espaillat A, Cava F, Pignol D, Borezee-Durant E, Arnoux P
+  TITLE     Biosynthesis of a broad-spectrum nicotianamine-like metallophore in Staphylococcus aureus.
+  JOURNAL   Science 352:1105-9 (2016)
+            DOI:10.1126/science.aaf1018
+REL_PATHWAY rn00010  Glycolysis / Gluconeogenesis
+            rn00020  Citrate cycle (TCA cycle)
+            rn00250  Alanine, aspartate and glutamate metabolism
+            rn00260  Glycine, serine and threonine metabolism
+            rn00270  Cysteine and methionine metabolism
+            rn00300  Lysine biosynthesis
+            rn00310  Lysine degradation
+            rn00330  Arginine and proline metabolism
+            rn00340  Histidine metabolism
+            rn00360  Phenylalanine metabolism
+            rn00550  Peptidoglycan biosynthesis
+            rn00620  Pyruvate metabolism
+KO_PATHWAY  ko00470
+///

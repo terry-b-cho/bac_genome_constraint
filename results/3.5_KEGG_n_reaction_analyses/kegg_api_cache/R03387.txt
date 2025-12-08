@@ -1,0 +1,23 @@
+ENTRY       R03387                      Reaction
+NAME        ATP:2-dehydro-3-deoxy-D-galactonate 6-phosphotransferase
+DEFINITION  ATP + 2-Dehydro-3-deoxy-D-galactonate <=> ADP + 2-Dehydro-3-deoxy-6-phospho-D-galactonate
+EQUATION    C00002 + C01216 <=> C00008 + C01286
+RCLASS      RC00002  C00002_C00008
+            RC00017  C01216_C01286
+ENZYME      2.7.1.58        2.7.1.178
+PATHWAY     rn00052  Galactose metabolism
+            rn01100  Metabolic pathways
+MODULE      M00552  D-galactonate degradation, De Ley-Doudoroff pathway, D-galactonate => glycerate-3P
+            M00633  Semi-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate-3P
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.58
+                 R03387  ATP + 2-Dehydro-3-deoxy-D-galactonate <=> ADP + 2-Dehydro-3-deoxy-6-phospho-D-galactonate
+                2.7.1.178
+                 R03387  ATP + 2-Dehydro-3-deoxy-D-galactonate <=> ADP + 2-Dehydro-3-deoxy-6-phospho-D-galactonate
+ORTHOLOGY   K00883  2-dehydro-3-deoxygalactonokinase [EC:2.7.1.58]
+            K18126  2-dehydro-3-deoxygluconokinase / 2-dehydro-3-deoxygalactonokinase [EC:2.7.1.178]
+DBLINKS     RHEA: 16528
+///

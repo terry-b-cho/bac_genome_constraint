@@ -1,0 +1,30 @@
+ENTRY       R01220                      Reaction
+NAME        5,10-methylenetetrahydrofolate:NADP+ oxidoreductase
+DEFINITION  5,10-Methylenetetrahydrofolate + NADP+ <=> 5,10-Methenyltetrahydrofolate + NADPH
+EQUATION    C00143 + C00006 <=> C00445 + C00005
+RCLASS      RC00001  C00005_C00006
+            RC00202  C00143_C00445
+ENZYME      1.5.1.5
+PATHWAY     rn00670  One carbon pool by folate
+            rn00720  Other carbon fixation pathways
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+            rn01240  Biosynthesis of cofactors
+MODULE      M00140  C1-unit interconversion, prokaryotes
+            M00141  C1-unit interconversion, eukaryotes
+            M00377  Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.1  With NAD+ or NADP+ as acceptor
+                1.5.1.5
+                 R01220  5,10-Methylenetetrahydrofolate + NADP+ <=> 5,10-Methenyltetrahydrofolate + NADPH
+            Overall reaction [br08210.html]
+             Carbon fixation
+              R01220
+ORTHOLOGY   K00288  methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase / formyltetrahydrofolate synthetase [EC:1.5.1.5 3.5.4.9 6.3.4.3]
+            K00300  methylenetetrahydrofolate/methylenetetrahydromethanopterin dehydrogenase (NADP+) [EC:1.5.1.5 1.5.1.-]
+            K01491  methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.5 3.5.4.9]
+DBLINKS     RHEA: 22815
+///

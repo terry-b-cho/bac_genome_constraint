@@ -1,0 +1,25 @@
+ENTRY       R03503                      Reaction
+NAME        ATP:6-hydroxymethyl-7,8-dihydropterin 6'-diphosphotransferase
+DEFINITION  ATP + 6-(Hydroxymethyl)-7,8-dihydropterin <=> AMP + 6-Hydroxymethyl-7,8-dihydropterin diphosphate
+EQUATION    C00002 + C01300 <=> C00020 + C04807
+RCLASS      RC00002  C00002_C00020
+            RC00017  C01300_C04807
+ENZYME      2.7.6.3
+PATHWAY     rn00790  Folate biosynthesis
+            rn01100  Metabolic pathways
+MODULE      M00126  Tetrahydrofolate biosynthesis, GTP => THF
+            M00840  Tetrahydrofolate biosynthesis, mediated by ribA and trpF, GTP => THF
+            M00841  Tetrahydrofolate biosynthesis, mediated by PTPS, GTP => THF
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.6  Diphosphotransferases
+                2.7.6.3
+                 R03503  ATP + 6-(Hydroxymethyl)-7,8-dihydropterin <=> AMP + 6-Hydroxymethyl-7,8-dihydropterin diphosphate
+ORTHOLOGY   K00950  2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase [EC:2.7.6.3]
+            K07142  2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase [EC:2.7.6.3]
+            K13939  dihydroneopterin aldolase / 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase / dihydropteroate synthase [EC:4.1.2.25 2.7.6.3 2.5.1.15]
+            K13940  dihydroneopterin aldolase / 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase [EC:4.1.2.25 2.7.6.3]
+            K13941  2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase / dihydropteroate synthase [EC:2.7.6.3 2.5.1.15]
+DBLINKS     RHEA: 11415
+///

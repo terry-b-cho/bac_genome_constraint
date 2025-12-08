@@ -1,0 +1,16 @@
+ENTRY       R02016                      Reaction
+NAME        NADPH:oxidized-thioredoxin oxidoreductase
+DEFINITION  Thioredoxin + NADP+ <=> Thioredoxin disulfide + NADPH + H+
+EQUATION    C00342 + C00006 <=> C00343 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00013  C00342_C00343
+ENZYME      1.8.1.9
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.8  Acting on a sulfur group of donors
+               1.8.1  With NAD+ or NADP+ as acceptor
+                1.8.1.9
+                 R02016  Thioredoxin + NADP+ <=> Thioredoxin disulfide + NADPH + H+
+ORTHOLOGY   K00384  thioredoxin reductase (NADPH) [EC:1.8.1.9]
+DBLINKS     RHEA: 20348
+///

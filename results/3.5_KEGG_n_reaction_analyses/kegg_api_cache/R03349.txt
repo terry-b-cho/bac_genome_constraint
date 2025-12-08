@@ -1,0 +1,18 @@
+ENTRY       R03349                      Reaction
+NAME        L-erythro-3,5-diaminohexanoate:NAD+ oxidoreductase (deaminating)
+DEFINITION  (3S,5S)-3,5-Diaminohexanoate + H2O + NAD+ <=> (S)-5-Amino-3-oxohexanoic acid + Ammonia + NADH + H+
+EQUATION    C01186 + C00001 + C00003 <=> C03656 + C00014 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00888  C01186_C03656
+ENZYME      1.4.1.11
+PATHWAY     rn00310  Lysine degradation
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.1  With NAD+ or NADP+ as acceptor
+                1.4.1.11
+                 R03349  (3S,5S)-3,5-Diaminohexanoate + H2O + NAD+ <=> (S)-5-Amino-3-oxohexanoic acid + Ammonia + NADH + H+
+ORTHOLOGY   K18012  L-erythro-3,5-diaminohexanoate dehydrogenase [EC:1.4.1.11]
+DBLINKS     RHEA: 19636
+///

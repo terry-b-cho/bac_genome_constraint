@@ -1,0 +1,24 @@
+ENTRY       R03033                      Reaction
+NAME        D-galactonate hydro-lyase
+DEFINITION  D-Galactonate <=> 2-Dehydro-3-deoxy-D-galactonate + H2O
+EQUATION    C00880 <=> C01216 + C00001
+RCLASS      RC00543  C00880_C01216
+ENZYME      4.2.1.6         4.2.1.140
+PATHWAY     rn00052  Galactose metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+MODULE      M00309  Non-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate
+            M00552  D-galactonate degradation, De Ley-Doudoroff pathway, D-galactonate => glycerate-3P
+            M00633  Semi-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate-3P
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.2  Carbon-oxygen lyases
+               4.2.1  Hydro-lyases
+                4.2.1.6
+                 R03033  D-Galactonate <=> 2-Dehydro-3-deoxy-D-galactonate + H2O
+                4.2.1.140
+                 R03033  D-Galactonate <=> 2-Dehydro-3-deoxy-D-galactonate + H2O
+ORTHOLOGY   K01684  galactonate dehydratase [EC:4.2.1.6]
+            K05308  gluconate/galactonate dehydratase [EC:4.2.1.140]
+DBLINKS     RHEA: 18652
+///

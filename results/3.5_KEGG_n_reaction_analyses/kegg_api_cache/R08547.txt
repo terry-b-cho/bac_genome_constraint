@@ -1,0 +1,17 @@
+ENTRY       R08547                      Reaction
+NAME        S-adenosyl-L-methionine:L-tryptophan 2-C-methyltransferase
+DEFINITION  S-Adenosyl-L-methionine + L-Tryptophan <=> S-Adenosyl-L-homocysteine + L-2-Methyltryptophan
+EQUATION    C00019 + C00078 <=> C00021 + C16831
+COMMENT     two-step reaction (see R13409+R13182)
+RCLASS      RC00003  C00019_C00021
+            RC02140  C00078_C16831
+ENZYME      2.1.1.106
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.106
+                 R08547  S-Adenosyl-L-methionine + L-Tryptophan <=> S-Adenosyl-L-homocysteine + L-2-Methyltryptophan
+ORTHOLOGY   K21551  tryptophan 2-C-methyltransferase [EC:2.1.1.106]
+DBLINKS     RHEA: 17324
+///

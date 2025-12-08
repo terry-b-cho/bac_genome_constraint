@@ -1,0 +1,19 @@
+ENTRY       R00585                      Reaction
+NAME        L-serine:pyruvate aminotransferase
+DEFINITION  L-Serine + Pyruvate <=> Hydroxypyruvate + L-Alanine
+EQUATION    C00065 + C00022 <=> C00168 + C00041
+RCLASS      RC00006  C00065_C00168
+            RC00008  C00022_C00041
+ENZYME      2.6.1.51
+PATHWAY     rn00260  Glycine, serine and threonine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.6  Transferring nitrogenous groups
+               2.6.1  Transaminases
+                2.6.1.51
+                 R00585  L-Serine + Pyruvate <=> Hydroxypyruvate + L-Alanine
+ORTHOLOGY   K00830  alanine-glyoxylate transaminase / serine-glyoxylate transaminase / serine-pyruvate transaminase [EC:2.6.1.44 2.6.1.45 2.6.1.51]
+            K13290  serine---pyruvate transaminase [EC:2.6.1.51]
+DBLINKS     RHEA: 22855
+///

@@ -1,0 +1,20 @@
+ENTRY       R04438                      Reaction
+NAME        dTDP-4-amino-4,6-dideoxy-D-galactose:2-oxoglutarate aminotransferase
+DEFINITION  dTDP-4-amino-4,6-dideoxy-D-galactose + 2-Oxoglutarate <=> dTDP-4-oxo-6-deoxy-D-glucose + L-Glutamate
+EQUATION    C04346 + C00026 <=> C11907 + C00025
+RCLASS      RC00006  C00025_C00026
+            RC00781  C04346_C11907
+ENZYME      2.6.1.59
+PATHWAY     rn00541  Biosynthesis of various nucleotide sugars
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M01025  dTDP-D-Fuc4NAc biosynthesis, Glc-1P => dTDP-D-Fuc4NAc
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.6  Transferring nitrogenous groups
+               2.6.1  Transaminases
+                2.6.1.59
+                 R04438  dTDP-4-amino-4,6-dideoxy-D-galactose + 2-Oxoglutarate <=> dTDP-4-oxo-6-deoxy-D-glucose + L-Glutamate
+ORTHOLOGY   K02805  dTDP-4-amino-4,6-dideoxygalactose transaminase [EC:2.6.1.59]
+DBLINKS     RHEA: 10371
+///

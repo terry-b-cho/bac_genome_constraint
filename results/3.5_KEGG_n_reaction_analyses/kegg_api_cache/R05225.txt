@@ -1,0 +1,21 @@
+ENTRY       R05225                      Reaction
+DEFINITION  Adenosyl cobyrinate a,c diamide + 4 L-Glutamine + 4 ATP + 4 H2O <=> Adenosyl cobyrinate hexaamide + 4 L-Glutamate + 4 Orthophosphate + 4 ADP
+EQUATION    C06506 + 4 C00064 + 4 C00002 + 4 C00001 <=> C06507 + 4 C00025 + 4 C00009 + 4 C00008
+COMMENT     multi-step reaction
+RCLASS      RC00002  C00002_C00008
+            RC00010  C00025_C00064
+            RC01302  C06506_C06507
+ENZYME      6.3.5.10
+PATHWAY     rn00860  Porphyrin metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00122  Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.5  Carbon-nitrogen ligases with glutamine as amido-N-donor
+                6.3.5.10
+                 R05225  Adenosyl cobyrinate a,c diamide + 4 L-Glutamine + 4 ATP + 4 H2O <=> Adenosyl cobyrinate hexaamide + 4 L-Glutamate + 4 Orthophosphate + 4 ADP
+ORTHOLOGY   K02232  adenosylcobyric acid synthase [EC:6.3.5.10]
+DBLINKS     RHEA: 23259
+///

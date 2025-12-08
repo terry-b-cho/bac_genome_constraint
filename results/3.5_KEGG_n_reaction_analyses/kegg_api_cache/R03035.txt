@@ -1,0 +1,22 @@
+ENTRY       R03035                      Reaction
+NAME        ATP:pantetheine-4'-phosphate adenylyltransferase
+DEFINITION  ATP + Pantetheine 4'-phosphate <=> Diphosphate + Dephospho-CoA
+EQUATION    C00002 + C01134 <=> C00013 + C00882
+RCLASS      RC00002  C00882_C01134
+ENZYME      2.7.7.3
+PATHWAY     rn00770  Pantothenate and CoA biosynthesis
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00120  Coenzyme A biosynthesis, pantothenate => CoA
+            M00914  Coenzyme A biosynthesis, archaea, 2-oxoisovalerate => 4-phosphopantoate => CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.7  Nucleotidyltransferases
+                2.7.7.3
+                 R03035  ATP + Pantetheine 4'-phosphate <=> Diphosphate + Dephospho-CoA
+ORTHOLOGY   K00954  pantetheine-phosphate adenylyltransferase [EC:2.7.7.3]
+            K02201  pantetheine-phosphate adenylyltransferase [EC:2.7.7.3]
+            K02318  phosphopantetheine adenylyltransferase / dephospho-CoA kinase [EC:2.7.7.3 2.7.1.24]
+DBLINKS     RHEA: 19804
+///

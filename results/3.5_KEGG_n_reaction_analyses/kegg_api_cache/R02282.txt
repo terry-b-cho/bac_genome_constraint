@@ -1,0 +1,20 @@
+ENTRY       R02282                      Reaction
+NAME        N2-acetyl-L-ornithine:L-glutamate N-acetyltransferase
+DEFINITION  N-Acetylornithine + L-Glutamate <=> L-Ornithine + N-Acetyl-L-glutamate
+EQUATION    C00437 + C00025 <=> C00077 + C00624
+RCLASS      RC00064  C00025_C00624  C00077_C00437
+ENZYME      2.3.1.35
+PATHWAY     rn00220  Arginine biosynthesis
+            rn01100  Metabolic pathways
+            rn01210  2-Oxocarboxylic acid metabolism
+            rn01230  Biosynthesis of amino acids
+MODULE      M00028  Ornithine biosynthesis, glutamate => ornithine
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.35
+                 R02282  N-Acetylornithine + L-Glutamate <=> L-Ornithine + N-Acetyl-L-glutamate
+ORTHOLOGY   K00620  glutamate N-acetyltransferase / amino-acid N-acetyltransferase [EC:2.3.1.35 2.3.1.1]
+DBLINKS     RHEA: 15352
+///

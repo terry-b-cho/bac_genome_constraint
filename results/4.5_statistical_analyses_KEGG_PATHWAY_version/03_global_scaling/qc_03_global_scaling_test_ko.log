@@ -1,0 +1,64 @@
+================================================================================
+Script 03: Global Scaling Fits - KO
+  TEST MODE: Processing small subset only
+================================================================================
+
+Loading data...
+  ✓ Loaded 2164 genomes from master_table_env_filtered_ko.parquet
+  Found 10 ko category columns (TEST MODE: using first 10)
+
+  ⚠ KEGG labels file not found: /n/scratch/users/b/byc014/github/bac_genome_constraint/results/4.5_statistical_analyses_KEGG_PATHWAY_version/05_kegg_labels/kegg_term_labels_ko.tsv
+    Run Script 05 first for better labels. Will use category IDs only
+
+A. Pre-Regression Validation
+--------------------------------------------------------------------------------
+  Genomes removed due to zero counts:
+    Min: 491
+    Median: 1737.0
+    Max: 2116
+  Genomes remaining per category after filtering:
+    Min: 48
+    Median: 427.0
+    Max: 1673
+
+B. Fitting Global Scaling Laws
+--------------------------------------------------------------------------------
+  Successfully fitted 10 categories
+  Skipped 0 categories due to low sample size (<10)
+  Skipped 0 categories due to low variance
+
+C. Global Summary QC
+--------------------------------------------------------------------------------
+  Distribution of alpha_global:
+    Mean: 0.0822
+    Median: 0.0930
+    SD: 0.1171
+    Min: -0.1918
+    Max: 0.2595
+
+  QC Flags:
+    Categories with alpha < 0: 1
+    Categories with alpha > 4: 0
+    Categories with SE > 1: 0
+    Categories with R² < 0.2: 10
+
+  Top 10 categories with highest alpha_global:
+    Category K00014: alpha=0.2595, R²=0.0845
+    Category K00005: alpha=0.2220, R²=0.0872
+    Category K00021: alpha=0.1188, R²=0.1060
+    Category K00019: alpha=0.1089, R²=0.0332
+    Category K00010: alpha=0.1000, R²=0.0230
+    Category K00027: alpha=0.0859, R²=0.0126
+    Category K00028: alpha=0.0859, R²=0.0126
+    Category K00060: alpha=0.0198, R²=0.0053
+    Category K00029: alpha=0.0131, R²=0.0004
+    Category K00012: alpha=-0.1918, R²=0.0417
+
+  Categories skipped:
+    Low variation: 0
+    Low sample size (<10): 0
+
+D. Writing Outputs
+--------------------------------------------------------------------------------
+  ✓ global_scaling_params_test_ko.tsv: 10 categories
+  ✓ global_scaling_params_test_ko.parquet: 10 categories

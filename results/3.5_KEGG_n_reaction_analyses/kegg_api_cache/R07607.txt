@@ -1,0 +1,15 @@
+ENTRY       R07607                      Reaction
+NAME        peptide-methionine:thioredoxin-disulfide S-oxidoreductase
+DEFINITION  Peptide-L-methionine + Thioredoxin disulfide + H2O <=> Peptide-L-methionine (R)-S-oxide + Thioredoxin
+EQUATION    C03023 + C00343 + C00001 <=> C15653 + C00342
+RCLASS      RC00013  C00342_C00343
+            RC00639  C03023_C15653
+ENZYME      1.8.4.12
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.8  Acting on a sulfur group of donors
+               1.8.4  With a disulfide as acceptor
+                1.8.4.12
+                 R07607  Peptide-L-methionine + Thioredoxin disulfide + H2O <=> Peptide-L-methionine (R)-S-oxide + Thioredoxin
+DBLINKS     RHEA: 24167
+///

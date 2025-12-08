@@ -1,0 +1,134 @@
+ENTRY       rn00460                     Pathway
+NAME        Cyanoamino acid metabolism
+CLASS       Metabolism; Metabolism of other amino acids
+PATHWAY_MAP rn00460  Cyanoamino acid metabolism
+MODULE      M00369  Cyanogenic glycoside biosynthesis, tyrosine => dhurrin [PATH:rn00460]
+DBLINKS     GO: 0033052 0019756
+REACTION    R00152  hydrogen cyanide aminohydrolase
+            R00483  L-aspartate:ammonia ligase (AMP-forming)
+            R00485  L-asparagine amidohydrolase
+            R00486  3-cyano-L-alanine aminohydrolase
+            R00524  formamide amidohydrolase
+            R00730  L-tyrosine,[reduced NADPH-hemoprotein reductase]:oxygen oxidoreductase (N-hydroxylating)
+            R00945  5,10-methylenetetrahydrofolate:glycine hydroxymethyltransferase
+            R01267  L-asparagine hydro-lyase (3-cyanoalanine-forming)
+            R01408  formamide hydro-lyase (cyanide-forming)
+            R01410  
+            R01553  acetone-cyanohydrin acetone-lyase (cyanide-forming)
+            R01650  
+            R01767  mandelonitrile benzaldehyde-lyase (cyanide-forming)
+            R01887  gamma-amino-gamma-cyanobutanoate aminohydrolase
+            R02558  (R)-prunasin beta-D-glucohydrolase
+            R02676  4-hydroxymandelonitrile hydroxybenzaldehyde-lyase
+            R02985  amygdalin beta-glucosidase
+            R03524  L-cysteine hydrogen-sulfide-lyase (adding HCN)
+            R03542  alpha-aminopropiononitrile aminohydrolase
+            R03625  UDPglucose:2-hydroxy-2-methylpropanenitrile beta-D-glucosyltransferase
+            R03970  (5-glutamyl)-peptide:amino-acid 5-glutamyltransferase
+            R03971  gamma-glutamyl-beta-aminopropiononitrile amidohydrolase
+            R04296  UDPglucose:(S)-4-hydroxymandelonitrile beta-D-glucosyltransferase
+            R04460  N-hydroxy-L-tyrosine,[reduced NADPH-hemoprotein reductase]:oxygen oxidoreductase (N-hydroxylating)
+            R05704  glycine:acceptor oxidoreductase (hydrogen-cyanide-forming)
+            R05728  (E)-4-hydroxyphenylacetaldehyde oxime,[reduced NADPH-hemoprotein reductase]:oxygen oxidoreductase
+            R06614  3-cyano-L-alanine carboxy-lyase (3-aminopropiononitrile-forming)
+            R07190  
+            R07638  (Z)-phenylacetaldehyde-oxime hydro-lyase
+            R09358  (2R)-2-hydroxy-2-methylbutanenitrile butan-2-one-lyase (cyanide forming)
+            R09579  L-phenylalanine,NADPH:oxygen oxidoreductase (N-hydroxylating)
+            R09580  N-hydroxy-L-phenylalanine,NADPH:oxygen oxidoreductase (N-hydroxylating)
+            R09581  
+            R10027  L-isoleucine,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (N-hydroxylating)
+            R10028  N-hydroxy-L-isoleucine,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (N-hydroxylating)
+            R10029  
+            R10030  
+            R10031  L-valine,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (N-hydroxylating)
+            R10032  N-hydroxy-L-valine,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (N-hydroxylating)
+            R10033  
+            R10034  
+            R10035  beta-D-glucoside glucohydrolase
+            R10036  
+            R10037  UDP-glucose:(2R)-2-hydroxy-2-methylbutanenitrile beta-D-glucosyltransferase
+            R10038  
+            R10039  beta-D-glucoside glucohydrolase
+            R10040  beta-D-glucoside glucohydrolase
+            R10041  
+            R10638  UDP-D-glucose:(R)-mandelonitrile beta-D-glucosyltransferase
+            R10639  
+            R11639  
+            R11640  
+            R11641  
+            R11642  
+            R11733  phenylacetonitrile,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase [(R)-mandelonitrile-forming]
+COMPOUND    C00014  Ammonia
+            C00037  Glycine
+            C00049  L-Aspartate
+            C00065  L-Serine
+            C00079  L-Phenylalanine
+            C00082  L-Tyrosine
+            C00097  L-Cysteine
+            C00152  L-Asparagine
+            C00183  L-Valine
+            C00302  Glutamate
+            C00407  L-Isoleucine
+            C00488  Formamide
+            C00561  Mandelonitrile
+            C00844  Prunasin
+            C01326  Hydrogen cyanide
+            C01401  Alanine
+            C01594  Linamarin
+            C02512  3-Cyano-L-alanine
+            C02659  Acetone cyanohydrin
+            C03004  N-Hydroxy-L-tyrosine
+            C03219  (E)-2-Methylpropanal oxime
+            C03742  (S)-4-Hydroxymandelonitrile
+            C04350  (E)-4-Hydroxyphenylacetaldehyde oxime
+            C05143  Dhurrin
+            C05670  3-Aminopropiononitrile
+            C05711  gamma-Glutamyl-beta-cyanoalanine
+            C05714  alpha-Aminopropiononitrile
+            C05715  gamma-Amino-gamma-cyanobutanoate
+            C06114  gamma-Glutamyl-beta-aminopropiononitrile
+            C08325  Amygdalin
+            C08334  Lotaustralin
+            C15503  N,N-Dihydroxy-L-tyrosine
+            C16074  Phenylacetonitrile
+            C16075  (Z)-Phenylacetaldehyde oxime
+            C18796  (2R)-2-Hydroxy-2-methylbutanenitrile
+            C19491  (E)-2-Methylbutanal oxime
+            C19712  N-Hydroxy-L-phenylalanine
+            C19714  (E)-Phenylacetaldoxime
+            C19715  N,N-Dihydroxy-L-phenylalanine
+            C20310  N-Hydroxy-L-isoleucine
+            C20311  N,N-Dihydroxy-L-isoleucine
+            C20312  (Z)-2-Methylbutanal oxime
+            C20313  N-Hydroxy-L-valine
+            C20314  N,N-Dihydroxy-L-valine
+            C20315  (Z)-2-Methylpropanal oxime
+REFERENCE   PMID:11575729
+  AUTHORS   Maruyama A, Saito K, Ishizawa K
+  TITLE     Beta-cyanoalanine synthase and cysteine synthase from potato: molecular cloning, biochemical characterization, and spatial and hormonal regulation.
+  JOURNAL   Plant Mol Biol 46:749-60 (2001)
+            DOI:10.1023/A:1011629703784
+REFERENCE   PMID:10636899
+  AUTHORS   Andersen MD, Busk PK, Svendsen I, Moller BL
+  TITLE     Cytochromes P-450 from cassava (Manihot esculenta Crantz) catalyzing the first steps in the biosynthesis of the cyanogenic glucosides linamarin and lotaustralin. Cloning, functional expression in Pichia pastoris, and substrate specificity of the isolated recombinant enzymes.
+  JOURNAL   J Biol Chem 275:1966-75 (2000)
+            DOI:10.1074/jbc.275.3.1966
+REFERENCE   
+  AUTHORS   Hickel A, Hasslacher M, Griengl H.
+  TITLE     Hydroxynitrile lyases: Functions and properties
+  JOURNAL   Physiol Plant 98:891-898 (1996)
+            DOI:10.1111/j.1399-3054.1996.tb06700.x
+REL_PATHWAY rn00250  Alanine, aspartate and glutamate metabolism
+            rn00260  Glycine, serine and threonine metabolism
+            rn00270  Cysteine and methionine metabolism
+            rn00290  Valine, leucine and isoleucine biosynthesis
+            rn00350  Tyrosine metabolism
+            rn00360  Phenylalanine metabolism
+            rn00410  beta-Alanine metabolism
+            rn00450  Selenocompound metabolism
+            rn00470  D-Amino acid metabolism
+            rn00480  Glutathione metabolism
+            rn00910  Nitrogen metabolism
+KO_PATHWAY  ko00460
+///

@@ -1,0 +1,22 @@
+ENTRY       R00497                      Reaction
+NAME        gamma-L-glutamyl-L-cysteine:glycine ligase (ADP-forming)
+DEFINITION  ATP + gamma-L-Glutamyl-L-cysteine + Glycine <=> ADP + Orthophosphate + Glutathione
+EQUATION    C00002 + C00669 + C00037 <=> C00008 + C00009 + C00051
+RCLASS      RC00002  C00002_C00008
+            RC00096  C00037_C00051
+            RC00141  C00051_C00669
+ENZYME      6.3.2.3
+PATHWAY     rn00480  Glutathione metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00118  Glutathione biosynthesis, glutamate => glutathione
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.2  Acid-D-amino-acid ligases (peptide synthases)
+                6.3.2.3
+                 R00497  ATP + gamma-L-Glutamyl-L-cysteine + Glycine <=> ADP + Orthophosphate + Glutathione
+ORTHOLOGY   K01920  glutathione synthase [EC:6.3.2.3]
+            K21456  glutathione synthase [EC:6.3.2.3]
+DBLINKS     RHEA: 13560
+///

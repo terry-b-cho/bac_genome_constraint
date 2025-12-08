@@ -1,0 +1,19 @@
+ENTRY       R01361                      Reaction
+NAME        (R)-3-hydroxybutanoate:NAD+ oxidoreductase
+DEFINITION  (R)-3-Hydroxybutanoate + NAD+ <=> Acetoacetate + NADH + H+
+EQUATION    C01089 + C00003 <=> C00164 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00117  C00164_C01089
+ENZYME      1.1.1.30
+PATHWAY     rn00650  Butanoate metabolism
+            rn01100  Metabolic pathways
+MODULE      M00088  Ketone body biosynthesis, acetyl-CoA => acetoacetate/3-hydroxybutyrate/acetone
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.30
+                 R01361  (R)-3-Hydroxybutanoate + NAD+ <=> Acetoacetate + NADH + H+
+ORTHOLOGY   K00019  3-hydroxybutyrate dehydrogenase [EC:1.1.1.30]
+DBLINKS     RHEA: 20524
+///

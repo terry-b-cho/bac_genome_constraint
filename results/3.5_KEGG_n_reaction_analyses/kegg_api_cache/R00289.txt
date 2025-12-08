@@ -1,0 +1,39 @@
+ENTRY       R00289                      Reaction
+NAME        UTP:alpha-D-glucose-1-phosphate uridylyltransferase
+DEFINITION  UTP + D-Glucose 1-phosphate <=> Diphosphate + UDP-glucose
+EQUATION    C00075 + C00103 <=> C00013 + C00029
+RCLASS      RC00002  C00029_C00103
+ENZYME      2.7.7.9         2.7.7.64
+PATHWAY     rn00040  Pentose and glucuronate interconversions
+            rn00052  Galactose metabolism
+            rn00500  Starch and sucrose metabolism
+            rn00520  Amino sugar and nucleotide sugar metabolism
+            rn00541  Biosynthesis of various nucleotide sugars
+            rn00561  Glycerolipid metabolism
+            rn00566  Sulfoquinovose metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01240  Biosynthesis of cofactors
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M00129  Ascorbate biosynthesis, animals, glucose-1P => ascorbate
+            M00549  UDP-Glc biosynthesis, Glc => UDP-Glc
+            M00854  Glycogen biosynthesis, glucose-1P => glycogen/starch
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.7  Nucleotidyltransferases
+                2.7.7.9
+                 R00289  UTP + D-Glucose 1-phosphate <=> Diphosphate + UDP-glucose
+                2.7.7.64
+                 R00289  UTP + D-Glucose 1-phosphate <=> Diphosphate + UDP-glucose
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.7.7.64
+               R08845  alpha-D-Aldose 1-phosphate <=> UDP-sugar
+                R00289  D-Glucose 1-phosphate <=> UDP-glucose
+ORTHOLOGY   K00963  UTP--glucose-1-phosphate uridylyltransferase [EC:2.7.7.9]
+            K12447  UDP-sugar pyrophosphorylase [EC:2.7.7.64]
+            K22920  UTP---glucose-1-phosphate uridylyltransferase [EC:2.7.7.9]
+            K28660  UTP---glucose-1-phosphate uridylyltransferase [EC:2.7.7.9]
+DBLINKS     RHEA: 19892
+///

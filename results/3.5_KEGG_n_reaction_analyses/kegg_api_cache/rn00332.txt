@@ -1,0 +1,151 @@
+ENTRY       rn00332                     Pathway
+NAME        Carbapenem biosynthesis
+DESCRIPTION Carbapenems are broad-spectrum beta-lactam antibiotics, which are often considered as the antibiotics of last resort. A naturally occurring carbapenem, thienamycin, was first discovered in Streptomyces cattleya. This diagram shows how a simple carbapenem, carbapenem-3-carboxylate, is synthesized from malonyl-CoA and pyrroline-5-carboxylate [MD:M00675]. For structurally complex carbapenems, such as thienamycin, olivanic acid, epi-thienamycin and carbapenems of the OA-6129 group, uncertainty remains about the mechanism and timing for the inversion of the C-5 carbapenam bridgehead, the desaturation of the C-2/C-3 bond and the attachment of the C-2 and C-6 side chains.
+CLASS       Metabolism; Biosynthesis of other secondary metabolites
+PATHWAY_MAP rn00332  Carbapenem biosynthesis
+MODULE      M00675  Carbapenem-3-carboxylate biosynthesis, pyrroline-5-carboxylate + malonyl-CoA => carbapenem-3-carboxylate [PATH:rn00332]
+DBLINKS     GO: 1901769
+REACTION    R00239  ATP:L-glutamate 5-phosphotransferase
+            R03313  L-glutamate-5-semialdehyde:NADP+ 5-oxidoreductase (phosphorylating)
+            R03314  
+            R10415  (3S,5S)-carbapenam-3-carboxylate,2-oxoglutarate:oxygen oxidoreductase (dehydrating)
+            R10485  malonyl-CoA:(S)-1-pyrroline-5-carboxylate malonyltransferase (cyclizing)
+            R10507  L-proline:(acceptor) oxidoreductase
+            R10556  (2S,5S)-5-carboxymethylproline cyclo-ligase (AMP-forming)
+            R10735  OA-6129-A,2-oxoglutarate:oxygen oxidoreductase (8-hydroxylating)
+            R10739  
+            R10740  2,3-dihydrothienamycin,2-oxoglutarate:oxygen oxidoreductase (dehydrating)
+            R10741  epithienamycin-F,2-oxoglutarate:oxygen oxidoreductase (dehydrating)
+            R10742  epithienamycin-E,2-oxoglutarate:oxygen oxidoreductase (sulfoxidation)
+            R10745  acetyl-CoA:thienamycin N-acetyltransferase
+            R10746  acetyl-CoA:deacetyl-MM17880 N-acetyltransferase
+            R10747  CoA nucleotidohydrolase
+            R10748  pantetheine-4'-phosphate phosphohydrolase
+            R10749  
+            R10750  
+            R10751  3'-phosphoadenylyl-sulfate:OA-6129-B1 sulfotransferase
+            R10752  OA-6129-C amidohydrolase
+            R10753  
+            R10754  
+            R10755  
+            R10756  
+            R13357  S-adenosyl-L-methionine:(2R,3R,5S)-2-(S-pantetheinyl)-carbapenam-3-carboxylate 6-C-methyltransferase
+            R13358  S-adenosyl-L-methionine:(2R,3R,5S,6R)-6-(methyl)-2-(S-pantetheinyl)-carbapenam-3-carboxylate 6-C-methyltransferase
+            R13537  (2R,3R,5S)-2-(S-pantetheinyl)-carbapenam-3-carboxylate lyase
+            R13547  
+            R13548  
+            R13553  
+            R13554  
+            R13555  
+COMPOUND    C00010  CoA
+            C00025  L-Glutamate
+            C00083  Malonyl-CoA
+            C00148  L-Proline
+            C00831  Pantetheine
+            C01134  Pantetheine 4'-phosphate
+            C01165  L-Glutamate 5-semialdehyde
+            C03287  L-Glutamyl 5-phosphate
+            C03912  (S)-1-Pyrroline-5-carboxylate
+            C06664  Thienamycin
+            C06669  (5R)-Carbapen-2-em-3-carboxylate
+            C11755  Epithienamycin E
+            C17366  (2S,5S)-trans-Carboxymethylproline
+            C17367  (3S,5S)-Carbapenam-3-carboxylic acid
+            C17368  8-Dehydroxythienamycin
+            C17369  Northienamycin
+            C17370  PS-5
+            C17373  OA-6129 B1
+            C17374  OA-6129 B2
+            C17377  N-Acetylthienamycin
+            C17399  Epithienamycin F
+            C20813  OA-6129 A
+            C20814  OA-6129 C
+            C20815  MM 4550
+            C20816  Deacetylepithienamycin F
+            C20818  C20818
+            C20819  C20819
+            C20820  2,3-Dihydrothienamycin
+            C20821  C20821
+            C20822  C20822
+            C20823  C20823
+            C22946  (2R,3R,5R)-2-(S-Pantetheinyl)-carbapenam-3-carboxylate
+            C22947  (2R,3R,5S,6R)-6-(Methyl)-2-(S-pantetheinyl)-carbapenam-3-carboxylate
+            C22948  (2R,3R,5S,6R)-6-(Ethyl)-2-(S-pantetheinyl)-carbapenam-3-carboxylate
+            C23073  C23073
+REFERENCE   PMID:12848554
+  AUTHORS   Stapon A, Li R, Townsend CA
+  TITLE     Carbapenem biosynthesis: confirmation of stereochemical assignments and the role of CarC in the ring stereoinversion process from L-proline.
+  JOURNAL   J Am Chem Soc 125:8486-93 (2003)
+            DOI:10.1021/ja034248a
+REFERENCE   PMID:15174175
+  AUTHORS   Sleeman MC, Smith P, Kellam B, Chhabra SR, Bycroft BW, Schofield CJ
+  TITLE     Biosynthesis of carbapenem antibiotics: new carbapenam substrates for carbapenem synthase (CarC).
+  JOURNAL   Chembiochem 5:879-82 (2004)
+            DOI:10.1002/cbic.200300908
+REFERENCE   PMID:14625287
+  AUTHORS   Sleeman MC, Schofield CJ
+  TITLE     Carboxymethylproline synthase (CarB), an unusual carbon-carbon bond-forming enzyme of the crotonase superfamily involved in carbapenem biosynthesis.
+  JOURNAL   J Biol Chem 279:6730-6 (2004)
+            DOI:10.1074/jbc.M311824200
+REFERENCE   PMID:19090510
+  AUTHORS   Hamed RB, Batchelar ET, Mecinovic J, Claridge TD, Schofield CJ
+  TITLE     Evidence that thienamycin biosynthesis proceeds via C-5 epimerization: ThnE catalyzes the formation of (2S,5S)-trans-carboxymethylproline.
+  JOURNAL   Chembiochem 10:246-50 (2009)
+            DOI:10.1002/cbic.200800652
+REFERENCE   PMID:21913298
+  AUTHORS   Bodner MJ, Li R, Phelan RM, Freeman MF, Moshos KA, Lloyd EP, Townsend CA
+  TITLE     Definition of the common and divergent steps in carbapenem beta-lactam antibiotic biosynthesis.
+  JOURNAL   Chembiochem 12:2159-65 (2011)
+            DOI:10.1002/cbic.201100366
+REFERENCE   PMID:12147472
+  AUTHORS   Derzelle S, Duchaud E, Kunst F, Danchin A, Bertin P
+  TITLE     Identification, characterization, and regulation of a cluster of genes involved in carbapenem biosynthesis in Photorhabdus luminescens.
+  JOURNAL   Appl Environ Microbiol 68:3780-9 (2002)
+            DOI:10.1128/AEM.68.8.3780-3789.2002
+REFERENCE   PMID:21263049
+  AUTHORS   Rodriguez M, Nunez LE, Brana AF, Mendez C, Salas JA, Blanco G
+  TITLE     Mutational analysis of the thienamycin biosynthetic gene cluster from Streptomyces cattleya.
+  JOURNAL   Antimicrob Agents Chemother 55:1638-49 (2011)
+            DOI:10.1128/AAC.01366-10
+REFERENCE   PMID:3988730
+  AUTHORS   Williamson JM, Inamine E, Wilson KE, Douglas AW, Liesch JM, Albers-Schonberg G
+  TITLE     Biosynthesis of the beta-lactam antibiotic, thienamycin, by Streptomyces cattleya.
+  JOURNAL   J Biol Chem 260:4637-47 (1985)
+REFERENCE   PMID:12725858
+  AUTHORS   Nunez LE, Mendez C, Brana AF, Blanco G, Salas JA
+  TITLE     The biosynthetic gene cluster for the beta-lactam carbapenem thienamycin in Streptomyces cattleya.
+  JOURNAL   Chem Biol 10:301-11 (2003)
+            DOI:10.1016/S1074-5521(03)00069-3
+REFERENCE   PMID:35969793
+  AUTHORS   Sinner EK, Li R, Marous DR, Townsend CA.
+  TITLE     ThnL, a B12-dependent radical S-adenosylmethionine enzyme, catalyzes thioether bond formation in carbapenem biosynthesis.
+  JOURNAL   Proc Natl Acad Sci U S A 119:e2206494119 (2022)
+            DOI:10.1073/pnas.2206494119
+REFERENCE   PMID:20017478
+  AUTHORS   Bodner MJ, Phelan RM, Freeman MF, Li R, Townsend CA
+  TITLE     Non-heme iron oxygenases generate natural structural diversity in carbapenem antibiotics.
+  JOURNAL   J Am Chem Soc 132:12-3 (2010)
+            DOI:10.1021/ja907320n
+REFERENCE   PMID:18678912
+  AUTHORS   Freeman MF, Moshos KA, Bodner MJ, Li R, Townsend CA
+  TITLE     Four enzymes define the incorporation of coenzyme A in thienamycin biosynthesis.
+  JOURNAL   Proc Natl Acad Sci U S A 105:11128-33 (2008)
+            DOI:10.1073/pnas.0804500105
+REFERENCE   PMID:22706025
+  AUTHORS   Buller AR, Labonte JW, Freeman MF, Wright NT, Schildbach JF, Townsend CA
+  TITLE     Autoproteolytic activation of ThnT results in structural reorganization necessary for substrate binding and catalysis.
+  JOURNAL   J Mol Biol 422:508-18 (2012)
+            DOI:10.1016/j.jmb.2012.06.012
+REFERENCE   PMID:24420617
+  AUTHORS   Li R, Lloyd EP, Moshos KA, Townsend CA
+  TITLE     Identification and characterization of the carbapenem MM 4550 and its gene cluster in Streptomyces argenteolus ATCC 11009.
+  JOURNAL   Chembiochem 15:320-31 (2014)
+            DOI:10.1002/cbic.201300319
+REFERENCE   PMID:23135477
+  AUTHORS   Hamed RB, Gomez-Castellanos JR, Henry L, Ducho C, McDonough MA, Schofield CJ
+  TITLE     The enzymes of beta-lactam biosynthesis.
+  JOURNAL   Nat Prod Rep 30:21-107 (2013)
+            DOI:10.1039/c2np20065a
+REL_PATHWAY rn00330  Arginine and proline metabolism
+KO_PATHWAY  ko00332
+///

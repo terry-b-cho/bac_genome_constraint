@@ -1,0 +1,76 @@
+ENTRY       rn00220                     Pathway
+NAME        Arginine biosynthesis
+CLASS       Metabolism; Amino acid metabolism
+PATHWAY_MAP rn00220  Arginine biosynthesis
+MODULE      M00028  Ornithine biosynthesis, glutamate => ornithine [PATH:rn00220]
+            M00029  Urea cycle [PATH:rn00220]
+            M00763  Ornithine biosynthesis, mediated by LysW, glutamate => ornithine [PATH:rn00220]
+            M00844  Arginine biosynthesis, ornithine => arginine [PATH:rn00220]
+            M00845  Arginine biosynthesis, glutamate => acetylcitrulline => arginine [PATH:rn00220]
+            M00978  Ornithine-ammonia cycle [PATH:rn00220]
+DBLINKS     GO: 0006526
+REACTION    R00005  urea-1-carboxylate amidohydrolase
+            R00149  carbon-dioxide:ammonia ligase (ADP-forming,carbamate-phosphorylating)
+            R00150  ATP:carbamate phosphotransferase
+            R00243  L-glutamate:NAD+ oxidoreductase (deaminating)
+            R00248  L-glutamate:NADP+ oxidoreductase (deaminating)
+            R00253  L-glutamate:ammonia ligase (ADP-forming)
+            R00256  L-glutamine amidohydrolase
+            R00258  L-alanine:2-oxoglutarate aminotransferase
+            R00259  acetyl-CoA:L-glutamate N-acetyltransferase
+            R00355  L-aspartate:2-oxoglutarate aminotransferase
+            R00551  L-arginine amidinohydrolase
+            R00552  L-arginine iminohydrolase
+            R00557  L-arginine,NADPH:oxygen oxidoreductase (nitric-oxide-forming)
+            R00575  HCO3-:L-glutamine amido-ligase (ADP-forming, carbamate-phosphorylating)
+            R00669  N2-acetyl-L-ornithine amidohydrolase
+            R00774  urea:carbon-dioxide ligase (ADP-forming)
+            R01086  2-(Nomega-L-arginino)succinate arginine-lyase (fumarate-forming)
+            R01398  carbamoyl-phosphate:L-ornithine carbamoyltransferase
+            R01954  L-citrulline:L-aspartate ligase (AMP-forming)
+            R02282  N2-acetyl-L-ornithine:L-glutamate N-acetyltransferase
+            R02283  N2-acetyl-L-ornithine:2-oxoglutarate aminotransferase
+            R02649  ATP:N-acetyl-L-glutamate 5-phosphotransferase
+            R03443  N-acetyl-L-glutamate-5-semialdehyde:NADP+ 5-oxidoreductase (phosphrylating)
+            R07245  carbamoyl-phosphate:N2-acetyl-L-ornithine carbamoyltransferase
+            R09107  N-acetyl-L-citrulline amidohydrolase
+            R10929  LysW:L-glutamate ligase (ADP-forming)
+            R10930  ATP:LysW-L-glutamate 5-phosphotransferase
+            R10931  LysW-L-glutamate-5-semialdehyde:NADP+ 5-oxidoreductase (phosphorylating)
+            R10932  LysW-L-ornithine:2-oxoglutarate 5-aminotransferase
+            R10933  LysW-L-ornithine amidohydrolase
+            R11711  L-arginine,reduced-flavodoxin:oxygen oxidoreductase (nitric-oxide-forming)
+            R13308  L-arginine aminodihydrolase (L-ornithine-forming)
+            R13420  urea amidohydrolase
+COMPOUND    C00011  CO2
+            C00014  Ammonia
+            C00025  L-Glutamate
+            C00026  2-Oxoglutarate
+            C00049  L-Aspartate
+            C00062  L-Arginine
+            C00064  L-Glutamine
+            C00077  L-Ornithine
+            C00086  Urea
+            C00122  Fumarate
+            C00169  Carbamoyl phosphate
+            C00288  HCO3-
+            C00327  L-Citrulline
+            C00437  N-Acetylornithine
+            C00624  N-Acetyl-L-glutamate
+            C01010  Urea-1-carboxylate
+            C01250  N-Acetyl-L-glutamate 5-semialdehyde
+            C03406  N-(L-Arginino)succinate
+            C04133  N-Acetyl-L-glutamate 5-phosphate
+            C15532  N-Acetyl-L-citrulline
+            C20948  LysW-L-glutamate
+            C20949  LysW-L-glutamyl 5-phosphate
+            C20950  LysW-L-glutamate 5-semialdehyde
+            C20951  LysW-L-ornithine
+REL_PATHWAY rn00020  Citrate cycle (TCA cycle)
+            rn00240  Pyrimidine metabolism
+            rn00250  Alanine, aspartate and glutamate metabolism
+            rn00330  Arginine and proline metabolism
+            rn00470  D-Amino acid metabolism
+            rn00910  Nitrogen metabolism
+KO_PATHWAY  ko00220
+///

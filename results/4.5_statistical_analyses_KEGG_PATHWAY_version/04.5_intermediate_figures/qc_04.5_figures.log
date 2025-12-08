@@ -1,0 +1,52 @@
+================================================================================
+Script 04.5: Plot Intermediate Figures
+================================================================================
+
+================================================================================
+Script 04: Environment-Specific Scaling & Z-Score Figures
+================================================================================
+
+Loading Script 04 data...
+  ✓ Loaded data: 710 env×category fits, 686 Z-scores, 95 categories
+
+Generating Fig 5A: Heatmap of Z_alpha with hierarchical clustering...
+  ⚠ scipy not available for clustering, using distance-based sorting
+  ✓ Saved fig_05A_Z_alpha_heatmap_pathway.png and .pdf
+  ✓ Fig 5A (sorted fallback) completed
+
+Generating Fig 5B: Heatmap of Z_beta with hierarchical clustering...
+  ⚠ scipy not available for clustering, using distance-based sorting
+  ✓ Saved fig_05B_Z_beta_heatmap_pathway.png and .pdf
+  ✓ Fig 5B (sorted fallback) completed
+
+Generating Fig 5C: Distribution of |Z_alpha| per environment...
+  ✓ Saved fig_05C_abs_Z_alpha_by_env_pathway.png and .pdf
+  ✓ Fig 5C completed
+
+Generating Fig 5D: Categories with |Z_alpha| > 2 per environment...
+  ✓ Saved fig_05D_significant_categories_by_env_pathway.png and .pdf
+  ✓ Fig 5D completed
+
+Generating Fig 6A: Histogram of Z_alpha_category...
+  ✓ Saved fig_06A_Z_alpha_category_histogram_pathway.png and .pdf
+  ✓ Fig 6A completed
+
+Generating Fig 6B: Histogram of Z_beta_category...
+  ✓ Saved fig_06B_Z_beta_category_histogram_pathway.png and .pdf
+  ✓ Fig 6B completed
+
+Generating Fig 6C: Exception categories barplot...
+  ✓ Saved fig_06C_exception_categories_pathway.png and .pdf
+  ✓ Fig 6C completed
+
+Generating Fig 7: Environment-stratified scaling scatterplots (top 20 categories)...
+  ✓ Saved fig_07_env_stratified_scaling_pathway.png and .pdf
+  ✓ Fig 7 (log scale) completed - showing top 20 categories
+  ✓ Saved fig_07_env_stratified_scaling_linear_pathway.png and .pdf
+  ✓ Fig 7 (linear scale) completed - showing top 20 categories
+
+Script 04 figures completed!
+
+
+================================================================================
+Writing QC log...

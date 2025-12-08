@@ -1,0 +1,153 @@
+ENTRY       rn00997                     Pathway
+NAME        Biosynthesis of various other secondary metabolites
+  INCLUDING Ditryptophenaline biosynthesis, Fumiquinazoline D biosynthesis, Paerucumarin biosynthesis, Staphyloferrin B biosynthesis, Cyclooctatin biosynthesis, Lovastatin biosynthesis, Grixazone biosynthesis, Staphyloferrin A biosynthesis, Ethynylserine biosynthesis, Aerobactin biosynthesis
+CLASS       Metabolism; Biosynthesis of other secondary metabolites
+PATHWAY_MAP rn00997  Biosynthesis of various other secondary metabolites
+MODULE      M00875  Staphyloferrin B biosynthesis, L-serine => staphyloferrin B [PATH:rn00997]
+            M00876  Staphyloferrin A biosynthesis, L-ornithine => staphyloferrin A [PATH:rn00997]
+            M00891  Ditryptophenaline biosynthesis, tryptophan + phenylalanine => ditryptophenaline [PATH:rn00997]
+            M00893  Lovastatin biosynthesis, malonyl-CoA => lovastatin acid [PATH:rn00997]
+            M00901  Fumiquinazoline biosynthesis, tryptophan + alanine + anthranilate => fumiquinazoline [PATH:rn00997]
+            M00905  Grixazone biosynthesis, aspartate 4-semialdehyde => grixazone B [PATH:rn00997]
+            M00906  Ethynylserine biosynthesis, lysine => ethynylserine [PATH:rn00997]
+            M00918  Aerobactin biosynthesis, lysine => aerobactin [PATH:rn00997]
+            M00921  Cyclooctatin biosynthesis, dimethylallyl-PP + isopentenyl-PP => cyclooctatin [PATH:rn00997]
+REACTION    R01658  dimethylallyl-diphosphate:isopentenyl-diphosphate dimethylallyltranstransferase
+            R02003  geranyl-diphosphate:isopentenyl-diphosphate geranyltrans-transferase
+            R02061  trans,trans-farnesyl-diphosphate:isopentenyl-diphosphate farnesyltranstransferase
+            R07251  acyl-CoA:malonyl-CoA C-acyltransferase (dihydromonacolin L-[acp]-forming)
+            R10469  2-amino-4,5-dihydroxy-6-oxo-7-(phosphooxy)heptanoate hydro-lyase (cyclizing, 3-amino-4-hydroxybenzoate-forming)
+            R10673  2-amino-4,5-dihydroxy-6-oxo-7-(phosphooxy)heptanoate L-aspartate-4-semialdehyde-lyase (glycerone-phosphate-forming)
+            R10720  3-amino-4-hydroxybenzoate:N-acetyl-L-cysteine:oxygen oxidoreductase
+            R10763  geranylgeranyl-diphosphate diphosphate-lyase (cyclooctat-9-en-7-ol-forming)
+            R10791  dihydromonacolin L acid,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (3-hydroxylating)
+            R10792  3alpha-hydroxy-3,5-dihydromonacolin L acid hydro-lyase
+            R10794  monacolin L acid,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (8-hydroxylating)
+            R11126  monacolin-J-acid:(S)-2-methylbutanoyl-[acp] (S)-2-methylbutanoyltransferase
+            R11187  dihydromonacolin L-[acyl-carrier protein] hydrolase
+            R11445  malonyl-CoA:malonyl-CoA C-acyltransferase (decarboxylating, methylating, 2-methylbutanoate-forming)
+            R12081  (2S)-3-(4-hydroxyphenyl)-2-isocyanopropanoate,2-oxoglutarate:oxygen oxidoreductase
+            R12150  L-tyrosine:D-ribulose-5-phosphate lyase (isonitrile-forming)
+            R12177  cyclooctat-9-en-7-ol,hydrogen-donor:oxygen oxidoreductase (5-hydroxylating)
+            R12178  cyclooctat-9-ene-5,7-diol,hydrogen-donor:oxygen oxidoreductase (18-hydroxylating)
+            R12407  L-lysine,2-oxoglutarate:oxygen oxidoreductase (4-halogenating)
+            R12408  4-chloro-L-lysine,hydrogen-donor:oxygen oxidoreductase
+            R12409  
+            R12410  
+            R12411  gamma-L-glutamyl-L-propargylglycine,2-oxoglutarate:oxygen oxidoreductase
+            R12412  
+            R12413  
+            R12414  S-adenosyl-L-methionine:cyclo(L-Trp-L-Phe) N-methyltransferase
+            R12415  
+            R12417  
+            R12418  
+            R12419  
+            R12420  
+            R12421  
+            R12884  
+COMPOUND    C00022  Pyruvate
+            C00024  Acetyl-CoA
+            C00026  2-Oxoglutarate
+            C00036  Oxaloacetate
+            C00041  L-Alanine
+            C00047  L-Lysine
+            C00049  L-Aspartate
+            C00078  L-Tryptophan
+            C00079  L-Phenylalanine
+            C00082  L-Tyrosine
+            C00083  Malonyl-CoA
+            C00085  D-Fructose 6-phosphate
+            C00108  Anthranilate
+            C00129  Isopentenyl diphosphate
+            C00251  Chorismate
+            C00279  D-Erythrose 4-phosphate
+            C00353  Geranylgeranyl diphosphate
+            C00441  L-Aspartate 4-semialdehyde
+            C04075  2-Amino-4-chloro-4-pentenoic acid
+            C12115  3-Amino-4-hydroxybenzoate
+            C20644  2-Amino-4,5-dihydroxy-6-oxo-7-(phosphooxy)heptanoate
+            C20799  Grixazone B
+            C20834  Cyclooctat-9-en-7-ol
+            C20851  Dihydromonacolin L acid
+            C20852  3alpha-Hydroxy-3,5-dihydromonacolin L acid
+            C20853  Monacolin L acid
+            C20854  Monacolin J acid
+            C21108  Dihydromonacolin L-[acyl-carrier protein]
+            C21129  (S)-2-Methylbutanoyl-[acp]
+            C21130  Lovastatin acid
+            C21889  (2S)-3-(4-Hydroxyphenyl)-2-isocyanopropanoate
+            C21891  (2E)-3-(4-Hydroxyphenyl)-2-isocyanoprop-2-enoate
+            C21978  Cyclooctat-9-ene-5,7-diol
+            C21979  Cyclooctatin
+            C22137  4-Chloro-L-lysine
+            C22138  L-Propargylglycine
+            C22139  gamma-L-Glutamyl-L-propargylglycine
+            C22140  L-gamma-Glutamyl-(3R)-L-beta-ethynylserine
+            C22141  L-beta-Ethynylserine
+            C22142  Cyclo(L-Trp-L-Phe)
+            C22143  N-Methyl-cyclo(L-Trp-L-Phe)
+            C22144  (-)-Ditryptophenaline
+            C22145  Fumiquinazoline F
+            C22146  Fumiquinazoline F-indoline-2',3'-diol
+            C22147  Fumiquinazoline A
+            C22148  Fumiquinazoline C
+            C22149  Fumiquinazoline D
+            C22449  Paerucumarin
+REFERENCE   PMID:24677498
+  AUTHORS   Saruwatari T, Yagishita F, Mino T, Noguchi H, Hotta K, Watanabe K
+  TITLE     Cytochrome P450 as dimerization catalyst in diketopiperazine alkaloid biosynthesis.
+  JOURNAL   Chembiochem 15:656-9 (2014)
+            DOI:10.1002/cbic.201300751
+REFERENCE   PMID:24612080
+  AUTHORS   Lim FY, Ames B, Walsh CT, Keller NP
+  TITLE     Co-ordination between BrlA regulation and secretion of the oxidoreductase FmqD directs selective accumulation of fumiquinazoline C to conidial tissues in Aspergillus fumigatus.
+  JOURNAL   Cell Microbiol 16:1267-83 (2014)
+            DOI:10.1111/cmi.12284
+REFERENCE   PMID:18689486
+  AUTHORS   Clarke-Pearson MF, Brady SF
+  TITLE     Paerucumarin, a new metabolite produced by the pvc gene cluster from Pseudomonas  aeruginosa.
+  JOURNAL   J Bacteriol 190:6927-30 (2008)
+            DOI:10.1128/JB.00801-08
+REFERENCE   PMID:19775248
+  AUTHORS   Cheung J, Beasley FC, Liu S, Lajoie GA, Heinrichs DE
+  TITLE     Molecular characterization of staphyloferrin B biosynthesis in Staphylococcus aureus.
+  JOURNAL   Mol Microbiol 74:594-608 (2009)
+            DOI:10.1111/j.1365-2958.2009.06880.x
+REFERENCE   PMID:19635410
+  AUTHORS   Kim SY, Zhao P, Igarashi M, Sawa R, Tomita T, Nishiyama M, Kuzuyama T
+  TITLE     Cloning and heterologous expression of the cyclooctatin biosynthetic gene cluster afford a diterpene cyclase and two p450 hydroxylases.
+  JOURNAL   Chem Biol 16:736-43 (2009)
+            DOI:10.1016/j.chembiol.2009.06.007
+REFERENCE   PMID:23653178
+  AUTHORS   Xu W, Chooi YH, Choi JW, Li S, Vederas JC, Da Silva NA, Tang Y
+  TITLE     LovG: the thioesterase required for dihydromonacolin L release and lovastatin nonaketide synthase turnover in lovastatin biosynthesis.
+  JOURNAL   Angew Chem Int Ed Engl 52:6472-5 (2013)
+            DOI:10.1002/anie.201302406
+REFERENCE   PMID:17003031
+  AUTHORS   Suzuki H, Ohnishi Y, Furusho Y, Sakuda S, Horinouchi S
+  TITLE     Novel benzene ring biosynthesis from C(3) and C(4) primary metabolites by two enzymes.
+  JOURNAL   J Biol Chem 281:36944-51 (2006)
+            DOI:10.1074/jbc.M608103200
+REFERENCE   PMID:19138128
+  AUTHORS   Cotton JL, Tao J, Balibar CJ
+  TITLE     Identification and characterization of the Staphylococcus aureus gene cluster coding for staphyloferrin A.
+  JOURNAL   Biochemistry 48:1025-35 (2009)
+            DOI:10.1021/bi801844c
+REFERENCE   PMID:30867596
+  AUTHORS   Marchand JA, Neugebauer ME, Ing MC, Lin CI, Pelton JG, Chang MCY
+  TITLE     Discovery of a pathway for terminal-alkyne amino acid biosynthesis.
+  JOURNAL   Nature 567:420-424 (2019)
+            DOI:10.1038/s41586-019-1020-y
+REFERENCE   PMID:1393837
+  AUTHORS   Neilands JB
+  TITLE     Mechanism and regulation of synthesis of aerobactin in Escherichia coli K12 (pColV-K30).
+  JOURNAL   Can J Microbiol 38:728-33 (1992)
+            DOI:10.1139/m92-119
+REL_PATHWAY rn00010  Glycolysis / Gluconeogenesis
+            rn00020  Citrate cycle (TCA cycle)
+            rn00250  Alanine, aspartate and glutamate metabolism
+            rn00260  Glycine, serine and threonine metabolism
+            rn00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            rn00900  Terpenoid backbone biosynthesis
+KO_PATHWAY  ko00997
+///

@@ -1,0 +1,17 @@
+ENTRY       R00728                      Reaction
+NAME        L-tyrosine phenol-lyase (deaminating; pyruvate-forming)
+DEFINITION  L-Tyrosine + H2O <=> Phenol + Pyruvate + Ammonia
+EQUATION    C00082 + C00001 <=> C00146 + C00022 + C00014
+RCLASS      RC00355  C00022_C00082
+            RC00364  C00082_C00146
+ENZYME      4.1.99.2
+PATHWAY     rn00350  Tyrosine metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.99  Other carbon-carbon lyases
+                4.1.99.2
+                 R00728  L-Tyrosine + H2O <=> Phenol + Pyruvate + Ammonia
+ORTHOLOGY   K01668  tyrosine phenol-lyase [EC:4.1.99.2]
+DBLINKS     RHEA: 21707
+///

@@ -1,0 +1,113 @@
+ENTRY       rn00730                     Pathway
+NAME        Thiamine metabolism
+CLASS       Metabolism; Metabolism of cofactors and vitamins
+PATHWAY_MAP rn00730  Thiamine metabolism
+MODULE      M00127  Thiamine biosynthesis, prokaryotes, AIR (+ DXP/tyrosine) => TMP/TPP [PATH:rn00730]
+            M00895  Thiamine biosynthesis, prokaryotes, AIR (+ DXP/glycine) => TMP/TPP [PATH:rn00730]
+            M00896  Thiamine biosynthesis, archaea, AIR (+ NAD+) => TMP/TPP [PATH:rn00730]
+            M00897  Thiamine biosynthesis, plants, AIR (+ NAD+) => TMP/thiamine/TPP [PATH:rn00730]
+            M00898  Thiamine biosynthesis, pyridoxal-5P => TMP/thiamine/TPP [PATH:rn00730]
+            M00899  Thiamine salvage pathway, HMP/HET => TMP [PATH:rn00730]
+DBLINKS     GO: 0006772
+REACTION    R00033  thiamine:oxygen 5-oxidoreductase
+            R00072  thiamine-aldehyde:oxygen 5-oxidoreductase
+            R00615  thiamin diphosphate phosphohydrolase
+            R00616  ATP:thiamine-diphosphate phosphotransferase
+            R00617  ATP:thiamin-phosphate phosphotransferase
+            R00618  thiamin-triphosphate phosphohydrolase
+            R00619  ATP:thiamine diphosphotransferase
+            R02133  thiamin hydrolase
+            R02134  ATP:thiamine phosphotransferase
+            R02135  thiamin monophosphate phosphohydrolase
+            R02863  thiamin:beta 2-methyl-4-aminopyrimidine-5-methenyltransferase
+            R03223  2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:4-methyl-5-(2-phosphoethyl)-thiazole 2-methyl-4-aminopyridine-5-methenyltransferase
+            R03471  ATP:4-amino-5-hydroxymethyl-2-methylpyrimidine 5-phosphotransferase
+            R03472  5-amino-1-(5-phospho-D-ribosyl)imidazole formate-lyase (decarboxylating, 4-amino-2-methyl-5-phosphomethylpyrimidine-forming)
+            R04448  ATP:4-methyl-5-(2-hydroxyethyl)thiazole 2-phosphotransferase
+            R04509  ATP:4-amino-2-methyl-5-phosphomethylpyrimidine phosphotransferase
+            R05636  1-deoxy-D-xylulose-5-phosphate pyruvate-lyase (carboxylating)
+            R07459  ATP:[sulfur-carrier protein] adenylyltransferase
+            R07460  L-cysteine:[enzyme]-cysteine sulfurtransferase
+            R07461  [enzyme]-S-sulfanyl-L-cysteine:adenylyl-[sulfur-carrier protein] sulfurtransferase
+            R07463  glycine:oxygen oxidoreductase
+            R09977  2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate isomerase
+            R09993  4-amino-5-aminomethyl-2-methylpyrimidine aminohydrolase
+            R10246  L-tyrosine 4-methylphenol-lyase (2-iminoacetate-forming)
+            R10247  1-deoxy-D-xylulose 5-phosphate:thiol sulfurtransferase
+            R10685  NAD+:glycine ADP-D-ribosyltransferase (dehydroalanine-producing)
+            R10686  
+            R10711  
+            R10712  2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate 2-methyl-4-aminopyrimidine-5-methenyltransferase
+            R11313  N-formyl-4-amino-5-aminomethyl-2-methylpyrimidine amidohydrolase
+            R11314  
+            R11319  ADP:thiamin-diphosphate phosphotransferase
+            R12026  NAD+:glycine ADP-D-ribosyltransferase (sulfide-adding)
+COMPOUND    C00003  NAD+
+            C00018  Pyridoxal phosphate
+            C00022  Pyruvate
+            C00037  Glycine
+            C00068  Thiamin diphosphate
+            C00082  L-Tyrosine
+            C00097  L-Cysteine
+            C00118  D-Glyceraldehyde 3-phosphate
+            C00378  Thiamine
+            C01081  Thiamin monophosphate
+            C01279  4-Amino-5-hydroxymethyl-2-methylpyrimidine
+            C02892  Thiamine acetic acid
+            C03028  Thiamin triphosphate
+            C03373  Aminoimidazole ribotide
+            C04294  5-(2-Hydroxyethyl)-4-methylthiazole
+            C04327  4-Methyl-5-(2-phosphooxyethyl)thiazole
+            C04556  4-Amino-2-methyl-5-(phosphooxymethyl)pyrimidine
+            C04752  4-Amino-5-hydroxymethyl-2-methylpyrimidine diphosphate
+            C05856  Thiamine aldehyde
+            C11437  1-Deoxy-D-xylulose 5-phosphate
+            C15809  Iminoglycine
+            C15810  Sulfur-carrier protein
+            C15811  [Enzyme]-cysteine
+            C15812  [Enzyme]-S-sulfanylcysteine
+            C15813  Adenylyl-[sulfur-carrier protein]
+            C15814  Thiocarboxy-[sulfur-carrier protein]
+            C19872  N-Formyl-4-amino-5-aminomethyl-2-methylpyrimidine
+            C20246  2-[(2R,5Z)-2-Carboxy-4-methylthiazol-5(2H)-ylidene]ethyl phosphate
+            C20247  2-(2-Carboxy-4-methylthiazol-5-yl)ethyl phosphate
+            C20267  4-Amino-5-aminomethyl-2-methylpyrimidine
+            C20784  ADP-5-ethyl-4-methylthiazole-2-carboxylate
+REFERENCE   PMID:15614489
+  AUTHORS   Kawasaki Y, Onozuka M, Mizote T, Nosaka K.
+  TITLE     Biosynthesis of hydroxymethylpyrimidine pyrophosphate in Saccharomyces cerevisiae.
+  JOURNAL   Curr Genet 47:156-62 (2005)
+            DOI:10.1007/s00294-004-0557-x
+REFERENCE   PMID:14567704
+  AUTHORS   Park JH, Dorrestein PC, Zhai H, Kinsland C, McLafferty FW, Begley TP.
+  TITLE     Biosynthesis of the thiazole moiety of thiamin pyrophosphate (vitamin B1).
+  JOURNAL   Biochemistry 42:12430-8 (2003)
+            DOI:10.1021/bi034902z
+REFERENCE   PMID:22616866
+  AUTHORS   Begley TP, Ealick SE, McLafferty FW
+  TITLE     Thiamin biosynthesis: still yielding fascinating biological chemistry.
+  JOURNAL   Biochem Soc Trans 40:555-60 (2012)
+            DOI:10.1042/BST20120084
+REFERENCE   PMID:12777485
+  AUTHORS   Wightman R, Meacock PA
+  TITLE     The THI5 gene family of Saccharomyces cerevisiae: distribution of homologues among the hemiascomycetes and functional redundancy in the aerobic biosynthesis of thiamin from pyridoxine.
+  JOURNAL   Microbiology 149:1447-60 (2003)
+            DOI:10.1099/mic.0.26194-0
+REFERENCE   PMID:22031445
+  AUTHORS   Chatterjee A, Abeydeera ND, Bale S, Pai PJ, Dorrestein PC, Russell DH, Ealick SE, Begley TP
+  TITLE     Saccharomyces cerevisiae THI4p is a suicide thiamine thiazole synthase.
+  JOURNAL   Nature 478:542-6 (2011)
+            DOI:10.1038/nature10503
+REFERENCE   PMID:19348578
+  AUTHORS   Jurgenson CT, Begley TP, Ealick SE
+  TITLE     The structural and biochemical foundations of thiamin biosynthesis.
+  JOURNAL   Annu Rev Biochem 78:569-603 (2009)
+            DOI:10.1146/annurev.biochem.78.072407.102340
+REL_PATHWAY rn00010  Glycolysis / Gluconeogenesis
+            rn00230  Purine metabolism
+            rn00260  Glycine, serine and threonine metabolism
+            rn00270  Cysteine and methionine metabolism
+            rn00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            rn00750  Vitamin B6 metabolism
+KO_PATHWAY  ko00730
+///

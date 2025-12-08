@@ -1,0 +1,31 @@
+ENTRY       R00206                      Reaction
+NAME        ATP:pyruvate,phosphate phosphotransferase
+DEFINITION  ATP + Pyruvate + Orthophosphate <=> AMP + Phosphoenolpyruvate + Diphosphate
+EQUATION    C00002 + C00022 + C00009 <=> C00020 + C00074 + C00013
+COMMENT     multi-step reaction
+RCLASS      RC00002  C00002_C00020
+            RC00015  C00022_C00074
+ENZYME      2.7.9.1
+PATHWAY     rn00010  Glycolysis / Gluconeogenesis
+            rn00620  Pyruvate metabolism
+            rn00710  Carbon fixation by Calvin cycle
+            rn00720  Other carbon fixation pathways
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00169  CAM (Crassulacean acid metabolism), light
+            M00171  C4-dicarboxylic acid cycle, NAD - malic enzyme type
+            M00172  C4-dicarboxylic acid cycle, NADP - malic enzyme type
+            M00173  Reductive citrate cycle (Arnon-Buchanan cycle)
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.9  Phosphotransferases with paired acceptors
+                2.7.9.1
+                 R00206  ATP + Pyruvate + Orthophosphate <=> AMP + Phosphoenolpyruvate + Diphosphate
+            Overall reaction [br08210.html]
+             Carbon fixation
+              R00206
+ORTHOLOGY   K01006  pyruvate, orthophosphate dikinase [EC:2.7.9.1]
+DBLINKS     RHEA: 10759
+///

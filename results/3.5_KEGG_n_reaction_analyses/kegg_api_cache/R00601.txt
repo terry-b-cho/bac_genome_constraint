@@ -1,0 +1,17 @@
+ENTRY       R00601                      Reaction
+NAME        S-adenosyl-L-methionine:tRNA 5-methylaminomethyl-2-thiouridine methyltransferase;
+            S-adenosyl-L-methionine:tRNA (5-methylaminomethyl-2-thiouridylate)-methyltransferase
+DEFINITION  S-Adenosyl-L-methionine + tRNA containing 5-(aminomethyl)-2-thiouridine <=> S-Adenosyl-L-homocysteine + tRNA containing 5-[(methylamino)methyl]-2-thiouridylate
+EQUATION    C00019 + C11478 <=> C00021 + C04728
+RCLASS      RC00003  C00019_C00021
+            RC00060  C04728_C11478
+ENZYME      2.1.1.61
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.61
+                 R00601  S-Adenosyl-L-methionine + tRNA containing 5-(aminomethyl)-2-thiouridine <=> S-Adenosyl-L-homocysteine + tRNA containing 5-[(methylamino)methyl]-2-thiouridylate
+ORTHOLOGY   K15461  tRNA 5-methylaminomethyl-2-thiouridine biosynthesis bifunctional protein [EC:2.1.1.61 1.5.-.-]
+DBLINKS     RHEA: 19572
+///

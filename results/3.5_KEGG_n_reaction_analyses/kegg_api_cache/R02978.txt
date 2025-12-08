@@ -1,0 +1,20 @@
+ENTRY       R02978                      Reaction
+NAME        sphinganine:NADP+ 3-oxidoreductase
+DEFINITION  Sphinganine + NADP+ <=> 3-Dehydrosphinganine + NADPH + H+
+EQUATION    C00836 + C00006 <=> C02934 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00089  C00836_C02934
+ENZYME      1.1.1.102
+PATHWAY     rn00600  Sphingolipid metabolism
+            rn01100  Metabolic pathways
+MODULE      M00094  Ceramide biosynthesis
+            M00099  Sphingosine biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.102
+                 R02978  Sphinganine + NADP+ <=> 3-Dehydrosphinganine + NADPH + H+
+ORTHOLOGY   K04708  3-dehydrosphinganine reductase [EC:1.1.1.102]
+DBLINKS     RHEA: 22643
+///

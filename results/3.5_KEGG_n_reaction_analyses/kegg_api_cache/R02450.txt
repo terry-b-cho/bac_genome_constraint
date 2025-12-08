@@ -1,0 +1,28 @@
+ENTRY       R02450                      Reaction
+NAME        phenylglyoxylate:NAD+ oxidoreductase (CoA benzoylating)
+DEFINITION  alpha-Oxo-benzeneacetic acid + CoA + NAD+ <=> Benzoyl-CoA + CO2 + NADH + H+
+EQUATION    C02137 + C00010 + C00003 <=> C00512 + C00011 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00004  C00010_C00512
+            RC02860  C00512_C02137
+ENZYME      1.2.1.58
+PATHWAY     rn00360  Phenylalanine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.58
+                 R02450  alpha-Oxo-benzeneacetic acid + CoA + NAD+ <=> Benzoyl-CoA + CO2 + NADH + H+
+ORTHOLOGY   K18355  phenylglyoxylate dehydrogenase alpha subunit [EC:1.2.1.58]
+            K18356  phenylglyoxylate dehydrogenase beta subunit [EC:1.2.1.58]
+            K18357  phenylglyoxylate dehydrogenase gamma subunit [EC:1.2.1.58]
+            K18358  phenylglyoxylate dehydrogenase delta subunit [EC:1.2.1.58]
+            K18359  phenylglyoxylate dehydrogenase epsilon subunit [EC:1.2.1.58]
+REFERENCE   1  [PMID:9490067]
+  AUTHORS   Hirsch W, Schagger H, Fuchs G
+  TITLE     Phenylglyoxylate:NAD+ oxidoreductase (CoA benzoylating), a new enzyme of anaerobic phenylalanine metabolism in the denitrifying bacterium Azoarcus evansii.
+  JOURNAL   Eur J Biochem 251:907-15 (1998)
+            DOI:10.1046/j.1432-1327.1998.2510907.x
+DBLINKS     RHEA: 10375
+///

@@ -1,0 +1,17 @@
+================================================================================
+Script 05: Map KEGG Labels - REACTIONS
+  TEST MODE: Processing small subset only
+================================================================================
+
+Loading KEGG term IDs from master table...
+  ✓ Loaded 10 reactions term IDs (TEST MODE: using first 10)
+
+Fetching KEGG information...
+  Using cache: True
+
+  ✓ Processed 10 terms
+  Terms not found: 0
+
+Writing Outputs
+--------------------------------------------------------------------------------
+  ✓ kegg_term_labels_test_reactions.tsv: 10 terms

@@ -1,0 +1,24 @@
+ENTRY       R02574                      Reaction
+NAME        S,S-dimethyl-beta-propiothetin dimethyl-sulfide-lyase
+DEFINITION  S,S-Dimethyl-beta-propiothetin <=> Dimethyl sulfide + Acrylic acid
+EQUATION    C04022 <=> C00580 + C00511
+RCLASS      RC00747  C00511_C04022
+            RC00748  C00580_C04022
+ENZYME      4.4.1.3
+PATHWAY     rn00920  Sulfur metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01320  Sulfur cycle
+MODULE      M00992  Dimethylsulfoniopropionate (DMSP) degradation, cleavage pathway, DMSP => acrylate => acetyl-CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.4  Carbon-sulfur lyases
+               4.4.1  Carbon-sulfur lyases (only sub-subclass identified to date)
+                4.4.1.3
+                 R02574  S,S-Dimethyl-beta-propiothetin <=> Dimethyl sulfide + Acrylic acid
+ORTHOLOGY   K16953  dimethylpropiothetin dethiomethylase [EC:4.4.1.3]
+            K28067  dimethylpropiothetin dethiomethylase [EC:4.4.1.3]
+            K28068  dimethylpropiothetin dethiomethylase [EC:4.4.1.3]
+            K28069  dimethylpropiothetin dethiomethylase [EC:4.4.1.3]
+DBLINKS     RHEA: 19968
+///

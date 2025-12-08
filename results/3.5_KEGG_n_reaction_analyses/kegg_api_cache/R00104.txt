@@ -1,0 +1,19 @@
+ENTRY       R00104                      Reaction
+NAME        ATP:NAD+ 2'-phosphotransferase
+DEFINITION  ATP + NAD+ <=> ADP + NADP+
+EQUATION    C00002 + C00003 <=> C00008 + C00006
+RCLASS      RC00002  C00002_C00008
+            RC00078  C00003_C00006
+ENZYME      2.7.1.23
+PATHWAY     rn00760  Nicotinate and nicotinamide metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.23
+                 R00104  ATP + NAD+ <=> ADP + NADP+
+ORTHOLOGY   K00858  NAD+ kinase [EC:2.7.1.23]
+DBLINKS     RHEA: 18632
+///

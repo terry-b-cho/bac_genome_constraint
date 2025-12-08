@@ -1,0 +1,32 @@
+ENTRY       R01616                      Reaction
+NAME        4-coumarate:CoA ligase (AMP-forming)
+DEFINITION  ATP + 4-Coumarate + CoA <=> AMP + Diphosphate + p-Coumaroyl-CoA
+EQUATION    C00002 + C00811 + C00010 <=> C00020 + C00013 + C00223
+RCLASS      RC00004  C00010_C00223
+            RC00131  C00223_C00811
+ENZYME      6.2.1.12
+PATHWAY     rn00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            rn00940  Phenylpropanoid biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00039  Monolignol biosynthesis, phenylalanine/tyrosine => monolignol
+            M00137  Flavanone biosynthesis, phenylalanine => naringenin
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.2  Forming carbon-sulfur bonds
+               6.2.1  Acid-thiol ligases
+                6.2.1.12
+                 R01616  ATP + 4-Coumarate + CoA <=> AMP + Diphosphate + p-Coumaroyl-CoA
+ORTHOLOGY   K01904  4-coumarate--CoA ligase [EC:6.2.1.12]
+REFERENCE   1  [PMID:12232327]
+  AUTHORS   Loscher R, Heide L
+  TITLE     Biosynthesis of p-Hydroxybenzoate from p-Coumarate and p-Coumaroyl-Coenzyme A in Cell-Free Extracts of Lithospermum erythrorhizon Cell Cultures.
+  JOURNAL   Plant Physiol 106:271-279 (1994)
+            DOI:10.1104/pp.106.1.271
+REFERENCE   2  [PMID:11583838]
+  AUTHORS   Meganathan R
+  TITLE     Ubiquinone biosynthesis in microorganisms.
+  JOURNAL   FEMS Microbiol Lett 203:131-9 (2001)
+            DOI:10.1111/j.1574-6968.2001.tb10831.x
+DBLINKS     RHEA: 19644
+///

@@ -1,0 +1,18 @@
+ENTRY       R01811                      Reaction
+NAME        N-acetylneuraminate pyruvate-lyase (N-acetyl-D-mannosamine-forming)
+DEFINITION  N-Acetylneuraminate <=> N-Acetyl-D-mannosamine + Pyruvate
+EQUATION    C00270 <=> C00645 + C00022
+RCLASS      RC00159  C00270_C00645
+            RC00600  C00022_C00270
+ENZYME      4.1.3.3
+PATHWAY     rn00541  Biosynthesis of various nucleotide sugars
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.3  Oxo-acid-lyases
+                4.1.3.3
+                 R01811  N-Acetylneuraminate <=> N-Acetyl-D-mannosamine + Pyruvate
+ORTHOLOGY   K01639  N-acetylneuraminate lyase [EC:4.1.3.3]
+DBLINKS     RHEA: 23299
+///

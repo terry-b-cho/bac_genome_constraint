@@ -1,0 +1,26 @@
+ENTRY       R00416                      Reaction
+NAME        UTP:N-acetyl-alpha-D-glucosamine-1-phosphate uridylyltransferase
+DEFINITION  UTP + N-Acetyl-alpha-D-glucosamine 1-phosphate <=> Diphosphate + UDP-N-acetyl-alpha-D-glucosamine
+EQUATION    C00075 + C04501 <=> C00013 + C00043
+RCLASS      RC00002  C00043_C04501
+ENZYME      2.7.7.23
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+            rn00541  Biosynthesis of various nucleotide sugars
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M00892  UDP-GlcNAc biosynthesis, eukaryotes, Fru-6P => UDP-GlcNAc
+            M00909  UDP-GlcNAc biosynthesis, prokaryotes, Fru-6P => UDP-GlcNAc
+            M00995  UDP-MurNAc biosynthesis, Fru-6P => UDP-MurNAc
+            M01003  UDP-GlcNAc biosynthesis, GlcNAc => UDP-GlcNAc
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.7  Nucleotidyltransferases
+                2.7.7.23
+                 R00416  UTP + N-Acetyl-alpha-D-glucosamine 1-phosphate <=> Diphosphate + UDP-N-acetyl-alpha-D-glucosamine
+ORTHOLOGY   K00972  UDP-N-acetylglucosamine/UDP-N-acetylgalactosamine diphosphorylase [EC:2.7.7.23 2.7.7.83]
+            K04042  bifunctional UDP-N-acetylglucosamine pyrophosphorylase / glucosamine-1-phosphate N-acetyltransferase [EC:2.7.7.23 2.3.1.157]
+            K11528  UDP-N-acetylglucosamine pyrophosphorylase [EC:2.7.7.23]
+            K23144  UDP-N-acetylglucosamine diphosphorylase / glucose-1-phosphate thymidylyltransferase / UDP-N-acetylgalactosamine diphosphorylase / glucosamine-1-phosphate N-acetyltransferase / galactosamine-1-phosphate N-acetyltransferase [EC:2.7.7.23 2.7.7.24 2.7.7.83 2.3.1.157 2.3.1.276]
+DBLINKS     RHEA: 13512
+///

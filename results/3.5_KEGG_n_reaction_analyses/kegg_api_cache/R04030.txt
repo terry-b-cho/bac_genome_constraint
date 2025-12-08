@@ -1,0 +1,23 @@
+ENTRY       R04030                      Reaction
+NAME        O-succinylbenzoate:CoA ligase (AMP-forming)
+DEFINITION  ATP + 2-Succinylbenzoate + CoA <=> AMP + Diphosphate + 2-Succinylbenzoyl-CoA
+EQUATION    C00002 + C02730 + C00010 <=> C00020 + C00013 + C03160
+RCLASS      RC00004  C00010_C03160
+            RC00014  C02730_C03160
+ENZYME      6.2.1.26
+PATHWAY     rn00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01240  Biosynthesis of cofactors
+MODULE      M00116  Menaquinone biosynthesis, chorismate (+ polyprenyl-PP) => menaquinol
+            M00932  Phylloquinone biosynthesis, chorismate (+ phytyl-PP) => phylloquinol
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.2  Forming carbon-sulfur bonds
+               6.2.1  Acid-thiol ligases
+                6.2.1.26
+                 R04030  ATP + 2-Succinylbenzoate + CoA <=> AMP + Diphosphate + 2-Succinylbenzoyl-CoA
+ORTHOLOGY   K01911  o-succinylbenzoate---CoA ligase [EC:6.2.1.26]
+            K14760  o-succinylbenzoate---CoA ligase [EC:6.2.1.26]
+DBLINKS     RHEA: 17012
+///

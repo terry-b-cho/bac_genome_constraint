@@ -1,0 +1,19 @@
+ENTRY       R01724                      Reaction
+NAME        5-phospho-alpha-D-ribose 1-diphosphate:nicotinate ligase (ADP, diphosphate-forming)
+DEFINITION  Nicotinate D-ribonucleotide + Diphosphate + ADP + Orthophosphate <=> Nicotinate + 5-Phospho-alpha-D-ribose 1-diphosphate + ATP + H2O + H+
+EQUATION    C01185 + C00013 + C00008 + C00009 <=> C00253 + C00119 + C00002 + C00001 + C00080
+RCLASS      RC00002  C00002_C00008
+            RC00033  C00253_C01185
+ENZYME      6.3.4.21
+PATHWAY     rn00760  Nicotinate and nicotinamide metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.4  Other carbon-nitrogen ligases
+                6.3.4.21
+                 R01724  Nicotinate D-ribonucleotide + Diphosphate + ADP + Orthophosphate <=> Nicotinate + 5-Phospho-alpha-D-ribose 1-diphosphate + ATP + H2O + H+
+ORTHOLOGY   K00763  nicotinate phosphoribosyltransferase [EC:6.3.4.21]
+DBLINKS     RHEA: 36166
+///

@@ -1,0 +1,477 @@
+ENTRY       K23144                      KO
+SYMBOL      K23144
+NAME        UDP-N-acetylglucosamine diphosphorylase / glucose-1-phosphate thymidylyltransferase / UDP-N-acetylgalactosamine diphosphorylase / glucosamine-1-phosphate N-acetyltransferase / galactosamine-1-phosphate N-acetyltransferase [EC:2.7.7.23 2.7.7.24 2.7.7.83 2.3.1.157 2.3.1.276]
+PATHWAY     map00520  Amino sugar and nucleotide sugar metabolism
+            map00521  Streptomycin biosynthesis
+            map00523  Polyketide sugar unit biosynthesis
+            map00525  Acarbose and validamycin biosynthesis
+            map00541  Biosynthesis of various nucleotide sugars
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01250  Biosynthesis of nucleotide sugars
+MODULE      M00909  UDP-GlcNAc biosynthesis, prokaryotes, Fru-6P => UDP-GlcNAc
+            M01002  UDP-GalNAc biosynthesis, Fru-6P => UDP-GalNAc
+REACTION    R00416  UTP:N-acetyl-alpha-D-glucosamine-1-phosphate uridylyltransferase
+            R02328  dTTP:alpha-D-glucose-1-phosphate thymidylyltransferase
+            R05332  acetyl-CoA:D-glucosamine-1-phosphate N-acetyltransferase
+            R10183  UTP:N-acetyl-alpha-D-galactosamine-1-phosphate uridylyltransferase
+            R12242  acetyl-CoA:alpha-D-galactosamine-1-phosphate N-acetyltransferase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
+               00520 Amino sugar and nucleotide sugar metabolism
+                K23144  K23144; UDP-N-acetylglucosamine diphosphorylase / glucose-1-phosphate thymidylyltransferase / UDP-N-acetylgalactosamine diphosphorylase / glucosamine-1-phosphate N-acetyltransferase / galactosamine-1-phosphate N-acetyltransferase
+               00541 Biosynthesis of various nucleotide sugars
+                K23144  K23144; UDP-N-acetylglucosamine diphosphorylase / glucose-1-phosphate thymidylyltransferase / UDP-N-acetylgalactosamine diphosphorylase / glucosamine-1-phosphate N-acetyltransferase / galactosamine-1-phosphate N-acetyltransferase
+              09109 Metabolism of terpenoids and polyketides
+               00523 Polyketide sugar unit biosynthesis
+                K23144  K23144; UDP-N-acetylglucosamine diphosphorylase / glucose-1-phosphate thymidylyltransferase / UDP-N-acetylgalactosamine diphosphorylase / glucosamine-1-phosphate N-acetyltransferase / galactosamine-1-phosphate N-acetyltransferase
+              09110 Biosynthesis of other secondary metabolites
+               00521 Streptomycin biosynthesis
+                K23144  K23144; UDP-N-acetylglucosamine diphosphorylase / glucose-1-phosphate thymidylyltransferase / UDP-N-acetylgalactosamine diphosphorylase / glucosamine-1-phosphate N-acetyltransferase / galactosamine-1-phosphate N-acetyltransferase
+               00525 Acarbose and validamycin biosynthesis
+                K23144  K23144; UDP-N-acetylglucosamine diphosphorylase / glucose-1-phosphate thymidylyltransferase / UDP-N-acetylgalactosamine diphosphorylase / glucosamine-1-phosphate N-acetyltransferase / galactosamine-1-phosphate N-acetyltransferase
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.157  glucosamine-1-phosphate N-acetyltransferase
+                 K23144  K23144; UDP-N-acetylglucosamine diphosphorylase / glucose-1-phosphate thymidylyltransferase / UDP-N-acetylgalactosamine diphosphorylase / glucosamine-1-phosphate N-acetyltransferase / galactosamine-1-phosphate N-acetyltransferase
+                2.3.1.276  galactosamine-1-phosphate N-acetyltransferase
+                 K23144  K23144; UDP-N-acetylglucosamine diphosphorylase / glucose-1-phosphate thymidylyltransferase / UDP-N-acetylgalactosamine diphosphorylase / glucosamine-1-phosphate N-acetyltransferase / galactosamine-1-phosphate N-acetyltransferase
+              2.7  Transferring phosphorus-containing groups
+               2.7.7  Nucleotidyltransferases
+                2.7.7.23  UDP-N-acetylglucosamine diphosphorylase
+                 K23144  K23144; UDP-N-acetylglucosamine diphosphorylase / glucose-1-phosphate thymidylyltransferase / UDP-N-acetylgalactosamine diphosphorylase / glucosamine-1-phosphate N-acetyltransferase / galactosamine-1-phosphate N-acetyltransferase
+                2.7.7.24  glucose-1-phosphate thymidylyltransferase
+                 K23144  K23144; UDP-N-acetylglucosamine diphosphorylase / glucose-1-phosphate thymidylyltransferase / UDP-N-acetylgalactosamine diphosphorylase / glucosamine-1-phosphate N-acetyltransferase / galactosamine-1-phosphate N-acetyltransferase
+                2.7.7.83  UDP-N-acetylgalactosamine diphosphorylase
+                 K23144  K23144; UDP-N-acetylglucosamine diphosphorylase / glucose-1-phosphate thymidylyltransferase / UDP-N-acetylgalactosamine diphosphorylase / glucosamine-1-phosphate N-acetyltransferase / galactosamine-1-phosphate N-acetyltransferase
+DBLINKS     COG: COG1208
+            GO: 0003977 0008879 0052630 0019134
+GENES       OLV: ACMYLB_16360
+            OSU: NT6N_20080 NT6N_34770
+            BROC: IPI25_07910
+            BPIT: BPIT_25190
+            JET: L3J17_08470
+            LBV: JYG24_10695
+            LBAC: LJT99_00570
+            NLI: G3M70_00770
+            NWT: NSPWAT_1004
+            NVA: G3M78_13570
+            DET: DET0529
+            DEH: cbdbA499(rfbA)
+            DEB: DehaBAV1_0505
+            DEV: DhcVS_470
+            DEG: DehalGT_0468
+            DMC: btf_492(glmU1)
+            DMD: dcmb_538(glmU1)
+            DMG: GY50_0455(rfbA)
+            DMX: X792_02565
+            DMY: X793_02320
+            DMZ: X794_02060
+            DUC: UCH007_04570
+            DLY: Dehly_0583
+            DEW: DGWBC_0738
+            DFO: Dform_01180 Dform_01834
+            DETH: HX448_07245
+            DLF: V8247_07615(glmU)
+            CAU: Caur_1799
+            CHL: Chy400_1946
+            CAG: Cagg_2516
+            PMET: G4Y79_09885
+            PRF: PeribacterA2_1018
+            MARW: MNSC_10410
+            TMG: US01_C0001G0691
+            MIB: UY43_C0001G0625
+            KBN: HYS26_00005
+            NBN: HYY55_03975 HYY55_04575
+            GBG: HYW15_01485
+            MJA: MJ_1101
+            MFE: Mefer_0780
+            MVU: Metvu_1273
+            MFS: MFS40622_1224
+            MIF: Metin_0997
+            MJH: JH146_0795
+            MESG: MLAUSG7_0979(glmU)
+            MESA: MLASG1_0313(glmU)
+            MIG: Metig_0354
+            MMP: MMP1076
+            MMQ: MmarC5_0513
+            MMX: MmarC6_1583
+            MMZ: MmarC7_0329
+            MMD: GYY_06215
+            MMAK: MMKA1_12550
+            MMAO: MMOS7_11870
+            MMAD: MMJJ_17730(glmU)
+            MAE: Maeo_0642
+            MVN: Mevan_0399
+            MVO: Mvol_0247
+            MOK: Metok_0856
+            METF: CFE53_04600
+            MTH: MTH_1589
+            MMG: MTBMA_c01750
+            MWO: MWSIV6_0133(glmU)
+            MTEE: MTTB_12600
+            METC: MTCT_1448
+            METE: tca_01538(glmU_3)
+            METZ: METMT2_0134
+            METK: FVF72_03670
+            MTHM: FZP57_00570
+            METJ: FZP68_05585
+            MST: Msp_1301
+            METB: AW729_09130
+            MEIS: PXD04_00930(glmU)
+            MRU: mru_0456(glmU)
+            MSI: Msm_0655
+            MEB: Abm4_0226(glmU)
+            MMIL: sm9_0316(glmU)
+            MEYE: TL18_01350
+            MOL: YLM1_0128
+            MARO: MarbSA_09660
+            METV: K4897_03855
+            MEL: Metbo_2293
+            MEW: MSWAN_0358
+            METH: MBMB1_0406(glmU)
+            MFC: BRM9_1856(glmU)
+            MFI: DSM1535_0040
+            MCUB: MCBB_0372
+            MSUB: BK009_00040
+            METN: BK008_07835
+            METT: CIT01_06535
+            METO: CIT02_04785
+            MEME: HYG87_07335
+            MFEG: GCM10025860_12990
+            MRID: FGU46_03020
+            MFV: Mfer_0129
+            MKA: MK0892
+            AST: Asulf_01979
+            FPL: Ferp_2375
+            GAC: GACE_1114
+            GAH: GAH_01474
+            PFU: PF0235
+            PFI: PFC_00225
+            PHO: PH1925(PH1925)
+            PAB: PAB1115(graD-2)
+            PYN: PNA2_0881
+            PYA: PYCH_13140
+            PYS: Py04_0389
+            PYC: TQ32_01175
+            PWE: ACMFNG_04165(glmU)
+            TKO: TK1188
+            TON: TON_0359
+            TGA: TGAM_0642
+            TSI: TSIB_1312
+            TBA: TERMP_00699
+            THE: GQS_03435
+            THA: TAM4_697
+            THM: CL1_0291
+            TLT: OCC_08739
+            THS: TES1_0783
+            TNU: BD01_0352
+            TEU: TEU_07655
+            TGY: X802_07040
+            THV: ADU37_CDS05730
+            TCH: CHITON_0452
+            TPEP: A0127_09000
+            TPIE: A7C91_07810
+            TGG: A3K92_03495
+            TCE: A3L02_09590
+            TBS: A3L01_02500
+            THH: CDI07_02450
+            TSL: A3L11_06425
+            TTD: A3L14_03965
+            TPRF: A3L09_08885
+            TRL: A3L10_04085
+            TPAF: A3L08_05490
+            THY: A3L12_06225
+            TIC: FH039_04770
+            TCQ: TIRI35C_0723(glmU)
+            THEM: FPV09_04390
+            THEI: K1720_09670
+            TAGG: NF865_03910
+            PPAC: PAP_06275
+            MBA: Mbar_A2020
+            MBY: MSBRM_2483
+            MBW: MSBRW_2717
+            MBAR: MSBR2_2453
+            MBAK: MSBR3_2500
+            MAC: MA_3025(rfbA)
+            MMA: MM_0302
+            MMAZ: MmTuc01_0307
+            MMJ: MSMAS_0998
+            MMAC: MSMAC_2357
+            MVC: MSVAZ_1931
+            MEK: MSKOL_1916
+            MLS: MSLAZ_1276
+            METM: MSMTP_2241
+            MEF: MSWH1_2137
+            MEQ: MSWHS_2961
+            MSJ: MSSAC_3286
+            MSZ: MSSIH_1143
+            MSW: MSSIT_1193
+            MTHR: MSTHT_2542
+            MTHE: MSTHC_0741
+            MHOR: MSHOH_1189
+            MFZ: AOB57_002635
+            MHAB: RSJ42_10550
+            METW: AAY43_06905
+            MBU: Mbur_2341(glmU)
+            MMET: MCMEM_0484
+            MELO: J7W08_00410
+            MMH: Mmah_0055
+            MHAZ: BHR79_03135
+            MPOT: BKM01_05135
+            MEV: Metev_2274
+            MZH: Mzhil_1657
+            MPY: Mpsy_2687
+            MZI: HWN40_09290
+            MMAV: RE476_00895
+            MSEB: RE474_10640
+            MHZ: Metho_1847
+            MTP: Mthe_0901
+            MCJ: MCON_2572(glmU)
+            MHI: Mhar_2268
+            MHU: Mhun_2853
+            MRTJ: KHC33_02680
+            MLA: Mlab_0666
+            MEM: Memar_2229
+            MBG: BN140_1431(glmU2)
+            MEMA: MMAB1_1836(rfbA)
+            MCHK: MchiMG62_25460
+            MSUM: OH143_05430
+            MRC: R6Y96_03625
+            MEND: L6E24_05400
+            MEFW: F1737_07775
+            MAQE: RJ40_07020
+            MFK: E2N92_07175
+            MOU: OU421_07650
+            MESB: L1S32_11035
+            MANQ: L1994_08270
+            MBN: Mboo_0254
+            MFO: Metfor_2859
+            MESK: METHP_00608
+            MPL: Mpal_0314
+            MPD: MCP_0802
+            MEZ: Mtc_2010(glmU-2)
+            RCI: RCIX1438(rfbA-4)
+            HAL: VNG_0009G(graD2)
+            HSL: OE_1016R(graD2)
+            HANR: LJ422_00055
+            HDL: HALDL1_11065
+            HAGS: JT689_01700
+            HABO: JRZ79_00035
+            HNO: LT974_06355
+            HLU: LT972_05190 LT972_06675 LT972_06685
+            HANX: ABSL23_06020(glmU)
+            HALH: HTSR_0890(glmU)
+            HHSR: HSR6_0623(glmU) HSR6_0906(glmU2)
+            HSU: HLASF_0890(glmU)
+            HSF: HLASA_0887(glmU)
+            HAHS: HSRCO_1680(gcd1-2) HSRCO_1828(gcd1-3)
+            SALR: FQU85_07715
+            HALR: EFA46_011310
+            HJE: HacjB3_01710
+            HDO: MUK72_04425
+            HALX: M0R89_14165 M0R89_17845 M0R89_21585
+            HAXZ: M0R88_14560 M0R88_18190
+            HAYC: NGM10_01105 NGM10_15470
+            HAXY: NGM07_04380 NGM07_23245
+            SALI: L593_04855 L593_11420
+            SAIM: K0C01_03520
+            HARA: AArcS_0504(gcd1-2) AArcS_0848(gcd1-4)
+            HMA: rrnAC1081(rffH1)
+            HSIN: KDQ40_05000
+            HHI: HAH_1684(rffH2)
+            HHN: HISP_08605
+            HAB: SG26_16325
+            HTA: BVU17_08150
+            HALJ: G9465_11675
+            HUT: Huta_2917
+            HTI: HTIA_2588
+            HALA: Hrd1104_04940
+            HASV: SVXHr_1663(gcd1-2)
+            HABN: HBNXHr_1645(gcd1-2)
+            HMU: Hmuk_2065
+            HALZ: E5139_13460
+            HALL: LC1Hm_1393
+            HAZP: GBQ70_13475
+            HALI: BV210_15455 BV210_17765
+            HSN: DV733_11360
+            HDS: HSR122_0731(gcd1)
+            HRR: HZS55_16345
+            HPEL: HZS54_19110
+            HLT: I7X12_19550
+            HARC: HARCEL1_07290 HARCEL1_11810
+            SSAI: N0B31_07295
+            HAAD: MW046_03485
+            NPH: NP_4276A(graD6) NP_4656A(graD2)
+            NHO: HWV23_16335
+            NSAL: HWV07_01550
+            HWA: HQ_2992A(graD4)
+            HWC: Hqrw_3506(graD4)
+            HVO: HVO_A0586(graD3)
+            HALE: G3A49_06005
+            HLN: SVXHx_2523 SVXHx_4046
+            HME: HFX_2130(rffH1) HFX_6127(rffH1) HFX_6312(rffH1)
+            HGI: ABY42_17090 ABY42_17735
+            HLS: KU306_15965 KU306_17485
+            HBO: Hbor_36520
+            HAQ: DU484_07230 DU484_15325
+            HAJ: DU500_07420 DU500_15345
+            HAER: DU502_13420
+            HRA: EI982_08225
+            HLM: DV707_04355
+            HALM: FCF25_01345
+            HLA: Hlac_1083 Hlac_2874
+            HALP: DOS48_05080
+            HALB: EKH57_04995
+            HEZZ: EO776_06835
+            HALQ: Hrr1229_001610
+            HSS: J7656_09830
+            HSAI: HPS36_00170
+            HAZZ: KI388_04345
+            HAE: halTADL_3349
+            HALN: B4589_016415
+            HALG: HUG10_14685 HUG10_19495 HUG10_21365
+            HALU: HUG12_01005 HUG12_01615 HUG12_21255
+            HMP: K6T50_17185 K6T50_17195
+            HRE: K6T36_14770 K6T36_17300 K6T36_17310
+            HACB: Hbl1158_15540 Hbl1158_15550
+            HDF: AArcSl_1933(glmU)
+            HAAA: AArcCO_1934(gcd1-2)
+            HAH: Halar_2341
+            HTU: Htur_1202 Htur_5109
+            HSAL: JMJ58_02645 JMJ58_21810
+            HAKZ: J0X25_12685 J0X25_20995
+            NMG: Nmag_3048(graD2)
+            HXA: Halxa_3081
+            NAT: NJ7G_3629
+            NPE: Natpe_2880
+            NVR: FEJ81_06885 FEJ81_13465
+            NPL: FGF80_12905
+            NAY: HYG81_16615
+            HALY: HYG82_00675
+            HJT: DVR14_04525
+            HLO: J0X27_15140
+            NGE: Natgr_3335
+            HLC: CHINAEXTREME04935 CHINAEXTREME16435
+            HRU: Halru_1029
+            SAWL: NGM29_08885
+            HALV: NGM15_01055
+            NOU: Natoc_3409
+            HLR: HALLA_08700 HALLA_14150
+            NAJ: B1756_09540
+            NAG: AArcMg_1271
+            NAN: AArc1_2346
+            NARA: QQ977_00170
+            NBG: DV706_01385 DV706_15885
+            NAS: GCU68_12305
+            HDA: BB347_02615
+            NAC: AQV86_00490 AQV86_00500
+            MEAE: QEN48_01250
+            MER: MMINT_02670
+            ABI: Aboo_0280
+            ACF: AciM339_0783
+            APE: APE_1202.1
+            ACJ: ACAM_0762
+            SMR: Smar_0849
+            SHC: Shell_1620
+            IHO: Igni_0873
+            IPC: IPA_00455
+            DKA: DKAM_1334
+            DFD: Desfe_1429
+            DMU: Desmu_1325
+            TAG: Tagg_1347
+            TCS: IMZ38_00705
+            IAG: Igag_1093
+            THG: TCELL_0401
+            HBU: Hbut_1036
+            PFM: Pyrfu_1473
+            PDL: Pyrde_1774
+            PABI: PABY_18660(spn)
+            PARE: PYJP_02370(glmU)
+            STO: STK_04520
+            SOH: D1869_02050
+            SJV: SJAV_14560(spn)
+            SSO: SSO0745
+            SOL: Ssol_1801
+            SSOA: SULA_1827
+            SSOL: SULB_1828
+            SSOF: SULC_1826
+            SSHI: J5U23_02667
+            SCAS: SACC_06980
+            SIS: LS215_1492
+            SIA: M1425_1397
+            SIM: M1627_1447
+            SID: M164_1391
+            SIY: YG5714_1392
+            SIN: YN1551_1451
+            SII: LD85_1602
+            SIH: SiH_1343
+            SIR: SiRe_1265
+            SIC: SiL_1256
+            SULA: BFU36_02350
+            SULE: GFS03_07855
+            SAI: Saci_0619
+            SACN: SacN8_03010
+            SACR: SacRon12I_03000
+            SACS: SUSAZ_02815
+            SULO: GFS33_13280
+            SULL: EWF20_03570
+            MSE: Msed_0068
+            MEMJ: MJ1HA_0154
+            MCN: Mcup_1988
+            MHK: DFR87_06630
+            MPRU: DFR88_06325
+            MTEN: GWK48_05495
+            MJN: MjAS7_0658
+            AHO: Ahos_0822
+            AMAN: B6F84_07610
+            ABRI: DFR85_07220
+            ASUL: DFR86_06655
+            AAMB: D1866_11985
+            ACIH: HS5_21960
+            SACD: HS1genome_0199
+            SAZO: D1868_02105
+            CSTY: KN1_19100
+            STEP: IC006_1737
+            SMET: RQ359_000105(spn)
+            SAHS: HS7_08090
+            ASC: ASAC_1091
+            ACIA: SE86_06590
+            CLG: Calag_0445
+            FFO: FFONT_0438
+            KCR: Kcr_1379
+            MVJ: ACO0C9_02970(glmU)
+            CSU: CSUB_C1499
+            BARC: AOA65_1819(glmU_2)
+            BARB: AOA66_1497(glmU_3)
+            FLT: Sv326_0194
+            NCON: LC1Nh_1149(glmU) LC1Nh_1150(glmU2)
+            NOCC: SVXNc_0559(gcd1-2) SVXNc_0561(gcd1-3)
+            NHF: HBNXNv_1157(glmU)
+            LOKI: Lokiarch_02940(glmU_1) Lokiarch_26580(glmU_5)
+            LOB: NEF87_000117 NEF87_001245
+            PSYT: DSAG12_02719(glmU)
+            OYW: OdinLCB4_001065
+            AGW: QT03_C0001G0478 QT03_C0001G1263
+REFERENCE   PMID:29507091
+  AUTHORS   Dadashipour M, Iwamoto M, Hossain MM, Akutsu JI, Zhang Z, Kawarabayasi Y
+  TITLE     Identification of a Direct Biosynthetic Pathway for UDP-N-Acetylgalactosamine from Glucosamine-6-Phosphate in Thermophilic Crenarchaeon Sulfolobus tokodaii.
+  JOURNAL   J Bacteriol 200:e00048-18 (2018)
+            DOI:10.1128/JB.00048-18
+  SEQUENCE  [sto:STK_04520]
+REFERENCE   PMID:20400541
+  AUTHORS   Zhang Z, Akutsu J, Kawarabayasi Y
+  TITLE     Identification of novel acetyltransferase activity on the thermostable protein ST0452 from Sulfolobus tokodaii strain 7.
+  JOURNAL   J Bacteriol 192:3287-93 (2010)
+            DOI:10.1128/JB.01683-09
+  SEQUENCE  [sto:STK_04520]
+REFERENCE   PMID:18263721
+  AUTHORS   Namboori SC, Graham DE
+  TITLE     Acetamido sugar biosynthesis in the Euryarchaea.
+  JOURNAL   J Bacteriol 190:2987-96 (2008)
+            DOI:10.1128/JB.01970-07
+  SEQUENCE  [mja:MJ_1101] [mmp:MMP1076]
+///

@@ -1,0 +1,24 @@
+ENTRY       R03182                      Reaction
+NAME        7,8-diaminononanoate:carbon-dioxide cyclo-ligase
+DEFINITION  ATP + 7,8-Diaminononanoate + CO2 <=> ADP + Orthophosphate + Dethiobiotin
+EQUATION    C00002 + C01037 + C00011 <=> C00008 + C00009 + C01909
+COMMENT     two-step reaction (see R12933+R12934)
+RCLASS      RC00002  C00002_C00008
+            RC00868  C01037_C01909
+ENZYME      6.3.3.3
+PATHWAY     rn00780  Biotin metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00123  Biotin biosynthesis, pimeloyl-ACP/CoA => biotin
+            M00573  Biotin biosynthesis, BioI pathway, long-chain-acyl-ACP => pimeloyl-ACP => biotin
+            M00577  Biotin biosynthesis, BioW pathway, pimelate => pimeloyl-CoA => biotin
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.3  Cyclo-ligases
+                6.3.3.3
+                 R03182  ATP + 7,8-Diaminononanoate + CO2 <=> ADP + Orthophosphate + Dethiobiotin
+ORTHOLOGY   K01935  dethiobiotin synthetase [EC:6.3.3.3]
+            K19562  bifunctional dethiobiotin synthetase / spermidine---8-amino-7-oxononanoate transaminase [EC:6.3.3.3 2.6.1.127]
+DBLINKS     RHEA: 15808
+///

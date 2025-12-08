@@ -1,0 +1,25 @@
+ENTRY       R01169                      Reaction
+NAME        S-adenosyl-L-methionine:L-histidine Nalpha-methyltransferase
+DEFINITION  L-Histidine + 3 S-Adenosyl-L-methionine + H+ <=> Hercynine + 3 S-Adenosyl-L-homocysteine
+EQUATION    C00135 + 3 C00019 + C00080 <=> C05575 + 3 C00021
+COMMENT     three-step reaction (see R10523+R10524+R04436)
+RCLASS      RC00003  C00019_C00021
+            RC02308  C00135_C05575
+ENZYME      2.1.1.44
+PATHWAY     rn00340  Histidine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.44
+                 R01169  L-Histidine + 3 S-Adenosyl-L-methionine + H+ <=> Hercynine + 3 S-Adenosyl-L-homocysteine
+ORTHOLOGY   K18911  L-histidine Nalpha-methyltransferase [EC:2.1.1.44]
+            K20246  L-histidine Nalpha-methyltransferase / hercynylcysteine S-oxide synthase [EC:2.1.1.44 1.21.3.10]
+REFERENCE   1  [PMID:5484456]
+  AUTHORS   Ishikawa Y, Melville DB.
+  TITLE     The enzymatic alpha-N-methylation of histidine.
+  JOURNAL   J Biol Chem 245:5967-73 (1970)
+            DOI:10.1016/S0021-9258(18)62649-3
+DBLINKS     RHEA: 38474
+///

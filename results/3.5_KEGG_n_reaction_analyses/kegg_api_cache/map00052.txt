@@ -1,0 +1,18 @@
+ENTRY       map00052                    Pathway
+NAME        Galactose metabolism
+CLASS       Metabolism; Carbohydrate metabolism
+PATHWAY_MAP map00052  Galactose metabolism
+MODULE      M00309  Non-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate [PATH:map00052]
+            M00552  D-galactonate degradation, De Ley-Doudoroff pathway, D-galactonate => glycerate-3P [PATH:map00052]
+            M00554  UDP-Gal biosynthesis, Gal => UDP-Gal [PATH:map00052]
+            M00632  Galactose degradation, Leloir pathway, galactose => alpha-D-glucose-1P [PATH:map00052]
+            M00633  Semi-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate-3P [PATH:map00052]
+            M01004  UDP-Galf biosynthesis, UDP-Glc => UDP-Galf [PATH:map00052]
+DBLINKS     GO: 0006012
+REL_PATHWAY map00010  Glycolysis / Gluconeogenesis
+            map00030  Pentose phosphate pathway
+            map00040  Pentose and glucuronate interconversions
+            map00051  Fructose and mannose metabolism
+            map00520  Amino sugar and nucleotide sugar metabolism
+KO_PATHWAY  ko00052
+///

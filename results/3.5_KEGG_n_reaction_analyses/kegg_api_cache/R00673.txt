@@ -1,0 +1,20 @@
+ENTRY       R00673                      Reaction
+NAME        L-tryptophan indole-lyase (deaminating; pyruvate-forming)
+DEFINITION  L-Tryptophan + H2O <=> Indole + Pyruvate + Ammonia
+EQUATION    C00078 + C00001 <=> C00463 + C00022 + C00014
+COMMENT     multi-step reaction
+            intermediate (2-aminoacrylate Schiff base with PLP)
+RCLASS      RC00209  C00078_C00463
+            RC00355  C00022_C00078
+ENZYME      4.1.99.1
+PATHWAY     rn00380  Tryptophan metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.99  Other carbon-carbon lyases
+                4.1.99.1
+                 R00673  L-Tryptophan + H2O <=> Indole + Pyruvate + Ammonia
+ORTHOLOGY   K01667  tryptophanase [EC:4.1.99.1]
+DBLINKS     RHEA: 19556
+///

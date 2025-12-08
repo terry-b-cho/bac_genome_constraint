@@ -1,0 +1,20 @@
+ENTRY       R00362                      Reaction
+NAME        citrate oxaloacetate-lyase (forming acetate from the pro-S carboxymethyl group of citrate);
+            citrate oxaloacetate-lyase ((pro-3S)-CH2COO- -->acetate)
+DEFINITION  Citrate <=> Acetate + Oxaloacetate
+EQUATION    C00158 <=> C00033 + C00036
+COMMENT     two-step reaction (similar to R01323+R00354, using citrate lyase [acyl-carrier protein] (K01646) instead of CoA)
+RCLASS      RC00067  C00036_C00158
+            RC01118  C00033_C00158
+ENZYME      4.1.3.6
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.3  Oxo-acid-lyases
+                4.1.3.6
+                 R00362  Citrate <=> Acetate + Oxaloacetate
+ORTHOLOGY   K01643  citrate lyase subunit alpha / citrate CoA-transferase [EC:2.8.3.10]
+            K01644  citrate lyase subunit beta / citryl-CoA lyase [EC:4.1.3.34]
+            K01646  citrate lyase subunit gamma (acyl carrier protein)
+DBLINKS     RHEA: 10763
+///

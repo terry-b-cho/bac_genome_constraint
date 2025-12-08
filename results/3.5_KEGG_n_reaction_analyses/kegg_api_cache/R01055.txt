@@ -1,0 +1,24 @@
+ENTRY       R01055                      Reaction
+NAME        uracil hydro-lyase (adding D-ribose 5-phosphate;pseudouridine-5'-phosphate-forming)
+DEFINITION  Uracil + D-Ribose 5-phosphate <=> Pseudouridine 5'-phosphate + H2O
+EQUATION    C00106 + C00117 <=> C01168 + C00001
+RCLASS      RC00432  C00106_C01168
+            RC00433  C00117_C01168
+ENZYME      4.2.1.70
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.2  Carbon-oxygen lyases
+               4.2.1  Hydro-lyases
+                4.2.1.70
+                 R01055  Uracil + D-Ribose 5-phosphate <=> Pseudouridine 5'-phosphate + H2O
+ORTHOLOGY   K16329  pseudouridylate synthase [EC:4.2.1.70]
+            K16330  pseudouridylate synthase / pseudouridine kinase [EC:4.2.1.70 2.7.1.83]
+REFERENCE   1  [PMID:18591240]
+  AUTHORS   Preumont A, Snoussi K, Stroobant V, Collet JF, Van Schaftingen E
+  TITLE     Molecular identification of pseudouridine-metabolizing enzymes.
+  JOURNAL   J Biol Chem 283:25238-46 (2008)
+            DOI:10.1074/jbc.M804122200
+DBLINKS     RHEA: 18340
+///

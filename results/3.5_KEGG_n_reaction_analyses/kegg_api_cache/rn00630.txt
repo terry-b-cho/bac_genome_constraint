@@ -1,0 +1,220 @@
+ENTRY       rn00630                     Pathway
+NAME        Glyoxylate and dicarboxylate metabolism
+CLASS       Metabolism; Carbohydrate metabolism
+PATHWAY_MAP rn00630  Glyoxylate and dicarboxylate metabolism
+MODULE      M00012  Glyoxylate cycle [PATH:rn00630]
+            M00373  Ethylmalonyl pathway [PATH:rn00630]
+            M00532  Photorespiration [PATH:rn00630]
+            M00621  Glycine cleavage system [PATH:rn00630]
+            M00740  Methylaspartate cycle [PATH:rn00630]
+            M00741  Propanoyl-CoA metabolism, propanoyl-CoA => succinyl-CoA [PATH:rn00630]
+            M00968  Pentose bisphosphate pathway (nucleoside degradation), archaea, nucleoside/NMP => 3-PGA/glycerone phosphate [PATH:rn00630]
+DBLINKS     GO: 0046487 0043648
+REACTION    R00009  hydrogen-peroxide:hydrogen-peroxide oxidoreductase
+            R00013  glyoxylate carboxy-lyase (dimerizing; tartronate-semialdehyde-forming)
+            R00021  L-glutamate:ferredoxin oxidoreductase (transaminating)
+            R00235  acetate:CoA ligase (AMP-forming)
+            R00238  acetyl-CoA:acetyl-CoA C-acetyltransferase
+            R00253  L-glutamate:ammonia ligase (ADP-forming)
+            R00262  L-threo-3-methylaspartate carboxy-aminomethylmutase
+            R00273  oxalate:oxygen oxidoreductase
+            R00339  (R,R)-tartrate hydro-lyase (oxaloacetate-forming)
+            R00342  (S)-malate:NAD+ oxidoreductase
+            R00351  acetyl-CoA:oxaloacetate C-acetyltransferase (thioester-hydrolysing)
+            R00369  L-alanine:glyoxylate aminotransferase
+            R00372  glycine:2-oxoglutarate aminotransferase
+            R00373  glycine:oxaloacetate aminotransferase
+            R00465  glycolate:NADP+ oxidoreductase
+            R00466  glyoxylate:oxygen oxidoreductase
+            R00468  glyoxylate:NADP+ oxidoreductase (CoA-oxalylating)
+            R00470  4-hydroxy-2-oxoglutarate glyoxylate-lyase (pyruvate-forming)
+            R00472  acetyl-CoA:glyoxylate C-acetyltransferase (thioester-hydrolysing, carboxymethyl-forming); L-malate glyoxylate-lyase (CoA-acetylating)
+            R00473  L-malyl-CoA glyoxylate-lyase (acetyl-CoA-forming)
+            R00474  2-oxoglutarate:glyoxylate succinaldehydetransferase (decarboxylating); 2-hydroxy-3-oxoadipate glyoxylate-lyase (carboxylating)
+            R00475  glycolate:oxygen 2-oxidoreductase
+            R00476  glycolate:acceptor 2-oxidoreductase
+            R00477  3-oxalomalate glyoxylate-lyase (oxaloacetate-forming)
+            R00479  isocitrate glyoxylate-lyase (succinate-forming)
+            R00518  ATP:formate phosphotransferase
+            R00519  formate:NAD+ oxidoreductase
+            R00521  formyl-CoA hydrolase
+            R00522  oxalate carboxy-lyase
+            R00524  formamide amidohydrolase
+            R00525  N-formyl-L-glutamate amidohydrolase
+            R00526  N-formyl-L-aspartate amidohydrolase
+            R00588  L-serine:glyoxylate aminotransferase
+            R00653  N-formyl-L-methionine amidohydrolase
+            R00717  glycolate:NAD+ oxidoreductase
+            R00833  (R)-methylmalonyl-CoA CoA-carbonylmutase
+            R00934  L-erythro-3-methylmalyl-CoA glyoxylate-lyase (propanoyl-CoA-forming)
+            R00944  10-formyltetrahydrofolate amidohydrolase
+            R00945  5,10-methylenetetrahydrofolate:glycine hydroxymethyltransferase
+            R01180  butanoyl-CoA:glyoxylate C-butanoyltransferase (thioester-hydrolysing, 1-carboxypropyl-forming); 3-ethylmalate glyoxylate-lyase (CoA-butanoylating)
+            R01221  glycine:NAD+ 2-oxidoreductase (tetrahydrofolate-methylene-adding); glycine cleavage system
+            R01256  (S)-malate:CoA ligase (ADP-forming)
+            R01325  citrate hydro-lyase (cis-aconitate-forming)
+            R01333  glycolaldehyde:NAD+ oxidoreductase
+            R01334  2-phosphoglycolate phosphohydrolase
+            R01388  D-glycerate:NAD+ 2-oxidoreductase
+            R01390  
+            R01392  D-glycerate:NADP+ 2-oxidoreductase
+            R01393  hydroxypyruvate carboxy-lyase (glycolaldehyde-forming)
+            R01394  hydroxypyruvate aldose-ketose-isomerase
+            R01514  ATP:(R)-glycerate 3-phosphotransferase
+            R01558  oxalate:CoA ligase (AMP-forming)
+            R01559  succinyl-CoA:oxalate CoA-transferase
+            R01745  (R)-glycerate:NAD+ oxidoreductase
+            R01747  (R)-glycerate:NADP+ oxidoreductase
+            R01749  D-glycerate:NAD+ oxidoreductase (carboxylating)
+            R01750  D-glycerate:NADP+ oxidoreductase (carboxylating)
+            R01781  1,2-ethanediol:NAD+ oxidoreductase
+            R01859  propanoyl-CoA:carbon-dioxide ligase (ADP-forming)
+            R01900  isocitrate hydro-lyase (cis-aconitate-forming)
+            R01908  oxalyl-CoA carboxy-lyase (formyl-CoA-forming)
+            R01959  N-formyl-L-kynurenine amidohydrolase
+            R01977  (R)-3-hydroxybutanoyl-CoA:NADP+ oxidoreductase
+            R02509  N,N-dimethylformamide amidohydrolase
+            R02544  meso-tartrate:NAD+ oxidoreductase
+            R02545  meso-tartaric acid:NAD+ oxidoreductase
+            R02546  (R,R)-tartrate epimerase
+            R02547  trans-2,3-epoxysuccinate hydrolase
+            R02765  methylmalonyl-CoA epimerase
+            R03027  (3R)-3-hydroxybutanoyl-CoA hydro-lyase
+            R03040  3-propylmalate glyoxylate-lyase (CoA-pentanoylating)
+            R03127  dihydroxyfumarate carboxy-lyase
+            R03128  
+            R03140  D-ribulose 1,5-bisphosphate oxygenase
+            R03146  formate:ferricytochrome-b1 oxidoreductase
+            R03696  L-threo-3-methylaspartate ammonia-lyase
+            R05076  (2R,3S)-2-methylmalyl-CoA hydro-lyase (2-methylfumaryl-CoA-forming)
+            R06180  
+            R07290  formyl-CoA:oxalate CoA-transferase
+            R07410  L-aspartate:NAD+ oxidoreductase (deaminating)
+            R08572  ATP:(R)-glycerate 2-phosphotransferase
+            R09291  ethylmalonyl-CoA:NADP+ oxidoreductase (decarboxylating)
+            R09292  (2R)-ethylmalonyl-CoA CoA-carbonylmutase
+            R09293  (2S)-methylsuccinyl-CoA:electron-transfer flavoprotein oxidoreductase
+            R09718  D-erythro-3-hydroxyaspartate glyoxylate-lyase (glycine-forming)
+            R09979  (2S)-ethylmalonyl-CoA epimerase
+            R10612  (S)-malyl-CoA hydrolase
+            R10904  succinyl-CoA:mesaconate CoA-transferase
+            R12696  D-ribulose 1-phosphate glycolaldehyde-lyase (glycerone-phosphate-forming)
+            R13090  D-ribulose-1,5-bisphosphate 5-phosphohydrolase
+            R13464  (3S)-3-hydroxy-D-aspartate hydro-lyase
+COMPOUND    C00007  Oxygen
+            C00011  CO2
+            C00014  Ammonia
+            C00022  Pyruvate
+            C00024  Acetyl-CoA
+            C00025  L-Glutamate
+            C00026  2-Oxoglutarate
+            C00027  Hydrogen peroxide
+            C00033  Acetate
+            C00036  Oxaloacetate
+            C00037  Glycine
+            C00042  Succinate
+            C00048  Glyoxylate
+            C00049  L-Aspartate
+            C00058  Formate
+            C00064  L-Glutamine
+            C00065  L-Serine
+            C00091  Succinyl-CoA
+            C00100  Propanoyl-CoA
+            C00111  Glycerone phosphate
+            C00136  Butanoyl-CoA
+            C00149  (S)-Malate
+            C00158  Citrate
+            C00160  Glycolate
+            C00168  Hydroxypyruvate
+            C00197  3-Phospho-D-glycerate
+            C00209  Oxalate
+            C00258  D-Glycerate
+            C00266  Glycolaldehyde
+            C00311  Isocitrate
+            C00313  Oxalyl-CoA
+            C00332  Acetoacetyl-CoA
+            C00417  cis-Aconitate
+            C00552  meso-Tartaric acid
+            C00631  2-Phospho-D-glycerate
+            C00683  (S)-Methylmalonyl-CoA
+            C00798  Formyl-CoA
+            C00877  Crotonoyl-CoA
+            C00888  Pentanoyl-CoA
+            C00898  (R,R)-Tartaric acid
+            C00975  Dihydroxyfumarate
+            C00988  2-Phosphoglycolate
+            C01127  4-Hydroxy-2-oxoglutarate
+            C01146  2-Hydroxy-3-oxopropanoate
+            C01182  D-Ribulose 1,5-bisphosphate
+            C01213  (R)-Methylmalonyl-CoA
+            C01380  Ethylene glycol
+            C01732  Mesaconate
+            C01989  3-Ethylmalate
+            C01990  3-Oxalomalate
+            C02123  3-Propylmalate
+            C02405  Formyl phosphate
+            C03217  2-Hydroxy-3-oxoadipate
+            C03459  2-Hydroxy-3-oxosuccinate
+            C03548  trans-2,3-Epoxysuccinate
+            C03561  (R)-3-Hydroxybutanoyl-CoA
+            C03618  L-threo-3-Methylaspartate
+            C04348  L-Malyl-CoA
+            C05840  Iminoaspartate
+            C06027  L-erythro-3-Methylmalyl-CoA
+            C06028  2-Methylfumaryl-CoA
+            C06049  N-Formylderivatives
+            C18026  (2S)-Ethylmalonyl-CoA
+            C18324  (2S)-Methylsuccinyl-CoA
+            C19838  D-erythro-3-Hydroxyaspartate
+            C20238  (2R)-Ethylmalonyl-CoA
+            C22337  D-Ribulose 1-phosphate
+REFERENCE   PMID:10978349
+  AUTHORS   Njau RK, Herndon CA, Hawes JW.
+  TITLE     Novel beta-hydroxyacid dehydrogenases in Escherichia coli and Haemophilus influenzae.
+  JOURNAL   J Biol Chem 275:38780-6 (2000)
+            DOI:10.1074/jbc.M007432200
+REFERENCE   PMID:18065535
+  AUTHORS   Zarzycki J, Schlichting A, Strychalsky N, Muller M, Alber BE, Fuchs G
+  TITLE     Mesaconyl-coenzyme A hydratase, a new enzyme of two central carbon metabolic pathways in bacteria.
+  JOURNAL   J Bacteriol 190:1366-74 (2008)
+            DOI:10.1128/JB.01621-07
+REFERENCE   PMID:18819910
+  AUTHORS   Erb TJ, Retey J, Fuchs G, Alber BE
+  TITLE     Ethylmalonyl-CoA mutase from Rhodobacter sphaeroides defines a new subclade of coenzyme B12-dependent acyl-CoA mutases.
+  JOURNAL   J Biol Chem 283:32283-93 (2008)
+            DOI:10.1074/jbc.M805527200
+REFERENCE   PMID:9596633
+  AUTHORS   Coschigano KT, Melo-Oliveira R, Lim J, Coruzzi GM
+  TITLE     Arabidopsis gls mutants and distinct Fd-GOGAT genes. Implications for photorespiration and primary nitrogen assimilation.
+  JOURNAL   Plant Cell 10:741-52 (1998)
+            DOI:10.1105/tpc.10.5.741
+REFERENCE   PMID:16407450
+  AUTHORS   Masclaux-Daubresse C, Reisdorf-Cren M, Pageau K, Lelandais M, Grandjean O, Kronenberger J, Valadier MH, Feraud M, Jouglet T, Suzuki A
+  TITLE     Glutamine synthetase-glutamate synthase pathway and glutamate dehydrogenase play distinct roles in the sink-source nitrogen cycle in tobacco.
+  JOURNAL   Plant Physiol 140:444-56 (2006)
+            DOI:10.1104/pp.105.071910
+REFERENCE   PMID:21252347
+  AUTHORS   Khomyakova M, Bukmez O, Thomas LK, Erb TJ, Berg IA
+  TITLE     A methylaspartate cycle in haloarchaea.
+  JOURNAL   Science 331:334-7 (2011)
+            DOI:10.1126/science.1196544
+REFERENCE   PMID:11513957
+  AUTHORS   Serrano JA, Bonete MJ
+  TITLE     Sequencing, phylogenetic and transcriptional analysis of the glyoxylate bypass operon (ace) in the halophilic archaeon Haloferax volcanii.
+  JOURNAL   Biochim Biophys Acta 1520:154-62 (2001)
+            DOI:10.1016/S0167-4781(01)00263-9
+REL_PATHWAY rn00010  Glycolysis / Gluconeogenesis
+            rn00020  Citrate cycle (TCA cycle)
+            rn00030  Pentose phosphate pathway
+            rn00053  Ascorbate and aldarate metabolism
+            rn00071  Fatty acid degradation
+            rn00230  Purine metabolism
+            rn00250  Alanine, aspartate and glutamate metabolism
+            rn00260  Glycine, serine and threonine metabolism
+            rn00270  Cysteine and methionine metabolism
+            rn00620  Pyruvate metabolism
+            rn00710  Carbon fixation by Calvin cycle
+            rn00750  Vitamin B6 metabolism
+            rn00910  Nitrogen metabolism
+KO_PATHWAY  ko00630
+///

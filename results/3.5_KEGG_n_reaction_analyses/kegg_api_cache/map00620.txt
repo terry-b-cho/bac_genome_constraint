@@ -1,0 +1,30 @@
+ENTRY       map00620                    Pathway
+NAME        Pyruvate metabolism
+CLASS       Metabolism; Carbohydrate metabolism
+PATHWAY_MAP map00620  Pyruvate metabolism
+MODULE      M00168  CAM (Crassulacean acid metabolism), dark [PATH:map00620]
+            M00169  CAM (Crassulacean acid metabolism), light [PATH:map00620]
+            M00172  C4-dicarboxylic acid cycle, NADP - malic enzyme type [PATH:map00620]
+            M00307  Pyruvate oxidation, pyruvate => acetyl-CoA [PATH:map00620]
+            M00579  Phosphate acetyltransferase-acetate kinase pathway, acetyl-CoA => acetate [PATH:map00620]
+DBLINKS     GO: 0006090
+REFERENCE   
+  AUTHORS   Nishizuka Y, Seyama Y, Ikai A, Ishimura Y, Kawaguchi A (eds).
+  TITLE     [Cellular Functions and Metabolic Maps] (In Japanese)
+  JOURNAL   Tokyo Kagaku Dojin (1997)
+REL_PATHWAY map00010  Glycolysis / Gluconeogenesis
+            map00020  Citrate cycle (TCA cycle)
+            map00061  Fatty acid biosynthesis
+            map00250  Alanine, aspartate and glutamate metabolism
+            map00260  Glycine, serine and threonine metabolism
+            map00290  Valine, leucine and isoleucine biosynthesis
+            map00300  Lysine biosynthesis
+            map00522  Biosynthesis of 12-, 14- and 16-membered macrolides
+            map00630  Glyoxylate and dicarboxylate metabolism
+            map00640  Propanoate metabolism
+            map00650  Butanoate metabolism
+            map00760  Nicotinate and nicotinamide metabolism
+            map01056  Biosynthesis of type II polyketide backbone
+            map01059  Biosynthesis of enediyne antibiotics
+KO_PATHWAY  ko00620
+///

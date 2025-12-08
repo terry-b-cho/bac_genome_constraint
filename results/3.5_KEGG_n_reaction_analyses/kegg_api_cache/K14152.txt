@@ -1,0 +1,250 @@
+ENTRY       K14152                      KO
+SYMBOL      HIS4
+NAME        phosphoribosyl-ATP pyrophosphohydrolase / phosphoribosyl-AMP cyclohydrolase / histidinol dehydrogenase [EC:3.6.1.31 3.5.4.19 1.1.1.23]
+PATHWAY     map00340  Histidine metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01230  Biosynthesis of amino acids
+MODULE      M00026  Histidine biosynthesis, PRPP => histidine
+REACTION    R01158  L-histidinol:NAD+ oxidoreductase
+            R01163  L-histidinal:NAD+ oxidoreductase
+            R03012  L-histidinol:NAD+ oxidoreductase
+            R04035  phosphoribosyl-ATP pyrophosphohydrolase
+            R04037  1-(5-phospho-D-ribosyl)-AMP 1,6-hydrolase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09105 Amino acid metabolism
+               00340 Histidine metabolism
+                K14152  HIS4; phosphoribosyl-ATP pyrophosphohydrolase / phosphoribosyl-AMP cyclohydrolase / histidinol dehydrogenase
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.23  histidinol dehydrogenase
+                 K14152  HIS4; phosphoribosyl-ATP pyrophosphohydrolase / phosphoribosyl-AMP cyclohydrolase / histidinol dehydrogenase
+             3. Hydrolases
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.4  In cyclic amidines
+                3.5.4.19  phosphoribosyl-AMP cyclohydrolase
+                 K14152  HIS4; phosphoribosyl-ATP pyrophosphohydrolase / phosphoribosyl-AMP cyclohydrolase / histidinol dehydrogenase
+              3.6  Acting on acid anhydrides
+               3.6.1  In phosphorus-containing anhydrides
+                3.6.1.31  phosphoribosyl-ATP diphosphatase
+                 K14152  HIS4; phosphoribosyl-ATP pyrophosphohydrolase / phosphoribosyl-AMP cyclohydrolase / histidinol dehydrogenase
+DBLINKS     COG: COG0140 COG0139 COG0141
+            GO: 0004636 0004635 0004399
+GENES       PDAM: 113676644
+            SPIS: 111332294
+            CCLM: 134195265
+            CPEP: 111783531
+            SCE: YCL030C(HIS4)
+            SEUB: DI49_0725
+            SPAO: SPAR_C00360
+            AGO: AGOS_AFR703W
+            ERC: Ecym_1051
+            KLA: KLLA0_C01452g
+            KMX: KLMA_10065(HIS4)
+            LTH: KLTH0F01430g
+            VPO: Kpol_2002p40
+            ZRO: ZYRO0F17578g
+            CGR: 2886505(HIS4)
+            NCS: NCAS_0B08820(NCAS0B08820)
+            NDI: NDAI_0A00450(NDAI0A00450)
+            TPF: TPHA_0E03690(TPHA0E03690)
+            TGB: HG536_0B00640
+            TDL: TDEL_0C06570(TDEL0C06570)
+            KAF: KAFR_0D00420(KAFR0D00420)
+            KNG: KNAG_0C00510(KNAG0C00510)
+            ZMK: HG535_0A00640
+            SLUD: SCDLUD_003853
+            DHA: DEHA2F09086g
+            PIC: PICST_89228(HIS2)
+            PGU: PGUG_01505
+            SPAA: SPAPADRAFT_141809(HIS2)
+            LEL: PVL30_004050(HIS4)
+            LBG: 92210178(LODBEIA_P49820)
+            CAL: CAALFM_C400140CA(HIS4)
+            CTP: CTRG_00122
+            COT: CORT_0E02770
+            CDU: CD36_40210(HIS4)
+            CTEN: 18250847(HIS4)
+            CLU: CLUG_05130
+            CLUS: A9F13_03g01078
+            CAUR: CJI96_0002005
+            ASAU: 88175494(PUMCH_004434)
+            PPA: PAS_chr1-4_0160
+            PKZ: C5L36_0B02160
+            BNN: FOA43_002997
+            BBRX: BRETT_000766
+            OPA: HPODL_02434
+            YLI: 2905745(YALI2_A00250g)
+            SLB: AWJ20_2549(HIS4)
+            NCR: NCU03139(his-3)
+            NTE: NEUTE1DRAFT150173(NEUTE1DRAFT_150173)
+            SMP: 10805831(SMAC4_02870)
+            PAN: PODANSg5851
+            PBEL: QC761_111510(HIS4)
+            PPSD: QC762_111510(HIS4)
+            PPSP: QC763_111510(HIS4)
+            PPSA: QC764_111510(HIS4)
+            TTT: THITE_2113599
+            MTM: MYCTH_2296153
+            CTHR: CTHT_0060690
+            RTHE: 98123120(VTJ83DRAFT_2229)
+            MGR: MGG_01309
+            PPEI: PpBr36_00820
+            PGRI: PgNI_04235
+            TMN: UCRPA7_6183
+            SSCK: SPSK_01021
+            FGR: FGSG_00865
+            FPU: FPSE_11642
+            FPOA: FPOAC1_000917(HIS3)
+            FVN: FVRRES_01088
+            FVR: FVEG_00622
+            FOX: FOXG_00827
+            NHE: NECHADRAFT_31247
+            FFC: NCS54_00142500
+            FKR: NCS57_00139700
+            FMU: J7337_001357(HIS3)
+            TRE: TRIREDRAFT_4654
+            TRR: M419DRAFT_82815
+            TATV: 25774999(TrAtP1_006517)
+            TASP: 36608593(HIS3_1)
+            MAW: 19250509(HIS4_5)
+            MAJ: MAA_00713
+            MBRN: 26242906(his-3)
+            PCHM: VFPPC_08417
+            UVI: 66062960(UV8b_02182)
+            CMT: CCM_05425
+            AMUS: LMH87_006108
+            PLJ: 28891237(PLICBS_004464)
+            PTKZ: JDV02_009315(HIS4)
+            DCON: 63719295(DCS_06652)
+            VAL: VDBG_07236
+            VDA: VDAG_06876
+            CFJ: CFIO01_08371
+            CLUP: CLUP02_13698
+            CHIG: CH63R_05802
+            CDET: 87948785(CDEST_12285)
+            SAPO: SAPIO_CDS5499
+            ELA: UCREL1_5875
+            PFY: PFICI_06933
+            SSL: SS1G_12269
+            BFU: BCIN_05g05260(Bchis4)
+            MBE: MBM_03520
+            PSCO: LY89DRAFT_634247
+            GLZ: GLAREA_03764
+            ANI: ANIA_00797
+            AFM: AFUA_1G14570
+            ACT: ACLA_020860
+            NFI: NFIA_010850
+            AOR: AO090003000477
+            ANG: An01g12570
+            AFV: AFLA_001209
+            ALUC: AKAW2_10357A(HIS4)
+            ACHE: ACHE_30635A(HIS4)
+            APUU: APUU_11196A(HIS4)
+            PCS: N7525_010429
+            PDP: PDIP_66400
+            POU: POX_c03793
+            PPSF: 300786475(PFLUO_LOCUS1019)
+            TMF: EYB26_006086
+            TRG: TRUGW13939_09022
+            CIM: CIMG_03310
+            CPW: 9694341(HIS4)
+            URE: UREG_07141
+            ABE: ARB_00034
+            TVE: TRV_06267
+            PBL: PAAG_05406
+            PBN: PADG_06756
+            AJE: HCAG_02357
+            BGH: BDBG_06463
+            PNO: SNOG_11402
+            PTE: PTT_17572
+            PTRR: 6342900(PtrM4_115850)
+            BZE: COCCADRAFT_6922
+            BSC: COCSADRAFT_184845
+            BOR: COCMIDRAFT_24317
+            AALT: CC77DRAFT_800888
+            ADAC: 96087155(ACET3X_006833)
+            ARAB: EKO05_0003743
+            ZTR: MYCGRDRAFT_70608
+            PFJ: MYCFIDRAFT_87720
+            FFU: CLAFUR5_04554
+            CBET: CB0940_11685
+            BCOM: BAUCODRAFT_154476
+            NPA: UCRNP2_9657
+            TML: GSTUM_00010427001
+            SPO: 2539650(his2)
+            SOM: SOMG_02196(his2)
+            CNE: CND06120
+            CNB: CNBD0280
+            CNG: CNAG_06830
+            CGI: CGB_I0340C
+            CDEU: CNBG_5897
+            CDEC: 89991877(IAS62_005107)
+            CTEG: 91992235(I308_105380)
+            CBAS: 91983665(I312_103620)
+            CDEP: 91088063(L203_103853)
+            KMG: 30166319(I203_102385)
+            KNE: 92179906(IAR55_002648)
+            KDJ: 28969274(I303_104980)
+            KBI: 30210651(I302_106490)
+            KPIN: 30170451(I206_104549)
+            KSH: 87956705(IL334_004574)
+            KER: 91101540(V865_002736)
+            KSN: 43590215(CI109_102760)
+            KEP: 91094454(L201_003784)
+            TMS: TREMEDRAFT_40724
+            TASA: A1Q1_05314
+            CCAC: CcaHIS019_0202180(HIS4)
+            TVS: TRAVEDRAFT_117325
+            DSQ: DICSQDRAFT_61314
+            PCO: PHACADRAFT_113598
+            SHS: STEHIDRAFT_55379
+            HIR: HETIRDRAFT_472383
+            PSQ: PUNSTDRAFT_119424
+            ADL: AURDEDRAFT_110397
+            FME: FOMMEDRAFT_110658
+            GTR: GLOTRDRAFT_103469
+            RSX: RhiXN_04153
+            LBC: LACBIDRAFT_231720
+            CCI: CC1G_00367
+            ABP: AGABI1DRAFT72979(AGABI1DRAFT_72979)
+            ABV: AGABI2DRAFT184772(AGABI2DRAFT_184772)
+            PCUB: JR316_0004818
+            MRR: Moror_7438
+            MORE: E1B28_004284
+            SCM: SCHCO_02621953(SCHCODRAFT_02621953)
+            CPUT: CONPUDRAFT_81683
+            SLA: SERLADRAFT_446819
+            WSE: WALSEDRAFT_20394
+            WIC: J056_000977
+            UMA: UMAG_03974
+            PFP: PFL1_00987
+            SGRA: EX895_001409
+            MGL: MGL_2613
+            MRT: MRET_0476
+            MSYM: MSY001_0225
+            PGR: PGTG_13786
+            PTRC: PtA15_2A341
+            PSTR: Pst134EA_005041 Pst134EA_032370
+            MLR: MELLADRAFT_72470
+            RIE: OCT59_028343
+            MBR: MONBRDRAFT_29130
+            SRE: PTSG_05145
+            ACAN: ACA1_256390
+            PTI: PHATR_3140
+            FCY: FRACYDRAFT_177779
+            TPS: THAPSDRAFT_268256
+            PIF: PITG_09698
+            PSOJ: PHYSODRAFT_351968
+            SPHS: ETR14_18230(hisD)
+            THEP: DYI95_002760(hisD)
+REFERENCE   PMID:7049842
+  AUTHORS   Donahue TF, Farabaugh PJ, Fink GR
+  TITLE     The nucleotide sequence of the HIS4 region of yeast.
+  JOURNAL   Gene 18:47-59 (1982)
+            DOI:10.1016/0378-1119(82)90055-5
+  SEQUENCE  [sce:YCL030C]
+///

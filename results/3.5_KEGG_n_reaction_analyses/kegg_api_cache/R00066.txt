@@ -1,0 +1,22 @@
+ENTRY       R00066                      Reaction
+NAME        6,7-dimethyl-8-(1-D-ribityl)lumazine:6,7-dimethyl-8-(1-D-ribityl)lumazine 2,3-butanediyltransferase
+DEFINITION  2 6,7-Dimethyl-8-(D-ribityl)lumazine <=> Riboflavin + 5-Amino-6-(1-D-ribitylamino)uracil
+EQUATION    2 C04332 <=> C00255 + C04732
+RCLASS      RC00958  C00255_C04332
+            RC00960  C04332_C04732
+ENZYME      2.5.1.9
+PATHWAY     rn00740  Riboflavin metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01240  Biosynthesis of cofactors
+MODULE      M00125  Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD
+            M00911  Riboflavin biosynthesis, fungi, GTP => riboflavin/FMN/FAD
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+                2.5.1.9
+                 R00066  2 6,7-Dimethyl-8-(D-ribityl)lumazine <=> Riboflavin + 5-Amino-6-(1-D-ribitylamino)uracil
+ORTHOLOGY   K00793  riboflavin synthase [EC:2.5.1.9]
+DBLINKS     RHEA: 20775
+///

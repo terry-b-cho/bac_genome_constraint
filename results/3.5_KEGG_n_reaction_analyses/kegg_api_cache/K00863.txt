@@ -1,0 +1,840 @@
+ENTRY       K00863                      KO
+SYMBOL      DAK, TKFC
+NAME        triose/dihydroxyacetone kinase / FAD-AMP lyase (cyclizing) [EC:2.7.1.28 2.7.1.29 4.6.1.15]
+PATHWAY     map00051  Fructose and mannose metabolism
+            map00561  Glycerolipid metabolism
+            map00680  Methane metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01200  Carbon metabolism
+            map04622  RIG-I-like receptor signaling pathway
+MODULE      M00344  Formaldehyde assimilation, xylulose monophosphate pathway
+REACTION    R01011  ATP:glycerone phosphotransferase
+            R01059  ATP:D-glyceraldehyde 3-phosphotransferase
+DISEASE     H02727  Triokinase and FMN cyclase deficiency syndrome
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09101 Carbohydrate metabolism
+               00051 Fructose and mannose metabolism
+                K00863  DAK, TKFC; triose/dihydroxyacetone kinase / FAD-AMP lyase (cyclizing)
+              09102 Energy metabolism
+               00680 Methane metabolism
+                K00863  DAK, TKFC; triose/dihydroxyacetone kinase / FAD-AMP lyase (cyclizing)
+              09103 Lipid metabolism
+               00561 Glycerolipid metabolism
+                K00863  DAK, TKFC; triose/dihydroxyacetone kinase / FAD-AMP lyase (cyclizing)
+             09150 Organismal Systems
+              09151 Immune system
+               04622 RIG-I-like receptor signaling pathway
+                K00863  DAK, TKFC; triose/dihydroxyacetone kinase / FAD-AMP lyase (cyclizing)
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.28  triokinase
+                 K00863  DAK, TKFC; triose/dihydroxyacetone kinase / FAD-AMP lyase (cyclizing)
+                2.7.1.29  glycerone kinase
+                 K00863  DAK, TKFC; triose/dihydroxyacetone kinase / FAD-AMP lyase (cyclizing)
+             4. Lyases
+              4.6  Phosphorus-oxygen lyases
+               4.6.1  Phosphorus-oxygen lyases (only sub-subclass identified to date)
+                4.6.1.15  FAD-AMP lyase (cyclizing)
+                 K00863  DAK, TKFC; triose/dihydroxyacetone kinase / FAD-AMP lyase (cyclizing)
+DBLINKS     COG: COG2376
+            GO: 0050354 0004371 0034012
+GENES       HSA: 26007(TKFC)
+            PTR: 466626(TKFC)
+            PPS: 100974411(TKFC)
+            GGO: 101128538(TKFC)
+            PON: 100439500(TKFC)
+            PPYG: 129008926(TKFC)
+            NLE: 100591351(TKFC)
+            HMH: 116468852(TKFC)
+            SSYN: 129482749(TKFC)
+            MCC: 694117(TKFC)
+            MCF: 102140150(TKFC)
+            MTHB: 126935468
+            MNI: 105469398(TKFC)
+            CSAB: 103234474(TKFC)
+            CATY: 105577598(TKFC)
+            PANU: 101002534(TKFC)
+            TGE: 112605798(TKFC)
+            MLEU: 105549009(TKFC)
+            RRO: 104679394(TKFC)
+            RBB: 108533618(TKFC)
+            TFN: 117079821(TKFC)
+            PTEH: 111524304(TKFC)
+            CANG: 105512304(TKFC)
+            CJC: 100415031(TKFC)
+            SBQ: 101047818(DAK)
+            CIMI: 108297192(TKFC)
+            ANAN: 105718612(TKFC)
+            CSYR: 103249426(TKFC)
+            MMUR: 105878639(TKFC)
+            LCAT: 123641252(TKFC)
+            ERUF: 138385299(TKFC)
+            PCOQ: 105825047(TKFC)
+            OGA: 100958217(TKFC)
+            MMU: 225913(Tkfc)
+            MCAL: 110285965(Tkfc)
+            MPAH: 110321557(Tkfc)
+            RNO: 361730(Tkfc)
+            MCOC: 116103559(Tkfc)
+            ANU: 117704890(Tkfc)
+            ASYL: 127690505(Tkfc)
+            MUN: 110548073(Tkfc)
+            CGE: 100765605(Tkfc)
+            MAUA: 101840859(Tkfc)
+            PROB: 127228854(Tkfc)
+            PLEU: 114703419(Tkfc)
+            MORG: 121454394(Tkfc)
+            MFOT: 126498121
+            AAMP: 119807618(Tkfc)
+            CNL: 130880768(Tkfc)
+            NGI: 103724936(Tkfc)
+            HGL: 101710604(Tkfc)
+            CPOC: 100727199(Tkfc)
+            CCAN: 109687386(Tkfc)
+            DORD: 105995529(Tkfc)
+            DSP: 122104884(Tkfc)
+            DMER: 138833832(Tkfc)
+            PLOP: 125362346(Tkfc)
+            NCAR: 124958727
+            MMMA: 107135891(Tkfc)
+            ITI: 101974856(Tkfc)
+            OCU: 100344187
+            OPI: 101522524(TKFC)
+            OCZ: 121157662(TKFC)
+            TUP: 102491754(TKFC)
+            GVR: 103592910(DAK)
+            CFA: 483800(TKFC)
+            CLUD: 112659542(TKFC)
+            VVP: 112911058(TKFC)
+            VLG: 121501750(TKFC)
+            NPO: 129501549(TKFC)
+            AML: 100471465(TKFC)
+            UMR: 103678225(TKFC)
+            UAH: 113246914(TKFC)
+            UAR: 123785113(TKFC)
+            ELK: 111150002
+            LLV: 125080047
+            MPUF: 101685667(TKFC)
+            MNP: 132020372(TKFC)
+            MLK: 131813505(TKFC)
+            NVS: 122912978(TKFC)
+            ORO: 101369948(TKFC)
+            EJU: 114220283(TKFC)
+            ZCA: 113913494(TKFC)
+            MLX: 118015912(TKFC)
+            NSU: 110576317(TKFC)
+            LWW: 102736233(TKFC)
+            FCA: 101081330(TKFC)
+            PYU: 121043331(TKFC)
+            PCOO: 112851995(TKFC)
+            PBG: 122483850(TKFC)
+            PVIV: 125146815(TKFC)
+            LRUF: 124504693
+            LGF: 123601784(TKFC)
+            AJU: 106977860
+            PTG: 102958008(TKFC)
+            PPAD: 109246538(TKFC)
+            PUC: 125932693
+            PLEZ: 122200477(TKFC)
+            HHV: 120246156(TKFC)
+            BTA: 512373(TKFC)
+            BOM: 102277749(TKFC)
+            BIU: 109554276(TKFC)
+            BBUB: 102414214(TKFC)
+            BKE: 129652457(TKFC)
+            BBIS: 104983607(DAK)
+            CHX: 102173368(TKFC)
+            OAS: 101106378(TKFC)
+            BTAX: 128068482(TKFC)
+            CSUM: 138084801(TKFC)
+            ODA: 120874529(TKFC)
+            CCAD: 122431317(TKFC)
+            MREE: 136169600(TKFC)
+            OVR: 110153028(TKFC)
+            MBEZ: 129548895(TKFC)
+            SSC: 100520121(TKFC)
+            CFR: 102524457(TKFC)
+            CBAI: 105070100(DAK)
+            CDK: 105094884(TKFC)
+            VPC: 102525590(TKFC)
+            BACU: 103012192(TKFC)
+            BMUS: 118900061(TKFC)
+            LVE: 103087760(DAK)
+            OOR: 101271651(TKFC)
+            LALB: 132525754(TKFC)
+            GMF: 115840673(TKFC)
+            DDP: 132429965(TKFC)
+            DLE: 111183894(TKFC)
+            PCAD: 102994508
+            PSIU: 116757714(TKFC)
+            PPHC: 136126345(TKFC)
+            NASI: 112402093(TKFC)
+            ECB: 100059639(TKFC)
+            EPZ: 103563966(TKFC)
+            EAI: 106847572(TKFC)
+            MYB: 102255909(TKFC)
+            MYD: 102760581(TKFC)
+            MMYO: 118649041(TKFC)
+            MLF: 102432614(TKFC)
+            MDT: 132241576(TKFC)
+            MYUM: 139018619(TKFC)
+            PKL: 118707307(TKFC)
+            EFUS: 103303334(TKFC)
+            MNA: 107527693(TKFC)
+            DRO: 112317204(TKFC)
+            SHON: 118996904(TKFC)
+            AJM: 119043692(TKFC)
+            PDIC: 114500274(TKFC)
+            PHAS: 123829292(TKFC)
+            MMF: 118628319(TKFC)
+            PPAM: 129062663(TKFC)
+            HAI: 109389969(TKFC)
+            RFQ: 117029868(TKFC)
+            PALE: 102897271(TKFC)
+            PGIG: 120600872(TKFC)
+            PVP: 105297774(TKFC)
+            RAY: 107504751(TKFC)
+            MJV: 108392383(TKFC)
+            TOD: 119250057(TKFC)
+            SARA: 101537684(TKFC)
+            SFUM: 130040027(TKFC)
+            SETR: 126017922(TKFC)
+            LAV: 100655773(TKFC)
+            TMU: 101349905
+            ETF: 101647996(TKFC)
+            DNM: 101414022(TKFC)
+            MDO: 100029804(TKFC)
+            GAS: 123252053(TKFC)
+            SHR: 100932911(TKFC)
+            AFZ: 127539826
+            PCW: 110195388(TKFC)
+            TVP: 118855507(TKFC)
+            PBRV: 138177370(TKFC)
+            MLAO: 141518934(TKFC)
+            OAA: 100076247(TKFC)
+            TACU: 119943424(TKFC)
+            GGA: 426629(TKFC)
+            PCOC: 116243027(TKFC)
+            MGP: 100538423(TKFC)
+            CJO: 107314198(TKFC)
+            TPAI: 128087096(TKFC)
+            LMUT: 125695312(TKFC)
+            NMEL: 110400834(TKFC)
+            APLA: 101791561(TKFC)
+            AACU: 137858075(TKFC)
+            ACYG: 125180829(TKFC)
+            CATA: 118244690(TKFC)
+            AFUL: 116490150(TKFC)
+            TGU: 100225815(TKFC)
+            LSR: 110484949(TKFC)
+            SCAN: 103822267(TKFC)
+            PMOA: 120499593(TKFC)
+            OTC: 121340008(TKFC)
+            PRUF: 121355187(TKFC)
+            ATRC: 139590517(TKFC)
+            GFR: 102037738(TKFC)
+            FAB: 101813291(TKFC)
+            OMA: 130253993(TKFC)
+            PHI: 102109793(TKFC)
+            PMAJ: 107206333(TKFC)
+            CCAE: 111930602(TKFC)
+            CCW: 104684142(TKFC)
+            CBRC: 103611844(TKFC)
+            ACOE: 138111076(TKFC)
+            ETL: 114063339(TKFC)
+            ZAB: 102061413(TKFC)
+            ZLE: 135448964(TKFC)
+            ACHL: 103803676(DAK)
+            SVG: 106854673(TKFC)
+            MMEA: 130580109(TKFC)
+            HRT: 120753716(TKFC)
+            SATI: 136362125(TKFC)
+            CCIC: 134044821(TKFC)
+            FPG: 101916728(TKFC)
+            FCH: 102056266(TKFC)
+            SHAB: 115606957(TKFC)
+            SURA: 141950432(TKFC)
+            TALA: 116961862(TKFC)
+            ACHC: 115351571(TKFC)
+            HLE: 104829857(DAK)
+            AGEN: 126047111
+            HHAR: 128153092(TKFC)
+            BBUT: 142040461(TKFC)
+            GCL: 127016555
+            DPUB: 104299788(DAK)
+            PPUS: 135186000(TKFC)
+            NNI: 104009164(DAK)
+            PARX: 142058045(TKFC)
+            CBOR: 142088306(TKFC)
+            CBOY: 140653643(TKFC)
+            MAME: 142409998(TKFC)
+            CLV: 102083757(TKFC)
+            CNIC: 135989409(TKFC)
+            MUI: 104539804(DAK)
+            CUCA: 104064456(TKFC)
+            TEO: 104371808(DAK)
+            GAME: 129207354(TKFC)
+            CVF: 104288860(DAK)
+            RTD: 128909622(TKFC)
+            CRID: 134514954(TKFC)
+            LMIC: 141742938(TKFC)
+            AAM: 106494896(TKFC)
+            AROW: 112960833(TKFC)
+            NPD: 112952734(TKFC)
+            TGT: 104578829(DAK)
+            DNE: 112988669(TKFC)
+            SCAM: 104141555(DAK)
+            ASN: 102380822(TKFC)
+            AMJ: 102566051(TKFC)
+            PSS: 102458392(TKFC)
+            CIZ: 142014839(TKFC)
+            CMY: 102935253(TKFC)
+            CCAY: 125639162(TKFC)
+            LKP: 140912472
+            NDS: 141988721(TKFC)
+            DCC: 119856707(TKFC)
+            CPIC: 101934870(TKFC)
+            TST: 117875988(TKFC)
+            CABI: 116822488(TKFC)
+            MRV: 120405166(TKFC)
+            ACS: 100553788(tkfc)
+            ASAO: 132772163(TKFC)
+            PVT: 110078319(TKFC)
+            SUND: 121934411(TKFC)
+            PBI: 103056665(TKFC)
+            PMUR: 107292666(TKFC)
+            CTIG: 120308336(TKFC)
+            TSR: 106550283(TKFC)
+            PGUT: 117667048(TKFC)
+            PCAE: 139308338(TKFC)
+            APRI: 131184219(TKFC)
+            PTEX: 113449122(TKFC)
+            NSS: 113421917(TKFC)
+            VKO: 123021300(TKFC)
+            PMUA: 114600735(TKFC)
+            PRAF: 128417846(TKFC)
+            ZVI: 118089224(TKFC)
+            HCG: 128339550(TKFC)
+            GJA: 107121403(TKFC)
+            STOW: 125426790(TKFC)
+            EMC: 129324094(TKFC)
+            XLA: 108715194(tkfc.S)
+            XTR: 779584(tkfc)
+            NPR: 108794171(TKFC)
+            RTEM: 120917247(TKFC)
+            ACAT: 141112120(TKFC)
+            PADS: 140337734(TKFC)
+            BBUF: 120981095(TKFC)
+            BGAR: 122920796(TKFC)
+            DTC: 141088050(TKFC)
+            PWL: 138284471(TKFC)
+            MUO: 115468958(TKFC)
+            GSH: 117352016(TKFC)
+            DRE: 793926(tkfC)
+            SRX: 107731922
+            SANH: 107675501(tkfc)
+            SGH: 107595319(tkfc)
+            CCAR: 109093694(tkfc)
+            CAUA: 113052245(tkfc)
+            CGIB: 128017243
+            PTET: 122348716(tkfc)
+            LROH: 127169024(tkfc)
+            GRF: 141331330(tkfc)
+            OMC: 131544160(tkfc)
+            PPRM: 120469829 120470392
+            RKG: 130091427(tkfc)
+            MAMB: 125265504(tkfc)
+            CIDE: 127515564
+            CERY: 137031082(tkfc)
+            MASI: 127414297
+            TROS: 130561256(tkfc)
+            TDW: 130425456(tkfc)
+            MANU: 129438691(tkfc)
+            PDAB: 135764801(tkfc)
+            IPU: 108267727
+            IFU: 128610107(tkfc)
+            PHYP: 113540118(tkfc)
+            SMEO: 124386696(tkfc)
+            TFD: 113635161(tkfc)
+            TVC: 132848669(tkfc)
+            CGAR: 128530485(tkfc)
+            NGRA: 132872461(tkfc)
+            TRN: 134311601(tkfc)
+            AMEX: 103037716(tkfc)
+            CMAO: 118825458(tkfc)
+            EEE: 113573484(tkfc)
+            CHAR: 105895468(tkfc)
+            SPIL: 134059470(tkfc)
+            ASAD: 121690455(tkfc)
+            TRU: 101066405(tkfc)
+            TFS: 130521985(tkfc)
+            TNG: GSTEN00009973G001
+            LCO: 109139822(tkfc)
+            TBEN: 117497990(tkfc)
+            CGOB: 115023703(tkfc)
+            PGEO: 117463380(tkfc)
+            GACU: 117546030(tkfc)
+            EMAC: 134876011(tkfc)
+            ELY: 117246081(tkfc)
+            EFO: 125884432(tkfc)
+            PLEP: 121962471(tkfc)
+            SLUC: 116053149(tkfc)
+            ECRA: 117935026(tkfc)
+            ESP: 116669506(tkfc)
+            PFLV: 114573915(tkfc)
+            GAT: 120823096(tkfc)
+            PPUG: 119222924(tkfc)
+            AFB: 129093495(tkfc)
+            CLUM: 117748108(tkfc)
+            PSWI: 130211521(tkfc)
+            CANA: 137792371(tkfc)
+            CVE: 137870690(tkfc)
+            MSAM: 119913162(tkfc)
+            SCHU: 122869688(tkfc)
+            EARM: 139305829(tkfc)
+            CUD: 121504646(tkfc)
+            SPUL: 138601119(tkfc)
+            LMIX: 132958979(tkfc)
+            HTC: 141811175(tkfc)
+            ALAT: 119027000(tkfc)
+            ASTR: 137590453(tkfc)
+            PKLU: 139222867(tkfc)
+            MZE: 101472672(tkfc)
+            ONL: 100692489(tkfc)
+            OAU: 116323404(tkfc)
+            OLA: 101174800(tkfc)
+            OML: 112156166(tkfc)
+            CSAI: 133420675(tkfc)
+            XMA: 102222466(tkfc)
+            XCO: 114157350(tkfc)
+            XHE: 116733360(tkfc)
+            PRET: 103480605(tkfc)
+            PFOR: 103156773(tkfc)
+            PLAI: 106957675(tkfc)
+            PMEI: 106923242(tkfc)
+            GAF: 122820269(tkfc)
+            PPRL: 129356671 129379938
+            CVG: 107095500
+            CTUL: 119784393(tkfc)
+            GMU: 124880052(tkfc)
+            NFU: 107397385(tkfc)
+            KMR: 108249671(tkfc)
+            ALIM: 106519073(tkfc)
+            NWH: 119417194(tkfc)
+            AOCE: 111587749(tkfc)
+            EJA: 138211970(tkfc)
+            BFRE: 138630440(tkfc)
+            MCEP: 125012353(tkfC)
+            CSEM: 103386061(tkfc)
+            POV: 109646508(tkfc)
+            SSEN: 122765914(tkfc)
+            SSOE: 131456800(tkfc)
+            HHIP: 117751863(tkfc)
+            HSP: 118102401(tkfc)
+            PPLT: 128429768(tkfc)
+            SMAU: 118284217(tkfc)
+            LCF: 108891958
+            SDU: 111233365(tkfc)
+            SLAL: 111657227(tkfc)
+            XGL: 120797148(tkfc)
+            HCQ: 109506957(tkfc)
+            SSCV: 125985105(tkfc)
+            SBIA: 133494350(tkfc)
+            PEE: 133397634(tkfc)
+            PTAO: 133472715(tkfc)
+            ENY: 140371640(tkfc)
+            MALB: 109974193(tkfc)
+            BSPL: 114866031(tkfc)
+            SJO: 128384237(tkfc)
+            SSCO: 134005922(tkfc)
+            TTY: 137174157(tkfc)
+            GMH: 115529145(tkfc)
+            SASA: 106608461(tkfc)
+            STRU: 115198044(tkfc)
+            OTW: 112239034(tkfc)
+            OMY: 110510458(tkfc)
+            OGO: 124022895(tkfc)
+            OKI: 109885824(tkfc)
+            OKE: 118382238 127923862
+            OMM: 135529339(tkfc)
+            OCLA: 139396910 139398505
+            SNH: 120042750(tkfc)
+            SFON: 129866018(tkfc)
+            CCLU: 121571078(tkfc)
+            ELS: 105007456(tkfc)
+            SFM: 108924172(tkfc)
+            PKI: 111856457(tkfc)
+            AANG: 118232326(tkfc)
+            AROT: 135259400(tkfc)
+            CCOG: 133135025(tkfc)
+            LOC: 102690531(tkfc)
+            PSPA: 121294721(tkfc)
+            ARUT: 117432065(tkfc)
+            PSEX: 120530704(tkfc)
+            LCM: 102352724(TKFC)
+            CMK: 103191379
+            RTP: 109937264 125485266
+            CPLA: 122557916(tkfc)
+            CPUN: 140493517(tkfc)
+            HOC: 132824382(tkfc)
+            SCAU: 119971663(tkfc)
+            LERI: 129705830(tkfc) 129705831
+            HAKA: 140729477(tkfc)
+            BFO: 118429579 118429860
+            BBEL: 109472260 109475013
+            CIN: 100182010
+            SCLV: 120337236
+            CLEP: 143445946
+            SPU: 105440390 575781
+            LPIC: 129264613
+            LVG: 121418649
+            AJJ: 139970746
+            APLC: 110976236 110988379
+            ARUN: 117293352
+            AAMU: 139936253
+            AFIL: 140153266 140160947
+            AJC: 117100837 117119218
+            SKO: 100371401
+            PFLL: 139140961
+            AAG: 5577462
+            AALB: 109409004 109412500 109621976 115257995 115264944
+            ASUA: 134215613 134216411
+            CQU: CpipJ_CPIJ006434 CpipJ_CPIJ016133
+            CPII: 120412634 120422699
+            CBRI: 134833050
+            BCOO: 119078900
+            LLL: 129792730
+            PPAP: 129801400
+            AME: 413697
+            ACER: 107997413
+            ALAB: 122714572
+            ADR: 102670723
+            AFLR: 100866801
+            BBIF: 117213237
+            BVK: 117239461
+            BVAN: 117164121
+            BHUN: 126864932
+            BTER: 100646642
+            BAFF: 126916144
+            BPYO: 122566187
+            BPAS: 132905651
+            FVI: 122533561
+            CCAL: 108626944
+            OBB: 114879043
+            OLG: 117611259
+            MGEN: 117228052
+            NMEA: 116431748
+            CGIG: 122399847
+            TCZ: 108767336
+            TSEP: 108756129
+            TAME: 143908593
+            CFEL: 113366829
+            LDA: 142326732 142326734(Bap55)
+            MQU: 128982878
+            PAME: 138713297(BHD)
+            BROR: 134534203
+            DMK: 116920089 116921152
+            DPZ: 124316203 124316209
+            AFRA: 136027072
+            PJA: 122264892
+            PCHN: 125038880
+            PMOO: 119599458
+            HAME: 121860272
+            PCLA: 123764503
+            CQD: 128695851
+            PTRU: 123504284
+            ESN: 127006149
+            PORN: 139754968
+            HAZT: 108676461
+            OOT: 143025629
+            EAF: 111713808
+            LSM: 121117096
+            TCF: 131893177
+            ISC: 115328316
+            DSV: 119464144
+            DALB: 135905011
+            RSAN: 119376668 119401707
+            RMP: 119164289
+            VDE: 111247300
+            VJA: 111268934
+            GOE: 100907154
+            TUT: 107364048
+            DPTE: 113798127
+            DFR: 124497272
+            CSCU: 111637410
+            CVS: 136983657
+            LPOL: 106477693
+            PMEO: 129591263
+            CEL: CELE_W02H5.8(W02H5.8)
+            CBR: CBG_06637
+            CRQ: GCK72_019051
+            BMY: BM_BM6148(Bm6148)
+            LOA: LOAG_10302
+            PVUL: 126821117 126822675
+            PCAN: 112571225
+            LSAX: 138953533 138953552
+            BARL: 143296188 143296408
+            BGT: 106057946
+            GAE: 121372400 121372401
+            HRF: 124145076 124145088
+            HRJ: 124275764 124275769
+            HASI: 137293432 137293871 137294286 137294593
+            HCRA: 139442340 139442420
+            CRG: 105340697 105340698
+            CANU: 128176691 128176693
+            CVN: 111131560 111131656
+            OED: 125651873 125652591
+            MYI: 110446463
+            PMAX: 117324007
+            AIRR: 138319372
+            YBA: 132550527
+            MCAF: 127739369
+            MMER: 123530548
+            RPHI: 132740240
+            DPOL: 127873014
+            MAEA: 128208771
+            OBI: 106884066
+            OSN: 115217112
+            LJP: 135467097 135468230
+            LAK: 106162726 112041932
+            LLON: 135484286
+            NVE: 5520788
+            EPA: 110235611
+            ATEN: 116305169
+            ADF: 107338117
+            AMIL: 114971064
+            MCAZ: 138026694
+            PDAM: 113677511
+            SPIS: 111327340
+            DGT: 114532555
+            XEN: 124441741
+            HMG: 101240707
+            HSY: 130656850
+            RES: 135685989
+            AQU: 100632756
+            CCLM: 134179948
+            POP: 18105587
+            PEU: 105133296
+            PALZ: 118051018
+            SCE: YFL053W(DAK2) YML070W(DAK1)
+            SEUB: DI49_1319 DI49_4021
+            SPAO: SPAR_F00070 SPAR_M00620
+            AGO: AGOS_AER139C
+            ERC: Ecym_1148
+            KLA: KLLA0_B04884g
+            KMX: KLMA_50161(DAK1)
+            LTH: KLTH0B00418g KLTH0D16412g
+            VPO: Kpol_520p31
+            ZRO: ZYRO0B14432g
+            CGR: 2890962(GVI51_L11319)
+            NCS: NCAS_0A06130(NCAS0A06130)
+            NDI: NDAI_0D03110(NDAI0D03110)
+            TPF: TPHA_0B01670(TPHA0B01670)
+            TBL: TBLA_0B06340(TBLA0B06340)
+            TGB: HG536_0C05950
+            TDL: TDEL_0C00180(TDEL0C00180) TDEL_0D00840(TDEL0D00840)
+            KAF: KAFR_0I00330(KAFR0I00330)
+            KNG: KNAG_0E04050(KNAG0E04050)
+            ZMK: HG535_0B00260 HG535_0E01760
+            SLUD: SCDLUD_004340
+            DHA: DEHA2A03542g DEHA2A12342g DEHA2B12892g DEHA2F01034g
+            PIC: PICST_31117(DAK1.1) PICST_57462(DAK2)
+            PGU: PGUG_00228
+            SPAA: SPAPADRAFT_139806 SPAPADRAFT_151697 SPAPADRAFT_72612
+            LEL: PVL30_003077(DAK2)
+            LBG: 92206529(LODBEIA_P13330)
+            CAL: CAALFM_C109190CA(DAK2)
+            CTP: CTRG_03266
+            COT: CORT_0G01070
+            CDU: CD36_08670
+            CTEN: 18246129(DAK2) 18250712(PSN45_004205)
+            CLU: CLUG_05050
+            CLUS: A9F13_03g01848
+            CAUR: CJI96_0001273
+            ASAU: 88175438(PUMCH_004377)
+            PPA: PAS_chr3_0841
+            PKZ: C5L36_0A05020
+            BNN: FOA43_001760
+            BBRX: BRETT_004745
+            OPA: HPODL_01039 HPODL_04538
+            YLI: 2908059(YALI2_F00970g) 2908330(YALI2_F00182g)
+            SLB: AWJ20_2310(DAK1) AWJ20_3444(DAK2)
+            NCR: NCU03779(dak-1) NCU04400
+            NTE: NEUTE1DRAFT121216(NEUTE1DRAFT_121216) NEUTE1DRAFT58250(NEUTE1DRAFT_58250)
+            SMP: 10805428(SMAC4_07350) 10809820(SMAC4_02626)
+            PAN: PODANSg7445 PODANSg9015
+            PBEL: QC761_211570(dak1) QC761_601010
+            PPSD: QC762_211570(dak1) QC762_601010
+            PPSP: QC763_211570(dak1) QC763_601010
+            PPSA: QC764_211570(dak1) QC764_601010
+            TTT: THITE_2040308 THITE_2108431 THITE_2114839
+            MTM: MYCTH_2302225 MYCTH_40719
+            CTHR: CTHT_0061350
+            RTHE: 98124472(VTJ83DRAFT_3449) 98125489(VTJ83DRAFT_4364)
+            MGR: MGG_03095 MGG_04014
+            PPEI: PpBr36_04491 PpBr36_09502
+            PGRI: PgNI_06903 PgNI_10247
+            TMN: UCRPA7_1104 UCRPA7_6890 UCRPA7_7089
+            SSCK: SPSK_04142 SPSK_07274
+            FGR: FGSG_07017 FGSG_08042
+            FPU: FPSE_02329 FPSE_02774
+            FPOA: FPOAC1_010775 FPOAC1_013122
+            FVN: FVRRES_11778
+            FVR: FVEG_08163 FVEG_10244
+            FOX: FOXG_01790 FOXG_04497 FOXG_11580 FOXG_13047
+            NHE: NECHADRAFT_63627 NECHADRAFT_81277 NECHADRAFT_94691
+            FFC: NCS54_00864000 NCS54_01150900 NCS54_01503900
+            FKR: NCS57_00476800 NCS57_00906100 NCS57_01141300
+            FMU: J7337_002794 J7337_010366 J7337_011510
+            TRE: TRIREDRAFT_108835 TRIREDRAFT_4480 TRIREDRAFT_68466
+            TRR: M419DRAFT_130671 M419DRAFT_26548 M419DRAFT_36354
+            TATV: 25783807(TrAtP1_011340) 25786124(TrAtP1_003042)
+            TASP: 36610331(TrAFT101_006757) 36612218(TrAFT101_005690) 36614887(TrAFT101_012051)
+            MAW: 19245494(J3458_004465) 19250278(dak1)
+            MAJ: MAA_05551 MAA_09182
+            MBRN: 26238890(DAK) 26245064(dak1)
+            PCHM: VFPPC_03185 VFPPC_05893 VFPPC_08304 VFPPC_08312
+            UVI: 66067709(UV8b_06932)
+            CMT: CCM_01642 CCM_03212 CCM_08253
+            AMUS: LMH87_001276 LMH87_002450 LMH87_003445
+            PLJ: 28890151(PLICBS_009492) 28891152(PLICBS_004546) 28891460(PLICBS_010466) 90642803(PLICBS_003861)
+            PTKZ: JDV02_002356 JDV02_005068(dak1) JDV02_009403
+            DCON: 63715310(DCS_02667)
+            VAL: VDBG_07518 VDBG_07610 VDBG_07776
+            VDA: VDAG_09239 VDAG_09331 VDAG_09648
+            CFJ: CFIO01_01160 CFIO01_02503 CFIO01_03078 CFIO01_06023
+            CLUP: CLUP02_07917 CLUP02_12908 CLUP02_16847 CLUP02_17623
+            CHIG: CH63R_04175 CH63R_06617 CH63R_12165
+            CDET: 87941213(CDEST_04710) 87946927(CDEST_10425) 87948003(CDEST_11503)
+            SAPO: SAPIO_CDS4055
+            ELA: UCREL1_5454 UCREL1_9085
+            PFY: PFICI_02687 PFICI_02699 PFICI_05817 PFICI_07807 PFICI_08547
+            SSL: SS1G_03255
+            BFU: BCIN_08g03150
+            MBE: MBM_02793 MBM_07509
+            PSCO: LY89DRAFT_281960 LY89DRAFT_638105
+            GLZ: GLAREA_02829 GLAREA_06224
+            ANI: ANIA_00034
+            AFM: AFUA_5G12690
+            ACT: ACLA_015730
+            NFI: NFIA_074520
+            AOR: AO090120000396
+            ANG: An14g06500
+            AFV: AFLA_009615
+            ALUC: AKAW2_41262A
+            ACHE: ACHE_41301S ACHE_80736A
+            APUU: APUU_12137S
+            PCS: N7525_007459
+            PDP: PDIP_58490
+            POU: POX_d05390 POX_f08145
+            PPSF: 300790901(PFLUO_LOCUS5002)
+            TMF: EYB26_001827 EYB26_008813
+            TRG: TRUGW13939_05491
+            CIM: CIMG_09296
+            CPW: 9692703(D8B26_007687)
+            URE: UREG_05001
+            ABE: ARB_03384
+            TVE: TRV_08068
+            PBL: PAAG_02536
+            PBN: PADG_06855
+            BGH: BDBG_08255
+            PNO: SNOG_10035 SNOG_10451
+            PTE: PTT_11819 PTT_16801
+            PTRR: 6344242(PtrM4_103030)
+            BZE: COCCADRAFT_27327 COCCADRAFT_9558
+            BSC: COCSADRAFT_141387 COCSADRAFT_29733
+            BOR: COCMIDRAFT_33722 COCMIDRAFT_3711
+            AALT: CC77DRAFT_1022806 CC77DRAFT_929939
+            ADAC: 96082754(ACET3X_002432) 96084893(ACET3X_004571)
+            ARAB: EKO05_0005282 EKO05_0007737
+            ZTR: MYCGRDRAFT_54399 MYCGRDRAFT_76425
+            PFJ: MYCFIDRAFT_158677 MYCFIDRAFT_59700
+            FFU: CLAFUR5_01064 CLAFUR5_03250 CLAFUR5_08051
+            CBET: CB0940_01334 CB0940_02325
+            BCOM: BAUCODRAFT_192470 BAUCODRAFT_420155
+            NPA: UCRNP2_6467
+            SPO: 2541809(dak1) 2541810(dak2)
+            SOM: SOMG_01835(dak1)
+            CNE: CNA08050 CNC04180
+            CNB: CNBA7870 CNBC3010
+            CNG: CNAG_00826 CNAG_02799
+            CGI: CGB_A9430C CGB_C6280C
+            CDEU: CNBG_1112 CNBG_3454
+            CDEC: 89987890(IAS62_001115) 89988375(IAS62_001600)
+            CTEG: 91987757(I308_100899) 91988959(I308_102101)
+            CBAS: 91980934(I312_100886) 91982152(I312_102104)
+            CDEP: 91085234(L203_101020) 91089072(L203_104863)
+            KMG: 30166925(I203_100538) 30167456(I203_106366)
+            KNE: 92178227(IAR55_000968) 92181734(IAR55_004476)
+            KDJ: 28964670(I303_100967) 28970069(I303_106969) 28971532(I303_107829)
+            KBI: 30205781(I302_102689) 30205875(I302_102782) 30207234(I302_104127)
+            KPIN: 30169239(I206_100459) 30175904(I206_106574)
+            KSH: 87953041(IL334_000910) 87959859(IL334_007729)
+            KER: 91104184(V865_005383) 91106163(V865_007362)
+            KSN: 43587358(CI109_105216) 43588538(CI109_102441)
+            KEP: 91091640(L201_000968) 91097971(L201_007302)
+            TMS: TREMEDRAFT_29967 TREMEDRAFT_32898
+            TASA: A1Q1_00056 A1Q1_01002
+            CCAC: CcaHIS019_0103320(CcaverHIS019_0103320) CcaHIS019_0411730(CcaverHIS019_0411730)
+            TVS: TRAVEDRAFT_168593
+            DSQ: DICSQDRAFT_133811
+            PCO: PHACADRAFT_263729
+            SHS: STEHIDRAFT_137393 STEHIDRAFT_139617 STEHIDRAFT_58915
+            HIR: HETIRDRAFT_122126 HETIRDRAFT_64180
+            PSQ: PUNSTDRAFT_145379
+            ADL: AURDEDRAFT_144277
+            FME: FOMMEDRAFT_166668 FOMMEDRAFT_73790
+            GTR: GLOTRDRAFT_74971 GLOTRDRAFT_96970
+            RSX: RhiXN_04987
+            CCI: CC1G_00858
+            ABP: AGABI1DRAFT90110(AGABI1DRAFT_90110)
+            ABV: AGABI2DRAFT222826(AGABI2DRAFT_222826) AGABI2DRAFT229242(AGABI2DRAFT_229242)
+            PCUB: JR316_0012701
+            MRR: Moror_17275 Moror_9773
+            MORE: E1B28_006914 E1B28_007669
+            SCM: SCHCO_02545094(SCHCODRAFT_02545094) SCHCO_02619084(SCHCODRAFT_02619084)
+            CPUT: CONPUDRAFT_138892 CONPUDRAFT_83570
+            SLA: SERLADRAFT_357185 SERLADRAFT_450606
+            WSE: WALSEDRAFT_32383(DAK-1) WALSEDRAFT_53995(DAK-1)
+            WIC: J056_000580 J056_004718
+            UMA: UMAG_00109
+            PFP: PFL1_00034
+            SGRA: EX895_000133
+            MGL: MGL_0770
+            MRT: MRET_0047
+            MSYM: MSY001_2124
+            PGR: PGTG_15683
+            PTRC: PtA15_4A867
+            PSTR: Pst134EA_012001
+            MLR: MELLADRAFT_50347
+            RIE: OCT59_021647
+            TET: TTHERM_00038820
+            TCR: 507011.200
+            LMA: LMJF_10_0420
+            LIF: LINJ_10_0430
+            LDO: LDBPK_100430
+            LMI: LMXM_10_0420
+            LMAT: 92516943(LSCM1_07040)
+            LBZ: LBRM_10_0420
+            LPAN: LPMP_100360
+            LOI: 92362440(LSCM4_06589)
+            LEIS: 94182188(GH5_06909)
+            LEIN: 94191451(JIQ42_07878)
+            PHET: 94293979(JKF63_07974)
+REFERENCE   PMID:24569995
+  AUTHORS   Rodrigues JR, Couto A, Cabezas A, Pinto RM, Ribeiro JM, Canales J, Costas MJ, Cameselle JC
+  TITLE     Bifunctional homodimeric triokinase/FMN cyclase: contribution of protein domains to the activities of the human enzyme and molecular dynamics simulation of domain movements.
+  JOURNAL   J Biol Chem 289:10620-36 (2014)
+            DOI:10.1074/jbc.M113.525626
+  SEQUENCE  [hsa:26007]
+REFERENCE   PMID:16289032
+  AUTHORS   Cabezas A, Costas MJ, Pinto RM, Couto A, Cameselle JC
+  TITLE     Identification of human and rat FAD-AMP lyase (cyclic FMN forming) as ATP-dependent dihydroxyacetone kinases.
+  JOURNAL   Biochem Biophys Res Commun 338:1682-9 (2005)
+            DOI:10.1016/j.bbrc.2005.10.142
+  SEQUENCE  [hsa:26007] [rno:361730]
+///

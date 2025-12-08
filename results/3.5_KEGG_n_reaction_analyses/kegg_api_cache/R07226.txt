@@ -1,0 +1,15 @@
+ENTRY       R07226                      Reaction
+NAME        acetyl-phosphate ammonia:thioredoxin disulfide oxidoreductase (glycine-forming)
+DEFINITION  Acetyl phosphate + Ammonia + Thioredoxin disulfide + H2O <=> Glycine + Orthophosphate + Thioredoxin
+EQUATION    C00227 + C00014 + C00343 + C00001 <=> C00037 + C00009 + C00342
+RCLASS      RC00013  C00342_C00343
+            RC02834  C00014_C00037
+ENZYME      1.21.4.2
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.21  Catalysing the reaction X-H + Y-H = X-Y
+               1.21.4  With a disulfide as acceptor
+                1.21.4.2
+                 R07226  Acetyl phosphate + Ammonia + Thioredoxin disulfide + H2O <=> Glycine + Orthophosphate + Thioredoxin
+DBLINKS     RHEA: 12235
+///

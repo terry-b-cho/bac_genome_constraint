@@ -1,0 +1,17 @@
+ENTRY       R02918                      Reaction
+NAME        L-tyrosine:tRNA(Tyr) ligase (AMP-forming)
+DEFINITION  ATP + L-Tyrosine + tRNA(Tyr) <=> AMP + Diphosphate + L-Tyrosyl-tRNA(Tyr)
+EQUATION    C00002 + C00082 + C00787 <=> C00020 + C00013 + C02839
+RCLASS      RC00055  C00787_C02839
+            RC00523  C00082_C02839
+ENZYME      6.1.1.1
+PATHWAY     rn00970  Aminoacyl-tRNA biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.1  Forming carbon-oxygen bonds
+               6.1.1  Ligases forming aminoacyl-tRNA and related compounds
+                6.1.1.1
+                 R02918  ATP + L-Tyrosine + tRNA(Tyr) <=> AMP + Diphosphate + L-Tyrosyl-tRNA(Tyr)
+ORTHOLOGY   K01866  tyrosyl-tRNA synthetase [EC:6.1.1.1]
+DBLINKS     RHEA: 10223
+///

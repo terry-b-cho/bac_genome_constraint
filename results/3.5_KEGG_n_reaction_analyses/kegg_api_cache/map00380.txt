@@ -1,0 +1,22 @@
+ENTRY       map00380                    Pathway
+NAME        Tryptophan metabolism
+CLASS       Metabolism; Amino acid metabolism
+PATHWAY_MAP map00380  Tryptophan metabolism
+MODULE      M00037  Melatonin biosynthesis, animals, tryptophan => serotonin => melatonin [PATH:map00380]
+            M00038  Tryptophan metabolism, tryptophan => kynurenine => 2-aminomuconate [PATH:map00380]
+            M00370  Glucosinolate biosynthesis, tryptophan => glucobrassicin [PATH:map00380]
+            M00912  NAD biosynthesis, tryptophan => quinolinate => NAD [PATH:map00380]
+            M00936  Melatonin biosynthesis, plants, tryptophan => serotonin => melatonin [PATH:map00380]
+DBLINKS     GO: 0006568 0009851
+REFERENCE   PMID:15749753
+  AUTHORS   Woodward AW, Bartel B
+  TITLE     Auxin: regulation, action, and interaction.
+  JOURNAL   Ann Bot 95:707-35 (2005)
+            DOI:10.1093/aob/mci083
+REL_PATHWAY map00010  Glycolysis / Gluconeogenesis
+            map00362  Benzoate degradation
+            map00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            map00627  Aminobenzoate degradation
+            map00760  Nicotinate and nicotinamide metabolism
+KO_PATHWAY  ko00380
+///

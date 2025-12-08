@@ -1,0 +1,19 @@
+ENTRY       R02301                      Reaction
+NAME        5-formyltetrahydrofolate cyclo-ligase (ADP-forming)
+DEFINITION  ATP + Folinic acid + H+ <=> ADP + Orthophosphate + 5,10-Methenyltetrahydrofolate
+EQUATION    C00002 + C03479 + C00080 <=> C00008 + C00009 + C00445
+RCLASS      RC00002  C00002_C00008
+            RC00183  C00445_C03479
+ENZYME      6.3.3.2
+PATHWAY     rn00670  One carbon pool by folate
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.3  Cyclo-ligases
+                6.3.3.2
+                 R02301  ATP + Folinic acid + H+ <=> ADP + Orthophosphate + 5,10-Methenyltetrahydrofolate
+ORTHOLOGY   K00603  glutamate formiminotransferase / 5-formyltetrahydrofolate cyclo-ligase [EC:2.1.2.5 6.3.3.2]
+            K01934  5-formyltetrahydrofolate cyclo-ligase [EC:6.3.3.2]
+DBLINKS     RHEA: 10491
+///

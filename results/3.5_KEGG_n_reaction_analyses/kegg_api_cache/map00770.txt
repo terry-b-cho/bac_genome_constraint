@@ -1,0 +1,20 @@
+ENTRY       map00770                    Pathway
+NAME        Pantothenate and CoA biosynthesis
+CLASS       Metabolism; Metabolism of cofactors and vitamins
+PATHWAY_MAP map00770  Pantothenate and CoA biosynthesis
+MODULE      M00019  Valine/isoleucine biosynthesis, pyruvate => valine / 2-oxobutanoate => isoleucine [PATH:map00770]
+            M00046  Pyrimidine degradation, uracil => beta-alanine, thymine => 3-aminoisobutanoate [PATH:map00770]
+            M00119  Pantothenate biosynthesis, valine/L-aspartate => pantothenate [PATH:map00770]
+            M00120  Coenzyme A biosynthesis, pantothenate => CoA [PATH:map00770]
+            M00913  Pantothenate biosynthesis, 2-oxoisovalerate/spermine => pantothenate [PATH:map00770]
+            M00914  Coenzyme A biosynthesis, archaea, 2-oxoisovalerate => 4-phosphopantoate => CoA [PATH:map00770]
+DBLINKS     GO: 0015940 0015937
+REL_PATHWAY map00010  Glycolysis / Gluconeogenesis
+            map00240  Pyrimidine metabolism
+            map00250  Alanine, aspartate and glutamate metabolism
+            map00270  Cysteine and methionine metabolism
+            map00330  Arginine and proline metabolism
+            map00410  beta-Alanine metabolism
+            map00640  Propanoate metabolism
+KO_PATHWAY  ko00770
+///

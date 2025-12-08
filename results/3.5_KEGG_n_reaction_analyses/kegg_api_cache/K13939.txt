@@ -1,0 +1,139 @@
+ENTRY       K13939                      KO
+SYMBOL      FOL1
+NAME        dihydroneopterin aldolase / 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase / dihydropteroate synthase [EC:4.1.2.25 2.7.6.3 2.5.1.15]
+PATHWAY     map00790  Folate biosynthesis
+            map01100  Metabolic pathways
+            map01240  Biosynthesis of cofactors
+MODULE      M00126  Tetrahydrofolate biosynthesis, GTP => THF
+REACTION    R03066  6-(hydroxymethyl)-7,8-dihydropterin:4-aminobenzoate 2-amino-4-hydroxydihydropteridine-6-methenyltransferase
+            R03067  (7,8-dihydropterin-6-yl)methyl diphosphate:4-aminobenzoate 2-amino-4-hydroxy-7,8-dihydropteridine-6-methenyltransferase
+            R03503  ATP:6-hydroxymethyl-7,8-dihydropterin 6'-diphosphotransferase
+            R03504  7,8-dihydroneopterin glycolaldehyde-lyase [6-(hydroxymethyl)-7,8-dihydropterin-forming]
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
+               00790 Folate biosynthesis
+                K13939  FOL1; dihydroneopterin aldolase / 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase / dihydropteroate synthase
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+                2.5.1.15  dihydropteroate synthase
+                 K13939  FOL1; dihydroneopterin aldolase / 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase / dihydropteroate synthase
+              2.7  Transferring phosphorus-containing groups
+               2.7.6  Diphosphotransferases
+                2.7.6.3  2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase
+                 K13939  FOL1; dihydroneopterin aldolase / 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase / dihydropteroate synthase
+             4. Lyases
+              4.1  Carbon-carbon lyases
+               4.1.2  Aldehyde-lyases
+                4.1.2.25  dihydroneopterin aldolase
+                 K13939  FOL1; dihydroneopterin aldolase / 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase / dihydropteroate synthase
+DBLINKS     COG: COG1539 COG0801 COG0294
+            GO: 0004150 0003848 0004156
+GENES       SCE: YNL256W(FOL1)
+            SEUB: DI49_4491
+            SPAO: SPAR_N00730
+            AGO: AGOS_AFR647C
+            ERC: Ecym_1119
+            KLA: KLLA0_C02783g
+            KMX: KLMA_10126(FOL1)
+            LTH: KLTH0F02882g
+            VPO: Kpol_2000p42
+            ZRO: ZYRO0F16170g
+            CGR: 2889859(GVI51_J07777)
+            NCS: NCAS_0A00710(NCAS0A00710)
+            NDI: NDAI_0F04090(NDAI0F04090)
+            TPF: TPHA_0B04280(TPHA0B04280)
+            TBL: TBLA_0A05660(TBLA0A05660)
+            TGB: HG536_0B01220
+            TDL: TDEL_0C05970(TDEL0C05970)
+            KAF: KAFR_0D03830(KAFR0D03830)
+            KNG: KNAG_0F00590(KNAG0F00590)
+            ZMK: HG535_0A01220
+            SLUD: SCDLUD_003916
+            DHA: DEHA2E11704g
+            PIC: PICST_66087
+            PGU: PGUG_03380
+            SPAA: SPAPADRAFT_61089
+            LEL: PVL30_004597(FOL1)
+            LBG: 92210860(LODBEIA_P56640)
+            CAL: CAALFM_C500770CA(FOL1)
+            CTP: CTRG_05355
+            COT: CORT_0E05530
+            CDU: CD36_51690
+            CTEN: 18249001(FOL1)
+            CLU: CLUG_03386
+            CLUS: A9F13_01g08085
+            CAUR: CJI96_0001312
+            ASAU: 88173795(PUMCH_002731)
+            PPA: PAS_chr2-2_0302
+            PKZ: C5L36_0B03380
+            BNN: FOA43_004472
+            BBRX: BRETT_002287
+            OPA: HPODL_02556
+            YLI: 2906386(YALI2_A00650g)
+            SLB: AWJ20_43(FOL1)
+            TML: GSTUM_00011612001
+            SPO: 2539851(fol1)
+            SOM: SOMG_01394(fol1)
+            CNE: CNC04040
+            CNB: CNBC3140
+            CNG: CNAG_02786
+            CGI: CGB_C6150C
+            CDEU: CNBG_3441
+            CDEC: 89987903(IAS62_001128)
+            CTEG: 91988946(I308_102088)
+            CBAS: 91982139(I312_102091)
+            CDEP: 91085218(L203_101004)
+            KMG: 30167455(I203_106365)
+            KNE: 92178239(IAR55_000980)
+            KDJ: 28964669(I303_100966)
+            KBI: 30207233(I302_104126)
+            KPIN: 30169238(I206_100460)
+            KSH: 87953040(IL334_000909)
+            KER: 91106162(V865_007361)
+            KEP: 91091641(L201_000969)
+            TMS: TREMEDRAFT_30738
+            TASA: A1Q1_04530
+            CCAC: CcaHIS019_0211600(FOL1)
+            TVS: TRAVEDRAFT_52553
+            DSQ: DICSQDRAFT_94022
+            SHS: STEHIDRAFT_96629
+            HIR: HETIRDRAFT_65517
+            PSQ: PUNSTDRAFT_140849
+            ADL: AURDEDRAFT_181441
+            FME: FOMMEDRAFT_156900
+            GTR: GLOTRDRAFT_80794 GLOTRDRAFT_96055
+            RSX: RhiXN_11025
+            CCI: CC1G_15556
+            ABP: AGABI1DRAFT115300(AGABI1DRAFT_115300)
+            ABV: AGABI2DRAFT208226(AGABI2DRAFT_208226)
+            MRR: Moror_15039
+            MORE: E1B28_006493
+            CPUT: CONPUDRAFT_166442
+            SLA: SERLADRAFT_414778
+            WIC: J056_003823
+            UMA: UMAG_05171
+            PFP: PFL1_03100
+            SGRA: EX895_004566
+            MRT: MRET_0826
+            MSYM: MSY001_3431
+            MLR: MELLADRAFT_94398
+            EHE: EHEL_050080
+            RIE: OCT59_012584
+            DDI: DDB_G0278283(fol1)
+            DPP: DICPUDRAFT_155477
+            DFA: DFA_08871(fol1)
+REFERENCE   PMID:15826662
+  AUTHORS   Lawrence MC, Iliades P, Fernley RT, Berglez J, Pilling PA, Macreadie IG
+  TITLE     The three-dimensional structure of the bifunctional 6-hydroxymethyl-7,8-dihydropterin pyrophosphokinase/dihydropteroate synthase of Saccharomyces cerevisiae.
+  JOURNAL   J Mol Biol 348:655-70 (2005)
+            DOI:10.1016/j.jmb.2005.03.021
+REFERENCE   PMID:15169867
+  AUTHORS   Guldener U, Koehler GJ, Haussmann C, Bacher A, Kricke J, Becher D, Hegemann JH
+  TITLE     Characterization of the Saccharomyces cerevisiae Fol1 protein: starvation for C1 carrier induces pseudohyphal growth.
+  JOURNAL   Mol Biol Cell 15:3811-28 (2004)
+            DOI:10.1091/mbc.E03-09-0680
+  SEQUENCE  [sce:YNL256W]
+///

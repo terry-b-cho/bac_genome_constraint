@@ -1,0 +1,35 @@
+ENTRY       R04364                      Reaction
+NAME        acetyl-CoA:L-2,3,4,5-tetrahydrodipicolinate N2-acetyltransferase
+DEFINITION  2,3,4,5-Tetrahydrodipicolinate + Acetyl-CoA + H2O <=> N-Acetyl-L-2-amino-6-oxopimelate + CoA
+EQUATION    C03972 + C00024 + C00001 <=> C05539 + C00010
+RCLASS      RC00004  C00010_C00024
+            RC01136  C03972_C05539
+ENZYME      2.3.1.89        2.3.1.-
+PATHWAY     rn00261  Monobactam biosynthesis
+            rn00300  Lysine biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01230  Biosynthesis of amino acids
+MODULE      M00525  Lysine biosynthesis, acetyl-DAP pathway, aspartate => lysine
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.89
+                 R04364  2,3,4,5-Tetrahydrodipicolinate + Acetyl-CoA + H2O <=> N-Acetyl-L-2-amino-6-oxopimelate + CoA
+                2.3.1.-
+                 R04364  2,3,4,5-Tetrahydrodipicolinate + Acetyl-CoA + H2O <=> N-Acetyl-L-2-amino-6-oxopimelate + CoA
+ORTHOLOGY   K05822  tetrahydrodipicolinate N-acetyltransferase [EC:2.3.1.89]
+            K19107  putative acetyltransferase [EC:2.3.1.-]
+REFERENCE   1  [PMID:9294453]
+  AUTHORS   Liu L, Shaw PD
+  TITLE     A possible role for acetylated intermediates in diaminopimelate and tabtoxinine-beta-lactam biosynthesis in Pseudomonas syringae pv. tabaci BR2.024.
+  JOURNAL   J Bacteriol 179:5922-7 (1997)
+            DOI:10.1128/JB.179.18.5922-5927.1997
+REFERENCE   2  [PMID:23135477]
+  AUTHORS   Hamed RB, Gomez-Castellanos JR, Henry L, Ducho C, McDonough MA, Schofield CJ
+  TITLE     The enzymes of beta-lactam biosynthesis.
+  JOURNAL   Nat Prod Rep 30:21-107 (2013)
+            DOI:10.1039/c2np20065a
+DBLINKS     RHEA: 13088
+///

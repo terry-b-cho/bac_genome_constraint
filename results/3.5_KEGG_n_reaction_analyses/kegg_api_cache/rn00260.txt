@@ -1,0 +1,203 @@
+ENTRY       rn00260                     Pathway
+NAME        Glycine, serine and threonine metabolism
+DESCRIPTION Serine is derived from 3-phospho-D-glycerate, an intermediate of glycolysis [MD:M00020], and glycine is derived from serine. Threonine is an essential amino acid, which animals cannot synthesize. In bacteria and plants, threonine is derived from aspartate [MD:M00018].
+CLASS       Metabolism; Amino acid metabolism
+PATHWAY_MAP rn00260  Glycine, serine and threonine metabolism
+MODULE      M00018  Threonine biosynthesis, aspartate => homoserine => threonine [PATH:rn00260]
+            M00020  Serine biosynthesis, glycerate-3P => serine [PATH:rn00260]
+            M00033  Ectoine biosynthesis, aspartate => ectoine [PATH:rn00260]
+            M00047  Creatine pathway [PATH:rn00260]
+            M00338  Cysteine biosynthesis, homocysteine + serine => cysteine [PATH:rn00260]
+            M00555  Betaine biosynthesis, choline => betaine [PATH:rn00260]
+            M00621  Glycine cleavage system [PATH:rn00260]
+            M00919  Ectoine degradation, ectoine => aspartate [PATH:rn00260]
+            M00974  Betaine metabolism, animals, betaine => glycine [PATH:rn00260]
+            M00975  Betaine degradation, bacteria, betaine => pyruvate [PATH:rn00260]
+DBLINKS     GO: 0006544 0006563 0070178 0006566
+REACTION    R00220  L-serine ammonia-lyase
+            R00221  D-serine ammonia-lyase
+            R00364  glycine:ferricytochrome-c oxidoreductase (deaminating)
+            R00366  glycine:oxygen oxidoreductase (deaminating); aminoacetic acid:oxygen oxidoreductase (deaminating)
+            R00367  S-adenosyl-L-methionine:glycine N-methyltransferase
+            R00371  acetyl-CoA:glycine C-acetyltransferase
+            R00372  glycine:2-oxoglutarate aminotransferase
+            R00480  ATP:L-aspartate 4-phosphotransferase
+            R00565  L-arginine:glycine amidinotransferase
+            R00582  O-phospho-L-serine phosphohydrolase
+            R00585  L-serine:pyruvate aminotransferase
+            R00588  L-serine:glyoxylate aminotransferase
+            R00589  serine racemase
+            R00610  sarcosine:oxygen oxidoreductase (demethylating)
+            R00611  sarcosine:electron-transfer flavoprotein oxidoreductase (demethylating)
+            R00751  L-threonine acetaldehyde-lyase (glycine-forming)
+            R00830  succinyl-CoA:glycine C-succinyltransferase (decarboxylating)
+            R00891  L-serine hydro-lyase (adding hydrogen sulfide, L-cysteine-forming)
+            R00945  5,10-methylenetetrahydrofolate:glycine hydroxymethyltransferase
+            R00996  L-threonine ammonia-lyase (2-oxobutanoate-forming)
+            R01001  L-cystathionine cysteine-lyase (deaminating; 2-oxobutanoate-forming)
+            R01022  choline:oxygen 1-oxidoreductase
+            R01025  choline:acceptor 1-oxidoreductase
+            R01290  L-serine hydro-lyase (adding homocysteine; L-cystathionine-forming)
+            R01388  D-glycerate:NAD+ 2-oxidoreductase
+            R01392  D-glycerate:NADP+ 2-oxidoreductase
+            R01465  L-threonine:NAD+ oxidoreductase
+            R01466  O-phospho-L-homoserine phosphate-lyase (adding water;L-threonine-forming)
+            R01511  D-glycerate-3-phosphate phosphohydrolase
+            R01513  3-phospho-D-glycerate:NAD+ 2-oxidoreductase
+            R01514  ATP:(R)-glycerate 3-phosphotransferase
+            R01518  D-phosphoglycerate 2,3-phosphomutase
+            R01564  N,N-dimethylglycine,5,6,7,8-tetrahydrofolate:oxygen oxidoreductase (demethylating,5,10-methylenetetrahydrofolate-forming)
+            R01565  N,N-dimethylglycine,5,6,7,8-tetrahydrofolate:electron-transferflavoprotein oxidoreductase (demethylating,5,10-methylenetetrahydrofolate-forming)
+            R01566  creatine amidinohydrolase
+            R01771  ATP:L-homoserine O-phosphotransferase
+            R01773  L-homoserine:NAD+ oxidoreductase
+            R01775  L-homoserine:NADP+ oxidoreductase
+            R01800  CDP-diacylglycerol:L-serine 3-phosphatidyltransferase
+            R01883  S-adenosyl-L-methionine:guanidinoacetate N-methyltransferase
+            R02291  L-aspartate-4-semialdehyde:NADP+ oxidoreductase (phosphorylating)
+            R02529  aminoacetone:oxygen oxidoreductase(deaminating)
+            R02565  p-cumic alcohol:NAD+ oxidoreductase
+            R02566  p-cumic alcohol:NADP+ oxidoreductase
+            R02722  L-serine hydro-lyase [adding 1-C-(indol-3-yl)glycerol 3-phosphate; L-tryptophan and glyceraldehyde-3-phosphate-forming]
+            R02821  trimethylaminoacetate:L-homosysteine S-methyltransferase
+            R03425  glycine:lipoylprotein oxidoreductase (decarboxylating and acceptor-aminomethylating)
+            R03758  
+            R03759  (R)-1-aminopropan-2-ol:NAD+ oxidoreductase
+            R03815  dihydrolipoylprotein:NAD+ oxidoreductase
+            R04125  [protein]-S8-aminomethyldihydrolipoyllysine:tetrahydrofolate aminomethyltransferase (ammonia-forming)
+            R04173  3-phosphoserine:2-oxoglutarate aminotransferase
+            R06171  L-allo-threonine acetaldehyde-lyase (glycine-forming)
+            R06977  L-2,4-diaminobutyrate:2-oxoglutarate 4-aminotransferase
+            R06978  acetyl-CoA:L-2,4-diaminobutanoate N4-acetyltransferase
+            R06979  ectoine hydro-lyase
+            R07244  S-adenosyl-L-methionine:N,N-dimethylglycine N-methyltransferase
+            R07409  choline,reduced-ferredoxin:oxygen oxidoreductase
+            R07650  L-2,4-diaminobutanoate carboxy-lyase
+            R08050  
+            R08211  betaine aldehyde:oxygen oxidoreductase
+            R08557  
+            R08558  
+            R08572  ATP:(R)-glycerate 2-phosphotransferase
+            R09800  ectoine aminohydrolase
+            R09801  N2-acetyl-L-2,4-diaminobutanoate amidohydrolase
+            R09805  L-aspartate-4-semialdehyde:NAD+ oxidoreductase
+            R10060  S-adenosyl-L-methionine:glycine N-methyltransferase [N,N-dimethylglycine-forming]
+            R10061  S-adenosyl-L-methionine:sarcosine N-methyltransferase [betaine-forming]
+            R10851  L-allo-threonine:NADP+ 3-oxidoreductase
+            R12787  glycine betaine:[Co(I) glycine betaine-specific corrinoid protein] Co-methyltransferase
+            R12967  sarcosine,5,6,7,8-tetrahydrofolate:O2 oxidoreductase (demethylating,5,10-methylenetetrahydrofolate-forming)
+            R13016  glycine betaine,NADH:oxygen oxidoreductase (demethylating)
+            R13028  N,N-dimethylglycine:ferredoxin oxidoreductase (demethylating)
+            R13029  sarcosine:ferredoxin oxidoreductase (demethylating)
+COMPOUND    C00011  CO2
+            C00014  Ammonia
+            C00022  Pyruvate
+            C00037  Glycine
+            C00048  Glyoxylate
+            C00049  L-Aspartate
+            C00065  L-Serine
+            C00078  L-Tryptophan
+            C00097  L-Cysteine
+            C00101  Tetrahydrofolate
+            C00109  2-Oxobutanoate
+            C00114  Choline
+            C00143  5,10-Methylenetetrahydrofolate
+            C00168  Hydroxypyruvate
+            C00188  L-Threonine
+            C00197  3-Phospho-D-glycerate
+            C00213  Sarcosine
+            C00258  D-Glycerate
+            C00263  L-Homoserine
+            C00300  Creatine
+            C00430  5-Aminolevulinate
+            C00441  L-Aspartate 4-semialdehyde
+            C00546  Methylglyoxal
+            C00576  Betaine aldehyde
+            C00581  Guanidinoacetate
+            C00631  2-Phospho-D-glycerate
+            C00719  Betaine
+            C00740  D-Serine
+            C00986  1,3-Diaminopropane
+            C01005  O-Phospho-L-serine
+            C01026  N,N-Dimethylglycine
+            C01102  O-Phospho-L-homoserine
+            C01242  [Protein]-S8-aminomethyldihydrolipoyllysine
+            C01888  Aminoacetone
+            C02051  Lipoylprotein
+            C02291  L-Cystathionine
+            C02737  Phosphatidylserine
+            C02972  Dihydrolipoylprotein
+            C03082  4-Phospho-L-aspartate
+            C03194  (R)-1-Aminopropan-2-ol
+            C03232  3-Phosphonooxypyruvate
+            C03283  L-2,4-Diaminobutanoate
+            C03508  L-2-Amino-3-oxobutanoic acid
+            C05519  L-Allothreonine
+            C06231  Ectoine
+            C06442  N(gamma)-Acetyldiaminobutyrate
+            C16432  5-Hydroxyectoine
+            C19929  N(alpha)-Acetyl-L-2,4-diaminobutyrate
+REFERENCE   
+  AUTHORS   Nishizuka Y, Seyama Y, Ikai A, Ishimura Y, Kawaguchi A (eds).
+  TITLE     [Cellular Functions and Metabolic Maps] (In Japanese)
+  JOURNAL   Tokyo Kagaku Dojin (1997)
+REFERENCE   PMID:11823218
+  AUTHORS   Kuhlmann AU, Bremer E.
+  TITLE     Osmotically regulated synthesis of the compatible solute ectoine in Bacillus pasteurii and related Bacillus spp.
+  JOURNAL   Appl Environ Microbiol 68:772-83 (2002)
+            DOI:10.1128/AEM.68.2.772-783.2002
+REFERENCE   PMID:10473374
+  AUTHORS   Canovas D, Borges N, Vargas C, Ventosa A, Nieto JJ, Santos H.
+  TITLE     Role of Ngamma-acetyldiaminobutyrate as an enzyme stabilizer and an intermediate in the biosynthesis of hydroxyectoine.
+  JOURNAL   Appl Environ Microbiol 65:3774-9 (1999)
+            DOI:10.1128/AEM.65.9.3774-3779.1999
+REFERENCE   PMID:17636255
+  AUTHORS   Bursy J, Pierik AJ, Pica N, Bremer E.
+  TITLE     Osmotically induced synthesis of the compatible solute hydroxyectoine is mediated by an evolutionarily conserved ectoine hydroxylase.
+  JOURNAL   J Biol Chem 282:31147-55 (2007)
+            DOI:10.1074/jbc.M704023200
+REFERENCE   PMID:16707670
+  AUTHORS   Garcia-Estepa R, Argandona M, Reina-Bueno M, Capote N, Iglesias-Guerra F, Nieto JJ, Vargas C.
+  TITLE     The ectD gene, which is involved in the synthesis of the compatible solute hydroxyectoine, is essential for thermoprotection of the halophilic bacterium Chromohalobacter salexigens.
+  JOURNAL   J Bacteriol 188:3774-84 (2006)
+            DOI:10.1128/JB.00136-06
+REFERENCE   PMID:15470257
+  AUTHORS   Arevalo-Rodriguez M, Pan X, Boeke JD, Heitman J
+  TITLE     FKBP12 controls aspartate pathway flux in Saccharomyces cerevisiae to prevent toxic intermediate accumulation.
+  JOURNAL   Eukaryot Cell 3:1287-96 (2004)
+            DOI:10.1128/EC.3.5.1287-1296.2004
+REFERENCE   PMID:7639721
+  AUTHORS   Rees WD, Hay SM
+  TITLE     The biosynthesis of threonine by mammalian cells: expression of a complete bacterial biosynthetic pathway in an animal cell.
+  JOURNAL   Biochem J 309 ( Pt 3):999-1007 (1995)
+            DOI:10.1042/bj3090999
+REFERENCE   PMID:11341914
+  AUTHORS   Jacques SL, Nieman C, Bareich D, Broadhead G, Kinach R, Honek JF, Wright GD
+  TITLE     Characterization of yeast homoserine dehydrogenase, an antifungal target: the invariant histidine 309 is important for enzyme integrity.
+  JOURNAL   Biochim Biophys Acta 1544:28-41 (2001)
+            DOI:10.1016/S0167-4838(00)00203-X
+REFERENCE   PMID:15520012
+  AUTHORS   Chen X, Jhee KH, Kruger WD
+  TITLE     Production of the neuromodulator H2S by cystathionine beta-synthase via the condensation of cysteine and homocysteine.
+  JOURNAL   J Biol Chem 279:52082-6 (2004)
+            DOI:10.1074/jbc.C400481200
+REL_PATHWAY rn00010  Glycolysis / Gluconeogenesis
+            rn00020  Citrate cycle (TCA cycle)
+            rn00230  Purine metabolism
+            rn00250  Alanine, aspartate and glutamate metabolism
+            rn00270  Cysteine and methionine metabolism
+            rn00290  Valine, leucine and isoleucine biosynthesis
+            rn00300  Lysine biosynthesis
+            rn00330  Arginine and proline metabolism
+            rn00460  Cyanoamino acid metabolism
+            rn00470  D-Amino acid metabolism
+            rn00564  Glycerophospholipid metabolism
+            rn00600  Sphingolipid metabolism
+            rn00620  Pyruvate metabolism
+            rn00630  Glyoxylate and dicarboxylate metabolism
+            rn00640  Propanoate metabolism
+            rn00680  Methane metabolism
+            rn00860  Porphyrin metabolism
+            rn00920  Sulfur metabolism
+KO_PATHWAY  ko00260
+///

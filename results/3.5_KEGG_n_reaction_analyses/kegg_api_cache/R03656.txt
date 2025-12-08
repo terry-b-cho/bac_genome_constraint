@@ -1,0 +1,17 @@
+ENTRY       R03656                      Reaction
+NAME        L-isoleucine:tRNA(Ile) ligase (AMP-forming)
+DEFINITION  ATP + L-Isoleucine + tRNA(Ile) <=> AMP + Diphosphate + L-Isoleucyl-tRNA(Ile)
+EQUATION    C00002 + C00407 + C01644 <=> C00020 + C00013 + C03127
+RCLASS      RC00055  C01644_C03127
+            RC00523  C00407_C03127
+ENZYME      6.1.1.5
+PATHWAY     rn00970  Aminoacyl-tRNA biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.1  Forming carbon-oxygen bonds
+               6.1.1  Ligases forming aminoacyl-tRNA and related compounds
+                6.1.1.5
+                 R03656  ATP + L-Isoleucine + tRNA(Ile) <=> AMP + Diphosphate + L-Isoleucyl-tRNA(Ile)
+ORTHOLOGY   K01870  isoleucyl-tRNA synthetase [EC:6.1.1.5]
+DBLINKS     RHEA: 11063
+///

@@ -1,0 +1,95 @@
+ENTRY       rn00670                     Pathway
+NAME        One carbon pool by folate
+CLASS       Metabolism; Metabolism of cofactors and vitamins
+PATHWAY_MAP rn00670  One carbon pool by folate
+MODULE      M00035  Methionine degradation [PATH:rn00670]
+            M00126  Tetrahydrofolate biosynthesis, GTP => THF [PATH:rn00670]
+            M00140  C1-unit interconversion, prokaryotes [PATH:rn00670]
+            M00141  C1-unit interconversion, eukaryotes [PATH:rn00670]
+            M00338  Cysteine biosynthesis, homocysteine + serine => cysteine [PATH:rn00670]
+            M00555  Betaine biosynthesis, choline => betaine [PATH:rn00670]
+            M00621  Glycine cleavage system [PATH:rn00670]
+            M00974  Betaine metabolism, animals, betaine => glycine [PATH:rn00670]
+DBLINKS     GO: 0035999
+REACTION    R00177  ATP:L-methionine S-adenosyltransferase
+            R00192  S-adenosyl-L-homocysteine hydrolase
+            R00367  S-adenosyl-L-methionine:glycine N-methyltransferase
+            R00611  sarcosine:electron-transfer flavoprotein oxidoreductase (demethylating)
+            R00936  5,6,7,8-tetrahydrofolate:NAD+ oxidoreductase
+            R00937  5,6,7,8-tetrahydrofolate:NAD+ oxidoreductase
+            R00939  5,6,7,8-tetrahydrofolate:NADP+ oxidoreductase
+            R00940  5,6,7,8-tetrahydrofolate:NADP+ oxidoreductase
+            R00941  10-formyltetrahydrofolate:NADP+ oxidoreductase
+            R00943  formate:tetrahydrofolate ligase (ADP-forming)
+            R00944  10-formyltetrahydrofolate amidohydrolase
+            R00945  5,10-methylenetetrahydrofolate:glycine hydroxymethyltransferase
+            R00946  5-methyltetrahydrofolate:L-homocysteine S-methyltransferase
+            R01001  L-cystathionine cysteine-lyase (deaminating; 2-oxobutanoate-forming)
+            R01022  choline:oxygen 1-oxidoreductase
+            R01025  choline:acceptor 1-oxidoreductase
+            R01217  5-methyltetrahydrofolate:ferredoxin oxidoreductase
+            R01218  5,10-methylenetetrahydrofolate:NAD+ oxidoreductase
+            R01220  5,10-methylenetetrahydrofolate:NADP+ oxidoreductase
+            R01221  glycine:NAD+ 2-oxidoreductase (tetrahydrofolate-methylene-adding); glycine cleavage system
+            R01224  5-methyltetrahydrofolate:NADP+ oxidoreductase
+            R01225  5,10-methylenetetrahydrofolate:D-alanine 2-hydroxymethyltransferase
+            R01290  L-serine hydro-lyase (adding homocysteine; L-cystathionine-forming)
+            R01564  N,N-dimethylglycine,5,6,7,8-tetrahydrofolate:oxygen oxidoreductase (demethylating,5,10-methylenetetrahydrofolate-forming)
+            R01565  N,N-dimethylglycine,5,6,7,8-tetrahydrofolate:electron-transferflavoprotein oxidoreductase (demethylating,5,10-methylenetetrahydrofolate-forming)
+            R01655  5,10-methenyltetrahydrofolate 5-hydrolase (decyclizing)
+            R01669  5,10-methylenetetrahydrofolate:deoxycytidylate 5-hydroxymethyltransferase
+            R02101  5,10-methylenetetrahydrofolate:dUMP C-methyltransferase
+            R02235  dihydrofolate:NAD+ oxidoreductase
+            R02236  dihydrofolate:NADP+ oxidoreductase
+            R02287  5-formiminotetrahydrofolate:L-glutamate N-formiminotransferase
+            R02289  5-methyltetrahydrofolate:corrinoid/iron-sulfur protein methyltransferase; [methyl-Co(III) glycine betaine-specific corrinoid protein]:tetrahydrofolate N-methyltransferase
+            R02300  S-aminomethyldihydrolipoylprotein:(6S)-tetrahydrofolate aminomethyltransferase (ammonia-forming)
+            R02301  5-formyltetrahydrofolate cyclo-ligase (ADP-forming)
+            R02302  5-formiminotetrahydrofolate ammonia-lyase (cyclizing)
+            R02565  p-cumic alcohol:NAD+ oxidoreductase
+            R02566  p-cumic alcohol:NADP+ oxidoreductase
+            R02573  trimethylsulfonium:tetrahydrofolate N-methyltransferase
+            R02729  5-formiminotetrahydrofolate:glycine N-formiminotransferase
+            R02821  trimethylaminoacetate:L-homosysteine S-methyltransferase
+            R03189  5-formyltetrahydrofolate:L-glutamate N-formiminotransferase
+            R04125  [protein]-S8-aminomethyldihydrolipoyllysine:tetrahydrofolate aminomethyltransferase (ammonia-forming)
+            R04325  10-formyltetrahydrofolate:5'-phosphoribosylglycinamide formyltransferase
+            R04326  
+            R04560  10-formyltetrahydrofolate:5'-phosphoribosyl-5-amino-4-imidazolecarboxamide formyltransferase
+            R06613  5,10-methylenetetrahydrofolate,NADPH:dUMP C-methyltransferase
+            R07168  5-methyltetrahydrofolate:NAD+ oxidoreductase
+            R07409  choline,reduced-ferredoxin:oxygen oxidoreductase
+            R08211  betaine aldehyde:oxygen oxidoreductase
+            R08557  
+            R11063  S-methyl-L-methionine:L-homocysteine S-methyltransferase
+COMPOUND    C00002  ATP
+            C00019  S-Adenosyl-L-methionine
+            C00021  S-Adenosyl-L-homocysteine
+            C00037  Glycine
+            C00065  L-Serine
+            C00073  L-Methionine
+            C00097  L-Cysteine
+            C00101  Tetrahydrofolate
+            C00114  Choline
+            C00143  5,10-Methylenetetrahydrofolate
+            C00155  L-Homocysteine
+            C00212  Adenosine
+            C00213  Sarcosine
+            C00234  10-Formyltetrahydrofolate
+            C00364  dTMP
+            C00365  dUMP
+            C00415  Dihydrofolate
+            C00440  5-Methyltetrahydrofolate
+            C00445  5,10-Methenyltetrahydrofolate
+            C00504  Folate
+            C00576  Betaine aldehyde
+            C00664  5-Formiminotetrahydrofolate
+            C00719  Betaine
+            C01026  N,N-Dimethylglycine
+            C02291  L-Cystathionine
+            C03479  Folinic acid
+REL_PATHWAY rn00260  Glycine, serine and threonine metabolism
+            rn00270  Cysteine and methionine metabolism
+            rn00790  Folate biosynthesis
+KO_PATHWAY  ko00670
+///

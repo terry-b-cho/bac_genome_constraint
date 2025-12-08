@@ -1,0 +1,19 @@
+ENTRY       R01357                      Reaction
+NAME        acetoacetate:CoA ligase (AMP-forming)
+DEFINITION  ATP + Acetoacetate + CoA <=> AMP + Diphosphate + Acetoacetyl-CoA
+EQUATION    C00002 + C00164 + C00010 <=> C00020 + C00013 + C00332
+RCLASS      RC00004  C00010_C00332
+            RC00014  C00164_C00332
+ENZYME      6.2.1.16
+PATHWAY     rn00280  Valine, leucine and isoleucine degradation
+            rn00650  Butanoate metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.2  Forming carbon-sulfur bonds
+               6.2.1  Acid-thiol ligases
+                6.2.1.16
+                 R01357  ATP + Acetoacetate + CoA <=> AMP + Diphosphate + Acetoacetyl-CoA
+ORTHOLOGY   K01907  acetoacetyl-CoA synthetase [EC:6.2.1.16]
+DBLINKS     RHEA: 16120
+///

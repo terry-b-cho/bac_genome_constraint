@@ -1,0 +1,21 @@
+ENTRY       R01134                      Reaction
+NAME        inosine-5'-phosphate:NADP+ oxidoreductase (aminating);
+            NADH:guanosine-5'-phosphate oxidoreductase (deaminating)
+DEFINITION  IMP + Ammonia + NADP+ <=> GMP + NADPH + H+
+EQUATION    C00130 + C00014 + C00006 <=> C00144 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00457  C00130_C00144
+ENZYME      1.7.1.7
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.7  Acting on other nitrogenous compounds as donors
+               1.7.1  With NAD+ or NADP+ as acceptor
+                1.7.1.7
+                 R01134  IMP + Ammonia + NADP+ <=> GMP + NADPH + H+
+ORTHOLOGY   K00364  GMP reductase [EC:1.7.1.7]
+            K26110  GMP reductase [EC:1.7.1.7]
+DBLINKS     RHEA: 17188
+///

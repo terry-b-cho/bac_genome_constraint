@@ -1,0 +1,3669 @@
+ENTRY       K02302                      KO
+SYMBOL      cysG
+NAME        uroporphyrin-III C-methyltransferase / precorrin-2 dehydrogenase / sirohydrochlorin ferrochelatase [EC:2.1.1.107 1.3.1.76 4.99.1.4]
+PATHWAY     map00860  Porphyrin metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01120  Microbial metabolism in diverse environments
+            map01240  Biosynthesis of cofactors
+MODULE      M00846  Siroheme biosynthesis, glutamyl-tRNA => siroheme
+            M00924  Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide
+REACTION    R02864  S-adenosyl-L-methionine:uroporphyrin-III C-methyltransferase
+            R03194  S-adenosyl-L-methionine:uroporphyrinogen-III C-methyltransferase
+            R03947  S-adenosyl-L-methionine:uroporphyrin-III C-methyltransferase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
+               00860 Porphyrin metabolism
+                K02302  cysG; uroporphyrin-III C-methyltransferase / precorrin-2 dehydrogenase / sirohydrochlorin ferrochelatase
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.3  Acting on the CH-CH group of donors
+               1.3.1  With NAD+ or NADP+ as acceptor
+                1.3.1.76  precorrin-2 dehydrogenase
+                 K02302  cysG; uroporphyrin-III C-methyltransferase / precorrin-2 dehydrogenase / sirohydrochlorin ferrochelatase
+             2. Transferases
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.107  uroporphyrinogen-III C-methyltransferase
+                 K02302  cysG; uroporphyrin-III C-methyltransferase / precorrin-2 dehydrogenase / sirohydrochlorin ferrochelatase
+             4. Lyases
+              4.99  Other lyases
+               4.99.1  Sole sub-subclass for lyases that do not belong in the other subclasses
+                4.99.1.4  sirohydrochlorin ferrochelatase
+                 K02302  cysG; uroporphyrin-III C-methyltransferase / precorrin-2 dehydrogenase / sirohydrochlorin ferrochelatase
+DBLINKS     COG: COG0007 COG1648
+            GO: 0004851 0043115 0004325
+GENES       ECO: b3368(cysG)
+            ECJ: JW3331(cysG)
+            ECD: ECDH10B_3544(cysG)
+            EBW: BWG_3060(cysG)
+            ECOK: ECMDS42_2815(cysG)
+            ECOC: C3026_18290(cysG)
+            ECE: Z4729(cysG)
+            ECS: ECs_4219(cysG)
+            ECF: ECH74115_4679(cysG)
+            ETW: ECSP_4326(cysG)
+            ELX: CDCO157_3960(cysG)
+            EOI: ECO111_4178(cysG)
+            EOJ: ECO26_4457(cysG)
+            EOH: ECO103_4087(cysG)
+            ECOO: ECRM13514_4318(cysG)
+            ECOH: ECRM13516_4114(cysG)
+            ESL: O3K_02225(cysG)
+            ESO: O3O_23425(cysG)
+            ESM: O3M_02270(cysG)
+            ECK: EC55989_3774(cysG)
+            ECG: E2348C_3618(cysG)
+            EOK: G2583_4074(cysG)
+            ELR: ECO55CA74_19445(cysG)
+            ELH: ETEC_3619
+            ECW: EcE24377A_3838(cysG)
+            EUN: UMNK88_4134(cobA)
+            ECP: ECP_3459
+            ENA: ECNA114_3470(cysG)
+            ECOS: EC958_3765(cysG)
+            ECV: APECO1_3088(cysG)
+            ECOA: APECO78_20635
+            ECX: EcHS_A3564(cysG)
+            ECM: EcSMS35_3650(cysG)
+            ECY: ECSE_3630
+            ECR: ECIAI1_3507(cysG)
+            ECQ: ECED1_4032(cysG)
+            EUM: ECUMN_3831(cysG)
+            ECT: ECIAI39_3852(cysG)
+            EOC: CE10_3891(cysG)
+            EBR: ECB_03219(cysG)
+            ECOB: C3029_20850(cysG)
+            EBL: ECD_03219(cysG)
+            EBE: B21_03171(cysG)
+            EBD: ECBD_0380
+            ECI: UTI89_C3872(cysG)
+            EIH: ECOK1_3787(cysG)
+            ECZ: ECS88_3759(cysG)
+            ECC: c4144(cysG)
+            ELO: EC042_3630(cysG)
+            ELN: NRG857_16700(cysG)
+            ESE: ECSF_3195
+            ECL: EcolC_0344
+            EKF: KO11_05955(cysG)
+            EAB: ECABU_c37920(cysG)
+            EDH: EcDH1_0344
+            EDJ: ECDH1ME8569_3248(cysG)
+            ELU: UM146_16925(cysG)
+            ELW: ECW_m3624(cysG)
+            ELL: WFL_17700(cysG)
+            ELC: i14_3816(cysG)
+            ELD: i02_3816(cysG)
+            ELP: P12B_c3467(cysG)
+            ELF: LF82_0414(cysG)
+            ECOL: LY180_17275(cysG)
+            ECOI: ECOPMV1_03680(cysG)
+            ECOJ: P423_18815(cysG)
+            EFE: EFER_3340(cysG)
+            EAL: EAKF1_ch2596c(cysG)
+            EMA: C1192_14705(cobA)
+            ESZ: FEM44_07820(cobA)
+            ERUY: OSH18_11000(cysG)
+            ESF: ACK8NJ_01790(cysG)
+            STY: STY4319(cysG)
+            STT: t4028(cysG)
+            SEX: STBHUCCB_42620
+            SENT: TY21A_20490(cysG)
+            STM: STM3477(cysG)
+            SEO: STM14_4187(cysG)
+            SEV: STMMW_34681
+            SEY: SL1344_3444(cysG)
+            SEM: STMDT12_C35320(cysG)
+            SEJ: STMUK_3463(cysG)
+            SEB: STM474_3644(cysG)
+            SEF: UMN798_3776(cysG)
+            SETU: STU288_17585(cysG)
+            SETC: CFSAN001921_23060(cysG)
+            SENR: STMDT2_33641(cysG)
+            SEND: DT104_34621(cysG)
+            SENI: CY43_18080(cysG)
+            SEEN: SE451236_03520(cysG)
+            SPT: SPA3343(cysG)
+            SEK: SSPA3121
+            SPQ: SPAB_04328
+            SEI: SPC_3547(cysG)
+            SEC: SCH_3411(cysG)
+            SEH: SeHA_C3784
+            SHB: SU5_03952
+            SENH: CFSAN002069_14785(cysG)
+            SEEH: SEEH1578_03470(cysG)
+            SEE: SNSL254_A3749(cysG)
+            SENN: SN31241_4100
+            SEW: SeSA_A3675(cysG)
+            SEA: SeAg_B3675
+            SENS: Q786_16960(cysG)
+            SED: SeD_A3846(cysG)
+            SEG: SG3962(cysG)
+            SEL: SPUL_4103(cysG)
+            SEGA: SPUCDC_4089(cysG)
+            SET: SEN3304(cysG)
+            SENA: AU38_16860(cysG)
+            SENO: AU37_17050(cysG)
+            SENV: AU39_17055(cysG)
+            SENQ: AU40_19005(cysG)
+            SENL: IY59_17485(cysG)
+            SENJ: CFSAN001992_16190(cysG)
+            SEEC: CFSAN002050_24350(cysG)
+            SEEB: SEEB0189_002475(cysG)
+            SEEP: I137_19625(cysG)
+            SENB: BN855_35560(cysG)
+            SENE: IA1_16865(cysG)
+            SENC: SEET0819_00985(cysG)
+            SES: SARI_04135
+            SBG: SBG_3085(cysG)
+            SBZ: A464_3555
+            SBV: N643_15305(cysG)
+            SALZ: EOS98_01890(cobA)
+            SFL: SF3387(cysG)
+            SFX: S4376(cysG)
+            SFV: SFV_3374(cysG)
+            SFE: SFxv_3698(cysG)
+            SFN: SFy_4812
+            SFS: SFyv_4887
+            SFT: NCTC1_03667(cysG)
+            SSN: SSON_3499(cysG)
+            SBO: SBO_3350(cysG)
+            SBC: SbBS512_E3744(cysG)
+            SDY: SDY_3530(cysG)
+            SDZ: Asd1617_04655
+            SHQ: A0259_20590(cysG)
+            SHIG: LXH19_01905(cysG)
+            ENC: ECL_04102 ECL_04744
+            ENL: A3UG_18040 A3UG_21085(cysG)
+            ECLG: EC036_35230 EC036_41140
+            ECLE: ECNIH2_18190 ECNIH2_21610(cysG)
+            ECLN: ECNIH4_01990(cysG) ECNIH4_04935
+            ECLI: ECNIH5_16960 ECNIH5_20230(cysG)
+            ECLX: LI66_17870 LI66_20870(cysG)
+            ECLY: LI62_19330 LI62_22855(cysG)
+            ECLZ: LI64_16780 LI64_19960(cysG)
+            EHM: AB284_03950(cysG) AB284_07920
+            EXF: BFV63_17500 BFV63_20360
+            ECLA: ECNIH3_17045 ECNIH3_20330(cysG)
+            ECLC: ECR091_16980 ECR091_20260(cysG)
+            EAU: DI57_01460 DI57_20215(cysG)
+            EKB: BFV64_18525 BFV64_21835
+            ENO: ECENHK_17745 ECENHK_20600(cysG)
+            EEC: EcWSU1_03575(cysG1) EcWSU1_04169(cysG)
+            ELG: BH714_13650 BH714_21890
+            ECAN: CWI88_04625(cobA) CWI88_20895(cobA)
+            ERN: BFV67_17520 BFV67_20400
+            ECLS: LI67_019050 LI67_022435(cysG)
+            ECHG: FY206_19555(cobA) FY206_22700(cobA)
+            ESH: C1N69_18240(cobA) C1N69_21295(cobA)
+            EPT: HWQ17_15130(cobA) HWQ17_18210(cobA)
+            ECHU: RQP59_18690(cysG) RQP59_21815(cysG)
+            ENT: Ent638_3796
+            EAS: Entas_3472 Entas_4078
+            ENR: H650_10230 H650_13315(cysG)
+            ENX: NI40_017645 NI40_020540(cysG)
+            ENF: AKI40_0418(cysG) AKI40_0959(cysG1)
+            LNI: CWR52_14270(cobA) CWR52_17215(cobA)
+            EBG: FAI37_08510(cobA) FAI37_11335(cobA)
+            END: A4308_02475 A4308_05325(cysG)
+            ENZ: G0034_18195(cobA) G0034_21255(cobA)
+            ENS: HWQ15_03245(cobA) HWQ15_06195(cobA)
+            ENK: LOC22_06020(cysG) LOC22_08915(cysG)
+            EHU: D5067_0001795(cobA) D5067_0004825(cobA)
+            EMOR: L6Y89_17215(cysG) L6Y89_20455(cysG)
+            ENB: ELK40_18295(cobA) ELK40_20895(cobA)
+            EQU: OM418_17510(cysG) OM418_20600(cysG)
+            EPU: QVH39_18545(cysG) QVH39_21450(cysG)
+            EDY: F0320_17215(cysG) F0320_19930(cysG)
+            EAX: AAHF05_18000(cysG) AAHF05_20775(cysG)
+            ENTE: GXP72_18280(cobA) GXP72_21085(cobA)
+            ENTY: H2Z33_10100(cobA) H2Z33_13515(cobA)
+            ENJ: QRD42_00595(cysG) QRD42_03410(cysG)
+            ENHK: EnteroDNA1_01906(cysG_1) EnteroDNA1_02430(cysG_2)
+            ENTL: FZF21_11995(cobA) FZF21_14950(cobA)
+            ENTC: NWV12_17510(cysG) NWV12_20315(cysG)
+            ENTJ: RY075_18175(cysG) RY075_21395(cysG)
+            ENTH: ABFI50_04550(cysG) ABFI50_07495(cysG)
+            ESA: ESA_00538 ESA_04366
+            CSK: ES15_0293 ES15_0795(cysG)
+            CSZ: CSSP291_02720 CSSP291_20110(cysG)
+            CSJ: CSK29544_01251 CSK29544_01784
+            CCON: AFK62_15695 AFK62_18470(cysG)
+            CDM: AFK67_16450 AFK67_19030(cysG)
+            CSI: P262_00437 P262_01179
+            CMJ: AFK66_001510(cysG) AFK66_003815
+            CUI: AFK65_15465 AFK65_18200(cysG)
+            CMW: AFK63_00200(cysG) AFK63_02790
+            CTU: CTU_33260(cysG1) CTU_38860(cysG2)
+            KPN: KPN_03115(cysG) KPN_03754(cysG)
+            KPU: KP1_4385(cysG) KP1_5084(cysG)
+            KPM: KPHS_41900 KPHS_49060
+            KPP: A79E_0357 A79E_0983
+            KPH: KPNIH24_07840 KPNIH24_24455(cysG)
+            KPZ: KPNIH27_20240 KPNIH27_23370(cysG)
+            KPV: KPNIH29_21040 KPNIH29_24290(cysG)
+            KPW: KPNIH30_21060 KPNIH30_24735(cysG)
+            KPY: KPNIH31_20275 KPNIH31_23790(cysG)
+            KPG: KPNIH32_21920 KPNIH32_25605(cysG)
+            KPC: KPNIH10_20870 KPNIH10_24420(cysG)
+            KPQ: KPR0928_20355 KPR0928_23940(cysG)
+            KPT: VK055_3716(cysG2) VK055_4401(cysG)
+            KPO: KPN2242_18590 KPN2242_21785(cysG)
+            KPR: KPR_0716(cysG2) KPR_4112(cysG1)
+            KPJ: N559_0400 N559_1117
+            KPI: D364_15880 D364_19210(cysG)
+            KPA: KPNJ1_00382 KPNJ1_01127
+            KPS: KPNJ2_00383 KPNJ2_01155
+            KPX: PMK1_00596(cysG_1) PMK1_01259(cysG_2)
+            KPB: FH42_11595 FH42_15100(cysG)
+            KPNE: KU54_001860(cysG) KU54_005510
+            KPNU: LI86_01855(cysG) LI86_05520
+            KPNK: BN49_0363(cysG2) BN49_1011(cysG1)
+            KVA: Kvar_0347 Kvar_0950
+            KPE: KPK_0362(cysG) KPK_1008(cysF)
+            KPK: A593_05760 A593_08965(cysG)
+            KVD: KR75_03205 KR75_06320
+            KVQ: SP68_09760 SP68_12915
+            KQU: AVR78_02615 AVR78_25375
+            KQV: B8P98_01875(cobA) B8P98_05565(cobA)
+            KOX: KOX_01090 KOX_04575(cysG)
+            KOE: A225_4669 A225_5376
+            KOY: J415_05185(cysG) J415_08615
+            KOM: HR38_03145(cysG) HR38_27190
+            KMI: VW41_21930(cysG)
+            KOK: KONIH1_23485 KONIH1_27095(cysG)
+            KOC: AB185_09190(cysG) AB185_12870
+            EAE: EAE_01905 EAE_05130(cysG)
+            EAR: CCG32970 CCG33612
+            KLL: BJF97_23330 BJF97_26760
+            KLW: DA718_02325(cobA) DA718_05900(cobA)
+            KAR: LGL98_01845(cysG) LGL98_05100(cysG)
+            KGR: JJJ10_01985(cobA) JJJ10_05885(cobA)
+            KPAS: LUW96_01175(cysG) LUW96_04565(cysG)
+            KLC: K7H21_01960(cysG) K7H21_05565(cysG)
+            KLM: BWI76_22705 BWI76_26055
+            REE: electrica_00349(cysG_1) electrica_00944(cysG_2)
+            KLP: GUC22_01895(cobA) GUC22_05080(cobA)
+            KLX: GQR96_19430(cysG) GQR96_22870(cysG)
+            ROR: RORB6_20660(cysG) RORB6_23730
+            RON: TE10_00370(cysG) TE10_22440
+            RPLN: B1209_01895 B1209_05075
+            RAO: DSD31_02010(cobA) DSD31_05225(cobA)
+            RTG: NCTC13098_00462(cysG_1) NCTC13098_01428(cysG_2)
+            CRO: ROD_44411(cysG)
+            CKO: CKO_04792
+            CFD: CFNIH1_04580(cysG)
+            CBRA: A6J81_19050(cobA)
+            CWE: CO701_23860(cobA)
+            CYO: CD187_01730(cobA)
+            CPOT: FOB25_13135(cobA)
+            CFQ: C2U38_01055(cobA)
+            CSED: JY391_01985(cobA)
+            CAMA: F384_18385(cysG)
+            CAF: AL524_01040(cobA)
+            CIF: AL515_21595(cobA)
+            CFAR: CI104_01855(cobA)
+            CIR: C2U53_07515(cobA)
+            CIE: AN232_06300(cobA)
+            CPAR: CUC49_17450(cobA)
+            CTEL: GBC03_02545(cobA)
+            CITZ: E4Z61_18755(cobA)
+            CARS: E1B03_24385(cobA)
+            CIX: M4I31_01760(cysG)
+            CIB: HF677_001575(cobA)
+            CENS: P2W74_01600(cysG)
+            CITR: GUC46_01715(cobA)
+            CIQ: FD428_01735(cobA)
+            CIY: HAP28_02030(cobA)
+            BFL: Bfl161(cysG)
+            BPN: BPEN_166(cysG)
+            BVA: BVAF_162(cysG)
+            BCHR: BCHRO640_167(cysG)
+            BHB: M9394_02415(cysG)
+            BVX: M9408_02395(cysG)
+            BEN: BOBLI757_161(cysG)
+            BED: BTURN675_156(cysG)
+            BEC: GN160_01400(cobA)
+            BEM: M9396_01635(cysG)
+            BOCR: M9405_00715(cysG)
+            SECT: A359_01480
+            MEN: MEPCIT_198
+            MEO: MPC_027(cysG)
+            EBT: EBL_c02470(cysG)
+            CNT: JT31_14030(cysG)
+            CEM: LH23_03675(cysG)
+            CEN: LH86_03625(cysG)
+            CLAP: NCTC11466_00189(cysG_1)
+            PGE: LG71_02850(cysG) LG71_09480
+            ESC: Entcl_0359 Entcl_0947
+            KLE: AO703_16800 AO703_19625(cysG)
+            KSA: C813_17300 C813_20115
+            KOR: AWR26_01845(cobA) AWR26_04735(cobA)
+            KRD: A3780_19320 A3780_22895(cysG)
+            KCO: BWI95_05560 BWI95_09590
+            KOT: EH164_01670(cobA) EH164_04145(cobA)
+            KPSE: IP581_18500(cobA) IP581_21430(cobA)
+            KOB: HF650_19370(cobA) HF650_21965(cobA)
+            KOO: O9K67_02070(cysG) O9K67_04740(cysG)
+            KOU: C0557_20815(cobA) C0557_24320(cobA)
+            KCA: AAEY27_01870(cysG) AAEY27_04760(cysG)
+            KIE: NCTC12125_04270(cysG)
+            KAS: KATP_03530(cysG)
+            KLU: K7B04_07145(cysG)
+            KCY: RIN60_01870(cysG)
+            KGN: GY169_02225(cobA)
+            ICP: ICMP_126(cysG)
+            LAX: APT61_01840(cysG) APT61_04690
+            LEI: C2U54_02880(cobA) C2U54_23390(cobA)
+            LEH: C3F35_13665(cobA) C3F35_16520(cobA)
+            LEE: DVA44_01810(cobA) DVA44_04810(cobA)
+            LER: GNG29_18270(cobA) GNG29_21145(cobA)
+            LEA: GNG26_17675(cobA) GNG26_20350(cobA)
+            LPNU: KQ929_01240(cysG) KQ929_03995(cysG)
+            LEY: DVA43_19850(cobA) DVA43_23275(cobA)
+            LAZ: A8A57_16710 A8A57_19750
+            LEF: LJPFL01_3900
+            LEW: DAI21_06340(cobA) DAI21_09460(cobA)
+            BUF: D8682_17165(cobA)
+            BAGE: BADSM9389_03230
+            BFT: MNO13_01635(cysG)
+            BSEL: RHD99_01650(cysG)
+            SBW: TGUWTKB_3000(cysG)
+            PPET: C9I82_060
+            SYM: K6K13_16880(cysG)
+            AHN: NCTC12129_00405(cysG_1) NCTC12129_03955(cysG_2)
+            ASUB: NLZ15_01665(cysG) NLZ15_04310(cysG)
+            YRE: HEC60_16325(cobA)
+            SGOE: A8O29_002295(cobA) A8O29_005035(cobA)
+            KIN: AB182_04580 AB182_27515(cysG)
+            PDZ: HHA33_04290(cobA) HHA33_07415(cobA)
+            METY: MRY16398_04170(cysG) MRY16398_10460(cysG)
+            IZH: FEM41_03570(cobA)
+            PTF: PROFFT_A_06760(cysG)
+            PSHI: SAMEA2665130_2707(cysG)
+            PSGC: G163CM_39390(cysG_1) G163CM_45690(cysG_2)
+            SCOL: KFZ77_01490(cobA) KFZ77_15570(cobA)
+            PVJ: LMA04_10880(cysG)
+            SUPE: P0H77_02170(cysG) P0H77_17165(cysG)
+            TOE: QMG90_01450(cysG)
+            AAPT: QNH14_19330(cysG)
+            MPHG: MPHASIOC01_003829(cysG)
+            FPUL: ACBV55_18365(cysG) ACBV55_21040(cysG)
+            EBF: D782_0335 D782_0943
+            EBC: C2U52_10320(cobA) C2U52_14385(cobA)
+            EBU: CUC76_17495(cobA) CUC76_20685(cobA)
+            EBB: F652_3082
+            PSTS: E05_41220 E05_45040
+            YPE: YPO0158(cysG) YPO3367(cysG)
+            YPK: y3941(cysG)
+            YPH: YPC_0094 YPC_3686(cysG)
+            YPA: YPA_2776 YPA_3311
+            YPN: YPN_0726 YPN_3907
+            YPM: YP_0160(cysG1)
+            YPP: YPDSF_0085 YPDSF_2993
+            YPG: YpAngola_A0970(cysG2) YpAngola_A3719(cysG1)
+            YPZ: YPZ3_0137(cysG) YPZ3_2966(cysG)
+            YPT: A1122_04355(cysG) A1122_09095
+            YPD: YPD4_0139(cysG) YPD4_2952(cysG)
+            YPX: YPD8_0145(cysG) YPD8_2950(cysG)
+            YPW: CH59_2250(cysG) CH59_2682(cobA)
+            YPJ: CH55_1946(cobA) CH55_2901(cysG)
+            YPV: BZ15_156(cobA) BZ15_3410(cysG)
+            YPL: CH46_1728(cobA) CH46_758(cysG)
+            YPS: YPTB0764(cysG) YPTB3743(cysG)
+            YPO: BZ17_1792(cobA) BZ17_2843(cysG)
+            YPI: YpsIP31758_3305(cysG2) YpsIP31758_3959(cysG1)
+            YPY: YPK_0232 YPK_3437
+            YPB: YPTS_0798 YPTS_3938
+            YPQ: DJ40_1608(cobA) DJ40_2653(cysG)
+            YPU: BZ21_3076(cysG) BZ21_4147(cobA)
+            YPR: BZ20_1321(cobA) BZ20_2352(cysG)
+            YPC: BZ23_240(cobA) BZ23_3363(cysG)
+            YPF: BZ19_113(cobA) BZ19_3225(cobA)
+            YEN: YE0761(cysG) YE3968(cysG)
+            YEP: YE105_C0747 YE105_C3683
+            YEY: Y11_22861 Y11_32401
+            YEW: CH47_2725(cobA) CH47_3764(cysG)
+            YET: CH48_1411(cysG) CH48_2470(cobA)
+            YEF: FORC2_0226 FORC2_3339
+            YEE: YE5303_25791(cysG) YE5303_38011(cysG)
+            YSI: BF17_06565(cysG) BF17_12125
+            YAL: AT01_2707(cysG) AT01_3286(cobA)
+            YFR: AW19_3491(cysG) AW19_4095(cobA)
+            YIN: CH53_1536(cysG) CH53_939(cobA)
+            YKR: CH54_1695(cobA) CH54_2299(cobA)
+            YRO: CH64_2384(cobA) CH64_3374(cobA)
+            YRU: BD65_2164(cysG) BD65_2629(cobA)
+            YRB: UGYR_11100(cysG) UGYR_13525
+            YAK: ACZ76_08000(cysG) ACZ76_12905
+            YMA: DA391_00950(cobA) DA391_18250(cobA)
+            YHI: D5F51_04635(cobA) D5F51_20995(cobA)
+            YEL: LC20_00284(cobA) LC20_04403(cobA)
+            YCA: F0T03_04360(cobA) F0T03_20660(cobA)
+            YMO: HRD69_06630(cobA) HRD69_09555(cobA)
+            YAS: N0H69_01020(cysG) N0H69_04030(cysG)
+            YKI: HRD70_03290(cobA) HRD70_08695(cobA)
+            YEG: PL78_11575(cysG) PL78_14405
+            SMAR: SM39_0128(cysG) SM39_4049
+            SMAC: SMDB11_0127(cysG) SMDB11_3844
+            SMW: SMWW4_v1c07960 SMWW4_v1c45520(cysG)
+            SPE: Spro_0817 Spro_4598
+            SRR: SerAS9_0744 SerAS9_4690
+            SRL: SOD_c06830(cysG1) SOD_c43980(cysG2)
+            SRY: M621_03570 M621_23965(cysG)
+            SPLY: Q5A_003585(cysG_1) Q5A_023940(cysG_3)
+            SRS: SerAS12_0744 SerAS12_4691
+            SRA: SerAS13_0744 SerAS13_4691
+            SSZ: SCc_157(cysG)
+            SMAF: D781_0771 D781_4318
+            SLQ: M495_03425 M495_23180(cysG)
+            SERF: L085_00280 L085_03025(cysG)
+            SERS: SERRSCBI_03685 SERRSCBI_22015(cysG)
+            SFW: WN53_06145(cysG) WN53_12635
+            SFG: AV650_04785(cysG) AV650_08040
+            SRZ: AXX16_0815 AXX16_4326
+            SERM: CLM71_03750(cobA) CLM71_22215(cobA)
+            SQU: E4343_12475(cobA) E4343_17770(cobA)
+            SFJ: SAMEA4384070_0845(cysG_1) SAMEA4384070_4557(cysG_3)
+            SOF: NCTC11214_00683(cysG_1) NCTC11214_01346(cysG_3)
+            SSUR: ATE40_000630 ATE40_019375
+            SURI: J0X03_01315(cobA) J0X03_20130(cobA)
+            SRHZ: FO014_05980(cobA) FO014_11405(cobA)
+            SENP: KHA73_00750(cysG) KHA73_03625(cysG)
+            SNEM: NLX84_03725(cysG)
+            SNEV: OI978_02665(cysG) OI978_08050(cysG)
+            SGRI: SGBXF1_00746(cysG_1) SGBXF1_04538(cysG_2)
+            SSAR: SSARUM_000739(cysG) SSARUM_004459(cysG)
+            SERB: QEP77_24630(cysG)
+            SERN: GUC32_03715(cobA) GUC32_22755(cobA)
+            SERT: TAN611_0841(cysG) TAN611_4522(cysG)
+            SERH: GF111_08990(cysG) GF111_14500(cysG)
+            SFO: Z042_17920
+            RAH: Rahaq_0275 Rahaq_0675
+            RACE: JHW33_17980(cobA) JHW33_19975(cobA)
+            RAQ: Rahaq2_0294 Rahaq2_0691
+            RAA: Q7S_01365(cysG) Q7S_03105
+            ROX: BV494_15325 BV494_20220
+            RVC: J9880_09140(cysG) J9880_10900(cysG)
+            RBON: QNM34_01275(cysG) QNM34_03035(cysG)
+            RIU: I2123_03235(cobA) I2123_05350(cobA)
+            GQU: AWC35_08320 AWC35_12870(cysG)
+            EAME: GXP68_01125(cobA) GXP68_17000(cobA)
+            RBAD: H2866_06780(cobA) H2866_11615(cobA)
+            RCB: O1V66_13975(cysG)
+            ROU: AB3G37_20655(cysG)
+            CARU: P0E69_03585(cysG) P0E69_16245(cysG)
+            NIG: C1N62_02675(cobA) C1N62_13855(cobA)
+            SERA: Ser39006_007320(cobA) Ser39006_022455(cobA)
+            SERQ: CWC46_07315(cobA) CWC46_22465(cobA)
+            PROD: PCO85_02705(cobA) PCO85_18170(cysG)
+            ECA: ECA3544(cysG1) ECA4081(cysG2)
+            PATR: EV46_17580 EV46_20310(cysG)
+            PATO: GZ59_35660(cysG1) GZ59_41360(cysG2)
+            PCT: PC1_3362 PC1_3871
+            PCC: PCC21_033630 PCC21_038640
+            PCV: BCS7_16965 BCS7_19325(cysG)
+            PWA: Pecwa_3519 Pecwa_4048
+            PPAR: A8F97_01005 A8F97_21235
+            PEC: W5S_3660 W5S_4206
+            PWS: A7983_02740 A7983_05375
+            PPOA: BJK05_11805 BJK05_14375
+            PBRA: B5S52_01845 B5S52_04870
+            PPUJ: E2566_16940(cobA) E2566_19655(cobA)
+            PARI: I2D83_02010(cobA) I2D83_05005(cobA)
+            PAQU: DMB82_0004585(cysG) DMB82_0018625(cysG)
+            PVZ: OA04_36310(cysG1) OA04_41320(cysG)
+            PPAV: LOZ86_02970(cysG) LOZ86_05575(cysG)
+            PQU: IG609_003995(cobA) IG609_018315(cobA)
+            PPOO: LW347_17060(cysG) LW347_19705(cysG)
+            PCAC: OI450_13755(cysG) OI450_16880(cysG)
+            PACB: M9782_19210(cysG) M9782_21695(cysG)
+            PARL: PEC302110_02930(cysG_1) PEC302110_31230(cysG_2)
+            PPEU: DUT67_02035(cysG) DUT67_04500(cysG)
+            DDD: Dda3937_00212(cysG1)
+            DZE: Dd1591_0830
+            DDC: Dd586_3313
+            DZC: W909_15905
+            DSO: A4U42_04495
+            CED: LH89_17150
+            DFN: CVE23_17680(cobA)
+            DDQ: DDI_3274
+            DAQ: DAQ1742_03534(cysG)
+            DIC: Dpoa569_0000817(cobA)
+            DLC: O1Q98_15660(cysG)
+            DAD: V6C41_03340(cysG)
+            DDA: Dd703_0861
+            BGJ: AWC36_00720 AWC36_20815(cysG)
+            BRB: EH207_13520(cobA)
+            BNG: EH206_02065(cobA) EH206_04410(cobA)
+            BIZ: HC231_02035(cobA) HC231_04590(cobA)
+            LBQ: CKQ53_01780(cobA)
+            LPOP: I6N93_03060(cobA)
+            SGL: SG0520
+            SOD: Sant_3254(cysG)
+            PES: SOPEG_1019(cysG)
+            SLIG: GTU79_22675(cysG)
+            EAM: EAMY_0752(cysG)
+            EAY: EAM_2691(cysG)
+            ETA: ETA_27070(cysG)
+            EPY: EpC_28280(cysG)
+            EPR: EPYR_03062(cysG)
+            EBI: EbC_35340(cysG) EbC_41830(cysG)
+            ERJ: EJP617_19090(cysG)
+            EPE: CI789_00625(cobA)
+            EHD: ERCIPSTX3056_605(cysG)
+            ERWI: GN242_04270(cobA)
+            ETP: LU633_18310(cysG)
+            ERP: LJN55_18135(cysG)
+            EPI: Q3V30_01815(cysG) Q3V30_04705(cysG)
+            ERWE: GKQ23_05845(cobA)
+            ETO: RIN69_01680(cysG) RIN69_17765(cysG)
+            EGE: EM595_2811(cysG2)
+            BUC: BU425(cysG)
+            BAP: BUAP5A_418(cysG)
+            BAU: BUAPTUC7_419(cysG)
+            BAW: CWU_02750
+            BAJC: CWS_02215
+            BUA: CWO_02230
+            BUP: CWQ_02265
+            BAK: BAKON_428(cysG)
+            BUH: BUAMB_401(cysG)
+            BAPF: BUMPF009_CDS00174(cysg)
+            BAPG: BUMPG002_CDS00174(cysg)
+            BAPU: BUMPUSDA_CDS00174(cysg)
+            BAPW: BUMPW106_CDS00174(cysg)
+            BAPH: IX46_02200
+            PAM: PANA_3054(cysG)
+            PLF: PANA5342_0980(cysG)
+            PAJ: PAJ_2329(cysG)
+            PAQ: PAGR_g0981
+            PVA: Pvag_2450(cysg1) Pvag_2931(cysg3)
+            PAGG: AL522_19355(cobA) AL522_21805(cobA)
+            PAO: Pat9b_3083 Pat9b_3682
+            KLN: LH22_03910(cysG) LH22_06980
+            PANT: PSNIH1_02025
+            PANP: PSNIH2_02415 PSNIH2_18950(cysG)
+            HHS: HHS_01710(cysG)
+            PCK: BMSBPS_0633
+            PAGC: BEE12_02815
+            PSTW: DSJ_05250
+            PALH: B1H58_05870 B1H58_11555
+            PANS: FCN45_14945(cobA) FCN45_17895(cobA)
+            PEY: EE896_04260(cobA)
+            PDIS: D8B20_13570(cobA)
+            PER: LAC65_12570(cysG)
+            PJI: KTJ90_04150(cysG)
+            PANO: OJ965_04455(cysG) OJ965_06605(cysG)
+            KPIE: N5580_01270(cysG) N5580_03620(cysG)
+            PALF: K6R05_01935(cysG) K6R05_04195(cysG)
+            PPHO: CTZ24_13060(cobA) CTZ24_18740(cobA)
+            PDIP: KFZ74_01305(cobA) KFZ74_04520(cobA)
+            PANE: P6287_15215(cysG) P6287_17835(cysG)
+            PAMT: IAI47_04175(cobA)
+            PANZ: NR302_14925(cysG) NR302_17940(cysG)
+            PPHI: ACF2G4_10345(cysG) ACF2G4_12785(cysG)
+            PGZ: C2E15_01855(cobA) C2E15_16780(cobA)
+            PCD: C2E16_01925(cobA) C2E16_16655(cobA)
+            MINT: C7M51_02532(cysG_1) C7M51_03866(cysG_2)
+            MTHI: C7M52_00324(cysG_1) C7M52_03162(cysG_2)
+            MHAN: K6958_01760(cysG) K6958_16315(cysG)
+            TCI: A7K98_04790
+            TPTY: NCTC11468_00700(cysG_1) NCTC11468_00914(cysG_2)
+            TATU: EFZ10_03220(cobA)
+            PMAK: PMPD1_0332 PMPD1_3515
+            PLU: plu0708(cysG)
+            PLUM: A4R40_03540
+            PAY: PAU_00681(cysG)
+            PTT: VY86_03590
+            PLUI: CE143_03980(cobA)
+            PMR: PMI1477(cysG) PMI2247(cysG)
+            PMIB: BB2000_1508(cysG) BB2000_2379(cysG)
+            PVL: AOB99_09305(cysG) AOB99_13150
+            PVG: CRN77_07795(cobA) CRN77_11685(cobA)
+            PHAU: PH4a_03465(cobA) PH4a_16710(cobA)
+            PROT: BTA34_08870 BTA34_13055
+            PCOL: F1325_10520(cobA) F1325_14650(cobA)
+            PCIB: F9282_10610(cobA) F9282_15090(cobA)
+            PPEE: I6G31_13135(cobA)
+            PAPP: QQS39_10605(cysG) QQS39_14895(cysG)
+            PRON: LG402_11210(cysG) LG402_16810(cysG)
+            XBO: XBJ1_3609(cysG)
+            XBV: XBW1_4049(cysG)
+            XNE: XNC1_3857(cysG)
+            XNM: XNC2_3711(cysG)
+            XDO: XDD1_3170(cysG)
+            XPO: XPG1_2780(cysG)
+            XHO: A9255_19255
+            XBU: HGO23_16445(cobA)
+            XGR: QL128_03730(cysG)
+            XET: WDV74_03225(cysG)
+            XSK: AB0856_003419(cysG)
+            PSI: S70_05655
+            PSX: DR96_236(cobA)
+            PSTA: BGK56_08470
+            PTHA: OI982_18185(cysG)
+            PRG: RB151_034970(cysG_2)
+            PALA: CO695_08915(cobA)
+            PHEI: NCTC12003_00945(cysG)
+            PRQ: CYG50_21010(cobA)
+            PRJ: NCTC6933_03106(cysG)
+            PVC: G3341_04595(cobA)
+            PMAG: JI723_05030(cobA)
+            PHAG: PZ638_04665(cysG)
+            PZJ: QS795_013495(cysG)
+            PZN: ACE2AM_05030(cysG)
+            PXH: ACE2AL_04680(cysG)
+            PLAZ: ACIH2S_15185(cysG)
+            PROV: ABE954_04995(cysG)
+            MWI: MNY66_02980(cysG) MNY66_11645(cysG)
+            EIC: NT01EI_3617
+            ETD: ETAF_2944
+            ETE: ETEE_1482(cysG)
+            ETR: ETAE_3254(cysG)
+            ETC: ETAC_15520(cysG)
+            EDW: QY76_04205(cysG)
+            EDL: AAZ33_17000(cysG)
+            EHO: A9798_01130
+            HAV: AT03_20530(cysG)
+            HPAR: AL518_06015(cobA)
+            OPO: DSM2777_04910(cysG)
+            LPV: HYN51_03815(cobA)
+            PRAG: EKN56_11290(cobA)
+            PFQ: QQ39_06190
+            LRI: NCTC12151_01222(cysG)
+            LGB: V8L73_06635(cysG)
+            GKN: PVT67_03210(cysG)
+            EBO: SSAmo_0840(cysG)
+            HPIT: NCTC13334_01949(cysG)
+            MSU: MS1254(cysG)
+            BSUN: A4G13_03910
+            MVR: X781_13380
+            MVI: X808_12200
+            MVG: X874_11310
+            MVE: X875_9440
+            APJ: APJL_1886(cysG)
+            APA: APP7_1934(cysG)
+            ASU: Asuc_1691
+            ASI: ASU2_07625
+            ASS: ASU1_07700
+            AEU: ACEE_08010
+            APOR: DDU33_03910(cobA)
+            ALIG: NCTC10568_02233(cysG)
+            AGP: NYR63_10240(cysG)
+            AGK: NYR60_09150(cysG)
+            AAZ: ADJ80_06125
+            GSS: NYR30_12555(cysG)
+            PAET: NCTC13378_01291(cysG)
+            XFA: XF_0832
+            XFT: PD_1840(cysG)
+            XFM: Xfasm12_2018
+            XFN: XfasM23_1941
+            XFF: XFLM_03655
+            XFL: P303_00650
+            XFS: D934_13045
+            XFH: XFHB_11160(cobA)
+            XTW: AB672_11355
+            XCC: XCC3181(cysG)
+            XCB: XC_0983
+            XCA: xcc-b100_0995(cysG)
+            XCP: XCR_3522
+            XCV: XCV3458(cysG)
+            XAX: XACM_3229(cysG)
+            XAC: XAC3340(cysG)
+            XCI: XCAW_04033
+            XCT: J151_03524
+            XCJ: J158_03503
+            XCU: J159_03499
+            XCN: J169_03522
+            XCW: J162_03503
+            XCR: J163_03498
+            XCM: J164_03499
+            XCF: J172_03514
+            XFU: XFF4834R_chr13090(cysG)
+            XAO: XAC29_17020
+            XOM: XOO3208(XOO3208)
+            XOO: XOO3408(cysG)
+            XOP: PXO_02124
+            XOY: AZ54_06780
+            XOR: XOC_3580
+            XOZ: BE73_18020
+            XSA: SB85_18010
+            XTN: FD63_14810
+            XGM: KFS84_15620(cobA)
+            XCS: KHA79_04275(cobA)
+            XFR: BER92_16765
+            XVE: BJD12_07350
+            XPE: BJD13_22440
+            XHR: XJ27_20690
+            XGA: BI317_18785
+            XPH: XppCFBP6546_17560(cobA)
+            XVA: C7V42_17195(cobA)
+            XAN: AC801_16875
+            XAR: XB05_11265
+            XHY: FZ025_14350(cobA)
+            XCZ: EBN15_14765(cobA)
+            XTH: G4Q83_10810(cobA)
+            XEU: XSP_003170(cobA)
+            XHD: LMG31886_10450(cysG_1)
+            XAG: HEP73_01040
+            XDY: NYR95_17435(cobA)
+            XAS: HEP74_00992
+            XHA: PG878_15330(cobA)
+            XRY: QN244_05280(cobA)
+            XSO: RAB70_08795(cobA)
+            XIN: Q7W82_18205(cobA)
+            XAI: HEP75_01011
+            XAZ: XSP_003066(cobA)
+            XTS: AB3X08_05400(cobA)
+            XMD: AB3X07_05805(cobA)
+            XBN: AB3X10_05495(cobA)
+            XAF: NUG20_16500(cobA)
+            XAB: NUG21_05490(cobA)
+            SACZ: AOT14_27930(cysG)
+            STEK: AXG53_05040
+            PSU: Psesu_0460
+            PSUW: WQ53_04870
+            PSD: DSC_03540
+            PMEX: H4W19_09695(cobA)
+            PJP: LAG73_01995(cysG)
+            PWI: MWN52_04000(cysG)
+            PSSE: OY559_16120(cysG)
+            PKQ: ACEJ41_02410(cobA)
+            LAB: LA76x_1596(cysG)
+            LAQ: GLA29479_678(cysG)
+            LCP: LC55x_1364(cysG)
+            LGU: LG3211_1274(cysG)
+            LEZ: GLE_1230(cobA)
+            LEM: LEN_3694(cysG)
+            LYT: DWG18_03280(cobA)
+            LSOL: GOY17_14575(cobA)
+            LAUX: LA521A_28690(cysG)
+            LYA: RDV84_00615(cysG)
+            LARE: HIV01_000315(cobA)
+            LYJ: FKV23_04015(cobA)
+            LMB: C9I47_0854
+            LSF: I8J32_017330(cobA)
+            LSX: H8B22_02725(cobA)
+            THES: FHQ07_11895(cobA)
+            THEH: G7079_04460(cobA)
+            TCN: H9L16_01360(cobA)
+            TBV: H9L17_12865(cobA)
+            THEX: ICG51_000677(cobA)
+            XBC: ELE36_06360(cobA)
+            FAU: Fraau_2925
+            FED: LQ772_09720(cysG)
+            RHD: R2APBS1_1503
+            RGL: CS053_10225(cobA) CS053_16870(cobA)
+            RTH: LRK53_09200(cysG)
+            DJI: CH75_04030 CH75_05595
+            DJA: HY57_17755
+            DTX: ATSB10_06160
+            DCS: ISN74_01835(cobA)
+            DTL: H8F01_04055(cobA) H8F01_17800(cobA)
+            DTA: DYST_00033
+            DYG: DYGSA30_28630(cysG)
+            DKY: ACN9MB_08070(cysG)
+            DKO: I596_1544
+            XBA: C7S18_19370(cobA)
+            RBD: ALSL_0638
+            TAMN: N4264_04365(cysG)
+            VOW: A9237_25290
+            PPR: PBPRA3312(STY4319)
+            PGB: H744_2c0013
+            PDS: CAY62_01060
+            PGH: FH974_14305(cobA)
+            PHOT: L4174_014570(cysG)
+            PATE: NNL38_05025(cobA) NNL38_14375(cysG)
+            PPIL: ACJZU6_00085(cysG) ACJZU6_07670(cobA)
+            GHO: AL542_11520(cobA)
+            GKD: K6Q96_15180(cysG)
+            SALY: E8E00_01235(cobA)
+            SKS: FCN78_11590(cobA)
+            SCOT: HBA18_12030(cobA)
+            SPRO: N7E60_12550(cysG)
+            ELIT: AB8599_01505(cysG)
+            PLAS: NF212_15410(cysG)
+            PRE: PCA10_25240(cysG)
+            PFUW: KF707C_26660
+            POJ: PtoMrB4_22950(cysG)
+            PLAL: FXN65_15565(cobA)
+            PAE: PA2611(cysG)
+            PAEV: N297_2691(cobA)
+            PAEI: N296_2691(cobA)
+            PAU: PA14_30340(cysG)
+            PAG: PLES_24941(cysG)
+            PAF: PAM18_2364(cysG)
+            PNC: NCGM2_3627(cysG)
+            PAEB: NCGM1900_3903(cysG)
+            PDK: PADK2_11605
+            PSG: G655_11945
+            PRP: M062_13875
+            PAEP: PA1S_12550
+            PAER: PA1R_gp0412
+            PAEM: U769_12115
+            PAEL: T223_12700
+            PAES: SCV20265_2643
+            PAEU: BN889_02878(cysG)
+            PAEG: AI22_21360
+            PAEC: M802_2688(cobA)
+            PAEO: M801_2557(cobA)
+            SECH: B18_25495
+            PCQ: PcP3B5_37910(cysG)
+            PMUI: G4G71_14435(cobA)
+            PNT: G5B91_18215(cobA)
+            PAP: PSPA7_2597(cysG)
+            PPAA: B7D75_11955(cobA)
+            PPU: PP_3999(cysG)
+            PPF: Pput_1834
+            PPG: PputGB1_3604
+            PPW: PputW619_3403
+            PPT: PPS_3409
+            PPB: PPUBIRD1_1815(cysG)
+            PPI: YSA_08776
+            PPX: T1E_0525(cobA-2)
+            PPUH: B479_16960
+            PPUT: L483_22405
+            PPUN: PP4_17540(cysG)
+            PPUD: DW66_3855
+            PFV: Psefu_2338
+            PMON: X969_16240
+            PMOT: X970_15885
+            PPJ: RK21_01193
+            POR: APT59_09720
+            PPSL: BJP27_00875
+            PMOL: CLJ08_02820(cobA)
+            PALD: LU682_010045(cysG)
+            PIX: RIN61_02080(cysG)
+            PMOS: O165_006140
+            PST: PSPTO_3344(cysG)
+            PSB: Psyr_3174
+            PSYR: N018_15955
+            PSP: PSPPH_3088(cysG)
+            PSAV: PSA3335_13390
+            PAMG: BKM19_018635(cobA)
+            PCI: PCH70_18470
+            PAVL: BKM03_12265(cobA)
+            PVD: CFBP1590__3269(cysG)
+            PCAB: JGS08_11030(cobA)
+            PCOF: POR16_14400(cobA)
+            PTRE: I9H09_10860(cobA)
+            PSYI: MME58_16260(cysG)
+            PAST: N015_11245(cobA)
+            PLIJ: KQP88_08905(cysG)
+            PFUV: NLK61_23790(cysG)
+            PFL: PFL_3875(cobA)
+            PPRC: PFLCHA0_c39330(cysG)
+            PPRO: PPC_3972(cobA)
+            PFE: PSF113_2182
+            PZA: HU749_018895(cysG)
+            PFN: HZ99_05635
+            PFO: Pfl01_3581(cysG)
+            PFS: PFLU_3796
+            PFC: PflA506_3178(cobA)
+            PPZ: H045_11170
+            PFB: VO64_0886
+            PMAN: OU5_1163(cysG)
+            PTV: AA957_25860
+            PCG: AXG94_05325
+            PVR: PverR02_19315
+            PAZO: AYR47_25505
+            POI: BOP93_15480
+            PRX: HRH33_16600(cobA)
+            PMED: E3Z27_17645(cobA)
+            PKR: AYO71_19530
+            PMUD: NCTC8068_03049(cysG_2)
+            PTOL: I7845_17545(cobA)
+            PMAB: U0037_18960(cysG)
+            PBRE: QDY63_18280(cysG)
+            PFW: PF1751_v1c32130(cysG)
+            PFF: PFLUOLIPICF720150
+            PFX: A7318_15585
+            PEN: PSEEN2217(cysG)
+            PLUL: FOB45_13755(cobA)
+            PBA: PSEBR_a3558
+            PBC: CD58_11235
+            PPUU: PputUW4_01835(cobA1)
+            PDR: H681_13625
+            PSV: PVLB_14910
+            PSK: U771_20015
+            PKC: PKB_3370(cysG)
+            PCH: EY04_19405
+            PCZ: PCL1606_23780
+            PCP: JM49_11815
+            PCHP: C4K32_3961
+            PFZ: AV641_08035
+            PLQ: AA042_02035
+            PALK: PSAKL28_34220
+            PRH: LT40_11475
+            PSW: LK03_19570
+            PPV: NJ69_09455
+            PSES: PSCI_5401
+            PSEM: TO66_20090
+            PSEC: CCOS191_3305(cysG)
+            PPSY: AOC04_04725
+            PSOS: POS17_3995(cobA)
+            PFK: PFAS1_01095
+            PANR: A7J50_3431
+            PSET: THL1_2487
+            PSIL: PMA3_19535
+            PYM: AK972_3632
+            PADE: C3B55_00458(cysG)
+            PKE: DLD99_17885(cobA)
+            PUM: HGP31_20150(cobA)
+            PGG: FX982_03040
+            PPSH: G5J76_11430(cobA)
+            PGY: AWU82_10340(cobA)
+            PSEJ: HNQ25_13410(cobA)
+            PVK: EPZ47_18100(cobA)
+            PEZ: HWQ56_09670(cobA)
+            PBZ: GN234_29175(cobA)
+            PMAO: PMYSY11_2355(cysG)
+            PATA: JWU58_10740(cobA)
+            PDW: BV82_1260(cobA)
+            PZE: HU754_011605(cysG)
+            PMOE: HV782_018310(cysG)
+            PSEP: C4K39_5829
+            PPII: QL104_20345(cysG)
+            PVW: HU752_022710(cysG)
+            PTRT: HU722_0017840(cysG)
+            PXA: KSS93_13560(cysG)
+            PSAM: HU731_004305(cysG)
+            PTZ: HU718_019130(cysG)
+            PQI: KH389_16400(cysG)
+            PSHH: HU773_016305(cysG)
+            PXN: HU772_010040(cysG)
+            PHV: HU739_001560(cysG)
+            PPRG: HU725_008735(cysG)
+            PANH: HU763_015350(cysG)
+            PASG: KSS96_17690(cysG)
+            PFAK: KSS94_10920(cysG)
+            PMUY: KSS95_12755(cysG)
+            PMAM: KSS90_10290(cysG)
+            PAZE: KSS91_18445(cysG)
+            PALV: KSS97_18805(cysG)
+            PCAS: LOY40_18550(cysG)
+            PORY: EJA05_17910(cobA)
+            PWZ: J7655_11130(cobA)
+            PTK: EXN22_11140(cobA)
+            PTW: TUM18999_26420(cysG)
+            PIE: HU724_017940(cysG)
+            PWY: HU734_016425(cysG)
+            PTAE: NCTC10697_01541(cysG_1)
+            PGF: J0G10_19095(cobA)
+            PCAV: D3880_12295(cobA)
+            PJU: L1P09_16150(cysG)
+            PPHN: HU825_12875(cobA)
+            PIZ: LAB08_R39170(cobA)
+            PPEG: KUA23_17910(cysG)
+            PSII: NF676_16810(cysG)
+            PSIH: LOY51_17285(cysG)
+            PFIT: KJY40_18480(cysG)
+            PASI: LG197_23715(cysG)
+            PKM: PZ739_18690(cysG)
+            PNB: NK667_06740(cysG)
+            PSOA: PSm6_47630(cysG)
+            PTAI: ICN73_23560(cobA)
+            PKK: QQ992_18490(cysG)
+            PKJ: Q1W70_20015(cysG)
+            PHYG: JTY93_15710(cobA)
+            PHOM: KJF94_15430(cysG)
+            PCUC: PSH97_18275(cysG)
+            PTRL: OU419_17050(cysG)
+            PPAE: LDL65_28205(cysG)
+            PPAO: K3169_19800(cysG)
+            PRHZ: CRX69_15415(cobA)
+            PSJY: AA098_18180
+            PSKU: KUIN1_31270(cysG)
+            PSHS: JJN09_08955(cobA)
+            PHEF: PSH57_17580(cysG)
+            PSLP: BHQ29_11385
+            PLIS: NN484_20835(cysG)
+            PSNC: C0058_20325(cobA)
+            PFOU: OZ911_19110(cysG)
+            PBEJ: PSH84_22620(cysG)
+            PKV: QYQ93_17615(cysG)
+            PSMT: MT1_2113
+            PSKP: KU43P_34890(cysG)
+            PBAM: NUH87_27920(cysG)
+            PDEU: QEP73_20095(cysG)
+            PQE: OSC50_09520(cysG)
+            PBEN: V6W80_09705(cysG)
+            PSDT: NH234_19025(cysG)
+            PBEZ: SBP02_10455(cysG)
+            PCAA: V6L78_15965(cysG)
+            PBUB: V6B39_11940(cysG)
+            PSML: V6P94_11440(cysG)
+            PSMZ: V6L79_11560(cysG)
+            PSIV: LZ023_16825(cysG)
+            PSWO: SD196_16270(cysG)
+            PMOR: PMm318_A51150(cysG)
+            PTHV: CE140_01340(cobA)
+            PSSX: DCC84_21465(cobA)
+            PAGB: AWM79_14410
+            PSNS: CI807_18265(cobA)
+            PSRU: CCX46_18665(cobA)
+            PSNY: ACPFMA_10345(cysG)
+            PSMD: K5R88_10245(cysG)
+            PIM: OQ460_14790(cysG)
+            PBAB: AAEO81_10650(cysG)
+            PSYQ: HXW90_18765(cobA)
+            PSAO: SK095_07695(cysG)
+            PMY: Pmen_2383
+            PMK: MDS_2387
+            PPSE: BN5_1877(cysG)
+            PALL: UYA_11455
+            PKH: JLK41_12065(cobA)
+            PTY: JWV26_21695(cobA)
+            PHF: NLY38_11085(cysG)
+            PCHE: QYM18_18940(cysG)
+            PSA: PST_2288(cysG)
+            PSZ: PSTAB_2172(cysG)
+            PSR: PSTAA_2316(cysG)
+            PSC: A458_09345
+            PSJ: PSJM300_11815
+            PSH: Psest_2037
+            PSTT: CH92_09250
+            PSTU: UIB01_10540
+            PSED: DM292_07940(cobA)
+            PCHL: LLJ08_09820(cysG)
+            PBM: CL52_10200
+            PKG: LW136_12785(cysG)
+            SDEG: GOM96_18100(cobA)
+            PZD: KQ248_14245(cysG)
+            AVN: Avin_28170(cobA)
+            AVL: AvCA_28170(cobA)
+            AVD: AvCA6_28170(cobA)
+            ACX: Achr_19570(cobA)
+            PBB: AKN87_09260
+            PAGR: E2H98_12695(cobA)
+            EMO: DM558_07965(cobA)
+            EAZ: JHT90_07985(cobA)
+            ENTO: MTZ49_11795(cysG)
+            HPEG: EAO82_13305(cobA)
+            HAES: LO767_07310(cysG)
+            HARR: HV822_00265(cysG)
+            PNN: KEM63_08555(cobA)
+            PPHA: BVH74_13470
+            HASM: QAO71_08535(cysG)
+            DCE: O6P33_10575(cysG)
+            PALC: A0T30_13155
+            PCAM: HNE05_08735(cobA)
+            PBAU: OS670_04595(cysG)
+            MAQ: Maqu_3131
+            MHC: MARHY3070(nirE)
+            MBS: MRBBS_1468(cysG)
+            MPQ: ABA45_06860
+            MARA: D0851_08725(cobA)
+            MARJ: MARI_00410(cysG_1)
+            MSHE: MAALD49_31800
+            MNK: RE428_26120(cysG)
+            MMEE: NLK58_09660(cobA)
+            MRX: MspRI1_12190
+            MACA: J2887_10710(cobA)
+            KAK: Kalk_00025(cobA)
+            PSPI: PS2015_1551
+            NJO: ABXT42_11240(cysG)
+            PAR: Psyc_1065(cysG)
+            PCR: Pcryo_1397
+            PRW: PsycPRwf_1107
+            PSO: PSYCG_07340
+            PUR: AOC03_01760
+            PALI: A3K91_1215 A3K91_1391
+            PSPG: AK823_07425
+            PSYG: AK825_07520
+            PSYC: DABAL43B_1427
+            PSYA: AOT82_449
+            PSYY: DLE54_05510(cobA)
+            PSYP: E5677_06435(cobA) E5677_07340(cobA)
+            PCIA: Q6344_06475(cobA) Q6344_07260(cysG)
+            PRAE: MN210_07350(cysG) MN210_18835(cobA)
+            PSYK: AADH33_07010(cobA)
+            ACB: A1S_2697
+            ABM: ABSDF0748(cysG)
+            ABY: ABAYE0758(cysG)
+            ABC: ACICU_02978
+            ABN: AB57_3146
+            ABB: ABBFA_00741(cysG)
+            ABX: ABK1_3029
+            ABZ: ABZJ_03157(cobA)
+            ABR: ABTJ_00736
+            ABD: ABTW07_3199(cobA)
+            ABH: M3Q_3208
+            ABAD: ABD1_26730(cysG)
+            ABJ: BJAB07104_03060
+            ABAB: BJAB0715_03104
+            ABAJ: BJAB0868_02944
+            ABAZ: P795_3515
+            ABK: LX00_14625
+            ABAU: IX87_10200
+            ABAA: IX88_16795
+            ABW: BL01_05195
+            ABAL: ABLAC_07680
+            ABAN: ABUW_0853(cobA)
+            ACC: BDGL_002175(cysG)
+            ANO: RR32_03865
+            ALC: OTEC02_03830
+            ACAL: BUM88_15705
+            ASEI: I8T81_03935(cobA)
+            ACD: AOLE_03580
+            ACI: ACIAD2934(cysG)
+            ATT: AMQ28_12000
+            AEI: AOY20_00810
+            AJO: RZ95_04010
+            ACV: AMD27_04335
+            AHL: AHTJS_03895
+            AJN: BVL33_13720
+            ASOL: BEN76_00405
+            ALA: BFG52_04180
+            ASJ: AsACE_CH02087(cysG)
+            AID: CTZ23_11145(cobA)
+            ADV: DJ533_13880(cobA)
+            ARJ: DOM24_03260(cobA)
+            AWU: BEN71_13995(cobA)
+            ACUM: C9E88_011970(cobA) C9E88_015880(cobA) C9E88_17105(cobA)
+            AGU: AS4_10090(cysG)
+            AUG: URS_2046
+            ALW: FOB21_05725(cobA)
+            ADS: FPL17_18720(cobA)
+            ABER: BSR55_04955
+            ATN: FM020_11935(cobA)
+            ACHI: CDG60_05300(cobA)
+            ALJ: G8D99_11310(cobA)
+            AWG: GFH30_09620(cobA)
+            ASHA: G8E00_04745(cobA)
+            ATG: J4G44_05675(cobA)
+            AVB: RYU24_08400(cysG)
+            ABOU: ACBO_08490(cysG)
+            AGYL: FPL18_11290(cobA)
+            ACIU: A3K93_08825
+            AVZ: HWI77_03875(cobA)
+            APOT: MZO21_09325(cysG)
+            ATZ: M5E07_12075(cysG)
+            APRL: PY247_01000(cysG)
+            ACOI: NQU59_07575(cysG)
+            AVIV: LF296_14495(cysG)
+            ACIE: KIP84_03915(cysG)
+            ASUE: F2A31_03905(cobA)
+            ACIG: BS636_09075(cobA)
+            ACOT: QLH32_06830(cysG)
+            ATV: ABEF79_03990(cysG)
+            ACIC: IOD65_04885(cobA)
+            ACIZ: TOL5_32480(cysG)
+            ACIF: MN200_12245(cysG)
+            ACPZ: ACFN7Z_03940(cysG)
+            ACIK: NGC85_04100(cysG)
+            ACZQ: SC192_03765(cysG)
+            APIS: ACDW34_05230(cysG)
+            ACAZ: ABJ384_11015(cysG)
+            MCT: MCR_1132(cobA)
+            MCS: DR90_776(cobA)
+            MCAT: MC25239_01107(cysG)
+            MOI: MOVS_06100
+            MBL: AAX09_05490
+            MBOI: DQF64_09460(cobA)
+            MCUN: NCTC10297_01190(cysG)
+            MNS: LU293_04770(cysG)
+            MNC: LU297_08980(cysG)
+            MNJ: LU290_03960(cysG)
+            MHAC: LU276_03450(cysG)
+            MCAH: U0021_01100(cysG)
+            MOW: RNZ41_05080(cysG) RNZ41_08440(cobA)
+            MORA: NGM44_01230(cysG)
+            MORK: MOXK02_11270(cysG)
+            MORX: MOXK23_08940(cysG) MOXK23_15270
+            MVF: ACE1C5_05545(cysG)
+            MBAH: HYN46_02220(cobA)
+            MOS: AXE82_01645
+            SMES: K0I73_18890(cobA)
+            SPSJ: K0I62_18995(cobA)
+            CPS: CPS_0537
+            COM: CMT41_02075
+            COZ: A3Q34_08925
+            COLW: A3Q33_10245
+            COLA: DBO93_01755
+            COV: EKO29_02245
+            CBER: B5D82_10095
+            LSD: EMK97_08995
+            THT: E2K93_10045 E2K93_15260(cobA)
+            THAP: FNC98_01270 FNC98_01545(cobA)
+            TPSY: RGQ13_02370(cobA)
+            TNN: RI845_16905(cobA) RI845_17295
+            TFT: RI844_11205(cobA)
+            THAT: H3N35_03345 H3N35_25280(cobA)
+            TACT: SG35_003385 SG35_026350(cobA)
+            TVD: SG34_002100(cobA) SG34_026010
+            PHA: PSHAa0213(cysG)
+            PTN: PTRA_a0228(cysG)
+            PSM: PSM_A0226(cysG)
+            PSEO: OM33_02470(cysG)
+            PIA: PI2015_0225
+            PPHE: PP2015_186
+            PBW: D172_001560(cysG)
+            PRR: AT705_13420(cysG)
+            PLZ: S4054249_19610(cysG)
+            PALN: B0W48_09575
+            PPIS: B1L02_01550(cobA)
+            PEA: PESP_a0287(cysG)
+            PSPO: PSPO_a3096(cysG)
+            PART: PARC_a0282(cysG)
+            PTU: PTUN_a0170(cysG)
+            PNG: PNIG_a0249(cysG)
+            PTD: PTET_a0236(cysG)
+            PSEN: PNC201_01490(cysG)
+            PDJ: D0907_01895(cobA)
+            PAGA: PAGA_a0289(cysG)
+            PCAR: PC2016_2931
+            PMAA: CPA52_01305(cobA)
+            PXI: J5O05_11690(cobA)
+            PVB: J5X90_06985(cobA)
+            PSAZ: PA25_31170(cysG2)
+            PDV: FFU37_16735(cobA)
+            PFLI: CTT31_01580(cobA)
+            PMAZ: R5H13_01560(cysG)
+            PSHO: KQ246_15835(cysG)
+            PSMM: PspMM1_02450(cysG2) PspMM1_18610
+            PXSI: EJ103_01265(cobA) EJ103_09405(cobA)
+            PSJS: GZH31_01645(cobA) GZH31_16615(cobA)
+            PSKA: KAN5_14770 KAN5_31360(cysG2)
+            PSRR: ELR70_06255(cobA)
+            PSMB: H3302_01625(cobA)
+            PSLC: JG479_01195(cobA)
+            PSPS: PS1M3_17830 PS1M3_30000(cysG2)
+            PSCF: L3Q70_15015(cysG)
+            PSYM: J1N51_09985(cobA)
+            AMC: MADE_1003520
+            AMH: I633_03170
+            AMAA: amad1_03150
+            AMAL: I607_03035
+            AMAE: I876_03245
+            AMAO: I634_03350
+            AMAD: I636_03135
+            AMAI: I635_03115
+            AMAG: I533_03015
+            AMAC: MASE_02605
+            AMB: AMBAS45_02880
+            AMG: AMEC673_02800
+            AMK: AMBLS11_02800
+            ALT: ambt_15335
+            AAL: EP13_03105
+            AAUS: EP12_03220
+            ASP: AOR13_2883
+            ASQ: AVL57_04375
+            AAW: AVL56_03150
+            ALR: DS731_03520(cobA)
+            ALE: AV939_03445
+            ALZ: AV940_03290
+            APEL: CA267_006150(cobA)
+            ALTE: ALT761_00605
+            ALTM: BM527_02660
+            ALTR: BM528_02195 BM528_03000
+            ALTO: AltI4_06780(cysG) AltI4_26290
+            AMAB: ACI7YQ_02755(cysG)
+            ALTB: IUA53_17035(cobA)
+            ALTA: D1814_04500(cobA) D1814_04670(cobA)
+            ALTD: D210916_02870(cysG) D210916_03200
+            ALTZ: ACM0P2_02785(cysG) ACM0P2_02975(cobA)
+            AALE: ACOJRU_02790(cysG) ACOJRU_17485(cobA)
+            AUV: ACOJR9_00535(cobA) ACOJR9_03110(cysG)
+            SALM: D0Y50_02500(cobA)
+            SALK: FBQ74_14630(cobA)
+            SMAA: IT774_14480(cobA)
+            GAG: Glaag_0491
+            GNI: GNIT_2889(cysG)
+            GPS: C427_0375
+            PMES: FX988_02163
+            PAT: Patl_0417
+            LAL: AT746_03920
+            CATE: C2869_18955(cobA)
+            SALH: HMF8227_00558(cysG)
+            HMI: soil367_09785(cobA)
+            PAEW: KIH87_02595(cysG)
+            AGZ: M0C34_01985(cobA)
+            AGQ: LQZ07_03480(cobA)
+            AGAR: OAG1_37150
+            ALKM: NKI27_07135(cobA) NKI27_09075(cysG)
+            ASEM: NNL22_03885(cobA) NNL22_05665(cysG)
+            CATT: OLW01_08515(cysG)
+            ALII: QR722_08770(cobA) QR722_16665(cysG)
+            PMAW: MACH26_07570(cysG) MACH26_41180
+            HARO: R50071_24020
+            OIM: ACM613_04795(cysG)
+            PIN: Ping_0298 Ping_2755
+            PSY: PCNPT3_02475
+            MOQ: HWV03_01575(cobA) HWV03_20370(cobA)
+            CJA: CJA_2551
+            CEB: B0D95_07735
+            CELL: CBR65_21745
+            CEK: D0B88_16010(cobA)
+            CEG: D0C16_00160(cobA)
+            SDE: Sde_1698
+            TTU: TERTU_1974(cysG)
+            SAGA: M5M_03075
+            SLIO: R50072_11120 R50072_19430(cysG)
+            MARQ: MARGE09_P2734
+            GIL: NHM04_00615(cysG) NHM04_10090(cobA)
+            GJP: R50076_20730(cysG)
+            MKE: OOT55_06560(cysG)
+            MNY: R50073_23880(cysG)
+            SPOI: IMCC21906_02009
+            SNAN: I6N98_09230(cobA)
+            STAW: NCG89_01310(cysG)
+            ZAL: AZF00_08375
+            OSG: BST96_17680
+            MTHD: A3224_08050
+            MICC: AUP74_02574(cysG)
+            MAGA: Mag101_08570
+            MII: BTJ40_10160(cobA)
+            MICT: FIU95_09360(cysG)
+            MHYD: GTQ55_09110(cobA)
+            MCEL: LPW13_07140(cysG)
+            MICZ: GL2_37600(cysG)
+            MVB: MJO52_11345(cysG)
+            MPAF: R5R33_00470(cysG)
+            MBRG: PVT68_01975(cysG)
+            MICL: GNX18_04975(cobA)
+            MICY: HUW35_15780(cobA)
+            MSPN: M8T91_07150(cysG)
+            MCNS: ACG1BZ_13175(cysG)
+            HJA: BST95_12345
+            HALC: EY643_10110(cobA)
+            KIM: G3T16_00080(cobA)
+            AFUS: EYZ66_06925(cobA)
+            PAQM: E0F26_09420(cobA)
+            CVB: R0135_02685(cysG)
+            CBRV: R0137_11785(cysG)
+            MCA: MCA2089(cysG)
+            METU: GNH96_08010(cobA)
+            MMEO: OOT43_20180(cysG)
+            MEEF: JWZ97_05595(cobA)
+            MMT: Metme_3717
+            MDN: JT25_017245
+            MDH: AYM39_13135
+            MKO: MKLM6_2692
+            METL: U737_08085(cobA) U737_13330(cobA)
+            MPAD: KEF85_04330(cobA)
+            MELL: IVG45_00390(cobA) IVG45_10805(cobA)
+            MRP: NM686_004530(cysG) NM686_010840(cysG)
+            MMOT: QZJ86_06855(cysG)
+            MEEP: JWZ98_07365(cobA) JWZ98_10510(cobA)
+            MEEC: PL263_02625(cysG)
+            MEUP: QC632_15230(cysG)
+            MAH: MEALZ_1510(cysG) MEALZ_2640(cysG)
+            MBUR: EQU24_09580(cobA) EQU24_12065(cobA)
+            MPSY: CEK71_00320(cobA)
+            MMAI: sS8_1575
+            MSZE: MSZNOR_4580(cysG)
+            MMOB: F6R98_02595(cobA)
+            MEIN: methR_P2742
+            MOZ: MoryE10_20420(cysG)
+            MISZ: MishRS11D_14290(cysG)
+            MESL: KKZ03_10430(cysG)
+            MECH: Q9L42_016010(cysG)
+            MLAU: ACEPPP_02745(cysG)
+            MEIY: MIN45_P1366
+            MCAU: MIT9_P2162
+            TCX: Tcr_1160
+            HTR: EPV75_04795(cobA)
+            HMAR: HVMH_0814(cysG1) HVMH_1540(cysG)
+            TCY: Thicy_0785
+            TAO: THIAE_05050
+            THIO: AYJ59_01470(cysG)
+            TMH: JX580_07290(cobA)
+            MEJ: Q7A_1528(cobA)
+            MEC: Q7C_283
+            MPIN: LGT42_010485(cysG)
+            MMAF: GCM100_04200(cysG)
+            MTHA: VSX76_07805(cysG)
+            CYQ: Q91_0273
+            CZA: CYCME_2394
+            CYY: CPC19_11755(cobA)
+            THIG: FE785_06105(cobA)
+            TLH: NR989_05335(cysG)
+            TSE: THMIRHAS_15650(cysG)
+            TZO: THMIRHAT_14780(cysG)
+            TIG: THII_0982
+            BLEP: AL038_08530(cobA)
+            THIS: HZT40_05375(cobA)
+            TUN: J9260_02955(cobA)
+            TLO: J9253_09735(cobA)
+            TSB: HMY34_19245(cobA)
+            TANI: J8380_00460(cobA)
+            TWN: L2Y54_14975(cysG)
+            TLC: RCF98_00680(cysG)
+            TSJ: L3K52_11630(cysG)
+            TPUT: QJT81_16015(cysG)
+            TDU: QJT80_06685(cysG)
+            NOC: Noc_0863
+            NHL: Nhal_2685
+            NWA: Nwat_2245
+            NWR: E3U44_10545(cobA)
+            ALV: Alvin_2598
+            ATEP: Atep_25560(cysG)
+            TVI: Thivi_2162
+            TMB: Thimo_2640
+            MPUR: MARPU_12300
+            NTT: TAO_0922
+            TSY: THSYN_17305
+            RHH: E0Z06_14675(cobA)
+            RHEI: ATY27_03170(cysG)
+            TTP: E6P07_07395(cobA)
+            NTG: NSCAC_0801(cysG)
+            THIP: N838_04910(cobA)
+            CJAP: GWK36_12975(cobA)
+            THIM: KFB96_07935(cobA)
+            TBOG: LT988_03690(cysG)
+            TLR: Thiosp_03276(cysG)
+            TFRI: Thiofri_03752(cysG)
+            TWG: Thiowin_04258(cysG)
+            AEH: Mlg_1679
+            HHA: Hhal_1343 Hhal_1933
+            HHK: HH1059_16390(cysG)
+            HHC: M911_06480
+            TGR: Tgr7_2173
+            TKM: TK90_0671 TK90_0797
+            TNI: TVNIR_2716(cysG_[H])
+            TTI: THITH_04050
+            TVR: TVD_03435 TVD_04705
+            SPIU: SPICUR_05350
+            SROS: BBH56_04680
+            SPIZ: GJ672_04995(cobA)
+            APRS: BI364_05150 BI364_05275 BI364_07465
+            AAEO: BJI67_00350 BJI67_10280
+            AFY: BW247_07100
+            NAX: HC341_09615(cobA)
+            EBX: D5085_06070(cobA)
+            HNA: Hneap_1111
+            HAZ: A9404_00165
+            WEZ: IC757_00280(cobA)
+            GAI: IMCC3135_07070(cysG)
+            GHL: GM160_08215(cobA)
+            TBN: TBH_C2432
+            EPS: L0Y14_03735(cysG)
+            SEDS: AAY24_07400
+            MFRA: D5125_01820(cobA) D5125_13395(cobA)
+            TEE: Tel_10045
+            WOC: BA177_13540
+            TTC: FOKN1_1967
+            THIC: TspCOW1_06890(cysG) TspCOW1_22780
+            HCH: HCH_02450(cysG)
+            HAHE: ENC22_11140(cobA)
+            HAHH: O5O45_06180(cysG)
+            TCD: AAIA72_02680(cysG)
+            CCAG: SR908_02335(cobA)
+            HCS: FF32_10355
+            HCO: LOKO_01711(cysG_1) LOKO_01772(cysG_2)
+            HPRO: LMS44_10840(cobA)
+            HBH: E4T21_08535(cobA)
+            HALF: QEN58_08865(cobA)
+            HHAO: QWG60_07330(cobA)
+            HASO: B2G49_01720
+            HALW: B6N23_04235(cobA) B6N23_10510(cobA)
+            HASH: HXW73_09800(cobA) HXW73_12780(cobA)
+            HPIS: P1P91_09380(cobA)
+            HAMC: HNO52_00910(cobA)
+            HADN: NKF27_05335(cobA) NKF27_11890(cobA) NKF27_19295(cobA)
+            HAAZ: HaloA020_20120
+            HSPE: IT895_08245(cobA) IT895_13865(cobA)
+            HCK: MRB56_13245(cobA)
+            VRS: V8F66_11900(cobA)
+            HSX: HNO51_01100(cobA)
+            HTX: EKK97_01270(cobA)
+            HSV: HNO53_00955(cobA)
+            ZPL: ZBT109_2007
+            COBE: CLAM6_07850
+            COBB: H2O77_03915(cobA)
+            COBD: U0O11_03905(cobA)
+            COBC: F8A90_03900(cobA)
+            SAJS: QO259_05345(cobA) QO259_13160(cobA)
+            ABO: ABO_1295(cysG)
+            ALN: AS19_13670
+            ADI: B5T_01998(cysG)
+            AXE: P40_09500
+            APAC: S7S_08990
+            MPRI: MP3633_1012(cobA)
+            MARD: IBG28_14240(cobA)
+            MFOI: JSY38_14920(cobA)
+            MPRF: J8N69_02825(cobA)
+            MRHI: KDW99_14735(cobA)
+            MPON: MACH16_22840
+            MATH: THO17_12780
+            TOL: TOL_1786
+            TOR: R615_08685
+            TWAN: HUF19_08830(cobA)
+            OAI: OLEAN_C18750(cysG)
+            MARS: A8C75_06420
+            MGEO: CFI10_07565(cobA)
+            MSEC: LN244_05835(cysG) LN244_12490(cobA)
+            MARL: HH196_05140(cobA)
+            MRZ: KDW95_09790(cobA)
+            BSAN: CHH28_14335(cobA)
+            NCU: F0U83_04870(cobA)
+            NJP: NEJAP_1035(cysG)
+            NIK: F5I99_06450 F5I99_10595(cobA)
+            BMAR: HF888_07920(cobA)
+            AJP: AMJAP_0987(cysG)
+            VCW: GJQ55_06390(cobA)
+            BACZ: KFF03_09150(cobA)
+            GSN: YC6258_03755
+            RFO: REIFOR_01595
+            OME: OLMES_3261
+            LLP: GH975_04165(cobA)
+            EEI: NX720_08425(cysG)
+            ENG: O2T12_14025(cysG)
+            EMP: EZMO1_2219(cysG)
+            PLEI: Q9312_07630(cysG)
+            MMEG: TYM08_P1094
+            AHA: AHA_2578 AHA_3568 AHA_4121
+            AHY: AHML_13700 AHML_18885 AHML_21710
+            AHD: AI20_01515 AI20_20425(cysG)
+            AHR: V428_14185(cysG) V428_19625 V428_22670(cysG)
+            AHP: V429_14205(cysG) V429_19655 V429_22700(cysG)
+            AHJ: V469_00825(cysG) V469_03650 V469_08905(cysG)
+            AHH: RY45_13385(cysG) RY45_18335 RY45_21485(cysG)
+            AHI: VU14_01060(cysG) VU14_03845
+            AAJ: BOQ57_13210 BOQ57_18635 BOQ57_21475
+            ASA: ASA_0192(cysG) ASA_3524(cysG)
+            AEO: O23A_p3894 O23A_p4424
+            AVR: B565_0089 B565_0633 B565_1568
+            AVO: AMS64_01515(cysG) AMS64_04680 AMS64_11495(cysG)
+            AMED: B224_0450 B224_5127
+            ASR: WL1483_1026(cysG3) WL1483_496(cysG2)
+            ADH: CK627_02860(cobA) CK627_22285(cobA)
+            ACAV: VI35_00845(cobA) VI35_03515(cobA)
+            AEM: CK911_08495(cobA) CK911_13395(cobA) CK911_17805(cobA)
+            AEA: C2U39_03885(cobA) C2U39_20690(cobA)
+            ARV: C7N77_05140(cobA) C7N77_07650(cobA)
+            AES: C2U30_10340(cobA) C2U30_13145(cobA)
+            AEL: NCTC12917_00154(cysG_1) NCTC12917_03542(cysG_2)
+            ASIM: FE240_04560(cobA) FE240_16695(cobA)
+            AALL: I6G90_12525(cobA) I6G90_15295(cobA)
+            AJD: I6H43_01950(cobA) I6H43_11180(cobA) I6H43_14200(cobA)
+            ARIV: KYK33_03965(cysG) KYK33_19005(cysG)
+            ASAA: KXJ75_03790(cysG) KXJ75_23305(cysG)
+            AEJ: E5E97_00260(cobA) E5E97_03375(cobA)
+            ABES: IU367_03635(cobA) IU367_20800(cobA)
+            AERO: CK910_05955(cobA) CK910_09225(cobA)
+            AERZ: E5E96_03340(cobA) E5E96_06415(cobA)
+            AMYQ: ACFWHB_03700(cysG) ACFWHB_20420(cysG)
+            TAU: Tola_2546
+            OCE: GU3_03745
+            OPE: PU634_14275(cysG)
+            OCJ: N2M06_14755(cysG)
+            OCM: CBP12_08945
+            OPF: CBP31_05900
+            ZDF: AN401_01315
+            ZOB: ACEVBK_17915(cysG)
+            PAGI: ABHF91_13185(cysG)
+            KKO: Kkor_0729
+            KGE: TQ33_1287
+            KSD: KS2013_1331
+            KAM: SR900_10985(cysG)
+            CHJ: NCTC10426_00235(cysG)
+            GAP: GAPWK_0195
+            GAQ: RAM11_00200(cysG)
+            FPP: FPB0191_00094
+            ORB: IPMB12_01020(cobA)
+            OMO: RHO11_08670(cysG)
+            OWH: RHO14_00930(cysG)
+            OSV: RHO12_08830(cysG)
+            UBR: RHO15_00655(cysG)
+            SDF: ACG33_09155
+            SOK: D0B54_10870(cobA)
+            SINI: GT972_06580(cobA)
+            FCE: JN531_016505(cysG)
+            GBI: PG2T_07305
+            SLIM: SCL_1258
+            SVA: SVA_1970
+            ACII: C4901_06900(cobA)
+            ATY: A9R16_006440(cysG)
+            SALN: SALB1_3296
+            TSN: W908_02050
+            THO: SP60_05760
+            RMA: Rmag_0270
+            REO: HUE58_00770(cobA)
+            VOK: COSY_0254(cysG)
+            REV: HUE57_10950(cobA)
+            CDIZ: CEDIAZO_00785(cysG_1) CEDIAZO_00830(cysG_2)
+            BCI: BCI_0215(cysG)
+            BCIB: IM45_499
+            EBH: BSEPE_0391(cysG)
+            BTHG: MS2017_0398
+            CBLY: IPM89_05810(cobA)
+            GPB: HDN1F_15800(cysG)
+            ENM: EBS_0880(csyG)
+            IFO: CVFO_0961(cysG)
+            APHF: CVPH_0168(cysG)
+            NME: NMB1156(cysG-1) NMB1194(cysG-2)
+            NMP: NMBB_1282
+            NMH: NMBH4476_1017(cysG)
+            NMD: NMBG2136_1080(cysG)
+            NMM: NMBM01240149_0973(cysG)
+            NMS: NMBM01240355_1120(cysG)
+            NMQ: NMBM04240196_1007(cysG)
+            NMZ: NMBNZ0533_1167(cysG)
+            NMA: NMA1367
+            NMW: NMAA_0919(cysG)
+            NMX: NMA510612_1516(cysG)
+            NMC: NMC1096(cysG)
+            NMN: NMCC_1074(cysG)
+            NMT: NMV_1233(cysG)
+            NMI: NMO_1012(cysG)
+            NLA: NLA_9930(cysG)
+            NEL: NELON_06625
+            NSI: A6J88_11445(cobA)
+            NMJ: NM96_05735(cobA)
+            NEI: BG910_00145(cobA)
+            NSF: FAH66_09835(cobA)
+            NZL: D0T92_04370(cobA)
+            NAQ: D0T90_10100(cobA)
+            NBL: GJV52_11205(cobA)
+            NZO: SAMEA4504057_1668(cysG)
+            NCI: NCTC10296_00710(cysG)
+            NANI: NCTC12227_00753(cysG)
+            NBC: H3L91_05060(cobA)
+            NWD: H3L96_03475(cobA)
+            NSC: J7445_05135(cobA)
+            NPF: LPB400_06395(cysG)
+            NDN: H3L92_02780(cobA)
+            NWX: CGZ65_06510(cobA)
+            NDU: LVJ88_06590(cysG)
+            NAW: LVJ86_03275(cysG)
+            NMB: MON40_04055(cysG)
+            NLS: PJU73_03555(cysG)
+            NLN: ORY85_00055(cysG)
+            SALV: SALWKB2_2227
+            SCOM: PYG29_00670(cysG)
+            VIT: ADP71_27160
+            VST: LVJ81_00895(cysG)
+            VMS: LVJ82_10625(cysG)
+            AFF: H3L97_01245(cobA)
+            ACRS: LVJ80_14415(cysG)
+            MCER: MON37_06510(cysG)
+            USU: LVJ78_05485(cysG)
+            UTE: LVJ83_07360(cysG)
+            CCAH: DWG20_07405(cobA)
+            CVI: CV_0813(cobA2)
+            CVC: BKX93_10910
+            CHRO: CXB49_00920(cobA)
+            CHRI: DK842_05285(cobA)
+            CHRB: DK843_10810(cobA)
+            CRZ: D1345_19880(cobA)
+            CHRM: FYK34_14945(cobA)
+            CHAE: CH06BL_41010(cysG)
+            CSUT: U6115_03845(cysG)
+            CHRU: DXT74_05845(cobA)
+            PSE: NH8B_3709(cobA)
+            AMAH: DLM_3546
+            AQS: DKK66_09475(cobA)
+            VOX: LCH97_14725(cysG)
+            IOD: EJO50_03220(cobA)
+            IFL: C1H71_14420(cobA)
+            JEU: BJP62_03865
+            JES: JHS3_12750(cysG)
+            JWK: R0382_003231(cysG)
+            DEE: HQN60_12895(cobA)
+            DTK: K4H28_06930(cysG)
+            CHIZ: HQ393_09485(cobA)
+            CFON: HZU75_14375(cobA)
+            CMAV: ABHF33_13590(cysG)
+            CHIC: N8I74_14650(cysG)
+            LHK: LHK_02945(cobA2)
+            AQL: BXU06_15360
+            MAER: DAI18_08920
+            PLG: NCTC10937_03512(cysG_1)
+            LMIR: NCTC12852_02481(cysG_2)
+            BPE: BP1055(cysG)
+            BPC: BPTD_1048(cysG)
+            BPER: BN118_2490(cysG)
+            BPET: B1917_2792(cysG)
+            BPEU: Q425_9870(cysG)
+            BPAR: BN117_3501(cysG)
+            BPA: BPP1151(cysG)
+            BBH: BN112_2092(cysG)
+            BBR: BB1367(cysG)
+            BBM: BN115_1325(cysG)
+            BBX: BBS798_1329(cysG)
+            BPT: Bpet3643(cysG1) Bpet4046(cysG2)
+            BAV: BAV0848(cysG)
+            BHO: D560_3024(cobA)
+            BHM: D558_2999(cobA)
+            BHZ: ACR54_01483(cysG)
+            BTRM: SAMEA390648702154(cysG1)
+            BBRO: BAU06_04850
+            BFZ: BAU07_21580
+            BPDZ: BBN53_14430
+            BOH: AKI39_04220
+            BGM: CAL15_05995
+            BOJ: CBF45_14430
+            BGV: CAL12_04950
+            AXY: AXYL_05137(cobA)
+            AXO: NH44784_034181
+            AXN: AX27061_4946
+            AXX: ERS451415_04979(cysG)
+            ADT: APT56_22690
+            ASW: CVS48_13030(cobA)
+            ACHR: C2U31_28525(cobA)
+            ACHB: DVB37_21705(cobA)
+            ADY: HLG70_28130(cysG)
+            ACHO: H4P35_20535(cobA)
+            AMUI: PE062_17195(cysG)
+            APES: FOC84_06395 FOC84_06435(cobA) FOC84_20300(cobA)
+            AAEG: RA224_06945(cysG) RA224_26515 RA224_26555(cobA)
+            ASEL: RAS12_28705(cysG)
+            ACHM: V6V88_21095(cysG)
+            ACHA: KYT87_22945(cysG)
+            AVH: WHX56_28170(cysG)
+            ACHH: ABFG95_09105(cysG)
+            ACHJ: LN047_21990(cysG)
+            PUT: PT7_0172
+            PUS: CKA81_09050(cobA)
+            POLL: OEG81_04845(cysG)
+            AKA: TKWG_06085
+            AMIM: MIM_c29710(cysG)
+            AALN: Q3V95_03460(cysG)
+            CDN: BN940_04686 BN940_18221
+            CGIN: ABRZ00_02530(cysG) ABRZ00_06265 ABRZ00_06270(cobA)
+            AFA: UZ73_01565 UZ73_11070
+            AFQ: AFA_11275 AFA_18200(cobA)
+            AAQU: D3M96_12090 D3M96_19445(cobA)
+            AAMM: FE795_10505 FE795_16845(cobA)
+            ALCN: MID00_08350(cysG) MID00_15900
+            PHN: PAEH1_09130
+            ODI: ODI_R3329
+            OUR: CEQ07_10715(cobA)
+            OUE: I6G29_06575(cobA)
+            KGY: EHF36_14450(cobA)
+            PARK: LSG25_03840 LSG25_06950(cysG)
+            PUD: G9Q38_01020 G9Q38_02435(cobA)
+            RHOB: HTY51_04545(cobA)
+            RLH: MIZ03_0923 MIZ03_2121
+            ARAD: KI609_13860(cobA)
+            COF: FOZ74_04620(cobA)
+            HTN: KI616_02560(cobA) KI616_18960(cobA)
+            HGR: DW355_15240(cobA)
+            BWN: ACI3EV_04500(cobA)
+            ROI: N4261_03915(cobA)
+            JAB: VN23_10320
+            UPV: EJN92_06360(cobA)
+            NOK: FAY22_14025(cobA)
+            NEU: NE0532(cysG)
+            NET: Neut_1002
+            NIT: NAL212_2083
+            NII: Nit79A3_0613
+            NCO: AAW31_05755
+            NUR: ATY38_14940
+            NST: Nstercoris_01598
+            NMU: Nmul_A2313
+            NLC: EBAPG3_014760(cobA)
+            NIZ: NNRS527_02490
+            DOE: DENOEST_0964
+            DENI: B9N43_06110(cobA)
+            TBD: Tbd_2471
+            TSW: VA613_13190(cysG)
+            MFA: Mfla_0652
+            MMB: Mmol_1864
+            MEH: M301_2134
+            MEI: Msip34_2114
+            MEP: MPQ_2064
+            MBAC: BN1209_0415(cysG)
+            MBAT: BN1208_1087(cysG)
+            MRK: FIT61_01795(cobA)
+            MUV: FIT94_04995(cobA)
+            MEU: ACJ67_11340
+            MMEC: FIU01_09560(cobA)
+            MEDZ: MTDW_06240(cysG)
+            MPAU: ZMTM_06930(cysG)
+            SLT: Slit_1672
+            GCA: Galf_1602
+            FAM: OYT1_ch1902
+            NIM: W01_01330(cysG)
+            NARC: NTG6680_2134(cysG)
+            FKU: FGKAn22_02800(cysG)
+            SEME: MIZ01_1462
+            SDR: SCD_n00341
+            SULF: CAP31_08855
+            SLAC: SKTS_31770(cysG)
+            NTB: ACHFB9_06200(cobA)
+            DDEN: KI615_06385(cobA)
+            DECH: GBK02_05925(cobA)
+            QAU: KI612_05535(cobA)
+            FLE: KI610_06655(cobA)
+            AHV: AADV58_06755(cobA)
+            FMY: HO273_02705
+            ACOG: HWD57_01245(cobA)
+            DDZ: DSYM_11100
+            MLO: mll3232
+            MLN: A9174_08925
+            MCI: Mesci_1716
+            MCIC: A4R28_18085
+            MOP: Mesop_1768
+            MAM: Mesau_01784
+            MAMO: A6B35_28955
+            MESW: A9K65_009000
+            MESM: EJ066_02805(cobA)
+            MESP: C1M53_16815(cobA)
+            MHUA: MCHK_4725(cobA)
+            MJR: EB229_09090(cobA)
+            MERD: EB233_09290(cobA)
+            MESR: FGU64_11080(cobA)
+            MOH: IHQ72_09365(cobA)
+            MMEI: LRP31_08690(cysG)
+            MESJ: MJ8_55230
+            MESI: LGH82_24755(cysG)
+            MESU: LHFGNBLO_001949(cysG)
+            MESS: ABSY17_21995(cysG)
+            MEWS: QAZ47_10370(cysG)
+            MEWM: QAZ22_10360(cysG)
+            MEAA: ACG873_22870 ACG873_27345(cysG)
+            NIY: FQ775_04485(cobA) FQ775_07175(cobA)
+            NKI: KW403_09970(cysG)
+            NRH: T8J41_03965(cysG) T8J41_09565(cysG)
+            NTU: NTH_02366(cysG)
+            MESO: BSQ44_05590
+            MES: Meso_3989
+            CHEA: PVE73_25460(cysG)
+            AAK: AA2016_0271 AA2016_6235
+            AMIH: CO731_00236(cysG)
+            AMIS: Amn_04720
+            ANJ: AMD1_0255(cysG)
+            AMIO: N7E70_001365(cysG)
+            PHT: BLM14_17930 BLM14_28035
+            PHYL: HB779_00090 HB779_05090(cobA)
+            PMEL: LLE53_014565(cysG) LLE53_023900
+            PPED: LLE51_003305(cysG)
+            RPOD: E0E05_05005(cobA)
+            ORM: HTY61_10405(cobA)
+            OST: ABWH87_03835(cysG)
+            AMAX: ABWH92_00020(cysG) ABWH92_16290(cysG)
+            PMOB: HG718_12105(cobA)
+            KMN: HW532_21335
+            SME: SM_b20987 SMc01053(cysG)
+            SMK: Sinme_1270 Sinme_4605
+            SMQ: SinmeB_1099 SinmeB_3562
+            SMX: SM11_chr2099(cysG) SM11_pD0487
+            SMI: BN406_01200 BN406_05560
+            SMEG: C770_GR4Chr1488 C770_GR4pD0477
+            SMEL: SM2011_b20987 SM2011_c01053(cysG)
+            SMER: DU99_07705 DU99_27870
+            SMD: Smed_1099 Smed_4522
+            RHI: NGR_b11360 NGR_c13050(cysG)
+            SFH: SFHH103_01191(cysG) SFHH103_06021(cysG)
+            SFD: USDA257_c30790(cysG1) USDA257_c35050(cysG2)
+            SIX: BSY16_1080(cobA)
+            SAME: SAMCFNEI73_Ch1597(cysG) SAMCFNEI73_pC0727(cysG)
+            SINO: SS05631_b60560 SS05631_c12500
+            ESJ: SJ05684_b45940 SJ05684_c13130
+            EAK: EKH55_1244 EKH55_5440
+            EMX: FKV68_07895(cobA) FKV68_32770
+            ENU: PYH37_001121 PYH37_003717(cysG)
+            EGI: PZN02_003647(cysG) PZN02_005173
+            SKM: PZL22_000357 PZL22_001629(cysG)
+            STEG: QA637_05555(cysG) QA637_20385
+            SCHP: RB548_06540(cysG) RB548_31345
+            EAD: OV14_2542(cysG) OV14_b0113
+            EAH: FA04_06150 FA04_20405
+            ECAA: J3R84_06090(cysG) J3R84_34450(cysG)
+            ENP: JVX98_03780(cobA) JVX98_14445(cobA)
+            EAW: ACEP9W_06500(cysG) ACEP9W_27255
+            ATU: Atu1454(cysG) Atu3899(cysG)
+            ATA: AWN88_06510 AWN88_12745
+            AGR: AGROH133_05965(cysG) AGROH133_12427
+            ATF: Ach5_13200(cysG) Ach5_36780(cysG)
+            ARAI: ACN9MK_05660(cysG) ACN9MK_19075(cysG)
+            AGC: BSY240_1938(cobA) BSY240_667(cobA)
+            AGT: EYD00_05775(cobA) EYD00_18660(cobA)
+            ALF: CFBP5473_07910(cobA)
+            ARUI: G6M88_00810(cobA)
+            AVQ: HRR99_07480(cobA)
+            AVV: RvVAT039_32050(cysG) RvVAT039_41930(cysG)
+            AVF: RvVAR031_19010(cysG) RvVAR031_34420(cysG)
+            ASAL: CFBP5507_05595(cysG) CFBP5507_19470(cysG)
+            RIR: BN877_I1505(cysG1) BN877_II1000(cysG2)
+            RPUS: CFBP5875_06330(cobA) CFBP5875_18825(cobA)
+            ACUC: KZ699_05680(cysG) KZ699_19680(cysG)
+            ALEG: CFBP4996_05545(cysG) CFBP4996_20050(cysG)
+            AGRC: GSF67_05955(cobA) GSF67_19800(cobA)
+            AGRZ: A6U84_05255(cysG) A6U84_18090(cysG)
+            AVI: Avi_2146(cysG) Avi_5891(cysG)
+            RET: RHE_CH01958(cysG)
+            REC: RHECIAT_CH0002071(cysG)
+            REL: REMIM1_CH02017(cysG)
+            REP: IE4803_CH02031(cysG)
+            REI: IE4771_CH02114(cysG)
+            RLE: RL2288(cysG2)
+            RLT: Rleg2_1636
+            RLG: Rleg_1823
+            RLB: RLEG3_19595
+            RLU: RLEG12_19615
+            RTR: RTCIAT899_CH08710
+            RHL: LPU83_2534(cysG1) LPU83_3528(cysG3)
+            RGA: RGR602_CH01850(cysG-1) RGR602_PC01454(cysG-2)
+            RHN: AMJ98_CH02044(cysG)
+            RPHA: AMC79_CH02149(cysG)
+            RHX: AMK02_CH02052(cysG)
+            RHV: BA939_02385 BA939_21665
+            RHK: Kim5_CH02122(cysG)
+            REZ: AMJ99_CH02122(cysG)
+            RJG: CCGE525_09990(cobA)
+            RHR: CKA34_12165(cobA)
+            RGR: FZ934_06195(cobA) FZ934_24645(cobA)
+            RAD: CO657_08300(cobA)
+            ROY: G3A56_03825(cobA) G3A56_21500(cobA)
+            RII: FFM53_002110(cobA)
+            RHID: FFM81_011230(cobA)
+            RBQ: J2J99_10305(cobA)
+            RLN: J0663_19190(cobA)
+            RBAN: J2J98_10125(cobA)
+            RRG: J3P73_11690(cobA)
+            RLS: HB780_15490(cobA)
+            RROS: D4A92_06715 D4A92_17280(cobA)
+            RAW: NE851_20350(cysG)
+            RSUL: N2599_08945(cysG) N2599_27920(cysG)
+            RLW: RlegWSM1455_09105(cysG)
+            RRHO: PR018_06245(cysG)
+            RTU: PR017_06365(cysG)
+            RCT: PYR68_08440(cysG)
+            ARA: Arad_2277(cysG)
+            ARO: B0909_06275(cobA) B0909_18555(cobA)
+            RBW: RLCC275e_09330(cobA)
+            RIF: U5G49_001844(cysG)
+            RHIZ: QMO80_000574(cysG)
+            RHIB: I8E17_07150(cobA)
+            RHIA: ACO34A_10930 ACO34A_22515
+            RHIY: BLX90_05610 BLX90_18105
+            RHIW: KQ933_06905(cysG) KQ933_24755(cysG)
+            RBIN: PO860_08505(cysG)
+            RHIP: NE852_09905(cysG)
+            RHIK: MHI61_13490(cysG)
+            NGL: RG1141_CH15800 RG1141_CH33440
+            NGG: RG540_CH16230 RG540_CH34260
+            NEO: CYG48_07970(cobA)
+            NEN: NCHU2750_19730(cysG)
+            NPM: QEO92_08885(cysG) QEO92_18220(cysG)
+            RHT: NT26_1642(cysG) NT26_3208(cysG)
+            RFV: RFYW14_01701 RFYW14_03218
+            SHZ: shn_09645
+            SZO: K8M09_07765(cysG)
+            SOJ: K6301_07210(cysG)
+            SSUM: Q9314_00645(cysG)
+            ABAW: D5400_13100(cobA)
+            PDES: FE840_013230(cobA) FE840_020070
+            HOE: IMCC20628_01984
+            HOAX: ABWH89_15705(cysG)
+            ASIT: N7E02_26910(cysG)
+            KAI: K32_04330 K32_10080(cysG)
+            BME: BMEI1768
+            BMEL: DK63_1717(cobA)
+            BMI: BMEA_A0186(cobA)
+            BMZ: BM28_A0192(cobA)
+            BMG: BM590_A0188
+            BMW: BMNI_I0178
+            BMEE: DK62_1234(cobA)
+            BMF: BAB1_0179(cysG)
+            BMB: BruAb1_0175(cysG)
+            BMC: BAbS19_I01700
+            BAA: BAA13334_I00183
+            BABO: DK55_194(cobA)
+            BABR: DO74_1688(cobA)
+            BABT: DK49_2043(cobA)
+            BABB: DK48_1932(cobA)
+            BABU: DK53_189(cobA)
+            BABS: DK51_1273(cobA)
+            BABC: DO78_106(cobA)
+            BMS: BR0179(cysG)
+            BSI: BS1330_I0179(cysG)
+            BSF: BSS2_I0176(cysG)
+            BSUI: BSSP1_I0178(cysG)
+            BSUP: BSPT1_I0180(cysG)
+            BSUV: BSPT2_I0181(cysG)
+            BSUC: BSSP2_I0178(cysG)
+            BMT: BSUIS_A0180(cobA)
+            BSZ: DK67_21(cobA)
+            BSV: BSVBI22_A0179(cysG)
+            BSW: IY71_01015
+            BSG: IY72_00740
+            BOV: BOV_0173(cysG)
+            BCS: BCAN_A0184(cobA)
+            BSK: BCA52141_I1405
+            BOL: BCOUA_I0179(cysG)
+            BCAR: DK60_281(cobA)
+            BCAS: DA85_00870
+            BMR: BMI_I182(cysG)
+            BPP: BPI_I180(cysG)
+            BPV: DK65_1191(cobA)
+            BCET: V910_101794
+            BCEE: V568_102015
+            BVL: BF3285c1_0503
+            BRU: BFS01_00830
+            BRJ: BKD03_09945
+            OIN: IAR37_03625(cobA)
+            BIO: BR141012304_10390
+            OAN: Oant_0188
+            OAH: DR92_59(cobA)
+            OPS: A8A54_00640
+            BPSN: NIK97_10275(cysG)
+            BRUB: GRI33_00840(cobA)
+            OCR: HGK82_00295(cobA)
+            OCL: GTN27_00960(cobA)
+            OCC: KMS41_00880(cysG)
+            OCH: CES85_0194
+            PSCQ: KHQ08_02785(cysG)
+            PSXF: LDL70_00810(cysG)
+            BJA: blr1477(blr1477)
+            BJU: BJ6T_83680
+            BJP: RN69_40425
+            BRA: BRADO1065(cysG)
+            BBT: BBta_6982(cysG)
+            BRS: S23_10410
+            AOL: S58_11720
+            BRC: BCCGELA001_32525
+            BRAD: BF49_4254
+            BIC: LMTR13_03585
+            BRO: BRAD285_0579(cysG)
+            BRK: CWS35_01950(cobA)
+            BOT: CIT37_06090(cysG)
+            BRQ: CIT40_27710(cysG)
+            BGQ: X265_06805(cobA)
+            BGZ: XH91_06255(cobA)
+            BSYM: CIT39_26685(cysG)
+            BBET: F8237_20115(cobA)
+            BARH: WN72_06485(cobA)
+            BVZ: BRAD3257_8160(cysG)
+            BEL: BE61_89170
+            BDG: LPJ38_00195(cysG)
+            BSEP: HAP48_0020070(cysG)
+            BQB: J4P68_0023580(cysG)
+            BSEI: KMZ68_23240(cysG)
+            BBAN: J4G43_046430(cysG)
+            BCAN: BcanWSM471_06180(cysG)
+            BAUT: QA635_37915(cysG)
+            BBRA: QA636_39325(cysG)
+            BGK: IC762_31955(cobA)
+            BCOU: IC761_05410(cobA)
+            BPAH: QA639_38290(cysG)
+            BXN: I3J27_35575(cysG)
+            BROS: QUH67_05000(cysG)
+            BRAZ: LRP30_38930(cysG)
+            BOY: LQG66_19460(cysG)
+            BRAI: FJV43_12245(cobA)
+            BRAA: NL528_40660(cysG)
+            BLUP: AB3L03_13645(cysG)
+            BGEA: ACP2YP_35785(cysG)
+            BGEP: ACP2YO_05320(cysG)
+            BRAN: RX330_32120(cysG)
+            BRAB: RX331_34955(cysG)
+            RPA: TX73_021850(cysG)
+            RPB: RPB_1399
+            RPC: RPC_4015
+            RPD: RPD_1379
+            RPE: RPE_1763
+            RPT: Rpal_4696
+            RPX: Rpdx1_4432
+            RBK: E0H22_21175(cobA)
+            RHOR: ONR75_27190(cysG)
+            RHOL: RBJ75_14530(cysG)
+            RHOE: LRC39_21295(cysG)
+            NWI: Nwi_2762
+            NHA: Nham_3562
+            OCA: OCAR_6833 OCAR_7388
+            OCG: OCA5_c07330(cysG1) OCA5_c12430(cysG2)
+            OCO: OCA4_c07320(cysG1) OCA4_c12430(cysG2)
+            PCAX: AFIC_000614(cysG)
+            VGO: GJW-30_1_00017(cysG_1) GJW-30_1_00822(cysG_2)
+            TRB: HB776_15840(cobA)
+            TALZ: RPMA_23160(cobA)
+            TARD: RSO67_09575(cysG)
+            TARV: FIU28_21655(cobA)
+            RHZ: RHPLAN_31300 RHPLAN_53750
+            BVV: BHK69_19945
+            BVES: QO058_01150(cysG)
+            BOP: AXW83_07390
+            BOS: BSY19_2887(cobA)
+            BOI: BLM15_06285
+            BOF: FQV39_02520(cobA)
+            BOW: NWE53_06370(cysG)
+            BOSE: RMR04_14085(cysG)
+            XAU: Xaut_1077 Xaut_2375
+            XDI: EZH22_13725(cobA)
+            AZC: AZC_0234
+            STAR: G3545_17470(cobA)
+            LNE: FZC33_11145(cobA)
+            SNO: Snov_4460
+            ANC: GBB76_14995(cobA)
+            APRA: G3A50_12345(cobA)
+            APOL: K9D25_03300(cysG)
+            AQI: J5J86_07085(cobA)
+            PTAW: DW352_26145(cobA)
+            MEA: Mex_1p3434(cysG)
+            MDI: METDI4011(cysG)
+            MEX: Mext_3223
+            MCH: Mchl_3547
+            MPO: Mpop_3418
+            MZA: B2G69_23680
+            METQ: MSPGM_31840(cysG)
+            MRD: Mrad2831_2296
+            MET: M446_3750
+            MNO: Mnod_2864
+            MOR: MOC_2718
+            META: Y590_15730
+            MAQU: Maq22A_c03285(cysG)
+            MPHY: MCBMB27_01911
+            MEE: DA075_25690(cobA)
+            METD: C0214_17845(cobA)
+            METX: A3862_19300
+            METS: DK389_29700(cobA)
+            METI: DK427_15900(cobA)
+            MMES: MMSR116_20215(cobA)
+            MTEA: DK419_19190(cobA)
+            MIND: mvi_19260(cysG)
+            MOG: MMB17_03320(cysG)
+            MTAD: M6G65_12805(cysG)
+            MECL: CLZ_14875(cobA)
+            MFUJ: ABC766_28330(cysG)
+            MENI: GU700_14880(cobA)
+            MENS: LOK46_12380(cysG)
+            MOC: BB934_25255
+            MTEZ: HPT29_004635(cysG) HPT29_011770(cysG)
+            MLD: U0023_30100(cysG)
+            BID: Bind_0267
+            MSL: Msil_3024
+            MTUN: MTUNDRAET4_0339.1(cysG) MTUNDRAET4_3338(cysG)
+            MLG: CWB41_09015
+            MEHY: MHY1_00094(cysG_1) MHY1_01719(cysG_2)
+            MEDK: QEV83_17785(cysG)
+            MPOL: RZS28_05975(cysG)
+            BBAR: RHAL1_01340(cysG)
+            BBAI: CU048_09795(cobA)
+            RHJ: HZY79_00720
+            CHEL: AL346_05650 AL346_14650
+            CDQ: BOQ54_07240 BOQ54_15750
+            HDN: Hden_2258 Hden_2705
+            HDT: HYPDE_34228 HYPDE_37163
+            HMC: HYPMC_0681 HYPMC_1161 HYPMC_3968
+            RVA: Rvan_0603 Rvan_3391
+            RLAC: QMO75_04555(cysG)
+            FIL: BN1229_v1_0949(cysG) BN1229_v1_1474(cysG)
+            FIY: BN1229_v1_0952(cysG) BN1229_v1_1475(cysG)
+            MCG: GL4_0883
+            METG: HT051_14110(cobA)
+            PHL: KKY_1897 KKY_2326
+            PEM: OF122_05225(cysG) OF122_08185(cysG)
+            PNF: V6617_07300(cysG)
+            DEQ: XM25_10555 XM25_21040
+            DEI: C4375_01590(cobA) C4375_15170(cobA)
+            DEA: FPZ08_08650(cobA)
+            DSAL: K1X15_04755(cysG) K1X15_11650(cysG)
+            DEVO: H4N61_11440(cobA)
+            DNP: N8A98_05610(cysG) N8A98_16610(cysG)
+            DOY: JI749_09565(cobA) JI749_15330(cobA)
+            DRH: JI748_04375(cobA)
+            DAG: PSQ19_06970(cysG)
+            DRP: PSQ90_14060(cysG)
+            DEVD: GHV40_08150(cobA)
+            DRI: QOV41_07750(cysG) QOV41_18285(cysG)
+            DPV: ACE4RL_09645(cysG) ACE4RL_15605(cysG)
+            MMYR: MXMO3_01506 MXMO3_02347
+            YTI: FNA67_02365(cobA) FNA67_14305(cobA)
+            MHAR: L1P08_05520(cysG) L1P08_15600(cysG)
+            BVR: BVIR_2058
+            BLAG: BLTE_21400 BLTE_30700(cysG)
+            MSC: BN69_0306
+            MBRY: B1812_08875
+            MROS: EHO51_06535(cobA)
+            MHEY: H2LOC_005550(cobA)
+            MPAR: F7D14_15490(cobA)
+            MIWA: SS37A_20210(cysG)
+            MESZ: LNB28_01255(cysG)
+            MECI: RVU70_16770(cysG)
+            MEMC: OGR47_09615(cysG)
+            MTW: CQW49_21195(cobA)
+            MECQ: MSC49_18770(cysG)
+            MSPR: MSP5_001375(cysG)
+            CMET: K6K41_08545(cysG)
+            PLEO: OHA_1_02052(cysG)
+            HDI: HDIA_2371(cysG)
+            MEY: TM49_04140 TM49_16490
+            MAAD: AZF01_01745 AZF01_10090
+            MMED: Mame_02964(cysG_1) Mame_04172(cysG_2)
+            MLUT: JET14_09400(cobA)
+            AUA: M673_00565
+            AALA: IGS74_14675(cobA)
+            AALM: LUX29_16590(cysG)
+            AUZ: Sa4125_21330(cysG_1) Sa4125_39360(cysG_2)
+            AUB: LXB15_14750(cysG)
+            JAV: OXU80_08910(cysG)
+            PSIN: CAK95_17025 CAK95_24670
+            NOH: G5V57_28960(cobA)
+            TSO: IZ6_25890
+            RBM: TEF_19240
+            BRN: D1F64_03580(cobA) D1F64_21790(cobA)
+            PSF: PSE_1232(cysG)
+            PPHR: APZ00_02045 APZ00_12130
+            LAP: ACP90_12445 ACP90_23855
+            LABR: CHH27_24800(cobA) CHH27_27320
+            LABP: FJ695_27300(cobA)
+            LABT: FIU93_01690(cysG1) FIU93_18235(cysG2)
+            LAGG: B0E33_07310 B0E33_24385
+            RPOP: K1718_23510(cysG) K1718_27310(cysG)
+            RAGG: QUB73_12960(cysG) QUB73_24245(cysG)
+            SIW: GH266_17670(cobA)
+            PHR: C6569_06045(cobA)
+            PSTG: E8M01_12750(cobA) E8M01_30640(cobA)
+            PAQT: E8L99_17375(cobA)
+            LIZ: LGH83_07970
+            ACUT: MRB58_15415(cysG)
+            CMB: CSW64_01060
+            PHB: HYN04_00850
+            BSB: Bresu_1495
+            BRD: JL11_15195
+            BRG: A4249_09680
+            BRL: BZG35_07190 BZG35_16865
+            BVC: CEP68_03220(cobA)
+            BREV: E7T10_06120(cobA)
+            BMED: GYM46_03425(cobA) GYM46_14290
+            BND: KWG56_01880(cysG)
+            BPON: IFE19_08615(cobA)
+            BGOE: IFJ75_03400(cobA)
+            BVIT: JIP62_06590(cobA)
+            BALB: M8231_03365(cysG)
+            BFQ: JX001_06870(cobA)
+            BRES: E4341_05345(cobA)
+            BBUL: U0030_08130(cysG)
+            BSTA: ACETK8_14520(cysG)
+            BIR: ACETKC_04285(cysG)
+            AEX: Astex_2101
+            ASTI: Q1W73_03780(cysG)
+            ASTD: ATDW_19670(cysG)
+            ASTM: MMA231_03331(cysG_1)
+            JAN: Jann_1775 Jann_3047
+            JOV: P8627_13950(cysG)
+            RDE: RD1_2964(cysG) RD1_4164(cysG)
+            RLI: RLO149_c014640(cysG1) RLO149_c039810(cysG2)
+            RPON: G3256_09900(cobA)
+            RFU: ROLI_019880(cysG_2)
+            DSH: Dshi_1155 Dshi_1671(cysG)
+            PHAE: N1037_02600(cobA)
+            OAT: OAN307_c02530(cysG2) OAN307_c32670(cysG1)
+            OAR: OA238_c20520(cysG)
+            OTM: OSB_12850(cysG_1) OSB_14740(cysG_2)
+            OCT: FTO60_06370(cobA) FTO60_06605(cobA)
+            LEIM: K3557_14845(cobA)
+            CID: P73_2887
+            CMAR: IMCC12053_260
+            CEH: CEW89_04660
+            CBAK: DA792_09070
+            MALG: MALG_00890 MALG_02298
+            CON: TQ29_04245 TQ29_17165
+            TPRO: Ga0080559_TMP4476
+            SUAM: BOO69_07040
+            SULZ: C1J03_05535(cobA) C1J03_13725(cobA)
+            SULD: B5M07_10760 B5M07_19225
+            SPOT: G6548_02820(cobA) G6548_08480(cobA)
+            SMED: JNX03_03235(cobA)
+            SINL: DSM14862_01216(cysG)
+            SFAV: PL335_05905(cysG)
+            SUAL: KDD17_04780(cobA) KDD17_05555(cobA)
+            SDUB: R1T39_05140(cysG)
+            SULB: IV89_002053(cobA) IV89_003149(cobA)
+            SULY: ABM428_02640(cysG) ABM428_08140(cysG)
+            SULP: AADW22_02940(cysG) AADW22_08165(cysG)
+            SUSQ: K3756_09630(cysG) K3756_10875(cysG)
+            SPSE: SULPSESMR1_00989(cysG) SULPSESMR1_01160(cysG)
+            TOM: BWR18_05575 BWR18_12295
+            TATE: ACMHLQ_02610(cysG) ACMHLQ_16795(cysG)
+            TATY: ACERHN_13545(cysG) ACERHN_17510(cysG)
+            RMM: ROSMUCSMR3_00397(cysG)
+            ROK: RAK1035_3232
+            RID: RIdsm_03221(cysG)
+            ROH: FIU89_08315(cysG2)
+            RPEL: N7U68_02495
+            RPHC: RZ517_08895(cysG)
+            RRL: RZS32_018225(cysG)
+            AHT: ANTHELSMS3_00571 ANTHELSMS3_03266
+            SAGU: CDO87_03125(cobA) CDO87_19540(cobA)
+            SSTL: ABFK29_10295(cysG) ABFK29_16320(cysG)
+            SAGZ: QNI11_05575(cysG) QNI11_11620(cysG)
+            THAA: CFI11_02140(cobA) CFI11_09360(cobA)
+            OCD: FHY55_09095(cobA) FHY55_16465(cobA)
+            ROT: FIV09_05200(cysG)
+            RMH: LVO79_05200(cysG) LVO79_07270(cysG)
+            MALU: KU6B_04740 KU6B_24330
+            TGL: HFZ77_18780(cobA)
+            TMD: KUV46_00660(cysG)
+            HAT: RC74_01520
+            PALX: GQA70_21175(cobA)
+            LSAL: KBK07_05260(cobA) KBK07_05500(cobA)
+            LALG: LentiSH36_01451(cobA2)
+            TRY: QF118_08890(cobA)
+            PLCG: RVY76_05850(cysG)
+            MARU: FIU81_05255(cysG)
+            RMAI: MACH21_18110
+            RED: roselon_02542
+            ACLD: ACIRQ6_05595(cysG) ACIRQ6_10405
+            MATG: ACMVPR_00600(cobA)
+            BOO: E2K80_08475(cobA) E2K80_10875(cobA)
+            PTP: RCA23_c14410(cysG)
+            RSU: NHU_02414
+            RHM: B5V46_07565
+            RHC: RGUI_2234 RGUI_4276
+            RHOV: ACK8CO_02035(cysG)
+            DON: BSK21_05515
+            MALC: QQG91_04850(cysG) QQG91_13065(cysG)
+            RBZ: B9057_07990 B9057_09925
+            TLB: RPE78_08900(cobA)
+            LVS: LOKVESSMR4R_01168(cysG)
+            YPHY: AABB29_08210(cysG) AABB29_12060(cysG)
+            YAG: AABB28_03115(cysG)
+            YRH: AABB31_09200(cysG) AABB31_13630(cysG)
+            SALO: EF888_16475(cobA)
+            HML: HmaOT1_02170(cobA) HmaOT1_19005(cobA)
+            LIT: FPZ52_03730(cobA) FPZ52_04610(cobA)
+            PPRU: FDP22_03575
+            PAED: G5B38_02720
+            PAMO: BAR1_04735(cobA)
+            POZ: I0K15_10455(cobA) I0K15_16005(cobA)
+            MON: G8E03_06560(cobA) G8E03_08945(cobA)
+            PALW: PSAL_002630(cysG_1) PSAL_005480(cysG_2)
+            PSHQ: F3W81_07000 F3W81_09605(cobA)
+            PPAF: I8N54_10200(cobA)
+            PGV: SL003B_3534(cysG)
+            CACT: HZ995_10650
+            CMAG: CBW24_10035 CBW24_10665
+            GCE: KYE46_12740(cysG)
+            GYJ: AADW23_11580(cysG)
+            AALK: LGT41_0004635
+            AMYL: QBD29_11735(cysG)
+            AMAQ: GO499_15040(cobA) GO499_17580(cobA)
+            RHOC: QTA57_12230(cysG)
+            PBAE: P8S53_05635(cysG) P8S53_10335(cysG)
+            RBG: BG454_13245(cobA)
+            LVR: T8T21_00515
+            BOSG: GKR98_05810(cobA)
+            MANH: LA6_002204(cysG_1) LA6_003477(cysG_2)
+            FAQ: G5B39_09625(cobA) G5B39_09885(cobA)
+            RBX: I3V23_03720(cobA)
+            MMR: Mmar10_0347
+            GAK: X907_1910
+            GABY: AB6B38_02745(cysG)
+            OAX: ABWI01_07420(cysG)
+            FRB: AB6B37_06490(cysG)
+            APOP: AB6B39_09370(cysG)
+            HNE: HNE_0322(cysG)
+            ZMO: ZMO0006
+            ZMN: Za10_1171
+            ZMM: Zmob_1193
+            ZMB: ZZ6_1183
+            ZMI: ZCP4_1211
+            ZMC: A265_01201
+            ZMR: A254_01200
+            ZMP: Zymop_1084
+            NAR: Saro_2674
+            NPP: PP1Y_AT4671
+            NPN: JI59_09510
+            NRE: BES08_15660
+            NOV: TQ38_015165
+            NOT: C7W88_03330
+            NOR: FA702_14440
+            NGF: FRF71_02525
+            NOG: GKE62_07450
+            NDR: HT578_11875
+            NOL: NSDW_26870
+            NCP: U0041_04560
+            NOVO: IM701_01420
+            NOVB: ACFFDA_17910(cobA) ACFFDA_24250
+            SPHM: G432_10525
+            STAX: MC45_13320
+            SPHI: TS85_19425
+            SSAN: NX02_22930
+            SNJ: A7E77_05925
+            SMY: BJP26_01490
+            SPAN: AWL63_02690
+            SKR: BRX40_03035
+            SPLM: BXU08_13320
+            SPLK: AV944_03450
+            SPKC: KC8_13030
+            SPHC: CVN68_13890
+            SPHF: DM480_07090
+            SPHA: D3Y57_10600
+            SPAU: DRN02_012180
+            SDH: H9L15_01075(cobA)
+            SPII: G7077_04660(cobA)
+            SARI: H5J25_16995
+            SCHY: GVO57_05145
+            SBIN: SBA_ch1_00320
+            SNAP: PQ455_00545
+            SNOS: K8P63_14480
+            SDON: M9980_13750
+            SSAG: KV697_14560
+            SABI: PBT88_00130
+            SAAP: E2E30_14735
+            SPNB: O3305_16025
+            SPCL: F9288_05545
+            SPRR: OIM94_12685
+            SPMB: OKW87_10935
+            SPSO: G4G27_05255(cobA) G4G27_18550
+            SPMS: ACO227_02060(cobA) ACO227_05695
+            CIJ: WG74_07830
+            SPHJ: BSL82_14485
+            HGN: E6W36_05995
+            ACOB: P0Y56_04570
+            SSAA: RPR59_00110
+            SPZR: G5C33_02325
+            ACOA: RB602_04345(cobA) RB602_05765
+            SAL: Sala_0204
+            SPHK: SKP52_16760
+            SPHP: LH20_13830
+            SMAG: AN936_15655
+            SMAZ: LH19_02635
+            STER: AOA14_03430
+            SGI: SGRAN_3531
+            SPHQ: BWQ93_19110
+            SPHO: C3E99_12465
+            SPHX: E5675_03795
+            SINA: KNJ79_04310
+            SPEG: SPYCW_2688
+            SPFD: SPYCA_2269
+            SPBS: L7H23_14690
+            SPUS: KEC45_15045
+            SPOG: EEB18_014885
+            SPYF: EAO27_02945
+            SPJJ: V6U71_02510
+            SPHU: SPPYR_0377
+            SPHD: HY78_11200
+            RDI: CMV14_01875
+            SJP: SJA_C1-28660
+            SINB: SIDU_00530
+            SCH: Sphch_1730
+            SSY: SLG_01870
+            SYB: TZ53_01305
+            SBD: ATN00_08030
+            SPMI: K663_13600
+            SPHB: EP837_00991(cysG)
+            SPHR: BSY17_1959
+            SPHT: K426_06155
+            SHYD: CJD35_07660
+            SYA: A6768_15740
+            SCLO: SCLO_1018170
+            SPYG: YGS_C1P1976
+            SUFL: FIL70_12820
+            SBAR: H5V43_10430
+            SAMI: SAMIE_1021550
+            SPPH: KFK14_14345(cobA) KFK14_17420
+            SPAG: sphantq_01301(cysG_2)
+            SPCA: GL174_08585
+            SPRS: EGM87_11155
+            SPJS: NUH86_11700
+            SPWT: N6H05_11465
+            SPTA: Sj15T_21270
+            SPHG: AZE99_14080
+            SFLA: SPHFLASMR4Y_02765(cysG)
+            SPHY: CHN51_08475
+            SPHL: LPB140_04035
+            SLAA: EUU25_10795
+            PARJ: J4G78_13685
+            PHAO: HF685_09190
+            BLAS: BSY18_1149
+            BFW: B5J99_15105
+            PALG: HFP57_11285
+            PARP: HFP51_10700
+            SMIC: SmB9_36940
+            SPHS: ETR14_12700(cobA)
+            SAND: H3309_01895
+            POQ: KZX46_08285
+            PMEA: KTC28_02885
+            AEP: AMC99_01800
+            ALB: AEB_P1391
+            ALH: G6N82_12930
+            ARUE: QQX03_05880
+            ALTN: LBX01_14460
+            ALTC: P7228_02415
+            AAY: WYH_01291(cysG_1)
+            AMX: AM2010_1247
+            PMAS: NCF86_02810(cobA)
+            ANH: A6F65_01091(cysG_1)
+            ADO: A6F68_01553(cysG_2)
+            TFV: IDJ81_08890
+            CNA: AB433_12265
+            CMAN: A9D14_09095
+            ERY: CP97_06535
+            EGN: BMF35_a1356
+            EFV: CHH26_12085
+            QCI: NCF85_02535
+            QSP: L1F33_04885(cysG)
+            QSO: IRL76_02425
+            QAR: K3148_03030(cysG)
+            QGE: K3136_04810
+            QPS: K3166_03025
+            QXI: K3162_04915
+            QPR: SD421_13775
+            ELI: ELI_02020
+            ELQ: Ga0102493_11117
+            ERK: CD351_06490
+            ERR: DVR09_06485
+            ERF: FIU90_06130(cysG2)
+            EMV: HQR01_01115
+            ERYT: KDC96_08565
+            ERYZ: F7D01_02755
+            ERYS: LY632_12180 LY632_12345(cobA)
+            ERQ: PS060_10560
+            PORL: BG023_111335
+            PHZ: CHX26_07285
+            POT: E2E27_15160
+            PORC: CBR61_06925
+            NTD: EGO55_14875
+            AFLV: QQW98_09585
+            EBK: PF049_05820
+            GOX: GOX2065
+            GOH: B932_3453
+            GOY: GLS_c21760(cysG)
+            GAL: A0U94_04435
+            GTI: FXF46_10865(cobA)
+            GSP: IGS75_11690(cobA)
+            GFA: MKW11_10700(cysG)
+            GBE: GbCGDNIH1_0735
+            GBH: GbCGDNIH2_0735
+            GBC: GbCGDNIH3_0735
+            GBS: GbCGDNIH4_0735
+            GDI: GDI0165(cysG)
+            GDJ: Gdia_2235
+            GXY: GLX_14750
+            GXL: H845_302
+            KNA: B0W47_11130
+            KEU: S101446_02066(cysG)
+            KSC: CD178_01317(cysG)
+            KRE: GWK63_13515(cobA)
+            KOI: LV478_04565(cysG)
+            KSU: ACM0P6_08325(cysG)
+            APT: APA01_21940
+            APW: APA42C_21940
+            APF: APA03_21940
+            APU: APA07_21940
+            APG: APA12_21940
+            APQ: APA22_21940
+            APX: APA26_21940
+            APZ: APA32_21940
+            APK: APA386B_1054(cysG)
+            ASZ: ASN_148(cysG)
+            ASV: WG31_11000
+            AACE: A0U92_06975
+            APER: A0U91_03205
+            APOM: CPF11_09695(cobA)
+            ATO: CIW82_11720(cobA)
+            AASC: A4S02_09310
+            ACET: DS739_10705(cobA)
+            AOT: AcetOri_orf00763
+            AOY: EOV40_010520(cobA)
+            ACEK: FLP30_06745(cobA)
+            ABG: Asbog_02144
+            KBA: A0U89_01185
+            NCH: A0U93_06995
+            COQ: D9V35_02945(cobA)
+            COMM: GN303_02815(cobA)
+            NTN: D5366_07440(cobA)
+            SSAM: E3D00_09185(cobA)
+            BOB: GN304_00815(cobA)
+            BOMB: GT348_00240(cobA)
+            EBLA: JGUZn3_05140(cysG)
+            LCK: HN018_19705
+            KHA: IFJ82_03305(cobA)
+            PARZ: DTQ13_05095(cobA)
+            KDP: N5W20_06125(cysG)
+            NGU: QN315_13380(cysG)
+            RGI: RGI145_04680
+            ROS: CTJ15_12715(cobA)
+            RMUC: FOB66_06485(cobA)
+            RFL: Rmf_39260(cysG)
+            RCV: PFY06_19880(cysG)
+            SRF: LHU95_18820(cysG)
+            SHUM: STHU_32800
+            SVC: STVA_18700
+            STEL: STAQ_29580
+            NAO: Y958_19945(cobA)
+            NCB: C0V82_24695(cobA) C0V82_25150(cobA)
+            SKT: IGS68_07690(cobA)
+            SMUC: JL100_019925(cysG)
+            SROE: JL101_013160(cobA) JL101_018670(cysG)
+            RRU: Rru_A1933
+            RRF: F11_09935
+            RCE: RC1_2177(cysG)
+            RPM: RSPPHO_00687(cysG)
+            FER: FNB15_04165(cobA) FNB15_19450(cobA)
+            DEX: HWD60_17160(cobA)
+            DVN: HQ394_11670(cobA) HQ394_18835(cobA)
+            ACRU: HHL28_03110(cobA)
+            HTQ: FRZ44_04060(cysG)
+            HADH: FRZ61_04320(cysG)
+            TXI: TH3_12875
+            TII: DY252_06150
+            THAI: IT893_14850
+            TLU: R1T41_21820
+            TTB: MACH01_29450
+            THGO: M9H61_10495
+            THAD: IT971_13560
+            VSU: P3M64_00985(cobA) P3M64_06660(cobA)
+            NACI: NUH88_19095(cysG) NUH88_21270(cysG)
+            THAR: T8K17_07530(cysG)
+            TMO: TMO_2152(cysG)
+            PBR: PB2503_04962 PB2503_13584
+            HFL: PUV54_08180(cysG)
+            HFO: ABFZ83_13795(cysG)
+            PAQI: KW060_12285(cysG)
+            APB: SAR116_1892
+            KOZ: KFF44_03410(cobA)
+            TMK: QGN29_08135(cysG)
+            GSO: PH603_04530(cysG) PH603_12545(cysG)
+            MINW: ACMVY4_08970(cysG) ACMVY4_11125(cysG)
+            WSU: WS1003(CYSG)
+            SBAL: HUE88_07475(cobA)
+            SAQT: GJV85_09390(cobA)
+            SDIZ: WCY31_03540(cobA) WCY31_12605(cobA)
+            TZH: WCX18_03565(cobA) WCX18_12710(cobA)
+            TSUL: LOH54_03710(cobA) LOH54_12735(cobA)
+            TSUB: WCX49_03665(cobA) WCX49_13025(cobA)
+            TIMM: WCX72_03450(cobA) WCX72_12835(cobA)
+            HMZ: WCX87_06645(cobA)
+            SJI: WCY20_12345(cobA)
+            SBA: Sulba_2395
+            SMUL: SMUL_3093(cysG2)
+            SHAL: SHALO_2858
+            SULS: Sdiek1_2867
+            SULJ: SJPD1_2764
+            SULT: FA592_06620(cobA)
+            CMED: FE773_05430(cobA)
+            GLO: Glov_3656
+            ADE: Adeh_3154
+            ACP: A2cp1_3345
+            AFW: Anae109_3603
+            ANK: AnaeK_3267
+            AORY: AMOR_01670(cysG3)
+            AVM: JQX13_42215(cobA)
+            CFUS: CYFUS_006230
+            PALJ: LZC94_33375(cobA)
+            LKB: LPTSP3_g15990
+            LIOW: AB3N60_14065(cobA)
+            LMGO: AB3N62_14160(cobA)
+            LCIN: AB3N61_16285(cobA)
+            GRB: GOB94_16355(cobA)
+            ABAS: ACPOL_2519
+            EPL: P4G45_11785(cobA)
+            ADIN: H7849_03285(cobA)
+            ORP: MOP44_27260(cysG)
+            TGI: RBB81_14535(cobA)
+            TEMP: RBB75_19900(cobA)
+            GBA: J421_1103
+            PCRE: NCTC12858_00573(cbiO)
+            PCAG: NCTC12856_01944(nikO)
+            PBY: L6471_03455(cobA)
+            SBAO: L6469_11770(cobA)
+            NYN: U0035_10900(cobA)
+            NDF: KRR40_10635(cobA)
+            NIJ: ABDK00_016080(cobA)
+            PSEG: D3H65_19945(cobA)
+            FLS: GLV81_03460(cobA)
+            FEI: K9M53_04720(cobA)
+            FLP: LK994_10125(cobA)
+            FAX: FUAX_13660
+            FCV: AWN65_11595
+            FOE: JJC03_02020(cobA)
+            FSD: LXD69_03635(cobA)
+            FCB: LOS89_01750(cobA)
+            FEH: LZF87_08690(cobA)
+            FCU: NOX80_11435(cobA)
+            FDV: JJC05_05975(cobA)
+            FLR: ABFU83_04705(cobA)
+            ELIZ: JCR23_14940(cobA)
+            CHZ: CHSO_2648(cysG2)
+            CHRY: CEY12_04195(cobA)
+            CPIP: CJF12_03760(cobA)
+            CNK: EG343_01825(cobA)
+            CJT: EG359_03420(cobA)
+            CCAU: EG346_05980(cobA)
+            CBEN: EG339_18375(cobA)
+            CLAC: EG342_18140(cobA)
+            CRHI: KB553_03940(cobA)
+            CDAE: MUU74_13485(cobA)
+            CHRJ: CHRYMOREF3P_0532
+            CORA: N0B40_15450(cobA)
+            CCUC: JNG87_18945(cobA)
+            CHRD: KYG33_03975(cobA)
+            CHRK: KCF3NO3_40240
+            CHRH: KBP46_02825(cobA)
+            CHRR: ACL0VS_09500(cobA)
+            MRO: MROS_0865
+            PARH: I5S86_19815(cobA)
+            TMR: Tmar_1629
+            RIX: RO1_41520
+            RIM: ROI_01430
+            RRK: H8S51_017565(cysG)
+            EEL: EUBELI_00453
+            ECLF: QMP25_08720
+            ALLO: KWG61_10550
+            MTU: Rv2847c(cysG)
+            MTV: RVBD_2847c
+            MTC: MT2913(cysG)
+            MRA: MRA_2870(cysG)
+            MTF: TBFG_12862
+            MTB: TBMG_01125
+            MTK: TBSG_01134
+            MTZ: TBXG_001115
+            MTG: MRGA327_17445
+            MTI: MRGA423_17630
+            MTE: CCDC5079_2609
+            MTUR: CFBS_3002(cysG)
+            MTL: CCDC5180_2576
+            MTO: MTCTRI2_2904(cysG)
+            MTD: UDA_2847c(cysG)
+            MTN: ERDMAN_3122(cysG)
+            MTJ: J112_15245
+            MTUB: MT7199_2879(cysG)
+            MTUE: J114_15180
+            MTX: M943_14700
+            MTUH: I917_19890
+            MTUL: TBHG_02777
+            MTUT: HKBT1_2990(cysG)
+            MTUU: HKBT2_2995(cysG)
+            MTQ: HKBS1_2997(cysG)
+            MBO: BQ2027_MB2872C(cysG)
+            MBB: BCG_2867c(cysG)
+            MBT: JTY_2862(cysG)
+            MBM: BCGMEX_2861c(cysG)
+            MBK: K60_029460
+            MBX: BCGT_2680
+            MAF: MAF_28520(cysG)
+            MMIC: RN08_3138
+            MCE: MCAN_28691(cysG)
+            MCQ: BN44_60314(cysG)
+            MCV: BN43_40537(cysG)
+            MCX: BN42_40834(cysG)
+            MCZ: BN45_51243(cysG)
+            MORY: MO_002975(cobA)
+            MPA: MAP_2916c(cysG2)
+            MAO: MAP4_0889
+            MAVI: RC58_04370
+            MAVU: RE97_04370
+            MAV: MAV_3703(cobA)
+            MAVM: MAA44156_02020(cysG)
+            MIT: OCO_35300
+            MIA: OCU_35350
+            MID: MIP_05313
+            MYO: OEM_35740
+            MCHI: AN480_18675
+            MIR: OCQ_36510
+            MLP: MLM_2932
+            MMAN: MMAN_02670(cysG)
+            MSER: MTY59_52940(cysG)
+            MSA: Mycsm_02469
+            MUL: MUL_2114(cysG)
+            MMI: MMAR_1886(cysG)
+            MMAE: MMARE11_18140(cysG)
+            MLI: MULP_02055(cysG)
+            MPSE: MPSD_18950(cysG)
+            MSHO: MSHO_53140(cysG)
+            MMC: Mmcs_2074
+            MKM: Mkms_2120
+            MJL: Mjls_2057
+            MMM: W7S_17655
+            MKN: MKAN_24760
+            MYV: G155_12300
+            MYE: AB431_11280
+            MHAD: B586_15060
+            MDX: BTO20_22560
+            MSHG: MSG_01720(cysG)
+            MFJ: MFLOJ_15670(cysG)
+            MSTO: MSTO_17120(cysG)
+            MSIM: MSIM_06400(cysG)
+            MSAK: MSAS_54660(cysG)
+            MKU: I2456_09375(cobA)
+            MLW: MJO58_09340(cobA)
+            MNV: MNVI_32770(cysG)
+            MPAG: C0J29_10885(cobA)
+            MNM: MNVM_34760(cysG)
+            MGOR: H0P51_10520(cobA)
+            MCOO: MCOO_01080(cysG)
+            MBAI: MB901379_01709(cysG_2)
+            MSEO: MSEO_05290(cysG)
+            MHEK: JMUB5695_03237(cysG)
+            MGAU: MGALJ_07900(cobA)
+            MLJ: MLAC_27650(cysG)
+            MBRD: MBRA_46500(cysG)
+            MSHJ: MSHI_22000(cysG)
+            MMAM: K3U93_08405(cobA)
+            MSPG: F6B93_07630(cobA)
+            MOT: LTS72_15340(cobA)
+            MPAA: MKK62_15865(cobA)
+            MMEH: M5I08_19000(cobA)
+            MKY: IWGMT90018_39420(cysG)
+            MADI: A7U43_19410 A7U43_24715
+            MWU: PT015_02035(cobA)
+            MYW: BVC93_02675 BVC93_30070
+            MYJ: BCA37_12620
+            MHAF: ACEL92_18120(cobA)
+            MSM: MSMEG_2618(cobA)
+            MSG: MSMEI_2556(cysG)
+            MSB: LJ00_13030
+            MSN: LI99_13030
+            MSH: LI98_13035
+            MVA: Mvan_2305
+            MGI: Mflv_4047
+            MSP: Mspyr1_33920
+            MCB: Mycch_2039
+            MNE: D174_11415
+            MYN: MyAD_07080 MyAD_11200
+            MFT: XA26_25280
+            MPHL: MPHLCCUG_03208(cysG_2)
+            MVQ: MYVA_2213
+            MLL: B1R94_17920
+            MRH: MycrhN_5682
+            MTHN: 4412656_01687(cysG_2)
+            MHAS: MHAS_02433(cysG)
+            MDU: MDUV_22260(cobA)
+            MCHT: MCHIJ_44820(cysG)
+            MDR: MDOR_14380(cobA)
+            MAUU: NCTC10437_02167(cysG_2)
+            MMAG: MMAD_22520(cobA)
+            MMOR: MMOR_41210(cobA)
+            MFX: MFAL_03110(cysG)
+            MAIC: MAIC_19490(cobA)
+            MIJ: MINS_21220(cysG)
+            MALV: MALV_13960(cobA)
+            MTY: MTOK_40800(cysG)
+            MPSC: MPSYJ_43700(cobA)
+            MARZ: MARA_17610(cobA)
+            MGAD: MGAD_16220(cobA)
+            MHEV: MHEL_44580(cobA)
+            MSAR: MSAR_32310(cysG)
+            MANY: MANY_05960(cobA)
+            MAUB: MAUB_55570(cobA)
+            MPOF: MPOR_26300(cobA)
+            MPHU: MPHO_13570(cobA)
+            MMUC: C1S78_011580(cobA)
+            MMAT: MMAGJ_56060(cobA)
+            MBOK: MBOE_49560(cobA)
+            MFG: K6L26_19925(cobA)
+            MSEI: MSEDJ_34780(cobA)
+            MFLV: NCTC10271_03216(cysG_1)
+            MCEE: MCEL_14450(cobA)
+            MBRM: L2Z93_001190(cobA)
+            MMON: EWR22_10530(cobA)
+            MGO: AFA91_26420
+            MHOL: K3U96_16255(cobA)
+            MSEN: K3U95_17505(cobA)
+            MPAE: K0O64_10930(cobA)
+            MRF: MJO55_10375(cobA)
+            MDF: K0O62_11805(cobA)
+            MCRO: MI149_11805(cobA)
+            MGRO: FZ046_16535(cobA)
+            MAUS: JN090_10640(cobA)
+            MFRE: EXE63_03200(cobA) EXE63_08830(cobA)
+            MBUG: MU0053_003157(cobA)
+            MYQ: TUM20985_35910(cobA)
+            MFLU: HZU40_10665(cobA) HZU40_16310(cobA)
+            MYH: QU592_12220(cobA)
+            MPAT: MPNTM1_04728(cobA)
+            MKR: MKOR_16270(cobA)
+            MPAK: MIU77_12185(cobA)
+            MAB: MAB_3143c
+            MMV: MYCMA_1723
+            MABB: MASS_3086
+            MABL: MMASJCM_3146
+            MCHE: BB28_15905
+            MIZ: BAB75_16875
+            MSTE: MSTE_03118
+            MSAO: MYCSP_14290
+            MSAL: DSM43276_02927(cysG)
+            MJD: JDM601_2571(cysG)
+            MTER: 4434518_02520(cysG)
+            MMIN: MMIN_02780(cysG)
+            MHIB: MHIB_20170(cysG)
+            MHER: K3U94_14670(cobA)
+            MVM: MJO54_14690(cobA)
+            MKK: MU0083_002403(cobA)
+            ASD: AS9A_1614(cysG)
+            CVA: CVAR_2366
+            COA: DR71_2021(cobA)
+            CLW: CLAC_05290
+            CSPH: CSPHI_05425
+            CXE: FOB82_11015(cobA)
+            CPRE: Csp1_06140(cysG)
+            CAMC: I6I65_01515(cobA)
+            CUO: CUROG_05895(sumT)
+            CFY: I6L56_01540(cobA)
+            CHAN: CHAN_05715(sumT)
+            NFA: NFA_40770(cysG)
+            NFR: ERS450000_05837(cysG_2)
+            NCY: NOCYR_3797
+            NBR: O3I_030625
+            NNO: NONO_c55100
+            NSL: BOX37_21180
+            NSR: NS506_06345(cysG)
+            NTP: CRH09_26155(cobA)
+            NOZ: DMB37_09370(cobA)
+            NOD: FOH10_20805(cobA)
+            NAH: F5544_32505(cobA)
+            NAD: NCTC11293_05274(cysG_2)
+            NWL: NWFMUON74_22470(cobA)
+            NIE: KV110_29590(cobA)
+            NTC: KHQ06_32810(cobA)
+            NHU: H0264_31860(cobA)
+            NYA: LTV02_01905(cobA)
+            NGP: LTT66_23740(cobA)
+            NSPU: IFM12276_16100
+            NYU: D7D52_29875(cobA)
+            NVU: V7968_38445(cobA)
+            RHA: RHA1_ro06617
+            RER: RER_26100(cysG)
+            REY: O5Y_11975
+            REB: XU06_12175
+            RQI: C1M55_13215(cobA)
+            ROP: ROP_66530(cysG)
+            ROA: Pd630_LPD03278
+            RPY: Y013_01230
+            RBY: CEJ39_11985(cobA)
+            RHB: NY08_1396
+            RAV: AAT18_11605
+            RHW: BFN03_05925
+            RRZ: CS378_01355(cobA)
+            RHU: A3Q40_01404(cysG)
+            RHQ: IM25_15290
+            RHOD: AOT96_23415
+            RRT: 4535765_01953(cysG)
+            RCR: NCTC10994_00909(cysG)
+            RTM: G4H71_19355(cobA)
+            RKO: JWS14_35810(cobA)
+            RGO: KYT97_00635(cobA)
+            ROZ: CBI38_17805
+            RPSK: JWS13_08210(cobA)
+            RGOR: NMQ04_08575(cobA)
+            RANT: RHODO2019_04945(cobA)
+            RHOP: D8W71_15240(cobA)
+            RHOO: RA302_12425(cobA)
+            RHOU: KZJ41_12730(cobA)
+            RHOW: A4U64_13115
+            RHOJ: JVH1_03285(cobA)
+            RHOS: QWW67_01340(cobA)
+            RHOQ: QWW98_01345(cobA)
+            RHOY: QNA09_09130(cobA)
+            RHOH: CPI83_16830(cobA)
+            RHOX: RBB84_05425(cobA)
+            RHJS: OYT95_03470(cobA)
+            RSF: OED52_08590(cobA)
+            RHZQ: GO592_16485(cobA)
+            RHZG: BO226_05825
+            RHBH: A0W34_12315
+            RHPD: U9J23_09755(cobA)
+            RHON: EHW12_12800(cobA)
+            RHWB: FND50_15550(cobA)
+            RHSQ: E7742_05220(cobA)
+            RHWY: GFS60_05797(cysG)
+            RHDM: HFP48_12145(cobA)
+            RHWQ: HUN07_10815(cobA)
+            RHMM: ISO16_01340(cobA)
+            RHZP: HYG77_29230(cobA)
+            RHRC: P0M12_24950(cobA)
+            RHNY: ACBG85_12310(cobA)
+            RHRD: RDE2_19660(cobA)
+            RHDK: PST05_33670(cobA)
+            RFA: A3L23_04629(nasF)
+            RHS: A3Q41_03641(nasF)
+            REQ: REQ_18770(cysG)
+            PDEF: P9209_22165(cobA)
+            PSOW: ABI214_04610(cobA)
+            WHR: OG579_00865(cobA)
+            GBR: Gbro_2143
+            GPO: GPOL_c20410
+            GOR: KTR9_2067
+            GOQ: ACH46_08685
+            GTA: BCM27_11095
+            GOC: CXX93_14155(cobA)
+            GIT: C6V83_09205(cobA)
+            GRU: GCWB2_14575(cysG2)
+            GOM: D7316_00661(cysG_1)
+            GAV: C5O27_13510(cobA)
+            GOD: GKZ92_13440(cobA)
+            GOS: QAD21_10305(cobA)
+            GOJ: GR168_10140(cobA)
+            GAM: GII34_09930(cobA)
+            GPD: GII33_09480(cobA)
+            GJI: H1R19_10305(cobA)
+            GOI: LK459_00020(cobA)
+            GHN: MVF96_10490(cobA)
+            GAMI: IHQ52_17185(cobA)
+            GMG: NWF22_20780(cobA)
+            GSI: P5P27_07765(cobA)
+            GOO: HUN08_07620(cobA)
+            GOP: ACE11G_10410(cobA)
+            SPIN: KV203_11885(cobA)
+            TPR: Tpau_1703
+            TSM: ASU32_09230
+            TPUL: TPB0596_28940(cobA)
+            TSD: MTP03_18740(cysG)
+            SRT: Srot_1863
+            DTM: BJL86_1831
+            DIT: C3V38_07100 C3V38_14905(cobA)
+            DIZ: CT688_00600 CT688_09000(cobA)
+            DPC: A6048_00655 A6048_09225
+            DLU: A6035_01230 A6035_08785
+            DKN: NHB83_00755 NHB83_05735(cobA) NHB83_08595(cobA)
+            DCD: VYL96_01005 VYL96_08850(cobA) VYL96_15870(cobA)
+            DID: GJR88_00198 GJR88_02863
+            TOY: FO059_10500(cobA)
+            SCO: SCO1553(SCL11.09c)
+            SALB: XNR_5295
+            SMA: SAVERM_6796(cysG)
+            SGR: SGR_5984
+            SGB: WQO_05515
+            SFI: SFUL_1068
+            SANL: KZO11_05130(cobA)
+            SGRF: SGFS_092390
+            SCYE: R2B67_30915(cobA)
+            SCB: SCAB_74471
+            SSX: SACTE_0959
+            SVL: Strvi_2979
+            SHY: SHJG_2974
+            SHO: SHJGH_2738
+            SRC: M271_10610
+            SMAL: SMALA_6441
+            SAUO: BV401_36170
+            SSOI: I1A49_36045(cobA)
+            SANT: QR300_08990(cobA)
+            SFA: Sfla_5282
+            SBH: SBI_02447
+            SVE: SVEN_1152
+            SDV: BN159_7031
+            SALS: SLNWT_6377
+            STRP: F750_1351
+            SCI: B446_07995
+            SLV: SLIV_29960
+            SGU: SGLAU_06355
+            SVT: SVTN_07160
+            STRE: GZL_07143
+            SCW: TU94_06470
+            SLD: T261_6695
+            SLC: SL103_11740
+            SXI: SXIM_03970
+            STRM: M444_08135
+            STRC: AA958_03490
+            SAMB: SAM23877_1607
+            SPRI: SPRI_6011
+            SCZ: ABE83_30310
+            SCX: AS200_35850
+            SRW: TUE45_01971(cysG)
+            STRF: ASR50_07380
+            SLE: sle_55560(sle_55560)
+            SRN: A4G23_00800(nasF_1)
+            SPAV: Spa2297_05945
+            STRT: A8713_05400
+            SCLF: BB341_24040
+            SGS: AVL59_34285
+            STSI: A4E84_07705
+            SKY: D0C37_28510(cobA)
+            SALW: CP975_05895(cobA) CP975_34370(cobA)
+            SGM: GCM10017557_67710
+            SCAD: DN051_30910(cobA)
+            SPHW: NFX46_28275(cobA)
+            SGRS: V9K83_26860(cobA)
+            SLS: SLINC_1742
+            SNR: SNOUR_32675
+            SALU: DC74_2005
+            SALL: SAZ_10645
+            SPLU: LK06_004565
+            STRD: NI25_31405
+            SNW: BBN63_28955
+            SSIA: A7J05_29305
+            SVU: B1H20_04705
+            SPUN: BFF78_33800
+            SGV: B1H19_09745
+            SLAU: SLA_1059
+            SALF: SMD44_01601(cysG)
+            SALJ: SMD11_5475(cysG)
+            SLX: SLAV_29695(cysG)
+            STRO: STRMOE7_08345
+            SFK: KY5_1339c
+            SNZ: DC008_05790(cobA)
+            SGE: DWG14_06932(cysG)
+            SRJ: SRO_5925
+            SVQ: N6Q81_07195(cobA)
+            SLK: SLUN_07075(cobA)
+            SDX: C4B68_33105(cobA)
+            SGD: ELQ87_31975(cobA)
+            SQZ: FQU76_04555(cobA)
+            SCYA: EJ357_08600(cobA)
+            SAST: CD934_27960(cobA)
+            SNQ: CP978_07290(cobA)
+            STIR: DDW44_01840(cobA)
+            SKA: CP970_36035(cobA)
+            SGZ: C0216_21190(cobA)
+            SVN: CP980_26960(cobA)
+            SNK: CP967_28645(cobA)
+            SHAW: CEB94_08150(cobA)
+            SRK: FGW37_06290(cobA)
+            SFIC: EIZ62_27440(cobA)
+            SGAL: CP966_06165(cobA)
+            SSPO: DDQ41_01295(cobA)
+            SVR: CP971_26930(cobA)
+            SPAD: DVK44_03580(cobA)
+            SFY: GFH48_32745(cobA)
+            SAQU: EJC51_10385(cobA)
+            SGF: HEP81_06229(cobA)
+            SCAV: CVT27_04335(cobA)
+            SSEO: D0Z67_04660(cobA)
+            SBY: H7H31_04305(cobA)
+            SRIM: CP984_33860(cobA)
+            SSUB: CP968_26785(cobA)
+            SPHV: F9278_07285(cobA)
+            SCIN: CP977_06760(cobA)
+            SFUG: CNQ36_06440(cobA)
+            SPAC: B1H29_29810
+            STSU: B7R87_04530
+            SCHA: CP983_35370(cobA)
+            SGX: H4W23_07675(cobA)
+            SCOE: CP976_08800(cobA)
+            SBAT: G4Z16_29130(cobA)
+            SSPB: CP982_09100(cobA)
+            SNF: JYK04_02217(cysG)
+            SPLA: CP981_07440(cobA)
+            SBRO: GQF42_10370(cobA)
+            STUI: GCM10017668_11300
+            SATA: C5746_08235(cobA)
+            SCHF: IPT68_06825(cobA)
+            SHUN: DWB77_06193(sumT)
+            SHAR: HUT13_02705(cobA)
+            SCYG: S1361_08545(cysG)
+            SFEU: IM697_14845(cobA)
+            SLIA: HA039_28480(cobA)
+            SDW: K7C20_06565(cobA)
+            SVD: CP969_08745(cobA)
+            SCAL: I6J39_04890(cobA)
+            SAUH: SU9_005505(cobA)
+            SFB: CP974_04175(cobA)
+            SMOB: J7W19_05290(cobA)
+            SPRA: CP972_06825(cobA)
+            SPEU: CGZ69_06260(cobA)
+            SROI: IAG44_32795(cobA)
+            SXN: IAG42_29330(cobA)
+            SGJ: IAG43_05130(cobA)
+            SHK: J2N69_05825(cobA)
+            SANU: K7396_29280(cobA)
+            SDD: D9753_29150(cobA)
+            SACT: DMT42_06745(cobA)
+            SMAO: CAG99_25265
+            SGOB: test1122_00940(cobA)
+            SINE: KI385_09860(cobA)
+            SLF: JEQ17_37920(cobA)
+            SDEC: L3078_08835(cobA)
+            SAOV: G3H79_30955(cobA)
+            SDUR: M4V62_34295(cobA)
+            SYAN: NRK68_06900(cobA)
+            SRUG: F0345_03800(cobA)
+            SAKB: K1J60_36605(cobA)
+            STAA: LDH80_31765(cobA)
+            SNIG: HEK616_20070
+            SVIO: HWN34_26740(cobA)
+            SCAE: IHE65_36715(cobA)
+            STUB: MMF93_05440(cobA)
+            SSPN: LXH13_07720(cobA)
+            SCIR: STRCI_001615(cobA)
+            SXT: KPP03845_101796(cysG)
+            SLON: LGI35_10925(cobA)
+            SDRZ: NEH16_26335(cobA)
+            STUD: STRTU_005882(cobA)
+            STEE: F3L20_10085(cobA)
+            SENG: OJ254_20695(cobA)
+            SGK: PET44_06725(cobA)
+            SYUN: MOV08_32795(cobA)
+            SARG: HKX69_28475(cobA)
+            SJN: RI060_34710(cobA)
+            SCYN: N8I84_08495(cobA)
+            SOV: QZH56_29715(cobA)
+            SFIY: F0344_30775(cobA)
+            SHAU: K9S39_35360(cobA)
+            SKG: KJK29_31575(cobA)
+            SCOA: QU709_35895(cobA)
+            SLAI: P8A22_32195(cobA)
+            SROC: RGF97_28275(cobA)
+            SFP: QUY26_33305(cobA)
+            SCHG: NRO40_04585(cobA)
+            STTN: BSL84_06615
+            SINN: ABB07_30975
+            STRZ: OYE22_04155(cobA)
+            SCAY: PYS65_29635(cobA)
+            KBU: Q4V64_09530(cobA)
+            SARM: DVA86_06420(cobA)
+            SPRF: K4G22_01735(cobA)
+            SLUO: PS467_33510(cobA)
+            STPB: QR97_29770
+            SRPA: HEP86_08630(cobA)
+            SMIB: SMIR_32120(cobA)
+            SCAJ: O1G22_33980(cobA)
+            STRW: QHG49_28435(cobA)
+            STRL: HEP84_12790(cobA)
+            SRPZ: HEP85_08515(cobA)
+            SCHE: QRN89_05835(cobA)
+            SGLY: P8A20_30770(cobA)
+            SCAT: P8A18_04655(cobA)
+            STII: DRB96_09620(cobA)
+            STIC: DRB89_18520(cobA)
+            SABD: N8I86_08585(cobA)
+            STRV: EZV63_06005(cobA)
+            SPAZ: ABXI76_31160(cobA)
+            SPIH: ABXR15_25235(cobA)
+            SMOD: POD33_27775(cobA)
+            SPOF: P8A21_06795(cobA)
+            STBR: ABDE16_29985(cobA)
+            SGRO: UBV09_06015(cobA)
+            STAC: ABII15_07020(cobA)
+            STVB: OH133_32480(cobA)
+            SSOC: ABZO31_05300(cobA)
+            SSLI: R2D22_30330(cobA)
+            STYI: C9F11_08130(cysG)
+            SCIT: V2W30_06995(cobA)
+            SSIR: WAB15_08650(cobA)
+            STRJ: H7827_26750(cobA)
+            SEXP: SLV14_006428(cobA)
+            SFLU: ACKTSN_37710(cobA)
+            SOKE: ACE1N8_06245(cobA)
+            SSTO: ACE1OC_32550(cobA)
+            SLUA: AB8735_08470(cobA)
+            STGO: KBP30_32500(cobA)
+            STCM: SCMC78_63570(cobA)
+            STID: G7Z12_30460(cobA)
+            STCZ: JHY03_09840(cobA)
+            STSG: B6R96_28460
+            STHU: M1P56_09195(cobA)
+            STRQ: CGL27_38170(cobA)
+            SSEC: ABZO29_36365(cobA)
+            SHUG: ABVG11_07700(cobA)
+            STRK: R2B38_05570(cobA)
+            STJL: ACE1OA_28550(cobA)
+            SCT: SCAT_5272
+            SCY: SCATT_52680
+            KSK: KSE_14760(cysG)
+            KAB: B7C62_04330
+            KAU: B6264_21490
+            KIT: CFP65_1106
+            KIS: HUT16_06080(cobA)
+            KCH: O1G21_30975(cobA)
+            KCM: ABWK59_28415(cobA)
+            KNB: ACF9IK_28320(cobA)
+            KIC: KCMC57_up09090(cobA)
+            KPUR: ACFCLZ_08690(cobA)
+            STRI: C7M71_028065(cobA)
+            PPOD: AB0761_08165(cobA)
+            YIA: LO772_28545(cobA)
+            STRH: GXP74_13900(cobA)
+            ABRY: NYE86_12015(cobA)
+            AGLA: OIE69_31795(cobA)
+            AREV: RVR_1195
+            LXL: KDY119_00914(cysG)
+            PSIC: J4E96_02625(cobA) J4E96_12755(cobA)
+            PPHP: VTA80_12755(cobA)
+            MIO: AOA12_02250
+            MPAL: BO218_09285
+            MIH: BJP65_05325
+            MAUR: BOH66_05775
+            MFOL: DXT68_08555(cobA)
+            MOO: BWL13_02761(cysG)
+            MPRT: ET475_14920(cobA)
+            MSED: E3O41_07630(cobA)
+            MTEC: OAU46_07030(cobA)
+            MARK: QUC20_01520(cobA)
+            MOJ: D7D94_02230(cobA)
+            MPLN: VC184_01595(cobA)
+            MLIY: RYJ27_04885(cobA)
+            MICM: CHE218_13910(cobA)
+            MICI: AB2L57_10095(cobA)
+            MALP: QSU92_04220(cobA)
+            MIMZ: OED01_07910(cobA)
+            MIBD: P6897_01845(cobA)
+            RHOK: RKAS3_12030
+            AMAV: GCM10025877_16430
+            ALAV: MTO99_06285(cobA)
+            AIL: FLP10_15905(cobA)
+            ART: Arth_3111
+            ARR: ARUE_c32250(cysG3)
+            ARM: ART_2264
+            ARE: AL755_19470
+            AAQ: AOC05_13435
+            ARW: MB46_14185
+            ARH: AHiyo8_47980
+            ARU: ASPU41_01560
+            ARQ: BWQ92_15875
+            ARN: CGK93_17480(cobA)
+            ARX: ARZXY2_604(cysG)
+            ARTH: C3B78_14825(cobA)
+            ARTP: E5206_06420(cobA)
+            APOA: J0916_12755(cobA)
+            AWW: G8758_10760(cobA)
+            AOD: Q8Z05_02420(cobA)
+            ARTU: E7Y32_08685(cobA)
+            ARTZ: FCN77_19665(cobA)
+            ARTQ: CGQ24_09095(cobA)
+            ARTT: IG195_12720(cobA)
+            ARTC: KY499_15025(cobA)
+            ARTE: QI450_13205(cobA)
+            ARTN: ABCW42_16160(cobA)
+            ARI: UM93_10665
+            AAU: AAur_3076(cobA)
+            PUE: FV140_16665(cobA)
+            PNV: JMY29_14900(cobA)
+            PAYJ: HMI59_05535(cobA)
+            PAGO: IRJ34_15425(cobA)
+            PAYN: HMI60_14995(cobA)
+            PHRZ: QN084_05205(cobA)
+            PANY: ACPFL9_15665(cobA)
+            ARZ: AUT26_15090
+            ACH: Achl_2812
+            APN: Asphe3_29370
+            PSUL: AU252_16065
+            PSNI: NIBR502771_10225(cobA)
+            PSEY: GU243_10330(cobA)
+            PDEL: JCQ34_14195(cobA)
+            POK: SMD14_15165(cobA)
+            PSLS: KTR40_13970(cobA)
+            PQA: WHH00_04220(cobA)
+            PSNB: NIBR502770_13065(cobA)
+            GMI: NMP99_14040(cobA)
+            GMY: XH9_11960(cobA)
+            GNC: QQS42_13865(cobA)
+            GLM: N6V40_06020(cobA)
+            GEY: QMQ05_13565(cobA)
+            RSA: RSal33209_2609
+            KRH: KRH_11210(cysG)
+            KII: KocCE7_05690(cobA)
+            KOD: HBK84_05835(cobA)
+            KVR: CIB50_0002042(cysG)
+            MLU: Mlut_10020
+            MICK: B1A86_00004950(cobA)
+            MYU: M8233_04675(cobA)
+            MPOR: KW076_09260(cobA)
+            MICU: SOY78_07605(cobA)
+            RKR: I6G21_09820(cobA)
+            SATK: SA2016_3145
+            CCYC: SCMU_31280
+            SPUE: AB5L97_14570(cobA)
+            CMUA: P8192_12265(cobA)
+            PAEY: KUF55_07865(cobA)
+            BCV: Bcav_2797
+            BFA: Bfae_18840
+            BSAU: DWV08_06850(cobA)
+            BRR: C1N80_09480(cobA) C1N80_10100(cobA)
+            BRHA: NLU66_10975(cobA)
+            BHH: Bra3105_11855(cobA)
+            JDE: Jden_0658
+            DERM: H7F30_00125(cobA)
+            LMOI: VV02_06095
+            YIM: J5M86_12865(cobA)
+            ALX: LVQ62_02065(cobA)
+            BEI: GCM100_33350
+            XCE: Xcel_1626
+            IVA: Isova_0749
+            IDO: I598_1529(cysG_2)
+            IHA: UQW22_00355(cobA)
+            CET: B8281_02065 B8281_17245
+            CCEU: CBR64_09845 CBR64_13965
+            CPRT: FIC82_000210(cobA) FIC82_016250(cobA)
+            PROU: AB1046_18290(cobA) AB1046_20325(cobA)
+            PROZ: ACO229_18120(cobA) ACO229_20090(cobA)
+            SKE: Sked_32840
+            SANW: G7063_10685(cobA)
+            SBIL: SANBI_003226(cobA)
+            CFL: Cfla_1734 Cfla_1774
+            CFI: Celf_1266 Celf_2118
+            CGA: Celgi_1033 Celgi_1493
+            CEZ: CBP52_05650 CBP52_08270
+            CELZ: E5225_09340(cobA) E5225_09590(cobA)
+            CEJ: GC089_09925(cobA)
+            CELH: GXP71_07415(cobA) GXP71_10000(cobA)
+            CIRA: LFM56_03565(cobA) LFM56_09420(cobA) LFM56_09640(cobA)
+            CPAL: F1D97_12470(cobA) F1D97_14925(cobA)
+            CDON: KKR89_08480(cobA) KKR89_08670(cobA)
+            CWAN: KG103_08745(cobA) KG103_08970(cobA)
+            CFEN: KG102_09945(cobA) KG102_12240(cobA)
+            CWN: NP075_09000(cobA) NP075_09225(cobA)
+            CCHE: NP064_08565(cobA)
+            CXIE: NP048_08640(cobA) NP048_08990(cobA)
+            CELN: CELD12_15300 CELD12_19020
+            OEK: FFI11_009050(cobA)
+            PSEK: GCM125_03910 GCM125_03920 GCM125_07830
+            ICA: Intca_0084
+            JME: EEW87_007160(cobA)
+            JAI: V1351_05265(cobA)
+            JTR: V3C34_08135(cobA)
+            TEH: GKE56_04210(cobA)
+            PHW: G7075_19195(cobA)
+            PEI: H9L10_06625(cobA)
+            TED: U5C87_05220(cobA) U5C87_06205(cobA)
+            KNO: V6K52_07035(cobA) V6K52_11510(cobA) V6K52_13115(cobA)
+            SERJ: SGUI_2083
+            HALT: IM660_07100(cobA)
+            RHAL: LQF10_12525(cobA)
+            RSUA: LQF12_05760(cobA)
+            DEM: LGT36_002970(cobA)
+            DSS: GCM25873_04160(cysG)
+            DCP: RN607_04800(cobA)
+            TEZ: BKM78_01580
+            TLA: TLA_TLA_00320(sumT)
+            PSOI: PCC79_15175(cobA)
+            PROP: QQ658_11840(cobA)
+            BROO: brsh051_09870
+            AFUV: AADG42_10950(cobA)
+            NCA: Noca_2600
+            NDK: I601_3364(sumT)
+            NOY: EXE57_01650(cobA)
+            NOI: FCL41_08290(cobA)
+            NOO: FE634_10190(cobA)
+            NSN: EXE58_17885(cobA)
+            NBE: Back2_02040
+            NANO: G5V58_10675(cobA)
+            NMES: H9L09_20890(cobA)
+            NARO: CFH99_12845(cobA)
+            NAQU: ENKNEFLB_01609(nasF_1) ENKNEFLB_02446(nasF_2)
+            NRO: K8W59_09125(cobA)
+            NOQ: LN652_03655(cobA)
+            NCQ: K6T13_08855(cobA)
+            NPC: KUV85_04850(cobA)
+            NPS: KRR39_07770(cobA)
+            NMAR: HPC71_10260(cobA)
+            NFC: KG111_09040(cobA)
+            NRN: SHK17_11750(cobA)
+            NBI: SHK19_11670(cobA)
+            NOF: MF408_21970(cobA)
+            NOCR: OSR43_10190(cobA)
+            NOCW: ABFU82_06230(cobA)
+            NOCA: ncot_09130(cobA)
+            NOCL: KM427_13490(cobA)
+            NOCD: QJ852_13720(cobA)
+            NOCQ: QI633_13610(cobA)
+            NLB: P5P86_12805(cobA)
+            PSIM: KR76_12990
+            AER: AERYTH_08700
+            AEZ: C3E78_09590(cobA)
+            AEB: C6I20_07105(cobA)
+            AEF: GEV26_08970(cobA)
+            ASEZ: H9L21_07865(cobA)
+            ADB: NP095_08045(cobA)
+            AWN: NQV15_09695(cobA)
+            MQR: AB3M34_20065(cobA)
+            SGRG: L0C25_21045(cobA)
+            NBT: KLP28_15955(cobA)
+            KFL: Kfla_3675
+            KQI: F1D05_03540(cobA)
+            KSL: OG809_29795(cobA)
+            KRI: OX958_19480(cobA)
+            TFU: Tfu_2221
+            THAO: NI17_013780(cobA)
+            TALX: FOF52_11140(cobA)
+            NDA: Ndas_3431
+            NAL: B005_0537(cobA)
+            NGV: CDO52_20505(cobA)
+            NEX: NE857_25755(cobA)
+            NAKE: KGD83_07915(cobA)
+            NCG: KGD84_07760(cobA)
+            NOCB: UIS43_10825(cobA)
+            STRR: EKD16_18130(cysG)
+            SNAH: OUQ99_06685(cobA)
+            SAIU: J4H86_24640(cobA)
+            TCU: Tcur_1323
+            ACTW: F7P10_08650(cobA)
+            AGRA: AGRA3207_001861(cobA)
+            AMAZ: LUW76_13525(cobA)
+            ACIR: OG979_28060(cobA)
+            AWS: ACN3XK_16130(cobA) ACN3XK_16690(cobA)
+            SPIQ: OHA34_13515(cobA)
+            ACTQ: OG417_14315(cobA)
+            SRO: Sros_7364
+            NOA: BKM31_56755
+            NOW: GBF35_39505(cobA)
+            NCX: Nocox_32400(cysG)
+            NGN: LCN96_44085(cobA)
+            NFS: OIE67_05090(cobA)
+            TBI: Tbis_2561
+            MHAI: OHB01_00335(cobA)
+            ACE: Acel_1616
+            NML: Namu_2248
+            NAKA: H7F38_17630(cobA) H7F38_21785(cobA)
+            GOB: Gobs_0536
+            BSD: BLASA_0532 BLASA_1247(cobA)
+            BLAP: MVA48_09105(cobA)
+            BBRG: U6N30_01165(cobA)
+            BMON: ABDB74_02220(cobA) ABDB74_11455(cobA)
+            MMAR: MODMU_0617(cysG)
+            MOM: KUM42_12715(cobA)
+            KRA: Krad_1326
+            SEN: SACE_5957
+            SACG: FDZ84_04710(cobA)
+            SVI: Svir_22640
+            SACC: EYD13_12615(sumT)
+            AMD: AMED_4999(cysG)
+            AMN: RAM_25450
+            AMM: AMES_4940(cysG)
+            AMZ: B737_4940(cysG)
+            AOI: AORI_3713(cysG)
+            AJA: AJAP_20585
+            AMQ: AMETH_2992(cysG)
+            AMYC: CU254_20305(cobA)
+            AMYB: BKN51_11040
+            AAB: A4R43_11295
+            AMYY: YIM_27805(cysG1)
+            AORI: SD37_19060
+            AACD: LWP59_14875(cobA)
+            APRT: MUY14_12595(cobA)
+            AROO: NQK81_04005(cobA)
+            ATHM: L1857_17855(cobA)
+            ARHD: VSH64_13695(cobA)
+            AMOG: QRX60_39025(cobA)
+            ACYN: ORV05_20400(cobA)
+            ACOR: LCL61_26190(cobA)
+            AMYZ: HUW46_08990(cysG_2)
+            ACAB: QRX50_31990(cobA)
+            ANW: QP939_38925(cobA)
+            AMYD: K1T34_45720(cobA)
+            ABAR: AMYBAR_002788(cobA)
+            AMYS: CVV72_09900(cobA)
+            PDX: Psed_2727
+            PSEA: WY02_06910
+            PSEE: FRP1_07075
+            PSEH: XF36_07895
+            PSEQ: AD006_14690
+            PECQ: AD017_22515
+            PHH: AFB00_22530
+            PAUT: Pdca_43700(cysG)
+            PBRO: HOP40_18720(cobA)
+            PPEL: H6H00_17525(cobA)
+            PSDS: K1T35_30945(cobA)
+            PALQ: PaSha_19750(cobA)
+            APRE: CNX65_28725(cobA)
+            AMI: Amir_5854
+            SESP: BN6_70120
+            SSYI: EKG83_39315(cobA)
+            SACX: IOD16_29105(cobA)
+            KAL: KALB_7225
+            KUT: JJ691_93720(cysG_2)
+            KBR: Q4V65_33770(cobA)
+            KPHY: AOZ06_44380
+            LED: BBK82_22430
+            LXR: ACRSBM_05020(cobA)
+            AHM: TL08_09100
+            ACTI: UA75_09135
+            ACAD: UA74_09165
+            AHG: AHOG_08615(cysG2)
+            ACTA: C1701_19620(cobA)
+            ACAU: ACOJVX_18210(cobA)
+            ALO: CRK58559
+            PMAD: BAY61_17295
+            SACE: GIY23_16900(cobA)
+            ACTU: Actkin_04824(cysG_1)
+            AAUR: V5P93_001850(cobA)
+            CROS: N8J89_33285(cobA)
+            ACTY: OG774_18960(cobA)
+            UME: RM788_16345(cobA)
+            STP: Strop_3545
+            SAQ: Sare_3920
+            MAU: Micau_4958
+            MIL: ML5_3337
+            MICB: MicB006_3993
+            MTUA: CSH63_33290(cobA)
+            MICH: FJK98_26230(cobA)
+            MTEM: GCE86_19525(cobA)
+            MCAB: HXZ27_25145(cobA)
+            MSAG: GCM10017556_12440(cysG)
+            VMA: VAB18032_28851
+            MCRA: ID554_21565(cobA)
+            VER: HUT12_26160(cobA)
+            MENO: Jiend_40810
+            MCHL: PVK74_15150(cobA)
+            MFEU: H1D33_00485(cobA)
+            MPRN: Q3V37_13045(cobA)
+            MHAW: RMN56_17900(cobA)
+            MCAY: PVK37_31545(cobA)
+            MICN: WHN02_26665(cobA)
+            VET: ACQVFL_16660(cobA) ACQVFL_24255(cobA)
+            ASE: ACPL_1306(cysG)
+            AMS: AMIS_10880
+            ACTN: L083_1438(cysG)
+            ACTS: ACWT_1187
+            AIH: Aiant_55190(cysG)
+            ACTR: Asp14428_31440(cysG)
+            ACTL: L3i22_012010(cysG)
+            ASIC: Q0Z83_077000(cobA)
+            AOU: ACTOB_001139(cobA)
+            ACTE: ACTI_31720(cysG)
+            AFS: AFR_07370
+            PLK: CIK06_22505(cobA)
+            PLAB: C6361_30725(cobA)
+            PLAT: C6W10_35375(cobA)
+            PFLA: Pflav_083720(cysG)
+            PSUU: Psuf_046360
+            ATL: Athai_19300(cobA)
+            ASER: Asera_55250(cobA)
+            PRY: Prubr_09080
+            CATI: CS0771_01480(cysG)
+            DVC: Dvina_46700(cobA)
+            DFU: Dfulv_41130(cobA)
+            DROS: Drose_31320(cobA)
+            DAUR: Daura_44885(cobA)
+            DMAT: Dmats_41040(cobA)
+            DACT: KZZ52_53065(cobA)
+            NHY: JQS43_19180(cobA)
+            CCAZ: COUCH_32300(cobA)
+            CAI: Caci_2321
+            SNA: Snas_4663
+            NAV: JQS30_12065(cobA)
+            GLY: K3N28_07765(cobA)
+            ASLA: NCTC11923_01514(cysG)
+            AMAS: QU670_04985(cobA)
+            ALIL: D5R93_04570(cobA)
+            AEY: CDG81_07510(cobA)
+            JTL: M6D93_12945(cobA)
+            JCY: M6B22_19995(cobA)
+            JAT: SAMN05892883_3527 SAMN05892883_3668
+            LEPV: J4558_01985
+            FGI: OP10G_0962
+REFERENCE   PMID:9461500
+  AUTHORS   Woodcock SC, Raux E, Levillayer F, Thermes C, Rambach A, Warren MJ.
+  TITLE     Effect of mutations in the transmethylase and dehydrogenase/chelatase domains of sirohaem synthase (CysG) on sirohaem and cobalamin biosynthesis.
+  JOURNAL   Biochem J 330:121-9 (1998)
+            DOI:10.1042/bj3300121
+  SEQUENCE  [eco:b3368]
+///

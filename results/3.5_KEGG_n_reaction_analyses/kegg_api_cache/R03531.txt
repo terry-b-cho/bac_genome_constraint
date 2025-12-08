@@ -1,0 +1,18 @@
+ENTRY       R03531                      Reaction
+NAME        2'-deoxyinosine-5'-triphosphate pyrophosphohydrolase;
+            dITP diphosphohydrolase (diphosphate-forming)
+DEFINITION  dITP + H2O <=> 2'-Deoxyinosine 5'-phosphate + Diphosphate
+EQUATION    C01345 + C00001 <=> C06196 + C00013
+RCLASS      RC00002  C01345_C06196
+ENZYME      3.6.1.66
+PATHWAY     rn00230  Purine metabolism
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.6  Acting on acid anhydrides
+               3.6.1  In phosphorus-containing anhydrides
+                3.6.1.66
+                 R03531  dITP + H2O <=> 2'-Deoxyinosine 5'-phosphate + Diphosphate
+ORTHOLOGY   K01519  XTP/dITP diphosphohydrolase [EC:3.6.1.66]
+DBLINKS     RHEA: 28345
+///

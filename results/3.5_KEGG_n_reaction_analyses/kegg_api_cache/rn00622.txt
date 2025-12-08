@@ -1,0 +1,118 @@
+ENTRY       rn00622                     Pathway
+NAME        Xylene degradation
+CLASS       Metabolism; Xenobiotics biodegradation and metabolism
+PATHWAY_MAP rn00622  Xylene degradation
+MODULE      M00419  Cymene degradation, p-cymene => p-cumate [PATH:rn00622]
+            M00537  Xylene degradation, xylene => methylbenzoate [PATH:rn00622]
+            M00539  Cumate degradation, p-cumate => 2-oxopent-4-enoate + 2-methylpropanoate [PATH:rn00622]
+            M00551  Benzoate degradation, benzoate => catechol / methylbenzoate => methylcatechol [PATH:rn00622]
+            M00569  Catechol meta-cleavage, catechol => acetyl-CoA / 4-methylcatechol => propanoyl-CoA [PATH:rn00622]
+DBLINKS     GO: 0042184
+            UMBBD: mxy oxy pxy pcy tol
+REACTION    R00228  acetaldehyde:NAD+ oxidoreductase (CoA-acetylating)
+            R00750  4-hydroxy-2-oxopentanoate pyruvate-lyase (acetaldehyde-forming)
+            R02601  4-hydroxy-2-oxopentanoate hydro-lyase (2-oxopent-4-enoate-forming)
+            R04089  3-methylcatechol:oxygen 2,3-oxidoreductase(decyclizing)
+            R05138  2-hydroxy-6-oxohepta-2,4-dienoate acetylhydrolase
+            R05232  p-cumic alcohol:NAD+ oxidoreductase
+            R05235  p-cumic aldehyde:NAD+ oxidoreductase
+            R05240  cis-2,3-dihydroxy-2,3-dihydro-p-cumate:NAD+ oxidoreductase
+            R05247  4-isopropylbenzoate:oxygen 2,3-oxidoreductase
+            R05248  
+            R05266  p-cymene,ferredoxin:oxygen oxidoreductase (methyl-hydroxylating)
+            R05282  4-methylbenzyl alcohol:NAD+ oxidoreductase
+            R05288  p-xylene,ferredoxin:oxygen oxidoreductase (methyl-hydroxylating)
+            R05289  p-methylbenzaldehyde:NADP+ oxidoreductase
+            R05290  
+            R05291  
+            R05292  cis-1,2-dihydroxy-4-methylcyclohexa-3,5-diene-1-carboxylate:NAD+ oxidoreductase (decarboxylating)
+            R05293  cis-1,2-dihydroxy-4-methylcyclohexa-3,5-diene-1-carboxylate:NADP+ oxidoreductase (decarboxylating)
+            R05295  4-methylcatechol:oxygen 2,3-oxidoreductase(decyclizing)
+            R05298  4-hydroxy-2-oxohexanoate pyruvate-lyase (propanal-forming)
+            R05309  1,6-dihydroxy-5-methylcyclohexa-2,4-dienecarboxylate:NAD+ oxidoreductase (decarboxylating)
+            R05314  1,2-dihydroxy-6-methylcyclohexa-3,5-dienecarboxylate:NAD+ oxidoreductase (decarboxylating)
+            R05347  
+            R05348  
+            R05353  2-hydroxy-5-methyl-cis,cis-muconic semialdehyde:NAD+ 6-oxidoreductase
+            R05364  2-hydroxy-6-oxo-7-methylocta-2,4-dienoate acylhydrolase
+            R05374  2-oxo-5-methyl-cis-muconate carboxy-lyase
+            R05377  2-hydroxy-3-carboxy-6-oxo-7-methylocta-2,4-dienoate carboxy-lyase
+            R05389  2-hydroxy-5-methyl-cis,cis-muconate 2-oxo-5-methyl-cis-muconate isomerase
+            R05428  
+            R05442  o-xylene,ferredoxin:oxygen oxidoreductase (methyl-hydroxylating)
+            R05443  m-xylene,ferredoxin:oxygen oxidoreductase (methyl-hydroxylating)
+            R05663  
+            R05664  
+            R05665  
+            R05864  4-hydroxy-2-oxohexanoate hydro-lyase
+            R05865  2-hydroxy-5-methyl-cis,cis-muconic-semialdehyde formylhydrolase
+            R09097  propanal:NAD+ oxidoreductase (CoA-propanoylating)
+COMPOUND    C00022  Pyruvate
+            C00024  Acetyl-CoA
+            C00084  Acetaldehyde
+            C00100  Propanoyl-CoA
+            C00479  Propanal
+            C00596  2-Hydroxy-2,4-pentadienoate
+            C01454  Toluate
+            C02923  2,3-Dihydroxytoluene
+            C03589  4-Hydroxy-2-oxopentanoate
+            C06210  2-Hydroxy-6-keto-2,4-heptadienoate
+            C06575  p-Cymene
+            C06576  p-Cumic alcohol
+            C06577  4-Isopropylbenzaldehyde
+            C06578  p-Cumate
+            C06579  cis-2,3-Dihydroxy-2,3-dihydro-p-cumate
+            C06580  2,3-Dihydroxy-p-cumate
+            C06581  2-Hydroxy-3-carboxy-6-oxo-7-methylocta-2,4-dienoate
+            C06582  2-Hydroxy-6-oxo-7-methylocta-2,4-dienoate
+            C06720  1,6-Dihydroxy-5-methylcyclohexa-2,4-dienecarboxylate
+            C06729  cis-1,2-Dihydroxy-4-methylcyclohexa-3,5-diene-1-carboxylate
+            C06730  4-Methylcatechol
+            C06731  1,2-Dihydroxy-6-methylcyclohexa-3,5-dienecarboxylate
+            C06756  p-Xylene
+            C06757  4-Methylbenzyl alcohol
+            C06758  p-Tolualdehyde
+            C06760  2-Hydroxy-5-methyl-cis,cis-muconic semialdehyde
+            C06762  4-Hydroxy-2-oxohexanoic acid
+            C07208  m-Xylene
+            C07209  3-Methylbenzaldehyde
+            C07211  m-Methylbenzoate
+            C07212  o-Xylene
+            C07213  2-Methylbenzyl alcohol
+            C07214  2-Methylbenzaldehyde
+            C07215  o-Toluate
+            C07216  3-Methylbenzyl alcohol
+            C07478  2-Hydroxy-5-methyl-cis,cis-muconate
+            C07479  2-Oxo-5-methyl-cis-muconate
+            C11354  2-Hydroxy-cis-hex-2,4-dienoate
+REFERENCE   PMID:11375157
+  AUTHORS   Haddad S, Eby DM, Neidle EL.
+  TITLE     Cloning and expression of the benzoate dioxygenase genes from Rhodococcus sp. strain 19070.
+  JOURNAL   Appl Environ Microbiol 67:2507-14 (2001)
+            DOI:10.1128/AEM.67.6.2507-2514.2001
+REFERENCE   PMID:7768806
+  AUTHORS   Kim E, Zylstra GJ
+  TITLE     Molecular and biochemical characterization of two meta-cleavage dioxygenases involved in biphenyl and m-xylene degradation by Beijerinckia sp. strain B1.
+  JOURNAL   J Bacteriol 177:3095-103 (1995)
+            DOI:10.1128/JB.177.11.3095-3103.1995
+REFERENCE   PMID:15127183
+  AUTHORS   Morasch B, Schink B, Tebbe CC, Meckenstock RU
+  TITLE     Degradation of o-xylene and m-xylene by a novel sulfate-reducer belonging to the genus Desulfotomaculum.
+  JOURNAL   Arch Microbiol 181:407-17 (2004)
+            DOI:10.1007/s00203-004-0672-6
+REFERENCE   PMID:9150211
+  AUTHORS   Eaton RW.
+  TITLE     p-Cymene catabolic pathway in Pseudomonas putida F1: cloning and characterization of DNA encoding conversion of p-cymene to p-cumate.
+  JOURNAL   J Bacteriol 179:3171-80 (1997)
+            DOI:10.1128/JB.179.10.3171-3180.1997
+REFERENCE   PMID:8631713
+  AUTHORS   Eaton RW.
+  TITLE     p-Cumate catabolic pathway in Pseudomonas putida Fl: cloning and characterization of DNA carrying the cmt operon.
+  JOURNAL   J Bacteriol 178:1351-62 (1996)
+            DOI:10.1128/JB.178.5.1351-1362.1996
+REL_PATHWAY rn00010  Glycolysis / Gluconeogenesis
+            rn00020  Citrate cycle (TCA cycle)
+            rn00623  Toluene degradation
+            rn00640  Propanoate metabolism
+KO_PATHWAY  ko00622
+///

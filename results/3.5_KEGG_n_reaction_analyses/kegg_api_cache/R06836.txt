@@ -1,0 +1,17 @@
+ENTRY       R06836                      Reaction
+NAME        ATP:ribose-1,5-bisphosphate phosphotransferase
+DEFINITION  D-Ribose 1,5-bisphosphate + ATP <=> 5-Phospho-alpha-D-ribose 1-diphosphate + ADP
+EQUATION    C01151 + C00002 <=> C00119 + C00008
+RCLASS      RC00002  C00002_C00008  C00119_C01151
+ENZYME      2.7.4.23
+PATHWAY     rn00030  Pentose phosphate pathway
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.4  Phosphotransferases with a phosphate group as acceptor
+                2.7.4.23
+                 R06836  D-Ribose 1,5-bisphosphate + ATP <=> 5-Phospho-alpha-D-ribose 1-diphosphate + ADP
+ORTHOLOGY   K05774  ribose 1,5-bisphosphokinase [EC:2.7.4.23]
+DBLINKS     RHEA: 20112
+///

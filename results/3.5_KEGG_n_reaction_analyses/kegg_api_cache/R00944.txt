@@ -1,0 +1,19 @@
+ENTRY       R00944                      Reaction
+NAME        10-formyltetrahydrofolate amidohydrolase
+DEFINITION  10-Formyltetrahydrofolate + H2O <=> Formate + Tetrahydrofolate
+EQUATION    C00234 + C00001 <=> C00058 + C00101
+RCLASS      RC00026  C00101_C00234
+            RC00111  C00058_C00234
+ENZYME      3.5.1.10
+PATHWAY     rn00630  Glyoxylate and dicarboxylate metabolism
+            rn00670  One carbon pool by folate
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.1  In linear amides
+                3.5.1.10
+                 R00944  10-Formyltetrahydrofolate + H2O <=> Formate + Tetrahydrofolate
+ORTHOLOGY   K01433  formyltetrahydrofolate deformylase [EC:3.5.1.10]
+DBLINKS     RHEA: 19836
+///

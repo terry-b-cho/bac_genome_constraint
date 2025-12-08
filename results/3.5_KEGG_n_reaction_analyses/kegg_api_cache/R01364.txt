@@ -1,0 +1,22 @@
+ENTRY       R01364                      Reaction
+NAME        4-fumarylacetoacetate fumarylhydrolase
+DEFINITION  Acetoacetate + Fumarate <=> 4-Fumarylacetoacetate + H2O
+EQUATION    C00164 + C00122 <=> C01061 + C00001
+RCLASS      RC00326  C00164_C01061
+            RC00446  C00122_C01061
+ENZYME      3.7.1.2
+PATHWAY     rn00350  Tyrosine metabolism
+            rn00643  Styrene degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+MODULE      M00044  Tyrosine degradation, tyrosine => homogentisate
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.7  Acting on carbon-carbon bonds
+               3.7.1  In ketonic substances
+                3.7.1.2
+                 R01364  Acetoacetate + Fumarate <=> 4-Fumarylacetoacetate + H2O
+ORTHOLOGY   K01555  fumarylacetoacetase [EC:3.7.1.2]
+            K16171  fumarylacetoacetate (FAA) hydrolase [EC:3.7.1.2]
+DBLINKS     RHEA: 10247
+///

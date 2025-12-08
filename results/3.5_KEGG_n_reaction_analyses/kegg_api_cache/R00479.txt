@@ -1,0 +1,22 @@
+ENTRY       R00479                      Reaction
+NAME        isocitrate glyoxylate-lyase (succinate-forming)
+DEFINITION  Isocitrate <=> Succinate + Glyoxylate
+EQUATION    C00311 <=> C00042 + C00048
+RCLASS      RC00311  C00048_C00311
+            RC00313  C00042_C00311
+ENZYME      4.1.3.1
+PATHWAY     rn00630  Glyoxylate and dicarboxylate metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00012  Glyoxylate cycle
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.3  Oxo-acid-lyases
+                4.1.3.1
+                 R00479  Isocitrate <=> Succinate + Glyoxylate
+ORTHOLOGY   K01637  isocitrate/methylisocitrate lyase [EC:4.1.3.1 4.1.3.30]
+DBLINKS     RHEA: 13248
+///

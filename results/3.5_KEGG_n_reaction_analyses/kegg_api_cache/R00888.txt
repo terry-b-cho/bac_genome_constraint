@@ -1,0 +1,27 @@
+ENTRY       R00888                      Reaction
+NAME        GDP-alpha-D-mannose 4,6-hydro-lyase (GDP-4-dehydro-alpha-D-rhamnose-forming);
+            GDP-mannose 4,6-hydro-lyase (GDP-4-dehydro-6-deoxy-D-mannose-forming)
+DEFINITION  GDP-mannose <=> GDP-4-dehydro-6-deoxy-D-mannose + H2O
+EQUATION    C00096 <=> C01222 + C00001
+RCLASS      RC00402  C00096_C01222
+ENZYME      4.2.1.47
+PATHWAY     rn00051  Fructose and mannose metabolism
+            rn00541  Biosynthesis of various nucleotide sugars
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M01006  GDP-D-Rha4N biosynthesis, Fru-6P => GDP-D-Rha4N
+            M01016  GDP-L-Fuc biosynthesis, GDP-Man => GDP-L-Fuc
+            M01017  GDP-L-Col biosynthesis, GDP-Man => GDP-L-Col
+            M01018  GDP-D-Rha biosynthesis, GDP-Man => GDP-D-Rha
+            M01019  GDP-6-deoxy-Tal biosynthesis, GDP-Man => GDP-6-deoxy-Tal
+            M01020  GDP-D-Rha4NAc biosynthesis, GDP-Man => GDP-D-Rha4N => GDP-D-Rha4NAc
+            M01034  GDP-D-Rha4NFormyl biosynthesis, GDP-Man => GDP-D-Rha4N => GDP-D-Rha4NFormyl
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.2  Carbon-oxygen lyases
+               4.2.1  Hydro-lyases
+                4.2.1.47
+                 R00888  GDP-mannose <=> GDP-4-dehydro-6-deoxy-D-mannose + H2O
+ORTHOLOGY   K01711  GDPmannose 4,6-dehydratase [EC:4.2.1.47]
+DBLINKS     RHEA: 23823
+///

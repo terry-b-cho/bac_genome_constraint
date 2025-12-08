@@ -1,0 +1,31 @@
+ENTRY       R02328                      Reaction
+NAME        dTTP:alpha-D-glucose-1-phosphate thymidylyltransferase
+DEFINITION  dTTP + D-Glucose 1-phosphate <=> Diphosphate + dTDP-glucose
+EQUATION    C00459 + C00103 <=> C00013 + C00842
+RCLASS      RC00002  C00103_C00842
+ENZYME      2.7.7.24
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+            rn00521  Streptomycin biosynthesis
+            rn00523  Polyketide sugar unit biosynthesis
+            rn00525  Acarbose and validamycin biosynthesis
+            rn00541  Biosynthesis of various nucleotide sugars
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M00793  dTDP-L-Rha biosynthesis, Glc-1P => dTDP-L-Rha
+            M01022  dTDP-6-deoxy-L-Tal biosynthesis, Glc-1P => dTDP-6-deoxy-L-Tal
+            M01023  dTDP-D-Fuc3NAc biosynthesis, Glc-1P => dTDP-D-Fuc3NAc
+            M01024  dTDP-Qui3NAc biosynthesis, Glc-1P => dTDP-Qui3NAc
+            M01025  dTDP-D-Fuc4NAc biosynthesis, Glc-1P => dTDP-D-Fuc4NAc
+            M01026  dTDP-Qui4NAc biosynthesis, Glc-1P => dTDP-Qui4NAc
+            M01027  dTDP-D-Fucf biosynthesis, Glc-1P => dTDP-D-Fucf
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.7  Nucleotidyltransferases
+                2.7.7.24
+                 R02328  dTTP + D-Glucose 1-phosphate <=> Diphosphate + dTDP-glucose
+ORTHOLOGY   K00973  glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]
+            K23144  UDP-N-acetylglucosamine diphosphorylase / glucose-1-phosphate thymidylyltransferase / UDP-N-acetylgalactosamine diphosphorylase / glucosamine-1-phosphate N-acetyltransferase / galactosamine-1-phosphate N-acetyltransferase [EC:2.7.7.23 2.7.7.24 2.7.7.83 2.3.1.157 2.3.1.276]
+DBLINKS     RHEA: 15228
+///

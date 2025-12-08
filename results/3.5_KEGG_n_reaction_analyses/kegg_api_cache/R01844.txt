@@ -1,0 +1,18 @@
+ENTRY       R01844                      Reaction
+NAME        ATP:sedoheptulose 7-phosphate
+DEFINITION  ATP + Sedoheptulose <=> ADP + Sedoheptulose 7-phosphate
+EQUATION    C00002 + C02076 <=> C00008 + C05382
+RCLASS      RC00002  C00002_C00008
+            RC00608  C02076_C05382
+ENZYME      2.7.1.14
+PATHWAY     rn00030  Pentose phosphate pathway
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.14
+                 R01844  ATP + Sedoheptulose <=> ADP + Sedoheptulose 7-phosphate
+ORTHOLOGY   K11214  sedoheptulokinase [EC:2.7.1.14]
+DBLINKS     RHEA: 23847
+///

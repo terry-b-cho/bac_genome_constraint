@@ -1,0 +1,114 @@
+ENTRY       rn00561                     Pathway
+NAME        Glycerolipid metabolism
+CLASS       Metabolism; Lipid metabolism
+PATHWAY_MAP rn00561  Glycerolipid metabolism
+MODULE      M00089  Triacylglycerol biosynthesis [PATH:rn00561]
+            M00098  Acylglycerol degradation [PATH:rn00561]
+DBLINKS     GO: 0046486
+REACTION    R00289  UTP:alpha-D-glucose-1-phosphate uridylyltransferase
+            R00841  sn-glycerol-3-phosphate phosphohydrolase
+            R00847  ATP:glycerol 3-phosphotransferase
+            R00851  acyl-CoA:sn-glycerol-3-phosphate 1-O-acyltransferase
+            R01011  ATP:glycerone phosphotransferase
+            R01012  phosphoenolpyruvate:glycerone phosphotransferase
+            R01034  glycerol:NAD+ 2-oxidoreductase
+            R01036  glycerol:NAD+ oxidoreductase
+            R01039  glycerol:NADP+ 2-oxidoreductase (glycerone-forming)
+            R01041  glycerol:NADP+ oxidoreductase
+            R01047  glycerol hydro-lyase (3-hydroxypropanal-forming)
+            R01350  glycerol acylhydrolase
+            R01351  1-acylglycerol acylhydrolase
+            R01514  ATP:(R)-glycerate 3-phosphotransferase
+            R01752  D-glyceraldehyde:NAD+ oxidoreductase
+            R02239  1,2-diacyl-sn-glycerol 3-phosphate phosphohydrolase
+            R02240  ATP:1,2-diacylglycerol 3-phosphotransferase
+            R02241  acyl-CoA:1-acyl-sn-glycerol-3-phosphate 2-O-acyltransferase
+            R02250  triacylglycerol acylhydrolase
+            R02251  acyl-CoA:1,2-diacyl-sn-glycerol O-acyltransferase
+            R02687  1,2-diacyl-sn-glycerol acylhydrolase
+            R02689  UDP-alpha-D-glucose:1,2-diacyl-sn-glycerol 3-beta-D-glucosyltransferase
+            R02691  UDP-alpha-D-galactose:1,2-diacyl-sn-glycerol 3-beta-D-galactosyltransferase
+            R02757  ATP:acylglycerol 3-phosphotransferase
+            R03119  propane-1,3-diol:NAD+ 1-oxidoreductase
+            R03468  CMP-N-acetylneuraminate:1,2-diacyl-3-beta-D-galactosyl-sn-glycerol N-acetylneuraminyltransferase
+            R03755  acyl-CoA:2-acylglycerol O-acyltransferase
+            R03756  2,3-dehydroacyl-CoA:2-acylglycerol O-acyltransferase
+            R04377  UDP-alpha-D-glucose:1,2-diacyl-3-O-(beta-D-glucopyranosyl)-sn-glycerol 6-glucosyltransferase
+            R04469  UDP-alpha-D-galactose:1,2-diacyl-3-beta-D-galactosyl-sn-glycerol 6-alpha-D-galactosyltransferase
+            R04470  digalactosyl-diacylglycerol galactohydrolase
+            R04471  1,2-diacyl-3-beta-D-galactosyl-sn-glycerol acylhydrolase
+            R04472  3-beta-D-galactosyl-1,2-diacylglycerol:mono-beta-D-galactosyldiacyl glycerol beta-D-galactosyltransferase
+            R04473  acyl-[acyl-carrier protein]:D-galactosylacylglycerol O-acyltransferase
+            R04474  3-beta-D-galactosyl-1,2-diacylglycerol:mono-beta-D-galactosylglycerol acyltransferase
+            R05081  phosphatidylglycerol:membrane-derived-oligosaccharide-D-glucose glycerophosphotransferase
+            R05164  UDP-glucose:1,2-diacyl-3-O-(alpha-D-glucopyranosyl)-sn-glycerol (1->2) glucosyltransferase
+            R05333  phospholipid:1,2-diacyl-sn-glycerol O-acyltransferase
+            R05775  UDP-6-sulfo-6-deoxyglucose sulfohydrolase
+            R06867  UDP-sulfoquinovose:diacylglycerol alpha-D-sulfoquinovosyltransferase
+            R08572  ATP:(R)-glycerate 2-phosphotransferase
+            R10849  phosphatidylglycerol:Glc-alpha1->2Glc-alpha1->3acyl2Gro glycerophosphotransferase
+            R10850  UDP-alpha-D-glucose:1,2-diacyl-sn-glycerol 3-alpha-D-glucosyltransferase
+            R10863  
+            R10864  
+            R11080  1,2-diacyl-3-O-(beta-D-glucopyranosyl)-sn-glycerol 4-epimerase
+            R11527  1-acyl-sn-glycerol 3-phosphate phosphohydrolase
+            R12240  acyl-[acyl-carrier protein]:phosphate acyltransferase
+            R12241  acyl phosphoate:sn-glycerol 3-phosphate acyltransferase
+COMPOUND    C00029  UDP-glucose
+            C00040  Acyl-CoA
+            C00093  sn-Glycerol 3-phosphate
+            C00103  D-Glucose 1-phosphate
+            C00111  Glycerone phosphate
+            C00116  Glycerol
+            C00162  Fatty acid
+            C00173  Acyl-[acyl-carrier protein]
+            C00184  Glycerone
+            C00197  3-Phospho-D-glycerate
+            C00258  D-Glycerate
+            C00416  Phosphatidate
+            C00422  Triacylglycerol
+            C00577  D-Glyceraldehyde
+            C00631  2-Phospho-D-glycerate
+            C00641  1,2-Diacyl-sn-glycerol
+            C00681  1-Acyl-sn-glycerol 3-phosphate
+            C00969  3-Hydroxypropanal
+            C01885  1-Acylglycerol
+            C02133  Acyl phosphate
+            C02457  Propane-1,3-diol
+            C03692  1,2-Diacyl-3-beta-D-galactosyl-sn-glycerol
+            C04046  3-D-Glucosyl-1,2-diacylglycerol
+            C04315  2-Acyl-3-O-(beta-D-galactosyl)-sn-glycerol
+            C04872  1,2-Diacyl-3-[3-(alpha-D-N-acetylneuraminyl)-beta-D-galactosyl]-sn-glycerol
+            C05401  3-beta-D-Galactosyl-sn-glycerol
+            C06037  Digalactosyl-diacylglycerol
+            C06038  Acyl1-monogalactosyl-diacylglycerol
+            C06040  Diglucosyldiacylglycerol
+            C06041  Glycerophosphoglycoglycerolipid
+            C06042  Lipoteichoic acid
+            C06364  1,2-Diacyl-3-alpha-D-glucosyl-sn-glycerol
+            C06365  alpha-Kojibiosyldiacylglycerol
+            C11521  UDP-6-sulfoquinovose
+            C13508  Sulfoquinovosyldiacylglycerol
+            C20897  Glycerophosphoglycoglycerolipid
+            C20898  Lipoteichoic acid
+            C20991  1,2-Diacyl-3-O-[beta-D-galactosyl-(1->6)-beta-D-galactosyl]-sn-glycerol
+REFERENCE   PMID:8662716
+  AUTHORS   Norbeck J, Pahlman AK, Akhtar N, Blomberg A, Adler L.
+  TITLE     Purification and characterization of two isoenzymes of DL-glycerol-3-phosphatase from Saccharomyces cerevisiae. Identification of the corresponding GPP1 and GPP2 genes and evidence for osmotic regulation of Gpp2p expression by the osmosensing mitogen-activated protein kinase signal transduction pathway.
+  JOURNAL   J Biol Chem 271:13875-81 (1996)
+            DOI:10.1074/jbc.271.23.13875
+REFERENCE   PMID:8995384
+  AUTHORS   Karlsson OP, Dahlqvist A, Vikstrom S, Wieslander A.
+  TITLE     Lipid dependence and basic kinetics of the purified 1,2-diacylglycerol 3-glucosyltransferase from membranes of Acholeplasma laidlawii.
+  JOURNAL   J Biol Chem 272:929-36 (1997)
+            DOI:10.1074/jbc.272.2.929
+REFERENCE   PMID:11294844
+  AUTHORS   Berg S, Edman M, Li L, Wikstrom M, Wieslander A.
+  TITLE     Sequence properties of the 1,2-diacylglycerol 3-glucosyltransferase from Acholeplasma laidlawii membranes. Recognition of a large group of lipid glycosyltransferases in eubacteria and archaea.
+  JOURNAL   J Biol Chem 276:22056-63 (2001)
+            DOI:10.1074/jbc.M102576200
+REL_PATHWAY rn00010  Glycolysis / Gluconeogenesis
+            rn00071  Fatty acid degradation
+            rn00564  Glycerophospholipid metabolism
+KO_PATHWAY  ko00561
+///

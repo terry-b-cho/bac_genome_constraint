@@ -1,0 +1,23 @@
+ENTRY       R01514                      Reaction
+NAME        ATP:(R)-glycerate 3-phosphotransferase
+DEFINITION  ATP + D-Glycerate <=> ADP + 3-Phospho-D-glycerate
+EQUATION    C00002 + C00258 <=> C00008 + C00197
+RCLASS      RC00002  C00002_C00008
+            RC00017  C00197_C00258
+ENZYME      2.7.1.31
+PATHWAY     rn00260  Glycine, serine and threonine metabolism
+            rn00561  Glycerolipid metabolism
+            rn00630  Glyoxylate and dicarboxylate metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01200  Carbon metabolism
+MODULE      M00532  Photorespiration
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.31
+                 R01514  ATP + D-Glycerate <=> ADP + 3-Phospho-D-glycerate
+ORTHOLOGY   K15918  D-glycerate 3-kinase [EC:2.7.1.31]
+DBLINKS     RHEA: 23519
+///

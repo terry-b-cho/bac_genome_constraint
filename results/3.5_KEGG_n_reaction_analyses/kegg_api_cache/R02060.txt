@@ -1,0 +1,23 @@
+ENTRY       R02060                      Reaction
+NAME        D-glucosamine 1-phosphate 1,6-phosphomutase;
+            D-glucosamine 1,6-phosphomutase
+DEFINITION  alpha-D-Glucosamine 1-phosphate <=> D-Glucosamine 6-phosphate
+EQUATION    C06156 <=> C00352
+COMMENT     intermediate (alpha-D-glucosamine 1,6-bisphosphate)
+RCLASS      RC00408  C00352_C06156
+ENZYME      5.4.2.10
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M00909  UDP-GlcNAc biosynthesis, prokaryotes, Fru-6P => UDP-GlcNAc
+            M00995  UDP-MurNAc biosynthesis, Fru-6P => UDP-MurNAc
+BRITE       Enzymatic reactions [BR:br08201]
+             5. Isomerase reactions
+              5.4  Intramolecular transferases
+               5.4.2  Phosphotransferases (phosphomutases)
+                5.4.2.10
+                 R02060  alpha-D-Glucosamine 1-phosphate <=> D-Glucosamine 6-phosphate
+ORTHOLOGY   K03431  phosphoglucosamine mutase [EC:5.4.2.10]
+            K28126  phosphogalactosamine/phosphoglucosamine mutase [EC:5.4.2.13 5.4.2.10]
+DBLINKS     RHEA: 23427
+///

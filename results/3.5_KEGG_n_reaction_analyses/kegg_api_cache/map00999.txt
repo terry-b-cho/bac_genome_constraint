@@ -1,0 +1,64 @@
+ENTRY       map00999                    Pathway
+NAME        Biosynthesis of various plant secondary metabolites
+  INCLUDING Crocin biosynthesis, Ginsenoside biosynthesis, Saponin adjuvant biosynthesis, Cannabidiol biosynthesis, Mugineic acid biosynthesis, Pentagalloylglucose biosynthesis, Benzoxazinoid biosynthesis, Gramine biosynthesis, Coumarin biosynthesis, Furanocoumarin biosynthesis, Hordatine biosynthesis, Podophyllotoxin biosynthesis
+CLASS       Metabolism; Biosynthesis of other secondary metabolites
+PATHWAY_MAP map00999  Biosynthesis of various plant secondary metabolites
+MODULE      M00894  Cannabidiol biosynthesis, malonyl-CoA => cannabidiol/dronabinol [PATH:map00999]
+            M00900  Crocin biosynthesis, crocetin => crocin [PATH:map00999]
+            M00902  Podophyllotoxin biosynthesis, coniferyl alcohol => podophyllotoxin [PATH:map00999]
+            M00952  Benzoxazinoid biosynthesis, indoleglycerol phosphate => DIMBOA-glucoside [PATH:map00999]
+            M00953  Mugineic acid biosynthesis, methionine => 3-epihydroxymugineic acid [PATH:map00999]
+            M00971  QS-7 biosynthesis, 2,3-epoxysqualene => QS-7 [PATH:map00999]
+REFERENCE   PMID:22569263
+  AUTHORS   Nagatoshi M, Terasaka K, Owaki M, Sota M, Inukai T, Nagatsu A, Mizukami H
+  TITLE     UGT75L6 and UGT94E5 mediate sequential glucosylation of crocetin to crocin in Gardenia jasminoides.
+  JOURNAL   FEBS Lett 586:1055-61 (2012)
+            DOI:10.1016/j.febslet.2012.03.003
+REFERENCE   PMID:17544411
+  AUTHORS   Taura F, Sirikantaramas S, Shoyama Y, Yoshikai K, Shoyama Y, Morimoto S
+  TITLE     Cannabidiolic-acid synthase, the chemotype-determining enzyme in the fiber-type Cannabis sativa.
+  JOURNAL   FEBS Lett 581:2929-34 (2007)
+            DOI:10.1016/j.febslet.2007.05.043
+REFERENCE   PMID:9952442
+  AUTHORS   Higuchi K, Suzuki K, Nakanishi H, Yamaguchi H, Nishizawa NK, Mori S
+  TITLE     Cloning of nicotianamine synthase genes, novel genes involved in the biosynthesis of phytosiderophores.
+  JOURNAL   Plant Physiol 119:471-80 (1999)
+            DOI:10.1104/pp.119.2.471
+REFERENCE   PMID:7622460
+  AUTHORS   Ma JF, Shinada T, Matsuda C, Nomoto K
+  TITLE     Biosynthesis of phytosiderophores, mugineic acids, associated with methionine cycling.
+  JOURNAL   J Biol Chem 270:16549-54 (1995)
+            DOI:10.1074/jbc.270.28.16549
+REFERENCE   PMID:33346890
+  AUTHORS   Tahara K, Nishiguchi M, Funke E, Miyazawa SI, Miyama T, Milkowski C
+  TITLE     Dehydroquinate dehydratase/shikimate dehydrogenases involved in gallate biosynthesis of the aluminum-tolerant tree species Eucalyptus camaldulensis.
+  JOURNAL   Planta 253:3 (2020)
+            DOI:10.1007/s00425-020-03516-w
+REFERENCE   PMID:26558757
+  AUTHORS   Dugrand-Judek A, Olry A, Hehn A, Costantino G, Ollitrault P, Froelicher Y, Bourgaud F.
+  TITLE     The Distribution of Coumarins and Furanocoumarins in Citrus Species Closely Matches Citrus Phylogeny and Reflects the Organization of Biosynthetic Pathways.
+  JOURNAL   PLoS One 10:e0142757 (2015)
+            DOI:10.1371/journal.pone.0142757
+REFERENCE   PMID:15009205
+  AUTHORS   Hehmann M, Lukacin R, Ekiert H, Matern U
+  TITLE     Furanocoumarin biosynthesis in Ammi majus L. Cloning of bergaptol O-methyltransferase.
+  JOURNAL   Eur J Biochem 271:932-40 (2004)
+            DOI:10.1111/j.1432-1033.2004.03995.x
+REFERENCE   PMID:26359402
+  AUTHORS   Lau W, Sattely ES
+  TITLE     Six enzymes from mayapple that complete the biosynthetic pathway to the etoposide aglycone.
+  JOURNAL   Science 349:1224-8 (2015)
+            DOI:10.1126/science.aac7202
+REFERENCE   PMID:36952412
+  AUTHORS   Reed J, Orme A, El-Demerdash A, Owen C, Martin LBB, Misra RC, Kikuchi S, Rejzek M, Martin AC, Harkess A, Leebens-Mack J, Louveau T, Stephenson MJ, Osbourn A.
+  TITLE     Elucidation of the pathway for biosynthesis of saponin adjuvants from the soapbark tree.
+  JOURNAL   Science 379:1252-1264 (2023)
+            DOI:10.1126/science.adf3727
+REL_PATHWAY map00010  Glycolysis / Gluconeogenesis
+            map00020  Citrate cycle (TCA cycle)
+            map00270  Cysteine and methionine metabolism
+            map00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            map00900  Terpenoid backbone biosynthesis
+            map00940  Phenylpropanoid biosynthesis
+KO_PATHWAY  ko00999
+///

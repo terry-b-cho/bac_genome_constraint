@@ -1,0 +1,18 @@
+ENTRY       R02927                      Reaction
+NAME        ATP:D-tagatose 6-phosphotransferase
+DEFINITION  ATP + D-Tagatose <=> ADP + D-Tagatose 6-phosphate
+EQUATION    C00002 + C00795 <=> C00008 + C01097
+RCLASS      RC00002  C00002_C00008
+            RC00810  C00795_C01097
+ENZYME      2.7.1.101
+PATHWAY     rn00052  Galactose metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.101
+                 R02927  ATP + D-Tagatose <=> ADP + D-Tagatose 6-phosphate
+ORTHOLOGY   K21621  tagatose kinase [EC:2.7.1.101]
+DBLINKS     RHEA: 15516
+///

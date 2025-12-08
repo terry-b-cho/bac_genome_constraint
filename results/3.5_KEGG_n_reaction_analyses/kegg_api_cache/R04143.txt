@@ -1,0 +1,19 @@
+ENTRY       R04143                      Reaction
+NAME        ATP:S5-methyl-5-thio-D-ribose 1-phosphotransferase
+DEFINITION  ATP + 5-Methylthio-D-ribose <=> ADP + S-Methyl-5-thio-D-ribose 1-phosphate
+EQUATION    C00002 + C03089 <=> C00008 + C04188
+RCLASS      RC00002  C00002_C00008
+            RC00078  C03089_C04188
+ENZYME      2.7.1.100
+PATHWAY     rn00270  Cysteine and methionine metabolism
+            rn01100  Metabolic pathways
+MODULE      M00034  Methionine salvage pathway
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.100
+                 R04143  ATP + 5-Methylthio-D-ribose <=> ADP + S-Methyl-5-thio-D-ribose 1-phosphate
+ORTHOLOGY   K00899  5-methylthioribose kinase [EC:2.7.1.100]
+DBLINKS     RHEA: 22315
+///

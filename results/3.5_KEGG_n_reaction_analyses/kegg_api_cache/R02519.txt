@@ -1,0 +1,20 @@
+ENTRY       R02519                      Reaction
+NAME        homogentisate:oxygen 1,2-oxidoreductase (decyclizing)
+DEFINITION  Homogentisate + Oxygen <=> 4-Maleylacetoacetate
+EQUATION    C00544 + C00007 <=> C01036
+RCLASS      RC00737  C00544_C01036
+ENZYME      1.13.11.5
+PATHWAY     rn00350  Tyrosine metabolism
+            rn00643  Styrene degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+MODULE      M00044  Tyrosine degradation, tyrosine => homogentisate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.13  Acting on single donors with incorporation of molecular oxygen (oxygenases)
+               1.13.11  With incorporation of two atoms of oxygen
+                1.13.11.5
+                 R02519  Homogentisate + Oxygen <=> 4-Maleylacetoacetate
+ORTHOLOGY   K00451  homogentisate 1,2-dioxygenase [EC:1.13.11.5]
+DBLINKS     RHEA: 15452
+///

@@ -1,0 +1,308 @@
+ENTRY       K01655                      KO
+SYMBOL      LYS21, LYS20
+NAME        homocitrate synthase [EC:2.3.3.14]
+PATHWAY     map00300  Lysine biosynthesis
+            map00620  Pyruvate metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01120  Microbial metabolism in diverse environments
+            map01210  2-Oxocarboxylic acid metabolism
+            map01230  Biosynthesis of amino acids
+MODULE      M00030  Lysine biosynthesis, AAA pathway, 2-oxoglutarate => 2-aminoadipate => lysine
+            M00433  Lysine biosynthesis, 2-oxoglutarate => 2-oxoadipate
+REACTION    R00271  acetyl-CoA:2-oxoglutarate C-acetyltransferase (thioester-hydrolysing, carboxymethyl forming)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09101 Carbohydrate metabolism
+               00620 Pyruvate metabolism
+                K01655  LYS21, LYS20; homocitrate synthase
+              09105 Amino acid metabolism
+               00300 Lysine biosynthesis
+                K01655  LYS21, LYS20; homocitrate synthase
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.3  Acyltransferases
+               2.3.3  Acyl groups converted into alkyl groups on transfer
+                2.3.3.14  homocitrate synthase
+                 K01655  LYS21, LYS20; homocitrate synthase
+            Enzymes of 2-oxocarboxylic acid metabolism [br01601.html]
+             2-Oxoacid chain elongation
+              K01655
+DBLINKS     COG: COG0119
+            GO: 0004410
+GENES       SCE: YDL131W(LYS21) YDL182W(LYS20)
+            SEUB: DI49_0897
+            SPAO: SPAR_D00610 SPAR_D01060
+            AGO: AGOS_ADR107W
+            ERC: Ecym_8045
+            KLA: KLLA0_E23695g KLLA0_F05489g
+            KMX: KLMA_10771(LYS21) KLMA_60493(LYS21)
+            LTH: KLTH0E12848g KLTH0H02486g
+            VPO: Kpol_2000p11
+            ZRO: ZYRO0A13222g ZYRO0C09416g
+            CGR: 2889536(GVI51_J06259) 2889949(LYS21)
+            NCS: NCAS_0A13800(NCAS0A13800) NCAS_0E03640(NCAS0E03640)
+            NDI: NDAI_0A02240(NDAI0A02240) NDAI_0A02990(NDAI0A02990)
+            TPF: TPHA_0P00840(TPHA0P00840)
+            TBL: TBLA_0A05940(TBLA0A05940)
+            TGB: HG536_0C05440 HG536_0H02920
+            TDL: TDEL_0B02910(TDEL0B02910) TDEL_0H01490(TDEL0H01490)
+            KAF: KAFR_0B01160(KAFR0B01160)
+            KNG: KNAG_0B02880(KNAG0B02880) KNAG_0C04080(KNAG0C04080)
+            ZMK: HG535_0A05750 HG535_0G01540
+            SLUD: SCDLUD_000290 SCDLUD_002024
+            DHA: DEHA2D13222g DEHA2F08514g
+            PIC: PICST_28701(LYS21) PICST_89386(LYS22)
+            PGU: PGUG_01126 PGUG_01480
+            SPAA: SPAPADRAFT_136285(LYS22) SPAPADRAFT_58182
+            LEL: PVL30_001014(LYS1_1) PVL30_001780(LYS21)
+            LBG: 92207809(LODBEIA_P26130) 92209571(LODBEIA_P43750)
+            CAL: CAALFM_C104730CA(LYS21) CAALFM_C204460WA(LYS22)
+            CTP: CTRG_01594 CTRG_04686
+            COT: CORT_0A12020 CORT_0B06650
+            CDU: CD36_04470 CD36_19070
+            CTEN: 18246775(LYS22) 18248055(LYS21)
+            CLU: CLUG_01219 CLUG_05100
+            CLUS: A9F13_03g01375 A9F13_06g00154
+            CAUR: CJI96_0001452 CJI96_0002255
+            ASAU: 88171985(PUMCH_000917) 88175465(PUMCH_004405)
+            PPA: PAS_chr1-1_0313 PAS_chr1-4_0421
+            PKZ: C5L36_0C01170 C5L36_0D05690
+            BNN: FOA43_003157(LYS21)
+            BBRX: BRETT_000905(LYS21_1) BRETT_003395(LYS21_2)
+            OPA: HPODL_02806 HPODL_04767
+            YLI: 2907696(YALI2_E00847g)
+            SLB: AWJ20_418(LYS21)
+            NCR: NCU05526(lys-5)
+            NTE: NEUTE1DRAFT68872(NEUTE1DRAFT_68872)
+            SMP: 10807367(SMAC4_00737)
+            PAN: PODANSg2772
+            PBEL: QC761_404040(LYS21)
+            PPSD: QC762_404040(LYS21)
+            PPSP: QC763_404040(LYS21)
+            PPSA: QC764_404040(LYS21)
+            TTT: THITE_2110530
+            MTM: MYCTH_2307131
+            CTHR: CTHT_0044760
+            RTHE: 98126597(VTJ83DRAFT_5361)
+            MGR: MGG_01092
+            PPEI: PpBr36_08045
+            PGRI: PgNI_08149
+            TMN: UCRPA7_2646
+            SSCK: SPSK_02501
+            FGR: FGSG_03993 FGSG_11054
+            FPU: FPSE_02427 FPSE_05284
+            FPOA: FPOAC1_006422(LYS1_1) FPOAC1_009794(LYS1_2)
+            FVN: FVRRES_07028 FVRRES_10448
+            FVR: FVEG_00366 FVEG_08487 FVEG_11679
+            FOX: FOXG_01149 FOXG_01159
+            NHE: NECHADRAFT_104905 NECHADRAFT_90471
+            FFC: NCS54_00169600 NCS54_00936300
+            FKR: NCS57_00167300 NCS57_00956000
+            FMU: J7337_001595(LYS1_1) J7337_010079
+            TRE: TRIREDRAFT_123471
+            TRR: M419DRAFT_111054
+            TATV: 25783463(TrAtP1_002614)
+            TASP: 36614917(LYS21)
+            MAW: 19248474(LYS21_2) 19249066(LYS21_1)
+            MAJ: MAA_04642 MAA_08803
+            MBRN: 26240320(lys1_2) 26243663(lys1_3)
+            PCHM: VFPPC_01004 VFPPC_01351
+            UVI: 66067721(UV8b_06944) 66067784(UV8b_07007)
+            CMT: CCM_06007
+            AMUS: LMH87_005390
+            PLJ: 28886033(PLICBS_007544) 28888981(PLICBS_008533)
+            PTKZ: JDV02_002478(LYS21)
+            DCON: 63713765(DCS_01122)
+            VAL: VDBG_04044 VDBG_07402
+            VDA: VDAG_01275 VDAG_06110
+            CFJ: CFIO01_11607
+            CLUP: CLUP02_13734
+            CHIG: CH63R_05833
+            CDET: 87948817(CDEST_12317)
+            SAPO: SAPIO_CDS8181
+            ELA: UCREL1_11150
+            PFY: PFICI_06350 PFICI_09647
+            SSL: SS1G_14306
+            BFU: BCIN_14g05400
+            MBE: MBM_09052
+            PSCO: LY89DRAFT_684190
+            GLZ: GLAREA_07760
+            ANI: ANIA_01990
+            AFM: AFUA_4G10460
+            ACT: ACLA_049660
+            NFI: NFIA_105610
+            AOR: AO090003001165 AO090124000027
+            ANG: An04g06210
+            AFV: AFLA_000502 AFLA_009184
+            ALUC: AKAW2_51586A(LYS1_2)
+            ACHE: ACHE_10778S(LYS1_1)
+            APUU: APUU_21064S(LYS1_1)
+            PCS: N7525_005048
+            PDP: PDIP_24800
+            POU: POX_f08046
+            PPSF: 300792716(PFLUO_LOCUS6638)
+            TMF: EYB26_005247
+            TRG: TRUGW13939_02747
+            CIM: CIMG_09081
+            CPW: 9692533(LYS1_2)
+            URE: UREG_05150
+            ABE: ARB_01923
+            TVE: TRV_02108
+            PBL: PAAG_07089
+            PBN: PADG_01615
+            AJE: HCAG_06098
+            BGH: BDBG_02311
+            PNO: SNOG_08956
+            PTE: PTT_15621
+            PTRR: 6347463(PtrM4_036810)
+            BZE: COCCADRAFT_101614
+            BSC: COCSADRAFT_32571
+            BOR: COCMIDRAFT_95545
+            AALT: CC77DRAFT_1052185
+            ADAC: 96082853(ACET3X_002531)
+            ARAB: EKO05_0009236
+            ZTR: MYCGRDRAFT_110230
+            PFJ: MYCFIDRAFT_86887
+            FFU: CLAFUR5_12241
+            CBET: CB0940_11003
+            BCOM: BAUCODRAFT_39689
+            NPA: UCRNP2_8181
+            TML: GSTUM_00009173001
+            SPO: 2539815(lys4)
+            SOM: SOMG_00682(lys4)
+            CNE: CND01200
+            CNB: CNBD5100
+            CNG: CNAG_00992
+            CGI: CGB_D3430W
+            CDEU: CNBG_0572
+            CDEC: 89987318(IAS62_000542)
+            CTEG: 91987164(I308_100306)
+            CBAS: 91980594(I312_100546)
+            CDEP: 91088103(L203_103893)
+            KMG: 30162028(I203_107462)
+            KNE: 92183145(IAR55_005887)
+            KDJ: 28965791(I303_101772)
+            KBI: 30208427(I302_100653)
+            KPIN: 30174755(I206_101644)
+            KSH: 87954058(IL334_001927)
+            KER: 91104803(V865_006002)
+            KSN: 43592463(CI109_106630)
+            KBO: 90018229(L199_007245)
+            KEP: 91092655(L201_001983)
+            TMS: TREMEDRAFT_44559
+            TASA: A1Q1_00939
+            CCAC: CcaHIS019_0703000(LYS21)
+            PPL: POSPLDRAFT_89192
+            TVS: TRAVEDRAFT_110523
+            DSQ: DICSQDRAFT_45747
+            PCO: PHACADRAFT_159123
+            SHS: STEHIDRAFT_90937
+            HIR: HETIRDRAFT_316739
+            ADL: AURDEDRAFT_112769
+            FME: FOMMEDRAFT_76994
+            GTR: GLOTRDRAFT_112070
+            RSX: RhiXN_02664
+            LBC: LACBIDRAFT_291144
+            CCI: CC1G_06438
+            ABP: AGABI1DRAFT114278(AGABI1DRAFT_114278)
+            ABV: AGABI2DRAFT191298(AGABI2DRAFT_191298)
+            PCUB: JR316_0006175
+            MRR: Moror_4622
+            MORE: E1B28_011484(LYS4_1)
+            SCM: SCHCO_02503178(SCHCODRAFT_02503178)
+            CPUT: CONPUDRAFT_80635
+            SLA: SERLADRAFT_468311
+            WSE: WALSEDRAFT_42693
+            WIC: J056_002016
+            UMA: UMAG_04115
+            PFP: PFL1_06052
+            SGRA: EX895_001568
+            MGL: MGL_3987
+            MRT: MRET_4216
+            MSYM: MSY001_2206
+            PGR: PGTG_01903
+            PTRC: PtA15_10A706
+            PSTR: Pst134EA_019740
+            MLR: MELLADRAFT_50387
+            RIE: OCT59_004379
+            MBR: MONBRDRAFT_34312
+            SRE: PTSG_03420
+            NGR: NAEGRDRAFT_34642
+            THAR: T8K17_00425
+            ADE: Adeh_1436
+            ACP: A2cp1_2511
+            AFW: Anae109_2393
+            ANK: AnaeK_2424
+            AORY: AMOR_52870
+            APAU: AMPC_18610
+            SCOR: J3U87_19125(lysS)
+            PSEU: Pse7367_2223
+            CYC: PCC7424_0947
+            CYJ: Cyan7822_1791
+            NFL: COO91_05563
+            NED: HUN01_23180(lysS)
+            NCF: ANSO36C_26370
+            NCN: BZZ01_06000
+            CAU: Caur_0328
+            CHL: Chy400_0353
+            CAG: Cagg_3603
+            HAU: Haur_3301
+            CALL: OZ401_003952
+            TTR: Tter_2761
+            LEK: hrd7_27850
+            CAP: CLDAP_04770
+            KBS: EPA93_38780
+            KBB: ccbrp13_35950
+            THUG: KNN16_06535(lysS)
+            PMET: G4Y79_18420(lysS)
+            DRA: DR_1238
+            DGE: Dgeo_1257
+            DDR: Deide_13980
+            DMR: Deima_1358
+            DGO: DGo_CA1416
+            DPD: Deipe_2766
+            DSW: QR90_11530
+            DCH: SY84_02355
+            DAB: AUC44_09460
+            DPU: SU48_09295
+            DEZ: DKM44_08475(lysS)
+            DWU: DVJ83_05005(lysS)
+            DFC: DFI_09345
+            DEIN: DAAJ005_07905(lysS)
+            DGA: DEGR_18060
+            DPH: EHF33_05040(lysS)
+            DRB: N0D28_09395(lysS)
+            DAH: DAETH_17180
+            DAQU: M8445_11600(lysS)
+            DTAE: LAJ19_07725(lysS)
+            DMB: E5F05_12480(lysS)
+            DEID: HLB42_11315(lysS)
+            TRA: Trad_1388
+            TTH: TT_C1550
+            TTJ: TTHA1914(TTHA1914)
+            TTS: Ththe16_1914
+            TTL: TtJL18_1996
+            TSC: TSC_c01850(lysS1)
+            THC: TCCBUS3UF1_21080
+            TOS: Theos_1940
+            TAQ: TO73_0091
+            TBC: A0O31_00877
+            TANT: KNN15_05095(lysS)
+            MRB: Mrub_2729
+            MRE: K649_08890
+            MTAI: Mtai_v1c23280
+            MSV: Mesil_0445
+            OPR: Ocepr_1779
+            MHD: Marky_0673
+REFERENCE   PMID:21895798
+  AUTHORS   Quezada H, Marin-Hernandez A, Aguilar D, Lopez G, Gallardo-Perez JC, Jasso-Chavez R, Gonzalez A, Saavedra E, Moreno-Sanchez R
+  TITLE     The Lys20 homocitrate synthase isoform exerts most of the flux control over the lysine synthesis pathway in Saccharomyces cerevisiae.
+  JOURNAL   Mol Microbiol 82:578-90 (2011)
+            DOI:10.1111/j.1365-2958.2011.07832.x
+REFERENCE   PMID:18524920
+  AUTHORS   Quezada H, Aranda C, DeLuna A, Hernandez H, Calcagno ML, Marin-Hernandez A, Gonzalez A
+  TITLE     Specialization of the paralogue LYS21 determines lysine biosynthesis under respiratory metabolism in Saccharomyces cerevisiae.
+  JOURNAL   Microbiology 154:1656-67 (2008)
+            DOI:10.1099/mic.0.2008/017103-0
+///

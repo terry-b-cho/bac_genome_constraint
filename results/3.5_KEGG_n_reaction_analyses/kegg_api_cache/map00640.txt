@@ -1,0 +1,22 @@
+ENTRY       map00640                    Pathway
+NAME        Propanoate metabolism
+CLASS       Metabolism; Carbohydrate metabolism
+PATHWAY_MAP map00640  Propanoate metabolism
+MODULE      M00013  Malonate semialdehyde pathway, propanoyl-CoA => acetyl-CoA [PATH:map00640]
+            M00741  Propanoyl-CoA metabolism, propanoyl-CoA => succinyl-CoA [PATH:map00640]
+            M00982  Methylcitrate cycle [PATH:map00640]
+            M00991  Dimethylsulfoniopropionate (DMSP) degradation, cleavage pathway, DMSP => acetyl-CoA [PATH:map00640]
+            M00992  Dimethylsulfoniopropionate (DMSP) degradation, cleavage pathway, DMSP => acrylate => acetyl-CoA [PATH:map00640]
+            M00993  Dimethylsulfoniopropionate (DMSP) degradation, cleavage pathway, DMSP => propionyl-CoA [PATH:map00640]
+DBLINKS     GO: 0019541
+REL_PATHWAY map00010  Glycolysis / Gluconeogenesis
+            map00020  Citrate cycle (TCA cycle)
+            map00260  Glycine, serine and threonine metabolism
+            map00270  Cysteine and methionine metabolism
+            map00280  Valine, leucine and isoleucine degradation
+            map00410  beta-Alanine metabolism
+            map00620  Pyruvate metabolism
+            map00660  C5-Branched dibasic acid metabolism
+            map00770  Pantothenate and CoA biosynthesis
+KO_PATHWAY  ko00640
+///

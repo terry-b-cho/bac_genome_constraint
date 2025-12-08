@@ -1,0 +1,23 @@
+ENTRY       R01665                      Reaction
+NAME        ATP:dCMP phosphotransferase
+DEFINITION  ATP + dCMP <=> ADP + dCDP
+EQUATION    C00002 + C00239 <=> C00008 + C00705
+RCLASS      RC00002  C00002_C00008  C00239_C00705
+ENZYME      2.7.4.14        2.7.4.25
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.4  Phosphotransferases with a phosphate group as acceptor
+                2.7.4.14
+                 R01665  ATP + dCMP <=> ADP + dCDP
+                2.7.4.25
+                 R01665  ATP + dCMP <=> ADP + dCDP
+ORTHOLOGY   K00945  CMP/dCMP kinase [EC:2.7.4.25]
+            K13799  pantoate ligase / CMP/dCMP kinase [EC:6.3.2.1 2.7.4.25]
+            K13800  UMP-CMP kinase [EC:2.7.4.14]
+            K13809  UMP-CMP kinase 2, mitochondrial [EC:2.7.4.14]
+DBLINKS     RHEA: 25097
+///

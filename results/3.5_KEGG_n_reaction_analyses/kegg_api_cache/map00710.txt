@@ -1,0 +1,16 @@
+ENTRY       map00710                    Pathway
+NAME        Carbon fixation by Calvin cycle
+CLASS       Metabolism; Energy metabolism
+PATHWAY_MAP map00710  Carbon fixation by Calvin cycle
+MODULE      M00165  Reductive pentose phosphate cycle (Calvin cycle) [PATH:map00710]
+            M00168  CAM (Crassulacean acid metabolism), dark [PATH:map00710]
+            M00169  CAM (Crassulacean acid metabolism), light [PATH:map00710]
+            M00170  C4-dicarboxylic acid cycle, phosphoenolpyruvate carboxykinase type [PATH:map00710]
+            M00171  C4-dicarboxylic acid cycle, NAD - malic enzyme type [PATH:map00710]
+            M00172  C4-dicarboxylic acid cycle, NADP - malic enzyme type [PATH:map00710]
+REL_PATHWAY map00010  Glycolysis / Gluconeogenesis
+            map00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            map00630  Glyoxylate and dicarboxylate metabolism
+            map00720  Other carbon fixation pathways
+KO_PATHWAY  ko00710
+///

@@ -1,0 +1,18 @@
+ENTRY       R02863                      Reaction
+NAME        thiamin:beta 2-methyl-4-aminopyrimidine-5-methenyltransferase
+DEFINITION  Thiamine + Pyridine <=> Heteropyrithiamine + 5-(2-Hydroxyethyl)-4-methylthiazole
+EQUATION    C00378 + C00747 <=> C02691 + C04294
+RCLASS      RC00224  C00378_C04294
+            RC00795  C00747_C02691
+ENZYME      2.5.1.2
+PATHWAY     rn00730  Thiamine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+                2.5.1.2
+                 R02863  Thiamine + Pyridine <=> Heteropyrithiamine + 5-(2-Hydroxyethyl)-4-methylthiazole
+ORTHOLOGY   K10811  thiamine pyridinylase [EC:2.5.1.2]
+DBLINKS     RHEA: 17700
+///

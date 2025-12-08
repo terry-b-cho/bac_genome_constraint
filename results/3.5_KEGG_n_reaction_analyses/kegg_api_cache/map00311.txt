@@ -1,0 +1,17 @@
+ENTRY       map00311                    Pathway
+NAME        Penicillin and cephalosporin biosynthesis
+DESCRIPTION Penicillins (Penams) and cephalosporins (cephems) are beta-lactam antibiotics containing 6-aminopenicillanate (6-APA) and 7-aminocephalosporanate (7-ACA) nuclei, respectively. 6-APA and 7-ACA are key intermediates for a variety of semisynthetic penicillin and cephalosporin derivatives. Penicillins are produced only by fungi, while cephalosporins (including cephamycins) are produced by fungi and bacteria. Both antibiotics are synthesized from L-2-aminoadipate, L-cysteine and L-valine through a common pathway. It starts with the condensation of these three amino acids by the non-ribosomal peptide synthetase to form the tripeptide delta-(L-2-aminoadipyl)-L-cysteinyl-D-valine (ACV). The linear ACV tripeptide is then converted to bicyclic isopenicillin N by isopenicillin N synthase, in which the beta-lactam ring is formed. Isopenicillin N is the branch point of penicillin [MD:M00672] and cephalosporin [MD:M00673] pathways.
+CLASS       Metabolism; Biosynthesis of other secondary metabolites
+PATHWAY_MAP map00311  Penicillin and cephalosporin biosynthesis
+MODULE      M00672  Penicillin biosynthesis, aminoadipate + cycteine + valine => penicillin [PATH:map00311]
+            M00673  Cephamycin C biosynthesis, aminoadipate + cycteine + valine => cephamycin C [PATH:map00311]
+DBLINKS     GO: 0042318 0043646
+REFERENCE   
+  AUTHORS   Michal G.
+  TITLE     Biochemical Pathways
+  JOURNAL   Wiley (1999)
+REL_PATHWAY map00310  Lysine degradation
+            map07011  Penicillins
+            map07012  Cephalosporins - parenteral agents
+KO_PATHWAY  ko00311
+///

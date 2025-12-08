@@ -1,0 +1,21 @@
+ENTRY       R01360                      Reaction
+NAME        (S)-3-hydroxy-3-methylglutaryl-CoA acetoacetate-lyase (acetyl-CoA-forming)
+DEFINITION  (S)-3-Hydroxy-3-methylglutaryl-CoA <=> Acetyl-CoA + Acetoacetate
+EQUATION    C00356 <=> C00024 + C00164
+RCLASS      RC00502  C00024_C00356
+            RC00503  C00164_C00356
+ENZYME      4.1.3.4
+PATHWAY     rn00280  Valine, leucine and isoleucine degradation
+            rn00650  Butanoate metabolism
+            rn01100  Metabolic pathways
+MODULE      M00036  Leucine degradation, leucine => acetoacetate + acetyl-CoA
+            M00088  Ketone body biosynthesis, acetyl-CoA => acetoacetate/3-hydroxybutyrate/acetone
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.3  Oxo-acid-lyases
+                4.1.3.4
+                 R01360  (S)-3-Hydroxy-3-methylglutaryl-CoA <=> Acetyl-CoA + Acetoacetate
+ORTHOLOGY   K01640  hydroxymethylglutaryl-CoA lyase [EC:4.1.3.4]
+DBLINKS     RHEA: 24407
+///

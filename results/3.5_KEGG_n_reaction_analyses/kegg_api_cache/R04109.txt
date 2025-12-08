@@ -1,0 +1,25 @@
+ENTRY       R04109                      Reaction
+NAME        L-glutamate-semialdehyde: NADP+ oxidoreductase (L-glutamyl-tRNA(Glu)-forming)
+DEFINITION  L-Glutamyl-tRNA(Glu) + NADPH + H+ <=> (S)-4-Amino-5-oxopentanoate + tRNA(Glu) + NADP+
+EQUATION    C02987 + C00005 + C00080 <=> C03741 + C01641 + C00006
+RCLASS      RC00001  C00005_C00006
+            RC00055  C01641_C02987
+            RC00149  C02987_C03741
+ENZYME      1.2.1.70
+PATHWAY     rn00860  Porphyrin metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01120  Microbial metabolism in diverse environments
+            rn01240  Biosynthesis of cofactors
+MODULE      M00121  Heme biosynthesis, plants and bacteria, glutamate => heme
+            M00846  Siroheme biosynthesis, glutamyl-tRNA => siroheme
+            M00926  Heme biosynthesis, bacteria, glutamyl-tRNA => coproporphyrin III => heme
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.70
+                 R04109  L-Glutamyl-tRNA(Glu) + NADPH + H+ <=> (S)-4-Amino-5-oxopentanoate + tRNA(Glu) + NADP+
+ORTHOLOGY   K02492  glutamyl-tRNA reductase [EC:1.2.1.70]
+DBLINKS     RHEA: 12347
+///

@@ -1,0 +1,38 @@
+ENTRY       K19726            Tight     KO
+SYMBOL      dcsE
+NAME        serine/homoserine O-acetyltransferase [EC:2.3.1.30 2.3.1.31]
+PATHWAY     map00998  Biosynthesis of various antibiotics
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+MODULE      M00785  Cycloserine biosynthesis, arginine/serine => cycloserine
+REACTION    R00586  acetyl-CoA:L-serine O-acetyltransferase
+            R01776  acetyl-CoA:L-homoserine O-acetyltransferase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09110 Biosynthesis of other secondary metabolites
+               00998 Biosynthesis of various antibiotics
+                K19726  dcsE; serine/homoserine O-acetyltransferase
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.30  serine O-acetyltransferase
+                 K19726  dcsE; serine/homoserine O-acetyltransferase
+                2.3.1.31  homoserine O-acetyltransferase
+                 K19726  dcsE; serine/homoserine O-acetyltransferase
+DBLINKS     COG: COG2021
+            GO: 0009001 0004414
+GENES       AG: BAI70379(dcsE)
+REFERENCE   PMID:20086163
+  AUTHORS   Kumagai T, Koyama Y, Oda K, Noda M, Matoba Y, Sugiyama M
+  TITLE     Molecular cloning and heterologous expression of a biosynthetic gene cluster for the antitubercular agent D-cycloserine produced by Streptomyces lavendulae.
+  JOURNAL   Antimicrob Agents Chemother 54:1132-9 (2010)
+            DOI:10.1128/AAC.01226-09
+  SEQUENCE  [ag:BAI70379]
+REFERENCE   PMID:23396912
+  AUTHORS   Oda K, Matoba Y, Kumagai T, Noda M, Sugiyama M
+  TITLE     Crystallographic study to determine the substrate specificity of an L-serine-acetylating enzyme found in the D-cycloserine biosynthetic pathway.
+  JOURNAL   J Bacteriol 195:1741-9 (2013)
+            DOI:10.1128/JB.02085-12
+  SEQUENCE  [ag:BAI70379]
+///

@@ -1,0 +1,19 @@
+ENTRY       R01025                      Reaction
+NAME        choline:acceptor 1-oxidoreductase
+DEFINITION  Choline + Acceptor <=> Betaine aldehyde + Reduced acceptor
+EQUATION    C00114 + C00028 <=> C00576 + C00030
+RCLASS      RC00087  C00114_C00576
+ENZYME      1.1.99.1
+PATHWAY     rn00260  Glycine, serine and threonine metabolism
+            rn00670  One carbon pool by folate
+            rn01100  Metabolic pathways
+MODULE      M00555  Betaine biosynthesis, choline => betaine
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.99  With unknown physiological acceptors
+                1.1.99.1
+                 R01025  Choline + Acceptor <=> Betaine aldehyde + Reduced acceptor
+ORTHOLOGY   K00108  choline dehydrogenase [EC:1.1.99.1]
+DBLINKS     RHEA: 17436
+///

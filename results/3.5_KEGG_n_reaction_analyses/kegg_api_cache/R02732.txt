@@ -1,0 +1,16 @@
+ENTRY       R02732                      Reaction
+NAME        ATP:D-fructose-6-phosphate 2-phosphotransferase
+DEFINITION  ATP + beta-D-Fructose 6-phosphate <=> ADP + beta-D-Fructose 2,6-bisphosphate
+EQUATION    C00002 + C05345 <=> C00008 + C00665
+RCLASS      RC00002  C00002_C00008
+            RC00152  C00665_C05345
+ENZYME      2.7.1.105
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.105
+                 R02732  ATP + beta-D-Fructose 6-phosphate <=> ADP + beta-D-Fructose 2,6-bisphosphate
+ORTHOLOGY   K00900  6-phosphofructo-2-kinase [EC:2.7.1.105]
+DBLINKS     RHEA: 15656
+///

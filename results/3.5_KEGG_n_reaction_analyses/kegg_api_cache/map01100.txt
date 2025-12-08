@@ -1,0 +1,677 @@
+ENTRY       map01100          Global    Pathway
+NAME        Metabolic pathways
+PATHWAY_MAP map01100  Metabolic pathways
+MODULE      M00001  Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate [PATH:map01100]
+            M00002  Glycolysis, core module involving three-carbon compounds [PATH:map01100]
+            M00003  Gluconeogenesis, oxaloacetate => fructose-6P [PATH:map01100]
+            M00004  Pentose phosphate pathway (Pentose phosphate cycle) [PATH:map01100]
+            M00005  PRPP biosynthesis, ribose-5P => PRPP [PATH:map01100]
+            M00006  Pentose phosphate pathway, oxidative phase, glucose-6P => ribulose-5P [PATH:map01100]
+            M00007  Pentose phosphate pathway, non-oxidative phase, fructose-6P => ribose-5P [PATH:map01100]
+            M00008  Entner-Doudoroff pathway, glucose-6P => glyceraldehyde-3P + pyruvate [PATH:map01100]
+            M00009  Citrate cycle (TCA cycle, Krebs cycle) [PATH:map01100]
+            M00010  Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate [PATH:map01100]
+            M00011  Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate [PATH:map01100]
+            M00012  Glyoxylate cycle [PATH:map01100]
+            M00013  Malonate semialdehyde pathway, propanoyl-CoA => acetyl-CoA [PATH:map01100]
+            M00014  Glucuronate pathway (uronate pathway) [PATH:map01100]
+            M00015  Proline biosynthesis, glutamate => proline [PATH:map01100]
+            M00016  Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine [PATH:map01100]
+            M00017  Methionine biosynthesis, aspartate => homoserine => methionine [PATH:map01100]
+            M00018  Threonine biosynthesis, aspartate => homoserine => threonine [PATH:map01100]
+            M00019  Valine/isoleucine biosynthesis, pyruvate => valine / 2-oxobutanoate => isoleucine [PATH:map01100]
+            M00020  Serine biosynthesis, glycerate-3P => serine [PATH:map01100]
+            M00021  Cysteine biosynthesis, serine => cysteine [PATH:map01100]
+            M00022  Shikimate pathway, phosphoenolpyruvate + erythrose-4P => chorismate [PATH:map01100]
+            M00023  Tryptophan biosynthesis, chorismate => tryptophan [PATH:map01100]
+            M00024  Phenylalanine biosynthesis, chorismate => phenylpyruvate => phenylalanine [PATH:map01100]
+            M00025  Tyrosine biosynthesis, chorismate => HPP => tyrosine [PATH:map01100]
+            M00026  Histidine biosynthesis, PRPP => histidine [PATH:map01100]
+            M00027  GABA (gamma-Aminobutyrate) shunt [PATH:map01100]
+            M00028  Ornithine biosynthesis, glutamate => ornithine [PATH:map01100]
+            M00029  Urea cycle [PATH:map01100]
+            M00030  Lysine biosynthesis, AAA pathway, 2-oxoglutarate => 2-aminoadipate => lysine [PATH:map01100]
+            M00031  Lysine biosynthesis, mediated by LysW, 2-aminoadipate => lysine [PATH:map01100]
+            M00032  Lysine degradation, lysine => saccharopine => acetoacetyl-CoA [PATH:map01100]
+            M00033  Ectoine biosynthesis, aspartate => ectoine [PATH:map01100]
+            M00034  Methionine salvage pathway [PATH:map01100]
+            M00035  Methionine degradation [PATH:map01100]
+            M00036  Leucine degradation, leucine => acetoacetate + acetyl-CoA [PATH:map01100]
+            M00037  Melatonin biosynthesis, animals, tryptophan => serotonin => melatonin [PATH:map01100]
+            M00038  Tryptophan metabolism, tryptophan => kynurenine => 2-aminomuconate [PATH:map01100]
+            M00039  Monolignol biosynthesis, phenylalanine/tyrosine => monolignol [PATH:map01100]
+            M00040  Tyrosine biosynthesis, chorismate => arogenate => tyrosine [PATH:map01100]
+            M00042  Catecholamine biosynthesis, tyrosine => dopamine => noradrenaline => adrenaline [PATH:map01100]
+            M00043  Thyroid hormone biosynthesis, tyrosine => triiodothyronine/thyroxine [PATH:map01100]
+            M00044  Tyrosine degradation, tyrosine => homogentisate [PATH:map01100]
+            M00045  Histidine degradation, histidine => N-formiminoglutamate => glutamate [PATH:map01100]
+            M00046  Pyrimidine degradation, uracil => beta-alanine, thymine => 3-aminoisobutanoate [PATH:map01100]
+            M00047  Creatine pathway [PATH:map01100]
+            M00048  De novo purine biosynthesis, PRPP + glutamine => IMP [PATH:map01100]
+            M00049  Adenine ribonucleotide biosynthesis, IMP => ADP,ATP [PATH:map01100]
+            M00050  Guanine ribonucleotide biosynthesis, IMP => GDP,GTP [PATH:map01100]
+            M00051  De novo pyrimidine biosynthesis, glutamine (+ PRPP) => UMP [PATH:map01100]
+            M00052  Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP [PATH:map01100]
+            M00053  Deoxyribonucleotide biosynthesis, ADP/GDP/CDP/UDP => dATP/dGTP/dCTP/dUTP [PATH:map01100]
+            M00055  N-glycan precursor biosynthesis [PATH:map01100]
+            M00056  O-glycan biosynthesis, mucin type core [PATH:map01100]
+            M00057  Glycosaminoglycan biosynthesis, linkage tetrasaccharide [PATH:map01100]
+            M00058  Glycosaminoglycan biosynthesis, chondroitin sulfate backbone [PATH:map01100]
+            M00059  Glycosaminoglycan biosynthesis, heparan sulfate backbone [PATH:map01100]
+            M00060  KDO2-lipid A biosynthesis, Raetz pathway, LpxL-LpxM type [PATH:map01100]
+            M00061  D-Glucuronate degradation, D-glucuronate => pyruvate + D-glyceraldehyde-3P [PATH:map01100]
+            M00063  CMP-KDO biosynthesis, ribulose-5P => CMP-KDO [PATH:map01100]
+            M00064  ADP-LDmanHep biosynthesis, sedoheptulose-7P => ADP-LDmanHep [PATH:map01100]
+            M00065  GPI-anchor biosynthesis, core oligosaccharide [PATH:map01100]
+            M00066  Lactosylceramide biosynthesis [PATH:map01100]
+            M00067  Sulfoglycolipids biosynthesis, ceramide/1-alkyl-2-acylglycerol => sulfatide/seminolipid [PATH:map01100]
+            M00068  Glycosphingolipid biosynthesis, globo-series, LacCer => Gb4Cer [PATH:map01100]
+            M00069  Glycosphingolipid biosynthesis, ganglio series, LacCer => GT3 [PATH:map01100]
+            M00070  Glycosphingolipid biosynthesis, lacto-series, LacCer => Lc4Cer [PATH:map01100]
+            M00071  Glycosphingolipid biosynthesis, neolacto-series, LacCer => nLc4Cer [PATH:map01100]
+            M00072  N-glycosylation by oligosaccharyltransferase [PATH:map01100]
+            M00073  N-glycan precursor trimming [PATH:map01100]
+            M00074  N-glycan biosynthesis, high-mannose type [PATH:map01100]
+            M00075  N-glycan biosynthesis, complex type [PATH:map01100]
+            M00076  Dermatan sulfate degradation [PATH:map01100]
+            M00077  Chondroitin sulfate degradation [PATH:map01100]
+            M00078  Heparan sulfate degradation [PATH:map01100]
+            M00079  Keratan sulfate degradation [PATH:map01100]
+            M00081  Pectin degradation [PATH:map01100]
+            M00082  Fatty acid biosynthesis, initiation [PATH:map01100]
+            M00083  Fatty acid biosynthesis, elongation [PATH:map01100]
+            M00085  Fatty acid elongation in mitochondria [PATH:map01100]
+            M00086  beta-Oxidation, acyl-CoA synthesis [PATH:map01100]
+            M00087  beta-Oxidation [PATH:map01100]
+            M00088  Ketone body biosynthesis, acetyl-CoA => acetoacetate/3-hydroxybutyrate/acetone [PATH:map01100]
+            M00089  Triacylglycerol biosynthesis [PATH:map01100]
+            M00090  Phosphatidylcholine (PC) biosynthesis, choline => PC [PATH:map01100]
+            M00091  Phosphatidylcholine (PC) biosynthesis, PE => PC [PATH:map01100]
+            M00092  Phosphatidylethanolamine (PE) biosynthesis, ethanolamine => PE [PATH:map01100]
+            M00093  Phosphatidylethanolamine (PE) biosynthesis, PA => PS => PE [PATH:map01100]
+            M00094  Ceramide biosynthesis [PATH:map01100]
+            M00095  C5 isoprenoid biosynthesis, mevalonate pathway [PATH:map01100]
+            M00096  C5 isoprenoid biosynthesis, non-mevalonate pathway [PATH:map01100]
+            M00097  Lycopene biosynthesis, geranylgeranyl-PP => lycopene [PATH:map01100]
+            M00098  Acylglycerol degradation [PATH:map01100]
+            M00099  Sphingosine biosynthesis [PATH:map01100]
+            M00100  Sphingosine degradation [PATH:map01100]
+            M00101  Cholesterol biosynthesis, FPP => cholesterol [PATH:map01100]
+            M00102  Ergocalciferol biosynthesis, FPP => ergosterol/ergocalciferol [PATH:map01100]
+            M00103  Cholecalciferol biosynthesis [PATH:map01100]
+            M00104  Bile acid biosynthesis, cholesterol => cholate/chenodeoxycholate [PATH:map01100]
+            M00106  Conjugated bile acid biosynthesis, cholate => taurocholate/glycocholate [PATH:map01100]
+            M00107  Steroid hormone biosynthesis, cholesterol => pregnenolone => progesterone [PATH:map01100]
+            M00108  C21-Steroid hormone biosynthesis, progesterone => corticosterone/aldosterone [PATH:map01100]
+            M00109  C21-Steroid hormone biosynthesis, progesterone => cortisol/cortisone [PATH:map01100]
+            M00110  C19/C18-Steroid hormone biosynthesis, pregnenolone => androstenedione => estrone [PATH:map01100]
+            M00112  Tocopherol/tocotorienol biosynthesis, homogentisate + phytyl/geranylgeranyl-PP => tocopherol/tocotorienol [PATH:map01100]
+            M00113  Jasmonic acid biosynthesis [PATH:map01100]
+            M00114  Ascorbate biosynthesis, plants, fructose-6P => ascorbate [PATH:map01100]
+            M00115  NAD biosynthesis, aspartate => quinolinate => NAD [PATH:map01100]
+            M00116  Menaquinone biosynthesis, chorismate (+ polyprenyl-PP) => menaquinol [PATH:map01100]
+            M00117  Ubiquinone biosynthesis, prokaryotes, chorismate (+ polyprenyl-PP) => ubiquinol [PATH:map01100]
+            M00118  Glutathione biosynthesis, glutamate => glutathione [PATH:map01100]
+            M00119  Pantothenate biosynthesis, valine/L-aspartate => pantothenate [PATH:map01100]
+            M00120  Coenzyme A biosynthesis, pantothenate => CoA [PATH:map01100]
+            M00121  Heme biosynthesis, plants and bacteria, glutamate => heme [PATH:map01100]
+            M00122  Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin [PATH:map01100]
+            M00123  Biotin biosynthesis, pimeloyl-ACP/CoA => biotin [PATH:map01100]
+            M00124  Pyridoxal phosphate biosynthesis, erythrose-4P => pyridoxal-P [PATH:map01100]
+            M00125  Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD [PATH:map01100]
+            M00126  Tetrahydrofolate biosynthesis, GTP => THF [PATH:map01100]
+            M00127  Thiamine biosynthesis, prokaryotes, AIR (+ DXP/tyrosine) => TMP/TPP [PATH:map01100]
+            M00128  Ubiquinone biosynthesis, eukaryotes, 4-hydroxybenzoate + polyprenyl-PP => ubiquinone [PATH:map01100]
+            M00129  Ascorbate biosynthesis, animals, glucose-1P => ascorbate [PATH:map01100]
+            M00130  Inositol phosphate metabolism, PI=> PIP2 => Ins(1,4,5)P3 => Ins(1,3,4,5)P4 [PATH:map01100]
+            M00131  Inositol phosphate metabolism, Ins(1,3,4,5)P4 => Ins(1,3,4)P3 => myo-inositol [PATH:map01100]
+            M00132  Inositol phosphate metabolism, Ins(1,3,4)P3 => phytate [PATH:map01100]
+            M00133  Polyamine biosynthesis, arginine => agmatine => putrescine => spermidine [PATH:map01100]
+            M00134  Polyamine biosynthesis, arginine => ornithine => putrescine [PATH:map01100]
+            M00135  GABA biosynthesis, eukaryotes, putrescine => GABA [PATH:map01100]
+            M00136  GABA biosynthesis, prokaryotes, putrescine => GABA [PATH:map01100]
+            M00137  Flavanone biosynthesis, phenylalanine => naringenin [PATH:map01100]
+            M00138  Flavonoid biosynthesis, naringenin => pelargonidin [PATH:map01100]
+            M00140  C1-unit interconversion, prokaryotes [PATH:map01100]
+            M00141  C1-unit interconversion, eukaryotes [PATH:map01100]
+            M00142  NADH:ubiquinone oxidoreductase, mitochondria [PATH:map01100]
+            M00143  NADH dehydrogenase (ubiquinone) Fe-S protein/flavoprotein complex, mitochondria [PATH:map01100]
+            M00144  NADH:quinone oxidoreductase, prokaryotes [PATH:map01100]
+            M00145  NAD(P)H:quinone oxidoreductase, chloroplasts and cyanobacteria [PATH:map01100]
+            M00146  NADH dehydrogenase (ubiquinone) 1 alpha subcomplex [PATH:map01100]
+            M00147  NADH dehydrogenase (ubiquinone) 1 beta subcomplex [PATH:map01100]
+            M00148  Succinate dehydrogenase (ubiquinone) [PATH:map01100]
+            M00149  Succinate dehydrogenase, prokaryotes [PATH:map01100]
+            M00150  Fumarate reductase, prokaryotes [PATH:map01100]
+            M00151  Cytochrome bc1 complex respiratory unit [PATH:map01100]
+            M00152  Cytochrome bc1 complex [PATH:map01100]
+            M00153  Cytochrome bd ubiquinol oxidase [PATH:map01100]
+            M00154  Cytochrome c oxidase [PATH:map01100]
+            M00155  Cytochrome c oxidase, prokaryotes [PATH:map01100]
+            M00156  Cytochrome c oxidase, cbb3-type [PATH:map01100]
+            M00157  F-type ATPase, prokaryotes and chloroplasts [PATH:map01100]
+            M00158  F-type ATPase, eukaryotes [PATH:map01100]
+            M00159  V/A-type ATPase, prokaryotes [PATH:map01100]
+            M00160  V-type ATPase, eukaryotes [PATH:map01100]
+            M00161  Photosystem II [PATH:map01100]
+            M00162  Cytochrome b6f complex [PATH:map01100]
+            M00163  Photosystem I [PATH:map01100]
+            M00165  Reductive pentose phosphate cycle (Calvin cycle) [PATH:map01100]
+            M00168  CAM (Crassulacean acid metabolism), dark [PATH:map01100]
+            M00169  CAM (Crassulacean acid metabolism), light [PATH:map01100]
+            M00170  C4-dicarboxylic acid cycle, phosphoenolpyruvate carboxykinase type [PATH:map01100]
+            M00171  C4-dicarboxylic acid cycle, NAD - malic enzyme type [PATH:map01100]
+            M00172  C4-dicarboxylic acid cycle, NADP - malic enzyme type [PATH:map01100]
+            M00173  Reductive citrate cycle (Arnon-Buchanan cycle) [PATH:map01100]
+            M00174  Methane oxidation, methanotroph, methane => formaldehyde [PATH:map01100]
+            M00175  Nitrogen fixation, nitrogen => ammonia [PATH:map01100]
+            M00176  Assimilatory sulfate reduction, sulfate => H2S [PATH:map01100]
+            M00307  Pyruvate oxidation, pyruvate => acetyl-CoA [PATH:map01100]
+            M00308  Semi-phosphorylative Entner-Doudoroff pathway, gluconate => glycerate-3P [PATH:map01100]
+            M00309  Non-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate [PATH:map01100]
+            M00338  Cysteine biosynthesis, homocysteine + serine => cysteine [PATH:map01100]
+            M00344  Formaldehyde assimilation, xylulose monophosphate pathway [PATH:map01100]
+            M00345  Formaldehyde assimilation, ribulose monophosphate pathway [PATH:map01100]
+            M00346  Formaldehyde assimilation, serine pathway [PATH:map01100]
+            M00356  Methanogenesis, methanol => methane [PATH:map01100]
+            M00357  Methanogenesis, acetate => methane [PATH:map01100]
+            M00358  Coenzyme M biosynthesis [PATH:map01100]
+            M00364  C10-C20 isoprenoid biosynthesis, bacteria [PATH:map01100]
+            M00365  C10-C20 isoprenoid biosynthesis, archaea [PATH:map01100]
+            M00366  C10-C20 isoprenoid biosynthesis, plants [PATH:map01100]
+            M00367  C10-C20 isoprenoid biosynthesis, non-plant eukaryotes [PATH:map01100]
+            M00368  Ethylene biosynthesis, methionine => ethylene [PATH:map01100]
+            M00369  Cyanogenic glycoside biosynthesis, tyrosine => dhurrin [PATH:map01100]
+            M00370  Glucosinolate biosynthesis, tryptophan => glucobrassicin [PATH:map01100]
+            M00371  Castasterone biosynthesis, plants, campesterol => castasterone [PATH:map01100]
+            M00372  Abscisic acid biosynthesis, plants, 9'-cis-neoxanthin/9-cis-violaxanthin => abscisic acid [PATH:map01100]
+            M00373  Ethylmalonyl pathway [PATH:map01100]
+            M00374  Dicarboxylate-hydroxybutyrate cycle [PATH:map01100]
+            M00375  Hydroxypropionate-hydroxybutylate cycle [PATH:map01100]
+            M00376  3-Hydroxypropionate bi-cycle [PATH:map01100]
+            M00377  Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway) [PATH:map01100]
+            M00378  F420 biosynthesis, archaea [PATH:map01100]
+            M00415  Fatty acid elongation in endoplasmic reticulum [PATH:map01100]
+            M00416  Cytochrome aa3-600 menaquinol oxidase [PATH:map01100]
+            M00417  Cytochrome o ubiquinol oxidase [PATH:map01100]
+            M00418  Toluene degradation, anaerobic, toluene => benzoyl-CoA [PATH:map01100]
+            M00419  Cymene degradation, p-cymene => p-cumate [PATH:map01100]
+            M00422  Acetyl-CoA pathway, CO2 => acetyl-CoA [PATH:map01100]
+            M00432  Leucine biosynthesis, 2-oxoisovalerate => 2-oxoisocaproate [PATH:map01100]
+            M00433  Lysine biosynthesis, 2-oxoglutarate => 2-oxoadipate [PATH:map01100]
+            M00525  Lysine biosynthesis, acetyl-DAP pathway, aspartate => lysine [PATH:map01100]
+            M00526  Lysine biosynthesis, DAP dehydrogenase pathway, aspartate => lysine [PATH:map01100]
+            M00527  Lysine biosynthesis, DAP aminotransferase pathway, aspartate => lysine [PATH:map01100]
+            M00528  Nitrification, ammonia => nitrite [PATH:map01100]
+            M00529  Denitrification, nitrate => nitrogen [PATH:map01100]
+            M00530  Dissimilatory nitrate reduction, nitrate => ammonia [PATH:map01100]
+            M00531  Assimilatory nitrate reduction, nitrate => ammonia [PATH:map01100]
+            M00532  Photorespiration [PATH:map01100]
+            M00533  Homoprotocatechuate degradation, homoprotocatechuate => 2-oxohept-3-enedioate [PATH:map01100]
+            M00534  Naphthalene degradation, naphthalene => salicylate [PATH:map01100]
+            M00535  Isoleucine biosynthesis, pyruvate => 2-oxobutanoate [PATH:map01100]
+            M00537  Xylene degradation, xylene => methylbenzoate [PATH:map01100]
+            M00538  Toluene degradation, toluene => benzoate [PATH:map01100]
+            M00539  Cumate degradation, p-cumate => 2-oxopent-4-enoate + 2-methylpropanoate [PATH:map01100]
+            M00540  Benzoate degradation, cyclohexanecarboxylic acid =>pimeloyl-CoA [PATH:map01100]
+            M00541  Benzoyl-CoA degradation, benzoyl-CoA => 3-hydroxypimeloyl-CoA [PATH:map01100]
+            M00543  Biphenyl degradation, biphenyl => 2-oxopent-4-enoate + benzoate [PATH:map01100]
+            M00544  Carbazole degradation, carbazole => 2-oxopent-4-enoate + anthranilate [PATH:map01100]
+            M00545  Trans-cinnamate degradation, trans-cinnamate => acetyl-CoA [PATH:map01100]
+            M00546  Purine degradation, xanthine => urea [PATH:map01100]
+            M00547  Benzene/toluene degradation, benzene => catechol / toluene => 3-methylcatechol [PATH:map01100]
+            M00548  Benzene degradation, benzene => catechol [PATH:map01100]
+            M00549  UDP-Glc biosynthesis, Glc => UDP-Glc [PATH:map01100]
+            M00550  Ascorbate degradation, ascorbate => D-xylulose-5P [PATH:map01100]
+            M00551  Benzoate degradation, benzoate => catechol / methylbenzoate => methylcatechol [PATH:map01100]
+            M00552  D-galactonate degradation, De Ley-Doudoroff pathway, D-galactonate => glycerate-3P [PATH:map01100]
+            M00554  UDP-Gal biosynthesis, Gal => UDP-Gal [PATH:map01100]
+            M00555  Betaine biosynthesis, choline => betaine [PATH:map01100]
+            M00563  Methanogenesis, methylamine/dimethylamine/trimethylamine => methane [PATH:map01100]
+            M00565  Trehalose biosynthesis, D-glucose-1P => trehalose [PATH:map01100]
+            M00567  Methanogenesis, CO2 => methane [PATH:map01100]
+            M00568  Catechol ortho-cleavage, catechol => 3-oxoadipate [PATH:map01100]
+            M00569  Catechol meta-cleavage, catechol => acetyl-CoA / 4-methylcatechol => propanoyl-CoA [PATH:map01100]
+            M00570  Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine [PATH:map01100]
+            M00572  Pimeloyl-ACP biosynthesis, BioC-BioH pathway, malonyl-ACP => pimeloyl-ACP [PATH:map01100]
+            M00573  Biotin biosynthesis, BioI pathway, long-chain-acyl-ACP => pimeloyl-ACP => biotin [PATH:map01100]
+            M00577  Biotin biosynthesis, BioW pathway, pimelate => pimeloyl-CoA => biotin [PATH:map01100]
+            M00579  Phosphate acetyltransferase-acetate kinase pathway, acetyl-CoA => acetate [PATH:map01100]
+            M00580  Pentose phosphate pathway, archaea, fructose-6P => ribose-5P [PATH:map01100]
+            M00595  Sulfur oxidation, SOX system, thiosulfate => sulfate [PATH:map01100]
+            M00596  Dissimilatory sulfate reduction, sulfate => H2S [PATH:map01100]
+            M00608  2-Oxocarboxylic acid chain extension, 2-oxoglutarate => 2-oxoadipate => 2-oxopimelate => 2-oxosuberate [PATH:map01100]
+            M00609  Cysteine biosynthesis, methionine => cysteine [PATH:map01100]
+            M00620  Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate [PATH:map01100]
+            M00621  Glycine cleavage system [PATH:map01100]
+            M00622  Nicotinate degradation, nicotinate => fumarate [PATH:map01100]
+            M00623  Phthalate degradation, phthalate => protocatechuate [PATH:map01100]
+            M00624  Terephthalate degradation, terephthalate => 3,4-dihydroxybenzoate [PATH:map01100]
+            M00630  D-Galacturonate degradation (fungi), D-galacturonate => glycerol [PATH:map01100]
+            M00631  D-Galacturonate degradation (bacteria), D-galacturonate => pyruvate + D-glyceraldehyde-3P [PATH:map01100]
+            M00632  Galactose degradation, Leloir pathway, galactose => alpha-D-glucose-1P [PATH:map01100]
+            M00633  Semi-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate-3P [PATH:map01100]
+            M00636  Phthalate degradation, phthalate => protocatechuate [PATH:map01100]
+            M00637  Anthranilate degradation, anthranilate => catechol [PATH:map01100]
+            M00638  Salicylate degradation, salicylate => gentisate [PATH:map01100]
+            M00661  Paspaline biosynthesis, geranylgeranyl-PP + indoleglycerol phosphate => paspaline [PATH:map01100]
+            M00672  Penicillin biosynthesis, aminoadipate + cycteine + valine => penicillin [PATH:map01100]
+            M00673  Cephamycin C biosynthesis, aminoadipate + cycteine + valine => cephamycin C [PATH:map01100]
+            M00674  Clavaminate biosynthesis, arginine + glyceraldehyde-3P => clavaminate [PATH:map01100]
+            M00675  Carbapenem-3-carboxylate biosynthesis, pyrroline-5-carboxylate + malonyl-CoA => carbapenem-3-carboxylate [PATH:map01100]
+            M00736  Nocardicin A biosynthesis, L-pHPG + arginine + serine => nocardicin A [PATH:map01100]
+            M00740  Methylaspartate cycle [PATH:map01100]
+            M00741  Propanoyl-CoA metabolism, propanoyl-CoA => succinyl-CoA [PATH:map01100]
+            M00761  Und-P-alpha-L-Ara4N biosynthesis, UDP-Glc => UDP-L-Ara4FN => Und-P-alpha-L-Ara4N [PATH:map01100]
+            M00763  Ornithine biosynthesis, mediated by LysW, glutamate => ornithine [PATH:map01100]
+            M00773  Tylosin biosynthesis, methylmalonyl-CoA + malonyl-CoA => tylactone => tylosin [PATH:map01100]
+            M00774  Erythromycin biosynthesis, propanoyl-CoA + methylmalonyl-CoA => deoxyerythronolide B => erythromycin A/B [PATH:map01100]
+            M00775  Oleandomycin biosynthesis, malonyl-CoA + methylmalonyl-CoA => 8,8a-deoxyoleandolide => oleandomycin [PATH:map01100]
+            M00776  Pikromycin/methymycin biosynthesis, methylmalonyl-CoA + malonyl-CoA => narbonolide/10-deoxymethynolide => pikromycin/methymycin [PATH:map01100]
+            M00777  Avermectin biosynthesis, 2-methylbutanoyl-CoA/isobutyryl-CoA => 6,8a-Seco-6,8a-deoxy-5-oxoavermectin 1a/1b aglycone => avermectin A1a/B1a/A1b/B1b [PATH:map01100]
+            M00778  Type II polyketide backbone biosynthesis, acyl-CoA + malonyl-CoA => polyketide [PATH:map01100]
+            M00779  Dihydrokalafungin biosynthesis, octaketide => dihydrokalafungin [PATH:map01100]
+            M00780  Tetracycline/oxytetracycline biosynthesis, pretetramide => tetracycline/oxytetracycline [PATH:map01100]
+            M00781  Nogalavinone/aklavinone biosynthesis, deoxynogalonate/deoxyaklanonate => nogalavinone/aklavinone [PATH:map01100]
+            M00782  Mithramycin biosynthesis, 4-demethylpremithramycinone => mithramycin [PATH:map01100]
+            M00783  Tetracenomycin C/8-demethyltetracenomycin C biosynthesis, tetracenomycin F2 => tetracenomycin C/8-demethyltetracenomycin C [PATH:map01100]
+            M00784  Elloramycin biosynthesis, 8-demethyltetracenomycin C => elloramycin A [PATH:map01100]
+            M00785  Cycloserine biosynthesis, arginine/serine => cycloserine [PATH:map01100]
+            M00786  Fumitremorgin alkaloid biosynthesis, tryptophan + proline => fumitremorgin C/A [PATH:map01100]
+            M00787  Bacilysin biosynthesis, prephenate => bacilysin [PATH:map01100]
+            M00788  Terpentecin biosynthesis, GGAP => terpentecin [PATH:map01100]
+            M00789  Rebeccamycin biosynthesis, tryptophan => rebeccamycin [PATH:map01100]
+            M00790  Pyrrolnitrin biosynthesis, tryptophan => pyrrolnitrin [PATH:map01100]
+            M00793  dTDP-L-Rha biosynthesis, Glc-1P => dTDP-L-Rha [PATH:map01100]
+            M00794  dTDP-6-deoxy-D-allose biosynthesis [PATH:map01100]
+            M00795  dTDP-beta-L-noviose biosynthesis [PATH:map01100]
+            M00796  dTDP-D-mycaminose biosynthesis [PATH:map01100]
+            M00797  dTDP-D-desosamine biosynthesis [PATH:map01100]
+            M00798  dTDP-L-mycarose biosynthesis [PATH:map01100]
+            M00799  dTDP-L-oleandrose biosynthesis [PATH:map01100]
+            M00800  dTDP-L-megosamine biosynthesis [PATH:map01100]
+            M00801  dTDP-L-olivose biosynthesis [PATH:map01100]
+            M00802  dTDP-D-forosamine biosynthesis [PATH:map01100]
+            M00803  dTDP-D-angolosamine biosynthesis [PATH:map01100]
+            M00804  Complete nitrification, comammox, ammonia => nitrite => nitrate [PATH:map01100]
+            M00805  Staurosporine biosynthesis, tryptophan => staurosporine [PATH:map01100]
+            M00808  Violacein biosynthesis, tryptophan => violacein [PATH:map01100]
+            M00810  Nicotine degradation, pyridine pathway, nicotine => 2,6-dihydroxypyridine/succinate semialdehyde [PATH:map01100]
+            M00811  Nicotine degradation, pyrrolidine pathway, nicotine => succinate semialdehyde [PATH:map01100]
+            M00814  Acarbose biosynthesis, sedoheptulopyranose-7P => acarbose [PATH:map01100]
+            M00815  Validamycin A biosynthesis, sedoheptulopyranose-7P => validamycin A [PATH:map01100]
+            M00819  Pentalenolactone biosynthesis, farnesyl-PP => pentalenolactone [PATH:map01100]
+            M00823  Chlortetracycline biosynthesis, pretetramide => chlortetracycline [PATH:map01100]
+            M00824  9-membered enediyne core biosynthesis, malonyl-CoA => 3-hydroxyhexadeca-4,6,8,10,12,14-hexaenoyl-ACP => 9-membered enediyne core [PATH:map01100]
+            M00825  10-membered enediyne core biosynthesis, malonyl-CoA => 3-hydroxyhexadeca-4,6,8,10,12,14-hexaenoyl-ACP => 10-membered enediyne core [PATH:map01100]
+            M00826  C-1027 benzoxazolinate moiety biosynthesis, chorismate => benzoxazolinyl-CoA [PATH:map01100]
+            M00827  C-1027 beta-amino acid moiety biosynthesis, tyrosine => 3-chloro-4,5-dihydroxy-beta-phenylalanyl-PCP [PATH:map01100]
+            M00828  Maduropeptin beta-hydroxy acid moiety biosynthesis, tyrosine => 3-(4-hydroxyphenyl)-3-oxopropanoyl-PCP [PATH:map01100]
+            M00829  3,6-Dimethylsalicylyl-CoA biosynthesis, malonyl-CoA => 6-methylsalicylate => 3,6-dimethylsalicylyl-CoA [PATH:map01100]
+            M00830  Neocarzinostatin naphthoate moiety biosynthesis, malonyl-CoA => 2-hydroxy-5-methyl-1-naphthoate => 2-hydroxy-7-methoxy-5-methyl-1-naphthoyl-CoA [PATH:map01100]
+            M00831  Kedarcidin 2-hydroxynaphthoate moiety biosynthesis, malonyl-CoA => 3,6,8-trihydroxy-2-naphthoate => 3-hydroxy-7,8-dimethoxy-6-isopropoxy-2-naphthoyl-CoA [PATH:map01100]
+            M00832  Kedarcidin 2-aza-3-chloro-beta-tyrosine moiety biosynthesis, azatyrosine => 2-aza-3-chloro-beta-tyrosyl-PCP [PATH:map01100]
+            M00833  Calicheamicin biosynthesis, calicheamicinone => calicheamicin [PATH:map01100]
+            M00834  Calicheamicin orsellinate moiety biosynthesis, malonyl-CoA => orsellinate-ACP => 5-iodo-2,3-dimethoxyorsellinate-ACP [PATH:map01100]
+            M00835  Pyocyanine biosynthesis, chorismate => pyocyanine [PATH:map01100]
+            M00836  Coenzyme F430 biosynthesis, sirohydrochlorin => coenzyme F430 [PATH:map01100]
+            M00837  Prodigiosin biosynthesis, L-proline => prodigiosin [PATH:map01100]
+            M00838  Undecylprodigiosin biosynthesis, L-proline => undecylprodigiosin [PATH:map01100]
+            M00840  Tetrahydrofolate biosynthesis, mediated by ribA and trpF, GTP => THF [PATH:map01100]
+            M00841  Tetrahydrofolate biosynthesis, mediated by PTPS, GTP => THF [PATH:map01100]
+            M00842  Tetrahydrobiopterin biosynthesis, GTP => BH4 [PATH:map01100]
+            M00843  L-threo-Tetrahydrobiopterin biosynthesis, GTP => L-threo-BH4 [PATH:map01100]
+            M00844  Arginine biosynthesis, ornithine => arginine [PATH:map01100]
+            M00845  Arginine biosynthesis, glutamate => acetylcitrulline => arginine [PATH:map01100]
+            M00846  Siroheme biosynthesis, glutamyl-tRNA => siroheme [PATH:map01100]
+            M00847  Heme biosynthesis, archaea, siroheme => heme [PATH:map01100]
+            M00848  Aurachin biosynthesis, anthranilate => aurachin A [PATH:map01100]
+            M00849  C5 isoprenoid biosynthesis, mevalonate pathway, archaea [PATH:map01100]
+            M00854  Glycogen biosynthesis, glucose-1P => glycogen/starch [PATH:map01100]
+            M00855  Glycogen degradation, glycogen => glucose-6P [PATH:map01100]
+            M00861  beta-Oxidation, peroxisome, VLCFA [PATH:map01100]
+            M00862  beta-Oxidation, peroxisome, tri/dihydroxycholestanoyl-CoA => choloyl/chenodeoxycholoyl-CoA [PATH:map01100]
+            M00866  KDO2-lipid A biosynthesis, Raetz pathway, non-LpxL-LpxM type [PATH:map01100]
+            M00867  KDO2-lipid A modification pathway [PATH:map01100]
+            M00868  Heme biosynthesis, animals and fungi, glycine => heme [PATH:map01100]
+            M00872  O-glycan biosynthesis, mannose type (core M3) [PATH:map01100]
+            M00873  Fatty acid biosynthesis in mitochondria, animals [PATH:map01100]
+            M00874  Fatty acid biosynthesis in mitochondria, fungi [PATH:map01100]
+            M00875  Staphyloferrin B biosynthesis, L-serine => staphyloferrin B [PATH:map01100]
+            M00876  Staphyloferrin A biosynthesis, L-ornithine => staphyloferrin A [PATH:map01100]
+            M00877  Kanosamine biosynthesis, glucose-6P => kanosamine [PATH:map01100]
+            M00878  Phenylacetate degradation, phenylaxetate => acetyl-CoA/succinyl-CoA [PATH:map01100]
+            M00879  Arginine succinyltransferase pathway, arginine => glutamate [PATH:map01100]
+            M00880  Molybdenum cofactor biosynthesis, GTP => molybdenum cofactor [PATH:map01100]
+            M00881  Lipoic acid biosynthesis, plants and bacteria, octanoyl-ACP => dihydrolipoyl-E2/H [PATH:map01100]
+            M00882  Lipoic acid biosynthesis, eukaryotes, octanoyl-ACP => dihydrolipoyl-H [PATH:map01100]
+            M00883  Lipoic acid biosynthesis, animals and bacteria, octanoyl-ACP => dihydrolipoyl-H => dihydrolipoyl-E2 [PATH:map01100]
+            M00884  Lipoic acid biosynthesis, octanoyl-CoA => dihydrolipoyl-E2 [PATH:map01100]
+            M00885  Meromycolic acid biosynthesis, initiation and elongation FAS II (KasA) [PATH:map01100]
+            M00886  Meromycolic acid biosynthesis, initiation and elongation FAS II (KasA and KasB) [PATH:map01100]
+            M00887  Mycolic acid biosynthesis, meromycolic acid + alpha-carboxyacyl-CoA + trehalose => TMM => TDM/mAGP/GMM [PATH:map01100]
+            M00888  Galactofuranan biosynthesis, decaprenyl phosphate + UDP-GlcNAc (+ dTDP-Rha/UDP-Galf) => GL-5 [PATH:map01100]
+            M00889  Puromycin biosynthesis, ATP => puromycin [PATH:map01100]
+            M00890  Roseoflavin biosynthesis, FMN => roseoflavin [PATH:map01100]
+            M00891  Ditryptophenaline biosynthesis, tryptophan + phenylalanine => ditryptophenaline [PATH:map01100]
+            M00892  UDP-GlcNAc biosynthesis, eukaryotes, Fru-6P => UDP-GlcNAc [PATH:map01100]
+            M00893  Lovastatin biosynthesis, malonyl-CoA => lovastatin acid [PATH:map01100]
+            M00894  Cannabidiol biosynthesis, malonyl-CoA => cannabidiol/dronabinol [PATH:map01100]
+            M00895  Thiamine biosynthesis, prokaryotes, AIR (+ DXP/glycine) => TMP/TPP [PATH:map01100]
+            M00896  Thiamine biosynthesis, archaea, AIR (+ NAD+) => TMP/TPP [PATH:map01100]
+            M00897  Thiamine biosynthesis, plants, AIR (+ NAD+) => TMP/thiamine/TPP [PATH:map01100]
+            M00898  Thiamine biosynthesis, pyridoxal-5P => TMP/thiamine/TPP [PATH:map01100]
+            M00899  Thiamine salvage pathway, HMP/HET => TMP [PATH:map01100]
+            M00900  Crocin biosynthesis, crocetin => crocin [PATH:map01100]
+            M00901  Fumiquinazoline biosynthesis, tryptophan + alanine + anthranilate => fumiquinazoline [PATH:map01100]
+            M00902  Podophyllotoxin biosynthesis, coniferyl alcohol => podophyllotoxin [PATH:map01100]
+            M00903  Fosfomycin biosynthesis, phosphoenolpyruvate => fosfomycin [PATH:map01100]
+            M00904  Dapdiamides biosynthesis, L-2,3-diaminopropanoate => dapdiamide A/B/C [PATH:map01100]
+            M00905  Grixazone biosynthesis, aspartate 4-semialdehyde => grixazone B [PATH:map01100]
+            M00906  Ethynylserine biosynthesis, lysine => ethynylserine [PATH:map01100]
+            M00909  UDP-GlcNAc biosynthesis, prokaryotes, Fru-6P => UDP-GlcNAc [PATH:map01100]
+            M00910  Phenylalanine biosynthesis, chorismate => arogenate => phenylalanine [PATH:map01100]
+            M00911  Riboflavin biosynthesis, fungi, GTP => riboflavin/FMN/FAD [PATH:map01100]
+            M00912  NAD biosynthesis, tryptophan => quinolinate => NAD [PATH:map01100]
+            M00913  Pantothenate biosynthesis, 2-oxoisovalerate/spermine => pantothenate [PATH:map01100]
+            M00914  Coenzyme A biosynthesis, archaea, 2-oxoisovalerate => 4-phosphopantoate => CoA [PATH:map01100]
+            M00915  Caffeine degradation, caffeine => xanthine [PATH:map01100]
+            M00916  Pyridoxal phosphate biosynthesis, R5P + glyceraldehyde-3P + glutamine => pyridoxal-P [PATH:map01100]
+            M00917  Phytosterol biosynthesis, squalene 2,3-epoxide => campesterol/sitosterol [PATH:map01100]
+            M00918  Aerobactin biosynthesis, lysine => aerobactin [PATH:map01100]
+            M00919  Ectoine degradation, ectoine => aspartate [PATH:map01100]
+            M00921  Cyclooctatin biosynthesis, dimethylallyl-PP + isopentenyl-PP => cyclooctatin [PATH:map01100]
+            M00922  CMP-Neu5Ac biosynthesis, bacteria, UDP-GlcNAc => CMP-Neu5Ac [PATH:map01100]
+            M00923  UDP-L-FucNAc biosynthesis, UDP-GlcNAc => UDP-L-FucNAc [PATH:map01100]
+            M00924  Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide [PATH:map01100]
+            M00925  Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide [PATH:map01100]
+            M00926  Heme biosynthesis, bacteria, glutamyl-tRNA => coproporphyrin III => heme [PATH:map01100]
+            M00927  Gibberellin A12 biosynthesis, plants, GAPP => GA12 [PATH:map01100]
+            M00928  Gibberellin A4/A1 biosynthesis, plants, GA12/GA53 => GA4/GA1 [PATH:map01100]
+            M00929  Gibberellin A1 biosynthesis, GGPP => GA1 [PATH:map01100]
+            M00930  Menaquinone biosynthesis, futalosine pathway [PATH:map01100]
+            M00931  Menaquinone biosynthesis, modified futalosine pathway [PATH:map01100]
+            M00932  Phylloquinone biosynthesis, chorismate (+ phytyl-PP) => phylloquinol [PATH:map01100]
+            M00933  Plastoquinone biosynthesis, homogentisate + solanesyl-PP => plastoquinol [PATH:map01100]
+            M00934  Mycinamicin biosynthesis, malonyl-CoA + methylmalonyl-CoA => protomycinolide IV => mycinamicin II [PATH:map01100]
+            M00935  Methanofuran biosynthesis [PATH:map01100]
+            M00936  Melatonin biosynthesis, plants, tryptophan => serotonin => melatonin [PATH:map01100]
+            M00937  Aflatoxin biosynthesis, malonyl-CoA => aflatoxin B1 [PATH:map01100]
+            M00938  Pyrimidine deoxyribonucleotide biosynthesis, UDP => dTTP [PATH:map01100]
+            M00939  Pyrimidine degradation, uracil => 3-hydroxypropanoate [PATH:map01100]
+            M00940  Flavanone biosynthesis, p-coumaroyl-CoA => liquiritigenin [PATH:map01100]
+            M00941  Isoflavone biosynthesis, liquiritigenin/naringenin => daidzein/genistein [PATH:map01100]
+            M00942  Pterocarpan biosynthesis, daidzein => medicarpin [PATH:map01100]
+            M00943  Reticuline biosynthesis, dopamine + 4HPAA => (S)-reticuline [PATH:map01100]
+            M00944  Morphine biosynthesis, (S)-reticuline => morphine [PATH:map01100]
+            M00945  Sanguinarine biosynthesis, (S)-reticuline => sanguinarine [PATH:map01100]
+            M00946  Noscapine biosynthesis, (S)-reticuline => noscapine [PATH:map01100]
+            M00947  D-Arginine racemization, D-arginine => L-arginine [PATH:map01100]
+            M00948  Hydroxyproline degradation, trans-4-hydroxy-L-proline => 2-oxoglutarate [PATH:map01100]
+            M00949  Staphylopine biosynthesis, L-histidine => staphylopine [PATH:map01100]
+            M00950  Biotin biosynthesis, BioU pathway, pimeloyl-ACP/CoA => biotin [PATH:map01100]
+            M00951  Cremeomycin biosynthesis, aspartate/3,4-AHBA => cremeomycin [PATH:map01100]
+            M00952  Benzoxazinoid biosynthesis, indoleglycerol phosphate => DIMBOA-glucoside [PATH:map01100]
+            M00953  Mugineic acid biosynthesis, methionine => 3-epihydroxymugineic acid [PATH:map01100]
+            M00954  CMP-KDN biosynthesis, Man-6P => CMP-KDN [PATH:map01100]
+            M00955  CMP-Neu5Ac/Neu5Gc biosynthesis, animals, UDP-GlcNAc => CMP-Neu5Ac => CMP-Neu5Gc [PATH:map01100]
+            M00956  Lysine degradation, bacteria, L-lysine => succinate [PATH:map01100]
+            M00957  Lysine degradation, bacteria, L-lysine => glutarate => succinate/acetyl-CoA [PATH:map01100]
+            M00958  Adenine ribonucleotide degradation, AMP => Urate [PATH:map01100]
+            M00959  Guanine ribonucleotide degradation, GMP => Urate [PATH:map01100]
+            M00960  Lysine degradation, bacteria, L-lysine => D-lysine => succinate [PATH:map01100]
+            M00961  Betacyanin biosynthesis, L-tyrosine => amaranthin [PATH:map01100]
+            M00962  Psilocybin biosynthesis, tryptophan => psilocybin [PATH:map01100]
+            M00963  Chanoclavine aldehyde biosynthesis, tryptophan => chanoclavine-I aldehyde [PATH:map01100]
+            M00964  Fumigaclavine biosynthesis, chanoclavine-I aldehyde => fumigaclavine C [PATH:map01100]
+            M00965  Vinblastine biosynthesis, geissoschizine => vinblastine [PATH:map01100]
+            M00966  Equol biosynthesis, daidzein => equol [PATH:map01100]
+            M00967  Flavone degradation, luteolin/apigenin => DHCA/phloretate [PATH:map01100]
+            M00968  Pentose bisphosphate pathway (nucleoside degradation), archaea, nucleoside/NMP => 3-PGA/glycerone phosphate [PATH:map01100]
+            M00969  Fumagillin biosynthesis, farnesyl-PP => fumagillin [PATH:map01100]
+            M00970  Proline degradation, proline => glutamate [PATH:map01100]
+            M00971  QS-7 biosynthesis, 2,3-epoxysqualene => QS-7 [PATH:map01100]
+            M00972  Proline metabolism [PATH:map01100]
+            M00973  Anammox, nitrite + ammonia => nitrogen [PATH:map01100]
+            M00974  Betaine metabolism, animals, betaine => glycine [PATH:map01100]
+            M00975  Betaine degradation, bacteria, betaine => pyruvate [PATH:map01100]
+            M00976  C19-Steroid hormone biosynthesis, pregnenolone => testosterone => dihydrotestosterone [PATH:map01100]
+            M00977  C19-Steroid hormone biosynthesis (androgen backdoor pathway), pregnenolone => androsterone => dihydrotestosterone [PATH:map01100]
+            M00978  Ornithine-ammonia cycle [PATH:map01100]
+            M00979  Ajmaline biosynthesis, geissoschizine => ajmaline [PATH:map01100]
+            M00980  Strychnine biosynthesis, geissoschizine => strychnine [PATH:map01100]
+            M00981  Geissoschizine biosynthesis, tryptophan => geissoschizine [PATH:map01100]
+            M00982  Methylcitrate cycle [PATH:map01100]
+            M00983  GPI-anchor remodeling [PATH:map01100]
+            M00984  Sulfur oxidation, tetrathionate intermediate (S4I) pathway, thiosulfate => sulfur + sulfate + thiosulfate [PATH:map01100]
+            M00985  Sulfide oxidation, sulfide => sulfur [PATH:map01100]
+            M00986  Sulfur reduction, sulfur => sulfide [PATH:map01100]
+            M00987  Assimilatory sulfate reduction, plants, sulfate => H2S [PATH:map01100]
+            M00988  PreQ1 biosynthesis, GTP => 7-Aminomethyl-7-deazaguanine [PATH:map01100]
+            M00989  Ubiquinone biosynthesis, O2-independent, prokaryotes, chorismate (+ polyprenyl-PP) => ubiquinol [PATH:map01100]
+            M00990  Dimethylsulfoniopropionate (DMSP) degradation, demethylation pathway, DMSP => methanethiol [PATH:map01100]
+            M00991  Dimethylsulfoniopropionate (DMSP) degradation, cleavage pathway, DMSP => acetyl-CoA [PATH:map01100]
+            M00992  Dimethylsulfoniopropionate (DMSP) degradation, cleavage pathway, DMSP => acrylate => acetyl-CoA [PATH:map01100]
+            M00993  Dimethylsulfoniopropionate (DMSP) degradation, cleavage pathway, DMSP => propionyl-CoA [PATH:map01100]
+            M00994  UDP-GlcA biosynthesis, myo-inositol => GlcA => UDP-GlcA [PATH:map01100]
+            M00995  UDP-MurNAc biosynthesis, Fru-6P => UDP-MurNAc [PATH:map01100]
+            M00996  UDP-MurNAc biosynthesis, anhMurNAc => UDP-MurNAc [PATH:map01100]
+            M00997  UDP-Xyl/L-Ara biosynthesis, UDP-Glc => UDP-Xyl => UDP-L-Ala [PATH:map01100]
+            M00998  UDP-L-Ara biosynthesis, L-Ala => UDP-L-Ala [PATH:map01100]
+            M00999  UDP-GlcA/GalA biosynthesis, UDP-Glc => UDP-GlcA => UDP-GalA [PATH:map01100]
+            M01000  GDP-Man biosynthesis, Fru-6P => GDP-Man [PATH:map01100]
+            M01001  GDP-L-Fuc biosynthesis, L-Fuc => GDP-L-Fuc [PATH:map01100]
+            M01002  UDP-GalNAc biosynthesis, Fru-6P => UDP-GalNAc [PATH:map01100]
+            M01003  UDP-GlcNAc biosynthesis, GlcNAc => UDP-GlcNAc [PATH:map01100]
+            M01004  UDP-Galf biosynthesis, UDP-Glc => UDP-Galf [PATH:map01100]
+            M01005  UDP-XylNAc biosynthesis, UDP-GlcNAc => UDP-XylNAc [PATH:map01100]
+            M01007  CMP-Pse5Ac7Ac biosynthesis, UDP-GlcNAc => CMP-Pse5Ac7Ac [PATH:map01100]
+            M01008  CMP-8eLeg5Ac7Ac biosynthesis, UDP-GlcNAc => CMP-8eLeg5Ac7Ac [PATH:map01100]
+            M01009  UDP-QuiNAc biosynthesis, UDP-GlcNAc => UDP-QuiNAc [PATH:map01100]
+            M01010  UDP-BacNAc4NAc biosynthesis, UDP-GlcNAc => UDP-BacNAc4NAc [PATH:map01100]
+            M01011  CMP-Leg5Ac7Ac biosynthesis, UDP-BacNAc4NAc => CMP-Leg5Ac7Ac [PATH:map01100]
+            M01012  CMP-Leg5Ac7Ala biosynthesis, UDP-GlcNAc => CMP-Leg5Ac7Ala [PATH:map01100]
+            M01013  Molting hormone biosynthesis, insects, 2,22,25-trideoxyecdysone => ecdysone => 20-hydroxyecdysone [PATH:map01100]
+            M01014  UDP-ManNAcA biosynthesis, UDP-GlcNAc => UDP-ManNAcA [PATH:map01100]
+            M01015  GDP-Man biosynthesis, Man => GDP-Man [PATH:map01100]
+            M01016  GDP-L-Fuc biosynthesis, GDP-Man => GDP-L-Fuc [PATH:map01100]
+            M01017  GDP-L-Col biosynthesis, GDP-Man => GDP-L-Col [PATH:map01100]
+            M01018  GDP-D-Rha biosynthesis, GDP-Man => GDP-D-Rha [PATH:map01100]
+            M01019  GDP-6-deoxy-Tal biosynthesis, GDP-Man => GDP-6-deoxy-Tal [PATH:map01100]
+            M01020  GDP-D-Rha4NAc biosynthesis, GDP-Man => GDP-D-Rha4N => GDP-D-Rha4NAc [PATH:map01100]
+            M01021  UDP-L-Rha biosynthesis, UDP-Glc => UDP-L-Rha [PATH:map01100]
+            M01022  dTDP-6-deoxy-L-Tal biosynthesis, Glc-1P => dTDP-6-deoxy-L-Tal [PATH:map01100]
+            M01023  dTDP-D-Fuc3NAc biosynthesis, Glc-1P => dTDP-D-Fuc3NAc [PATH:map01100]
+            M01024  dTDP-Qui3NAc biosynthesis, Glc-1P => dTDP-Qui3NAc [PATH:map01100]
+            M01025  dTDP-D-Fuc4NAc biosynthesis, Glc-1P => dTDP-D-Fuc4NAc [PATH:map01100]
+            M01026  dTDP-Qui4NAc biosynthesis, Glc-1P => dTDP-Qui4NAc [PATH:map01100]
+            M01027  dTDP-D-Fucf biosynthesis, Glc-1P => dTDP-D-Fucf [PATH:map01100]
+            M01028  GDP-DDmanHep biosynthesis, sedoheptulose-7P => GDP-DDmanHep [PATH:map01100]
+            M01029  CDP-Tyv biosynthesis, Glc-1P => CDP-Par => CDP-Tyv [PATH:map01100]
+            M01030  CDP-Abe biosynthesis, Glc-1P => CDP-Abe [PATH:map01100]
+            M01031  CDP-Asc biosynthesis, Glc-1P => CDP-Asc [PATH:map01100]
+            M01032  UDP-D-FucNAc biosynthesis, UDP-GlcNAc => UDP-D-FucNAc [PATH:map01100]
+            M01033  UDP-yelosamine biosynthesis, UDP-GlcNAc => UDP-yelosamine [PATH:map01100]
+            M01034  GDP-D-Rha4NFormyl biosynthesis, GDP-Man => GDP-D-Rha4N => GDP-D-Rha4NFormyl [PATH:map01100]
+            M01035  UDP-ManNAc3NAcA biosynthesis, UDP-GlcNAc => UDP-ManNAc3NAcA [PATH:map01100]
+            M01036  UDP-GalNAcA biosynthesis, UDP-GlcNAc => UDP-GalNAcA [PATH:map01100]
+            M01037  UDP-D-FucNAc4N biosynthesis, UDP-GlcNAc => UDP-D-FucNAc4N [PATH:map01100]
+            M01038  Staphyloxanthin biosynthesis, bacteria, farnesyl-PP => staphyloxanthin [PATH:map01100]
+            M01039  Spirilloxanthin biosynthesis, bacteria, lycopene => spirilloxanthin [PATH:map01100]
+            M01040  Lutein biosynthesis, plants, lycopene => lutein [PATH:map01100]
+            M01041  Bacterioruberin biosynthesis, archaea, lycopene => bacterioruberin [PATH:map01100]
+            M01042  Neurosporaxanthin biosynthesis, fungi, lycopene => neurosporaxanthin [PATH:map01100]
+            M01043  Okenone biosynthesis, bacteria, lycopene => okenone [PATH:map01100]
+            M01044  Astaxanthin biosynthesis, beta-carotene => astaxanthin [PATH:map01100]
+            M01045  Zeaxanthin biosynthesis, lycopene => beta-carotene => zeaxanthin [PATH:map01100]
+            M01046  Xanthophyll cycle [PATH:map01100]
+            M01047  Juvenile hormone biosynthesis, insects, farnesyl-PP => juvenile hormone III [PATH:map01100]
+REL_PATHWAY map00010  Glycolysis / Gluconeogenesis
+            map00020  Citrate cycle (TCA cycle)
+            map00030  Pentose phosphate pathway
+            map00040  Pentose and glucuronate interconversions
+            map00051  Fructose and mannose metabolism
+            map00052  Galactose metabolism
+            map00053  Ascorbate and aldarate metabolism
+            map00061  Fatty acid biosynthesis
+            map00062  Fatty acid elongation
+            map00071  Fatty acid degradation
+            map00073  Cutin, suberine and wax biosynthesis
+            map00074  Mycolic acid biosynthesis
+            map00100  Steroid biosynthesis
+            map00120  Primary bile acid biosynthesis
+            map00121  Secondary bile acid biosynthesis
+            map00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            map00140  Steroid hormone biosynthesis
+            map00190  Oxidative phosphorylation
+            map00195  Photosynthesis
+            map00196  Photosynthesis - antenna proteins
+            map00220  Arginine biosynthesis
+            map00230  Purine metabolism
+            map00232  Caffeine metabolism
+            map00240  Pyrimidine metabolism
+            map00250  Alanine, aspartate and glutamate metabolism
+            map00253  Tetracycline biosynthesis
+            map00254  Aflatoxin biosynthesis
+            map00260  Glycine, serine and threonine metabolism
+            map00261  Monobactam biosynthesis
+            map00270  Cysteine and methionine metabolism
+            map00280  Valine, leucine and isoleucine degradation
+            map00290  Valine, leucine and isoleucine biosynthesis
+            map00300  Lysine biosynthesis
+            map00310  Lysine degradation
+            map00311  Penicillin and cephalosporin biosynthesis
+            map00330  Arginine and proline metabolism
+            map00331  Clavulanic acid biosynthesis
+            map00332  Carbapenem biosynthesis
+            map00333  Prodigiosin biosynthesis
+            map00340  Histidine metabolism
+            map00350  Tyrosine metabolism
+            map00360  Phenylalanine metabolism
+            map00361  Chlorocyclohexane and chlorobenzene degradation
+            map00362  Benzoate degradation
+            map00363  Bisphenol degradation
+            map00364  Fluorobenzoate degradation
+            map00365  Furfural degradation
+            map00380  Tryptophan metabolism
+            map00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            map00401  Novobiocin biosynthesis
+            map00402  Benzoxazinoid biosynthesis
+            map00403  Indole diterpene alkaloid biosynthesis
+            map00404  Staurosporine biosynthesis
+            map00405  Phenazine biosynthesis
+            map00410  beta-Alanine metabolism
+            map00430  Taurine and hypotaurine metabolism
+            map00440  Phosphonate and phosphinate metabolism
+            map00450  Selenocompound metabolism
+            map00460  Cyanoamino acid metabolism
+            map00470  D-Amino acid metabolism
+            map00480  Glutathione metabolism
+            map00500  Starch and sucrose metabolism
+            map00510  N-Glycan biosynthesis
+            map00511  Other glycan degradation
+            map00512  Mucin type O-glycan biosynthesis
+            map00513  Various types of N-glycan biosynthesis
+            map00514  Other types of O-glycan biosynthesis
+            map00515  Mannose type O-glycan biosynthesis
+            map00520  Amino sugar and nucleotide sugar metabolism
+            map00521  Streptomycin biosynthesis
+            map00522  Biosynthesis of 12-, 14- and 16-membered macrolides
+            map00523  Polyketide sugar unit biosynthesis
+            map00524  Neomycin, kanamycin and gentamicin biosynthesis
+            map00525  Acarbose and validamycin biosynthesis
+            map00531  Glycosaminoglycan degradation
+            map00532  Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate
+            map00533  Glycosaminoglycan biosynthesis - keratan sulfate
+            map00534  Glycosaminoglycan biosynthesis - heparan sulfate / heparin
+            map00540  Lipopolysaccharide biosynthesis
+            map00541  Biosynthesis of various nucleotide sugars
+            map00542  O-Antigen repeat unit biosynthesis
+            map00543  Exopolysaccharide biosynthesis
+            map00550  Peptidoglycan biosynthesis
+            map00552  Teichoic acid biosynthesis
+            map00561  Glycerolipid metabolism
+            map00562  Inositol phosphate metabolism
+            map00563  Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+            map00564  Glycerophospholipid metabolism
+            map00565  Ether lipid metabolism
+            map00571  Lipoarabinomannan (LAM) biosynthesis
+            map00572  Arabinogalactan biosynthesis - Mycobacterium
+            map00590  Arachidonic acid metabolism
+            map00591  Linoleic acid metabolism
+            map00592  alpha-Linolenic acid metabolism
+            map00600  Sphingolipid metabolism
+            map00601  Glycosphingolipid biosynthesis - lacto and neolacto series
+            map00603  Glycosphingolipid biosynthesis - globo and isoglobo series
+            map00604  Glycosphingolipid biosynthesis - ganglio series
+            map00620  Pyruvate metabolism
+            map00621  Dioxin degradation
+            map00622  Xylene degradation
+            map00623  Toluene degradation
+            map00624  Polycyclic aromatic hydrocarbon degradation
+            map00625  Chloroalkane and chloroalkene degradation
+            map00626  Naphthalene degradation
+            map00627  Aminobenzoate degradation
+            map00630  Glyoxylate and dicarboxylate metabolism
+            map00633  Nitrotoluene degradation
+            map00640  Propanoate metabolism
+            map00642  Ethylbenzene degradation
+            map00643  Styrene degradation
+            map00650  Butanoate metabolism
+            map00660  C5-Branched dibasic acid metabolism
+            map00670  One carbon pool by folate
+            map00680  Methane metabolism
+            map00710  Carbon fixation by Calvin cycle
+            map00720  Other carbon fixation pathways
+            map00730  Thiamine metabolism
+            map00740  Riboflavin metabolism
+            map00750  Vitamin B6 metabolism
+            map00760  Nicotinate and nicotinamide metabolism
+            map00770  Pantothenate and CoA biosynthesis
+            map00780  Biotin metabolism
+            map00785  Lipoic acid metabolism
+            map00790  Folate biosynthesis
+            map00791  Atrazine degradation
+            map00830  Retinol metabolism
+            map00860  Porphyrin metabolism
+            map00900  Terpenoid backbone biosynthesis
+            map00901  Indole alkaloid biosynthesis
+            map00902  Monoterpenoid biosynthesis
+            map00903  Limonene degradation
+            map00904  Diterpenoid biosynthesis
+            map00905  Brassinosteroid biosynthesis
+            map00906  Carotenoid biosynthesis
+            map00907  Pinene, camphor and geraniol degradation
+            map00908  Zeatin biosynthesis
+            map00909  Sesquiterpenoid and triterpenoid biosynthesis
+            map00910  Nitrogen metabolism
+            map00920  Sulfur metabolism
+            map00930  Caprolactam degradation
+            map00940  Phenylpropanoid biosynthesis
+            map00941  Flavonoid biosynthesis
+            map00942  Anthocyanin biosynthesis
+            map00943  Isoflavonoid biosynthesis
+            map00944  Flavone and flavonol biosynthesis
+            map00946  Degradation of flavonoids
+            map00950  Isoquinoline alkaloid biosynthesis
+            map00960  Tropane, piperidine and pyridine alkaloid biosynthesis
+            map00965  Betalain biosynthesis
+            map00966  Glucosinolate biosynthesis
+            map00980  Metabolism of xenobiotics by cytochrome P450
+            map00981  Insect hormone biosynthesis
+            map00982  Drug metabolism - cytochrome P450
+            map00983  Drug metabolism - other enzymes
+            map00984  Steroid degradation
+            map00996  Biosynthesis of various alkaloids
+            map00997  Biosynthesis of various other secondary metabolites
+            map00998  Biosynthesis of various antibiotics
+            map00999  Biosynthesis of various plant secondary metabolites
+            map01040  Biosynthesis of unsaturated fatty acids
+            map01051  Biosynthesis of ansamycins
+            map01053  Biosynthesis of siderophore group nonribosomal peptides
+            map01055  Biosynthesis of vancomycin group antibiotics
+            map01056  Biosynthesis of type II polyketide backbone
+            map01057  Biosynthesis of type II polyketide products
+            map01059  Biosynthesis of enediyne antibiotics
+KO_PATHWAY  ko01100
+///

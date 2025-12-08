@@ -1,0 +1,17 @@
+ENTRY       map01320          Overview  Pathway
+NAME        Sulfur cycle
+DESCRIPTION Sulfur is one of the six most common chemical elements CHNOPS that constitute living organisms. This map shows a biogeochemical cycle of sulfur compounds and how different microorganisms are responsible for chemical transformations under different environments including atmospheric, hydrospheric and lithospheric environments. Details of chemical reactions and responsible enzymes are shown in map00920 for Sulfur metabolism. Here chemical transformations are represented by KEGG modules, including sulfur reduction [MD:M00986] [KO:K16952] from elemental sulfur to hydrogen sulfide by sulfur-reducing bacteria and archaea, sulfide oxidation [MD:M00985] from hydrogen sulfide to elemental sulfur by sulfur-oxidizing phototrophs, sulfur oxidataion [MD:M00595 M00984] from thiosulfate to sulfate by sulfur-oxidizing chemotrophs, dissimilatory sulfate reduction [MD:M00596] by sulfate-reducing bacteria and archaea, and assimilatory sulfate reduction [MD:M00176 M00987] by both prokaryotes and eukaryotes excluding animals.
+PATHWAY_MAP map01320  Sulfur cycle
+MODULE      M00021  Cysteine biosynthesis, serine => cysteine [PATH:map01320]
+            M00176  Assimilatory sulfate reduction, sulfate => H2S [PATH:map01320]
+            M00595  Sulfur oxidation, SOX system, thiosulfate => sulfate [PATH:map01320]
+            M00596  Dissimilatory sulfate reduction, sulfate => H2S [PATH:map01320]
+            M00984  Sulfur oxidation, tetrathionate intermediate (S4I) pathway, thiosulfate => sulfur + sulfate + thiosulfate [PATH:map01320]
+            M00985  Sulfide oxidation, sulfide => sulfur [PATH:map01320]
+            M00986  Sulfur reduction, sulfur => sulfide [PATH:map01320]
+            M00987  Assimilatory sulfate reduction, plants, sulfate => H2S [PATH:map01320]
+            M00991  Dimethylsulfoniopropionate (DMSP) degradation, cleavage pathway, DMSP => acetyl-CoA [PATH:map01320]
+            M00992  Dimethylsulfoniopropionate (DMSP) degradation, cleavage pathway, DMSP => acrylate => acetyl-CoA [PATH:map01320]
+            M00993  Dimethylsulfoniopropionate (DMSP) degradation, cleavage pathway, DMSP => propionyl-CoA [PATH:map01320]
+KO_PATHWAY  ko01320
+///

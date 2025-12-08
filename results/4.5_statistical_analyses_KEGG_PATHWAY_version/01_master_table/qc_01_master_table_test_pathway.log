@@ -1,0 +1,63 @@
+================================================================================
+Script 01: Build Master Table - PATHWAY
+  TEST MODE: Processing small subset only
+================================================================================
+
+A. Input Validation
+--------------------------------------------------------------------------------
+Using input file: /n/scratch/users/b/byc014/github/bac_genome_constraint/results/3.5_KEGG_n_reaction_analyses/all_pathway_counts_table_kegg_reaction.txt
+Loading pathway counts table...
+  ✓ File loaded successfully (TEST MODE: using first 50 genomes)
+  Number of genomes with pathway data: 50
+  Number of pathway categories: 202
+  Identified 202 pathway columns
+  ✓ All pathway columns are numeric
+  ✓ All pathway values are >= 0
+  ✓ Index contains unique genome identifiers
+
+B. Join Integrity Checks
+--------------------------------------------------------------------------------
+Joining pathway counts with feature matrix...
+  pathway counts index name: Genome
+  Feature matrix accession column: accession
+  Expected ≈3088 rows (all KEGG genomes)
+  Actual: 13 rows
+  Difference: 3075 genomes
+  ✗ WARNING: Unexpected join size; investigate missing or duplicated keys.
+    Difference (99.58%) exceeds 2% threshold
+  ✓ No duplicate accessions after join
+  Missing environments: 0 NaN, 0 empty, 0 'Unclassified'
+
+C. QC Filtering
+--------------------------------------------------------------------------------
+  Starting with 13 genomes
+  Completeness filter (>90):
+    NaN values treated as 0: 0
+    Lost: 0 genomes
+  Contamination filter (<5):
+    NaN values treated as 100: 1
+    Lost: 1 genomes
+  Genes filter (>0): Lost 0 genomes
+  Environment filter (not null/empty/'Unclassified'):
+    Lost: 0 genomes (0 null, 0 empty, 0 'Unclassified')
+  Total retained: 12 genomes
+  Total lost: 1 genomes
+
+D. Environment-Level Sanity Checks
+--------------------------------------------------------------------------------
+  Environment counts (sorted by genome count):
+    Aquatic: 5 genomes
+    Terrestrial: 3 genomes
+      ⚠ WARNING: Environment has < 5 genomes
+    Mammals: 2 genomes
+      ⚠ WARNING: Environment has < 5 genomes
+    Mammals: Human: 1 genomes
+      ⚠ WARNING: Environment has < 5 genomes
+    Wastewater: 1 genomes
+      ⚠ WARNING: Environment has < 5 genomes
+
+E. Writing Outputs
+--------------------------------------------------------------------------------
+  ✓ master_table_raw_test_pathway.tsv: 13 rows
+  ✓ master_table_high_quality_test_pathway.tsv: 12 rows
+  ✓ environment_counts_all_test_pathway.tsv: 5 environments

@@ -1,0 +1,18 @@
+ENTRY       R00371                      Reaction
+NAME        acetyl-CoA:glycine C-acetyltransferase
+DEFINITION  Acetyl-CoA + Glycine <=> CoA + L-2-Amino-3-oxobutanoic acid
+EQUATION    C00024 + C00037 <=> C00010 + C03508
+RCLASS      RC00004  C00010_C00024
+            RC00394  C00037_C03508
+ENZYME      2.3.1.29
+PATHWAY     rn00260  Glycine, serine and threonine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.29
+                 R00371  Acetyl-CoA + Glycine <=> CoA + L-2-Amino-3-oxobutanoic acid
+ORTHOLOGY   K00639  glycine C-acetyltransferase [EC:2.3.1.29]
+DBLINKS     RHEA: 20739
+///

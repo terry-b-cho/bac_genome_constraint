@@ -1,0 +1,245 @@
+ENTRY       K13799                      KO
+SYMBOL      panC-cmk
+NAME        pantoate ligase / CMP/dCMP kinase [EC:6.3.2.1 2.7.4.25]
+PATHWAY     map00240  Pyrimidine metabolism
+            map00410  beta-Alanine metabolism
+            map00770  Pantothenate and CoA biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01232  Nucleotide metabolism
+            map01240  Biosynthesis of cofactors
+MODULE      M00119  Pantothenate biosynthesis, valine/L-aspartate => pantothenate
+REACTION    R00512  ATP:CMP phosphotransferase
+            R01665  ATP:dCMP phosphotransferase
+            R02473  (R)-pantoate:beta-alanine ligase (AMP-forming)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09104 Nucleotide metabolism
+               00240 Pyrimidine metabolism
+                K13799  panC-cmk; pantoate ligase / CMP/dCMP kinase
+              09106 Metabolism of other amino acids
+               00410 beta-Alanine metabolism
+                K13799  panC-cmk; pantoate ligase / CMP/dCMP kinase
+              09108 Metabolism of cofactors and vitamins
+               00770 Pantothenate and CoA biosynthesis
+                K13799  panC-cmk; pantoate ligase / CMP/dCMP kinase
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.7  Transferring phosphorus-containing groups
+               2.7.4  Phosphotransferases with a phosphate group as acceptor
+                2.7.4.25  (d)CMP kinase
+                 K13799  panC-cmk; pantoate ligase / CMP/dCMP kinase
+             6. Ligases
+              6.3  Forming carbon-nitrogen bonds
+               6.3.2  Acid-D-amino-acid ligases (peptide synthases)
+                6.3.2.1  pantoate---beta-alanine ligase (AMP-forming)
+                 K13799  panC-cmk; pantoate ligase / CMP/dCMP kinase
+DBLINKS     COG: COG0414 COG0283
+            GO: 0004592 0036430 0036431
+GENES       FVG: I6G91_03015
+            APV: Apar_0725
+            OLS: Olsu_0916
+            ATB: J4859_09065
+            SYN: sll1249(panC_kcy)
+            SYZ: MYO_116050(panC_kcy)
+            SYY: SYNGTS_1590(panC_kcy)
+            SYT: SYNGTI_1590(panC_kcy)
+            SYS: SYNPCCN_1589(panC_kcy)
+            SYQ: SYNPCCP_1589(panC_kcy)
+            SYJ: D082_11030(panC)
+            SYO: C7I86_08245
+            SYNH: HTZ78_12005
+            SYNS: OLK001_09320(panC)
+            SYC: syc0399_d(panC)
+            SYU: M744_10895
+            SYF: Synpcc7942_1151
+            SYD: Syncc9605_0416
+            SYE: Syncc9902_1914
+            SYG: sync_0483(panC_cmk)
+            SYR: SynRCC307_2069
+            SYX: SynWH7803_0474
+            CYA: CYA_2663(panC_cmk)
+            CYB: CYB_2425(panC_cmk)
+            SYNE: Syn6312_1635
+            SYNP: Syn7502_01105
+            SYNK: KR100_03595
+            SYNR: KR49_11150
+            SYND: KR52_00335
+            SYH: Syncc8109_0433(panC)
+            SYNW: SynWH8103_02331(panC_cmk)
+            SYNC: CB0101_10405
+            SYNY: BM449_08870
+            SYNZ: H8F24_08580
+            SYNL: KJJ24_09595
+            SYNO: LY254_06470
+            SYNU: SynWH8101_0516
+            SYW: SYNW2027(panC)
+            CGC: Cyagr_1643
+            CYI: CBM981_1811(panC_cmk)
+            PMA: Pro_1746(cmk)
+            PMM: PMM1590(panC)
+            PMT: PMT_1689
+            PMN: PMN2A_1165
+            PMI: PMT9312_1682
+            PMB: A9601_17991(cmk)
+            PMC: P9515_17771(cmk)
+            PMF: P9303_22471(panC)
+            PMG: P9301_17821(cmk)
+            PMH: P9215_18631(cmk)
+            PMJ: P9211_17111(cmk)
+            PME: NATL1_20401(cmk)
+            PRC: EW14_1947
+            PRM: EW15_2111
+            WNA: KA717_27965
+            CYN: Cyan7425_3339
+            CEP: Cri9333_3013
+            TVN: NIES2134_101140(panC)
+            SLW: BRW62_09420
+            TEL: tll2450(panC)
+            THN: NK55_00740(panC)
+            THEC: FFX45_12625
+            THEY: JW907_12495
+            TSQ: D3A95_02455
+            AMR: AM1_2620(cmk)
+            ACAM: HRE53_10195
+            TSZ: OOK60_17795
+            LEN: LEP3755_18650
+            LET: O77CONTIG1_03019(panC)
+            LBO: LBWT_17560
+            LEPB: GFS31_25920
+            KOV: K9N68_22015
+            LSC: KIK02_22635(panC)
+            LSK: J5X98_22035
+            SFRI: RBJ76_24670
+            HHG: XM38_027530(panC_cmk)
+            DSL: Dacsa_2379
+            PSEU: Pse7367_3289
+            PSER: ABRG53_1559(panC)
+            PGX: OA858_20390
+            THEU: HPC62_15915
+            TOG: HNI00_20395
+            TSIN: OXH18_20410
+            GLP: Glo7428_1571
+            CHON: NIES4102_03040
+            GDU: P0S91_17985
+            GEN: GM3709_850
+            GEE: GM3708_80
+            CAN: Cyan10605_1753
+            CSN: Cyast_1414
+            CYL: AA637_05160(panC-cmk)
+            CYR: A5482_012450
+            CYD: Dongsha4_10645(panC)
+            SYP: SYNPCC7002_A0343(panC)
+            SYV: AWQ23_01865
+            SYL: AWQ21_01765
+            LEP: Lepto7376_0563
+            SYNN: NIES970_06820(panC)
+            PIP: FEK30_05790
+            MAR: MAE_54350(panC)
+            MPK: VL20_6398
+            MIQ: B5D77_21895
+            MVZ: myaer102_26870(panC)
+            MIBL: ACE3JL_22480
+            MICD: ACQY1Y_17185
+            MPRC: ACQY1X_17255
+            HAO: PCC7418_0169
+            ENN: FRE64_08675
+            CYU: UCYN_03860
+            CYT: cce_3686(panC)
+            CWA: CwatDRAFT_6150
+            CYP: PCC8801_1080
+            CYH: Cyan8802_1109
+            CYC: PCC7424_5340
+            CYJ: Cyan7822_5599
+            TER: Tery_2799
+            PAGH: NIES204_39580(panC)
+            PPSU: NO713_03763(panC_cmk)
+            PRUN: PCC7821_04712(panC_cmk)
+            MVAG: D0A34_09325
+            LFS: HFV01_10835
+            LIX: H2674_15040
+            ARP: NIES39_O06380
+            CSAU: ACL6C3_29555
+            OXY: HCG48_19985
+            OAC: Oscil6304_4169
+            PHOR: JWS08_04200
+            PYH: NEA10_08755
+            ONI: Osc7112_2235
+            MIC: Mic7113_0469
+            MPRO: BJP34_31395
+            GEI: GEI7407_2826
+            GVI: gll1806
+            GLJ: GKIL_1508(panC)
+            GML: ISF26_08480
+            ANA: alr2936(panC)
+            NPU: Npun_R6492
+            NOS: Nos7107_1507
+            NOP: Nos7524_1029
+            NON: NOS3756_04120
+            NFL: COO91_00329
+            NOE: CLI64_09635
+            NSH: GXM_05973
+            NED: HUN01_28695
+            NPZ: ACX27_01255
+            NLK: NIES25_54300
+            NCW: NIES2107_28040
+            NCF: ANSO36C_07540(panC_cmk)
+            NOST: GJB62_26125
+            NOSU: JYQ62_14060
+            NOSQ: PQG02_27510
+            NOSC: L6494_10250
+            AVA: Ava_0964
+            NAZ: Aazo_4282
+            ANB: ANA_C10605(panC)
+            ACY: Anacy_0164
+            AWA: AA650_12265
+            ANN: EH233_02550
+            CSG: Cylst_3988
+            RSIN: B6N60_03900
+            HBQ: QI031_21380
+            NSPH: BDGGKGIB_02738(panC)
+            AEE: IM676_14000
+            CALO: Cal7507_0531
+            CALT: Cal6303_1434
+            CALH: IJ00_16420
+            CALN: NIES2098_02000
+            CALS: NIES3974_27170(panC)
+            RIV: Riv7116_2712
+            MDP: NIES3275_13710
+            FIS: FIS3754_39500
+            DOU: BMF77_01126(panC)
+            DFS: HGD76_12415
+            DHT: NG743_03055
+            DCM: NIES806_01710
+            DOT: EZY12_16120
+            DOZ: HEP80_14080
+            DOC: HEQ26_19255
+            CCUR: IAR63_09405
+            CRK: L3I90_15115
+            AFLO: HEQ12_05240
+            STOQ: K2F26_09645
+            SKV: NIES73_41010
+            RCS: NIES932_08610
+            OCF: WJM97_22590
+            TOQ: HCG51_00545
+            TTQ: NIES37_35290
+            TOI: HG267_35525
+            TOZ: HGR01_19235
+            ALAX: NIES50_51270
+            SCYT: SAMD_38520
+            SCYS: NIES4073_57610
+            BSEN: DP114_13840
+            BOX: DP113_13780
+            NCN: BZZ01_30785
+            CTHE: Chro_5518
+            PLP: Ple7327_2786
+            SCS: Sta7437_3589
+            STAN: STA3757_31830
+            GLT: GlitD10_0906(panC-cmk)
+            GCY: LQF76_05145
+            CEO: ETSB_1490(panC)
+            CER: RGRSB_1525(panC)
+            CEEC: P3F56_07575
+            MPG: Theba_1041
+            MINF: MESINF_2617
+///

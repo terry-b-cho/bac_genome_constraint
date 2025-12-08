@@ -1,0 +1,19 @@
+ENTRY       R00411                      Reaction
+NAME        N-succinyl-L-glutamate amidohydrolase
+DEFINITION  N-Succinyl-L-glutamate + H2O <=> L-Glutamate + Succinate
+EQUATION    C05931 + C00001 <=> C00025 + C00042
+RCLASS      RC00064  C00025_C05931
+            RC00090  C00042_C05931
+ENZYME      3.5.1.96
+PATHWAY     rn00330  Arginine and proline metabolism
+            rn01100  Metabolic pathways
+MODULE      M00879  Arginine succinyltransferase pathway, arginine => glutamate
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.1  In linear amides
+                3.5.1.96
+                 R00411  N-Succinyl-L-glutamate + H2O <=> L-Glutamate + Succinate
+ORTHOLOGY   K05526  succinylglutamate desuccinylase [EC:3.5.1.96]
+DBLINKS     RHEA: 15172
+///

@@ -1,0 +1,260 @@
+ENTRY       rn00130                     Pathway
+NAME        Ubiquinone and other terpenoid-quinone biosynthesis
+DESCRIPTION Ubiquinone (UQ), also called coenzyme Q, and plastoquinone (PQ) are electron carriers in oxidative phosphorylation and photosynthesis, respectively. The quinoid nucleus of ubiquinone is derived from the shikimate pathway; 4-hydroxybenzoate is directly formed from chorismate in bacteria, while it can be formed from either chorismate or tyrosine in yeast. The following biosynthesis of terpenoid moiety involves reactions of prenylation, decarboxylation, and three hydroxylations alternating with three methylations. The order of these reactions are somewhat different between bacteria and yeast. Phylloquinone (vitamin K1), menaquinone (vitamin K2), and tocopherol (vitamin E) are fat-soluble vitamins. Phylloquinone is a compound present in all photosynthetic plants serving as a cofactor for photosystem I-mediated electron transport. Menaquinone is an obligatory component of the electron-transfer pathway in bacteria.
+CLASS       Metabolism; Metabolism of cofactors and vitamins
+PATHWAY_MAP rn00130  Ubiquinone and other terpenoid-quinone biosynthesis
+MODULE      M00112  Tocopherol/tocotorienol biosynthesis, homogentisate + phytyl/geranylgeranyl-PP => tocopherol/tocotorienol [PATH:rn00130]
+            M00116  Menaquinone biosynthesis, chorismate (+ polyprenyl-PP) => menaquinol [PATH:rn00130]
+            M00117  Ubiquinone biosynthesis, prokaryotes, chorismate (+ polyprenyl-PP) => ubiquinol [PATH:rn00130]
+            M00128  Ubiquinone biosynthesis, eukaryotes, 4-hydroxybenzoate + polyprenyl-PP => ubiquinone [PATH:rn00130]
+            M00930  Menaquinone biosynthesis, futalosine pathway [PATH:rn00130]
+            M00931  Menaquinone biosynthesis, modified futalosine pathway [PATH:rn00130]
+            M00932  Phylloquinone biosynthesis, chorismate (+ phytyl-PP) => phylloquinol [PATH:rn00130]
+            M00933  Plastoquinone biosynthesis, homogentisate + solanesyl-PP => plastoquinol [PATH:rn00130]
+            M00989  Ubiquinone biosynthesis, O2-independent, prokaryotes, chorismate (+ polyprenyl-PP) => ubiquinol [PATH:rn00130]
+DBLINKS     GO: 0006744 0009234 0042372
+REACTION    R00734  L-tyrosine:2-oxoglutarate aminotransferase
+            R01301  4-hydroxybenzoyl-CoA hydrolase
+            R01302  chorismate pyruvate-lyase (4-hydroxybenzoate-forming)
+            R01304  UDP-glucose:4-hydroxybenzoate 4-O-beta-D-glucosyltransferase
+            R01616  4-coumarate:CoA ligase (AMP-forming)
+            R01717  chorismate hydroxymutase
+            R02253  trans-cinnamate,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (4-hydroxylating)
+            R02521  4-hydroxyphenylpyruvate:oxygen oxidoreductase (hydroxylating,decarboxylating)
+            R02964  NADH:menaquinone oxidoreductase
+            R03337  (R)-3-(4-hydroxyphenyl)lactate:NAD+ 2-oxidoreductase
+            R03339  (R)-3-(4-hydroxyphenyl)lactate:NADP+ 2-oxidoreductase
+            R03511  phylloquinone:oxidized-dithiothreitol oxidoreductase
+            R03816  NADH:phylloquinone oxidoreductase
+            R04030  O-succinylbenzoate:CoA ligase (AMP-forming)
+            R04031  (1R,6R)-6-hydroxy-2-succinylcyclohexa-2,4-diene-1-carboxylate hydrolyase (2-succinylbenzoate-forming)
+            R04985  4-hydroxy-3-polyprenylbenzoate carboxy-lyase
+            R04994  S-adenosyl-L-methionine:2-phytyl-1,4-naphthoquinol C-methyltransferase
+            R05000  polyisopentenylpyrolinate:4-hydroxybenzoate nonaprenyltransferase
+            R05144  peptidyl-glutamate 4-carboxylase (2-methyl-3-phytyl-1,4-naphthoquinone-epoxidizing)
+            R05454  
+            R05455  
+            R07236  S-adenosyl-L-methionine:gamma-tocopherol 5-O-methyltransferase
+            R07262  1,4-dihydroxy-2-naphthoyl-CoA hydrolase
+            R07263  4-(2-carboxyphenyl)-4-oxobutanoyl-CoA dehydratase (cyclizing)
+            R07500  phytyl-diphosphate:homogentisate phytyltransferase (decarboxylating)
+            R07501  S-adenosyl-L-methionine:2-methyl-6-phytyl-1,4-benzoquinol C3-methyltransferase
+            R07502  gamma-tocopherol lyase (decyclizing)
+            R07503  delta-tocopherol lyase (decyclizing)
+            R07504  S-adenosyl-L-methionine:delta-tocopherol 5-O-methyltransferase
+            R07508  
+            R08165  2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate synthase
+            R08166  2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase
+            R08587  futalosine ribohydrolase
+            R08588  dehypoxanthine futalosine:S-adenosyl-L-methionine oxidoreductase (cyclizing)
+            R08589  cyclic dehypoxanthine futalosine lyase (dihydroxyacetone-forming)
+            R08596  
+            R08766  3-(4-hydroxyphenyl)lactate hydro-lyase (4-coumarate-forming)
+            R08767  
+            R08768  2-(all-trans-polyprenyl)phenol,NADPH:oxygen oxidoreductase (6-hydroxylating)
+            R08769  S-adenosyl-L-methionine:2-polyprenyl-6-hydroxyphenol 6-O-methyltransferase; S-adenosyl-L-methionine:3-(all-trans-polyprenyl)benzene-1,2-diol 2-O-methyltransferase
+            R08770  4-hydroxy-3-all-trans-polyprenylbenzoate,ferredoxin:oxygen oxidoreductase (5-hydroxylating)
+            R08771  S-adenosyl-L-methionine:3,4-dihydroxy-5-polyprenylbenzoate 3-O-methyltransferase
+            R08772  4-hydroxy-3-methoxy-5-all-trans-polyprenylbenzoate carboxy-lyase
+            R08781  S-adenosyl-L-methionine:3-hydroxy-2-methoxy-5-methyl-6-(all-trans-polyprenyl)-1,4-benzoquinone 3-O-methyltransferase
+            R08782  all-trans-nonaprenyl-diphosphate:homogentisate nonaprenyltransferase (decarboxylating)
+            R09039  4-(beta-D-glucosyloxy)benzoate glucohydrolase
+            R09040  geranyl-diphosphate:4-hydroxybenzoate geranyltransferase
+            R09041  
+            R09042  geranylhydroquinone,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (3''-hydroxylating)
+            R09043  
+            R09044  
+            R09045  
+            R09046  
+            R09736  S-adenosyl-L-methione:demethylmenaquinol methyltransferase
+            R09737  S-adenosyl-L-methionine:2-methoxy-6-all-trans-polyprenyl-1,4-benzoquinol 5-C-methyltransferase
+            R09991  peptidyl-glutamate 4-carboxylase (menaquinone-epoxidizing)
+            R09992  menaquinone:oxidized-dithiothreitol oxidoreductase
+            R10491  S-adenosyl-L-methionine:gamma-tocotrienol 5-O-methyltransferase
+            R10492  S-adenosyl-L-methionine:delta-tocotrienol 5-O-methyltransferase
+            R10623  delta-tocotrienol lyase (decyclizing)
+            R10624  gamma-tocotrienol lyase (decyclizing)
+            R10666  chorismate hydro-lyase (3-[(1-carboxyvinyl)oxy]benzoate-forming)
+            R10667  S-adenosyl-L-methionine:3-[(1-carboxyvinyl)-oxy]benzoate adenosyltransferase (bicarbonate-hydrolysing, 6-amino-6-deoxyfutalosine-forming)
+            R10668  6-amino-6-deoxyfutalosine ribohydrolase
+            R10695  6-amino-6-deoxyfutalosine deaminase
+            R10708  geranylgeranyl-diphosphate:homogentisate geranylgeranyltransferase
+            R10709  S-adenosyl-L-methionine:2-methyl-6-solanyl-1,4-benzoquinol C3-methyltransferase
+            R10710  S-adenosyl-L-methionine:6-geranylgeranyl-2-methylbenzene-1,4-diol C3-methyltransferase
+            R10757  all-trans-polyprenyl-diphosphate:1,4-dihydroxy-2-naphthoate polyprenyltransferase
+            R11061  NADPH:demethylphylloquinone oxidoreductase
+            R12067  5-methoxy-2-methyl-3-(all-trans-polyprenyl)benzene-1,4-diol,acceptor:oxygen oxidoreductase (5-hydroxylating)
+            R12254  
+            R12255  phytyl-diphosphate:2-carboxy-1,4-naphthoquinone phytyltransferase
+            R12657  S-adenosyl-L-methionine:3-demethylubiquinol 3-O-methyltransferase
+            R12658  
+            R13408  5-methoxy-2-methyl-3-(all-trans-polyprenyl)benzoquinone,NADH:oxygen oxidoreductase (5-hydroxylating)
+            R13426  2-methoxy-6-(all-trans-polyprenyl)phenol,ferredoxin:oxygen oxidoreductase (4-hydroxylating)
+            R13439  prephenate,acceptor:2-(all-trans-polyprenyl)phenol oxidoreductase (6-hydroxylating)
+            R13440  2-polyprenyl-6-methoxyphenol,acceptor:2-(all-trans-polyprenyl)phenol oxidoreductase (4-hydroxylating)
+            R13441  5-methoxy-2-methyl-3-(all-trans-polyprenyl)benzene-1,4-diol,acceptor:2-(all-trans-polyprenyl)phenol oxidoreductase (3-hydroxylating)
+            R13456  
+COMPOUND    C00082  L-Tyrosine
+            C00156  4-Hydroxybenzoate
+            C00223  p-Coumaroyl-CoA
+            C00251  Chorismate
+            C00341  Geranyl diphosphate
+            C00353  Geranylgeranyl diphosphate
+            C00390  Ubiquinol
+            C00399  Ubiquinone
+            C00423  trans-Cinnamate
+            C00544  Homogentisate
+            C00811  4-Coumarate
+            C00828  Menaquinone
+            C00885  Isochorismate
+            C01179  3-(4-Hydroxyphenyl)pyruvate
+            C02059  Phylloquinone
+            C02477  alpha-Tocopherol
+            C02483  gamma-Tocopherol
+            C02730  2-Succinylbenzoate
+            C02949  4-Hydroxybenzoyl-CoA
+            C03160  2-Succinylbenzoyl-CoA
+            C03313  Phylloquinol
+            C03657  1,4-Dihydroxy-2-naphthoate
+            C03964  (R)-3-(4-Hydroxyphenyl)lactate
+            C03993  4-(beta-D-Glucosyloxy)benzoate
+            C04145  all-trans-Nonaprenyl diphosphate
+            C05427  Phytyl diphosphate
+            C05807  2-Polyprenylphenol
+            C05817  (1R,6R)-6-Hydroxy-2-succinylcyclohexa-2,4-diene-1-carboxylate
+            C05819  Menaquinol
+            C05847  all-trans-Polyprenyl diphosphate
+            C05848  4-Hydroxy-3-polyprenylbenzoate
+            C05849  Vitamin K1 epoxide
+            C06986  Spirodilactone
+            C10793  Geranylhydroquinone
+            C13309  2-Phytyl-1,4-naphthoquinone
+            C14151  delta-Tocopherol
+            C14152  beta-Tocopherol
+            C14153  alpha-Tocotrienol
+            C14154  beta-Tocotrienol
+            C14155  gamma-Tocotrienol
+            C14156  delta-Tocotrienol
+            C15547  1,4-Dihydroxy-2-naphthoyl-CoA
+            C15882  2-Methyl-6-phytylquinol
+            C15883  2,3-Dimethyl-5-phytylquinol
+            C16519  2-Succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate
+            C16695  Plastoquinol-9
+            C16999  Futalosine
+            C17010  Dehypoxanthine futalosine
+            C17017  Cyclic dehypoxanthine futalosine
+            C17018  1,4-Dihydroxy-6-naphthoate
+            C17412  Shikonin
+            C17551  2-Polyprenyl-6-hydroxyphenol
+            C17552  2-Polyprenyl-6-methoxyphenol
+            C17554  3,4-Dihydroxy-5-polyprenylbenzoate
+            C17559  3-Methoxy-4-hydroxy-5-polyprenylbenzoate
+            C17561  2-Polyprenyl-3-methyl-6-methoxy-1,4-benzoquinone
+            C17562  2-Polyprenyl-3-methyl-5-hydroxy-6-methoxy-1,4-benzoquinone
+            C17570  2-Methyl-6-solanyl-1,4-benzoquinol
+            C18131  Geranyl-hydroxybenzoate
+            C18132  3''-Hydroxy-geranylhydroquinone
+            C18133  Deoxyshikonin
+            C18134  Dihydroechinofuran
+            C18135  Dihydroshikonofuran
+            C19847  Demethylmenaquinol
+            C19858  2-Methoxy-6-all-trans-polyprenyl-1,4-benzoquinol
+            C19859  5-Methoxy-2-methyl-3-(all-trans-polyprenyl)benzene-1,4-diol
+            C20265  2,3-Epoxymenaquinone
+            C20737  6-Geranylgeranyl-2-methylbenzene-1,4-diol
+            C20738  6-Geranylgeranyl-2,3-dimethylbenzene-1,4-diol
+            C20772  3-[(1-Carboxyvinyl)oxy]benzoate
+            C20773  6-Amino-6-deoxyfutalosine
+            C21084  Demethylphylloquinol
+            C21860  3-Demethylubiquinol
+            C22039  2-Carboxy-1,4-naphthoquinone
+REFERENCE   PMID:12908086
+  AUTHORS   Ward MJ, Fu QS, Rhoads KR, Yeung CH, Spormann AM, Criddle CS.
+  TITLE     A derivative of the menaquinone precursor 1,4-dihydroxy-2-naphthoate is involved in the reductive transformation of carbon tetrachloride by aerobically grown Shewanella oneidensis MR-1.
+  JOURNAL   Appl Microbiol Biotechnol 63:571-7 (2004)
+            DOI:10.1007/s00253-003-1407-3
+REFERENCE   PMID:14499605
+  AUTHORS   Monzingo AF, Gao J, Qiu J, Georgiou G, Robertus JD.
+  TITLE     The X-ray structure of Escherichia coli RraA (MenG), A protein inhibitor of RNA processing.
+  JOURNAL   J Mol Biol 332:1015-24 (2003)
+            DOI:10.1016/S0022-2836(03)00970-7
+REFERENCE   PMID:11470786
+  AUTHORS   Johnson TW, Zybailov B, Jones AD, Bittl R, Zech S, Stehlik D, Golbeck JH, Chitnis PR.
+  TITLE     Recruitment of a foreign quinone into the A1 site of photosystem I. In vivo replacement of plastoquinone-9 by media-supplemented naphthoquinones in phylloquinone biosynthetic pathway mutants of Synechocystis sp. PCC 6803.
+  JOURNAL   J Biol Chem 276:39512-21 (2001)
+            DOI:10.1074/jbc.M104040200
+REFERENCE   PMID:12615349
+  AUTHORS   Wade Johnson T, Naithani S, Stewart C Jr, Zybailov B, Daniel Jones A, Golbeck JH, Chitnis PR.
+  TITLE     The menD and menE homologs code for 2-succinyl-6-hydroxyl-2,4-cyclohexadiene-1-carboxylate synthase and O-succinylbenzoic acid-CoA synthase in the phylloquinone biosynthetic pathway of Synechocystis sp. PCC 6803.
+  JOURNAL   Biochim Biophys Acta 1557:67-76 (2003)
+            DOI:10.1016/S0005-2728(02)00396-1
+REFERENCE   PMID:12721307
+  AUTHORS   Gin P, Hsu AY, Rothman SC, Jonassen T, Lee PT, Tzagoloff A, Clarke CF.
+  TITLE     The Saccharomyces cerevisiae COQ6 gene encodes a mitochondrial flavin-dependent monooxygenase required for coenzyme Q biosynthesis.
+  JOURNAL   J Biol Chem 278:25308-16 (2003)
+            DOI:10.1074/jbc.M303234200
+REFERENCE   PMID:18284213
+  AUTHORS   Jiang M, Chen X, Guo ZF, Cao Y, Chen M, Guo Z.
+  TITLE     Identification and Characterization of (1R,6R)-2-Succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate Synthase in the Menaquinone Biosynthesis of Escherichia coli.
+  JOURNAL   Biochemistry 47:3426-34 (2008)
+            DOI:10.1021/bi7023755
+REFERENCE   PMID:17760421
+  AUTHORS   Jiang M, Cao Y, Guo ZF, Chen M, Chen X, Guo Z.
+  TITLE     Menaquinone biosynthesis in Escherichia coli: identification of 2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate as a novel intermediate and re-evaluation of MenD activity.
+  JOURNAL   Biochemistry 46:10979-89 (2007)
+            DOI:10.1021/bi700810x
+REFERENCE   PMID:17956107
+  AUTHORS   Jiang M, Chen M, Cao Y, Yang Y, Sze KH, Chen X, Guo Z.
+  TITLE     Determination of the stereochemistry of 2-succinyl-5-enolpyruvyl-6-hydroxy-3- cyclohexene-1-carboxylate, a key intermediate in menaquinone biosynthesis.
+  JOURNAL   Org Lett 9:4765-7 (2007)
+            DOI:10.1021/ol702126m
+REFERENCE   PMID:18801996
+  AUTHORS   Hiratsuka T, Furihata K, Ishikawa J, Yamashita H, Itoh N, Seto H, Dairi T
+  TITLE     An alternative menaquinone biosynthetic pathway operating in microorganisms.
+  JOURNAL   Science 321:1670-3 (2008)
+            DOI:10.1126/science.1160446
+REFERENCE   PMID:12232327
+  AUTHORS   Loscher R, Heide L
+  TITLE     Biosynthesis of p-Hydroxybenzoate from p-Coumarate and p-Coumaroyl-Coenzyme A in Cell-Free Extracts of Lithospermum erythrorhizon Cell Cultures.
+  JOURNAL   Plant Physiol 106:271-279 (1994)
+            DOI:10.1104/pp.106.1.271
+REFERENCE   PMID:11583838
+  AUTHORS   Meganathan R
+  TITLE     Ubiquinone biosynthesis in microorganisms.
+  JOURNAL   FEMS Microbiol Lett 203:131-9 (2001)
+            DOI:10.1111/j.1574-6968.2001.tb10831.x
+REFERENCE   PMID:14508009
+  AUTHORS   Cheng Z, Sattler S, Maeda H, Sakuragi Y, Bryant DA, DellaPenna D
+  TITLE     Highly divergent methyltransferases catalyze a conserved reaction in tocopherol and plastoquinone synthesis in cyanobacteria and photosynthetic eukaryotes.
+  JOURNAL   Plant Cell 15:2343-56 (2003)
+            DOI:10.1105/tpc.013656
+REFERENCE   PMID:16989822
+  AUTHORS   Sadre R, Gruber J, Frentzen M
+  TITLE     Characterization of homogentisate prenyltransferases involved in plastoquinone-9 and tocochromanol biosynthesis.
+  JOURNAL   FEBS Lett 580:5357-62 (2006)
+            DOI:10.1016/j.febslet.2006.09.002
+REFERENCE   PMID:12523993
+  AUTHORS   Hofius D, Sonnewald U.
+  TITLE     Vitamin E biosynthesis: biochemistry meets cell biology.
+  JOURNAL   Trends Plant Sci 8:6-8 (2003)
+            DOI:10.1016/S1360-1385(02)00002-X
+REFERENCE   PMID:16233343
+  AUTHORS   Kawamukai M
+  TITLE     Biosynthesis, bioproduction and novel roles of ubiquinone.
+  JOURNAL   J Biosci Bioeng 94:511-7 (2002)
+            DOI:10.1016/S1389-1723(02)80188-8
+REFERENCE   PMID:21239697
+  AUTHORS   Tie JK, Jin DY, Straight DL, Stafford DW
+  TITLE     Functional study of the vitamin K cycle in mammalian cells.
+  JOURNAL   Blood 117:2967-74 (2011)
+            DOI:10.1182/blood-2010-08-304303
+REFERENCE   PMID:23113660
+  AUTHORS   Zhou L, Wang JY, Wu J, Wang J, Poplawsky A, Lin S, Zhu B, Chang C, Zhou T, Zhang LH, He YW
+  TITLE     The diffusible factor synthase XanB2 is a bifunctional chorismatase that links the shikimate pathway to ubiquinone and xanthomonadins biosynthetic pathways.
+  JOURNAL   Mol Microbiol 87:80-93 (2013)
+            DOI:10.1111/mmi.12084
+REL_PATHWAY rn00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            rn00900  Terpenoid backbone biosynthesis
+            rn00940  Phenylpropanoid biosynthesis
+KO_PATHWAY  ko00130
+///

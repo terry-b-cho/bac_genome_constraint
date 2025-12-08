@@ -1,0 +1,16 @@
+ENTRY       map00650                    Pathway
+NAME        Butanoate metabolism
+CLASS       Metabolism; Carbohydrate metabolism
+PATHWAY_MAP map00650  Butanoate metabolism
+MODULE      M00027  GABA (gamma-Aminobutyrate) shunt [PATH:map00650]
+            M00088  Ketone body biosynthesis, acetyl-CoA => acetoacetate/3-hydroxybutyrate/acetone [PATH:map00650]
+DBLINKS     GO: 0019605
+REL_PATHWAY map00010  Glycolysis / Gluconeogenesis
+            map00020  Citrate cycle (TCA cycle)
+            map00250  Alanine, aspartate and glutamate metabolism
+            map00330  Arginine and proline metabolism
+            map00620  Pyruvate metabolism
+            map00750  Vitamin B6 metabolism
+            map01056  Biosynthesis of type II polyketide backbone
+KO_PATHWAY  ko00650
+///

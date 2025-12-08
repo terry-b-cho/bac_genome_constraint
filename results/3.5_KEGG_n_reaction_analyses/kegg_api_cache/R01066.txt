@@ -1,0 +1,18 @@
+ENTRY       R01066                      Reaction
+NAME        2-deoxy-D-ribose-5-phosphate acetaldehyde-lyase (D-glyceraldehyde-3-phosphate-forming)
+DEFINITION  2-Deoxy-D-ribose 5-phosphate <=> D-Glyceraldehyde 3-phosphate + Acetaldehyde
+EQUATION    C00673 <=> C00118 + C00084
+RCLASS      RC00436  C00084_C00673
+            RC00437  C00118_C00673
+ENZYME      4.1.2.4
+PATHWAY     rn00030  Pentose phosphate pathway
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.2  Aldehyde-lyases
+                4.1.2.4
+                 R01066  2-Deoxy-D-ribose 5-phosphate <=> D-Glyceraldehyde 3-phosphate + Acetaldehyde
+ORTHOLOGY   K01619  deoxyribose-phosphate aldolase [EC:4.1.2.4]
+DBLINKS     RHEA: 12824
+///

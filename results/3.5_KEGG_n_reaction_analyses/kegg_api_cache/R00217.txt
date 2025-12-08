@@ -1,0 +1,24 @@
+ENTRY       R00217                      Reaction
+NAME        oxaloacetate carboxy-lyase (pyruvate-forming)
+DEFINITION  Oxaloacetate <=> Pyruvate + CO2
+EQUATION    C00036 <=> C00022 + C00011
+RCLASS      RC00040  C00022_C00036
+ENZYME      1.1.1.38        1.1.1.40        4.1.1.112
+PATHWAY     rn00620  Pyruvate metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.38
+                 R00217  Oxaloacetate <=> Pyruvate + CO2
+                1.1.1.40
+                 R00217  Oxaloacetate <=> Pyruvate + CO2
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.1  Carboxy-lyases
+                4.1.1.112
+                 R00217  Oxaloacetate <=> Pyruvate + CO2
+ORTHOLOGY   K01003  oxaloacetate decarboxylase [EC:4.1.1.112]
+DBLINKS     RHEA: 15644
+///

@@ -1,0 +1,20 @@
+ENTRY       R05219                      Reaction
+DEFINITION  Precorrin 6X + Acetate + S-Adenosyl-L-homocysteine <=> Precorrin 5 + S-Adenosyl-L-methionine + H2O
+EQUATION    C06320 + C00033 + C00021 <=> C06416 + C00019 + C00001
+RCLASS      RC00003  C00019_C00021
+            RC00923  C00033_C06416
+            RC02890  C06320_C06416
+ENZYME      2.1.1.152
+PATHWAY     rn00860  Porphyrin metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00925  Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.152
+                 R05219  Precorrin 6X + Acetate + S-Adenosyl-L-homocysteine <=> Precorrin 5 + S-Adenosyl-L-methionine + H2O
+ORTHOLOGY   K02228  precorrin-6A synthase [EC:2.1.1.152]
+DBLINKS     RHEA: 18264
+///

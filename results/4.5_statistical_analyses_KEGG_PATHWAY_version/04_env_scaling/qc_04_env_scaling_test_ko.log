@@ -1,0 +1,41 @@
+================================================================================
+Script 04: Environment-Specific Fits & Z-Scores - KO
+  TEST MODE: Processing small subset only
+================================================================================
+
+Loading data...
+  ✓ Loaded 2164 genomes from Parquet
+  ✓ Loaded 684 global scaling parameters
+  ✓ Loaded 8 valid environments
+  TEST MODE: Using 5 environments and 10 ko categories
+
+A. Fitting Per-Environment Scaling Laws
+--------------------------------------------------------------------------------
+  Aquatic: 9 / 10 categories fitted
+  Terrestrial: 9 / 10 categories fitted
+  Mammals: Human: 10 / 10 categories fitted
+  Plants: 9 / 10 categories fitted
+  Mammals: 9 / 10 categories fitted
+
+  Total env×category fits: 46 / 50
+  Skipped due to low sample size (<10): 4
+  Skipped due to low variance: 0
+
+B. Computing Z-Scores
+--------------------------------------------------------------------------------
+  ⚠ Skipping Mammals: Human×K00019: invalid Z
+  ⚠ Skipping Mammals×K00019: invalid Z
+  ⚠ Skipping Mammals×K00021: invalid Z
+  ⚠ Skipping Mammals×K00060: invalid Z
+  Computed 42 valid Z-scores
+
+C. Category-Level Aggregation
+--------------------------------------------------------------------------------
+  Aggregated Z-scores for 9 categories
+  Z_alpha: min=0.6496, median=1.3097, max=2.5772
+
+D. Writing Outputs
+--------------------------------------------------------------------------------
+  ✓ env_scaling_params_test_ko.tsv: 46 env×category fits
+  ✓ env_vs_global_Z_scores_test_ko.tsv: 42 env×category Z-scores
+  ✓ category_Z_summary_test_ko.tsv: 9 categories

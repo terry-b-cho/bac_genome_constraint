@@ -1,0 +1,18 @@
+ENTRY       R01712                      Reaction
+NAME        pyridoxamine:pyruvate aminotransferase
+DEFINITION  Pyridoxamine + Pyruvate <=> Pyridoxal + L-Alanine
+EQUATION    C00534 + C00022 <=> C00250 + C00041
+RCLASS      RC00008  C00022_C00041
+            RC00048  C00250_C00534
+ENZYME      2.6.1.30
+PATHWAY     rn00750  Vitamin B6 metabolism
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.6  Transferring nitrogenous groups
+               2.6.1  Transaminases
+                2.6.1.30
+                 R01712  Pyridoxamine + Pyruvate <=> Pyridoxal + L-Alanine
+ORTHOLOGY   K18608  pyridoxamine---pyruvate transaminase [EC:2.6.1.30]
+DBLINKS     RHEA: 12844
+///

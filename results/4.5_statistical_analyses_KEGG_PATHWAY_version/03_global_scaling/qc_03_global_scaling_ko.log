@@ -1,0 +1,62 @@
+================================================================================
+Script 03: Global Scaling Fits - KO
+================================================================================
+
+Loading data...
+  ✓ Loaded 2164 genomes from master_table_env_filtered_ko.parquet
+  Found 739 ko category columns (no prevalence filter)
+
+  ✓ Loaded KEGG labels for 739 categories
+
+A. Pre-Regression Validation
+--------------------------------------------------------------------------------
+  Genomes removed due to zero counts:
+    Min: 0
+    Median: 1565.0
+    Max: 2164
+  Genomes remaining per category after filtering:
+    Min: 0
+    Median: 599.0
+    Max: 2164
+
+B. Fitting Global Scaling Laws
+--------------------------------------------------------------------------------
+  Successfully fitted 684 categories
+  Skipped 55 categories due to low sample size (<10)
+  Skipped 0 categories due to low variance
+
+C. Global Summary QC
+--------------------------------------------------------------------------------
+  Distribution of alpha_global:
+    Mean: 0.0703
+    Median: 0.0254
+    SD: 0.1519
+    Min: -0.2867
+    Max: 1.1422
+
+  QC Flags:
+    Categories with alpha < 0: 153
+    Categories with alpha > 4: 0
+    Categories with SE > 1: 0
+    Categories with R² < 0.2: 673
+
+  Top 10 categories with highest alpha_global:
+    galactose-6-phosphate isomerase [EC:5.3.1.26] (K01819): alpha=1.1422, R²=0.0939
+    farnesyl diphosphate synthase [EC:2.5.1.1 2.5.1.10] (K00787): alpha=0.8625, R²=0.4574
+    farnesyl diphosphate synthase [EC:2.5.1.1 2.5.1.10] (K00795): alpha=0.8625, R²=0.4574
+    glutamine synthetase [EC:6.3.1.2] (K01915): alpha=0.7788, R²=0.2624
+    pimeloyl-CoA dehydrogenase large subunit [EC:1.3.1.62] (K04118): alpha=0.7198, R²=0.3714
+    pimeloyl-CoA dehydrogenase small subunit [EC:1.3.1.62] (K28556): alpha=0.7198, R²=0.3714
+    c-di-GMP-specific phosphodiesterase [EC:3.1.4.52] (K13243): alpha=0.5745, R²=0.0512
+    c-di-GMP-specific phosphodiesterase [EC:3.1.4.52] (K13244): alpha=0.5745, R²=0.0512
+    c-di-GMP-specific phosphodiesterase [EC:3.1.4.52] (K13245): alpha=0.5745, R²=0.0512
+    c-di-GMP phosphodiesterase [EC:3.1.4.52] (K13246): alpha=0.5745, R²=0.0512
+
+  Categories skipped:
+    Low variation: 0
+    Low sample size (<10): 55
+
+D. Writing Outputs
+--------------------------------------------------------------------------------
+  ✓ global_scaling_params_ko.tsv: 684 categories
+  ✓ global_scaling_params_ko.parquet: 684 categories

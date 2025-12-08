@@ -1,0 +1,17 @@
+ENTRY       R01204                      Reaction
+NAME        acetyl-CoA:D-glucosamine N-acetyltransferase
+DEFINITION  Acetyl-CoA + D-Glucosamine <=> CoA + N-Acetyl-D-glucosamine
+EQUATION    C00024 + C00329 <=> C00010 + C00140
+RCLASS      RC00004  C00010_C00024
+            RC00166  C00140_C00329
+ENZYME      2.3.1.3
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.3
+                 R01204  Acetyl-CoA + D-Glucosamine <=> CoA + N-Acetyl-D-glucosamine
+DBLINKS     RHEA: 21335
+///

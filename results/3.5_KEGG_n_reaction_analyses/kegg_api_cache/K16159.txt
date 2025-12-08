@@ -1,0 +1,61 @@
+ENTRY       K16159                      KO
+SYMBOL      mmoZ
+NAME        methane monooxygenase component A gamma chain [EC:1.14.13.25]
+PATHWAY     map00680  Methane metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01200  Carbon metabolism
+            map01220  Degradation of aromatic compounds
+MODULE      M00174  Methane oxidation, methanotroph, methane => formaldehyde
+REACTION    R01142  methane,NADH:oxygen oxidoreductase (hydroxylating)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09102 Energy metabolism
+               00680 Methane metabolism
+                K16159  mmoZ; methane monooxygenase component A gamma chain
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.13  With NADH or NADPH as one donor, and incorporation of one atom of oxygen into the other donor
+                1.14.13.25  methane monooxygenase (soluble)
+                 K16159  mmoZ; methane monooxygenase component A gamma chain
+DBLINKS     GO: 0015049
+GENES       MCA: MCA1198(mmoZ)
+            METU: GNH96_11965
+            MMEO: OOT43_19110
+            MMT: Metme_1652
+            METL: U737_00790
+            MELL: IVG45_15815
+            MEEP: JWZ98_21575
+            MEUP: QC632_23870
+            MBUR: EQU24_05900
+            MMAI: sS8_0767
+            MMOB: F6R98_10900
+            MISZ: MishRS11D_39900
+            MESL: KKZ03_11710
+            MSL: Msil_1265
+            MTUN: MTUNDRAET4_1700(mmoZ)
+            MEHY: MHY1_02905(mmoZ)
+            MBRY: B1812_14125
+            MHEY: H2LOC_014425
+            MIWA: SS37A_15950
+            MEMC: OGR47_07115
+            MTW: CQW49_12465
+            MECQ: MSC49_12800
+            MSPR: MSP5_002022
+            MHOL: K3U96_21095
+            MFLU: HZU40_33925
+            RHWY: GFS60_07616(mmoZ)
+            RHZP: HYG77_36195
+REFERENCE   PMID:2205538
+  AUTHORS   Stainthorpe AC, Lees V, Salmond GP, Dalton H, Murrell JC
+  TITLE     The methane monooxygenase gene cluster of Methylococcus capsulatus (Bath).
+  JOURNAL   Gene 91:27-34 (1990)
+            DOI:10.1016/0378-1119(90)90158-N
+  SEQUENCE  [mca:MCA1198]
+REFERENCE   PMID:10896210
+  AUTHORS   Murrell JC, Gilbert B, McDonald IR
+  TITLE     Molecular biology and regulation of methane monooxygenase.
+  JOURNAL   Arch Microbiol 173:325-32 (2000)
+            DOI:10.1007/s002030000158
+///

@@ -1,0 +1,32 @@
+ENTRY       map00470                    Pathway
+NAME        D-Amino acid metabolism
+CLASS       Metabolism; Metabolism of other amino acids
+PATHWAY_MAP map00470  D-Amino acid metabolism
+MODULE      M00947  D-Arginine racemization, D-arginine => L-arginine [PATH:map00470]
+            M00948  Hydroxyproline degradation, trans-4-hydroxy-L-proline => 2-oxoglutarate [PATH:map00470]
+            M00949  Staphylopine biosynthesis, L-histidine => staphylopine [PATH:map00470]
+DBLINKS     GO: 0046416
+REFERENCE   PMID:33788945
+  AUTHORS   Miyamoto T, Homma H
+  TITLE     D-Amino acid metabolism in bacteria.
+  JOURNAL   J Biochem 170:5-13 (2021)
+            DOI:10.1093/jb/mvab043
+REFERENCE   PMID:27230378
+  AUTHORS   Ghssein G, Brutesco C, Ouerdane L, Fojcik C, Izaute A, Wang S, Hajjar C, Lobinski R, Lemaire D, Richaud P, Voulhoux R, Espaillat A, Cava F, Pignol D, Borezee-Durant E, Arnoux P
+  TITLE     Biosynthesis of a broad-spectrum nicotianamine-like metallophore in Staphylococcus aureus.
+  JOURNAL   Science 352:1105-9 (2016)
+            DOI:10.1126/science.aaf1018
+REL_PATHWAY map00010  Glycolysis / Gluconeogenesis
+            map00020  Citrate cycle (TCA cycle)
+            map00250  Alanine, aspartate and glutamate metabolism
+            map00260  Glycine, serine and threonine metabolism
+            map00270  Cysteine and methionine metabolism
+            map00300  Lysine biosynthesis
+            map00310  Lysine degradation
+            map00330  Arginine and proline metabolism
+            map00340  Histidine metabolism
+            map00360  Phenylalanine metabolism
+            map00550  Peptidoglycan biosynthesis
+            map00620  Pyruvate metabolism
+KO_PATHWAY  ko00470
+///

@@ -1,0 +1,19 @@
+ENTRY       R03241                      Reaction
+NAME        ATP:L-fuculose 1-phosphotransferase
+DEFINITION  ATP + L-Fuculose <=> ADP + L-Fuculose 1-phosphate
+EQUATION    C00002 + C01721 <=> C00008 + C01099
+RCLASS      RC00002  C00002_C00008
+            RC00017  C01099_C01721
+ENZYME      2.7.1.51
+PATHWAY     rn00051  Fructose and mannose metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.51
+                 R03241  ATP + L-Fuculose <=> ADP + L-Fuculose 1-phosphate
+ORTHOLOGY   K00879  L-fuculokinase [EC:2.7.1.51]
+DBLINKS     RHEA: 12379
+///

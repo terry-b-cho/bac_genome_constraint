@@ -1,0 +1,22 @@
+ENTRY       R03390                      Reaction
+NAME        formylmethanofuran:5,6,7,8-tetrahydromethanopterin 5-formyltransferase
+DEFINITION  Formylmethanofuran + 5,6,7,8-Tetrahydromethanopterin <=> Methanofuran + 5-Formyl-5,6,7,8-tetrahydromethanopterin
+EQUATION    C01001 + C01217 <=> C00862 + C01274
+RCLASS      RC00197  C00862_C01001
+            RC00870  C01217_C01274
+            RC02881  C01001_C01274
+ENZYME      2.3.1.101
+PATHWAY     rn00680  Methane metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00567  Methanogenesis, CO2 => methane
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.101
+                 R03390  Formylmethanofuran + 5,6,7,8-Tetrahydromethanopterin <=> Methanofuran + 5-Formyl-5,6,7,8-tetrahydromethanopterin
+ORTHOLOGY   K00672  formylmethanofuran--tetrahydromethanopterin N-formyltransferase [EC:2.3.1.101]
+DBLINKS     RHEA: 18064
+///

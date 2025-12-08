@@ -1,0 +1,21 @@
+ENTRY       R00774                      Reaction
+NAME        urea:carbon-dioxide ligase (ADP-forming)
+DEFINITION  ATP + Urea + HCO3- <=> ADP + Orthophosphate + Urea-1-carboxylate
+EQUATION    C00002 + C00086 + C00288 <=> C00008 + C00009 + C01010
+RCLASS      RC00002  C00002_C00008
+            RC00378  C00086_C01010
+ENZYME      6.3.4.6
+PATHWAY     rn00220  Arginine biosynthesis
+            rn00791  Atrazine degradation
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.4  Other carbon-nitrogen ligases
+                6.3.4.6
+                 R00774  ATP + Urea + HCO3- <=> ADP + Orthophosphate + Urea-1-carboxylate
+ORTHOLOGY   K01941  urea carboxylase [EC:6.3.4.6]
+            K14541  urea carboxylase / allophanate hydrolase [EC:6.3.4.6 3.5.1.54]
+DBLINKS     RHEA: 20899
+///

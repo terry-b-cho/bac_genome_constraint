@@ -1,0 +1,19 @@
+ENTRY       R02720                      Reaction
+NAME        XTP pyrophosphohydrolase;
+            XTP diphosphohydrolase (diphosphate-forming)
+DEFINITION  XTP + H2O <=> Xanthosine 5'-phosphate + Diphosphate
+EQUATION    C00700 + C00001 <=> C00655 + C00013
+RCLASS      RC00002  C00655_C00700
+ENZYME      3.6.1.66
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.6  Acting on acid anhydrides
+               3.6.1  In phosphorus-containing anhydrides
+                3.6.1.66
+                 R02720  XTP + H2O <=> Xanthosine 5'-phosphate + Diphosphate
+ORTHOLOGY   K01519  XTP/dITP diphosphohydrolase [EC:3.6.1.66]
+DBLINKS     RHEA: 28613
+///

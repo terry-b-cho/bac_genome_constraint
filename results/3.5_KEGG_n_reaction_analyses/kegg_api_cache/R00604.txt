@@ -1,0 +1,21 @@
+ENTRY       R00604                      Reaction
+NAME        formaldehyde:NAD+ oxidoreductase
+DEFINITION  Formaldehyde + NAD+ + H2O <=> Formate + NADH + H+
+EQUATION    C00067 + C00003 + C00001 <=> C00058 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00188  C00058_C00067
+ENZYME      1.2.1.46
+PATHWAY     rn00625  Chloroalkane and chloroalkene degradation
+            rn00680  Methane metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.46
+                 R00604  Formaldehyde + NAD+ + H2O <=> Formate + NADH + H+
+ORTHOLOGY   K00148  glutathione-independent formaldehyde dehydrogenase [EC:1.2.1.46]
+DBLINKS     RHEA: 16428
+///

@@ -1,0 +1,14 @@
+ENTRY       R00090                      Reaction
+NAME        NADH:hydrogen-peroxide oxidoreductase
+DEFINITION  Hydrogen peroxide + NADH + H+ <=> NAD+ + 2 H2O
+EQUATION    C00027 + C00004 + C00080 <=> C00003 + 2 C00001
+RCLASS      RC00001  C00003_C00004
+ENZYME      1.11.1.1
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.11  Acting on a peroxide as acceptor
+               1.11.1  Peroxidases
+                1.11.1.1
+                 R00090  Hydrogen peroxide + NADH + H+ <=> NAD+ + 2 H2O
+DBLINKS     RHEA: 18512
+///

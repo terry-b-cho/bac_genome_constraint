@@ -1,0 +1,4012 @@
+ENTRY       K01497                      KO
+SYMBOL      ribA, RIB1
+NAME        GTP cyclohydrolase II [EC:3.5.4.25]
+PATHWAY     map00740  Riboflavin metabolism
+            map00790  Folate biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01240  Biosynthesis of cofactors
+            map02024  Quorum sensing
+MODULE      M00125  Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD
+            M00911  Riboflavin biosynthesis, fungi, GTP => riboflavin/FMN/FAD
+REACTION    R00425  GTP 7,8-8,9-dihydrolase (diphosphate-forming)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
+               00740 Riboflavin metabolism
+                K01497  ribA, RIB1; GTP cyclohydrolase II
+               00790 Folate biosynthesis
+                K01497  ribA, RIB1; GTP cyclohydrolase II
+             09140 Cellular Processes
+              09145 Cellular community - prokaryotes
+               02024 Quorum sensing
+                K01497  ribA, RIB1; GTP cyclohydrolase II
+            Enzymes [BR:ko01000]
+             3. Hydrolases
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.4  In cyclic amidines
+                3.5.4.25  GTP cyclohydrolase II
+                 K01497  ribA, RIB1; GTP cyclohydrolase II
+DBLINKS     COG: COG0807
+            GO: 0003935
+GENES       AAM: 106489422
+            HAN: 110881511
+            ECAD: 122598592
+            SCE: YBL033C(RIB1)
+            SEUB: DI49_0146
+            SPAO: SPAR_B00720
+            AGO: AGOS_ADL296C
+            ERC: Ecym_7445
+            KLA: KLLA0_B12375g
+            KMX: KLMA_70349(RIB1)
+            LTH: KLTH0E14542g
+            VPO: Kpol_292p2
+            ZRO: ZYRO0G13134g
+            CGR: 2887883(GVI51_F03905)
+            NCS: NCAS_0A10910(NCAS0A10910)
+            NDI: NDAI_0A05390(NDAI0A05390)
+            TPF: TPHA_0M01380(TPHA0M01380)
+            TBL: TBLA_0B02990(TBLA0B02990)
+            TGB: HG536_0D04070
+            TDL: TDEL_0F01980(TDEL0F01980)
+            KAF: KAFR_0H01150(KAFR0H01150)
+            KNG: KNAG_0H00910(KNAG0H00910)
+            ZMK: HG535_0A03170
+            SLUD: SCDLUD_000765
+            DHA: DEHA2A12870g
+            PIC: PICST_30471(RIB1)
+            PGU: PGUG_04027
+            SPAA: SPAPADRAFT_59787
+            LEL: PVL30_000219(RIB1)
+            LBG: 92206061(LODBEIA_P08650)
+            CAL: CAALFM_CR02990CA(RIB1)
+            CTP: CTRG_00799
+            COT: CORT_0A02600
+            CDU: CD36_28080
+            CTEN: 18245733(RIB1)
+            CLU: CLUG_01880
+            CLUS: A9F13_02g04235
+            CAUR: CJI96_0005004
+            ASAU: 88175629(PUMCH_004569)
+            PPA: PAS_chr2-1_0736
+            PKZ: C5L36_0C02420
+            BNN: FOA43_001171(RIB1)
+            BBRX: BRETT_003500(RIB1)
+            OPA: HPODL_03939
+            YLI: 2912089(YALI2_E00054g)
+            SLB: AWJ20_4412(RIB1)
+            NCR: NCU07188(rib-4)
+            NTE: NEUTE1DRAFT74839(NEUTE1DRAFT_74839)
+            SMP: 10801897(SMAC4_06905)
+            PAN: PODANSg222
+            PBEL: QC761_213810(RIB1)
+            PPSD: QC762_213810(RIB1)
+            PPSP: QC763_213810(RIB1)
+            PPSA: QC764_213810(RIB1)
+            TTT: THITE_2169538
+            MTM: MYCTH_2303043
+            CTHR: CTHT_0041990
+            RTHE: 98125188(VTJ83DRAFT_4093)
+            MGR: MGG_10689
+            PPEI: PpBr36_10697
+            PGRI: PgNI_00103
+            TMN: UCRPA7_268
+            SSCK: SPSK_09268
+            FGR: FGSG_04473
+            FPU: FPSE_08290
+            FPOA: FPOAC1_006950(RIB1)
+            FVN: FVRRES_07583
+            FVR: FVEG_11172
+            FOX: FOXG_13742
+            NHE: NECHADRAFT_105166
+            FFC: NCS54_01077300
+            FKR: NCS57_01071300
+            FMU: J7337_011953(RIB1)
+            TRE: TRIREDRAFT_123805
+            TRR: M419DRAFT_103697
+            TATV: 25784847(TrAtP1_007138)
+            TASP: 36608607(RIB1)
+            MAW: 90963508(RIB1_1)
+            MAJ: MAA_08035
+            MBRN: 26247688(G6M90_00g080000)
+            PCHM: VFPPC_09294
+            UVI: 66068448(UV8b_07671)
+            CMT: CCM_09652
+            AMUS: LMH87_000089
+            PLJ: 28886528(PLICBS_001875)
+            PTKZ: JDV02_007243(RIB1)
+            DCON: 63718638(DCS_05995)
+            VAL: VDBG_02145
+            VDA: VDAG_02613
+            CFJ: CFIO01_11661
+            CLUP: CLUP02_11203
+            CHIG: CH63R_08589
+            CDET: 87949769(CDEST_13269)
+            SAPO: SAPIO_CDS2568
+            ELA: UCREL1_9019
+            PFY: PFICI_06171
+            SSL: SS1G_01061
+            BFU: BCIN_14g00200(Bcrib1)
+            MBE: MBM_05375
+            PSCO: LY89DRAFT_28817
+            GLZ: GLAREA_03174
+            ANI: ANIA_00670(riboB)
+            AFM: AFUA_1G13300
+            ACT: ACLA_022130
+            NFI: NFIA_012210
+            AOR: AO090012000551
+            ANG: An08g06370
+            AFV: AFLA_002271
+            ALUC: AKAW2_30451A(RIB1)
+            ACHE: ACHE_30445S(RIB1)
+            APUU: APUU_11357A(RIB1)
+            PCS: N7525_002971
+            PDP: PDIP_27690
+            POU: POX_c03637
+            PPSF: 300791409(PFLUO_LOCUS5461)
+            TMF: EYB26_002910
+            TRG: TRUGW13939_09414
+            CIM: CIMG_05891
+            CPW: 9694805(RIB1)
+            URE: UREG_04454
+            ABE: ARB_03607
+            TVE: TRV_07230
+            PBL: PAAG_00559
+            PBN: PADG_02130
+            AJE: HCAG_08434
+            BGH: BDBG_03817
+            PNO: SNOG_16138
+            PTRR: 6348035(PtrM4_087020)
+            BSC: COCSADRAFT_128912
+            ADAC: 96083782(ACET3X_003460)
+            ARAB: EKO05_0007679
+            ZTR: MYCGRDRAFT_31520
+            PFJ: MYCFIDRAFT_48119
+            FFU: CLAFUR5_01872
+            CBET: CB0940_00754
+            BCOM: BAUCODRAFT_65633
+            NPA: UCRNP2_3527
+            TML: GSTUM_00008617001
+            SPO: 2541490(rib1)
+            SOM: SOMG_02019(rib1)
+            CNE: CNA05500
+            CNB: CNBA5340
+            CNG: CNAG_00569
+            CGI: CGB_A6090C
+            CDEU: CNBG_1345
+            CDEC: 89988634(IAS62_001860)
+            CTEG: 91988014(I308_101156)
+            CBAS: 91981190(I312_101142)
+            CDEP: 91089918(L203_105709)
+            KMG: 30162672(I203_101223)
+            KNE: 92179529(IAR55_002270)
+            KDJ: 28966500(I303_102786)
+            KBI: 30205087(I302_102004)
+            KPIN: 30171366(I206_102644)
+            KSH: 87954675(IL334_002544)
+            KER: 91102726(V865_003924)
+            KSN: 43586836(CI109_101067)
+            KEP: 91093333(L201_002661)
+            TMS: TREMEDRAFT_31049
+            TASA: A1Q1_04978
+            CCAC: CcaHIS019_0212310(RIB1)
+            TVS: TRAVEDRAFT_143713
+            DSQ: DICSQDRAFT_154777
+            PCO: PHACADRAFT_249716
+            SHS: STEHIDRAFT_95968
+            HIR: HETIRDRAFT_62852
+            PSQ: PUNSTDRAFT_132621
+            ADL: AURDEDRAFT_43143
+            FME: FOMMEDRAFT_110472
+            GTR: GLOTRDRAFT_109550
+            RSX: RhiXN_03898
+            LBC: LACBIDRAFT_152612
+            CCI: CC1G_00191
+            ABP: AGABI1DRAFT113593(AGABI1DRAFT_113593)
+            ABV: AGABI2DRAFT191759(AGABI2DRAFT_191759)
+            PCUB: JR316_0004891
+            MRR: Moror_13922
+            MORE: E1B28_004113
+            SCM: SCHCO_02623146(SCHCODRAFT_02623146)
+            CPUT: CONPUDRAFT_30497
+            SLA: SERLADRAFT_383000
+            WSE: WALSEDRAFT_61164
+            WIC: J056_003627
+            UMA: UMAG_04826
+            PFP: PFL1_04495
+            MGL: MGL_1904
+            MRT: MRET_1903
+            MSYM: MSY001_1011
+            PGR: PGTG_17488 PGTG_18546
+            PTRC: PtA15_6A743
+            PSTR: Pst134EA_002843
+            MLR: MELLADRAFT_37226
+            RIE: OCT59_017546
+            PTI: PHATRDRAFT_6454
+            TPS: THAPSDRAFT_28100
+            GTT: GUITHDRAFT_157268
+            ECO: b1277(ribA)
+            ECJ: JW1269(ribA)
+            ECD: ECDH10B_1394(ribA)
+            EBW: BWG_1108(ribA)
+            ECOK: ECMDS42_1075(ribA)
+            ECOC: C3026_07500(ribA)
+            ECE: Z2531(ribA)
+            ECS: ECs_1850(ribA)
+            ECF: ECH74115_1911(ribA)
+            ETW: ECSP_1797(ribA)
+            ELX: CDCO157_1769(ribA)
+            EOI: ECO111_1658(ribA)
+            EOJ: ECO26_1843(ribA)
+            EOH: ECO103_1440(ribA)
+            ECOO: ECRM13514_1696(ribA)
+            ECOH: ECRM13516_1663(ribA)
+            ESL: O3K_13955(ribA)
+            ESO: O3O_11675(ribA)
+            ESM: O3M_13930(ribA)
+            ECK: EC55989_1438(ribA)
+            ECG: E2348C_1469(ribA)
+            EOK: G2583_1618(ribA)
+            ELR: ECO55CA74_07875(ribA)
+            ELH: ETEC_1381
+            ECW: EcE24377A_1479(ribA)
+            EUN: UMNK88_1608(ribA)
+            ECP: ECP_1330
+            ENA: ECNA114_1468(ribA)
+            ECOS: EC958_1609(ribA)
+            ECV: APECO1_437(ribA)
+            ECOA: APECO78_10255
+            ECX: EcHS_A1388(ribA)
+            ECM: EcSMS35_1852(ribA)
+            ECY: ECSE_1327
+            ECR: ECIAI1_1300(ribA)
+            ECQ: ECED1_1487(ribA)
+            EUM: ECUMN_1579(ribA)
+            ECT: ECIAI39_1618(ribA)
+            EOC: CE10_1519(ribA)
+            EBR: ECB_01254(ribA)
+            ECOB: C3029_10820(ribA)
+            EBL: ECD_01254(ribA)
+            EBE: B21_01265(ribA)
+            EBD: ECBD_2342
+            ECI: UTI89_C1548(ribA)
+            EIH: ECOK1_1492(ribA)
+            ECZ: ECS88_1417(ribA)
+            ECC: c1746(ribA)
+            ELO: EC042_1402(ribA)
+            ELN: NRG857_06565(ribA)
+            ESE: ECSF_1259
+            ECL: EcolC_2349
+            EKF: KO11_16435(ribA)
+            EAB: ECABU_c15600(ribA)
+            EDH: EcDH1_2370
+            EDJ: ECDH1ME8569_1218(ribA)
+            ELU: UM146_10385(ribA)
+            ELW: ECW_m1371(ribA)
+            ELL: WFL_06680(ribA)
+            ELC: i14_1576(ribA)
+            ELD: i02_1576(ribA)
+            ELP: P12B_c1813(ribA)
+            ELF: LF82_1877(ribA)
+            ECOL: LY180_06495(ribA)
+            ECOI: ECOPMV1_01475(ribA)
+            ECOJ: P423_07550(ribA)
+            EFE: EFER_1677(ribA)
+            EAL: EAKF1_ch0157(ribA)
+            EMA: C1192_05670(ribA)
+            ESZ: FEM44_21445(ribA)
+            ERUY: OSH18_01705(ribA)
+            ESF: ACK8NJ_13035(ribA)
+            STY: STY1340
+            STT: t1624(ribA)
+            SEX: STBHUCCB_17230
+            SENT: TY21A_08235(ribA)
+            STM: STM1711(ribA)
+            SEO: STM14_2069(ribA)
+            SEV: STMMW_17061
+            SEY: SL1344_1643(ribA)
+            SEM: STMDT12_C17330(ribA)
+            SEJ: STMUK_1682(ribA)
+            SEB: STM474_1726(ribA)
+            SEF: UMN798_1800(ribA)
+            SETU: STU288_04930(ribA)
+            SETC: CFSAN001921_08535(ribA)
+            SENR: STMDT2_16361(ribA)
+            SEND: DT104_16811(ribA)
+            SENI: CY43_08740(ribA)
+            SEEN: SE451236_14490(ribA)
+            SPT: SPA1165(ribA)
+            SEK: SSPA1084
+            SPQ: SPAB_01540
+            SEI: SPC_2020(ribA)
+            SEC: SCH_1706(ribA)
+            SEH: SeHA_C1898(ribA)
+            SHB: SU5_02320
+            SENH: CFSAN002069_00400(ribA)
+            SEEH: SEEH1578_17820(ribA)
+            SEE: SNSL254_A1835(ribA)
+            SENN: SN31241_27930
+            SEW: SeSA_A1840(ribA)
+            SEA: SeAg_B1438(ribA)
+            SENS: Q786_06640(ribA)
+            SED: SeD_A1619(ribA)
+            SEG: SG1403(ribA)
+            SEL: SPUL_1522(ribA)
+            SEGA: SPUCDC_1522(ribA)
+            SET: SEN1322(ribA)
+            SENA: AU38_06810(ribA)
+            SENO: AU37_06805(ribA)
+            SENV: AU39_06815(ribA)
+            SENQ: AU40_07685(ribA)
+            SENL: IY59_06980(ribA)
+            SENJ: CFSAN001992_02930(ribA)
+            SEEC: CFSAN002050_15015(ribA)
+            SEEB: SEEB0189_010950(ribA)
+            SEEP: I137_06870(ribA)
+            SENB: BN855_17630(ribA)
+            SENE: IA1_08485(ribA)
+            SENC: SEET0819_15290(ribA)
+            SES: SARI_01251
+            SBG: SBG_1574(ribA)
+            SBZ: A464_1804
+            SBV: N643_07575(ribA)
+            SALZ: EOS98_10710(ribA)
+            SFL: SF1281(ribA)
+            SFX: S1364(ribA)
+            SFV: SFV_1290(ribA)
+            SFE: SFxv_1452(ribA)
+            SFN: SFy_1839
+            SFS: SFyv_1895
+            SFT: NCTC1_01354(ribA)
+            SSN: SSON_1863(ribA)
+            SBO: SBO_1787(ribA)
+            SBC: SbBS512_E1505(ribA)
+            SDY: SDY_1353(ribA)
+            SDZ: Asd1617_01775
+            SHQ: A0259_10495(ribA)
+            SHIG: LXH19_12310(ribA)
+            ENC: ECL_01744
+            ENL: A3UG_12805(ribA)
+            ECLG: EC036_24290
+            ECLE: ECNIH2_12450(ribA)
+            ECLN: ECNIH4_10600(ribA)
+            ECLI: ECNIH5_10125(ribA)
+            ECLX: LI66_12190(ribA)
+            ECLY: LI62_14010(ribA)
+            ECLZ: LI64_12015(ribA)
+            ECLO: ENC_08380
+            EHM: AB284_13175(ribA)
+            EXF: BFV63_12195
+            ECLA: ECNIH3_11700(ribA)
+            ECLC: ECR091_11640(ribA)
+            EAU: DI57_06535(ribA)
+            EKB: BFV64_12405
+            ENO: ECENHK_12360(ribA)
+            EEC: EcWSU1_02504(ribA)
+            ELG: BH714_08345
+            ECAN: CWI88_10470(ribA)
+            ERN: BFV67_11890
+            ECLS: LI67_013395(ribA)
+            ECHG: FY206_13640(ribA)
+            ESH: C1N69_12505(ribA)
+            EPT: HWQ17_00690(ribA)
+            ECHU: RQP59_11795(ribA)
+            ENT: Ent638_2191
+            EAS: Entas_2362
+            ENR: H650_01925(ribA)
+            ENX: NI40_012630(ribA)
+            ENF: AKI40_3314
+            LNI: CWR52_22545(ribA)
+            EBG: FAI37_16710(ribA)
+            END: A4308_16725(ribA)
+            ENZ: G0034_12465(ribA)
+            ENS: HWQ15_20850(ribA)
+            ENK: LOC22_00340(ribA)
+            EHU: D5067_0010370(ribA)
+            EMOR: L6Y89_11920(ribA)
+            ENB: ELK40_12950(ribA)
+            EQU: OM418_12260(ribA)
+            EPU: QVH39_13050(ribA)
+            EDY: F0320_11925(ribA)
+            EAX: AAHF05_12130(ribA)
+            ENTE: GXP72_12985(ribA)
+            ENTY: H2Z33_18735(ribA)
+            ENJ: QRD42_15385(ribA)
+            ENHK: EnteroDNA1_00860(ribA)
+            ENTL: FZF21_20430(ribA)
+            ENTC: NWV12_12285(ribA)
+            ENTJ: RY075_12870(ribA)
+            ENTH: ABFI50_21210(ribA)
+            ESA: ESA_01575
+            CSK: ES15_1802(ribA)
+            CSZ: CSSP291_07605(ribA)
+            CSJ: CSK29544_02874
+            CCON: AFK62_10585(ribA)
+            CDM: AFK67_10865(ribA)
+            CSI: P262_02578
+            CMJ: AFK66_008525(ribA)
+            CUI: AFK65_11050(ribA)
+            CMW: AFK63_07605(ribA)
+            CTU: CTU_23440(ribA)
+            KPN: KPN_01273(ribA)
+            KPU: KP1_2316(ribA)
+            KPM: KPHS_21800
+            KPP: A79E_2907
+            KPH: KPNIH24_17735(ribA)
+            KPZ: KPNIH27_10580(ribA)
+            KPV: KPNIH29_11100(ribA)
+            KPW: KPNIH30_11365(ribA)
+            KPY: KPNIH31_10750(ribA)
+            KPG: KPNIH32_11205(ribA)
+            KPC: KPNIH10_10795(ribA)
+            KPQ: KPR0928_10965(ribA)
+            KPT: VK055_1178(ribA)
+            KPO: KPN2242_09495(ribA)
+            KPR: KPR_2325(ribA)
+            KPJ: N559_3002
+            KPI: D364_06620(ribA)
+            KPA: KPNJ1_03227
+            KPS: KPNJ2_03218
+            KPX: PMK1_03659(ribA)
+            KPB: FH42_02260(ribA)
+            KPNE: KU54_015295(ribA)
+            KPNU: LI86_15605(ribA)
+            KPNK: BN49_2412(ribA)
+            KVA: Kvar_3040
+            KPE: KPK_3161(ribA)
+            KPK: A593_21110(ribA)
+            KVD: KR75_18950
+            KVQ: SP68_25395
+            KQU: AVR78_15785
+            KQV: B8P98_15960(ribA)
+            KOX: KOX_18420(ribA)
+            KOE: A225_2540
+            KOY: J415_19200(ribA)
+            KOM: HR38_16710(ribA)
+            KMI: VW41_12165(ribA)
+            KOK: KONIH1_12215(ribA)
+            KOC: AB185_23775(ribA)
+            EAE: EAE_21325(ribA)
+            EAR: CCG29670
+            KLL: BJF97_12750
+            KLW: DA718_16220(ribA)
+            KAR: LGL98_14615(ribA)
+            KGR: JJJ10_16105(ribA)
+            KPAS: LUW96_18775(ribA)
+            KLC: K7H21_16125(ribA)
+            KLM: BWI76_11945
+            REE: electrica_02937(ribA)
+            KLP: GUC22_15115(ribA)
+            KLX: GQR96_10175(ribA)
+            ROR: RORB6_08280(ribA)
+            RON: TE10_12545(ribA)
+            RPLN: B1209_15575
+            RAO: DSD31_14850(ribA)
+            RTG: NCTC13098_04138(ribA)
+            CRO: ROD_17231(ribA)
+            CKO: CKO_01360
+            CFD: CFNIH1_18850(ribA)
+            CBRA: A6J81_05290(ribA)
+            CWE: CO701_09050(ribA)
+            CYO: CD187_10940(ribA)
+            CPOT: FOB25_22475(ribA)
+            CFQ: C2U38_11175(ribA)
+            CSED: JY391_10385(ribA)
+            CAMA: F384_08010(ribA)
+            CAF: AL524_14230(ribA)
+            CIF: AL515_13120(ribA)
+            CFAR: CI104_14085(ribA)
+            CIR: C2U53_23095(ribA)
+            CIE: AN232_16970(ribA)
+            CPAR: CUC49_08840(ribA)
+            CTEL: GBC03_16470(ribA)
+            CITZ: E4Z61_06025(ribA)
+            CARS: E1B03_14295(ribA)
+            CIX: M4I31_10750(ribA)
+            CIB: HF677_011015(ribA)
+            CENS: P2W74_11140(ribA)
+            CITR: GUC46_10965(ribA)
+            CIQ: FD428_10390(ribA)
+            CIY: HAP28_12940(ribA)
+            BFL: Bfl425(ribA)
+            BPN: BPEN_437(ribA)
+            BVA: BVAF_426(ribA)
+            BCHR: BCHRO640_449(ribA)
+            BHB: M9394_00460(ribA)
+            BVX: M9408_00460(ribA)
+            BEC: GN160_00125(ribA)
+            BEM: M9396_00270(ribA)
+            BOCR: M9405_02045(ribA)
+            HDE: HDEF_0118(ribA)
+            SECT: A359_02300
+            SEHC: A35E_00249
+            RIP: RIEPE_0290(ribA)
+            RIG: AOQ88_00975(ribA)
+            RPED: AOQ87_01365(ribA)
+            EBT: EBL_c16250
+            CNT: JT31_00140(ribA)
+            CEM: LH23_18130(ribA)
+            CEN: LH86_16935(ribA)
+            CLAP: NCTC11466_01901(ribA)
+            PGE: LG71_18215(ribA)
+            ESC: Entcl_2509
+            KLE: AO703_09690(ribA)
+            KSA: C813_02475
+            KOR: AWR26_11880(ribA)
+            KRD: A3780_12200(ribA)
+            KCO: BWI95_17395
+            KOT: EH164_10780(ribA)
+            KPSE: IP581_12150(ribA)
+            KOB: HF650_12180(ribA)
+            KOO: O9K67_11650(ribA)
+            KOU: C0557_13105(ribA)
+            KCA: AAEY27_10770(ribA)
+            KIE: NCTC12125_01602(ribA)
+            KAS: KATP_25230(ribA)
+            KLU: K7B04_15885(ribA)
+            KCY: RIN60_12890(ribA)
+            KGN: GY169_13430(ribA)
+            ICP: ICMP_087(ribA)
+            LAX: APT61_09570(ribA)
+            LEH: C3F35_21825(ribA)
+            LPNU: KQ929_08945(ribA)
+            LAZ: A8A57_11765
+            LEF: LJPFL01_2304
+            LEW: DAI21_14775(ribA)
+            BUF: D8682_03715(ribA)
+            BAGE: BADSM9389_20210(ribA)
+            BFT: MNO13_11780(ribA)
+            BSEL: RHD99_10895(ribA)
+            SBW: TGUWTKB_5370(ribA)
+            PPET: C9I82_370
+            SYM: K6K13_09045(ribA)
+            AHN: NCTC12129_02901(ribA)
+            ASUB: NLZ15_09710(ribA)
+            YRE: HEC60_04705(ribA)
+            SGOE: A8O29_013055(ribA)
+            KIN: AB182_13080(ribA)
+            PDZ: HHA33_14370(ribA)
+            METY: MRY16398_30510(ribA)
+            IZH: FEM41_18915(ribA)
+            PLAR: GII40_00198(ribA)
+            SNY: KEC38_01555(ribA)
+            PSHI: SAMEA2665130_1707(ribA)
+            PSGC: G163CM_14620(ribA)
+            SCOL: KFZ77_10640(ribA)
+            PVJ: LMA04_01290(ribA)
+            SUPE: P0H77_10115(ribA)
+            TOE: QMG90_10460(ribA)
+            MPHG: MPHASIOC01_001376(ribA)
+            FPUL: ACBV55_09985(ribA)
+            EBF: D782_2424
+            EBC: C2U52_23990(ribA)
+            EBU: CUC76_04320(ribA)
+            EBB: F652_1629
+            PSTS: E05_16330
+            EEP: GJT83_01945(ribA)
+            EEM: GJT87_01845(ribA)
+            YPE: YPO2222(ribA)
+            YPK: y2064(ribA)
+            YPH: YPC_1852(ribA)
+            YPA: YPA_1581
+            YPN: YPN_1690
+            YPM: YP_2020(ribA)
+            YPP: YPDSF_0912
+            YPG: YpAngola_A2231(ribA)
+            YPZ: YPZ3_1631(ribA)
+            YPT: A1122_15035(ribA)
+            YPD: YPD4_1953(ribA)
+            YPX: YPD8_1343(ribA)
+            YPW: CH59_3898(ribA)
+            YPJ: CH55_313(ribA)
+            YPV: BZ15_1318(ribA)
+            YPL: CH46_2891(ribA)
+            YPS: YPTB2144(ribA)
+            YPO: BZ17_319(ribA)
+            YPI: YpsIP31758_1919(ribA) YpsIP31758_B0062
+            YPY: YPK_2029
+            YPB: YPTS_2214
+            YPQ: DJ40_160(ribA)
+            YPU: BZ21_1424(ribA)
+            YPR: BZ20_4106(ribA)
+            YPC: BZ23_1709(ribA)
+            YPF: BZ19_1501(ribA)
+            YEN: YE1965(ribA)
+            YEP: YE105_C2242
+            YEY: Y11_10591
+            YEW: CH47_1403(ribA)
+            YET: CH48_3890(ribA)
+            YEF: FORC2_1988
+            YEE: YE5303_18161(ribA)
+            YSI: BF17_19765(ribA)
+            YAL: AT01_484(ribA)
+            YFR: AW19_1170(ribA)
+            YIN: CH53_3912(ribA)
+            YKR: CH54_492(ribA)
+            YRO: CH64_516(ribA)
+            YRU: BD65_299(ribA)
+            YRB: UGYR_01580(ribA)
+            YMA: DA391_10960(ribA)
+            YHI: D5F51_09075(ribA)
+            YEL: LC20_02621(ribA)
+            YCA: F0T03_11175(ribA)
+            YMO: HRD69_15290(ribA)
+            YAS: N0H69_14565(ribA)
+            YKI: HRD70_15790(ribA)
+            YEG: PL78_05015(ribA)
+            SMAR: SM39_2103(ribA)
+            SMAC: SMDB11_1918(ribA)
+            SMW: SMWW4_v1c26510(ribA)
+            SPE: Spro_2653
+            SRR: SerAS9_2648
+            SRL: SOD_c25040(ribA)
+            SRY: M621_13655(ribA)
+            SPLY: Q5A_013870(ribA)
+            SRS: SerAS12_2649
+            SRA: SerAS13_2650
+            SSZ: SCc_372(ribA)
+            SMAF: D781_2402
+            SLQ: M495_13245(ribA)
+            SERF: L085_15480(ribA)
+            SERS: SERRSCBI_12495(ribA)
+            SFW: WN53_22050(ribA)
+            SFG: AV650_17825(ribA)
+            SRZ: AXX16_2722
+            SERM: CLM71_12520(ribA)
+            SQU: E4343_02845(ribA)
+            SFJ: SAMEA4384070_0083(ribBA) SAMEA4384070_2697(ribA)
+            SOF: NCTC11214_04227(ribA)
+            SSUR: ATE40_009935
+            SURI: J0X03_10640(ribA)
+            SRHZ: FO014_21190(ribA)
+            SENP: KHA73_13110(ribA)
+            SNEM: NLX84_13415(ribA)
+            SNEV: OI978_22000(ribA)
+            SGRI: SGBXF1_02703(ribA)
+            SSAR: SSARUM_002578(ribA)
+            SERB: QEP77_09325(ribA)
+            SERN: GUC32_13075(ribA)
+            SERT: TAN611_2587(ribA)
+            SERH: GF111_24950(ribA)
+            SFO: Z042_00220(ribA)
+            RAH: Rahaq_2602
+            RACE: JHW33_04175(ribA)
+            RAQ: Rahaq2_2075
+            RAA: Q7S_12955(ribA)
+            ROX: BV494_03825
+            RVC: J9880_19985(ribA)
+            RIU: I2123_14510(ribA)
+            GQU: AWC35_24380(ribA)
+            FSM: CCS41_07560(ribA)
+            EAME: GXP68_08975(ribA)
+            RBAD: H2866_16505(ribA)
+            RCB: O1V66_09230(ribA)
+            ROU: AB3G37_15350(ribA)
+            CARU: P0E69_11040(ribA)
+            NIG: C1N62_08860(ribA)
+            SERA: Ser39006_012315(ribA)
+            SERQ: CWC46_12310(ribA)
+            PROD: PCO85_12205(ribA)
+            ECA: ECA1943(ribA)
+            PATR: EV46_09340(ribA)
+            PATO: GZ59_26560(ribA)
+            PCT: PC1_2371
+            PCC: PCC21_024760
+            PCV: BCS7_11910(ribA)
+            PWA: Pecwa_2653
+            PPAR: A8F97_05415
+            PEC: W5S_2624
+            PWS: A7983_20630
+            PPOA: BJK05_06720
+            PBRA: B5S52_09930
+            PPUJ: E2566_12290(ribA) E2566_16710
+            PARI: I2D83_12685(ribA)
+            PAQU: DMB82_0009765(ribA)
+            PVZ: OA04_18880(ribA)
+            PPAV: LOZ86_11930(ribA)
+            PQU: IG609_011165(ribA)
+            PPOO: LW347_11975(ribA) LW347_16820
+            PCAC: OI450_08610(ribA)
+            PACB: M9782_14365(ribA)
+            PCOA: PJ912_01820(ribA)
+            PARL: PEC302110_22610(ribA)
+            PPEU: DUT67_09245(ribA)
+            DDD: Dda3937_00140 Dda3937_04041(ribA)
+            DZE: Dd1591_1732
+            DDC: Dd586_1683
+            DZC: W909_11585(ribA)
+            DSO: A4U42_00460(ribA)
+            CED: LH89_12465 LH89_21810(ribA)
+            DFN: CVE23_13205(ribA)
+            DDQ: DDI_2376
+            DAQ: DAQ1742_02713(ribA)
+            DIC: Dpoa569_0001619(ribA)
+            DLC: O1Q98_03830(ribA)
+            DAD: V6C41_20515(ribA)
+            DDA: Dd703_1699
+            BGJ: AWC36_06575(ribA)
+            BRB: EH207_07975(ribA)
+            BNG: EH206_08925(ribA)
+            BIZ: HC231_12080(ribA)
+            LBQ: CKQ53_12800(ribA)
+            LPOP: I6N93_07215(ribA)
+            SGL: SG1410
+            SOD: Sant_1871(ribA)
+            PES: SOPEG_2538(ribA)
+            SENY: HBA_0505(ribA)
+            SLIG: GTU79_15365(ribA)
+            EAM: EAMY_1904(ribA)
+            EAY: EAM_1865(ribA)
+            ETA: ETA_16170(ribA)
+            EPY: EpC_16850(ribA)
+            EPR: EPYR_01813(ribA)
+            EBI: EbC_23620(ribA)
+            ERJ: EJP617_30080(ribA)
+            EPE: CI789_07375(ribA)
+            EHD: ERCIPSTX3056_413(ribA)
+            ERWI: GN242_10710(ribA)
+            ETP: LU633_12545(ribA)
+            ERP: LJN55_12635(ribA)
+            EPI: Q3V30_11020(ribA)
+            ERWE: GKQ23_12790(ribA)
+            ETO: RIN69_12450(ribA)
+            EGE: EM595_1947(ribA)
+            BUC: BU271(ribA)
+            BAP: BUAP5A_266(ribA)
+            BAU: BUAPTUC7_268(ribA)
+            BAW: CWU_01775(ribA)
+            BAJC: CWS_01410(ribA)
+            BUA: CWO_01415(ribA)
+            BUP: CWQ_01440(ribA)
+            BAK: BAKON_273(ribA)
+            BUH: BUAMB_253(ribA)
+            BAPF: BUMPF009_CDS00325(riba)
+            BAPG: BUMPG002_CDS00326(riba)
+            BAPU: BUMPUSDA_CDS00325(riba)
+            BAPW: BUMPW106_CDS00325(riba)
+            BAS: BUsg_261(ribA)
+            BAB: bbp_252(ribA)
+            BAPH: IX46_01425(ribA)
+            WBR: ribA
+            WGL: WIGMOR_0403(ribA)
+            PAM: PANA_2052(ribA)
+            PLF: PANA5342_2121(ribA)
+            PAJ: PAJ_1376(ribA)
+            PAQ: PAGR_g2043
+            PVA: Pvag_1491(ribA)
+            PAGG: AL522_14685(ribA)
+            PAO: Pat9b_2073
+            KLN: LH22_11910(ribA)
+            PANT: PSNIH1_14020(ribA)
+            PANP: PSNIH2_07590(ribA)
+            HHS: HHS_06290(ribA)
+            PCK: BMSBPS_0258
+            PAGC: BEE12_17400
+            PSTW: DSJ_14485
+            PALH: B1H58_16925
+            PANS: FCN45_10365(ribA)
+            PEY: EE896_08955(ribA)
+            PDIS: D8B20_09120(ribA)
+            PER: LAC65_08070(ribA)
+            PJI: KTJ90_09060(ribA)
+            PANO: OJ965_11125(ribA)
+            KPIE: N5580_08045(ribA)
+            PALF: K6R05_08860(ribA)
+            PPHO: CTZ24_10835(ribA)
+            PDIP: KFZ74_10040(ribA)
+            PANE: P6287_10250(ribA)
+            PAMT: IAI47_09255(ribA)
+            PANZ: NR302_10250(ribA)
+            PPHI: ACF2G4_05890(ribA)
+            PGZ: C2E15_00885 C2E15_11260(ribA)
+            PCD: C2E16_11110(ribA)
+            MINT: C7M51_01419(ribA)
+            MTHI: C7M52_01329(ribA)
+            MHAN: K6958_11170(ribA)
+            TCI: A7K98_10195
+            TPTY: NCTC11468_01998(ribA)
+            TATU: EFZ10_07110(ribA)
+            PMAK: PMPD1_2334
+            PLU: plu2431(ribA) plu2474
+            PLUM: A4R40_12110(ribA) A4R40_12320
+            PAY: PAU_02078(ribA) PAU_02346(ribA)
+            PTT: VY86_19145(ribA)
+            PAKH: B0X70_12385
+            PLUI: CE143_12385(ribA)
+            PMR: PMI1317(ribA)
+            PMIB: BB2000_1337(ribA)
+            PVL: AOB99_08545
+            PVG: CRN77_13325(ribA)
+            PHAU: PH4a_14875(ribA)
+            PROT: BTA34_07050
+            PCOL: F1325_08980(ribA)
+            PCIB: F9282_08935(ribA)
+            PPEE: I6G31_01295(ribA)
+            PAPP: QQS39_08625(ribA)
+            PRON: LG402_09135(ribA)
+            XBO: XBJ1_2296(ribA)
+            XBV: XBW1_2035(ribA)
+            XNE: XNC1_2414(ribA)
+            XNM: XNC2_2321(ribA)
+            XDO: XDD1_2202(ribA)
+            XPO: XPG1_0652(ribA) XPG1_1680(ribA) XPG1_1867 XPG1_2698(ribA)
+            XHO: A9255_05635 A9255_19245
+            XBU: HGO23_09760(ribA)
+            XGR: QL128_09995(ribA)
+            XET: WDV74_07975(ribA) WDV74_08970(ribA)
+            XSK: AB0856_002142(ribA) AB0856_002761
+            XTA: TCT1_18270(ribA)
+            PSI: S70_00435(ribA)
+            PSX: DR96_3233(ribA)
+            PSTA: BGK56_03410
+            PTHA: OI982_01840(ribA)
+            PRG: RB151_023220(ribA)
+            PALA: CO695_14350(ribA)
+            PHEI: NCTC12003_01939(ribA)
+            PRQ: CYG50_04945(ribA)
+            PRJ: NCTC6933_01983(ribA)
+            PVC: G3341_10040(ribA)
+            PMAG: JI723_09905(ribA)
+            PHAG: PZ638_10420(ribA)
+            PZJ: QS795_008690(ribA)
+            PZN: ACE2AM_09775(ribA)
+            PXH: ACE2AL_10165(ribA)
+            PLAZ: ACIH2S_09815(ribA)
+            PROV: ABE954_10885(ribA)
+            MMK: MU9_2266
+            ASY: AUT07_00055(ribA)
+            AEN: ARADI_0549(ribA)
+            ANS: ArsFIN_19690(ribA)
+            AED: E3U36_07780(ribA)
+            AET: LDL57_07790(ribA)
+            AAPC: QG404_08325(ribA)
+            ARSE: QE177_07210(ribA)
+            MWI: MNY66_08335(ribA)
+            EIC: NT01EI_2353
+            ETD: ETAF_1885
+            ETE: ETEE_0077(ribA)
+            ETR: ETAE_2086
+            ETC: ETAC_09920(ribA)
+            EDW: QY76_09800(ribA)
+            EDL: AAZ33_11070(ribA)
+            EHO: A9798_06530
+            HAV: AT03_12910(ribA)
+            HPAR: AL518_13185(ribA)
+            OPO: DSM2777_14770(ribA)
+            LPV: HYN51_00690(ribA)
+            PRAG: EKN56_07110(ribA)
+            PFQ: QQ39_08220(ribA)
+            LRI: NCTC12151_01672(ribA)
+            LGB: V8L73_10520(ribA)
+            GKN: PVT67_06195(ribA)
+            EBO: SSAmo_1580(ribA)
+            HIN: HI_0212
+            HIT: NTHI0309(ribA)
+            HIP: CGSHiEE_02170
+            HIQ: CGSHiGG_03675
+            HIF: HIBPF_20430
+            HIL: HICON_12640
+            HIU: HIB_02640
+            HIE: R2846_0427(ribA)
+            HIZ: R2866_0377(ribA)
+            HIK: HifGL_001579(ribA)
+            HIA: H733_0100
+            HIH: NF38_04370
+            HIW: NTHI477_01243(ribA)
+            HIC: NTHIC486_00820(ribA)
+            HIX: NTHI723_01493(ribA)
+            HPR: PARA_18450
+            HAY: C3V42_07230(ribA)
+            HPIT: NCTC13334_01778(ribA)
+            HHZ: NCTC10839_01776(ribA)
+            HAEG: NCTC8502_01028(ribA)
+            HSEM: L3077_05025(ribA)
+            HSO: HS_1043(ribA)
+            HSM: HSM_1520
+            PMU: PM0677(ribA)
+            PMV: PMCN06_0739(ribA)
+            PUL: NT08PM_0597
+            PMP: Pmu_07440(ribA)
+            PMUL: DR93_1509(ribA)
+            PDAG: 4362423_00991(ribA)
+            PCAI: K7G93_000870(ribA)
+            MSU: MS1533(ribA)
+            BSUN: A4G13_05130
+            ASU: Asuc_1502
+            ADP: NCTC12871_01401(ribA)
+            AAP: NT05HA_0625
+            AAZ: ADJ80_07375
+            AAT: D11S_1693
+            AAO: ANH9381_2067
+            AAN: D7S_02205
+            AAH: CF65_02619
+            AACN: AANUM_2110
+            AACT: ACT75_10190
+            ASEG: NCTC10977_01204(ribA)
+            AGJ: J5A60_03610(ribA)
+            GAN: UMN179_00711
+            GSS: NYR30_09565(ribA)
+            APAG: EIA51_06850(ribA)
+            AVT: NCTC3438_01591(ribA)
+            RPNE: NCTC8284_03285(ribA)
+            RHEY: FEE42_11395(ribA)
+            RHAE: IHV77_09425(ribA)
+            RABS: THUN1654_01730(ribA)
+            BHUD: A6A11_04750
+            PAET: NCTC13378_00916(ribA)
+            PBAN: AC062_1786
+            XFA: XF_1992
+            XFT: PD_0817(ribA)
+            XFM: Xfasm12_0983
+            XFN: XfasM23_0864
+            XFF: XFLM_09735
+            XFL: P303_04235
+            XFS: D934_09885
+            XFH: XFHB_05430(ribA)
+            XTW: AB672_05265
+            XCC: XCC3740(ribA)
+            XCB: XC_3810
+            XCA: xcc-b100_3921(ribA)
+            XCP: XCR_0566
+            XCV: XCV3916
+            XAX: XACM_3692
+            XAC: XAC3792(ribA)
+            XCI: XCAW_04552(ribA)
+            XCT: J151_03970
+            XCJ: J158_03946
+            XCU: J159_03942
+            XCN: J169_03967
+            XCW: J162_03947
+            XCR: J163_03942
+            XCM: J164_03943
+            XCF: J172_03960
+            XFU: XFF4834R_chr36840(ribA)
+            XAO: XAC29_19270
+            XOM: XOO0555(XOO0555)
+            XOO: XOO0594(ribA)
+            XOP: PXO_04065
+            XOY: AZ54_22015
+            XOR: XOC_4124
+            XOZ: BE73_02490
+            XAL: XALC_2850(RibA)
+            XSA: SB85_16055
+            XTN: FD63_02510
+            XGM: KFS84_18165(ribA)
+            XCS: KHA79_02515(ribA)
+            XFR: BER92_00945
+            XVE: BJD12_09825
+            XPE: BJD13_19970
+            XHR: XJ27_13020
+            XGA: BI317_03550
+            XPH: XppCFBP6546_15425(ribA)
+            XVA: C7V42_19490
+            XAN: AC801_18930
+            XAR: XB05_13960
+            XHY: FZ025_06470(ribA)
+            XCZ: EBN15_17840(ribA)
+            XTH: G4Q83_20410(ribA)
+            XEU: XSP_003604(ribA)
+            XHD: LMG31886_39310(ribA)
+            XPR: MUG10_12990(ribA)
+            XAG: HEP73_00596
+            XDY: NYR95_20090(ribA)
+            XAS: HEP74_00587
+            XHA: PG878_03475(ribA)
+            XRY: QN244_03345(ribA)
+            XSO: RAB70_06715(ribA)
+            XIN: Q7W82_20235(ribA)
+            XAI: HEP75_00592
+            XAZ: XSP_003644(ribA)
+            XTS: AB3X08_03030(ribA)
+            XMD: AB3X07_03325(ribA)
+            XBN: AB3X10_03165(ribA)
+            XAF: NUG20_18960(ribA)
+            XAB: NUG21_03535(ribA)
+            SML: Smlt4168
+            SMT: Smal_3575
+            BUJ: BurJV3_3619
+            SMZ: SMD_3768(ribA)
+            SFOE: K5L94_19630(ribA)
+            SPAQ: STNY_R37790(ribA)
+            SACZ: AOT14_01670
+            STEK: AXG53_07430
+            SRH: BAY15_3323
+            SLM: BIZ42_07420
+            STEN: CCR98_18475
+            STEM: CLM74_18815
+            STES: MG068_18480(ribA)
+            SINC: DAIF1_37120(ribA)
+            STEQ: ICJ04_15785(ribA)
+            SGEN: RKE57_18590(ribA)
+            SOU: PDM29_04605(ribA)
+            SARC: PDM28_16830(ribA)
+            SCYC: AB1723_12625(ribA)
+            STEJ: FQS62_019645(ribA)
+            STEO: PEM_15390
+            STEZ: ACEPA4_17715(ribA)
+            SLAB: AB9L18_02385(ribA)
+            PSD: DSC_04730
+            PWI: MWN52_15475(ribA)
+            LYW: H2514_00250(ribA)
+            LCIC: INQ41_12570(ribA)
+            LAVI: INQ42_12200(ribA)
+            DCS: ISN74_09895
+            LANH: KR767_17190
+            VCH: VC_1263
+            VCF: IR04_11615
+            VCS: MS6_1044
+            VCE: Vch1786_I0767(ribA)
+            VCQ: EN18_09605
+            VCJ: VCD_003088
+            VCI: O3Y_05870(ribA)
+            VCO: VC0395_A0882(ribA)
+            VCR: VC395_1382(ribA)
+            VCM: VCM66_1218(ribA)
+            VCL: VCLMA_A1107
+            VCX: VAA049_1530
+            VCZ: VAB027_1939
+            VVU: VV1_2234 VV2_1180
+            VVY: VV2120 VVA0006
+            VVM: VVMO6_01108 VVMO6_02987
+            VVL: VV93_v1c18840(ribA) VV93_v1c30170
+            VPA: VP1921 VPA0006
+            VPB: VPBB_1762 VPBB_A0005
+            VPK: M636_07550 M636_12225
+            VPF: M634_11815 M634_18230
+            VPH: VPUCM_1297 VPUCM_20006
+            VHA: VIBHAR_02717 VIBHAR_07040
+            VCA: M892_17280 M892_27745
+            VAG: N646_1002 N646_3470
+            VEX: VEA_000986 VEA_003122
+            VDB: AL552_03160(ribA) AL552_18265(ribA)
+            VHR: AL538_03170 AL538_28510(ribA)
+            VNA: PN96_04090
+            VOW: A9237_14690 A9237_26250
+            VRO: BSZ04_04055 BSZ04_17105
+            VSP: VS_1924
+            VEJ: VEJY3_10120(ribA)
+            VFU: vfu_A01744
+            VNI: VIBNI_A2041(ribA)
+            VAN: VAA_01394
+            LAG: N175_07655
+            VAU: VANGNB10_cI1428c(ribA)
+            VCY: IX92_05595
+            VCT: JV59_32970
+            VTU: IX91_08790
+            VEU: IXK98_17505
+            VSI: MTO69_05710
+            VFL: AL536_12745
+            VMI: AL543_15670
+            VBR: A6E01_07080
+            VSC: VSVS12_01887(ribA)
+            VGA: BSQ33_00555
+            VSH: BSZ05_00290
+            VQI: CCZ37_07030
+            VTA: A0343(ribA)
+            VAF: D1115_09450
+            VNL: D3H41_10515 D3H41_22485(ribA)
+            VCC: FAZ90_06080
+            VAS: GT360_05375(ribA)
+            VAQ: FIV01_08275(ribA1) FIV01_18925(ribA2)
+            VSR: Vspart_01613(ribA)
+            VKA: BTD91_00600
+            VZI: G5S32_08205
+            VNV: IF132_09375
+            VGI: MID13_09545 MID13_23650
+            VSL: LTQ54_14940 LTQ54_16785
+            VPL: SA104470976_01008(ribA)
+            VJP: NP165_05750
+            VPG: LZI70_01265
+            VOS: KNV97_10275
+            VTI: CEQ48_12415
+            VCRA: IS519_00320 IS519_17330
+            VNP: KW548_07805 KW548_12155
+            VLE: ISX51_07430
+            VSY: K08M4_18110(ribA)
+            VRU: RND59_14090(ribA)
+            VMT: QYQ96_07575(ribA)
+            VIB: VspSTUT11_10710(ribA)
+            VIS: VspSTUT16_11610(ribA) VspSTUT16_39540
+            VIO: AB2S62_05710(ribA)
+            VIH: AB0763_07505(ribA)
+            VCK: PG915_06805(ribA)
+            VID: DBX26_08975
+            VIP: H9L11_00815 H9L11_17180(ribA)
+            VIC: SNR28_18905(ribA)
+            VII: ACHFJ9_05090(ribA) ACHFJ9_17120(ribA)
+            VIZ: M4S28_11390
+            VFI: VF_1189(ribA)
+            VFM: VFMJ11_1267
+            VSA: VSAL_I1787(ribA)
+            AWD: AWOD_I_1182(ribA)
+            PPR: PBPRA1519(SCO2687) PBPRA1520(PLU2474) PBPRB1461(VPA0006)
+            PGB: H744_1c1221 H744_2c2261
+            PDS: CAY62_06040
+            PGH: FH974_09125 FH974_17490(ribA)
+            PHOT: L4174_007530
+            PATE: NNL38_06695 NNL38_22530(ribA)
+            PPIL: ACJZU6_08310(ribA)
+            GHO: AL542_17660
+            GKD: K6Q96_07810
+            PMAI: CF386_06540
+            SALY: E8E00_07160
+            SKS: FCN78_06305
+            SCOT: HBA18_06520
+            SPRO: N7E60_06705
+            ELUX: BTN50_0073
+            ELIT: AB8599_08085(ribA)
+            PLAS: NF212_07910
+            PRE: PCA10_06830(ribA)
+            PFUW: KF707C_6490
+            POJ: PtoMrB4_08460(ribA)
+            PLAL: FXN65_03290(ribA)
+            PAE: PA4047(ribA)
+            PAEV: N297_4176(ribA)
+            PAEI: N296_4176(ribA)
+            PAU: PA14_11510(ribA)
+            PAG: PLES_09291(ribA)
+            PAF: PAM18_0893(ribA)
+            PNC: NCGM2_5247(ribA)
+            PAEB: NCGM1900_0914(ribA)
+            PDK: PADK2_04090(ribA)
+            PSG: G655_04445(ribA)
+            PRP: M062_21355
+            PAEP: PA1S_04595
+            PAER: PA1R_gp1935
+            PAEM: U769_04605
+            PAEL: T223_04545
+            PAES: SCV20265_0927
+            PAEU: BN889_04496(ribA)
+            PAEG: AI22_29020
+            PAEC: M802_4174(ribA)
+            PAEO: M801_4042(ribA)
+            SECH: B18_03340
+            PCQ: PcP3B5_08670(ribA)
+            PMUI: G4G71_28935(ribA)
+            PNT: G5B91_03860(ribA)
+            PAP: PSPA7_1054(ribA)
+            PPAA: B7D75_04475(ribA)
+            PPU: PP_0522(ribA)
+            PPF: Pput_0557
+            PPG: PputGB1_0568
+            PPW: PputW619_0575
+            PPT: PPS_0519
+            PPB: PPUBIRD1_0563(ribA)
+            PPI: YSA_06062
+            PPX: T1E_3525(ribA)
+            PPUH: B479_03100(ribA)
+            PPUT: L483_02745
+            PPUN: PP4_05580(ribA)
+            PPUD: DW66_0533
+            PFV: Psefu_3777
+            PMON: X969_01040
+            PMOT: X970_01030
+            PPJ: RK21_04491
+            POR: APT59_19825
+            PPSL: BJP27_11790
+            PMOL: CLJ08_02170 CLJ08_15655(ribA)
+            PALD: LU682_002665(ribA)
+            PIX: RIN61_14485(ribA)
+            PMOS: O165_012505 O165_026620
+            PST: PSPTO_0696(ribA)
+            PSB: Psyr_4456
+            PSYR: N018_03455
+            PSP: PSPPH_4501(ribA)
+            PSAV: PSA3335_24365
+            PAMG: BKM19_006085 BKM19_026095(ribA)
+            PCI: PCH70_45170
+            PAVL: BKM03_04050(ribA)
+            PVD: CFBP1590_0803(ribA)
+            PCAB: JGS08_22915(ribA)
+            PCOF: POR16_21640(ribA)
+            PTRE: I9H09_03755(ribA)
+            PSYI: MME58_22870(ribA)
+            PAST: N015_23370(ribA)
+            PLIJ: KQP88_21555(ribA)
+            PFUV: NLK61_17045(ribA)
+            PFL: PFL_1034 PFL_5514(ribA)
+            PPRC: PFLCHA0_c10540(ribA1) PFLCHA0_c54660(ribA2)
+            PPRO: PPC_1072 PPC_5466(ribA)
+            PFE: PSF113_5232(ribA)
+            PZA: HU749_026565(ribA)
+            PFN: HZ99_14130 HZ99_23360
+            PFO: Pfl01_5011(ribA)
+            PFS: PFLU_5466(ribA)
+            PFC: PflA506_4762(ribA)
+            PPZ: H045_17715(ribA)
+            PFB: VO64_2350
+            PMAN: OU5_4168
+            PTV: AA957_17740
+            PCG: AXG94_12090
+            PVR: PverR02_28075
+            PAZO: AYR47_03465
+            POI: BOP93_23045
+            PRX: HRH33_23845(ribA)
+            PMED: E3Z27_25080(ribA)
+            PKR: AYO71_26920
+            PMUD: NCTC8068_04720(ribA)
+            PTOL: I7845_25645(ribA)
+            PMAB: U0037_27430(ribA)
+            PBRE: QDY63_26185(ribA)
+            PFW: PF1751_v1c48900(ribA)
+            PFF: PFLUOLIPICF711575
+            PFX: A7318_23950
+            PEN: PSEEN0596(ribA)
+            PLUL: FOB45_22575(ribA)
+            PBA: PSEBR_a5033
+            PBC: CD58_26360
+            PPUU: PputUW4_04822
+            PDR: H681_03220(ribA)
+            PSV: PVLB_22595(ribA)
+            PSK: U771_28250
+            PKC: PKB_0697(ribA)
+            PCH: EY04_28460
+            PCZ: PCL1606_07470
+            PCP: JM49_03790
+            PCHP: C4K32_5579
+            PFZ: AV641_02795
+            PLQ: AA042_07170 AA042_15225
+            PALK: PSAKL28_05560
+            PSW: LK03_08045
+            PPV: NJ69_03275 NJ69_15965
+            PSES: PSCI_1132(ribA)
+            PSEM: TO66_27845
+            PSEC: CCOS191_2147(ribA1) CCOS191_4802(ribA2)
+            PPSY: AOC04_22915
+            PSOS: POS17_5462(ribA)
+            PFK: PFAS1_14670
+            PANR: A7J50_5190
+            PSET: THL1_4160 THL1_777
+            PSIL: PMA3_26905
+            PYM: AK972_0465 AK972_5315
+            PADE: C3B55_00315(ribA)
+            PKE: DLD99_25525(ribA)
+            PUM: HGP31_27890(ribA)
+            PGG: FX982_00987
+            PPSH: G5J76_05730(ribA)
+            PGY: AWU82_17210(ribA)
+            PSEJ: HNQ25_05205(ribA)
+            PVK: EPZ47_26445(ribA)
+            PEZ: HWQ56_25630(ribA)
+            PBZ: GN234_21720(ribA)
+            PMAO: PMYSY11_0769(ribA)
+            PATA: JWU58_04010(ribA)
+            PDW: BV82_3623(ribA) BV82_4983(ribA)
+            PZE: HU754_026780(ribA)
+            PMOE: HV782_025860(ribA)
+            PSEP: C4K39_4154
+            PPII: QL104_27930(ribA)
+            PVW: HU752_029070(ribA)
+            PTRT: HU722_0026300(ribA)
+            PXA: KSS93_06075(ribA)
+            PSAM: HU731_012435(ribA)
+            PTZ: HU718_027030(ribA)
+            PQI: KH389_23975(ribA)
+            PSHH: HU773_024845(ribA)
+            PXN: HU772_002800(ribA) HU772_015180
+            PHV: HU739_025745(ribA)
+            PPRG: HU725_002620(ribA)
+            PANH: HU763_002775(ribA)
+            PASG: KSS96_25480(ribA)
+            PFAK: KSS94_02935(ribA)
+            PMUY: KSS95_00265(ribA) KSS95_17885
+            PMAM: KSS90_02830(ribA) KSS90_10385(ribA)
+            PAZE: KSS91_25630(ribA)
+            PALV: KSS97_25790(ribA)
+            PCAS: LOY40_25695(ribA)
+            PORY: EJA05_03100(ribA)
+            PWZ: J7655_17985(ribA)
+            PTK: EXN22_17165(ribA) EXN22_24515(ribA)
+            PTW: TUM18999_08820(ribA)
+            PIE: HU724_025000(ribA)
+            PWY: HU734_023240(ribA)
+            PTAE: NCTC10697_00573(ribA)
+            PGF: J0G10_27390(ribA)
+            PCAV: D3880_03095(ribA)
+            PJU: L1P09_02520(ribA)
+            PPHN: HU825_08120(ribA)
+            PIZ: LAB08_R54140(ribA)
+            PPEG: KUA23_26660(ribA)
+            PSII: NF676_23940(ribA)
+            PSIH: LOY51_03125(ribA)
+            PFIT: KJY40_26845(ribA)
+            PASI: LG197_07795(ribA)
+            PKM: PZ739_02730(ribA)
+            PNB: NK667_31150(ribA)
+            PSOA: PSm6_27900(ribA)
+            PTAI: ICN73_03865(ribA)
+            PKK: QQ992_02920(ribA)
+            PKJ: Q1W70_13465(ribA)
+            PHOM: KJF94_23190(ribA)
+            PCUC: PSH97_24765(ribA)
+            PTRL: OU419_03730(ribA)
+            PPAE: LDL65_07770(ribA)
+            PPAO: K3169_26920(ribA)
+            PRHZ: CRX69_07255(ribA)
+            PSJY: AA098_24815
+            PSKU: KUIN1_44580(ribA)
+            PSHS: JJN09_22825(ribA)
+            PHEF: PSH57_25570(ribA)
+            PSLP: BHQ29_02435
+            PLIS: NN484_13035(ribA)
+            PLAU: I0D68_12480(ribA)
+            PSNC: C0058_28840(ribA)
+            PFOU: OZ911_02840(ribA)
+            PBEJ: PSH84_25220(ribA)
+            PKV: QYQ93_25970(ribA)
+            PSMT: MT1_1061
+            PSKP: KU43P_47620(ribA)
+            PBAM: NUH87_20800(ribA)
+            PDEU: QEP73_02185(ribA)
+            PQE: OSC50_02065(ribA) OSC50_19375
+            PBEN: V6W80_21525(ribA)
+            PSDT: NH234_26430(ribA)
+            PBEZ: SBP02_01355(ribA) SBP02_17655(ribA)
+            PCAA: V6L78_06860(ribA)
+            PBUB: V6B39_06765(ribA) V6B39_22135(ribA)
+            PSML: V6P94_05900(ribA)
+            PSMZ: V6L79_05835(ribA)
+            PSIV: LZ023_07875(ribA)
+            PSWO: SD196_03440(ribA)
+            PMOR: PMm318_A05610(ribA)
+            PTHV: CE140_25105(ribA)
+            PSSX: DCC84_30255(ribA)
+            PAGB: AWM79_01330
+            PSNS: CI807_02780(ribA) CI807_22305
+            PSRU: CCX46_26505(ribA)
+            PSNY: ACPFMA_03290(ribA)
+            PSMD: K5R88_17360(ribA)
+            PIM: OQ460_22410(ribA)
+            PBAB: AAEO81_03665(ribA)
+            PSYQ: HXW90_28030(ribA)
+            PSAO: SK095_13795(ribA)
+            PMY: Pmen_3848
+            PMK: MDS_4232
+            PPSE: BN5_3637(ribA)
+            PALL: UYA_20505
+            PKH: JLK41_21340(ribA)
+            PTY: JWV26_06525(ribA)
+            PHF: NLY38_21660(ribA)
+            PCHE: QYM18_04080(ribA)
+            PSA: PST_0843(ribA)
+            PSZ: PSTAB_0730(ribA)
+            PSR: PSTAA_0783(ribA)
+            PSC: A458_17615(ribA)
+            PSJ: PSJM300_15920(ribA)
+            PSH: Psest_3544
+            PSTT: CH92_18290
+            PSTU: UIB01_17935
+            PSED: DM292_15065(ribA)
+            PCHL: LLJ08_16980(ribA)
+            PBM: CL52_17395
+            PKG: LW136_18465(ribA)
+            SDEG: GOM96_13470(ribA)
+            PZD: KQ248_08690(ribA)
+            AVN: Avin_06800
+            AVL: AvCA_06800(ribA)
+            AVD: AvCA6_06800(ribA)
+            ACX: Achr_34450(ribA)
+            PBB: AKN87_05910
+            PAGR: E2H98_13650(ribA)
+            EMO: DM558_13200(ribA)
+            EAZ: JHT90_14440(ribA)
+            ENTO: MTZ49_04600(ribA)
+            HPEG: EAO82_03860(ribA)
+            HAES: LO767_14490(ribA)
+            PDEN: F1C79_28675(ribA)
+            HARR: HV822_06745(ribA)
+            PNN: KEM63_15130(ribA)
+            PPHA: BVH74_03130
+            HASM: QAO71_01745(ribA)
+            DCE: O6P33_12295(ribA)
+            PALC: A0T30_19440
+            PCAM: HNE05_00710(ribA)
+            PBAU: OS670_16465(ribA)
+            MAQ: Maqu_2439
+            MHC: MARHY0806(ribA)
+            MAD: HP15_579
+            MBS: MRBBS_0786(ribA)
+            MSX: AU14_08845
+            MPQ: ABA45_04120
+            MARI: ACP86_14305
+            MLQ: ASQ50_15700
+            MSQ: BKP64_11445
+            MARA: D0851_16705(ribA)
+            MARJ: MARI_21300(ribA)
+            MALL: PBN92_04190(ribA)
+            MSHE: MAALD49_09090(ribA)
+            MANP: EHN06_04970(ribA)
+            MSAN: LPB19_07305(ribA)
+            MNK: RE428_27380(ribA_1) RE428_36810(ribA_2)
+            MMEE: NLK58_17785(ribA)
+            MAMM: ABNF92_06390(ribA)
+            MRX: MspRI1_32380(ribA)
+            MACA: J2887_16705(ribA)
+            MFLI: ACGK9W_21565(ribA)
+            PSPI: PS2015_731
+            NJO: ABXT42_01290(ribA)
+            PAR: Psyc_0220(ribA)
+            PCR: Pcryo_0244
+            PRW: PsycPRwf_0410
+            PSO: PSYCG_01445
+            PUR: AOC03_07665
+            PALI: A3K91_0282
+            PSPG: AK823_01490
+            PSYG: AK825_01445
+            PSYC: DABAL43B_0292(ribA)
+            PSYA: AOT82_1518
+            PSYY: DLE54_02100(ribA)
+            PSYP: E5677_12050(ribA)
+            PKY: PKHYL_03920(ribA)
+            PCIA: Q6344_01495(ribA)
+            PRAE: MN210_02715(ribA)
+            PSYK: AADH33_11600(ribA)
+            ACB: A1S_3107
+            ABM: ABSDF0388(ribA)
+            ABY: ABAYE0379(ribA)
+            ABC: ACICU_03308
+            ABN: AB57_3559
+            ABB: ABBFA_00405(ribA)
+            ABX: ABK1_3356
+            ABZ: ABZJ_03490(ribA)
+            ABR: ABTJ_00384
+            ABD: ABTW07_3520
+            ABAD: ABD1_29940(ribA)
+            ABJ: BJAB07104_03395
+            ABAB: BJAB0715_03461
+            ABAJ: BJAB0868_03353
+            ABAZ: P795_1870
+            ABK: LX00_16690
+            ABAU: IX87_12275
+            ABAA: IX88_00305
+            ABW: BL01_03910
+            ABAL: ABLAC_03970
+            ABAN: ABUW_0378(ribA)
+            ACC: BDGL_002570(ribA)
+            ANO: RR32_02045 RR32_12795
+            ALC: OTEC02_01965
+            ACAL: BUM88_17520
+            ASEI: I8T81_02105(ribA)
+            ACD: AOLE_01950(ribA)
+            ACI: ACIAD3249(ribA)
+            ATT: AMQ28_10055
+            AEI: AOY20_02485
+            AJO: RZ95_01840 RZ95_13105
+            ACW: A0J50_01855
+            ACV: AMD27_14215
+            AHL: AHTJS_01915
+            AJN: BVL33_03235
+            ASOL: BEN76_11305 BEN76_12360
+            ALA: BFG52_01915
+            ASJ: AsACE_CH02530(ribA-1) AsACE_p100130(ribA-2)
+            AID: CTZ23_01800(ribA) CTZ23_02505(ribA)
+            ADV: DJ533_04770(ribA)
+            ARJ: DOM24_12860(ribA)
+            AWU: BEN71_16800(ribA)
+            ACUM: C9E88_002145(ribA)
+            AGU: AS4_39450(ribA)
+            AUG: URS_0620
+            ALW: FOB21_07685(ribA)
+            ADS: FPL17_16305(ribA)
+            ABER: BSR55_02135
+            ATN: FM020_00900(ribA)
+            ACHI: CDG60_16155(ribA)
+            ALJ: G8D99_01735(ribA)
+            AWG: GFH30_11440(ribA)
+            ASHA: G8E00_01955(ribA)
+            ATG: J4G44_01110(ribA)
+            AVB: RYU24_04220(ribA)
+            ABOU: ACBO_03610(ribA)
+            AGYL: FPL18_08980(ribA)
+            ACIU: A3K93_10675
+            AVZ: HWI77_01765(ribA)
+            APOT: MZO21_01520(ribA)
+            ATZ: M5E07_01565(ribA) M5E07_03690(ribA)
+            APRL: PY247_07650(ribA)
+            ACOI: NQU59_05435(ribA)
+            AVIV: LF296_01885(ribA)
+            ACIE: KIP84_02055(ribA)
+            ASUE: F2A31_01780(ribA)
+            ACIG: BS636_07275(ribA)
+            ACOT: QLH32_12920(ribA)
+            ATV: ABEF79_13810(ribA)
+            ACIC: IOD65_02935(ribA)
+            ACIZ: TOL5_38110(ribA)
+            ACIF: MN200_14315(ribA)
+            ACPZ: ACFN7Z_01810(ribA) ACFN7Z_13090(ribA)
+            ACIK: NGC85_02045(ribA)
+            ACZQ: SC192_01955(ribA)
+            APIS: ACDW34_02385(ribA)
+            ACAZ: ABJ384_01805(ribA) ABJ384_14865(ribA)
+            MCT: MCR_1414(ribA)
+            MCS: DR90_515(ribA)
+            MCAT: MC25239_01368(ribA)
+            MOI: MOVS_03035
+            MBL: AAX09_06665
+            MBOI: DQF64_03660(ribA)
+            MCUN: NCTC10297_00754(ribA)
+            MNN: I6G26_04395(ribA)
+            MNS: LU293_07285(ribA)
+            MNC: LU297_01065(ribA)
+            MNJ: LU290_02270(ribA)
+            MHAC: LU276_06950(ribA)
+            MCAH: U0021_02545(ribA)
+            MOW: RNZ41_02505(ribA)
+            MORA: NGM44_02945(ribA)
+            MORK: MOXK02_16200(ribA)
+            MORX: MOXK23_03970(ribA)
+            MVF: ACE1C5_07090(ribA)
+            MBAH: HYN46_12605(ribA)
+            MOS: AXE82_04160
+            SON: SO_2831(ribA)
+            SDN: Sden_1447
+            SFR: Sfri_2438
+            SAZ: Sama_1277
+            SBL: Sbal_1668
+            SBM: Shew185_1653
+            SBN: Sbal195_1690
+            SBP: Sbal223_2690
+            SBT: Sbal678_1728
+            SBS: Sbal117_1781
+            SBB: Sbal175_2672
+            SLO: Shew_2446
+            SPC: Sputcn32_1543
+            SHP: Sput200_1560
+            SSE: Ssed_1603
+            SPL: Spea_2616
+            SHE: Shewmr4_2438
+            SHM: Shewmr7_2508
+            SHN: Shewana3_2600
+            SHW: Sputw3181_2556
+            SHL: Shal_2689
+            SWD: Swoo_3046
+            SWP: swp_3162
+            SVO: SVI_2927(ribA)
+            SHF: CEQ32_02335(ribA)
+            SJA: SJ2017_2594
+            SPSW: Sps_01815
+            SBJ: CF168_07895(ribA)
+            SMAV: CFF01_07080(ribA)
+            SHEW: CKQ84_23135(ribA)
+            SLJ: EGC82_08910(ribA)
+            SPOL: FH971_07620(ribA)
+            SBK: SHEWBE_2190(ribA)
+            SKH: STH12_00846(ribA)
+            SAES: HBH39_06920(ribA)
+            SLIT: JQC75_06300(ribA)
+            SCAA: TUM17387_24510(ribA)
+            SPSH: FM037_18710(ribA)
+            SEUR: FM038_008135(ribA)
+            SYK: KDN34_10325(ribA)
+            SCYP: JYB88_06510(ribA)
+            SAVI: JYB87_11200(ribA)
+            SSEM: JYB85_06825(ribA)
+            SGLA: FJ709_07440(ribA)
+            SINV: K8B83_10690(ribA)
+            SXM: MKD32_08215(ribA)
+            SVM: KDH10_001395(ribA)
+            SHEJ: MZ182_07580(ribA)
+            SSEH: N7V09_10290(ribA)
+            SCHK: GII14_09260(ribA)
+            SACH: K0H61_11025(ribA)
+            SAEG: K0H80_12485(ribA)
+            SDEO: D0436_13860(ribA)
+            SMES: K0I73_07070(ribA)
+            SHAO: K0H81_07415(ribA)
+            SZH: K0H63_06930(ribA)
+            SSPA: K0I31_12755(ribA)
+            SHNS: K0J45_12580(ribA)
+            SRHS: K0I63_12675(ribA)
+            SPSJ: K0I62_06980(ribA)
+            SMAY: K0H60_13135(ribA)
+            SOG: RA178_14080(ribA)
+            SPSR: EGC80_19075(ribA)
+            SHEA: GUY17_07885(ribA)
+            SHEL: JM642_08115(ribA)
+            SHEH: ABIS04_07275(ribA)
+            SYOU: RGE70_11935(ribA)
+            SHEM: HWQ47_16965(ribA)
+            SHEP: AYJ58_11025
+            CPS: CPS_1824 CPS_4061(ribA)
+            COM: CMT41_05250
+            COZ: A3Q34_01605
+            LSD: EMK97_17030(ribA)
+            TPSY: RGQ13_08060(ribA)
+            TNN: RI845_10895(ribA)
+            THAT: H3N35_17605(ribA)
+            TACT: SG35_018645(ribA)
+            TVD: SG34_009020(ribA) SG34_010685(ribA)
+            PHA: PSHAa0529(ribA)
+            PTN: PTRA_a0598(ribA)
+            PSM: PSM_A0576(ribA)
+            PSEO: OM33_13370
+            PIA: PI2015_0608
+            PPHE: PP2015_3478
+            PBW: D172_015060
+            PRR: AT705_07655
+            PLZ: S4054249_05240
+            PALN: B0W48_11230
+            PPIS: B1L02_03990
+            PEA: PESP_a0723(ribA)
+            PSPO: PSPO_a2239(ribA)
+            PART: PARC_a3314(ribA)
+            PTU: PTUN_a1057(ribA)
+            PNG: PNIG_a0638(ribA)
+            PTD: PTET_a0636(ribA)
+            PSEN: PNC201_12910(ribA)
+            PDJ: D0907_04240
+            PAGA: PAGA_a0733(ribA)
+            PCAR: PC2016_2648
+            PMAA: CPA52_02830
+            PXI: J5O05_05660
+            PVB: J5X90_00675
+            PSAZ: PA25_07240(ribA)
+            PDV: FFU37_12590
+            PFLI: CTT31_13220
+            PMAZ: R5H13_13700(ribA)
+            PSHO: KQ246_10220
+            PSMM: PspMM1_06320(ribA)
+            PXSI: EJ103_03075
+            PSJS: GZH31_04025
+            PSKA: KAN5_19340(ribA)
+            PSRR: ELR70_20230
+            PSMB: H3302_03920
+            PSLC: JG479_13535
+            PSPS: PS1M3_26740(ribA)
+            PSCF: L3Q70_12460
+            PSYM: J1N51_03240(ribA)
+            AMC: MADE_1000945
+            AMH: I633_01075
+            AMAA: amad1_00935
+            AMAL: I607_00880
+            AMAE: I876_00825
+            AMAO: I634_00975
+            AMAD: I636_00905
+            AMAI: I635_00930
+            AMAG: I533_00860
+            AMAC: MASE_00675
+            AMB: AMBAS45_00715
+            AMG: AMEC673_00720
+            AMK: AMBLS11_00710
+            ALT: ambt_18145
+            AAL: EP13_00945
+            AAUS: EP12_00930
+            ASP: AOR13_3320
+            ASQ: AVL57_02190
+            AAW: AVL56_01010
+            ALR: DS731_02105(ribA)
+            ALE: AV939_01005
+            ALZ: AV940_01005
+            APEL: CA267_010570(ribA)
+            ALTE: ALT761_00206
+            ALTM: BM527_00835
+            ALTR: BM528_00895
+            ALTO: AltI4_40780
+            AMAB: ACI7YQ_00920(ribA)
+            ALTB: IUA53_00970(ribA)
+            ALTA: D1814_06645(ribA)
+            ALTD: D210916_34230
+            ALTZ: ACM0P2_00920(ribA)
+            AALE: ACOJRU_00895(ribA)
+            AUV: ACOJR9_01290(ribA)
+            SALM: D0Y50_18485(ribA)
+            SALK: FBQ74_00785(ribA)
+            SMAA: IT774_00455(ribA)
+            GAG: Glaag_0330
+            GNI: GNIT_0270(ribA)
+            GPS: C427_5145
+            PMES: FX988_02263
+            PAT: Patl_3961
+            LAL: AT746_00725
+            SALH: HMF8227_02910(ribA)
+            HMI: soil367_03960(ribA)
+            PAEW: KIH87_01255(ribA) KIH87_09785(ribA)
+            AGZ: M0C34_15900
+            AGQ: LQZ07_18985
+            AGAR: OAG1_09830(ribA)
+            ALKM: NKI27_15970(ribA)
+            ASEM: NNL22_12400(ribA)
+            ALII: QR722_00920(ribA)
+            PMAW: MACH26_40470
+            HARO: R50071_09510(ribA)
+            OIM: ACM613_03830(ribA)
+            PIN: Ping_0518
+            MVS: MVIS_0797(ribA) MVIS_3947(ribA)
+            MYA: MORIYA_3491(ribA)
+            MMAA: FR932_13845(ribA) FR932_20295(ribA)
+            MOQ: HWV03_02280(ribA) HWV03_18385(ribA)
+            CJA: CJA_2689(ribA)
+            CEB: B0D95_08865
+            CELL: CBR65_18660
+            CEK: D0B88_15135(ribA) D0B88_17195(ribA)
+            CEG: D0C16_09385(ribA)
+            SDE: Sde_3450(ribA)
+            TTU: TERTU_3696(ribA)
+            SAGA: M5M_09835(ribA)
+            SLIO: R50072_34810(ribA)
+            MARQ: MARGE09_P0210
+            GIL: NHM04_14695(ribA)
+            GJP: R50076_28300(ribA)
+            MKE: OOT55_00155(ribA)
+            MNY: R50073_03270(ribA)
+            SPOI: IMCC21906_00736
+            SNAN: I6N98_01790(ribA)
+            STAW: NCG89_10970(ribA)
+            ZAL: AZF00_16725
+            OSG: BST96_09975
+            MTHD: A3224_12600
+            MICC: AUP74_00305(ribA)
+            MAGA: Mag101_03070
+            MII: BTJ40_19095(ribA)
+            MICT: FIU95_17755(ribA)
+            MHYD: GTQ55_03580(ribA)
+            MCEL: LPW13_00560(ribA)
+            MICZ: GL2_19500(ribA)
+            MVB: MJO52_18045(ribA)
+            MPAF: R5R33_12490(ribA)
+            MBRG: PVT68_15200(ribA)
+            MICL: GNX18_17420(ribA)
+            MICY: HUW35_03210(ribA)
+            MSPN: M8T91_02880(ribA)
+            MCNS: ACG1BZ_20180(ribA)
+            HJA: BST95_00040
+            HALC: EY643_02855(ribA)
+            KIM: G3T16_12765(ribA)
+            AFUS: EYZ66_11365(ribA)
+            CVB: R0135_15480(ribA)
+            CBRV: R0137_16260(ribA)
+            MMT: Metme_4518
+            MDN: JT25_000460 JT25_010970
+            MDH: AYM39_00435 AYM39_07770
+            MKO: MKLM6_0118 MKLM6_1600
+            METL: U737_10900(ribA) U737_23790(ribA)
+            MPAD: KEF85_16600(ribA)
+            MELL: IVG45_15985(ribA)
+            MRP: NM686_021650(ribA)
+            MMOT: QZJ86_00470(ribA) QZJ86_09465(ribA)
+            MEEP: JWZ98_22325(ribA)
+            MEEC: PL263_14145(ribA)
+            MEUP: QC632_24055(ribA)
+            MAH: MEALZ_3560
+            MBUR: EQU24_18940(ribA)
+            MPSY: CEK71_16695(ribA)
+            MMOB: F6R98_12000(ribA)
+            MEIN: methR_P2634
+            MESL: KKZ03_03860(ribA) KKZ03_18335(ribA)
+            MECH: Q9L42_003245(ribA)
+            MEC: Q7C_2696
+            MMAF: GCM100_13820(ribA)
+            MTHA: VSX76_03195(ribA)
+            CYS: NYP54_01425(ribA)
+            RHH: E0Z06_07650(ribA)
+            TKM: TK90_1278
+            TNI: TVNIR_1316(ribBA_[H])
+            TTI: THITH_07430
+            TVR: TVD_05755
+            SSAL: SPISAL_06035 SPISAL_07980
+            SPIU: SPICUR_06810 SPICUR_08965
+            SROS: BBH56_06060 BBH56_08130
+            SPIZ: GJ672_06880(ribA) GJ672_08805(ribA)
+            SHAI: LMH63_06950
+            NAX: HC341_16905(ribA)
+            WMA: WM2015_2947
+            GAI: IMCC3135_05425(ribA)
+            WOC: BA177_05580
+            HCH: HCH_05867
+            HAHE: ENC22_04635(ribA)
+            HAHH: O5O45_30850(ribA)
+            TCD: AAIA72_00250(ribA)
+            CSA: Csal_0115 Csal_1172
+            CCAG: SR908_07405(ribA) SR908_13475
+            HEL: HELO_1088(ribA)
+            HCS: FF32_05275 FF32_10790
+            HAK: KO116_00332 KO116_03246
+            HAM: HALO0249 HALO3481
+            HHU: AR456_00530
+            HCO: LOKO_01656(ribA)
+            HSI: BOX17_08190 BOX17_12170
+            HALO: BWR19_00695 BWR19_04850
+            HBE: BEI_0058(ribA)
+            HAG: BB497_04740 BB497_08135
+            HAF: C8233_10870(ribA)
+            HPRO: LMS44_06010(ribA) LMS44_22275(ribA)
+            HQD: K1Y77_04470(ribA) K1Y77_15380(ribA)
+            HBH: E4T21_00220(ribA)
+            HBP: HPTD01_1331 HPTD01_172
+            HALF: QEN58_05075(ribA) QEN58_18385(ribA)
+            HHAO: QWG60_00415(ribA)
+            HASO: B2G49_02810 B2G49_17695
+            HALW: B6N23_05550 B6N23_09580(ribA)
+            HASH: HXW73_12335(ribA) HXW73_16655(ribA)
+            HPIS: P1P91_01880(ribA)
+            HAMS: NF683_06090(ribA) NF683_12330(ribA)
+            HCAM: I4484_00705(ribA)
+            HAAH: HALA3H3_30186(ribA) HALA3H3_410037(ribA)
+            HAXH: J4377_04720(ribA) J4377_17770(ribA)
+            HABD: OM794_05670(ribA) OM794_21480(ribA)
+            HQN: M0220_03120(ribA) M0220_09120(ribA)
+            HAFN: KF947_09960(ribA) KF947_17360(ribA)
+            HAMC: HNO52_00545(ribA)
+            HANY: LG409_13320(ribA) LG409_17595(ribA)
+            HADN: NKF27_00475(ribA)
+            HAAZ: HaloA020_09290(ribA) HaloA020_21120
+            HAMZ: P8S55_06370(ribA) P8S55_10340(ribA)
+            HSPE: IT895_13380(ribA) IT895_17820(ribA)
+            HCK: MRB56_00515(ribA)
+            HKA: R5M92_14865(ribA)
+            HALK: CUU95_01300 CUU95_06895(ribA)
+            HVN: EI420_04805(ribA) EI420_19400(ribA)
+            HHH: CLM76_06545(ribA) CLM76_11100
+            HOL: HORIV_17720 HORIV_17730 HORIV_68610(ribA)
+            HSR: HSBAA_15520 HSBAA_15530 HSBAA_62910(ribA)
+            HPIZ: GYM47_04705(ribA) GYM47_16680(ribA)
+            HNP: SR894_04990(ribA) SR894_20775(ribA)
+            HTT: HZS52_06080(ribA) HZS52_22340(ribA)
+            HMD: CTT34_04810 CTT34_17150(ribA)
+            HAXI: HAALTHF_12290n(ribA) HAALTHF_28510n
+            VRE: ACFIOZ_05885(ribA) ACFIOZ_20705(ribA)
+            VRS: V8F66_05465(ribA) V8F66_20240(ribA)
+            HSX: HNO51_00570(ribA)
+            HTX: EKK97_00780(ribA)
+            HSV: HNO53_00585(ribA)
+            ZPL: ZBT109_2527
+            CMAI: BFX80_16915
+            CAMH: LCW13_00265(ribA)
+            COBE: CLAM6_00520(ribA)
+            COBB: H2O77_00265(ribA)
+            COBD: U0O11_00265(ribA)
+            COBC: F8A90_00265(ribA)
+            KUS: B9G99_07170
+            KMA: B9H00_07805
+            KUY: FY550_00360(ribA) FY550_09535(ribA)
+            PAUR: FGL86_04725(ribA) FGL86_09940
+            SAJS: QO259_05195(ribA) QO259_19540(ribA)
+            MMW: Mmwyl1_2026
+            MME: Marme_2059
+            MPC: Mar181_1584
+            MPRI: MP3633_2167
+            MARD: IBG28_09465(ribA)
+            MFOI: JSY38_18070(ribA)
+            MPRF: J8N69_14920(ribA)
+            MRHI: KDW99_11290(ribA)
+            MPON: MACH16_13920(ribA)
+            MATH: THO17_05710
+            TOL: TOL_3213
+            TOR: R615_15120
+            TWAN: HUF19_01895(ribA)
+            OAI: OLEAN_C36050(ribA)
+            MARS: A8C75_02115
+            MGEO: CFI10_16310(ribA)
+            MSEC: LN244_01695(ribA)
+            MARL: HH196_10085(ribA)
+            MRZ: KDW95_14220(ribA)
+            BSAN: CHH28_06885(ribA)
+            NCU: F0U83_01930(ribA)
+            NJP: NEJAP_0399(ribA)
+            NIK: F5I99_01590(ribA)
+            AJP: AMJAP_0326(ribA)
+            VCW: GJQ55_01390(ribA)
+            BACZ: KFF03_01470(ribA)
+            GSN: YC6258_04254
+            RFO: REIFOR_03342
+            OME: OLMES_4682
+            LLP: GH975_02135(ribA)
+            ENW: MJO57_05050(ribA)
+            EEI: NX720_14595(ribA)
+            ENG: O2T12_20345(ribA)
+            EMP: EZMO1_4390(ribA)
+            PLEI: Q9312_09695(ribA)
+            MMEG: TYM08_P0352
+            AHA: AHA_1807(ribA)
+            AHY: AHML_09935
+            AHD: AI20_10010
+            AHR: V428_10195
+            AHP: V429_10200
+            AHJ: V469_13300
+            AHH: RY45_09830
+            AHI: VU14_13515
+            AAJ: BOQ57_08860
+            ASA: ASA_1766(ribA)
+            AEO: O23A_p1053
+            AVR: B565_2312
+            AVO: AMS64_14305
+            AMED: B224_1853
+            ASR: WL1483_3865(ribA)
+            ADH: CK627_16975(ribA)
+            ACAV: VI35_12060(ribA)
+            AEM: CK911_08675(ribA)
+            AEA: C2U39_12410(ribA)
+            ARV: C7N77_12960(ribA)
+            AES: C2U30_01480(ribA)
+            AEL: NCTC12917_02352(ribA)
+            ASIM: FE240_10620(ribA)
+            AALL: I6G90_03505(ribA)
+            AJD: I6H43_19825(ribA)
+            ARIV: KYK33_08710(ribA)
+            ASAA: KXJ75_13745(ribA)
+            AEJ: E5E97_14265(ribA)
+            ABES: IU367_12865(ribA)
+            AERO: CK910_18820(ribA)
+            AERZ: E5E96_16670(ribA)
+            AOJ: ACPDZI_09060(ribA)
+            AMYQ: ACFWHB_09455(ribA)
+            TAU: Tola_1268
+            OCE: GU3_11705
+            OPE: PU634_08945(ribA)
+            OCJ: N2M06_09380(ribA)
+            OCM: CBP12_02345
+            OPF: CBP31_01290
+            ZDF: AN401_09990
+            ZOB: ACEVBK_11130(ribA)
+            PAGI: ABHF91_09920(ribA)
+            KKO: Kkor_0362
+            KGE: TQ33_1996
+            KSD: KS2013_2047
+            KPD: CW740_01555(ribA)
+            KAM: SR900_00265(ribA)
+            GAP: GAPWK_1916
+            GAQ: RAM11_04810(ribA)
+            FPP: FPB0191_00871
+            ORB: IPMB12_05595(ribA)
+            OMO: RHO11_03125(ribA)
+            OWH: RHO14_06220(ribA)
+            OSV: RHO12_03980(ribA)
+            UBR: RHO15_08125(ribA)
+            SOK: D0B54_11980(ribA)
+            SINI: GT972_08290(ribA)
+            FCE: JN531_014310(ribA)
+            SALN: SALB1_3100
+            CDIZ: CEDIAZO_03503(ribA)
+            SADE: GFK82_00749(ribA)
+            BCI: BCI_0300(ribA)
+            BCIB: IM45_690
+            BCIG: AB162_247(ribA)
+            NME: NMB1254(ribA)
+            NMP: NMBB_1342
+            NMH: NMBH4476_0958
+            NMD: NMBG2136_1134
+            NMM: NMBM01240149_0920
+            NMS: NMBM01240355_1173
+            NMQ: NMBM04240196_0948(ribA)
+            NMZ: NMBNZ0533_1220(ribA)
+            NMA: NMA1425
+            NMW: NMAA_0967(ribA)
+            NMX: NMA510612_1580(ribA)
+            NMC: NMC1155(ribA)
+            NMN: NMCC_1137(ribA)
+            NMT: NMV_1174(ribA)
+            NMI: NMO_1068(ribA)
+            NGO: NGO_1134
+            NGK: NGK_1475
+            NLA: NLA_10600(ribA)
+            NEL: NELON_05340 NELON_05775
+            NWE: SAMEA3174300_1187(ribA)
+            NSI: A6J88_07530(ribA)
+            NMJ: NM96_02185(ribA)
+            NEI: BG910_10670(ribA)
+            NEK: CGZ77_08200(ribA)
+            NFV: FAH67_06090(ribA)
+            NSF: FAH66_06310(ribA)
+            NZL: D0T92_05890(ribA)
+            NAQ: D0T90_02120(ribA)
+            NBL: GJV52_09215(ribA)
+            NZO: SAMEA4504057_0830(ribA)
+            NCI: NCTC10296_01323(ribA)
+            NCZ: NCTC10294_00687(ribA)
+            NANI: NCTC12227_01229(ribA)
+            NBC: H3L91_04545(ribA)
+            NWD: H3L96_11955(ribA)
+            NSG: H3L94_07550(ribA)
+            NMUS: H7A79_0388(ribA)
+            NSC: J7445_06295(ribA)
+            NPF: LPB400_09190(ribA)
+            NDN: H3L92_06805(ribA)
+            NWX: CGZ65_09075(ribA)
+            NDU: LVJ88_08690(ribA)
+            NAW: LVJ86_03600(ribA)
+            NMB: MON40_05960(ribA)
+            NLS: PJU73_04010(ribA)
+            NLN: ORY85_05540(ribA)
+            SALV: SALWKB2_1308
+            SCOM: PYG29_07505(ribA)
+            KKI: KKKWG1_0189(ribA)
+            KOA: H3L93_10000(ribA)
+            KPOT: LVJ84_09315(ribA)
+            VIT: ADP71_11040
+            VST: LVJ81_07745(ribA)
+            VMS: LVJ82_15885(ribA)
+            ECOR: SAMEA4412678_2078(ribA)
+            EEX: EZJ17_05040(ribA)
+            SMUR: BWP33_00150
+            AFF: H3L97_03600(ribA)
+            ACRS: LVJ80_03550(ribA)
+            CSTE: H3L98_03425(ribA)
+            PTES: JQU52_09620(ribA)
+            MCER: MON37_03425(ribA)
+            USU: LVJ78_04545(ribA)
+            UTE: LVJ83_03540(ribA)
+            WBO: MIS45_02540(ribA)
+            CCAH: DWG20_15105(ribA)
+            CVI: CV_2005(ribA)
+            CVC: BKX93_00255
+            CHRO: CXB49_09920(ribA)
+            CHRI: DK842_17105(ribA)
+            CHRB: DK843_00230(ribA)
+            CRZ: D1345_08125(ribA)
+            CHRM: FYK34_05895(ribA)
+            CHAE: CH06BL_17530(ribA)
+            CSUT: U6115_11230(ribA)
+            CHRU: DXT74_12680(ribA)
+            PSE: NH8B_3087
+            AMAH: DLM_0755
+            AQS: DKK66_01345(ribA)
+            VOX: LCH97_06235(ribA)
+            JEU: BJP62_06755
+            JES: JHS3_17420
+            JWK: R0382_002075(ribA)
+            CFON: HZU75_03735(ribA)
+            CMAV: ABHF33_11540(ribA)
+            CHIC: N8I74_18060(ribA)
+            AQL: BXU06_14210
+            MAER: DAI18_02845(ribA)
+            RSN: RSPO_m00769(ribA)
+            RSY: RSUY_44260(ribA)
+            RPJ: N234_29680
+            REH: H16_B1576(ribA)
+            CNC: CNE_2c15770(ribBA)
+            CUH: BJN34_29710 BJN34_36065
+            REU: Reut_B4241
+            RME: Rmet_0194(ribA)
+            CTI: RALTA_B1415(ribA)
+            CBW: RR42_s1769
+            CGD: CR3_3557(ribA)
+            CPAU: EHF44_04470(ribA)
+            COX: E0W60_02005(ribA)
+            CCAM: M5D45_01115(ribA)
+            CCAX: KZ686_16590(ribA)
+            CUK: KB879_13060(ribA)
+            CNAN: A2G96_25475
+            CUPR: IC580_18495(ribA)
+            CUPP: CTP10_R50850(ribA)
+            BMA: BMAA1048(toxB) BMAA1349(ribA)
+            BMV: BMASAVP1_0035(toxB) BMASAVP1_0332(ribA)
+            BML: BMA10229_0379(toxB) BMA10229_0610(ribA)
+            BMN: BMA10247_A0959(ribA) BMA10247_A1205(toxB)
+            BMAZ: BM44_4138(ribA) BM44_4327
+            BMAL: DM55_4174(ribA) DM55_4611
+            BMAE: DM78_3305(ribA) DM78_3759
+            BMAQ: DM76_3563 DM76_4874(ribA)
+            BMAI: DM57_10310 DM57_11450
+            BMAF: DM51_4725 DM51_5001(ribA)
+            BMAB: BM45_3260(ribA) BM45_3451
+            BPS: BPSS0883(ribA) BPSS1121
+            BPM: BURPS1710b_A0081(toxB) BURPS1710b_A2481(ribA)
+            BPL: BURPS1106A_A1220(ribA) BURPS1106A_A1501
+            BPD: BURPS668_A1292(ribA) BURPS668_A1584
+            BPR: GBP346_B0549(ribA) GBP346_B0830
+            BPSE: BDL_4172(ribA) BDL_4408
+            BPSM: BBQ_5049 BBQ_5253(ribA)
+            BPSU: BBN_4343(ribA) BBN_4547
+            BPSD: BBX_3573 BBX_6012(ribA)
+            BPZ: BP1026B_II0969(ribA) BP1026B_II1185
+            BPQ: BPC006_II1235 BPC006_II1503
+            BPK: BBK_3554(ribA) BBK_5989
+            BPSH: DR55_4206 DR55_4452(ribA)
+            BPSA: BBU_4941 BBU_5147(ribA)
+            BPSO: X996_4120(ribA) X996_4322
+            BUT: X994_6035 X994_6241(ribA)
+            BTE: BTH_II1285 BTH_II1514(ribA)
+            BTQ: BTQ_4569 BTQ_4800(ribA)
+            BTJ: BTJ_3432(ribA) BTJ_5552
+            BTZ: BTL_4019 BTL_4280(ribA)
+            BTD: BTI_3633 BTI_5703(ribA)
+            BTV: BTHA_3677(ribA) BTHA_3862
+            BTHE: BTN_3411(ribA) BTN_3648
+            BTHM: BTRA_4162(ribA) BTRA_4347
+            BTHA: DR62_3484 DR62_3682
+            BTHL: BG87_4026 BG87_4256(ribA)
+            BOK: DM82_5057(ribA) DM82_5293
+            BOC: BG90_5316 BG90_5538(ribA)
+            BUU: WS70_21830 WS70_23200
+            BSAV: WS86_23165 WS86_24040
+            BHG: I6G56_22305 I6G56_23565(ribA)
+            BUD: AQ610_25025 AQ610_26250
+            BVI: Bcep1808_5269
+            BVE: AK36_3627(ribA)
+            BUR: Bcep18194_B1027
+            BCM: Bcenmc03_5551
+            BCH: Bcen2424_4731
+            BCEN: DM39_5936(ribA)
+            BCEW: DM40_4700(ribA)
+            BCEO: I35_5751
+            BAM: Bamb_1629 Bamb_4122
+            BAC: BamMC406_4586
+            BMJ: BMULJ_04557(ribA)
+            BMU: Bmul_3944
+            BMK: DM80_5265(ribA)
+            BMUL: NP80_4660(ribA)
+            BCT: GEM_3746
+            BCED: DM42_6077(ribA)
+            BCEP: APZ15_29360
+            BDL: AK34_3738(ribA)
+            BPYR: ABD05_26125
+            BCON: NL30_02685
+            BUB: BW23_5529(ribA)
+            BDF: WI26_22900
+            BLAT: WK25_25940
+            BTEI: WS51_07050
+            BSEM: WJ12_29500
+            BPSL: WS57_04635
+            BMEC: WJ16_28105
+            BSTG: WT74_28735
+            BSTL: BBJ41_23115
+            BANN: JFN94_27540(ribA)
+            BARI: NLX30_27845(ribA)
+            BAEN: L3V59_23820(ribA)
+            BSER: R0290_28430(ribA)
+            BGL: bglu_2g06410 bglu_2g14580
+            BGU: KS03_4482(ribA) KS03_5277
+            BUG: BC1001_5686
+            BGF: BC1003_5780
+            BGD: bgla_1g04580 bgla_2g11000
+            BGO: BM43_1845 BM43_4760(ribA)
+            BYI: BYI23_B003210
+            BUK: MYA_4849
+            BUL: BW21_5390(ribA) BW21_5635
+            BUQ: AC233_30820
+            BGP: BGL_2c09530
+            BPLA: bpln_2g10450
+            BUM: AXG89_22340
+            BUI: AX768_24820
+            BURK: DM992_20855(ribA)
+            BURT: BTHE68_35840(ribA)
+            BURM: GJG85_20605(ribA) GJG85_21805(ribA)
+            BURF: Bsp3421_001913(ribA)
+            BUV: FPJ27_13630(ribA)
+            BXE: Bxe_B1675
+            BXB: DR64_6983(ribA)
+            BPH: Bphy_3240
+            BGE: BC1002_3780
+            BPX: BUPH_06075
+            BPY: Bphyt_4975
+            BUZ: AYM40_24865
+            BFN: OI25_4110(ribA)
+            BCAI: K788_0002781
+            PSPW: BJG93_16710(ribA)
+            PARA: BTO02_29970
+            PARB: CJU94_21170(ribA)
+            PHS: C2L64_26635(ribA)
+            PTER: C2L65_21750(ribA)
+            PGP: CUJ91_25385(ribA)
+            PCJ: CUJ87_19935(ribA)
+            PTS: CUJ90_32170(ribA)
+            PCAF: DSC91_001600
+            PMEG: FNZ07_10760(ribA)
+            PTRO: G5S35_18610(ribA)
+            PGIS: I6I06_21675(ribA)
+            PACP: FAZ97_16355(ribA)
+            PACS: FAZ98_20905(ribA)
+            PEW: KZJ38_31205(ribA)
+            PDIO: PDMSB3_1414.1(ribA)
+            PBRY: NDK50_29735(ribA)
+            PSAA: QEN71_08645(ribA)
+            PKF: RW095_08865(ribA)
+            PBON: QS306_15425(ribA)
+            PPAI: E1956_22710(ribA)
+            PHUN: U0042_27245(ribA)
+            PLAD: PPGU16_35050(ribA)
+            PAZZ: PBP221_43730(ribA)
+            BRH: RBRH_00550 RBRH_02554
+            PANI: DCO16_03240(ribA)
+            PARD: DN92_03585(ribA)
+            POLY: PSHI2_05130
+            POLN: PSHI8_05130
+            POLT: TUM22923_14130
+            PPK: U875_16285
+            PPNO: DA70_08170
+            PPNM: LV28_22410
+            PRB: X636_18100
+            PPUL: RO07_16830
+            PSPU: NA29_20335
+            PAPI: SG18_15635
+            PVE: UC34_08045
+            POX: MB84_12430
+            PFG: AB870_18785
+            PNR: AT302_25845
+            PAND: DRB87_07355(ribA)
+            PFIB: PI93_019820(ribA)
+            PCOM: NTU39_09160(ribA)
+            PANN: PanNE5_44330(ribA)
+            PANX: OYT13_07420(ribA)
+            PLG: NCTC10937_04815(ribA)
+            CABA: SBC2_66370(ribBA_3)
+            BUO: BRPE64_BCDS10060(ribA)
+            CABK: NK8_38700(ribA)
+            BUE: BRPE67_BCDS05700(ribA)
+            TVL: FAZ95_32610(ribA)
+            TCAR: U0034_22195(ribA)
+            ACHB: DVB37_15200
+            ACHO: H4P35_13435
+            AMUI: PE062_10150
+            APES: FOC84_15105
+            ACHM: V6V88_13900(ribA)
+            ACHA: KYT87_16015
+            ACHJ: LN047_15305
+            PUT: PT7_1502
+            PUS: CKA81_07350(ribA)
+            POLL: OEG81_11230(ribA)
+            CDN: BN940_05916
+            CGIN: ABRZ00_01575(ribA)
+            AFA: UZ73_02650
+            AFQ: AFA_12500(ribA)
+            AAQU: D3M96_13080(ribA)
+            AAMM: FE795_11490(ribA)
+            ALCN: MID00_14920(ribA)
+            PHN: PAEH1_04665
+            ODI: ODI_R2310
+            BOZ: DBV39_12140(ribA)
+            ODH: DHf2319_02335(ribA)
+            PIG: EGT29_09690
+            PACR: FXN63_22815
+            PARK: LSG25_01675(ribA)
+            NARM: N7E01_14370(ribA)
+            PUD: G9Q38_08785(ribA)
+            COMB: MJ205_05210(ribA)
+            CSQU: N4T19_07320
+            CSEN: ACQYWY_06275(ribA)
+            RDP: RD2015_4728
+            ROI: N4261_25710(ribA)
+            KIA: G8A07_22320(ribA)
+            MIU: ABE85_24475
+            ROG: ACQZ13_27770(ribA)
+            ROJ: ACO228_16460(ribA)
+            SNN: EWH46_08490(ribA)
+            SMIO: CATMQ487_02300
+            ATER: MW290_10680(ribA)
+            LCH: Lcho_2161 Lcho_2489
+            RGU: A4W93_12370
+            HAR: HEAR0565(ribA)
+            MMS: mma_0548(ribA)
+            JAG: GJA_3315(ribA)
+            JAZ: YQ44_07280
+            JAL: BZG29_20575
+            JSV: CNX70_20725(ribA)
+            JAJ: EKL02_12285(ribA)
+            JAS: FJQ89_10395(ribA)
+            JLV: G3257_21225(ribA)
+            JAH: JAB4_041890(ribA)
+            JRI: P9875_21260(ribA)
+            JAE: OPV09_20965(ribA)
+            HSE: Hsero_4767(ribA)
+            HSZ: ACP92_23830
+            HHT: F506_22090
+            HRB: Hrubri_4723(ribA)
+            HEE: hmeg3_23310(ribA)
+            HHF: E2K99_25190(ribA)
+            HFR: G5S34_25025(ribA)
+            HEW: HBDW_48990(ribA)
+            ZIN: ZICARI_166(ribA)
+            CFU: CFU_2258(ribA)
+            CARE: LT85_2394
+            CPRA: CPter91_2855(ribA)
+            MNR: ACZ75_00755
+            MASW: AM586_19765
+            MASS: CR152_17885(ribA)
+            MTIM: DIR46_21685(ribA)
+            MASY: DPH57_01725(ribA)
+            MANC: IV454_30485(ribA)
+            MFY: HH212_16135(ribA)
+            MVAR: MasN3_35510(ribA)
+            MENY: LSQ66_13110(ribA)
+            MLIR: LPB04_13405(ribA)
+            MASB: LP420_33590(ribA)
+            MASZ: C9I28_19190 C9I28_20395(ribA)
+            MALI: EYF70_06780(ribA)
+            MUM: FCL38_11995(ribA)
+            MFLA: GO485_07035(ribA)
+            MPLI: E1742_07495(ribA)
+            TCT: PX653_02415(ribA)
+            PLUE: EWM63_21330(ribA)
+            DUG: HH213_01395(ribA)
+            DZO: SR858_17615(ribA)
+            TMJ: P0M04_18345(ribA)
+            RUG: QC826_08335(ribA)
+            EHB: E7V67_018155(ribA)
+            UPV: EJN92_03655(ribA)
+            UPI: EJG51_007390(ribA)
+            UND: UNDKW_3248(ribA)
+            UNY: UNDYM_3328(ribA)
+            UCY: RF679_04705(ribA)
+            NOK: FAY22_17600(ribA)
+            GLC: JQN73_20065(ribA)
+            ACTB: RHM62_05805(ribA)
+            AON: DEH84_09110(ribA)
+            ETB: N7L95_18915(ribA) N7L95_28310
+            METR: BSY238_1119 BSY238_457(ribA)
+            MFA: Mfla_1358
+            MEH: M301_2721
+            MEI: Msip34_1926 Msip34_1959
+            MEP: MPQ_1941(ribA) MPQ_1976
+            MEU: ACJ67_09400 ACJ67_13820
+            MMEC: FIU01_07710(ribA)
+            MEDZ: MTDW_01310(ribA) MTDW_10610(ribA)
+            MPAU: ZMTM_23000(ribA)
+            DSU: Dsui_0717
+            AIQ: Azoinq_07635(ribA)
+            EBA: ebA3120(ribA)
+            ABRE: pbN1_18950(ribA)
+            APET: ToN1_06650(ribA)
+            AZI: AzCIB_2554
+            AZD: CDA09_13930(ribA)
+            TMZ: Tmz1t_2460
+            THU: AC731_007225
+            THAU: C4PIVTH_3991(ribA)
+            TCL: Tchl_2368 Tchl_3070
+            THK: CCZ27_09315(ribA)
+            TAK: Tharo_1524
+            THAG: CKCBHOJB_01821(ribA)
+            AZQ: G3580_01675(ribA)
+            ACOM: CEW83_07375(ribA)
+            FMY: HO273_04730(ribA)
+            SSDC: SSDC_01665(ribA)
+            PARM: PADco_3210(ribA)
+            WOL: WD_0003(ribA)
+            WRI: WRi_000040
+            WEN: wHa_00030(ribA)
+            WED: wNo_10710(ribA)
+            WPI: WP1254(ribA)
+            WBM: Wbm0278
+            WOO: wOo_07280
+            WCL: WCLE_00040(ribA)
+            WEO: ASM33_01315
+            WPP: DEJ70_04595
+            WEC: wCauA_02920
+            WDM: EJB00_02325
+            WEB: WBP_0562
+            WES: JKF54_05520
+            WEA: EA652_0004
+            WEM: CAI20_03735
+            WEY: wYak_00030(ribA)
+            WEL: GOY07_01540(ribA)
+            WET: GOY13_02545(ribA)
+            WEW: HUB92_02105
+            WER: wSan_00030(ribA)
+            WEF: GOY12_02295(ribA)
+            WEP: JSQ73_006565
+            WEH: J4T77_00020
+            WEE: LOK48_01305
+            WEG: L0Z57_00020
+            WEU: GOY14_01275(ribA)
+            WEJ: L2227_06930
+            SSIV: MJ631_03720
+            WEX: M1L25_000717
+            WEK: M1L26_000427
+            WEQ: NHG98_00020
+            WEV: ONI09_00020
+            WEND: M3L71_04025
+            WEDC: R0F62_00795
+            WEZT: R0F63_03385
+            WELO: NMD99_03190
+            WENO: HUB95_05010
+            WENC: FK497_01205
+            WMS: ID128_05340
+            WENW: ABL518_02015
+            AMA: AM1317(ribA)
+            AMF: AMF_997(ribA)
+            ACN: ACIS_00089(ribA)
+            APH: APH_1314(ribA) APH_1319
+            APY: YYU_06100
+            APD: YYY_06180
+            APHA: WSQ_06165
+            AOH: AOV_04605
+            APLT: ANPL_00215(ribA)
+            ERU: Erum0310
+            ERW: ERWE_CDS_00180(ribA)
+            ERG: ERGA_CDS_00180(ribA)
+            ECN: Ecaj_0023
+            ECH: ECH_0045
+            ECHA: ECHHL_1012
+            ECHJ: ECHJAX_1032
+            ECHL: ECHLIB_1032
+            ECHS: ECHOSC_1027
+            ECHV: ECHSTV_1014
+            ECHW: ECHWAK_1025
+            ECHP: ECHWP_1006
+            EMR: EMUR_00065
+            EHH: EHF_0987
+            EHJ: K6025_00605(ribA)
+            NSE: NSE_0745(ribA)
+            NRI: NRI_0719
+            NHM: NHE_0706(ribA)
+            NEF: GP480_03030(ribA)
+            NMIK: LUA81_02070(ribA)
+            BNU: N3Z17_02490
+            BWF: Bandiella_01055
+            RBT: NOVO_03365(ribA)
+            REN: EF513_00205
+            AGC: BSY240_2194
+            ALF: CFBP5473_15665(ribA)
+            AVQ: HRR99_15470(ribA)
+            ACUC: KZ699_24470(ribA)
+            RROS: D4A92_09905(ribA)
+            RHT: NT26_1343(ribA)
+            RFV: RFYW14_01510
+            SHIN: LHJ69_22965(ribA)
+            PDES: FE840_018620(ribA)
+            BIC: LMTR13_08690
+            BROS: QUH67_10290
+            VGO: GJW-30_1_03049(ribA_1)
+            RHZ: RHPLAN_29930
+            BVV: BHK69_27125
+            BVES: QO058_07060(ribA)
+            BOP: AXW83_11835
+            BOS: BSY19_3844
+            BOI: BLM15_00190
+            BOF: FQV39_26595(ribA)
+            BOW: NWE53_11630(ribA)
+            BOSE: RMR04_07095(ribA)
+            XAU: Xaut_2038
+            XDI: EZH22_08250(ribA)
+            AZC: AZC_4172
+            APOL: K9D25_06780(ribA)
+            AQI: J5J86_14225(ribA)
+            MET: M446_2360
+            MNO: Mnod_0250
+            MAQU: Maq22A_c00175(ribA)
+            MEE: DA075_16140
+            MTEA: DK419_20845
+            MIND: mvi_13880(ribA_1)
+            MOC: BB934_10750
+            MIV: C4E04_18860
+            MICO: GDR74_02870(ribA)
+            MTEZ: HPT29_023985(ribA) HPT29_027970(ribA)
+            MLD: U0023_06635(ribA)
+            RHJ: HZY79_00235(ribA)
+            CHEL: AL346_02740
+            CDQ: BOQ54_13400
+            HDN: Hden_1395
+            HDT: HYPDE_31688
+            HMC: HYPMC_2279 HYPMC_2603
+            RVA: Rvan_3492
+            RLAC: QMO75_10305(ribA)
+            FIL: BN1229_v1_2149
+            FIY: BN1229_v1_2149
+            BVR: BVIR_3035
+            BLAG: BLTE_01310(ribA)
+            MBRY: B1812_04620
+            MHEY: H2LOC_012250(ribA)
+            MIWA: SS37A_13670
+            MTW: CQW49_22095
+            MEY: TM49_09860
+            MAAD: AZF01_18945
+            MMED: Mame_03147(ribA)
+            MLUT: JET14_19820(ribA)
+            AALA: IGS74_11175(ribA)
+            AALM: LUX29_12080(ribA)
+            AUZ: Sa4125_39920(ribA)
+            AUB: LXB15_16875(ribA)
+            RBM: TEF_05740
+            PHR: C6569_07920
+            PSTG: E8M01_05055(ribA)
+            PAQT: E8L99_23310(ribA)
+            ACUT: MRB58_00980 MRB58_06325
+            SIL: SPO3427(ribBA)
+            SIT: TM1040_0050(ribBA)
+            RUA: D1823_16870(ribA)
+            RUT: FIU92_14590(ribA)
+            RCON: K3740_15880(ribA)
+            RUY: NOR97_13540(ribA)
+            JAN: Jann_0416
+            JOV: P8627_09870(ribA)
+            RDE: RD1_0043(ribA)
+            RLI: RLO149_c039330(ribA)
+            RPON: G3256_01260(ribA)
+            RFU: ROLI_037410(ribA)
+            DSH: Dshi_0039(ribA)
+            KVU: EIO_0649
+            PGA: PGA1_c33340
+            PGL: PGA2_c31610
+            PGD: Gal_03393
+            PHP: PhaeoP97_03244
+            PPIC: PhaeoP14_03132
+            PHQ: D1820_11455(ribA)
+            PHAE: N1037_01495(ribA)
+            OAT: OAN307_c47430(ribA)
+            OAR: OA238_c41130(ribA)
+            OTM: OSB_30500(ribA)
+            OCT: FTO60_15215(ribA)
+            LMD: METH_19225
+            LEJ: ETW24_18750(ribA)
+            LAQU: R2C4_18975(ribA)
+            LEV: ETW23_21005(ribA)
+            LCAE: K3721_16980(ribA)
+            LEIM: K3557_19660(ribA)
+            CID: P73_0409
+            CMAR: IMCC12053_1917
+            CEH: CEW89_11900(ribA)
+            CBAK: DA792_17955(ribA)
+            MALG: MALG_03327
+            CON: TQ29_16955
+            YPAC: CEW88_11410(ribA)
+            YAN: AYJ57_04790
+            TPRO: Ga0080559_TMP1091
+            PABY: Ga0080574_TMP3090
+            SUAM: BOO69_16680
+            SULZ: C1J03_01930(ribA)
+            SULI: C1J05_00490(ribA)
+            SULD: B5M07_02005
+            SPOT: G6548_00880(ribA)
+            SMED: JNX03_14780(ribA)
+            SINL: DSM14862_00402(ribA)
+            SFAV: PL335_01845(ribA)
+            SUAL: KDD17_16590(ribA)
+            SDUB: R1T39_12270(ribA)
+            SULB: IV89_000597(ribA)
+            SULY: ABM428_00695(ribA)
+            SULP: AADW22_00720(ribA)
+            SUSQ: K3756_16485(ribA)
+            SPSE: SULPSESMR1_02964(ribA)
+            TOM: BWR18_15730
+            TATE: ACMHLQ_13785(ribA)
+            TATY: ACERHN_11870(ribA)
+            RMM: ROSMUCSMR3_00644(ribA)
+            ROK: RAK1035_3479
+            RID: RIdsm_03283(ribA)
+            ROM: EI983_02070(ribA)
+            ROH: FIU89_07505(ribA1) FIU89_12695(ribA2)
+            RPEL: N7U68_10945(ribA)
+            RPHC: RZ517_12600(ribA)
+            RRL: RZS32_014565(ribA)
+            AHT: ANTHELSMS3_02078(ribA)
+            SAGU: CDO87_04700(ribA)
+            SSTL: ABFK29_17570(ribA)
+            SAGZ: QNI11_04260(ribA)
+            THAA: CFI11_21625(ribA)
+            OCD: FHY55_00385(ribA)
+            ROT: FIV09_03120(ribA1) FIV09_16205(ribA2)
+            RMH: LVO79_02075(ribA) LVO79_02080
+            MALU: KU6B_42450(ribA)
+            TGL: HFZ77_10815(ribA)
+            HAT: RC74_05435
+            PALX: GQA70_15910(ribA)
+            LSAL: KBK07_15730(ribA)
+            LALG: LentiSH36_02947
+            TRY: QF118_00155(ribA)
+            PLCG: RVY76_10820(ribA) RVY76_17890(ribA)
+            MARU: FIU81_14690(ribA)
+            RMAI: MACH21_02590(ribA_1) MACH21_08980(ribA_2)
+            RED: roselon_00847
+            ASCA: QEZ52_19900(ribA)
+            ACLD: ACIRQ6_18315(ribA)
+            SEOH: ACMUJL_11375(ribA) ACMUJL_13270(ribA)
+            MATG: ACMVPR_19535(ribA)
+            BOO: E2K80_14830(ribA)
+            RPOH: ABWH90_18070(ribA)
+            RSP: RSP_0846(ribA)
+            RSH: Rsph17029_2504
+            RSQ: Rsph17025_3129
+            RSK: RSKD131_2215
+            CAZT: LV780_11985(ribA)
+            RBL: B6K69_09725
+            FYT: QF092_13775(ribA)
+            PDE: Pden_2375
+            PAMI: JCM7686_3404
+            PYE: A6J80_08955(ribA)
+            PZH: CX676_14350(ribA)
+            PARO: CUV01_08075(ribA)
+            PARU: CYR75_12285(ribA)
+            PAMN: JCM7685_2838(ribA)
+            PARS: DRW48_04505(ribA)
+            PARR: EOJ32_01080(ribA) EOJ32_12725(ribA)
+            PAAK: FIU66_12560(ribA)
+            PKD: F8A10_00960(ribA)
+            PPAN: ESD82_19310(ribA)
+            PLIA: E4191_00385(ribA) E4191_08855(ribA)
+            PSAN: HGN31_10030(ribA)
+            PMAU: CP157_00249(ribA_1) CP157_01063(ribA_2)
+            PMEH: JWJ88_09295(ribA)
+            PSEW: JHW44_00200(ribA)
+            PSAP: JHX88_00110(ribA)
+            PFIS: JHX87_11495(ribA)
+            PAEX: JHW48_07645(ribA) JHW48_15190(ribA)
+            PSTL: JHW45_00585(ribA)
+            PALP: JHW40_04560(ribA)
+            PVER: E3U25_18000(ribA)
+            PAEZ: PAE61_17220(ribA)
+            PALS: PAF20_16325(ribA)
+            PDIM: PAF18_15205(ribA)
+            PFEO: E3U26_06465(ribA)
+            PHOI: ACLISE_13080(ribA)
+            PTP: RCA23_c29270(ribA)
+            RSU: NHU_04275
+            RHM: B5V46_17545
+            RHC: RGUI_1828
+            RHOV: ACK8CO_10115(ribA)
+            RMB: K529_000305
+            TSCO: R1T40_15395(ribA)
+            DAA: AKL17_4644
+            DON: BSK21_13200
+            MALC: QQG91_13440(ribA)
+            RBZ: B9057_12925
+            THW: BMG03_18710
+            TEC: AKL02_019070(ribA)
+            TLB: RPE78_06590(ribA)
+            LVS: LOKVESSMR4R_00267(ribA)
+            YPHY: AABB29_04135(ribA) AABB29_06995(ribA)
+            YAG: AABB28_16795(ribA)
+            YRH: AABB31_21160(ribA)
+            GEH: HYN69_16590(ribA)
+            GFU: KM031_08575(ribA)
+            TAW: EI545_09670(ribA)
+            SALO: EF888_00900(ribA)
+            SEDI: EBB79_19555(ribA)
+            PPSO: QPJ95_08760(ribA)
+            HML: HmaOT1_01830(ribA)
+            PSEB: EOK75_07980(ribA)
+            LIT: FPZ52_01055(ribA)
+            PPRU: FDP22_03180(ribA)
+            PAED: G5B38_13005(ribA)
+            PAMO: BAR1_14775(ribA)
+            POZ: I0K15_06815(ribA)
+            MON: G8E03_01005(ribA)
+            PALW: PSAL_028590(ribA)
+            PSHQ: F3W81_16070(ribA)
+            PPAF: I8N54_00460(ribA)
+            CACT: HZ995_07310(ribA)
+            THAS: C6Y53_11835(ribA)
+            HDH: G5B40_12885(ribA)
+            CMAG: CBW24_01235
+            FAP: GR316_09560(ribA)
+            GCE: KYE46_00680(ribA)
+            GYJ: AADW23_04740(ribA)
+            NSM: JO391_16140(ribA)
+            ACRO: K3J57_13300(ribA)
+            AALK: LGT41_0004410(ribA)
+            AMYL: QBD29_02045(ribA)
+            AMAQ: GO499_14930(ribA)
+            RHOC: QTA57_04175(ribA)
+            PBAE: P8S53_03775(ribA) P8S53_04665(ribA)
+            RBG: BG454_16215(ribA)
+            LVR: T8T21_12115(ribA)
+            BOSG: GKR98_09405(ribA)
+            MANH: LA6_000296(ribA)
+            FAQ: G5B39_03460(ribA)
+            SINR: O5O51_14795(ribA)
+            RCP: RCAP_rcc00262(ribA)
+            RHP: LPB142_01955
+            RBX: I3V23_08100(ribA)
+            ZMO: ZMO1698
+            ZMN: Za10_1521
+            ZMM: Zmob_1441
+            ZMB: ZZ6_1419
+            ZMI: ZCP4_1464
+            ZMC: A265_01463(ribA)
+            ZMR: A254_01462(ribA)
+            ZMP: Zymop_1420
+            NAR: Saro_3191
+            NPP: PP1Y_AT9066
+            NPN: JI59_07660
+            NRE: BES08_10205
+            NOV: TQ38_003430(ribA)
+            NOT: C7W88_03980(ribA)
+            NOR: FA702_08630(ribA)
+            NGF: FRF71_04610(ribA)
+            NOG: GKE62_09250(ribA)
+            NDR: HT578_07245(ribA)
+            NHUM: PQ457_15080(ribA)
+            NOL: NSDW_00460(ribA)
+            NCP: U0041_04795(ribA)
+            NOVO: IM701_00760(ribA)
+            NOVB: ACFFDA_26335(ribA)
+            SPHM: G432_09495
+            STAX: MC45_14490
+            SPHI: TS85_20160
+            SSAN: NX02_25975
+            SNJ: A7E77_07680
+            SMY: BJP26_03195
+            SPAN: AWL63_06370 AWL63_18845
+            SKR: BRX40_03775
+            SPLM: BXU08_14410
+            SPLK: AV944_02465
+            SPKC: KC8_14405
+            SPHC: CVN68_15480(ribA)
+            SPHF: DM480_06800(ribA)
+            SPHA: D3Y57_12255(ribA)
+            SPAU: DRN02_012940(ribA)
+            SLUT: H9L13_01435(ribA)
+            SRHI: H9L12_11585(ribA)
+            SLAN: GV829_00610(ribA)
+            SDH: H9L15_06560(ribA)
+            SSED: H9L14_12795(ribA)
+            SPAP: H3Z74_20780(ribA)
+            SXA: FMM02_05900(ribA)
+            SPAI: FPZ24_16290(ribA)
+            SPII: G7077_07045(ribA)
+            SSIN: G7078_01365(ribA)
+            SSAU: H8M03_08570(ribA)
+            SARI: H5J25_17865(ribA)
+            SCHY: GVO57_03295(ribA)
+            SSUA: FPZ54_14300(ribA)
+            SBIN: SBA_ch1_05780(ribA)
+            SAER: NEF64_01235(ribA)
+            SMOR: LHA26_07580(ribA)
+            SGLC: M1K48_10200(ribA)
+            SQO: NMP03_12025(ribA)
+            SCAB: LZK98_01905(ribA)
+            SRAD: LLW23_08505(ribA)
+            SHAN: PPZ50_02815(ribA)
+            SNAP: PQ455_17730(ribA)
+            SNOS: K8P63_03535 K8P63_20380(ribA)
+            SDON: M9980_12205(ribA)
+            SSAG: KV697_12530(ribA)
+            SABI: PBT88_20960(ribA)
+            SAAP: E2E30_15040(ribA)
+            SPNB: O3305_15260(ribA)
+            SPCL: F9288_05185(ribA)
+            SPRR: OIM94_12405(ribA)
+            SPMB: OKW87_11880(ribA)
+            SPSO: G4G27_19205(ribA)
+            SPMS: ACO227_06655(ribA)
+            CIJ: WG74_00595
+            SPHJ: BSL82_12935
+            ACOB: P0Y56_09665(ribA)
+            SSAA: RPR59_01815(ribA)
+            SPZR: G5C33_01275(ribA)
+            ACOA: RB602_00255(ribA)
+            SAL: Sala_2672
+            SPHK: SKP52_22045
+            SPHP: LH20_17060
+            SMAG: AN936_18760
+            SMAZ: LH19_22640
+            STER: AOA14_06710
+            SGI: SGRAN_3894(ribA)
+            SPHQ: BWQ93_16990
+            SPHO: C3E99_15905(ribA)
+            SPHX: E5675_01340(ribA)
+            SINA: KNJ79_21550(ribA)
+            SPEG: SPYCW_3455
+            SPFD: SPYCA_3207
+            SPBS: L7H23_09500(ribA)
+            SPUS: KEC45_17335(ribA)
+            SPOG: EEB18_009710(ribA)
+            SPYF: EAO27_20130(ribA)
+            SPJJ: V6U71_18665(ribA)
+            SPHU: SPPYR_3395(ribA)
+            SWI: Swit_3789
+            SPHD: HY78_05300
+            RDI: CMV14_23105(ribA)
+            SJP: SJA_C1-35060(ribA)
+            SINB: SIDU_15865
+            SCH: Sphch_2209
+            SSY: SLG_02010(ribA)
+            SYB: TZ53_04440
+            SBD: ATN00_03560
+            SPMI: K663_16435
+            SPHB: EP837_01481(ribA)
+            SPHR: BSY17_1459(ribA)
+            SPHT: K426_20965
+            SHYD: CJD35_05585(ribA)
+            SYA: A6768_21330(ribA)
+            SCLO: SCLO_1022200
+            SPYG: YGS_C1P2563
+            SUFL: FIL70_15560(ribA)
+            SBAR: H5V43_13850(ribA)
+            SAMI: SAMIE_1028670
+            SPPH: KFK14_03670(ribA)
+            SPAG: sphantq_02012(ribA)
+            SPCA: GL174_11885(ribA)
+            SPRS: EGM87_14335(ribA)
+            SPJS: NUH86_13805(ribA)
+            SPWT: N6H05_04195(ribA)
+            SPTA: Sj15T_27230
+            SPHG: AZE99_11405
+            SFLA: SPHFLASMR4Y_03341(ribA)
+            SPHY: CHN51_11150(ribA)
+            SPHL: LPB140_11205
+            SLAA: EUU25_12435(ribA)
+            PARJ: J4G78_05295(ribA)
+            PHAO: HF685_07395(ribA)
+            BLAS: BSY18_3172(ribA)
+            BFW: B5J99_06755
+            PALG: HFP57_11925(ribA)
+            PARP: HFP51_11345(ribA)
+            SFLV: IC614_09295(ribA)
+            SMAT: WJT74_10815(ribA)
+            SMIC: SmB9_07490
+            SPHS: ETR14_10475(ribA)
+            SAND: H3309_09515
+            POQ: KZX46_06940(ribA)
+            PMEA: KTC28_04225(ribA)
+            AEP: AMC99_02350
+            ALH: G6N82_07835(ribA)
+            ARUE: QQX03_00975(ribA)
+            ALTN: LBX01_02620(ribA)
+            ALTC: P7228_05185(ribA)
+            AAY: WYH_02088(ribA)
+            AMX: AM2010_2455
+            PMAS: NCF86_13750(ribA)
+            ANH: A6F65_00622(ribBA_1)
+            ADO: A6F68_00304(ribA)
+            TFV: IDJ81_01890(ribA)
+            CNA: AB433_16885
+            CMAN: A9D14_12240
+            ERY: CP97_01195
+            EGN: BMF35_a0462
+            EFV: CHH26_00180(ribA)
+            QCI: NCF85_15405(ribA)
+            QSP: L1F33_02135(ribA)
+            QSO: IRL76_13740(ribA)
+            QAR: K3148_06795(ribA)
+            QGE: K3136_07010(ribA)
+            QPS: K3166_11345(ribA)
+            QXI: K3162_07025(ribA)
+            QPR: SD421_03590(ribA)
+            ELI: ELI_11975
+            ELQ: Ga0102493_11754
+            ERK: CD351_03125(ribA)
+            ERF: FIU90_03355(ribA)
+            EMV: HQR01_04785(ribA)
+            PNS: A9D12_05465
+            ERYT: KDC96_11925(ribA)
+            ERYZ: F7D01_05755(ribA)
+            ERYS: LY632_03645(ribA)
+            ERQ: PS060_06740(ribA)
+            PORL: BG023_11597
+            PHZ: CHX26_03275(ribA)
+            POT: E2E27_01855(ribA)
+            PORC: CBR61_03205(ribA)
+            NTD: EGO55_09660(ribA)
+            AFLV: QQW98_03885(ribA)
+            BMAA: T8S45_09485 T8S45_12575(ribA)
+            PAUI: WAB17_07150(ribA)
+            EBK: PF049_03305(ribA)
+            RAP: RHOA_2775(ribA)
+            ACR: Acry_2815
+            AMV: ACMV_31530(ribA)
+            ACIM: GT370_01080(ribA)
+            RGI: RGI145_01265
+            ROS: CTJ15_17335(ribA)
+            RMUC: FOB66_21195(ribA)
+            RMT: IAI58_04195(ribA)
+            RFL: Rmf_02110
+            RCV: PFY06_17355
+            SRF: LHU95_20805(ribA)
+            ELIO: KO353_07495(ribA)
+            SHUM: STHU_53500
+            SVC: STVA_53370
+            STEL: STAQ_48610
+            AZL: AZL_026320(ribA)
+            ALI: AZOLI_0057(ribA)
+            ABS: AZOBR_10418(ribA)
+            ABQ: ABAZ39_13990
+            ABF: AMK58_00290
+            ATI: AL072_03140 AL072_22230
+            AHU: A6A40_00215(ribA)
+            AZT: TSH58p_10940(ribA)
+            AZM: DM194_12645(ribA)
+            AZZ: DEW08_07195(ribA)
+            AOZ: HUE56_09190(ribA)
+            AARE: D3093_10000(ribA)
+            AZS: E6C72_05510(ribA)
+            AZP: E6C67_28890(ribA)
+            ADJ: ACIU1J_11855(ribA)
+            NAO: Y958_13500(ribA)
+            NCB: C0V82_12520(ribA) C0V82_24110(ribA)
+            SKT: IGS68_26200(ribA)
+            SMUC: JL100_028725(ribA)
+            SROE: JL101_027095(ribA)
+            RRU: Rru_A3637
+            RRF: F11_18610
+            RCE: RC1_2933(ribA)
+            RPM: RSPPHO_01053
+            MGY: MGMSRv2__3485(ribA)
+            MGRY: MSR1_31930(ribA)
+            MAGX: XM1_0869(ribA)
+            MAGN: WV31_12750
+            THAL: A1OE_542(ribA)
+            EFK: P856_305(ribA)
+            FER: FNB15_01315(ribA)
+            DEX: HWD60_05870 HWD60_17780(ribA)
+            DVN: HQ394_09950
+            ACRU: HHL28_14730(ribA)
+            AALU: ABWI00_16780(ribA)
+            MAG: amb0020
+            HJO: AY555_03490
+            HTQ: FRZ44_52330
+            HADH: FRZ61_50810
+            TXI: TH3_19885
+            THAC: CSC3H3_19415(ribA)
+            TII: DY252_01690(ribA)
+            THAI: IT893_19050(ribA)
+            TLU: R1T41_07495(ribA)
+            TTB: MACH01_36940
+            THGO: M9H61_14340(ribA)
+            THAD: IT971_21130(ribA)
+            MAGQ: MGMAQ_3790(ribA)
+            VSU: P3M64_09410(ribA)
+            NACI: NUH88_11050(ribA)
+            THAR: T8K17_04815(ribA)
+            TMO: TMO_3432(ribA)
+            ECOG: FIV45_00385(ribA)
+            PAQI: KW060_14815(ribA)
+            APB: SAR116_1657
+            POND: ABXT40_11360(ribA)
+            SNEA: NBZ79_00420(ribA)
+            KOZ: KFF44_00740(ribA)
+            TMK: QGN29_03615(ribA)
+            GSO: PH603_02450(ribA)
+            MINW: ACMVY4_03505(ribA)
+            HPY: HP_0802
+            HEO: C694_04110(ribA)
+            HPJ: jhp_0738(ribA)
+            HPA: HPAG1_0787
+            HPS: HPSH_02805(ribA)
+            HHP: HPSH112_02995(ribA)
+            HHQ: HPSH169_04115(ribA)
+            HHR: HPSH417_03880(ribA)
+            HPG: HPG27_758
+            HPP: HPP12_0808(ribA)
+            HPB: HELPY_0558(ribA)
+            HPL: HPB8_1010(ribA)
+            HPC: HPPC_04045(ribA)
+            HCA: HPPC18_03960(ribA)
+            HPM: HPSJM_04060(ribA)
+            HPE: HPELS_02510(ribA)
+            HPO: HMPREF4655_20798(ribA)
+            HPI: hp908_0816(ribA)
+            HPQ: hp2017_0783(ribA)
+            HPW: hp2018_0784(ribA)
+            HPU: HPCU_04250(ribA)
+            HEF: HPF16_0560(ribA)
+            HPF: HPF30_0529(ribA)
+            HEQ: HPF32_0769(ribA)
+            HEX: HPF57_0823(ribA)
+            HPT: HPSAT_02765(ribA)
+            HPZ: HPKB_0548(ribA)
+            HPV: HPV225_0816(ribA)
+            HPX: HMPREF0462_0607(ribA)
+            HEN: HPSNT_04140(ribA)
+            HPH: HPLT_04050(ribA)
+            HEG: HPGAM_04135(ribA)
+            HPN: HPIN_02590(ribA)
+            HEP: HPPN120_03960(ribA)
+            HEU: HPPN135_03950(ribA)
+            HES: HPSA_03860(ribA)
+            HPYS: HPSA20_0848(ribA)
+            HCN: HPB14_02660(ribA)
+            HPD: KHP_0526(ribA)
+            HEY: MWE_0645(ribA)
+            HER: C695_04115(ribA)
+            HEI: C730_04120(ribA)
+            HPYA: HPAKL117_03825(ribA)
+            HPYK: HPAKL86_03770(ribA)
+            HPYO: HPOK113_0814(ribA)
+            HPYL: HPOK310_0543(ribA)
+            HPYB: HPOKI102_03035
+            HPYC: HPOKI112_03020
+            HPYD: HPOKI128_03835
+            HPYE: HPOKI154_04080
+            HPYF: HPOKI422_03010
+            HPYG: HPOKI673_04065
+            HPYH: HPOKI828_04065
+            HPYJ: HPOKI898_03030
+            HPYR: K747_11450
+            HPYI: K750_04930
+            HPYU: K751_04685
+            HPYM: K749_02855
+            HEM: K748_01285
+            HEB: U063_1106
+            HEZ: U064_1110
+            HHE: HH_0044(ribA)
+            HAC: Hac_0920(ribA)
+            HMS: HMU06770(ribA)
+            HFE: HFELIS_05650(ribA2)
+            HBI: HBZC1_07010
+            HCE: HCW_05925(ribA)
+            HCM: HCD_05665(ribA)
+            HCP: HCN_0833(ribA)
+            HCB: HCBAA847_1147(ribA)
+            HHM: BN341_6790
+            HTY: BN2458_PEG1250
+            HBL: XJ32_04710
+            HAD: CDV25_05430(ribA)
+            HET: BBW65_01500
+            HCL: NCTC13205_00338(ribA_1)
+            HWI: A0Z60_04685(ribA)
+            HSH: NHP194022_05300(ribA)
+            HPUL: NCTC13154_01337(ribA_1)
+            HAIL: ASB7_13210(ribA)
+            HFI: NHP21005_15750(ribA)
+            HGA: NHP190012_13860(ribA)
+            HGS: NHP190003_13130(ribA)
+            HMY: V3I05_09225(ribA)
+            WSU: WS1194(ribA)
+            TDN: Suden_0384
+            SUA: Saut_0352
+            SULN: FJR47_01575(ribA)
+            SULG: FJR48_09310(ribA) FJR48_09765(ribA)
+            SULC: CVO_07825(ribA)
+            SPAL: FM071_01485(ribA)
+            SSEI: FJR45_02110(ribA)
+            SBAL: HUE88_11145(ribA)
+            SMAS: HUE87_01695(ribA)
+            SMAX: FJR03_01570(ribA)
+            SAQT: GJV85_11480(ribA)
+            SDIZ: WCY31_03060(ribA)
+            SKU: Sulku_2170
+            SULR: B649_10245
+            TZH: WCX18_03100(ribA)
+            TSUL: LOH54_03210(ribA)
+            TSUB: WCX49_03195(ribA)
+            TIMM: WCX72_02955(ribA)
+            HMZ: WCX87_01145(ribA)
+            HSJ: WCY03_01750(ribA)
+            SJI: WCY20_02335(ribA)
+            CJE: Cj0996(ribA)
+            CJB: BN148_0996(ribA)
+            CJJ: CJJ81176_1014(ribA)
+            CJU: C8J_0933(ribA)
+            CJN: ICDCCJ07001_954
+            CJI: CJSA_0939(ribA)
+            CJM: CJM1_0969(ribA)
+            CJS: CJS3_1045(ribA)
+            CJP: A911_04805(ribA)
+            CJEJ: N564_00962
+            CJEU: N565_01008
+            CJEN: N755_01001
+            CJEI: N135_01031
+            CJER: H730_05860(ribA)
+            CJV: MTVDSCj20_0997(ribA)
+            CJY: QZ67_01068(ribA)
+            CJQ: UC78_0952(ribA)
+            CJL: PJ17_04860
+            CJW: PJ18_04925
+            CJR: CJE1076(ribA)
+            CJD: JJD26997_0793(ribA)
+            CJZ: M635_00445
+            CJX: BN867_09840
+            CFF: CFF8240_1575(ribA)
+            CFT: CFF04554_1584(ribA)
+            CFV: CFVI03293_1606(ribA)
+            CFX: CFV97608_1709(ribA)
+            CFZ: CSG_17120
+            CAMP: CFT03427_1534(ribA)
+            CFP: CR44_07780
+            CCV: CCV52592_1346(ribA)
+            CHA: CHAB381_1699(ribA)
+            CCO: CCC13826_0883(ribA)
+            CCOC: CCON33237_0661(ribA)
+            CLA: CLA_1127(ribA)
+            CLR: UPTC16701_1101(ribA)
+            CLM: UPTC16712_1132(ribA)
+            CLQ: UPTC4110_1111(ribA)
+            CLN: UPTC3659_1344(ribA)
+            CLL: CONCH_1082(ribA)
+            CCOL: BN865_11410c
+            CCC: G157_04010(ribA)
+            CCQ: N149_0929(ribA)
+            CCF: YSQ_04060
+            CCY: YSS_05375
+            CCOI: YSU_04095
+            CCOF: VC76_04815(ribA)
+            CCOO: ATE51_01636(ribA)
+            CAJ: CIG1485E_1528(ribA)
+            CIS: CINS_1088(ribA)
+            CVO: CVOL_1102(ribA)
+            CPEL: CPEL_1236(ribA)
+            CAMR: CAQ16704_1123(ribA)
+            CSM: CSUB8521_1294(ribA)
+            CSF: CSUB8523_1399(ribA)
+            CGRA: CGRAC_1623(ribA)
+            CURE: CUREO_1297(ribA)
+            CHYO: CHH_1621(ribA)
+            CHV: CHELV3228_1553(ribA)
+            CSPF: CSF_1316(ribA)
+            CPIN: CPIN18020_1384(ribA)
+            CCUN: CCUN_0761(ribA)
+            CLX: CLAN_0020(ribA)
+            CAVI: CAV_0446(ribA)
+            CHW: A2J15_001970(ribA)
+            CAMZ: CVIC12175_0028(ribA)
+            CAMY: CSUIS_0020(ribA)
+            COJ: CORN_1199(ribA)
+            CUX: CUP3940_0294(ribA)
+            CRX: CRECT_1832(ribA)
+            CGEO: CGEO_0481(ribA)
+            CBLA: CBLAS_0421(ribA)
+            CCOR: CCORG_0382(ribA)
+            CARM: CARM_1150(ribA)
+            CMUC: CMCT_0433(ribA)
+            CSHO: CSHOW_0487(ribA)
+            CINF: CINF_0369(ribA)
+            CNV: CNZW441b_0753(ribA)
+            CVU: CVULP_1338(ribA)
+            CDEV: CIGN_0035(ribA)
+            CCAQ: CCAL_1311(ribA)
+            CMOL: CMOL_0501(ribA)
+            SDL: Sdel_0380
+            SBA: Sulba_0425
+            SMUL: SMUL_0532(ribA1) SMUL_1527(ribA2)
+            SHAL: SHALO_0525 SHALO_1491
+            SULS: Sdiek1_0487 Sdiek1_1583
+            SULJ: SJPD1_0492 SJPD1_1500
+            SULT: FA592_09490(ribA)
+            SULU: SFB89_03020(ribA)
+            ABU: Abu_1237(ribA)
+            ABT: ABED_1155
+            ABL: A7H1H_1234(ribA)
+            ASK: EI285_05305(ribA)
+            ATP: ATR_0820(ribA)
+            ACIB: ACBT_1212(ribA)
+            ACRE: ACRYA_0795(ribA)
+            ALAN: ALANTH_1255(ribA)
+            AFC: AFAEC_1268(ribA) AFAEC_a0012
+            ATHR: ATH_1050(ribA)
+            ANT: Arnit_1041 Arnit_1674
+            AELL: AELL_0181(ribA1) AELL_1528(ribA2)
+            AAQI: AAQM_0129(ribA1) AAQM_1390(ribA2)
+            ASUI: ASUIS_1339(ribA)
+            ACLO: ACLO_0131(ribA1) ACLO_1279(ribA2)
+            AVP: AVENP_0196(ribA1) AVENP_0623 AVENP_1578(ribA2)
+            ADZ: ADFLV_0212(ribA1) ADFLV_1620(ribA2)
+            ARC: ABLL_0216 ABLL_1566
+            PACO: AACT_0188(ribA1) AACT_1506(ribA2)
+            APOC: APORC_0905(ribA)
+            AROS: NJU99_05615(ribA) NJU99_07715(ribA)
+            AIE: LXN10_14890(ribA)
+            ALK: ALEK_1271(ribA1) ALEK_1810(ribA2)
+            ALP: LPB137_00850 LPB137_07105
+            AHS: AHALO_0974(ribA1) AHALO_1336(ribA2) AHALO_2633(ribA3)
+            AMYT: AMYT_1084(ribA1) AMYT_1435(ribA2)
+            AMAR: AMRN_1349(ribA1) AMRN_2018(ribA2) AMRN_2732(ribA3)
+            ACAA: ACAN_1403(ribA1) ACAN_2056(ribA2)
+            AMOL: AMOL_0946(ribA1) AMOL_1413(ribA2)
+            APAI: APAC_1392(ribA)
+            HBV: ABIV_1287(ribA)
+            HEBR: AEBR_1515(ribA)
+            AANA: AANAER_1459(ribA)
+            HYO: NNO_0354
+            HTM: RZR91_10335(ribA)
+            HCJ: HCR_09530(ribA_1)
+            NSA: Nitsa_1919
+            SUN: SUN_2088(ribA)
+            SLH: YH65_01760
+            SINU: IMZ28_01870(ribA)
+            SMAB: LN246_11410(ribA)
+            NIS: NIS_0359(ribA)
+            NIH: NitYY0810_C0442
+            NAM: NAMH_0543(ribA)
+            NAP: C3L23_02840(ribA)
+            CMED: FE773_03380(ribA)
+            CPAF: C6V80_07340(ribA)
+            ADE: Adeh_0508 Adeh_1663
+            ACP: A2cp1_0537 A2cp1_2283
+            AFW: Anae109_2140
+            ANK: AnaeK_0541 AnaeK_2194
+            AORY: AMOR_37660(ribA_1) AMOR_55290(ribA_3)
+            MXA: MXAN_4213(ribA)
+            MSD: MYSTI_03737
+            MFB: MFUL124B02_25960
+            MYX: QEG98_22500(ribA)
+            MLAN: JY572_07940(ribA)
+            MFAE: VZP55_28735(ribA)
+            MYM: A176_002688
+            PFLY: VZL07_36520(ribA)
+            CCX: COCOR_03731(ribA)
+            MFU: LILAB_29205
+            MMAS: MYMAC_004123
+            PPAK: JY651_11375(ribA)
+            SUR: STAUR_4664(ribA)
+            AGE: AA314_06199
+            AVM: JQX13_44690(ribA)
+            MBD: MEBOL_005784 MEBOL_006207
+            CFUS: CYFUS_003760
+            VIN: AKJ08_2602
+            PBRU: LZC95_39190(ribA)
+            PRUE: LVJ94_38995(ribA)
+            PALJ: LZC94_05905(ribA)
+            SCL: sce4848(ribA2) sce5281(ribA3)
+            SCU: SCE1572_28920 SCE1572_32445
+            SORG: NQZ70_06710(ribA_2) NQZ70_06793(ribA_3)
+            CCRO: CMC5_013430 CMC5_034040(ribA)
+            PAUU: E8A73_010315(ribA) E8A73_036085(ribA)
+            MRM: A7982_00608 A7982_06351
+            PABO: BCY86_08160
+            SAMY: DB32_007823
+            LLU: AKJ09_04743
+            HOH: Hoch_0545
+            NANN: O0S08_38255(ribA)
+            STI: Sthe_3509
+            UAM: UABAM_04770
+            UHL: UABHE_000285(ribA)
+            SFC: Spiaf_0827
+            SLR: L21SP2_0510 L21SP2_3439
+            SCD: Spica_0753
+            ABA: Acid345_2148
+            ACA: ACP_0762(ribA)
+            ACM: AciX9_2355
+            GMA: AciX8_1559
+            GRW: FTO74_16560(ribA) FTO74_17615(ribA)
+            GRB: GOB94_02100(ribA) GOB94_15940(ribA)
+            TSA: AciPR4_2449 AciPR4_2622
+            TRS: Terro_1511
+            TALB: FTW19_14855(ribA)
+            ABAS: ACPOL_1217 ACPOL_4015
+            EDA: GWR55_01495(ribA)
+            EDG: H7846_07695(ribA)
+            EPL: P4G45_09865(ribA)
+            ADIN: H7849_07205(ribA)
+            ORP: MOP44_19170(ribA)
+            TGI: RBB81_14395(ribA)
+            TEMP: RBB75_11655(ribA) RBB75_20010(ribA)
+            TPSC: RBB77_10735(ribA)
+            CTM: Cabther_B0641
+            CVL: J8C06_11215(ribA)
+            CHLO: J8C02_11810(ribA)
+            SUS: Acid_2182
+            PFER: IRI77_23570(ribA)
+            GEX: GETHOR_08670
+            GEP: Q9293_04945(ribA)
+            MSIL: METEAL_21320 METEAL_29510
+            MSEA: METESE_25960
+            PNI: J5A59_05270(ribA)
+            PVF: J5A55_08475(ribA)
+            HHY: Halhy_4808 Halhy_6424
+            AUP: AsAng_0023530
+            PCAU: HWD63_03825(ribA)
+            SPDR: G6053_11205(ribA)
+            SPIK: EXU85_15920(ribA)
+            SPIB: G8759_09040(ribA)
+            SFOL: H3H32_12470
+            SENF: GJR95_03775(ribA)
+            SPIO: WBJ53_09350(ribA)
+            RHOZ: GXP67_25325
+            CLIT: OQ292_17490(ribA)
+            IRO: RT717_18520
+            IMP: ACMVP2_04650
+            PRHO: PZB74_00910(ribA)
+            TPEL: P0M28_03845(ribA)
+            FPLU: NLG42_21930(ribA)
+            FAG: K5I29_06200(ribA)
+            FSF: AABD74_08865(ribA)
+            KDI: Krodi_0908
+            DOK: MED134_07971(ribA3)
+            DDO: I597_0383(ribA)
+            DOD: DCS32_07455
+            PHAL: H9I45_08820
+            POLQ: JOP69_10480(ribA)
+            FAY: Q4Q34_00815(ribA)
+            KOS: KORDIASMS9_02457(ribA)
+            MLIL: QLS71_016355(ribA)
+            AQB: D1818_21860
+            AQD: D1816_05690(ribA)
+            ABEZ: ACE94K_20520
+            AMUE: ACSTS3_06755
+            FBE: FF125_09145(ribA)
+            FBM: MQE35_08575(ribA)
+            FBA: FIC_00217
+            RAN: Riean_1455
+            RAI: RA0C_1735
+            RAR: RIA_0753
+            RAG: B739_0417
+            RAE: G148_0097
+            RAT: M949_0864
+            RCL: NYR17_09465(ribA)
+            EAO: BD94_3478
+            EMN: M876_11575 M876_14575
+            EEN: BBD30_09180
+            ELB: VO54_03148(ribA)
+            EMG: BBD33_05930
+            EGO: BBD34_06830
+            EGM: AYC65_20285
+            ELZ: FCS00_13395(ribA)
+            ELT: FGE20_07570(ribA)
+            ELIZ: JCR23_13580(ribA) JCR23_15555(ribA)
+            CHZ: CHSO_0711(ribA2) CHSO_3054(ribA)
+            CGN: OK18_10755
+            CIH: ATE47_14545
+            CHH: A0O34_06330
+            CIO: CEQ15_10440(ribA) CEQ15_21055(ribA)
+            CHRY: CEY12_17230(ribA)
+            CPIP: CJF12_11645(ribA)
+            CHRS: EAG08_03740(ribA) EAG08_08425(ribA)
+            CHRZ: CO230_01010(ribA)
+            CARH: EGY05_00285(ribA) EGY05_11705(ribA)
+            CSHA: EG350_08850(ribA) EG350_17620(ribA)
+            CNK: EG343_16955(ribA)
+            CJT: EG359_04935(ribA) EG359_17655(ribA)
+            CIL: EG358_03925(ribA)
+            CCAU: EG346_03385(ribA) EG346_17310(ribA)
+            CBEN: EG339_08365(ribA) EG339_20000(ribA)
+            CGLE: NCTC11432_00179(ribBA_1) NCTC11432_03903(ribA)
+            CTAI: NCTC12078_00314(ribBA_1) NCTC12078_01570(ribBA_3)
+            CLAC: EG342_08560(ribA)
+            CTAK: 4412677_01132(ribA)
+            CSAL: NBC122_00666(ribA)
+            CBP: EB354_17575(ribA)
+            CNP: M0D58_04265(ribA) M0D58_13675(ribA)
+            CCAO: H5J24_07370(ribA) H5J24_19600(ribA)
+            CRHI: KB553_05555(ribA) KB553_18735(ribA)
+            CORZ: MTP08_02185(ribA)
+            CSUP: MTP09_12920(ribA)
+            CDAE: MUU74_02620(ribA)
+            CCAB: PFY12_11655(ribA)
+            CTUR: LNP04_05475(ribA) LNP04_13920(ribA)
+            CHRJ: CHRYMOREF3P_3461(ribA)
+            CORA: N0B40_12990(ribA)
+            CGAM: PFY09_04170(ribA) PFY09_15635(ribA)
+            CHRA: F7R58_01950(ribA)
+            CHRC: QGN23_08780(ribA)
+            CFLU: ODZ84_06470(ribA) ODZ84_16770(ribA)
+            CMAQ: H0S70_12405(ribA)
+            CCUC: JNG87_07755(ribA) JNG87_19100(ribA)
+            CHRD: KYG33_17555(ribA)
+            CHRP: G6R40_08890(ribA)
+            CHRT: MKS83_06040(ribA) MKS83_11925(ribA)
+            CHRK: KCF3NO3_21660
+            CHRH: KBP46_04115(ribA) KBP46_12045(ribA) KBP46_23225(ribA)
+            CSCO: ACLB9Y_15470(ribA)
+            CHRR: ACL0VS_12115(ribA)
+            CJG: NCTC13459_02408(ribA)
+            CCAS: EIB73_11780(ribA)
+            CANT: NCTC13489_02441(ribA)
+            KDA: EIB71_05785(ribA)
+            KHI: EG338_05275(ribA)
+            KBE: J4771_01595(ribA) J4771_10785(ribA)
+            KFA: Q73A0000_13815(ribA)
+            KAQ: L0B70_06895(ribA)
+            CFAE: LL667_08100(ribA)
+            EVA: EIB75_09630(ribA) EIB75_13960(ribA)
+            EZE: KI430_15775(ribA)
+            CBAU: H1R16_09360(ribA)
+            CNR: EB819_06270(ribA) EB819_09540(ribA)
+            BCAD: DBX24_02215(ribA)
+            BPOR: BPO_0745
+            APIB: G8C43_03510(ribA)
+            CIV: IMZ16_03490(ribA)
+            BSED: DN745_00540(ribA)
+            PCAY: FRD00_08325(ribA)
+            BBAE: FRD01_11160(ribA)
+            BAL: BACI_c33480
+            BCE: BC3388
+            BCZ: BCE33L3097(ribBA) pE33L466_0153(ribA)
+            BCB: BCB4264_A3398
+            BTB: BMB171_C3076
+            BTT: HD73_3647
+            BTHR: YBT1520_17955
+            BTHI: BTK_17945
+            BTC: CT43_CH3316
+            BTM: MC28_2527
+            BTG: BTB_c34480(ribA)
+            BTHT: H175_ch3369
+            BTHU: YBT1518_18375
+            BTHY: AQ980_13070
+            BBY: CY96_15955
+            BWD: CT694_29975
+            BTRO: FJR70_02335
+            BALU: QRY64_19600
+            BPU: BPUM_0700 BPUM_3531
+            BPUM: BW16_03740 BW16_18715
+            BPUS: UP12_03835 UP12_18125
+            BWH: A9C19_13530 A9C19_18775
+            BXI: BK049_09290
+            BALT: CFN77_03690 CFN77_18640
+            BAER: BAE_06490 BAE_11240 BAE_13240
+            BSAF: BSL056_03655 BSL056_19260
+            BACI: B1NLA3E_08115 B1NLA3E_12915
+            GST: HW35_12830
+            BACW: QR42_03645 QR42_17690
+            BACO: OXB_3149
+            BACQ: DOE78_14125
+            BACA: FAY30_03855
+            BZH: NF868_03155 NF868_16255
+            BARD: QRY57_00635
+            BAEI: RE735_01670
+            BACF: AM500_16735
+            BASD: LCG60_06060
+            BAAZ: GD442_15975(ribA)
+            BCOH: BC6307_08755 BC6307_19030
+            NTX: NQZ71_06155
+            NIL: L8T27_015595
+            NTGC: AB3U99_02435 AB3U99_18060
+            BMQ: BMQ_1963
+            BMD: BMD_1918
+            BMH: BMWSH_3320(ribAB)
+            BMEG: BG04_4261
+            BFX: BC359_13360
+            PARH: I5S86_03760(ribA)
+            BKW: BkAM31D_11770(ribA)
+            BKO: CKF48_08225
+            CSUA: IM538_08995
+            OIH: OB0424
+            OCN: CUC15_01850
+            OCB: CV093_01920(ribA)
+            OKM: ACN6MR_01245
+            LSP: Bsph_1750
+            LGY: T479_06550
+            LFU: HR49_17485
+            LYS: LBYS11_06170
+            LYB: C3943_07400
+            LYZ: DCE79_09220
+            LYG: C1N55_11500
+            LPAK: GDS87_06435(ribA)
+            LAGR: FJQ98_07440
+            LYC: FH508_0007115
+            LCAP: ICJ70_18055
+            LYP: MTP04_21170
+            LIU: OU989_06050
+            LYQ: MY533_05840
+            LYO: NV349_06195
+            LYR: AB9L17_06710
+            HLI: HLI_20980
+            TAP: GZ22_02180
+            TAID: KS242_03255
+            VIG: BKP57_13630
+            VPN: A21D_00791(ribA)
+            VPT: KBP50_16330
+            VSS: PD280_03845
+            BSJ: UP17_09630 UP17_22940
+            BMUR: ABE28_021525
+            PBUT: DTO10_09360 DTO10_21955
+            PASA: BAOM_2448(ribA) BAOM_4458(ribA)
+            PFRI: L8956_10540 L8956_24385
+            PERI: RE409_10460 RE409_25235
+            PERJ: JNUCC41_06780 JNUCC41_22110
+            PERS: ACJ9PY_10360 ACJ9PY_24640
+            PESI: V1500_22365
+            PSYH: D0S48_01695
+            PSYO: PB01_11045
+            PSYB: KD050_02885
+            PPSN: ACQCPR_11800
+            NDT: L1999_03605 L1999_18625
+            NCM: QNK12_11355
+            NOCE: V1499_07915
+            NNA: ACN6MT_18370
+            MEKU: HUW50_03425 HUW50_10440
+            MSEM: GMB29_01125(ribA) GMB29_21910(ribA)
+            MLIT: KDJ21_003785
+            MENL: MVE64_14540
+            MEBZ: LPC09_01065
+            MRL: WCV66_02275 WCV66_09190
+            AIA: AWH56_021760
+            BVJ: I5776_15395
+            BOU: I5818_19015
+            HSPO: JGZ69_00930
+            GAJ: MY490_17815
+            ALKG: MOJ78_07295
+            DOM: RRU94_03230
+            PMAF: V1498_09905
+            PEST: V1501_11895
+            FPN: ABE65_003300
+            FAR: ABE41_003310
+            FEC: QNH15_04690
+            BHUI: LOK74_11965
+            PJD: Pjdr2_1365 Pjdr2_5321
+            PPY: PPE_04137
+            PPM: PPSC2_21900(ribA3)
+            PPO: PPM_4362(ribA3)
+            PPOL: X809_37870
+            PPQ: PPSQR21_044110(ribA)
+            PPOY: RE92_15345
+            PMS: KNP414_01434
+            PMQ: PM3016_1748
+            PMW: B2K_08905
+            PTA: HPL003_03285
+            PSAB: PSAB_13330
+            PDU: PDUR_15085
+            PBD: PBOR_17045 PBOR_30970
+            PGM: PGRAT_14795
+            POD: PODO_13620
+            PAEN: P40081_17355
+            PAEF: R50345_13790
+            PAEQ: R50912_16160
+            PSTE: PSTEL_15050
+            PAEA: R70723_14955
+            PAEE: R70331_14510
+            PAEH: H70357_16530
+            PAEJ: H70737_13155
+            PBJ: VN24_13810
+            PIH: UB51_16010
+            PRI: PRIO_3193
+            PSON: JI735_23670
+            PPEO: ABE82_21790
+            PBV: AR543_04495
+            PXL: BS614_01195
+            PDH: B9T62_11370
+            PIB: BBD41_23515
+            PCX: LPB68_18860
+            PKB: B4V02_03610
+            PAIH: ASL14_16140
+            PLEN: EIM92_02020
+            PPSC: EHS13_03565
+            PALB: EJC50_02315
+            PPRT: ET464_18395
+            PBAC: HUB98_15315
+            PRZ: GZH47_17865
+            PLYC: GXP70_28675
+            PSOP: KP014_18415
+            PTRI: KDC22_15435
+            PCEL: HUB94_07295
+            PTJ: JRJ22_12175
+            PKA: PQ456_01775
+            PUI: PUW25_23980
+            PMAH: PTQ21_03440
+            PWN: QNH46_02660
+            PHK: SK066_01555
+            PNK: AASFL403_17325
+            PPAB: KET34_32395
+            PLZH: C0638_11600
+            PEZZ: HW560_07420
+            PAUB: PUR_28180
+            PTUN: V6W81_27460
+            PTAC: ACJYJG_29495
+            PASZ: KAI36_04629(ribBA_2)
+            CCHL: FPL14_18155
+            CHEB: HH215_27995
+            SACA: FFV09_11850
+            PLIG: NAG76_12015
+            TUM: CBW65_09125 CBW65_13980
+            TAB: CIG75_14935
+            SIV: SSIL_2214
+            SSIL: SOLI23_07600
+            SOB: CSE16_10415
+            PLN: Plano_0211
+            PKU: AUO94_15580
+            PLL: I858_006320
+            PANA: BBH88_01470
+            PDG: BCM40_14655
+            PHC: BBI08_14000
+            PMAR: B0X71_01295 B0X71_16995
+            PPLA: BBI15_10805
+            PFAE: AJGP001_01520
+            PGQ: FK545_08680
+            PLAY: DNR44_002055(ribA)
+            PLIQ: QWY22_01375
+            PSHE: QWY16_01355
+            PSHX: QWY21_01420
+            KUR: ASO14_2750
+            KZO: NCTC404_00628(ribBA_1)
+            SPSY: AZE41_18265
+            PANC: E2636_03795
+            UTH: DKZ56_09810
+            LLK: LLKF_0099(ribA)
+            LLX: NCDO2118_0098(ribA)
+            LPW: LpgJCM5343_09800
+            CCB: Clocel_1040
+            BPRL: CL2_25270
+            SCR: SCHRY_v1c07100(ribBA)
+            SSYR: SSYRP_v1c07360(ribBA)
+            MIW: EER00_02060(ribA)
+            EUZ: DVS28_a4235
+            MSHO: MSHO_42870
+            NFA: NFA_29130
+            NFR: ERS450000_01181(ribA)
+            NCY: NOCYR_2792
+            NBR: O3I_021075 O3I_021080
+            NSL: BOX37_15970
+            NSR: NS506_00018(ribA) NS506_04728 NS506_04729 NS506_07863
+            NTP: CRH09_19190 CRH09_36490
+            NOZ: DMB37_01695
+            NOD: FOH10_00500 FOH10_13070(ribA) FOH10_13080
+            NAH: F5544_22465(ribA)
+            NAD: NCTC11293_04040(ribA)
+            NWL: NWFMUON74_33290 NWFMUON74_64860(ribA)
+            NIE: KV110_21825
+            NTC: KHQ06_09655 KHQ06_19970(ribA) KHQ06_23435 KHQ06_23440
+            NHU: H0264_08940 H0264_23730 H0264_23735 H0264_23740
+            NYA: LTV02_11180 LTV02_11185 LTV02_24125
+            NGP: LTT66_33410
+            NSPU: IFM12276_32460
+            NYU: D7D52_06865 D7D52_20135 D7D52_20140
+            NVU: V7968_28885 V7968_28890
+            ROP: ROP_13740
+            RKO: JWS14_21730
+            RPSK: JWS13_23225
+            RHOJ: JVH1_16635(ribA) JVH1_28970(ribA)
+            SCO: SCO2687(SCC61A.08) SCO6655(SC5A7.05)
+            SMA: SAVERM_1791(ribA2) SAVERM_4121(ribA3) SAVERM_545(ribA4)
+            SFI: SFUL_2084
+            SGRF: SGFS_028810 SGFS_057490
+            SCB: SCAB_15891 SCAB_49001
+            SVL: Strvi_6712
+            SHY: SHJG_4976 SHJG_7556
+            SHO: SHJGH_4739 SHJGH_7317
+            SRC: M271_38235
+            SMAL: SMALA_1581 SMALA_2336
+            SAUO: BV401_11365 BV401_15075
+            SSOI: I1A49_11040(ribA) I1A49_14805
+            SANT: QR300_33740(ribA)
+            SBH: SBI_01637
+            SDV: BN159_1827(ribA1) BN159_4727(ribA3)
+            SCI: B446_18275(ribA) B446_30335
+            SLV: SLIV_05235(ribA1) SLIV_24230(ribA2)
+            SGU: SGLAU_27885(ribA)
+            STRE: GZL_00084 GZL_07679 GZL_09329
+            SLD: T261_7318
+            SLC: SL103_14275
+            SAMB: SAM23877_6309(ribA)
+            SCZ: ABE83_25510
+            SCX: AS200_10140 AS200_24475
+            SRW: TUE45_03626(ribA) TUE45_07191(ribBA_2)
+            STRF: ASR50_29930 ASR50_31180
+            SPAV: Spa2297_27645
+            SGS: AVL59_14475 AVL59_45835
+            STSI: A4E84_18990 A4E84_34030
+            SGM: GCM10017557_12810(ribA)
+            SCAD: DN051_09040(ribA) DN051_20915
+            SPHW: NFX46_11805(ribA) NFX46_38725
+            SGRS: V9K83_05065(ribA) V9K83_17385(ribA)
+            SLS: SLINC_4033 SLINC_7044
+            SNR: SNOUR_35095(ribA)
+            SALU: DC74_8030
+            SALL: SAZ_41455
+            SPLU: LK06_017190 LK06_028200
+            STRD: NI25_05105
+            SPUN: BFF78_07000 BFF78_22470
+            SGV: B1H19_07360 B1H19_31135
+            SALJ: SMD11_1722(ribA)
+            STRO: STRMOE7_05565
+            SNZ: DC008_16325 DC008_29065(ribA)
+            SGE: DWG14_01561(ribBA_1) DWG14_04483(ribA)
+            SVQ: N6Q81_29120(ribA)
+            SLK: SLUN_33150(ribA)
+            SDX: C4B68_05520(ribA)
+            SGD: ELQ87_05945(ribA) ELQ87_20295
+            SCYA: EJ357_21675 EJ357_39655(ribA)
+            SAST: CD934_03865(ribA)
+            SNQ: CP978_28485(ribA)
+            STIR: DDW44_05185(ribA)
+            SVN: CP980_01315 CP980_14940
+            SHAW: CEB94_19510 CEB94_34910(ribA)
+            SRK: FGW37_30535(ribA) FGW37_30640
+            SFIC: EIZ62_01920(ribA)
+            SGAL: CP966_17260 CP966_30440(ribA)
+            SSPO: DDQ41_16825(ribA)
+            SVR: CP971_05340
+            SPAD: DVK44_17565(ribA)
+            SFY: GFH48_08905(ribA) GFH48_21650(ribA)
+            SAQU: EJC51_23760 EJC51_38665(ribA)
+            SCAV: CVT27_09180
+            SSEO: D0Z67_24350(ribA)
+            SPHV: F9278_22380 F9278_40075(ribA)
+            SFUG: CNQ36_30510(ribA)
+            SPAC: B1H29_06010
+            SCHA: CP983_07360(ribA) CP983_11630 CP983_22590
+            SCOE: CP976_20925 CP976_36400(ribA)
+            SBAT: G4Z16_02635(ribA)
+            SPLA: CP981_03995(ribA) CP981_36405(ribA)
+            SBRO: GQF42_21845(ribA) GQF42_37110(ribA)
+            STUI: GCM10017668_32900(ribA) GCM10017668_59810(ribA)
+            SCHF: IPT68_17420 IPT68_31090(ribA)
+            SCYG: S1361_19050(ribA) S1361_32830(ribBA2)
+            SFEU: IM697_02525 IM697_29440(ribA) IM697_34220
+            SLIA: HA039_16300(ribA)
+            SDW: K7C20_03850(ribA)
+            SVD: CP969_31890(ribA)
+            SAUH: SU9_003120(ribA)
+            SPRA: CP972_30565(ribA)
+            SPEU: CGZ69_18925(ribA)
+            SROI: IAG44_03720 IAG44_06815(ribA) IAG44_12620 IAG44_21855 IAG44_35450
+            SANU: K7396_31650(ribA)
+            STRY: EQG64_09430
+            SACT: DMT42_18575 DMT42_31895(ribA)
+            SINE: KI385_06415(ribA)
+            SLF: JEQ17_09535(ribA) JEQ17_22090
+            SDEC: L3078_21700 L3078_38365(ribA)
+            SAKB: K1J60_06855(ribA) K1J60_23290
+            SNIG: HEK616_24600(ribA)
+            SCAE: IHE65_06400(ribA) IHE65_23865
+            SSPN: LXH13_21805 LXH13_32540(ribA)
+            SCIR: STRCI_000692 STRCI_003931 STRCI_006725(ribA)
+            SXT: KPP03845_101311(ribA_1) KPP03845_106264(ribA_3)
+            STUD: STRTU_006500(ribA)
+            STEE: F3L20_14535(ribA)
+            SENG: OJ254_23020(ribA)
+            SYUN: MOV08_35645(ribA) MOV08_43640(ribA)
+            SARG: HKX69_00240 HKX69_04975(ribA) HKX69_18315
+            SJN: RI060_06480(ribA) RI060_22520(ribA)
+            SCYN: N8I84_19670 N8I84_33570(ribA)
+            SHAU: K9S39_38280(ribA)
+            SKG: KJK29_04870(ribA) KJK29_19875
+            SCOA: QU709_05985(ribA) QU709_22295(ribA)
+            SINN: ABB07_05485 ABB07_20070
+            SCAY: PYS65_04220(ribA)
+            KBU: Q4V64_04005(ribA) Q4V64_24480(ribA) Q4V64_46260(ribA)
+            SLUO: PS467_10105(ribA) PS467_34345
+            STPB: QR97_13735 QR97_14095
+            SRPA: HEP86_05515(ribA) HEP86_38735(ribA)
+            SMIB: SMIR_02030(ribA) SMIR_05495 SMIR_19670
+            SCAJ: O1G22_07510(ribA) O1G22_22205 O1G22_43580(ribA)
+            STRL: HEP84_25190(ribA) HEP84_40045(ribA) HEP84_42455(ribA)
+            STSD: HEP87_26185(ribA) HEP87_44050(ribA) HEP87_51400(ribA)
+            SRPZ: HEP85_19615(ribA) HEP85_32650(ribA)
+            SCHE: QRN89_18545(ribA)
+            STII: DRB96_03215
+            STIC: DRB89_04280
+            SABD: N8I86_18810 N8I86_30840(ribA)
+            STRV: EZV63_31595(ribA)
+            SMOD: POD33_12425 POD33_22415 POD33_32720(ribA)
+            STBR: ABDE16_05655(ribA)
+            SGRO: UBV09_29255(ribA)
+            SSIR: WAB15_06175(ribA)
+            SEXP: SLV14_007105(ribA)
+            SFLU: ACKTSN_07300(ribA) ACKTSN_24705(ribA)
+            SOKE: ACE1N8_30840(ribA)
+            STGO: KBP30_08035(ribA) KBP30_19855
+            STID: G7Z12_33675(ribA)
+            STCZ: JHY03_20390(ribA)
+            STHU: M1P56_25335
+            STRQ: CGL27_11965(ribA)
+            SSEC: ABZO29_09465(ribA) ABZO29_23500(ribA)
+            SHUG: ABVG11_29880(ribA)
+            STRK: R2B38_18765(ribA) R2B38_35830(ribA)
+            KSK: KSE_59160(ribA3) KSE_64690(ribA2)
+            KAU: B6264_00745
+            KIT: CFP65_6470
+            KIS: HUT16_30675
+            KCH: O1G21_08160
+            KCM: ABWK59_27560(ribA)
+            KNB: ACF9IK_07100(ribA)
+            KIC: KCMC57_up10880
+            KPUR: ACFCLZ_31440(ribA)
+            PPOD: AB0761_35780(ribA)
+            ABRY: NYE86_04430
+            AGLA: OIE69_23405
+            AREV: RVR_3749
+            TWH: TWT_690
+            TWS: TW709(ribA)
+            PPHP: VTA80_11955(ribA)
+            MTS: MTES_1564(ribA)
+            MIM: AKG07_12140
+            MIX: AB663_000732
+            MIP: AXH82_05955
+            MCW: A8L33_01360
+            MICR: BMW26_16855
+            MHOS: CXR34_02740
+            MFOL: DXT68_16250
+            MLV: CVS47_03310(ribA)
+            MOY: CVS54_03609(ribBA_2)
+            MBIN: LXM64_10210
+            MLIQ: NMQ05_17500
+            MPAO: IZR02_16155
+            MRG: SM116_15470(ribA)
+            MICE: EHF32_02705
+            MAUG: KV397_00370
+            MSUF: KV394_04465
+            MGAB: KV396_05845
+            MBET: N8K70_12740
+            MINX: MICNX66_3357(ribA)
+            MICJ: LRQ07_17215
+            MCLI: PQV94_06055
+            CUM: NI26_10650
+            CUB: BJK06_14205
+            CUG: C1N91_10800(ribA)
+            CQF: GBG65_00765(ribA)
+            CUF: KM842_02760(ribA)
+            CUY: I8920_10545(ribA)
+            FRP: AX769_18425
+            FSB: GCM10025867_38600
+            LALL: MUN78_09915
+            FRN: F1C15_13880(ribA)
+            PSEV: USB125703_00985(ribBA)
+            GMN: GMOLON4_2896(ribA)
+            ART: Arth_1677
+            ARR: ARUE_c17310(ribBA2)
+            ARM: ART_0286
+            AAQ: AOC05_05515
+            ARW: MB46_07690
+            ARH: AHiyo8_10300 AHiyo8_25390
+            ARU: ASPU41_13715
+            ARQ: BWQ92_01540
+            ARN: CGK93_09595(ribA) CGK93_10245
+            ARX: ARZXY2_2161(ribA)
+            ARTH: C3B78_07990(ribA)
+            ARTP: E5206_15055(ribA)
+            ACIT: HPK19_13250
+            ASUN: KG104_07830(ribA)
+            ASUF: MNQ99_11375(ribA)
+            ARTY: AHiyo4_20650 AHiyo4_26750
+            APOA: J0916_05100
+            AWW: G8758_05580(ribA)
+            ACAO: NF551_07570(ribA)
+            AZH: MUK71_07495(ribA)
+            AGEG: MUG94_07350(ribA)
+            AOD: Q8Z05_16190(ribA)
+            AKO: N9A08_07370(ribA)
+            ARTU: E7Y32_14655(ribA)
+            ARTZ: FCN77_09375(ribA) FCN77_13265
+            ARTT: IG195_18970(ribA)
+            ARTC: KY499_04295(ribA)
+            ARTL: ArtHe_05130(ribA)
+            ARI: UM93_03520
+            PUE: FV140_08990(ribA)
+            PNV: JMY29_08680(ribA)
+            PAYJ: HMI59_12830(ribA)
+            PAGO: IRJ34_09155(ribA)
+            PAYN: HMI60_01745(ribA)
+            PHRZ: QN084_20265(ribA)
+            PANY: ACPFL9_09010(ribA)
+            ARZ: AUT26_08050
+            ACH: Achl_1672
+            APN: Asphe3_02380 Asphe3_16570
+            PSUL: AU252_01985
+            PSNI: NIBR502771_17095(ribA)
+            PSEY: GU243_02865(ribA)
+            PDEL: JCQ34_08130(ribA)
+            POK: SMD14_01160(ribA) SMD14_08565(ribA)
+            PSLS: KTR40_01005 KTR40_08060(ribA)
+            PQA: WHH00_10565(ribA)
+            PSSO: ACOM2C_00925(ribA)
+            PSNB: NIBR502770_05800(ribA)
+            RSA: RSal33209_2345
+            KRH: KRH_11710
+            KPL: KPaMU14_06825
+            KII: KocCE7_06005
+            KRS: EQG70_10840
+            KOD: HBK84_06175(ribA)
+            KVR: CIB50_0001961(ribBA_1)
+            RMU: RMDY18_11650
+            RDN: HMPREF0733_11816
+            RAJ: RA11412_1632
+            RTER: IDM49_07065
+            RAMA: IDM48_06785
+            SATK: SA2016_1914 SA2016_3735
+            CCYC: SCMU_19050 SCMU_38210(ribA_1) SCMU_40350(ribA_2)
+            SPUE: AB5L97_08850(ribA) AB5L97_18040(ribA) AB5L97_19095(ribA)
+            ACRY: AC20117_17855
+            DVA: DAD186_13920
+            DJJ: COP05_04015
+            DHM: CYJ49_009500
+            CWN: NP075_04135
+            ICA: Intca_1032
+            JTR: V3C34_15395(ribA)
+            TEH: GKE56_04395(ribA)
+            PHW: G7075_14860
+            TED: U5C87_00825(ribA)
+            KNO: V6K52_01765(ribA)
+            DSS: GCM25873_05680(ribA)
+            DCP: RN607_05835(ribA)
+            PACD: EGX94_12115(ribA)
+            PAUS: NCTC13651_01432(ribBA)
+            MPH: MLP_01300(ribA)
+            MICG: GJV80_17420(ribA)
+            NCA: Noca_0866 Noca_1684
+            NOI: FCL41_09465
+            NARO: CFH99_23515
+            NRO: K8W59_19920
+            NOQ: LN652_21040
+            NPS: KRR39_23800
+            NBI: SHK19_00750(ribA)
+            NOCW: ABFU82_21835(ribA)
+            NOCD: QJ852_25515(ribA)
+            NOCQ: QI633_25670(ribA)
+            PSIM: KR76_26255
+            MUZ: H4N58_08665
+            NAL: B005_4513
+            NGV: CDO52_03855
+            NEX: NE857_15605
+            NEC: KGD82_12320
+            NCG: KGD84_16865
+            SNAH: OUQ99_13880
+            SAIU: J4H86_07190
+            AGRA: AGRA3207_001344(ribA)
+            AMAZ: LUW76_10585
+            ACIR: OG979_30895(ribA)
+            AWS: ACN3XK_19895(ribA) ACN3XK_22170(ribA)
+            SPIQ: OHA34_11305
+            KRA: Krad_0125
+            SEN: SACE_2884(toxB)
+            AMD: AMED_3340(ribA) AMED_5256(ribA) AMED_8347(ribA) AMED_9093
+            AMN: RAM_16985(ribA) RAM_26775(ribA) RAM_42865 RAM_46635
+            AMM: AMES_3302(ribA) AMES_5193(ribA) AMES_8217(ribA) AMES_8956
+            AMZ: B737_3302(ribA) B737_5193(ribA) B737_8218(ribA) B737_8957
+            AMQ: AMETH_3286(ribA)
+            AMYC: CU254_21320
+            AMYB: BKN51_40705
+            AAB: A4R43_20750
+            AMYY: YIM_08790(ribBA1)
+            AORI: SD37_27130 SD37_34590
+            AACD: LWP59_19500
+            APRT: MUY14_16420 MUY14_29935 MUY14_42045(ribA)
+            ARHD: VSH64_15250(ribA) VSH64_44400(ribA)
+            AMOG: QRX60_17190(ribA) QRX60_40500(ribA)
+            ACAB: QRX50_30240(ribA)
+            ANW: QP939_05680 QP939_37550(ribA)
+            AMYD: K1T34_47245
+            ABAR: AMYBAR_003564
+            AMYS: CVV72_11955 CVV72_22320(ribA)
+            PSEA: WY02_20180
+            PSEE: FRP1_25025
+            PSEH: XF36_21405
+            PSEQ: AD006_04205
+            PECQ: AD017_12025
+            PSDS: K1T35_41200
+            APRE: CNX65_19930
+            AMI: Amir_3980
+            SESP: BN6_41270
+            SSYI: EKG83_05510
+            SACX: IOD16_02615(ribA)
+            KAL: KALB_2273
+            KUT: JJ691_42600
+            KBR: Q4V65_41825(ribA)
+            KPHY: AOZ06_24650 AOZ06_34305
+            LED: BBK82_06700
+            ALO: CRK55064
+            CROS: N8J89_25700 N8J89_26835
+            UME: RM788_19640(ribA) RM788_31120(ribA)
+            STP: Strop_2559
+            SAQ: Sare_2747
+            MAU: Micau_3610
+            MIL: ML5_4788
+            MICB: MicB006_2667
+            MTUA: CSH63_07010
+            MICH: FJK98_15735
+            MTEM: GCE86_13970(ribA)
+            MCAB: HXZ27_13910
+            VMA: VAB18032_20180(ribA)
+            MCRA: ID554_29155
+            VER: HUT12_17740
+            MENO: Jiend_59530(ribA_2)
+            MCHL: PVK74_08270
+            MFEU: H1D33_23630(ribA)
+            MPRN: Q3V37_23500(ribA)
+            MHAW: RMN56_23720(ribA)
+            MICF: QQG74_16185(ribA)
+            MICN: WHN02_17810(ribA)
+            VET: ACQVFL_15455
+            ASE: ACPL_3070(ribA) ACPL_676(ribA)
+            AMS: AMIS_13360 AMIS_50940 AMIS_60390
+            ACTN: L083_1829(ribA) L083_4404
+            ACTS: ACWT_0560 ACWT_2476
+            AIH: Aiant_48260(ribA_2) Aiant_72060(ribA_3)
+            ACTR: Asp14428_01970(ribA_1) Asp14428_27070(ribA_2)
+            ACTL: L3i22_004820(ribA) L3i22_028480(ribA)
+            ASIC: Q0Z83_033500 Q0Z83_057010 Q0Z83_074280
+            AOU: ACTOB_000504(ribA) ACTOB_002604(ribA)
+            ACTE: ACTI_00370(ribA_1) ACTI_34380(ribA_3) ACTI_75800(ribA_4)
+            AFS: AFR_08995 AFR_19715
+            PLK: CIK06_10095
+            PLAB: C6361_30410
+            PLAT: C6W10_35690
+            CATI: CS0771_02060(ribA_1) CS0771_75420(ribA_3)
+            DVC: Dvina_41370
+            DAUR: Daura_23810 Daura_33405
+            DMAT: Dmats_36065
+            DACT: KZZ52_40355(ribA)
+            NHY: JQS43_13940
+            CCAZ: COUCH_23930 COUCH_30615
+            CAI: Caci_1820 Caci_3851
+            GLY: K3N28_10125
+            RXY: Rxyl_1780
+            AYM: YM304_13130(ribA)
+            LET: O77CONTIG1_01956(ribA_1)
+            LEPT: JVX88_01740(ribA)
+            LEPV: J4558_03560(ribA)
+            HHG: XM38_044780(ribBA_2)
+            CAU: Caur_0359
+            CHL: Chy400_0386
+            CAG: Cagg_1299
+            KBS: EPA93_00440
+            TAC: Ta1014
+            TVO: TVG0563044(TVG0563044)
+            OMR: OXIME_000835(ribA)
+            PTO: PTO0570
+            FAC: FACI_IFERC01G0301
+            FAI: FAD_1219
+            CDIV: CPM_0705
+            MARH: Mia14_0292
+            MIY: Micr_00472
+            LOB: NEF87_003258
+            PSYT: DSAG12_00511(ribA)
+REFERENCE   PMID:9574900
+  AUTHORS   Bereswill S, Fassbinder F, Volzing C, Covacci A, Haas R, Kist M
+  TITLE     Hemolytic properties and riboflavin synthesis of Helicobacter pylori: cloning and functional characterization of the ribA gene encoding GTP-cyclohydrolase II that  confers hemolytic activity to Escherichia coli.
+  JOURNAL   Med Microbiol Immunol 186:177-87 (1998)
+            DOI:10.1007/s004300050062
+  SEQUENCE  [hpy:HP_0802]
+REFERENCE   PMID:18664246
+  AUTHORS   Marx H, Mattanovich D, Sauer M
+  TITLE     Overexpression of the riboflavin biosynthetic pathway in Pichia pastoris.
+  JOURNAL   Microb Cell Fact 7:23 (2008)
+            DOI:10.1186/1475-2859-7-23
+///

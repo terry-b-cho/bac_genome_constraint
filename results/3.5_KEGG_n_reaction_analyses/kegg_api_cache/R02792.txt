@@ -1,0 +1,15 @@
+ENTRY       R02792                      Reaction
+NAME        3alpha,7alpha,12alpha-trihydroxy-5beta-cholanate:NAD+ 7-oxidoreductase
+DEFINITION  Cholic acid + NAD+ <=> 7-Oxodeoxycholate + NADH + H+
+EQUATION    C00695 + C00003 <=> C04643 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00154  C00695_C04643
+ENZYME      1.1.1.159
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.159
+                 R02792  Cholic acid + NAD+ <=> 7-Oxodeoxycholate + NADH + H+
+DBLINKS     RHEA: 19412
+///

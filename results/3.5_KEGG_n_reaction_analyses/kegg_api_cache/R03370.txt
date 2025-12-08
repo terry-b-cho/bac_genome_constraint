@@ -1,0 +1,19 @@
+ENTRY       R03370                      Reaction
+NAME        stearoyl-[acyl-carrier protein],reduced-ferredoxin:oxygen oxidoreductase (9,10 cis-dehydrogenating)
+DEFINITION  Octadecanoyl-[acyl-carrier protein] + 2 Reduced ferredoxin + Oxygen + 2 H+ <=> Oleoyl-[acyl-carrier protein] + 2 Oxidized ferredoxin + 2 H2O
+EQUATION    C04088 + 2 C00138 + C00007 + 2 C00080 <=> C01203 + 2 C00139 + 2 C00001
+RCLASS      RC00917  C01203_C04088
+ENZYME      1.14.19.2
+PATHWAY     rn00061  Fatty acid biosynthesis
+            rn01040  Biosynthesis of unsaturated fatty acids
+            rn01212  Fatty acid metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.19  With oxidation of a pair of donors resulting in the reduction of O2 to two molecules of water
+                1.14.19.2
+                 R03370  Octadecanoyl-[acyl-carrier protein] + 2 Reduced ferredoxin + Oxygen + 2 H+ <=> Oleoyl-[acyl-carrier protein] + 2 Oxidized ferredoxin + 2 H2O
+ORTHOLOGY   K03921  acyl-[acyl-carrier protein] desaturase [EC:1.14.19.2 1.14.19.11 1.14.19.26]
+            K03922  acyl-[acyl-carrier protein] desaturase [EC:1.14.19.2 1.14.19.-]
+DBLINKS     RHEA: 11779
+///

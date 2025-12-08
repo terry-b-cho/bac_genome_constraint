@@ -1,0 +1,20 @@
+ENTRY       R00630                      Reaction
+NAME        carboxylic-ester hydrolase
+DEFINITION  Ester + H2O <=> Alcohol + Carboxylate
+EQUATION    C02391 + C00001 <=> C00069 + C00060
+COMMENT     general reaction
+RCLASS      RC00339  C00069_C02391
+            RC00342  C00060_C02391
+ENZYME      3.1.1.1
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.1  Acting on ester bonds
+               3.1.1  Carboxylic-ester hydrolases
+                3.1.1.1
+                 R00630  Ester + H2O <=> Alcohol + Carboxylate
+            IUBMB reaction hierarchy [BR:br08202]
+             3. Hydrolase reactions
+              3.1.1.1
+               R00630  Ester <=> Alcohol
+DBLINKS     RHEA: 21167
+///

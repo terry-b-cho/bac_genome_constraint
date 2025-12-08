@@ -1,0 +1,19 @@
+ENTRY       R04657                      Reaction
+NAME        ATP:2,3,2',3'-tetrakis(3-hydroxytetradecanoyl)-D-glucosaminyl-beta-D-1,6-glucosaminyl-alpha-phosphate 4-O'-phosphotransferase
+DEFINITION  ATP + Lipid A disaccharide <=> ADP + 2,3,2'3'-Tetrakis(3-hydroxytetradecanoyl)-D-glucosaminyl-1,6-beta-D-glucosamine 1,4'-bisphosphate
+EQUATION    C00002 + C04932 <=> C00008 + C04919
+RCLASS      RC00002  C00002_C00008
+            RC00078  C04919_C04932
+ENZYME      2.7.1.130
+PATHWAY     rn00540  Lipopolysaccharide biosynthesis
+            rn01100  Metabolic pathways
+MODULE      M00060  KDO2-lipid A biosynthesis, Raetz pathway, LpxL-LpxM type
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.130
+                 R04657  ATP + Lipid A disaccharide <=> ADP + 2,3,2'3'-Tetrakis(3-hydroxytetradecanoyl)-D-glucosaminyl-1,6-beta-D-glucosamine 1,4'-bisphosphate
+ORTHOLOGY   K00912  tetraacyldisaccharide 4'-kinase [EC:2.7.1.130]
+DBLINKS     RHEA: 20703
+///

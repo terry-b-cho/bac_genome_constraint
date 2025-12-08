@@ -1,0 +1,85 @@
+ENTRY       rn00770                     Pathway
+NAME        Pantothenate and CoA biosynthesis
+CLASS       Metabolism; Metabolism of cofactors and vitamins
+PATHWAY_MAP rn00770  Pantothenate and CoA biosynthesis
+MODULE      M00019  Valine/isoleucine biosynthesis, pyruvate => valine / 2-oxobutanoate => isoleucine [PATH:rn00770]
+            M00046  Pyrimidine degradation, uracil => beta-alanine, thymine => 3-aminoisobutanoate [PATH:rn00770]
+            M00119  Pantothenate biosynthesis, valine/L-aspartate => pantothenate [PATH:rn00770]
+            M00120  Coenzyme A biosynthesis, pantothenate => CoA [PATH:rn00770]
+            M00913  Pantothenate biosynthesis, 2-oxoisovalerate/spermine => pantothenate [PATH:rn00770]
+            M00914  Coenzyme A biosynthesis, archaea, 2-oxoisovalerate => 4-phosphopantoate => CoA [PATH:rn00770]
+DBLINKS     GO: 0015940 0015937
+REACTION    R00130  ATP:dephospho-CoA 3'-phosphotransferase
+            R00226  pyruvate:pyruvate acetaldehydetransferase (decarboxylating); (S)-2-acetolactate pyruvate-lyase (carboxylating)
+            R00489  L-aspartate 1-carboxy-lyase (beta-alanine-forming)
+            R00904  3-aminopropanal:NAD+ oxidoreductase
+            R00905  3-ureidopropanoate amidohydrolase
+            R00977  5,6-dihydrouracil:NAD+ oxidoreductase
+            R00978  5,6-dihydrouracil:NADP+ oxidoreductase
+            R01211  (R)-3,3-dimethylmalate:NAD+ oxidoreductase (decarboxylating)
+            R01214  L-valine:2-oxoglutarate aminotransferase
+            R01226  5,10-methylenetetrahydrofolate:3-methyl-2-oxobutanoate hydroxymethyltransferase
+            R01623  [acyl-carrier-protein] 4'-pantetheine-phosphohydrolase
+            R01625  CoA:apo-[acyl-carrier-protein] pantetheinephosphotransferase
+            R02269  5,6-dihydrouracil amidohydrolase
+            R02471  
+            R02472  (R)-pantoate:NADP+ 2-oxidoreductase
+            R02473  (R)-pantoate:beta-alanine ligase (AMP-forming)
+            R02474  pantothenate amidohydrolase
+            R02971  ATP:pantothenate 4'-phosphotransferase
+            R02972  N-((R)-pantothenoyl)-L-cysteine carboxy-lyase
+            R02973  (R)-pantetheine amidohydrolase
+            R03018  ATP:pantothenate 4'-phosphotransferase
+            R03035  ATP:pantetheine-4'-phosphate adenylyltransferase
+            R03036  dephospho-CoA nucleotidohydrolase
+            R03198  (R)-4-dehydropantoate:NAD+ 4-oxidoreductase
+            R03269  N-[(R)-4'-phosphopantothenoyl]-L-cysteine carboxy-lyase
+            R03927  
+            R04230  (R)-4'-phosphopantothenate:L-cysteine ligase (ATP-utilizing)
+            R04231  (R)-4'-phosphopantothenate:L-cysteine ligase
+            R04391  ATP:pantothenate 4'-phosphotransferase
+            R04439  (R)-2,3-dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)
+            R04441  (R)-2,3-dihydroxy-3-methylbutanoate hydro-lyase
+            R09076  spermidine:oxygen oxidoreductase (spermidine-forming)
+            R09378  ATP:(R)-pantoate 4-phosphotransferase
+            R09379  (R)-4-phosphopantoate:beta-alanine ligase (AMP-forming)
+            R12608  GTP:3'-dephospho-CoA 3'-phosphotransferase
+COMPOUND    C00010  CoA
+            C00022  Pyruvate
+            C00049  L-Aspartate
+            C00054  Adenosine 3',5'-bisphosphate
+            C00097  L-Cysteine
+            C00099  beta-Alanine
+            C00106  Uracil
+            C00141  3-Methyl-2-oxobutanoic acid
+            C00183  L-Valine
+            C00229  Acyl-carrier protein
+            C00429  5,6-Dihydrouracil
+            C00522  (R)-Pantoate
+            C00750  Spermine
+            C00831  Pantetheine
+            C00864  Pantothenate
+            C00882  Dephospho-CoA
+            C00966  2-Dehydropantoate
+            C01053  (R)-4-Dehydropantoate
+            C01088  (R)-3,3-Dimethylmalate
+            C01134  Pantetheine 4'-phosphate
+            C02642  3-Ureidopropionate
+            C03492  D-4'-Phosphopantothenate
+            C03688  Apo-[acyl-carrier protein]
+            C04079  N-((R)-Pantothenoyl)-L-cysteine
+            C04272  (R)-2,3-Dihydroxy-3-methylbutanoate
+            C04352  (R)-4'-Phosphopantothenoyl-L-cysteine
+            C05665  3-Aminopropanal
+            C05944  Pantothenol
+            C06010  (S)-2-Acetolactate
+            C18911  (R)-4-Phosphopantoate
+REL_PATHWAY rn00010  Glycolysis / Gluconeogenesis
+            rn00240  Pyrimidine metabolism
+            rn00250  Alanine, aspartate and glutamate metabolism
+            rn00270  Cysteine and methionine metabolism
+            rn00330  Arginine and proline metabolism
+            rn00410  beta-Alanine metabolism
+            rn00640  Propanoate metabolism
+KO_PATHWAY  ko00770
+///

@@ -1,0 +1,21 @@
+ENTRY       R04365                      Reaction
+NAME        succinyl-CoA:2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase
+DEFINITION  Succinyl-CoA + 2,3,4,5-Tetrahydrodipicolinate + H2O <=> CoA + N-Succinyl-2-L-amino-6-oxoheptanedioate
+EQUATION    C00091 + C03972 + C00001 <=> C00010 + C04462
+RCLASS      RC00004  C00010_C00091
+            RC01136  C03972_C04462
+ENZYME      2.3.1.117
+PATHWAY     rn00300  Lysine biosynthesis
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01230  Biosynthesis of amino acids
+MODULE      M00016  Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.117
+                 R04365  Succinyl-CoA + 2,3,4,5-Tetrahydrodipicolinate + H2O <=> CoA + N-Succinyl-2-L-amino-6-oxoheptanedioate
+ORTHOLOGY   K00674  2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [EC:2.3.1.117]
+DBLINKS     RHEA: 17328
+///

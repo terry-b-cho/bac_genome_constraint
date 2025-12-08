@@ -1,0 +1,22 @@
+ENTRY       R05553                      Reaction
+NAME        4-amino-4-deoxychorismate pyruvate-lyase
+DEFINITION  4-Amino-4-deoxychorismate <=> 4-Aminobenzoate + Pyruvate
+EQUATION    C11355 <=> C00568 + C00022
+COMMENT     ADC Lyase, PabC
+            see R01716
+RCLASS      RC01843  C00568_C11355
+            RC02148  C00022_C11355
+ENZYME      4.1.3.38
+PATHWAY     rn00790  Folate biosynthesis
+            rn01240  Biosynthesis of cofactors
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.3  Oxo-acid-lyases
+                4.1.3.38
+                 R05553  4-Amino-4-deoxychorismate <=> 4-Aminobenzoate + Pyruvate
+ORTHOLOGY   K02619  4-amino-4-deoxychorismate lyase [EC:4.1.3.38]
+            K03342  para-aminobenzoate synthetase / 4-amino-4-deoxychorismate lyase [EC:2.6.1.85 4.1.3.38]
+            K18482  4-amino-4-deoxychorismate lyase [EC:4.1.3.38]
+DBLINKS     RHEA: 16204
+///

@@ -1,0 +1,67 @@
+ENTRY       K12250                      KO
+SYMBOL      ptlA
+NAME        pentalenene synthase [EC:4.2.3.7]
+PATHWAY     map00909  Sesquiterpenoid and triterpenoid biosynthesis
+            map00998  Biosynthesis of various antibiotics
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+MODULE      M00819  Pentalenolactone biosynthesis, farnesyl-PP => pentalenolactone
+REACTION    R02305  2-trans,6-trans-farnesyldiphosphate diphosphate-lyase (cyclizing, pentalenene-forming)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09109 Metabolism of terpenoids and polyketides
+               00909 Sesquiterpenoid and triterpenoid biosynthesis
+                K12250  ptlA; pentalenene synthase
+              09110 Biosynthesis of other secondary metabolites
+               00998 Biosynthesis of various antibiotics
+                K12250  ptlA; pentalenene synthase
+            Enzymes [BR:ko01000]
+             4. Lyases
+              4.2  Carbon-oxygen lyases
+               4.2.3  Acting on phosphates
+                4.2.3.7  pentalenene synthase
+                 K12250  ptlA; pentalenene synthase
+DBLINKS     GO: 0050467
+GENES       MFB: MFUL124B02_01475 MFUL124B02_01480
+            MLAN: JY572_00075
+            MFAE: VZP55_09465
+            PBRU: LZC95_32520
+            CHII: UNH65_20535 UNH65_25745
+            PTRI: KDC22_17270
+            SMA: SAVERM_2998(ptlA)
+            SBH: SBI_09679
+            SCI: B446_29695
+            SCW: TU94_27405
+            SLE: sle_13160(sle_13160)
+            SSIA: A7J05_09240
+            SRK: FGW37_27330
+            SVR: CP971_04990
+            SCIN: CP977_32300
+            SPLA: CP981_00105
+            SHUN: DWB77_06666(ptlA)
+            SHAR: HUT13_06550
+            SPEU: CGZ69_00970
+            SGJ: IAG43_11500 IAG43_27155
+            SHK: J2N69_35805
+            SMAO: CAG99_22035
+            SYUN: MOV08_02850 MOV08_41460
+            SOV: QZH56_04205
+            STPB: QR97_33775
+            STSD: HEP87_03355 HEP87_07450
+            STYI: C9F11_46225(ptlA2)
+            STRJ: H7827_22865
+            SLUA: AB8735_31440
+            STHU: M1P56_12830
+            STRK: R2B38_05990
+REFERENCE   PMID:8180213
+  AUTHORS   Cane DE, Sohng JK, Lamberson CR, Rudnicki SM, Wu Z, Lloyd MD, Oliver JS, Hubbard BR
+  TITLE     Pentalenene synthase. Purification, molecular cloning, sequencing, and high-level expression in Escherichia coli of a terpenoid cyclase from Streptomyces UC5319.
+  JOURNAL   Biochemistry 33:5846-57 (1994)
+            DOI:10.1021/bi00185a024
+  SEQUENCE  [sbh:SBI_09679]
+REFERENCE   PMID:16681390
+  AUTHORS   Tetzlaff CN, You Z, Cane DE, Takamatsu S, Omura S, Ikeda H
+  TITLE     A gene cluster for biosynthesis of the sesquiterpenoid antibiotic pentalenolactone in Streptomyces avermitilis.
+  JOURNAL   Biochemistry 45:6179-86 (2006)
+            DOI:10.1021/bi060419n
+///

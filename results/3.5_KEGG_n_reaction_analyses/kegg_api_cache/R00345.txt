@@ -1,0 +1,31 @@
+ENTRY       R00345                      Reaction
+NAME        phosphate:oxaloacetate carboxy-lyase (adding phosphate;phosphoenolpyruvate-forming)
+DEFINITION  Orthophosphate + Oxaloacetate <=> H2O + Phosphoenolpyruvate + CO2
+EQUATION    C00009 + C00036 <=> C00001 + C00074 + C00011
+RCLASS      RC02741  C00036_C00074
+ENZYME      4.1.1.31
+PATHWAY     rn00620  Pyruvate metabolism
+            rn00680  Methane metabolism
+            rn00710  Carbon fixation by Calvin cycle
+            rn00720  Other carbon fixation pathways
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00168  CAM (Crassulacean acid metabolism), dark
+            M00170  C4-dicarboxylic acid cycle, phosphoenolpyruvate carboxykinase type
+            M00171  C4-dicarboxylic acid cycle, NAD - malic enzyme type
+            M00172  C4-dicarboxylic acid cycle, NADP - malic enzyme type
+            M00173  Reductive citrate cycle (Arnon-Buchanan cycle)
+            M00346  Formaldehyde assimilation, serine pathway
+            M00374  Dicarboxylate-hydroxybutyrate cycle
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.1  Carboxy-lyases
+                4.1.1.31
+                 R00345  Orthophosphate + Oxaloacetate <=> H2O + Phosphoenolpyruvate + CO2
+            Overall reaction [br08210.html]
+             Carbon fixation
+              R00345
+ORTHOLOGY   K01595  phosphoenolpyruvate carboxylase [EC:4.1.1.31]
+///

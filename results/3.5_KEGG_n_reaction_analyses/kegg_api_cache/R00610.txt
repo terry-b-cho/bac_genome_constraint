@@ -1,0 +1,26 @@
+ENTRY       R00610                      Reaction
+NAME        sarcosine:oxygen oxidoreductase (demethylating)
+DEFINITION  Sarcosine + H2O + Oxygen <=> Glycine + Formaldehyde + Hydrogen peroxide
+EQUATION    C00213 + C00001 + C00007 <=> C00037 + C00067 + C00027
+RCLASS      RC00060  C00037_C00213
+            RC00557  C00067_C00213
+            RC02755  C00007_C00027
+ENZYME      1.5.3.1
+PATHWAY     rn00260  Glycine, serine and threonine metabolism
+            rn01100  Metabolic pathways
+MODULE      M00974  Betaine metabolism, animals, betaine => glycine
+            M00975  Betaine degradation, bacteria, betaine => pyruvate
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.3  With oxygen as acceptor
+                1.5.3.1
+                 R00610  Sarcosine + H2O + Oxygen <=> Glycine + Formaldehyde + Hydrogen peroxide
+ORTHOLOGY   K00301  sarcosine oxidase [EC:1.5.3.1]
+            K00302  sarcosine oxidase, subunit alpha [EC:1.5.3.24 1.5.3.1]
+            K00303  sarcosine oxidase, subunit beta [EC:1.5.3.24 1.5.3.1]
+            K00304  sarcosine oxidase, subunit delta [EC:1.5.3.24 1.5.3.1]
+            K00305  sarcosine oxidase, subunit gamma [EC:1.5.3.24 1.5.3.1]
+            K00306  sarcosine oxidase / L-pipecolate oxidase [EC:1.5.3.1 1.5.3.7]
+DBLINKS     RHEA: 13316
+///

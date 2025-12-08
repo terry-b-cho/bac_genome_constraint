@@ -1,0 +1,24 @@
+ENTRY       R01777                      Reaction
+NAME        succinyl-CoA:L-homoserine O-succinyltransferase
+DEFINITION  Succinyl-CoA + L-Homoserine <=> CoA + O-Succinyl-L-homoserine
+EQUATION    C00091 + C00263 <=> C00010 + C01118
+RCLASS      RC00004  C00010_C00091
+            RC00041  C00263_C01118
+ENZYME      2.3.1.46
+PATHWAY     rn00270  Cysteine and methionine metabolism
+            rn00920  Sulfur metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01120  Microbial metabolism in diverse environments
+            rn01230  Biosynthesis of amino acids
+MODULE      M00017  Methionine biosynthesis, aspartate => homoserine => methionine
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.46
+                 R01777  Succinyl-CoA + L-Homoserine <=> CoA + O-Succinyl-L-homoserine
+ORTHOLOGY   K00641  homoserine O-acetyltransferase/O-succinyltransferase [EC:2.3.1.31 2.3.1.46]
+            K00651  homoserine O-succinyltransferase/O-acetyltransferase [EC:2.3.1.46 2.3.1.31]
+DBLINKS     RHEA: 22011
+///

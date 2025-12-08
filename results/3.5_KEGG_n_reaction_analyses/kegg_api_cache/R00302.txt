@@ -1,0 +1,15 @@
+ENTRY       R00302                      Reaction
+NAME        D-glucose:oxygen 2-oxidoreductase
+DEFINITION  D-Glucose + Oxygen <=> 2-Dehydro-D-glucose + Hydrogen peroxide
+EQUATION    C00031 + C00007 <=> C02779 + C00027
+RCLASS      RC00182  C00031_C02779
+            RC02755  C00007_C00027
+ENZYME      1.1.3.10
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.3  With oxygen as acceptor
+                1.1.3.10
+                 R00302  D-Glucose + Oxygen <=> 2-Dehydro-D-glucose + Hydrogen peroxide
+DBLINKS     RHEA: 10555
+///

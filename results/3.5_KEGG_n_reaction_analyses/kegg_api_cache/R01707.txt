@@ -1,0 +1,18 @@
+ENTRY       R01707                      Reaction
+NAME        pyridoxal:NAD+ 4-oxidoreductase
+DEFINITION  Pyridoxal + NAD+ <=> 4-Pyridoxolactone + NADH + H+
+EQUATION    C00250 + C00003 <=> C00971 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00585  C00250_C00971
+ENZYME      1.1.1.107
+PATHWAY     rn00750  Vitamin B6 metabolism
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.107
+                 R01707  Pyridoxal + NAD+ <=> 4-Pyridoxolactone + NADH + H+
+ORTHOLOGY   K18609  pyridoxal 4-dehydrogenase [EC:1.1.1.107]
+DBLINKS     RHEA: 21339
+///

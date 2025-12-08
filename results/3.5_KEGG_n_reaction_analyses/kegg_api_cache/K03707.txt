@@ -1,0 +1,2823 @@
+ENTRY       K03707                      KO
+SYMBOL      tenA
+NAME        thiaminase (transcriptional activator TenA) [EC:3.5.99.2]
+PATHWAY     map00730  Thiamine metabolism
+            map01100  Metabolic pathways
+            map01240  Biosynthesis of cofactors
+REACTION    R02133  thiamin hydrolase
+            R09993  4-amino-5-aminomethyl-2-methylpyrimidine aminohydrolase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
+               00730 Thiamine metabolism
+                K03707  tenA; thiaminase (transcriptional activator TenA)
+             09180 Brite Hierarchies
+              09182 Protein families: genetic information processing
+               03000 Transcription factors
+                K03707  tenA; thiaminase (transcriptional activator TenA)
+            Enzymes [BR:ko01000]
+             3. Hydrolases
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.99  In other compounds
+                3.5.99.2  aminopyrimidine aminohydrolase
+                 K03707  tenA; thiaminase (transcriptional activator TenA)
+            Transcription factors [BR:ko03000]
+             Prokaryotic type
+              Other transcription factors
+               Others
+                K03707  tenA; thiaminase (transcriptional activator TenA)
+DBLINKS     COG: COG0819
+            GO: 0050334
+GENES       OLU: OSTLU_88734
+            OTA: OT_ostta12g00940
+            MPP: MICPUCDRAFT_52894
+            KPN: KPN_01727 KPN_01799
+            KPU: KP1_2770 KP1_2847
+            KPM: KPHS_26710 KPHS_27520
+            KPP: A79E_2438 A79E_2508
+            KPH: KPNIH24_14555 KPNIH24_14965
+            KPZ: KPNIH27_13205
+            KPV: KPNIH29_13425 KPNIH29_13830
+            KPW: KPNIH30_13750 KPNIH30_14175
+            KPY: KPNIH31_13145
+            KPG: KPNIH32_13595 KPNIH32_14030
+            KPC: KPNIH10_13270 KPNIH10_13680
+            KPQ: KPR0928_13290 KPR0928_13705
+            KPT: VK055_0691
+            KPO: KPN2242_11510 KPN2242_11885
+            KPR: KPR_2432
+            KPJ: N559_2503 N559_2577
+            KPI: D364_08845 D364_09225
+            KPA: KPNJ1_02686 KPNJ1_02755
+            KPS: KPNJ2_02640 KPNJ2_02725
+            KPX: PMK1_04065 PMK1_04137(tenA)
+            KPB: FH42_04655 FH42_05025
+            KPNE: KU54_012485 KU54_012910
+            KPNU: LI86_12420 LI86_12845
+            KPNK: BN49_2820 BN49_2895
+            KVA: Kvar_2503 Kvar_2608
+            KPE: KPK_2557 KPK_2654
+            KPK: A593_23325 A593_23850
+            KVD: KR75_21290 KR75_21795
+            KVQ: SP68_02075 SP68_02565
+            KQU: AVR78_18020
+            KQV: B8P98_13560(tenA)
+            KOX: KOX_20340 KOX_20695
+            KOE: A225_2936 A225_3000
+            KOY: J415_16920 J415_17265
+            KOM: HR38_18670 HR38_18990
+            KMI: VW41_10980 VW41_14265
+            KOK: KONIH1_14430 KONIH1_14735
+            KOC: AB185_22545 AB185_22890
+            EAE: EAE_19500
+            EAR: CCG29985
+            KLL: BJF97_14555 BJF97_14915
+            KLW: DA718_14290
+            KAR: LGL98_12045(tenA)
+            KGR: JJJ10_14095 JJJ10_14330
+            KPAS: LUW96_20875 LUW96_21235
+            KLC: K7H21_14085 K7H21_14390
+            KLM: BWI76_14040 BWI76_14575
+            REE: electrica_02453 electrica_02552(tenA)
+            KLP: GUC22_12970 GUC22_13325
+            KLX: GQR96_12030 GQR96_12490(tenA)
+            ROR: RORB6_05910 RORB6_06385
+            RON: TE10_11940 TE10_14155
+            RPLN: B1209_12970 B1209_13515
+            RAO: DSD31_12480
+            RTG: NCTC13098_03722(tenA)
+            EBT: EBL_c17320
+            CNT: JT31_20870
+            CEM: LH23_17375 LH23_20215
+            CEN: LH86_16335 LH86_18830
+            CLAP: NCTC11466_01594(tenA)
+            PGE: LG71_09730 LG71_11395
+            PSGC: G163CM_12320(tenA)
+            SUPE: P0H77_18810
+            MPHG: MPHASIOC01_004732
+            EBF: D782_2178
+            EBU: CUC76_02130
+            SMAR: SM39_2621
+            SMAC: SMDB11_2390
+            SMW: SMWW4_v1c31720
+            SPE: Spro_3122
+            SRR: SerAS9_3209
+            SRL: SOD_c29420
+            SRY: M621_16050
+            SPLY: Q5A_016320(tenA)
+            SRS: SerAS12_3210
+            SRA: SerAS13_3212
+            SLQ: M495_16025
+            SERF: L085_12735
+            SERS: SERRSCBI_15340
+            SQU: E4343_00405(tenA)
+            SFJ: SAMEA4384070_3184(tenA)
+            SOF: NCTC11214_00515
+            SSUR: ATE40_012440
+            SURI: J0X03_08075
+            SENP: KHA73_15470(tenA)
+            SNEM: NLX84_15905
+            SNEV: OI978_16590
+            SGRI: SGBXF1_03152(tenA)
+            SSAR: SSARUM_003056
+            SERB: QEP77_06660
+            SERN: GUC32_15415
+            SERH: GF111_21965
+            RIU: I2123_24395
+            GQU: AWC35_03210
+            EAME: GXP68_10185
+            RBAD: H2866_20095
+            RCB: O1V66_06490
+            ROU: AB3G37_11060
+            SOD: Sant_2375
+            PES: SOPEG_1555
+            SLIG: GTU79_27770
+            EBI: EbC_03310(tenA) EbC_27190
+            EPE: CI789_04960 CI789_05100 CI789_17000
+            ERWI: GN242_12150(tenA)
+            ERP: LJN55_08730 LJN55_08925
+            EPI: Q3V30_19410
+            ERWE: GKQ23_09395(tenA) GKQ23_15040
+            ETO: RIN69_14295
+            PVA: Pvag_pPag30438
+            PAGG: AL522_01495(tenA)
+            PAO: Pat9b_5574
+            PAGC: BEE12_21020
+            PEY: EE896_18980(tenA)
+            PJI: KTJ90_19855(tenA)
+            PANO: OJ965_00675(tenA)
+            PALF: K6R05_20350
+            PPHO: CTZ24_22035
+            PDIP: KFZ74_21440
+            PAMT: IAI47_19605(tenA)
+            PPHI: ACF2G4_05170(tenA)
+            PMAK: PMPD1_0615 PMPD1_2789
+            HIN: HI_0358
+            HIT: NTHI0476
+            HIP: CGSHiEE_01220
+            HIQ: CGSHiGG_04595
+            HIF: HIBPF_03060
+            HIL: HICON_11180
+            HIU: HIB_04700
+            HIE: R2846_0221
+            HIZ: R2866_0217
+            HIK: HifGL_000121
+            HIA: H733_0251
+            HIH: NF38_03600
+            HIW: NTHI477_01400(tenA)
+            HIC: NTHIC486_00629(tenA)
+            HIX: NTHI723_01330(tenA)
+            HPR: PARA_11450
+            HHZ: NCTC10839_00157(tenA)
+            HAEG: NCTC8502_00862(tenA)
+            HPAA: E5Q53_08790(tenA)
+            PMU: PM1264
+            PMV: PMCN06_1929(tenA)
+            PUL: NT08PM_2201
+            PMP: Pmu_19250
+            PMUL: DR93_508(tenA)
+            PDAG: 4362423_01616(tenA)
+            PCAI: K7G93_001853(tenA)
+            MVR: X781_21000
+            MBOS: ICJ55_03445(tenA)
+            APL: APL_0537
+            APJ: APJL_0528
+            APA: APP7_0577
+            AEU: ACEE_04480
+            ADP: NCTC12871_01351(tenA)
+            ALIG: NCTC10568_01004(tenA)
+            AGP: NYR63_02775(tenA)
+            ASEG: NCTC10977_00108(tenA)
+            AGJ: J5A60_07420(tenA)
+            GAN: UMN179_01811
+            GSS: NYR30_12585(tenA)
+            APAG: EIA51_04660(tenA)
+            AVT: NCTC3438_01115(tenA)
+            RPNE: NCTC8284_01798(tenA)
+            OOI: A6A10_04130 A6A10_07255
+            FCL: A4G17_03100 A4G17_09940
+            BHUD: A6A11_04530 A6A11_05615
+            PAET: NCTC13378_01119(tenA)
+            PBAN: AC062_0038
+            LUM: CNR27_09100 CNR27_09105
+            LFX: LU699_16955 LU699_16960
+            LUJ: BGP89_04295
+            VPA: VPA0132
+            VPB: VPBB_A0123
+            VPK: M636_08140
+            VPF: M634_18720
+            VPH: VPUCM_20127
+            VHA: VIBHAR_06842
+            VCA: M892_18375
+            VAG: N646_3565
+            VEX: VEA_000867
+            VDB: AL552_02640(tenA)
+            VHR: AL538_20285(tenA)
+            VNA: PN96_16685
+            VOW: A9237_16665
+            VRO: BSZ04_05010
+            VSP: VS_II1086
+            VEJ: VEJY3_16191
+            VFU: vfu_B00548
+            VNI: VIBNI_A1377
+            VCY: IX92_24455
+            VCT: JV59_23410
+            VTU: IX91_23255
+            VEU: IXK98_04415(tenA)
+            VBR: A6E01_15345
+            VSH: BSZ05_03065
+            VTA: B0310
+            VAF: D1115_16070(tenA)
+            VNL: D3H41_22015(tenA)
+            VCC: FAZ90_20360(tenA)
+            VAS: GT360_09520(tenA)
+            VKA: BTD91_19155(tenA)
+            VGI: MID13_17835(tenA)
+            VSL: LTQ54_19290(tenA)
+            VJP: NP165_06120(tenA)
+            VPG: LZI70_17760(tenA)
+            VCRA: IS519_19700(tenA)
+            VNP: KW548_20830(tenA)
+            VLE: ISX51_17470(tenA)
+            VSY: K08M4_39510(tenA)
+            VIB: VspSTUT11_34680
+            VIS: VspSTUT16_40570
+            VIH: AB0763_16380(tenA)
+            VCK: PG915_03915(tenA)
+            VID: DBX26_20670(tenA)
+            VIP: H9L11_16710(tenA)
+            VIC: SNR28_13390(tenA)
+            VII: ACHFJ9_04580(tenA)
+            VIZ: M4S28_21300(tenA)
+            VFI: VF_A0320
+            VFM: VFMJ11_A0358
+            VSA: VSAL_II0490
+            PPR: PBPRB0684(NCU07849)
+            PGB: H744_1c0988
+            PDS: CAY62_16685
+            PGH: FH974_22080(tenA)
+            PHOT: L4174_019455(tenA)
+            PATE: NNL38_16615(tenA)
+            PPIL: ACJZU6_18320(tenA)
+            PRE: PCA10_17890
+            PPU: PP_3186
+            PPF: Pput_2530 Pput_2531
+            PPG: PputGB1_2663 PputGB1_2664
+            PPW: PputW619_2677 PputW619_2678
+            PPT: PPS_2741 PPS_2742
+            PPB: PPUBIRD1_2552 PPUBIRD1_2553
+            PPI: YSA_10688 YSA_10690
+            PPX: T1E_1036 T1E_1037
+            PPUH: B479_13360 B479_13365
+            PPUT: L483_17545 L483_17550
+            PPUN: PP4_25620 PP4_25630
+            PPUD: DW66_2999 DW66_3000
+            PMON: X969_13045 X969_13050
+            PMOT: X970_12690 X970_12695
+            PPJ: RK21_01937 RK21_01938
+            PALD: LU682_014595(tenA)
+            PIX: RIN61_25145 RIN61_25150(tenA)
+            PSV: PVLB_15380 PVLB_15385
+            PALK: PSAKL28_27580 PSAKL28_27590
+            PSES: PSCI_5224 PSCI_5225
+            PDW: BV82_3150
+            PQI: KH389_12350 KH389_12355
+            PPRG: HU725_011315(tenA) HU725_011320
+            PTK: EXN22_13520(tenA) EXN22_13525
+            PJU: L1P09_13220(tenA) L1P09_13225
+            PASI: LG197_19275(tenA) LG197_19280
+            PKM: PZ739_13925 PZ739_13930(tenA)
+            PTAI: ICN73_19710(tenA)
+            PKK: QQ992_13115(tenA)
+            PSJY: AA098_13885
+            PFOU: OZ911_14810(tenA)
+            PSKP: KU43P_26360
+            HPEG: EAO82_10050(tenA)
+            HASM: QAO71_16475(tenA)
+            MAD: HP15_2778
+            MBS: MRBBS_1086
+            MSR: AU15_12400
+            MSX: AU14_05450
+            MPQ: ABA45_05585
+            MARI: ACP86_04185
+            MLQ: ASQ50_05945
+            MALL: PBN92_14725(tenA)
+            MSHE: MAALD49_29450
+            MANP: EHN06_15630(tenA)
+            MAMM: ABNF92_15180(tenA)
+            MACA: J2887_05220(tenA)
+            MFLI: ACGK9W_11925(tenA)
+            PCIA: Q6344_05825(tenA)
+            PSYK: AADH33_05785(tenA)
+            ACB: A1S_3290
+            ABM: ABSDF3398
+            ABY: ABAYE0200
+            ABC: ACICU_03486
+            ABN: AB57_3737
+            ABB: ABBFA_00190(tenA)
+            ABX: ABK1_3536
+            ABZ: ABZJ_04180(tenA)
+            ABR: ABTJ_00197
+            ABD: ABTW07_3694
+            ABH: M3Q_23
+            ABAD: ABD1_31850
+            ABJ: BJAB07104_03579
+            ABAB: BJAB0715_03669
+            ABAJ: BJAB0868_03533
+            ABAZ: P795_0975
+            ABK: LX00_17795
+            ABAU: IX87_13455
+            ABAA: IX88_01230
+            ABW: BL01_09665
+            ABAL: ABLAC_02110
+            ABAN: ABUW_0194
+            ACC: BDGL_002754(thiED)
+            ANO: RR32_00975
+            ALC: OTEC02_00990
+            ACAL: BUM88_18615
+            ASEI: I8T81_01075(tenA)
+            ACD: AOLE_00945
+            ACI: ACIAD3452
+            ATT: AMQ28_08820
+            AEI: AOY20_04960
+            AJO: RZ95_00895
+            ACW: A0J50_00910
+            ACV: AMD27_14955
+            AHL: AHTJS_00905
+            AJN: BVL33_02370
+            ASOL: BEN76_12130
+            ALA: BFG52_14785
+            ASJ: AsACE_CH00174
+            AID: CTZ23_00830(tenA)
+            ADV: DJ533_03625(tenA)
+            ARJ: DOM24_13545(tenA)
+            AWU: BEN71_01540(tenA)
+            ACUM: C9E88_005115(tenA)
+            AGU: AS4_01950
+            AUG: URS_1249
+            ALW: FOB21_10825(tenA)
+            ADS: FPL17_15315(tenA)
+            ABER: BSR55_20210
+            ATN: FM020_00130(tenA)
+            ACHI: CDG60_17130(tenA)
+            ALJ: G8D99_00970(tenA)
+            AWG: GFH30_05840
+            ASHA: G8E00_01145(tenA)
+            ATG: J4G44_03080(tenA)
+            AVB: RYU24_28680(thiED_2)
+            AGYL: FPL18_08010(tenA)
+            AVZ: HWI77_00860(tenA)
+            APOT: MZO21_00815(tenA)
+            ATZ: M5E07_00790(tenA)
+            APRL: PY247_06615(tenA)
+            ACOI: NQU59_04370(tenA)
+            AVIV: LF296_00960(tenA)
+            ACIE: KIP84_00985(tenA)
+            ASUE: F2A31_00865(tenA)
+            ACOT: QLH32_11790(tenA)
+            ACIC: IOD65_01985(tenA)
+            ACIZ: TOL5_02000(thiED)
+            ACIF: MN200_15200(tenA)
+            ACPZ: ACFN7Z_00855(tenA)
+            ACIK: NGC85_00925(tenA)
+            ACZQ: SC192_00980(tenA)
+            APIS: ACDW34_16820(tenA)
+            ACAZ: ABJ384_00720(tenA)
+            MOI: MOVS_09795
+            MBL: AAX09_09365
+            MNC: LU297_00300(tenA)
+            MNJ: LU290_09750(tenA)
+            MHAC: LU276_09185(tenA)
+            SCYP: JYB88_00650
+            SSEM: JYB85_00680
+            ALTO: AltI4_37410
+            GPS: C427_4772
+            PIN: Ping_2374
+            PSY: PCNPT3_05610
+            MVS: MVIS_1660
+            MYA: MORIYA_0352
+            MMAA: FR932_04715(tenA)
+            MOQ: HWV03_13035(tenA)
+            RVI: RVIR1_06650(tenA)
+            LOK: Loa_01485
+            LGT: E4T54_10435
+            LADL: NCTC12735_00110(tenA)
+            TMC: LMI_0190
+            FNA: OOM_0367
+            FNL: M973_02335
+            FRC: KX01_1693
+            SSAL: SPISAL_00520
+            SPIU: SPICUR_05455
+            SPIZ: GJ672_00555(tenA)
+            SHAI: LMH63_04995(tenA)
+            GAI: IMCC3135_03725(tenA_1) IMCC3135_19885(tenA_2)
+            HEL: HELO_3147
+            HCS: FF32_10710
+            HAK: KO116_03277
+            HAM: HALO3550
+            HHU: AR456_13475
+            HCO: LOKO_02540(tenA_1) LOKO_03718(tenA_2)
+            HSI: BOX17_12125
+            HALO: BWR19_04810 BWR19_15190
+            HBE: BEI_2561(tenA)
+            HAG: BB497_07750
+            HAF: C8233_15460(tenA)
+            HPRO: LMS44_05590(tenA)
+            HQD: K1Y77_04400(tenA)
+            HBP: HPTD01_203
+            HALF: QEN58_04815(tenA)
+            HHAO: QWG60_05500(tenA)
+            HASO: B2G49_02145
+            HALW: B6N23_05590(tenA) B6N23_13200
+            HASH: HXW73_12480(tenA)
+            HPIS: P1P91_03210(tenA)
+            HAMS: NF683_12175(tenA)
+            HCAM: I4484_06305(tenA)
+            HAAH: HALA3H3_30279
+            HAXH: J4377_04660(tenA)
+            HABD: OM794_05305(tenA)
+            HQN: M0220_03210(tenA)
+            HAFN: KF947_17155(tenA)
+            HAMC: HNO52_06255(tenA)
+            HANY: LG409_13545(tenA)
+            HADN: NKF27_05905(tenA)
+            HAAZ: HaloA020_20870
+            HAMZ: P8S55_06735(tenA)
+            HSPE: IT895_13545(tenA)
+            HCK: MRB56_06920(tenA)
+            HKA: R5M92_01330(tenA)
+            HALK: CUU95_01395(tenA)
+            HVN: EI420_04650(tenA)
+            HHH: CLM76_10855(tenA)
+            HOL: HORIV_16740
+            HSR: HSBAA_14960
+            HPIZ: GYM47_04575(tenA)
+            HNP: SR894_04780(tenA)
+            HTT: HZS52_22780(tenA)
+            HMD: CTT34_04690(tenA)
+            HAXI: HAALTHF_49550n
+            VRE: ACFIOZ_05540(tenA)
+            VRS: V8F66_05220(tenA)
+            HSX: HNO51_06025(tenA)
+            HSV: HNO53_06705(tenA)
+            HAA: A5892_17100 A5892_17700
+            CMAI: BFX80_04075
+            CAMH: LCW13_13160(tenA)
+            COBE: CLAM6_26810
+            COBB: H2O77_13500(tenA)
+            COBD: U0O11_13305(tenA)
+            COBC: F8A90_13280(tenA)
+            KUS: B9G99_01905
+            KMA: B9H00_13285
+            KUY: FY550_12265(tenA)
+            PAUR: FGL86_00535 FGL86_09900(tenA)
+            MFOI: JSY38_11745(tenA)
+            MRHI: KDW99_18910(tenA)
+            MARS: A8C75_20165 A8C75_20170
+            MGEO: CFI10_18750 CFI10_18755(tenA)
+            MSEC: LN244_16245(tenA)
+            MRZ: KDW95_18880 KDW95_18885(tenA)
+            ENW: MJO57_02765(tenA)
+            EEI: NX720_12880(tenA)
+            ENG: O2T12_04065
+            EMP: EZMO1_4666(tenA)
+            AEL: NCTC12917_03602
+            ARIV: KYK33_16795
+            OCE: GU3_15145
+            OPE: PU634_01775(tenA)
+            OCJ: N2M06_03435(tenA)
+            OCM: CBP12_12700
+            OPF: CBP31_04615
+            SUTR: L0B52_03810 L0B52_03815(tenA)
+            IGN: MMG00_09600 MMG00_13475(tenA)
+            WCN: PE074_03155
+            GAP: GAPWK_1774
+            GAQ: RAM11_06055(tenA)
+            NAQ: D0T90_09270(tenA)
+            NCI: NCTC10296_01035(tenA)
+            NBC: H3L91_08975(tenA) H3L91_09530
+            NWD: H3L96_05450(tenA)
+            SALV: SALWKB2_0181
+            SCOM: PYG29_01500(tenA)
+            KPOT: LVJ84_03160 LVJ84_08945
+            VIT: ADP71_07770
+            VST: LVJ81_08970(tenA)
+            VMS: LVJ82_14215(tenA)
+            NBA: CUN60_11795
+            BPK: BBK_1794
+            BUT: X994_3025
+            BGO: BM43_3456
+            BUM: AXG89_37705
+            BUI: AX768_22640
+            PARA: BTO02_28900
+            PHS: C2L64_34500
+            PEW: KZJ38_26585
+            LMIR: NCTC12852_00657(tenA_1) NCTC12852_02440(tenA_2)
+            AXY: AXYL_06210
+            AXO: NH44784_024611
+            AXN: AX27061_5826
+            AXX: ERS451415_05958(tenA)
+            ADT: APT56_26990
+            AIS: BUW96_24310
+            ACHR: C2U31_03385(tenA)
+            ADY: HLG70_22915(tenA)
+            ACHO: H4P35_25760(tenA)
+            AMUI: PE062_22490(tenA)
+            APES: FOC84_14160(tenA)
+            AAEG: RA224_30910(tenA)
+            ASEL: RAS12_22995(tenA)
+            ACHM: V6V88_26280(tenA)
+            AVH: WHX56_03300(tenA)
+            ACHH: ABFG95_13605(tenA)
+            ACHJ: LN047_27270(tenA)
+            AALN: Q3V95_13190(tenA)
+            CDN: BN940_08646
+            CGIN: ABRZ00_13605(tenA)
+            BOZ: DBV39_16320(tenA)
+            OUR: CEQ07_02075(tenA)
+            OUE: I6G29_09955(tenA)
+            CTT: CtCNB1_3611
+            CTES: O987_21130
+            CKE: B5M06_08470 B5M06_13730
+            CSER: CCO03_08145 CCO03_16345
+            CAQT: KAQ61_07345 KAQ61_13290(tenA)
+            CODO: LAD35_01115 LAD35_05890(tenA)
+            CTEZ: CT3_34000 CT3_34500(thiED)
+            CRJ: QMY55_05445 QMY55_17710(tenA)
+            COMB: MJ205_04245(tenA) MJ205_20615
+            CSQU: N4T19_08700(tenA) N4T19_15800
+            CPIS: HS961_01705 HS961_17840(tenA)
+            CSEN: ACQYWY_08020(tenA) ACQYWY_15275
+            HAR: HEAR0909 HEAR0910
+            MMS: mma_0874(tenA1) mma_0875(tenA2)
+            OVB: NB640_05075(tenA) NB640_09235
+            SUTK: FG381_12215
+            SWS: I6J16_02685
+            BBAY: A4V04_02255 A4V04_05570
+            ATW: C0099_11985(tenA)
+            KSO: CKSOR_00579(tenA)
+            WOL: WD_0139
+            WRI: WRi_001140
+            WEN: wHa_00570
+            WED: wNo_08030 wNo_08040
+            WPI: WP1143 WP1144
+            WCL: WCLE_002650(tenA) WCLE_005250(tenA)
+            WEO: ASM33_04445 ASM33_04450 ASM33_08115
+            WPP: DEJ70_05200 DEJ70_05205
+            WEC: wCauA_02295
+            WDM: EJB00_01445
+            WES: JKF54_05000 JKF54_05005
+            WEA: EA652_0108
+            WEM: CAI20_03205
+            WEP: JSQ73_005670
+            WEH: J4T77_00690
+            WEE: LOK48_01860
+            WEG: L0Z57_00680
+            WEJ: L2227_03455
+            SSIV: MJ631_04290
+            WEX: M1L25_000314
+            WEK: M1L26_000321
+            WEQ: NHG98_01705
+            WEV: ONI09_05860
+            WEND: M3L71_06650
+            WEDC: R0F62_00155
+            WEZT: R0F63_04030
+            WELO: NMD99_03710
+            WENO: HUB95_04460
+            WENC: FK497_01725
+            WMS: ID128_04100
+            WENW: ABL518_02650
+            BNU: N3Z17_01545
+            RBT: NOVO_08600(tenA)
+            CAQ: IM40_08170
+            PHYL: HB779_18140 HB779_24520
+            PMEL: LLE53_002510(tenA) LLE53_022185
+            AMAX: ABWH92_13115
+            SFD: USDA257_c24460
+            ENU: PYH37_000373
+            EAH: FA04_23470
+            ENP: JVX98_00585
+            AGC: BSY240_70
+            RET: RHE_CH00249
+            REC: RHECIAT_CH0000284
+            REL: REMIM1_CH00251
+            REP: IE4803_CH00270
+            REI: IE4771_CH00271
+            RLE: RL0255 pRL90219
+            RLT: Rleg2_4256
+            RLG: Rleg_4521 Rleg_6167
+            RLB: RLEG3_01155 RLEG3_33765
+            RLU: RLEG12_32575
+            RGA: RGR602_PC01517
+            RHN: AMJ98_CH00258
+            RPHA: AMC79_CH00288
+            RHX: AMK02_CH00259
+            RHK: Kim5_CH00262
+            REZ: AMJ99_CH00258
+            RJG: CCGE525_01865(tenA)
+            RAD: CO657_21705(tenA)
+            RII: FFM53_011990(tenA) FFM53_034045
+            RHID: FFM81_019850(tenA)
+            RBQ: J2J99_01420(tenA)
+            RLN: J0663_09950(tenA)
+            RBAN: J2J98_01245(tenA)
+            RRG: J3P73_01560(tenA) J3P73_32860
+            RAW: NE851_04460 NE851_11260(tenA)
+            RSUL: N2599_20065 N2599_28515
+            RLW: RlegWSM1455_22995(tenA) RlegWSM1455_32450
+            RCT: PYR68_20965(tenA)
+            RBW: RLCC275e_23175(tenA) RLCC275e_31050
+            RIF: U5G49_004639(tenA) U5G49_006938
+            RHIZ: QMO80_002334(tenA)
+            RHIA: ACO34A_25130 ACO34A_26055
+            RHIW: KQ933_21045(tenA) KQ933_23890
+            RBIN: PO860_21610(tenA)
+            RHIP: NE852_23040(tenA)
+            RHIK: MHI61_22465(tenA)
+            NPM: QEO92_30115
+            RHT: NT26_3523
+            RFV: RFYW14_03415
+            KAI: K32_17100
+            BME: BMEI1738
+            BMEL: DK63_1748(tenA)
+            BMI: BMEA_A0219
+            BMZ: BM28_A0222
+            BMG: BM590_A0220
+            BMW: BMNI_I0208
+            BMEE: DK62_1204(tenA)
+            BMF: BAB1_0213
+            BMB: BruAb1_0207
+            BMC: BAbS19_I02000
+            BAA: BAA13334_I00123
+            BABO: DK55_225(tenA)
+            BABR: DO74_1658(tenA)
+            BABT: DK49_2072(tenA)
+            BABB: DK48_1901(tenA)
+            BABU: DK53_218(tenA)
+            BABS: DK51_1244(tenA)
+            BABC: DO78_136(tenA)
+            BMS: BR0212
+            BSI: BS1330_I0212
+            BSF: BSS2_I0205
+            BSUI: BSSP1_I0207
+            BSUP: BSPT1_I0209
+            BSUV: BSPT2_I0210
+            BSUC: BSSP2_I0207
+            BMT: BSUIS_A0211
+            BSZ: DK67_2028(tenA)
+            BSV: BSVBI22_A0212
+            BSW: IY71_01165
+            BSG: IY72_00890
+            BOV: BOV_0203
+            BCS: BCAN_A0214
+            BSK: BCA52141_I1350
+            BOL: BCOUA_I0212
+            BCAR: DK60_311(tenA)
+            BCAS: DA85_01025
+            BMR: BMI_I215
+            BPP: BPI_I213
+            BPV: DK65_1161(tenA)
+            BCET: V910_101764
+            BCEE: V568_101980
+            BVL: BF3285c1_0474
+            BRU: BFS01_00985
+            BRJ: BKD03_09790
+            OIN: IAR37_04125(tenA)
+            BIO: BR141012304_10334
+            OAN: Oant_0279 Oant_0495
+            OAH: DR92_2445 DR92_29(tenA)
+            OPS: A8A54_00785 A8A54_01690
+            BPSN: NIK97_10420(tenA)
+            BRUC: LJ361_01120(tenA) LJ361_02250
+            BRUB: GRI33_01105(tenA)
+            OCR: HGK82_00445(tenA) HGK82_01755
+            OCL: GTN27_01110(tenA) GTN27_02220
+            OCC: KMS41_01020(tenA) KMS41_01930
+            OCH: CES85_0231(tenA) CES85_4727
+            BJA: bll7388(bll7388)
+            BJU: BJ6T_32990
+            BJP: RN69_16000
+            BRS: S23_59930
+            BRC: BCCGELA001_06925
+            BRAD: BF49_2905
+            BIC: LMTR13_13825
+            BOT: CIT37_18265(tenA)
+            BRQ: CIT40_04545(tenA)
+            BGZ: XH91_29525(tenA)
+            BSYM: CIT39_02890(tenA)
+            BBET: F8237_09605(tenA)
+            BARH: WN72_41985(tenA)
+            BDG: LPJ38_11035(tenA)
+            BBAN: J4G43_037965(tenA)
+            BCAN: BcanWSM471_32380(tenA)
+            BAUT: QA635_14230(tenA)
+            BBRA: QA636_14000(tenA)
+            BGK: IC762_30875(tenA)
+            BXN: I3J27_06015(tenA)
+            BROS: QUH67_12715(tenA)
+            BRAZ: LRP30_05770(tenA)
+            BRAY: ML401_05165(tenA)
+            BRAI: FJV43_23030(tenA)
+            BRAA: NL528_09830(tenA)
+            BLUP: AB3L03_23140(tenA)
+            BGEA: ACP2YP_15885(tenA)
+            BGEP: ACP2YO_11390(tenA)
+            BRAN: RX330_06175(tenA)
+            BRAB: RX331_32820(tenA)
+            RBK: E0H22_11860
+            RHOR: ONR75_20590
+            NWI: Nwi_0858
+            OCA: OCAR_5192 OCAR_6442
+            OCG: OCA5_c16060 OCA5_c27760
+            OCO: OCA4_c16060 OCA4_c27750
+            VGO: GJW-30_1_01663(tenA)
+            TRB: HB776_10700
+            TALZ: RPMA_12910
+            TARD: RSO67_04545
+            TARV: FIU28_25010(tenA)
+            BVES: QO058_02240 QO058_03930
+            BOI: BLM15_03435 BLM15_05375
+            BAPI: BBC0122_000790
+            BAPA: BBC0178_000730
+            AZC: AZC_1878
+            STAR: G3545_19200 G3545_21435(tenA)
+            SNO: Snov_3390 Snov_3481
+            ANC: GBB76_11080 GBB76_11485(tenA)
+            APRA: G3A50_10320(tenA) G3A50_10805
+            APOL: K9D25_07260(tenA) K9D25_07660
+            MEA: Mex_1p4898
+            MDI: METDI5490
+            MEX: Mext_4454
+            MCH: Mchl_4918
+            MPO: Mpop_4968
+            MZA: B2G69_04260
+            METQ: MSPGM_45700(thiED)
+            MRD: Mrad2831_3392
+            MNO: Mnod_7784
+            MOR: MOC_3900
+            META: Y590_22710
+            MPHY: MCBMB27_02882
+            METD: C0214_24550
+            METX: A3862_14485
+            METS: DK389_03435
+            METI: DK427_06135
+            MMES: MMSR116_12265(tenA)
+            MTAD: M6G65_31550
+            MECL: CLZ_22315
+            MFUJ: ABC766_22380
+            MENI: GU700_22310
+            MENS: LOK46_18030
+            BID: Bind_1209
+            MMYR: MXMO3_00465
+            MHAR: L1P08_15000
+            PLEO: OHA_1_00322(tenA)
+            HDI: HDIA_2952(tenA)
+            MEY: TM49_10035
+            MAAD: AZF01_18050
+            MLUT: JET14_17710
+            AUA: M673_00715 M673_00720
+            JAV: OXU80_03775
+            TSO: IZ6_01580(thiED)
+            RBM: TEF_11590
+            PSF: PSE_3005(tenA) PSE_4898(tenA)
+            PPHR: APZ00_07830 APZ00_19060 APZ00_24625
+            LAP: ACP90_02905 ACP90_15235
+            LABR: CHH27_05205(tenA) CHH27_17630
+            LABP: FJ695_06515 FJ695_17695(tenA)
+            LABT: FIU93_08530(tenA1) FIU93_20940(tenA2)
+            LAGG: B0E33_14385 B0E33_27075
+            RPOP: K1718_03925 K1718_15865(tenA)
+            RAGG: QUB73_03900 QUB73_16010(tenA)
+            SIW: GH266_17485
+            PSTG: E8M01_07030(tenA) E8M01_07035
+            LIZ: LGH83_00955(tenA)
+            ACUT: MRB58_06145 MRB58_07185
+            SIL: SPO0051
+            SIT: TM1040_3656
+            RUA: D1823_05800 D1823_15005(tenA)
+            RUT: FIU92_07225(tenA1) FIU92_16205(tenA2)
+            RUY: NOR97_07180 NOR97_15650(tenA)
+            JOV: P8627_04905
+            RDE: RD1_0753(tenA) RD1_0755(tenA) RD1_3613(tenA)
+            RLI: RLO149_c039610(thi4) RLO149_c039630
+            DSH: Dshi_0908
+            OAT: OAN307_c22790
+            OAR: OA238_c15950 OA238_c18360 OA238_c18380 OA238_c39810 OA238_c39830
+            CON: TQ29_09745
+            YPAC: CEW88_22450
+            TPRO: Ga0080559_TMP3559
+            SULD: B5M07_07205
+            SDO: SD1155_00180(tenA)
+            SPOT: G6548_08585(tenA)
+            SINL: DSM14862_01945(tenA)
+            SFAV: PL335_09700
+            SDUB: R1T39_01230
+            SULB: IV89_002032(tenA)
+            SULY: ABM428_08245(tenA)
+            SULP: AADW22_08270(tenA)
+            SPSE: SULPSESMR1_04966(tenA)
+            RMM: ROSMUCSMR3_01919(tenA) ROSMUCSMR3_03874(tenA)
+            ROK: RAK1035_1267 RAK1035_2718
+            RPEL: N7U68_17290(tenA)
+            AHT: ANTHELSMS3_03950 ANTHELSMS3_03952
+            SAGU: CDO87_02870(tenA)
+            SSTL: ABFK29_16000(tenA) ABFK29_23365
+            SAGZ: QNI11_06120(tenA)
+            ROT: FIV09_18995(tenA)
+            MALU: KU6B_29660(thiED)
+            HAT: RC74_03625
+            PALX: GQA70_09850 GQA70_22295 GQA70_23735(tenA)
+            LSAL: KBK07_03040(tenA)
+            PLCG: RVY76_15940(tenA) RVY76_16245
+            ACLD: ACIRQ6_08375(tenA)
+            BOO: E2K80_07585(tenA)
+            RPOH: ABWH90_05580 ABWH90_06440(tenA)
+            RSP: RSP_3694
+            RSH: Rsph17029_3429
+            PDE: Pden_0035 Pden_3673
+            PAMI: JCM7686_0107
+            PYE: A6J80_02575 A6J80_09930
+            PCON: B0A89_11445
+            PZH: CX676_20030
+            PAMN: JCM7685_0181
+            PMUT: DPM13_00135 DPM13_08130
+            PARR: EOJ32_11915 EOJ32_18055
+            PAAK: FIU66_14085
+            PKD: F8A10_00350(tenA) F8A10_11640
+            PPAN: ESD82_01425 ESD82_21155(tenA)
+            PLIA: E4191_04480 E4191_19410
+            PSAN: HGN31_06840 HGN31_12895(tenA)
+            PMAU: CP157_01356(tenA_1) CP157_03216(tenA_2)
+            PMEH: JWJ88_10665(tenA) JWJ88_16810
+            PAEX: JHW48_06895
+            PSTL: JHW45_15680
+            PVER: E3U25_13525 E3U25_19835(tenA)
+            PAEZ: PAE61_04080
+            PALS: PAF20_07385(tenA)
+            PFEO: E3U26_02325 E3U26_08110(tenA)
+            RMB: K529_015880
+            TSCO: R1T40_01380(tenA)
+            DAA: AKL17_2341
+            THW: BMG03_05665
+            TEC: AKL02_008710(tenA)
+            LVS: LOKVESSMR4R_02489(tenA)
+            YPHY: AABB29_04040
+            YAG: AABB28_04720 AABB28_16270(tenA)
+            YRH: AABB31_15295(tenA)
+            SEDI: EBB79_14500(tenA)
+            PPSO: QPJ95_14515(tenA)
+            HML: HmaOT1_16715
+            PSEB: EOK75_06225 EOK75_06235(tenA)
+            LIT: FPZ52_00970
+            PPRU: FDP22_18220
+            PAED: G5B38_06880(tenA)
+            MON: G8E03_12775(tenA)
+            PGV: SL003B_2357(tenA)
+            CACT: HZ995_08945(tenA) HZ995_08955
+            HDH: G5B40_03845
+            CMAG: CBW24_11830
+            FAP: GR316_11555(tenA)
+            PBAE: P8S53_04525
+            RBG: BG454_05885(tenA) BG454_18390
+            MANH: LA6_005518(tenA_1) LA6_005701(tenA_2)
+            FAQ: G5B39_05560(tenA)
+            HBC: AEM38_07785
+            NRE: BES08_08695
+            NOV: TQ38_016660(tenA)
+            NDR: HT578_14730
+            SAAP: E2E30_04960
+            RDI: CMV14_13060(tenA)
+            SPHR: BSY17_3764(tenA)
+            SHYD: CJD35_17550(tenA)
+            SCLO: SCLO_1024950 SCLO_1024960
+            ELQ: Ga0102493_1121 Ga0102493_113150
+            GDI: GDI2186
+            GDJ: Gdia_0406
+            GXY: GLX_25490
+            GXL: H845_491
+            KNA: B0W47_12835
+            KEU: S101446_02881(tenA)
+            KSC: CD178_00528(tenA)
+            KRE: GWK63_07895(tenA)
+            KOI: LV478_14525(tenA)
+            KSU: ACM0P6_12545(tenA)
+            COQ: D9V35_06495(tenA)
+            COMM: GN303_06285(tenA)
+            LCK: HN018_15440 HN018_17990
+            KHA: IFJ82_12715(tenA)
+            ACIM: GT370_07840(tenA)
+            RGI: RGI145_05185
+            ROS: CTJ15_12210(tenA)
+            RMUC: FOB66_06990(tenA)
+            RMT: IAI58_11470
+            RFL: Rmf_31710
+            RCV: PFY06_03665 PFY06_10485
+            SRF: LHU95_22050
+            ELIO: KO353_10125(tenA)
+            SHUM: STHU_21080 STHU_50190
+            SVC: STVA_01030 STVA_24190
+            STEL: STAQ_18970 STAQ_45470
+            AZL: AZL_d02610(tenA)
+            ALI: AZOLI_p40372
+            ABF: AMK58_02805
+            ATI: AL072_25390
+            AHU: A6A40_27200(tenA)
+            AZM: DM194_22440(tenA)
+            AZZ: DEW08_27585(tenA)
+            AOZ: HUE56_04275(tenA)
+            AZS: E6C72_26770(tenA)
+            AZP: E6C67_01450(tenA)
+            ADJ: ACIU1J_21250(tenA)
+            NCB: C0V82_14920(tenA)
+            SKT: IGS68_01225 IGS68_06350(tenA)
+            SMUC: JL100_001535 JL100_021265(tenA)
+            SROE: JL101_019965(tenA) JL101_024250
+            RRU: Rru_A2025
+            RRF: F11_10415
+            RCE: RC1_1613
+            RPM: RSPPHO_02117
+            DVN: HQ394_15590
+            ACRU: HHL28_04770(tenA)
+            AALU: ABWI00_12650 ABWI00_17480(tenA)
+            HJO: AY555_09670
+            TXI: TH3_11030 TH3_11795
+            THAC: CSC3H3_10800 CSC3H3_11320(tenA)
+            TII: DY252_13920 DY252_14730(tenA)
+            THAI: IT893_06545(tenA)
+            TLU: R1T41_19860 R1T41_20725(tenA)
+            TTB: MACH01_13090 MACH01_14660
+            THGO: M9H61_05435 M9H61_06220(tenA)
+            THAD: IT971_12490(tenA)
+            MAGQ: MGMAQ_2630
+            NACI: NUH88_03850(tenA)
+            THAR: T8K17_12675(tenA)
+            TMO: TMO_0834 TMO_c0587
+            PEL: SAR11G3_00431
+            PEG: E5R92_01925
+            APB: SAR116_1969 SAR116_1970
+            POND: ABXT40_05225(tenA)
+            SNEA: NBZ79_12320(tenA)
+            MINW: ACMVY4_17310(tenA)
+            HPY: HP_1287
+            HEO: C694_06650
+            HPJ: jhp_1207
+            HPA: HPAG1_1226
+            HPS: HPSH_06665
+            HHP: HPSH112_06455
+            HHQ: HPSH169_06400
+            HHR: HPSH417_06325
+            HPG: HPG27_1239
+            HPP: HPP12_1253
+            HPB: HELPY_1263
+            HPL: HPB8_194(tenA)
+            HPC: HPPC_06330
+            HCA: HPPC18_06435
+            HPM: HPSJM_06450
+            HPE: HPELS_06680
+            HPO: HMPREF4655_21479
+            HPI: hp908_1286
+            HPQ: hp2017_1245
+            HPW: hp2018_1250
+            HPU: HPCU_06585
+            HEF: HPF16_1220
+            HPF: HPF30_0111
+            HEQ: HPF32_1215
+            HEX: HPF57_1245
+            HPT: HPSAT_06220
+            HPZ: HPKB_1222
+            HPV: HPV225_1321
+            HPX: HMPREF0462_1302
+            HEN: HPSNT_06465
+            HPH: HPLT_06465
+            HEG: HPGAM_06655
+            HPN: HPIN_06780
+            HEP: HPPN120_06330
+            HEU: HPPN135_06605
+            HES: HPSA_06325
+            HPYS: HPSA20_1392
+            HCN: HPB14_06115
+            HPD: KHP_1182(tenA)
+            HEY: MWE_1495
+            HER: C695_06660
+            HEI: C730_06660
+            HPYA: HPAKL117_06115
+            HPYO: HPOK113_1241
+            HPYL: HPOK310_1178
+            HPYB: HPOKI102_06815
+            HPYC: HPOKI112_06830
+            HPYD: HPOKI128_07460
+            HPYE: HPOKI154_06520
+            HPYF: HPOKI422_06850
+            HPYG: HPOKI673_06495
+            HPYH: HPOKI828_06530
+            HPYJ: HPOKI898_06825
+            HPYR: K747_04580
+            HPYI: K750_02030
+            HPYU: K751_01175
+            HPYM: K749_07345
+            HEM: K748_05765
+            HEB: U063_0319
+            HEZ: U064_0320
+            HCM: HCD_00505
+            HET: BBW65_07570
+            SAQT: GJV85_00090(tenA)
+            CJE: Cj0440c
+            CJB: BN148_0440c
+            CJJ: CJJ81176_0466
+            CJU: C8J_0415
+            CJN: ICDCCJ07001_406
+            CJI: CJSA_0412
+            CJM: CJM1_0424
+            CJS: CJS3_0429
+            CJP: A911_02145
+            CJEJ: N564_00421
+            CJEU: N565_00472
+            CJEN: N755_00470
+            CJEI: N135_00488
+            CJER: H730_02775
+            CJV: MTVDSCj20_0414
+            CJY: QZ67_00445(tenA)
+            CJQ: UC78_0424(tenA)
+            CJL: PJ17_02170
+            CJW: PJ18_02175
+            CJR: CJE0491
+            CJD: JJD26997_1497
+            CJZ: M635_06545
+            CJX: BN867_04120
+            CLA: CLA_0284
+            CLR: UPTC16701_0292
+            CLM: UPTC16712_0294
+            CLQ: UPTC4110_0291
+            CLN: UPTC3659_0305
+            CLL: CONCH_0287
+            CCOL: BN865_16360
+            CCC: G157_06460
+            CCQ: N149_0435(tenA)
+            CCF: YSQ_07675
+            CCOI: YSU_06685
+            CCOF: VC76_02295(tenA)
+            CCOO: ATE51_03338(tenA)
+            CSF: CSUB8523_0298
+            CCUN: CCUN_1350
+            CAVI: CAV_0384
+            COJ: CORN_0293
+            CUX: CUP3940_0970
+            CGEO: CGEO_0542
+            CBLA: CBLAS_0475(tenA)
+            CCOR: CCORG_0473(tenA)
+            CARM: CARM_0261
+            CVU: CVULP_0660
+            CMOL: CMOL_0220
+            ASK: EI285_00370(tenA)
+            ATP: ATR_0093
+            ACIB: ACBT_2106
+            ACRE: ACRYA_1870
+            ALAN: ALANTH_0166
+            AFC: AFAEC_2143
+            PACO: AACT_2231
+            ALP: LPB137_06045
+            DPS: DP2367 DP2510
+            DHG: EYB58_16525
+            AORY: AMOR_41100
+            SUR: STAUR_1071(tenA)
+            PAUU: E8A73_038565
+            TRO: trd_0539
+            STI: Sthe_3424
+            PUV: PUV_24790
+            ELUT: CKA38_02200(tenA)
+            RUFI: K0V07_13125
+            MTAR: DF168_01809(tenA)
+            PSL: Psta_0416
+            GPN: Pan110_47090(tenA)
+            CSPN: ACLV6H_00450
+            TIM: GMBLW1_20600
+            IPA: Isop_2016
+            TPLA: ElP_45470(tenA)
+            LBI: LEPBI_I0967
+            LBF: LBF_0933
+            LKB: LPTSP3_g25710
+            LMIL: AB3N58_04345
+            LIOW: AB3N60_04675
+            LMGO: AB3N62_04655
+            BHY: BHWA1_02511(tenA)
+            BHD: BHYOB78_03700
+            BHYB: B204_002274
+            BHYJ: JR80WH_002312
+            BRM: Bmur_2169
+            BPO: BP951000_0072(tenA)
+            BPJ: B2904_orf1361
+            BPIP: BPP43_02745
+            BPW: WESB_1504
+            BIP: Bint_0735(tenA)
+            BHP: BHAMNSH16_10900
+            PFER: IRI77_26510(tenA)
+            EPM: Dip510_002000
+            BTH: BT_3146
+            PSAC: PSM36_1775
+            DYS: G7050_04640(tenA)
+            DYH: G7051_04855(tenA)
+            GHY: ACOIT5_11675
+            ALKQ: M9189_03685
+            CSAC: SIO70_30755
+            ARAC: E0W69_005535(tenA)
+            FLN: FLA_1147
+            PEK: FFJ24_024735
+            PROE: H9L23_25195
+            PRK: H9N25_23040
+            PEV: KYH19_17605
+            SPHN: BV902_19865
+            SMIZ: 4412673_02700(tenA)
+            SPDR: G6053_09200(tenA)
+            SDJ: NCTC13534_03798(tenA)
+            STHA: NCTC11429_05129(tenA)
+            SSPI: I6J01_00120(tenA)
+            SMUI: I6J00_08635(tenA)
+            SSIY: JVX97_11685(tenA)
+            SFAE: MUK51_12100(tenA)
+            SBAM: SCB77_02340(tenA)
+            SOP: PQ465_13805(tenA)
+            SPRZ: VXM68_20095(tenA)
+            SBX: CA265_24165
+            BBD: Belba_3158
+            EVI: Echvi_0214
+            EST: DN752_07620(tenA)
+            ECHI: FKX85_01045(tenA)
+            EMAI: KZP23_01010
+            MDA: IPZ59_06105(tenA)
+            SLI: Slin_3497
+            SRD: SD10_19545
+            SPIR: CWM47_08800(tenA)
+            SPIK: EXU85_27075(tenA)
+            SPIB: G8759_01360
+            STAE: HNV11_01770(tenA)
+            SOQ: LQ777_23780(tenA)
+            SFOL: H3H32_23105(tenA)
+            SENF: GJR95_25745
+            SPIO: WBJ53_31680(tenA)
+            LBY: Lbys_0380
+            EMZ: MB380_14075(tenA)
+            DFE: Dfer_4829
+            DSN: HWI92_13725(tenA)
+            DEND: ACN9ML_27325(tenA)
+            FLI: Fleli_0178
+            RTI: DC20_19610
+            FLM: MY04_2382(tenA)
+            FYA: KMW28_04330(tenA)
+            CLIT: OQ292_29440(tenA)
+            CHK: D4L85_13540(tenA)
+            FMM: LVD15_18030(tenA)
+            RSR: T7867_14885
+            FPSZ: AMR72_06690
+            FSE: DI487_11115(tenA)
+            FAK: FUA48_00705(tenA)
+            ZPR: ZPR_1973
+            CAT: CA2559_10853
+            MARM: YQ22_17205
+            PTQ: P700755_003170
+            NOM: AAT17_11270
+            NSD: BST91_07515
+            PCEA: J3359_17725(tenA)
+            MALS: NWE55_13155
+            OAQ: DZC78_04715(tenA)
+            FAY: Q4Q34_02115(tenA)
+            AQD: D1816_06570
+            EMAR: D1013_10075(tenA)
+            LPAL: LDL79_11805(tenA)
+            MRS: Murru_2593
+            MAQI: LDL77_05525(tenA)
+            FAW: ABWH94_07160(tenA)
+            WVI: Weevi_1388
+            EAO: BD94_1110
+            EMN: M876_03765
+            EEN: BBD30_01005
+            ELB: VO54_01429(tenA)
+            EMG: BBD33_15655
+            EGO: BBD34_14920
+            EGM: AYC65_11770
+            ELZ: FCS00_04900(tenA)
+            ELT: FGE20_10730
+            ELIZ: JCR23_04045(tenA)
+            CHZ: CHSO_1188
+            CGN: OK18_12500
+            CIO: CEQ15_22995(tenA)
+            CHRY: CEY12_19105(tenA)
+            CPIP: CJF12_09725(tenA)
+            CARH: EGY05_02545(tenA)
+            CNK: EG343_19060(tenA)
+            CIL: EG358_15675(tenA)
+            CCAU: EG346_00815(tenA)
+            CBP: EB354_04115(tenA)
+            CSCO: ACLB9Y_04005(tenA)
+            EZE: KI430_05110(tenA)
+            EBV: F0358_01945(tenA)
+            CTS: Ctha_0667
+            RMR: Rmar_0151 Rmar_2462
+            RMG: Rhom172_0147 Rhom172_2465
+            RLO: GQ464_004870(tenA)
+            SRU: SRU_0332
+            SRM: SRM_00411(tenA)
+            NDE: NIDE1200
+            NMV: NITMOv2_1091
+            NIO: NITINOP_2201
+            NJA: NSJP_2178
+            NKF: Nkreftii_002523
+            NIF: W02_34500
+            NTI: DNFV4_01516
+            NALL: PP769_14135(tenA)
+            NNEO: PQG83_04960(tenA)
+            NLI: G3M70_16295(tenA)
+            NWT: NSPWAT_1420
+            TVX: QBE54_04885
+            ATHO: M15_11090(tenA)
+            BBAE: FRD01_14480
+            BSU: BSU11650(tenA)
+            BSR: I33_1299
+            BSL: A7A1_0982
+            BSH: BSU6051_11650(tenA)
+            BSY: I653_05920
+            BSUT: BSUB_01267(tenA)
+            BSUL: BSUA_01267(tenA)
+            BSUS: Q433_06585
+            BSO: BSNT_07608(tenA)
+            BSN: BSn5_17740
+            BSQ: B657_11650(tenA)
+            BSX: C663_1193
+            BSP: U712_05995
+            BSS: BSUW23_05890(tenA)
+            BST: GYO_1470
+            BIT: BIS30_16530
+            BLI: BL01592(tenA) BL02647
+            BLD: BLi01259(tenA) BLi04205
+            BLH: BaLi_c13940(tenA) BaLi_c41970
+            BAY: RBAM_011660(tenA)
+            BAQ: BACAU_1127(tenA)
+            BYA: BANAU_1072(tenA)
+            BQY: MUS_1210(tenA)
+            BAMP: B938_05670
+            BAML: BAM5036_1066(tenA)
+            BAMA: RBAU_1128(tenA)
+            BAMN: BASU_1105(tenA)
+            BAMB: BAPNAU_2629(tenA)
+            BAMT: AJ82_06555
+            BAMY: V529_11140(tenA)
+            BMP: NG74_01180(tenA)
+            BAO: BAMF_1239(tenA)
+            BAZ: BAMTA208_11775(tenA)
+            BQL: LL3_01246(tenA)
+            BXH: BAXH7_02404(tenA)
+            BAMI: KSO_014010
+            BAMC: U471_11630
+            BAMF: U722_05945
+            BSIA: CWD84_15910(tenA)
+            BAE: BATR1942_03470
+            BVM: B9C48_05860
+            BSON: S101395_03590(tenA) S101395_04904
+            BHT: DIC78_03750(tenA)
+            BMOJ: HC660_12230(tenA)
+            BTEQ: G4P54_06130(tenA)
+            BIQ: AN935_06050
+            BSTR: QI003_06280(tenA)
+            BAN: BA_0725 BA_2611(tenA)
+            BAR: GBAA_0725 GBAA_2611(tenA)
+            BAT: BAS0691 BAS2436
+            BAH: BAMEG_1983(tenA) BAMEG_3834
+            BAI: BAA_0832 BAA_2675(tenA)
+            BAX: H9401_0694 H9401_2488
+            BANT: A16_08100 A16_26470
+            BANR: A16R_08180 A16R_26820
+            BANS: BAPAT_0701 BAPAT_2508
+            BANH: HYU01_03995 HYU01_12955
+            BANV: DJ46_1394(tenA) DJ46_5205(tenA)
+            BAL: BACI_c07560(tenA1) BACI_c25910(tenA2)
+            BCE: BC0742 BC2551
+            BCA: BCE_0795 BCE_2629(tenA)
+            BCZ: BCE33L0635(tenA) BCE33L2357(tenA)
+            BCR: BCAH187_A0879 BCAH187_A2668(tenA)
+            BCB: BCB4264_A0782 BCB4264_A2584(tenA)
+            BCU: BCAH820_0802 BCAH820_2628(tenA)
+            BCG: BCG9842_B2739(tenA) BCG9842_B4549
+            BCQ: BCQ_0816(tenA) BCQ_2485(tenA)
+            BCX: BCA_0788 BCA_2702(tenA)
+            BNC: BCN_0703 BCN_2481
+            BCF: bcf_03825
+            BCER: BCK_04510
+            BCY: Bcer98_0612 Bcer98_1892
+            BTK: BT9727_0635(tenA) BT9727_2391(tenA)
+            BTL: BALH_0661(tenA) BALH_2351
+            BTB: BMB171_C0635 BMB171_C2313(tenA)
+            BTT: HD73_0860 HD73_3393
+            BTHR: YBT1520_04260
+            BTHI: BTK_04285 BTK_16745
+            BTC: CT43_CH0703 CT43_CH2541(tenA)
+            BTF: YBT020_03905 YBT020_13030
+            BTM: MC28_0005 MC28_1809
+            BTG: BTB_c08180(tenA1) BTB_c26650(tenA2)
+            BTI: BTG_06675 BTG_17510
+            BTN: BTF1_01340 BTF1_10280
+            BTHT: H175_ch0709 H175_ch2584
+            BTHU: YBT1518_04640 YBT1518_14400
+            BTW: BF38_1992(tenA) BF38_3793(tenA)
+            BTHY: AQ980_14270 AQ980_26590
+            BWE: BcerKBAB4_0641 BcerKBAB4_2523
+            BWW: bwei_2306 bwei_4264(tenA)
+            BMYO: BG05_3304(tenA) BG05_5176(tenA)
+            BTY: Btoyo_3423
+            BMYC: DJ92_3336(tenA) DJ92_5200(tenA)
+            BBY: CY96_02880 CY96_11815
+            BWD: CT694_04160(tenA) CT694_13745(tenA)
+            BTRO: FJR70_06195(tenA) FJR70_26035(tenA)
+            BMOB: MLA2C4_03920(tenA) MLA2C4_13890(tenA)
+            BNT: GSN03_04050(tenA) GSN03_13160(tenA)
+            BPAC: LMD38_14035(tenA) LMD38_22310(tenA)
+            BPAN: NLJ82_03970(tenA) NLJ82_12380(tenA)
+            BALU: QRY64_06080(tenA) QRY64_15175(tenA)
+            BAAP: BGI23_03855 BGI23_12655
+            BPAM: AABL52_14350(tenA) AABL52_23315(tenA)
+            BPU: BPUM_1094 BPUM_3574
+            BPUM: BW16_06210 BW16_18945
+            BPUS: UP12_05810 UP12_18320
+            BMET: BMMGA3_07350
+            BSM: BSM4216_1246
+            BGY: BGLY_1278 BGLY_4596
+            BWH: A9C19_13095
+            BXI: BK049_02425 BK049_09075
+            BALT: CFN77_05810(tenA) CFN77_18870(tenA)
+            BAER: BAE_06685(tenA) BAE_13400(tenA)
+            BSAF: BSL056_05750 BSL056_19450
+            BFD: NCTC4823_02155(tenA)
+            BSHI: LGQ02_03805(tenA) LGQ02_16100(tenA)
+            BCAB: EFK13_06505(tenA)
+            BRY: M0696_06420(tenA)
+            BJS: MY9_1270
+            BACI: B1NLA3E_08245
+            GST: HW35_00690 HW35_09715
+            BACW: QR42_05645 QR42_17880
+            BACP: SB24_04040
+            BACB: OY17_08530
+            BACO: OXB_2219
+            BACY: QF06_04775
+            BACL: BS34A_12880(tenA)
+            BALM: BsLM_1219
+            BACS: AUL54_04800
+            BACA: FAY30_04595(tenA) FAY30_11280(tenA)
+            BAQU: K6959_02370(tenA)
+            BZH: NF868_05220(tenA)
+            BHAI: KJK41_11310(tenA)
+            BCAO: LC087_02280(tenA)
+            BARD: QRY57_05520(tenA) QRY57_13970(tenA)
+            BAEI: RE735_01475(tenA) RE735_13775(tenA)
+            BASB: M662_18365(tenA)
+            BACF: AM500_18760
+            BAFC: K3G25_01420(tenA)
+            BKN: WDJ61_05700(tenA)
+            BASD: LCG60_09700(tenA) LCG60_17480(tenA)
+            BHAM: ABN702_14160(tenA)
+            BACV: I7V34_05765(tenA)
+            BAEZ: DPQ26_03970(tenA) DPQ26_14310(tenA)
+            BAZS: BZ167_03755
+            BACH: BSZ43_06405 BSZ43_20685
+            BACJ: CJO35_06450(tenA) CJO35_20865(tenA)
+            BAWR: D9C22_06225(tenA)
+            BAAZ: GD442_03760(tenA) GD442_12270(tenA)
+            BACN: GNK04_08875(tenA)
+            BABD: EKQ63_05385(tenA) EKQ63_13925(tenA)
+            BCO: Bcell_4225
+            BHK: B4U37_06125
+            BCOH: BC6307_03675 BC6307_05565 BC6307_08640
+            BCIR: C2I06_17490(tenA)
+            NTX: NQZ71_02860(tenA)
+            NIL: L8T27_018850(tenA)
+            NTGC: AB3U99_23260(tenA)
+            BMQ: BMQ_0885 BMQ_2141
+            BMD: BMD_0885 BMD_2097
+            BMH: BMWSH_3107 BMWSH_4357(tenA)
+            BMEG: BG04_3180(tenA) BG04_4450(tenA)
+            BEO: BEH_07010 BEH_23025
+            BFX: BC359_12660 BC359_16210
+            PARH: I5S86_14880(tenA) I5S86_14885
+            PKS: IE339_01045(tenA)
+            BHA: BH2679(tenA)
+            BKW: BkAM31D_11685(tenA)
+            BCL: ABC0669(tenA) ABC0756
+            BLE: BleG1_3282 BleG1_3325
+            SHUA: PQ477_04035(tenA) PQ477_04265(tenA)
+            BGI: BGM20_00050 BGM20_21130
+            BPF: BpOF4_13155(tenA)
+            BON: A361_02270
+            BKO: CKF48_20480(tenA)
+            CFIR: NAF01_02265(tenA)
+            CSOA: LIS82_14050(tenA)
+            CSPG: LS684_22840(tenA)
+            CPSS: M5V91_19925(tenA)
+            BDA: FSZ17_11480(tenA)
+            CSUA: IM538_04270(tenA)
+            OIH: OB0475 OB0641
+            OCN: CUC15_00840(tenA) CUC15_02440(tenA)
+            OJD: NP439_13480(tenA)
+            OON: NP440_11685(tenA) NP440_21040(tenA)
+            OKM: ACN6MR_01540(tenA) ACN6MR_02505(tenA)
+            AXL: AXY_04970(tenA)
+            LLB: R6U77_06005(tenA)
+            HHD: HBHAL_4925(tenA)
+            HMN: HM131_02810 HM131_18560
+            HLI: HLI_13310(tenA)
+            HNZ: P9989_20515(tenA)
+            HSAN: MUN89_03860(tenA) MUN89_13090(tenA)
+            HSHI: MUO14_10755(tenA)
+            HAMY: MUO15_15100(tenA)
+            TAP: GZ22_01405
+            TAID: KS242_02565(tenA)
+            VIR: X953_05530 X953_14920
+            VHL: BME96_14245
+            VIG: BKP57_10730 BKP57_15880
+            VIL: CFK37_04690(tenA)
+            VNE: CFK40_00190(tenA)
+            VPN: A21D_00402(tenA_1) A21D_01435(tenA_2)
+            VIM: GWK91_05250(tenA)
+            VPT: KBP50_00260(tenA) KBP50_14050(tenA)
+            VNT: OLD84_07800(tenA)
+            VIK: KFZ58_01375(tenA)
+            VSS: PD280_03345(tenA)
+            LAO: AOX59_16905
+            LEX: Len3610_00390(tenA)
+            SJE: AAV35_008480
+            SAPL: U0355_09435(tenA)
+            APAK: AP3564_12020 AP3564_12025
+            ACOP: RI196_07280(tenA) RI196_07285(tenA)
+            BSJ: UP17_06450 UP17_10575
+            BMUR: ABE28_006620 ABE28_010645
+            PBUT: DTO10_19170(tenA) DTO10_24090(tenA)
+            PPSR: I6J18_05115(tenA)
+            PFRI: L8956_07000(tenA) L8956_11405(tenA)
+            PERI: RE409_07375(tenA) RE409_12350(tenA)
+            PERJ: JNUCC41_15625(tenA) JNUCC41_20375(tenA)
+            PERS: ACJ9PY_06865(tenA) ACJ9PY_11065(tenA)
+            AQT: FN924_13125(tenA)
+            RAX: KO561_13960(tenA)
+            BTHV: CQJ30_02205(tenA)
+            PSYH: D0S48_16405(tenA)
+            PSYB: KD050_21005(tenA)
+            PPSN: ACQCPR_19645(tenA)
+            GRC: GI584_02925(tenA) GI584_06380(tenA)
+            GCS: MUN88_03395(tenA)
+            GSM: MUN87_16150(tenA)
+            RUE: DT065_09215(tenA) DT065_13830(tenA) DT065_18035(tenA)
+            SALE: EPH95_14095(tenA)
+            SCIB: HUG20_02650(tenA)
+            SCIA: HUG15_03550(tenA)
+            POF: GS400_16485(tenA)
+            PCHU: QNI29_07905(tenA)
+            PONA: IMZ31_06535(tenA)
+            NMK: CHR53_11470(tenA)
+            NTM: BTDUT50_04310(tenA)
+            NDT: L1999_12030(tenA)
+            NNV: QNH39_11685(tenA)
+            NNA: ACN6MT_04490(tenA)
+            MEKU: HUW50_17710(tenA)
+            MSEM: GMB29_15235(tenA)
+            MDG: K8L98_06015(tenA) K8L98_20230(tenA)
+            MLIT: KDJ21_023390(tenA)
+            MENL: MVE64_21430(tenA)
+            MEBZ: LPC09_07530(tenA)
+            MRL: WCV66_21885(tenA)
+            MSEE: WCV65_05565(tenA)
+            MHRF: QLQ22_06115(tenA) QLQ22_20375(tenA)
+            AIA: AWH56_020280(tenA)
+            BLEN: NCTC4824_02198(tenA)
+            SEDD: ERJ70_01035(tenA)
+            BVQ: FHE72_12295(tenA)
+            RMF: D5E69_12100(tenA)
+            RAZ: U9J35_12440(tenA)
+            ROD: P8596_12750(tenA)
+            ROSS: V2W31_12375(tenA)
+            BCK: BCO26_0615(tenA)
+            BAG: Bcoa_0561
+            BCOA: BF29_3129(tenA)
+            BOU: I5818_13520(tenA) I5818_14775(tenA)
+            HSPO: JGZ69_18720(tenA)
+            CTHU: HUR95_09180(tenA)
+            BBEV: BBEV_2609(tenA)
+            BSE: Bsel_2597
+            MCUI: G8O30_01115(tenA)
+            PSUA: FLK61_38235(tenA)
+            SLMS: MM221_06675(tenA)
+            MJO: FOF60_11925(tenA)
+            MSUT: LC048_10195(tenA)
+            SFOR: QNH23_07280(tenA)
+            ECTO: MUG87_16215(tenA)
+            ALKL: MM271_12585(tenA) MM271_17625(tenA)
+            ALKG: MOJ78_02935(tenA)
+            DOM: RRU94_22670(tenA)
+            AHAL: FTX54_003480(tenA) FTX54_011135(tenA)
+            ACHP: QR721_10250(tenA)
+            BBAD: K7T73_05125(tenA)
+            PMAF: V1498_03385(tenA)
+            PEST: V1501_03290(tenA)
+            BBAM: RJD24_02935(tenA) RJD24_10110(tenA)
+            FPN: ABE65_009810
+            FAR: ABE41_011100
+            FEC: QNH15_05720(tenA)
+            PNH: V1497_02465(tenA)
+            PHJ: LC071_20480(tenA)
+            GKA: GK0618
+            GTE: GTCCBUS3UF5_6860
+            GTK: GT3570_02975
+            GTM: GT3921_16505
+            GLI: GLN3_13300
+            BCAL: CWI35_07100(tenA)
+            GWC: GWCH70_0606
+            GYC: GYMC61_1410
+            GYA: GYMC52_0531
+            GCT: GC56T3_2943
+            GMC: GY4MC1_3191
+            GGH: GHH_c05710(tenA)
+            GJF: M493_03225
+            GEA: GARCT_00592(tenA)
+            GEL: IB49_13365
+            GSE: GT50_12605
+            GSR: GS3922_12915
+            GEJ: A0V43_00465
+            GZA: IC807_16645(tenA)
+            GTH: Geoth_3211
+            PTL: AOT13_06570
+            PTB: DER53_07610(tenA)
+            PARG: PspKH34_31200(tenA)
+            PCAL: BV455_01140(tenA)
+            AFL: Aflv_2320(tenA)
+            AGN: AFK25_02680
+            ANM: GFC28_1939(tenA)
+            ANL: GFC29_3495(tenA)
+            AND: GRQ40_03555(tenA)
+            AAYD: B379_03980(tenA)
+            ACAI: ISX45_00410(tenA)
+            STEA: C0679_09145(tenA)
+            SAU: SA1897
+            SAV: SAV2094
+            SAW: SAHV_2079
+            SAH: SaurJH1_2169
+            SAJ: SaurJH9_2131
+            SAM: MW2017
+            SAS: SAS1998
+            SAR: SAR2183(tenA)
+            SAC: SACOL2086
+            SAA: SAUSA300_2050
+            SAO: SAOUHSC_02331
+            SAE: NWMN_1998
+            SAD: SAAV_2148
+            SUU: M013TW_2052(tenA)
+            SUV: SAVC_09350
+            SUE: SAOV_2135c(tenA)
+            SUJ: SAA6159_02008(tenA)
+            SUK: SAA6008_02132(tenA)
+            SUC: ECTR2_1950
+            SUT: SAT0131_02254
+            SUQ: HMPREF0772_11097
+            SUZ: MS7_2110(tenA)
+            SUD: ST398NM01_2137
+            SUX: SAEMRSA15_20030(tenA)
+            SUW: SATW20_22330(tenA)
+            SUG: SAPIG2137
+            SUF: SARLGA251_18960(tenA)
+            SAUA: SAAG_02307
+            SAUE: RSAU_001933(tenA)
+            SAUN: SAKOR_02061
+            SAUS: SA40_1851(tenA)
+            SAUU: SA957_1935(tenA)
+            SAUG: SA268_2006(tenA)
+            SAUZ: SAZ172_2198(tenA)
+            SAUT: SAI1T1_2015440(tenA)
+            SAUJ: SAI2T2_1015450(tenA)
+            SAUK: SAI3T3_1015440(tenA)
+            SAUQ: SAI4T8_1015450(tenA)
+            SAUV: SAI7S6_1015440
+            SAUW: SAI5S5_1015380
+            SAUX: SAI6T6_1015400
+            SAUY: SAI8T7_1015420
+            SAUF: X998_2073(tenA)
+            SAB: SAB1978c(tenA)
+            SUY: SA2981_2035(tenA)
+            SAUB: C248_2107(tenA)
+            SAUM: BN843_21310
+            SAUC: CA347_2174(tenA)
+            SAUR: SABB_02420(tenA)
+            SAUI: AZ30_11070
+            SAUD: CH52_08485
+            SAMS: NI36_10250
+            SUH: SAMSHR1132_19180
+            SER: SERP1701
+            SEP: SE_1693
+            SEPP: SEB_01704
+            SEPS: DP17_637(tenA)
+            SHA: SH0940(tenA)
+            SHH: ShL2_00831(tenA)
+            SSP: SSP0789
+            SCA: SCA_1596(tenA) SCA_2227
+            SLG: SLGD_00928
+            SLN: SLUG_09710(tenA)
+            SSD: SPSINT_1757 SPSINT_2025
+            SDT: SPSE_0455 SPSE_0732(tenA)
+            SDP: NCTC12225_00530(tenA_1) NCTC12225_00800(tenA_2)
+            SWA: A284_03995
+            SPAS: STP1_0529
+            SXY: BE24_07945
+            SXL: SXYLSMQ121_0822
+            SXO: SXYL_00838(tenA)
+            SHU: SHYC_03810(tenA)
+            SCAP: AYP1020_1281(tenA)
+            SSCH: LH95_02425 LH95_03640
+            SSCZ: RN70_02705 RN70_03905
+            SAGQ: EP23_06260(tenA)
+            SEQO: SE1039_17850
+            SSIF: AL483_01895(tenA) AL483_11330(tenA)
+            SCV: A4G25_09045 A4G25_12190
+            SPET: CEP67_04455(tenA)
+            SLZ: B5P37_02485 B5P37_03870
+            SCOH: BZ166_08430
+            SURY: MUA21_08730(tenA)
+            SKL: C7J89_05500(tenA)
+            SFQ: C7J90_00150(tenA) C7J90_05290(tenA)
+            SHOM: EGX58_08150(tenA)
+            SMUS: C7J88_05960(tenA)
+            SCAR: DWB96_04200(tenA)
+            SCHR: DWB92_03630(tenA)
+            SARL: SAP2_08550(tenA)
+            SPIC: SAMEA4384060_0300(tenA_1) SAMEA4384060_0946(tenA_2)
+            SSH: NCTC13712_02035(tenA)
+            SSIM: SAMEA4384339_1929(tenA)
+            SDB: CNQ82_02330(tenA) CNQ82_09895(tenA)
+            SLLO: ISP08_04160(tenA)
+            SAUL: I6G39_03525(tenA)
+            SSAC: I6I31_00510(tenA)
+            SRAI: LN051_03315(tenA)
+            SPSD: JMB28_04660(tenA)
+            STAS: HYI43_04475(tenA)
+            SEDA: MNY58_04220(tenA)
+            SCAQ: QMO72_04175(tenA)
+            SDEV: Q2T90_03200(tenA)
+            SROT: ML435_09995(tenA)
+            STAP: AOB58_2652
+            SHSI: QQM35_00155(tenA)
+            SGAI: K3U27_12965(tenA)
+            SSUC: ACSSAF_04060(tenA)
+            SSCU: CEP64_00705(tenA)
+            SFF: FOB90_04125(tenA) FOB90_05340(tenA)
+            SSTE: SAMEA4384403_0662(tenA)
+            MLEN: H3V22_05425(tenA) H3V22_07575(tenA)
+            MVT: I6J10_09925(tenA)
+            MACR: BHM04_05500 BHM04_12200
+            MARY: LAU42_10435(tenA)
+            MBRU: MGG13_00300(tenA) MGG13_09855(tenA)
+            MEPI: KFV12_05490(tenA) KFV12_11650(tenA)
+            MEQU: KFV11_09935(tenA)
+            MBOC: QSV55_10055(tenA)
+            MPSH: QA539_04355(tenA) QA539_09405(tenA)
+            MAEQ: ACMGE4_00435(tenA) ACMGE4_06105(tenA)
+            MANM: ACMGE9_01185(tenA) ACMGE9_08140(tenA)
+            MCL: MCCL_0787(tenA) MCCL_1749
+            MCAK: MCCS_22600(tenA)
+            MBOE: HT586_05320(tenA) HT586_10860(tenA)
+            SHV: AAT16_11620
+            SBAH: RQP18_06145(tenA)
+            SAHZ: ACKRAT_12045(tenA)
+            JEA: JEM45_09250(tenA)
+            NAMP: KPF49_04510(tenA)
+            NMY: CJ229_002270(tenA)
+            SBAC: BVH56_00235 BVH56_01490
+            LMO: lmo0315
+            LMN: LM5578_0353
+            LMY: LM5923_0352
+            LMT: LMRG_00008
+            LMOC: LMOSLCC5850_0318
+            LMOB: BN419_0358
+            LMOD: LMON_0323
+            LMOW: AX10_10135
+            LMOQ: LM6179_00614(tenA)
+            LMR: LMR479A_0328
+            LMOM: IJ09_08720
+            LMF: LMOf2365_0333
+            LMC: Lm4b_00334
+            LMOG: BN389_03360(tenA)
+            LMP: MUO_01750
+            LMOL: LMOL312_0313
+            LMOJ: LM220_02325
+            LMOZ: LM1816_05383(tenA)
+            LMOX: AX24_14350
+            LMH: LMHCC_2318
+            LMQ: LMM7_0345(tenA)
+            LML: lmo4a_0335
+            LMG: LMKG_01602
+            LMS: LMLG_0735
+            LMJ: LMOG_02516
+            LMW: LMOSLCC2755_0319
+            LMX: LMOSLCC2372_0317
+            LMZ: LMOSLCC2482_0320
+            LMON: LMOSLCC2376_0292
+            LMOS: LMOSLCC7179_0302
+            LMOO: LMOSLCC2378_0332
+            LMOY: LMOSLCC2479_0316
+            LMOT: LMOSLCC2540_0327
+            LMOA: LMOATCC19117_0331
+            LMOK: CQ02_01745
+            LMV: Y193_14215(tenA)
+            LIN: lin0340
+            LWE: lwe0286
+            LIA: JL58_01655
+            LIO: JL53_01995
+            LWI: UE46_15280
+            LGZ: NCTC10812_00606(tenA)
+            LMAR: LAX80_001500(tenA)
+            LNW: OTR81_06115(tenA)
+            BTHS: CNY62_04410(tenA)
+            ESI: Exig_0935
+            EAT: EAT1b_1530
+            EAN: Eab7_0906
+            EXM: U719_04900
+            EXU: ESP131_07305
+            EAP: KB235_02925(tenA)
+            EACE: KKI46_05090(tenA)
+            EAUR: NMQ00_01315(tenA)
+            EMM: PTI97_13035(tenA)
+            EPF: OE059_01220(tenA)
+            EXI: A0126_04740(tenA)
+            EXH: HNY42_06245(tenA)
+            EMEX: ACNOIU_01290(tenA)
+            GOT: AXE85_02290
+            GMO: NCTC11323_00418(tenA_1) NCTC11323_01367(tenA_2)
+            GEQ: CG018_04060(tenA)
+            GSA: FOC50_06465(tenA)
+            GHA: NCTC10459_01387(tenA)
+            BBE: BBR47_31010(tenA)
+            BLR: BRLA_c028150
+            BFM: BP422_10620
+            BAGR: BA6348_14710(tenA)
+            BRW: GOP56_06620(tenA)
+            BCHS: JNE38_15710(tenA)
+            BCOP: JD108_12105(tenA)
+            BPAB: PSE45_13860(tenA)
+            BHUI: LOK74_07470(tenA)
+            BAYD: BSPP4475_10060(tenA)
+            BBOR: RFB14_12605(tenA)
+            BRUM: NDK47_13355(tenA)
+            BREH: HP435_14400(tenA)
+            ASED: IRT44_15305(tenA)
+            BREP: M655_013090(tenA)
+            BGEL: AAFJ72_11565(tenA)
+            PJD: Pjdr2_5407
+            GYM: GYMC10_1136
+            PPY: PPE_03732
+            PPM: PPSC2_19700(tenA)
+            PPO: PPM_3946(tenA)
+            PPOL: X809_35795
+            PPQ: PPSQR21_039730(tenA)
+            PPOY: RE92_17565
+            PMS: KNP414_06160 KNP414_06564(tenA)
+            PMQ: PM3016_5784 PM3016_6172
+            PMW: B2K_29445 B2K_31325
+            PTA: HPL003_00375
+            PPEO: ABE82_19690
+            PNP: IJ22_29710
+            PBV: AR543_01795
+            PYG: AWM70_06315
+            PIB: BBD41_09080
+            PKB: B4V02_05675
+            PVO: PVOR_07725
+            PLW: D5F53_24010(tenA)
+            PLEN: EIM92_21805(tenA)
+            PLUT: EI981_05255(tenA)
+            PALB: EJC50_16700(tenA)
+            PPRT: ET464_08950(tenA)
+            PRZ: GZH47_01780(tenA)
+            PALO: E6C60_0998
+            PCEL: HUB94_10215(tenA)
+            PTHI: NDS46_00735(tenA)
+            PKA: PQ456_22160(tenA)
+            PMAH: PTQ21_19570(tenA)
+            PDY: QJQ58_21990(tenA)
+            PMAE: LMZ02_24505(tenA)
+            PWN: QNH46_06145(tenA)
+            PAUN: MJA45_07390(tenA)
+            PHK: SK066_22320(tenA)
+            PNK: AASFL403_19590(tenA)
+            PKP: SK3146_00073(tenA_1) SK3146_05869(tenA_2)
+            PGLU: A3958_14430
+            PLZH: C0638_13770(tenA)
+            PACL: DCC85_04380(tenA)
+            PEZZ: HW560_24135(tenA)
+            PELG: ACJ7K1_23505(tenA)
+            PAJN: JNUCC32_19730(tenA)
+            PTAC: ACJYJG_14465(tenA)
+            PASZ: KAI36_04163(tenA)
+            ANX: ACH33_09205
+            ASOC: CB4_04181(tenA)
+            ATHE: K3F53_09885(tenA)
+            AUD: PO771_17370(tenA)
+            ANEU: PP175_02580(tenA)
+            CCHL: FPL14_12045(tenA)
+            SACA: FFV09_16040(tenA)
+            AAC: Aaci_1931
+            AAD: TC41_2031(tenA)
+            AFX: JZ786_01840(tenA)
+            AACO: K1I37_17125(tenA)
+            ACUR: JZ785_17795(tenA)
+            ACYC: JI721_11195(tenA)
+            ALIC: GI364_23120(tenA)
+            TUM: CBW65_01795 CBW65_12500
+            TAB: CIG75_04580(tenA)
+            SIV: SSIL_1334
+            SSIL: SOLI23_11710
+            SOB: CSE16_03505(tenA)
+            PLN: Plano_2746
+            PKU: AUO94_02025
+            PRT: AUC31_14405
+            PLL: I858_009240
+            PANA: BBH88_05210
+            PDG: BCM40_01575
+            PHC: BBI08_10930
+            PPLA: BBI15_07920
+            PFAE: AJGP001_15595
+            PLX: CW734_13975(tenA)
+            PMAT: BBI11_13555
+            PDEC: H1Q58_12845(tenA)
+            PGQ: FK545_05150(tenA)
+            PLAY: DNR44_003955(tenA)
+            PLIQ: QWY22_17345(tenA)
+            PSHE: QWY16_17155(tenA)
+            PSHX: QWY21_17090(tenA)
+            JEO: JMA_10710
+            KUR: ASO14_1761(tenA)
+            KZO: NCTC404_01948(tenA)
+            SPSY: AZE41_07290
+            SPOR: SporoP33_07580
+            SPOP: SporoP37_08015
+            SURE: SporoP32a_08035
+            SPOS: DV702_12030(tenA)
+            SPAE: E2C16_01845(tenA)
+            SPOO: J3U78_19670(tenA)
+            SURL: BI350_05495
+            STRB: QWT68_13040(tenA)
+            SJT: PGH26_15030(tenA)
+            SPOH: GGGNBK_00560(tenA)
+            RST: ATY39_11675 ATY39_13160
+            PANC: E2636_03155(tenA) E2636_03660(tenA)
+            VIJ: JNUCC6_13495(tenA)
+            UTH: DKZ56_01465(tenA)
+            NTR: B0W44_01870 B0W44_09995
+            KPUL: GXN76_06390(tenA)
+            KEB: GXN75_05655(tenA)
+            LLA: L0228(tenA)
+            LLK: LLKF_1951(tenA)
+            LLT: CVCAS_1711(tenA)
+            LLS: lilo_1761(tenA)
+            LLD: P620_10060(tenA)
+            LLX: NCDO2118_1886(tenA)
+            LLJ: LG36_1734(tenA)
+            LLM: llmg_1961(tenA)
+            LLC: LACR_1950
+            LLR: llh_3495
+            LLN: LLNZ_10110
+            LLI: uc509_1733(tenA)
+            LLW: kw2_1757
+            LACN: QJV49_04010(tenA)
+            LAKT: ACRYLU_08795(tenA)
+            SPN: SP_0716 SP_0722(tenA)
+            SPD: SPD_0622 SPD_0628(tenA)
+            SPR: spr0628 spr0634(tenA)
+            SPW: SPCG_0664 SPCG_0671(tenA)
+            SJJ: SPJ_0656 SPJ_0662
+            SNV: SPNINV200_06310 SPNINV200_06370
+            SPX: SPG_0649 SPG_0655
+            SNT: SPT_0732 SPT_0738
+            SND: MYY_0752 MYY_0758
+            SPNN: T308_03350 T308_03380
+            SNE: SPN23F06400 SPN23F06470
+            SPV: SPH_0802 SPH_0809
+            SNC: HMPREF0837_11000 HMPREF0837_11006
+            SNM: SP70585_0763 SP70585_0769
+            SPP: SPP_0733
+            SNI: INV104_05950 INV104_06010
+            SPNG: HMPREF1038_00732 HMPREF1038_00738(tenA)
+            SNB: SP670_0764 SP670_0771
+            SNP: SPAP_0692 SPAP_0698
+            SNX: SPNOXC06480 SPNOXC06540
+            SNU: SPNA45_01047 SPNA45_01053
+            SPNE: SPN034156_16970 SPN034156_17030
+            SPNU: SPN034183_06490 SPN034183_06550
+            SPNM: SPN994038_06380 SPN994038_06440
+            SPNO: SPN994039_06390 SPN994039_06450
+            SAG: SAG0839
+            SAN: gbs0857
+            SAK: SAK_0962
+            SGC: A964_0842(tenA)
+            SAGS: SaSA20_0714
+            SAGL: GBS222_0710
+            SAGM: BSA_9270
+            SAGR: SAIL_9830
+            SAGP: V193_03980
+            SAGC: DN94_03980
+            SAGT: GBSCOH1_0764
+            SAGE: EN72_04930
+            SAGG: EN73_04630
+            SAGN: W903_0929(tenA)
+            SAGJ: ID870_05090(tenA)
+            SGA: GALLO_1181(tenA)
+            SGG: SGGBAA2069_c11710(tenA)
+            SGT: SGGB_1175(tenA)
+            SGW: D7D53_01850 D7D53_01880(tenA)
+            STOY: STYK_13880(tenA) STYK_13940
+            SOR: SOR_1405(tenA) SOR_1409
+            STB: SGPB_1039(tenA)
+            STD: SPPN_03655 SPPN_03685
+            SIF: Sinf_1014(tenA)
+            STV: V470_06830
+            STRN: SNAG_1373(tenA_1) SNAG_1377(tenA_2)
+            SRUM: GPZ88_09325(tenA)
+            SPAM: SP4011_15880(tenA) SP4011_15930
+            LKL: DKL58_08825(tenA)
+            LPAI: GYM71_09735(tenA)
+            LXO: KIM322_14090(tenA)
+            LACH: LDX54_02385(tenA)
+            LCA: LSEI_0297
+            LCZ: LCAZH_0345
+            LCS: LCBD_0314(theD)
+            LCE: LC2W_0306(theD)
+            LCW: BN194_03180(tenA)
+            LCL: LOCK919_0336
+            LPQ: AF91_00885
+            LPI: LBPG_02484
+            LPAP: LBPC_0301
+            LCB: LCABL_03130(tenA)
+            LCX: LCA12A_2554
+            LRH: LGG_00366(tenA)
+            LRG: LRHM_0354
+            LRL: LC705_00355(tenA)
+            LRA: LRHK_366
+            LRO: LOCK900_0347
+            LRC: LOCK908_0363
+            LCHI: KG086_01355(tenA)
+            LZE: KG087_01615(tenA)
+            LHN: LHUE1_001407(tenA)
+            LPAH: LACPH_000319(tenA)
+            LSB: LACSTY_000315(tenA)
+            LFE: LAF_0359
+            LMU: LBLM1_03325 LBLM1_04850
+            LOR: AYI71_07430 AYI71_15515
+            LFN: LF145_00655
+            LGAS: LG045_00930(tenA)
+            LALO: ABC765_06350
+            LLE: AYR59_00615
+            LFV: LF543_01525
+            FCLI: M3M38_03785
+            FHIN: M3M39_00580
+            FCP: M3M37_05615
+            FVS: R4B61_05075
+            LBH: Lbuc_0449 Lbuc_0546
+            LBN: LBUCD034_0492(tena1) LBUCD034_0583 LBUCD034_2361(tena3)
+            LPAR: FAM21731_00386 FAM21731_00419 FAM21731_00515 FAM21731_01133
+            LCU: PL11_002590
+            LKF: DNL43_02525 DNL43_03055(tenA) DNL43_04445(tenA) DNL43_06350(tenA)
+            LHIL: G8J22_00416(tenA_1) G8J22_00437(tenA_2) G8J22_01476(tenA_3)
+            LLAO: LHL71_05335
+            LTM: O0236_009685(tenA)
+            LBR: LVIS_1830
+            LBK: LVISKB_1814
+            LKO: ABN16_08950
+            LZY: LZ3411_1838
+            LNA: RIN67_03660(tenA)
+            LHO: LOOC260_122050
+            LOL: LACOL_1648(tenA)
+            LNN: F0161_10335(tenA)
+            LKU: APS55_02425
+            AAPN: AAPFHON13_00580
+            LPD: AYR62_11505
+            LMAE: FGL90_04160(tenA)
+            PPE: PEPE_0561
+            PPEN: T256_03060
+            PCE: PECL_1555
+            PACI: A4V11_09610
+            LROS: LROSL1_0783
+            LGN: ABM34_10450
+            LSA: LCA_1095
+            OSI: DLJ48_07000(tenA)
+            LME: LEUM_1546
+            LMM: MI1_06925
+            LMK: LMES_0914 LMES_1329
+            LCI: LCK_01393
+            LKI: LKI_00680 LKI_07545
+            LEC: LGMK_02000 LGMK_04610
+            LCN: C270_01710 C270_04125
+            LGS: LEGAS_0465(tenA)
+            LGE: C269_02280
+            LLF: BCR17_05575 BCR17_08250
+            LGC: A9176_04090 A9176_06825
+            LSU: A6B45_07345
+            LPSE: FGL85_04845 FGL85_08100 FGL85_08680(tenA)
+            WKO: WKK_02270
+            WCE: WS08_0578
+            WTR: KHQ32_03155
+            WCT: WS74_0579
+            WCI: WS105_0576
+            WCB: AO080_07305
+            WJO: FOL01_0951
+            WPA: CO680_03635
+            WCF: C6P13_04525
+            WSO: WSWS_00350(tenA)
+            WHE: EFA59_04445
+            WDI: H9L19_03095
+            WCO: G7084_02455
+            WSA: AB9G37_03225
+            WEI: EQG49_13535
+            FRU: M3M36_00955
+            AFK: ACNAN0_12255(tenA)
+            EFA: EF2767
+            EFL: EF62_2919(tenA)
+            EFI: OG1RF_12127(tenA)
+            EFD: EFD32_2381
+            EFS: EFS1_2231
+            EFN: DENG_02711(tenA)
+            EFQ: DR75_1459(tenA)
+            ENE: ENT_19320
+            EHR: EHR_13955
+            ESS: ATZ33_02210
+            EAV: EH197_13895(tenA)
+            ERAF: J9537_06290(tenA)
+            EDE: AAEO79_05110(tenA)
+            ESY: ACMHDP_10015(tenA)
+            MPS: MPTP_0977
+            MPX: MPD5_0967
+            VTE: BHY08_09555
+            VPI: BW732_00080
+            VCP: H9L18_11370(tenA)
+            VFV: K5K99_06415(tenA)
+            VLU: M2919_09520(tenA)
+            VLC: G314FT_07200(tenA)
+            VIE: OL234_05995(tenA)
+            AUI: APT62_09460
+            ACG: AWM71_06125
+            AVS: AWM76_00420
+            GSG: CYJ72_003705(tenA)
+            CARN: FPV25_06725(tenA)
+            MARR: BKP56_01620
+            DPM: FNV33_01480(tenA) FNV33_08090(tenA)
+            DST: VUQ06_02875(tenA) VUQ06_05625(tenA)
+            GEG: LK443_08330(tenA)
+            CPE: CPE2546
+            CPF: CPF_2870(tenA)
+            CBK: CLL_A1417
+            CBN: CbC4_0598
+            CBT: CLH_1337
+            CBE: Cbei_2088
+            CBZ: Cbs_2088
+            CBEI: LF65_02399
+            CLJ: CLJU_c25410
+            CAH: CAETHG_0610(tenA)
+            CBV: U729_163(tenA)
+            CSQ: CSCA_2523
+            CCK: Ccar_02095
+            CBUT: ATN24_09735
+            CCHV: BTM20_09940
+            CDRK: B9W14_07145
+            CSEP: CP523_12875(tenA)
+            CDY: F3K33_10420(tenA)
+            CGAS: J1C67_15545(tenA)
+            CLOS: DMR38_13170(tenA)
+            CGEL: psyc5s11_14630
+            CINT: HZF06_11055(tenA)
+            CLOD: C820_000378(tenA)
+            CLOL: ONV75_09000(tenA)
+            CIU: G4D55_18725
+            CLOM: AXY43_25165
+            CLOO: RCG18_13940(tenA)
+            CPRF: K7H06_02650(tenA)
+            RCH: RUM_01540
+            FPA: FPR_28330
+            FTK: PXT33_007895
+            FAH: MTP37_05935
+            OVA: OBV_30950
+            OBJ: EIO64_01180(tenA)
+            PFAA: MM59RIKEN_22090
+            VFA: MM35RIKEN_03160
+            BIE: RFF05_00680(tenA)
+            RUK: A4V00_18115
+            AMUR: ADH66_10185
+            INT: RX717_08310(tenA)
+            CMIC: caldi_07450
+            EVN: NQ558_03210
+            TMR: Tmar_1325 Tmar_1992
+            THEF: E1B22_01400(tenA) E1B22_10285
+            THEP: DYI95_006585 DYI95_009845(tenA)
+            TCP: Q5761_06815 Q5761_10135(tenA)
+            SAY: TPY_3620(tenA)
+            SAP: Sulac_1299
+            STHR: BXT84_09810
+            BPRS: CK3_22260
+            CCT: CC1_13460
+            BWX: NQ550_09770
+            LACY: A4V08_32390
+            CSO: CLS_07220
+            ECLF: QMP25_04005
+            SSUN: H9Q77_12700
+            STOM: QU660_04215(tenA)
+            LBP: V1224_14315
+            CPRO: CPRO_00820(tenA)
+            ANV: RBQ60_00450(tenA)
+            PBIF: KXZ80_04885(tenA)
+            PSOR: RSJ16_05090
+            ROC: HF520_05240(tenA)
+            RHOM: FRIFI_0807
+            TEM: JW646_17735(tenA)
+            TGC: L0P85_10295(tenA)
+            TMY: TEMA_08280(tenA)
+            TPET: TPHSE_23530(tenA)
+            TVT: TVTCOM_19650(tenA)
+            TEB: T8CH_0530
+            THYR: P4S50_14515(tenA)
+            IBR: NQ514_07370(tenA)
+            NTH: Nther_2482
+            HAS: Halsa_0718
+            ANZ: ACKRLN_01495(tenA)
+            CAD: Curi_c17920(tenA)
+            GBX: SANA_15160(tenA)
+            AARG: Aargi30884_05960
+            ABSI: A9CBEGH2_07300
+            AMUO: KWG62_12555(tenA)
+            ALLO: KWG61_01055(tenA)
+            FIT: Fi14EGH31_21160
+            LPIL: LIP_2298
+            SMIR: SMM_0102(tenA)
+            SMIA: P344_00620
+            SATR: SATRI_v1c01060
+            SERI: SERIO_v1c01260
+            ERZ: ER308_03830(tenA) ER308_08195
+            EUZ: DVS28_a1599
+            MSA: Mycsm_00836
+            MMC: Mmcs_0357
+            MKM: Mkms_0367
+            MJL: Mjls_0346
+            MYV: G155_15910
+            MDX: BTO20_16440
+            MXE: MYXE_24320
+            MNV: MNVI_42170
+            MNM: MNVM_33200
+            MHEK: JMUB5695_02352
+            MGAU: MGALJ_41820
+            MBRD: MBRA_38110
+            MSHJ: MSHI_39750
+            MPAA: MKK62_08755
+            MADI: A7U43_00695
+            MWU: PT015_05200
+            MYW: BVC93_26950
+            MYJ: BCA37_15740
+            MSM: MSMEG_3478
+            MSG: MSMEI_3397
+            MSB: LJ00_17305
+            MSN: LI99_17310
+            MSH: LI98_17315
+            MVA: Mvan_2973
+            MGI: Mflv_3256
+            MSP: Mspyr1_25840
+            MNE: D174_03555
+            MYN: MyAD_03470
+            MFT: XA26_32620
+            MPHL: MPHLCCUG_05136(tenA)
+            MVQ: MYVA_3103
+            MLL: B1R94_28045
+            MRH: MycrhN_1732
+            MTHN: 4412656_02365(tenA)
+            MHAS: MHAS_04309(tenA)
+            MDU: MDUV_11820
+            MCHT: MCHIJ_38500
+            MDR: MDOR_01240
+            MAUU: NCTC10437_02838(tenA)
+            MMAG: MMAD_29140
+            MMOR: MMOR_06300
+            MFX: MFAL_09930
+            MAIC: MAIC_00890
+            MIJ: MINS_28820 MINS_36730
+            MALV: MALV_07330
+            MTY: MTOK_47530
+            MPSC: MPSYJ_34900
+            MARZ: MARA_08340
+            MGAD: MGAD_43370
+            MHEV: MHEL_23250
+            MSAR: MSAR_14660
+            MPOF: MPOR_34850
+            MMAT: MMAGJ_65090
+            MBOK: MBOE_41920
+            MFG: K6L26_16020(tenA)
+            MSEI: MSEDJ_43330
+            MFLV: NCTC10271_05106(tenA)
+            MCEE: MCEL_31640
+            MBRM: L2Z93_001891(tenA)
+            MMON: EWR22_01880(tenA)
+            MHOL: K3U96_00445
+            MSEN: K3U95_13345(tenA)
+            MRF: MJO55_14695(tenA)
+            MDF: K0O62_02365
+            MGRO: FZ046_20620(tenA)
+            MAUS: JN090_14150(tenA)
+            MFRE: EXE63_12565
+            MBUG: MU0053_002435(tenA)
+            MYQ: TUM20985_25190
+            MFLU: HZU40_07095
+            MYH: QU592_16320(tenA)
+            MPAT: MPNTM1_04016
+            MKR: MKOR_17860
+            MPAK: MIU77_12840(tenA)
+            MJD: JDM601_2729
+            MTER: 4434518_02680(tenA)
+            MMIN: MMIN_04290
+            MHIB: MHIB_21620
+            MHER: K3U94_15620(tenA)
+            MVM: MJO54_15605(tenA)
+            MKK: MU0083_002537(tenA)
+            ASD: AS9A_2937
+            CVA: CVAR_2054
+            CTER: A606_08230
+            CCG: CCASEI_00610 CCASEI_00615
+            CGY: CGLY_04945
+            CMV: CMUST_05735
+            CSTA: CSTAT_00595 CSTAT_00600
+            CAMG: CAMM_00580 CAMM_00585
+            CPRE: Csp1_08720(tenA)
+            CAQM: CAQUA_00065(tenA)
+            CAPP: CAPP_00040(tenA1) CAPP_00045(tenA2)
+            CGP: KBP53_00050(tenA) KBP53_00055
+            NFA: NFA_14600
+            NFR: ERS450000_02659(tenA)
+            NCY: NOCYR_1518
+            NBR: O3I_009810
+            NSL: BOX37_17725
+            NTP: CRH09_21515
+            NOZ: DMB37_30555
+            NAH: F5544_12590
+            NIE: KV110_10340
+            NTC: KHQ06_32395
+            NYA: LTV02_05640
+            NGP: LTT66_03840
+            NSPU: IFM12276_47320
+            NVU: V7968_17560
+            RHA: RHA1_ro01597
+            RER: RER_40080 RER_52700
+            REY: O5Y_18600 O5Y_25020
+            REB: XU06_18760 XU06_25375
+            RQI: C1M55_19850 C1M55_26570
+            ROP: ROP_13010
+            ROA: Pd630_LPD05737
+            RHB: NY08_187 NY08_3142
+            RAV: AAT18_09855
+            RHW: BFN03_11675
+            RRZ: CS378_24815
+            RHU: A3Q40_00755(tenA)
+            RHOD: AOT96_00235 AOT96_06470
+            RTM: G4H71_02780
+            RKO: JWS14_08210
+            RGO: KYT97_27145
+            ROZ: CBI38_10115
+            RPSK: JWS13_37985
+            RANT: RHODO2019_14670
+            RHOP: D8W71_23295
+            RHOO: RA302_19355 RA302_25615
+            RHOU: KZJ41_11030
+            RHOW: A4U64_14790
+            RHOJ: JVH1_29345
+            RHOS: QWW67_27710
+            RHOQ: QWW98_27735
+            RHOY: QNA09_07340
+            RHOH: CPI83_03900 CPI83_10210
+            RHJS: OYT95_30650
+            RHZQ: GO592_06295
+            RHBH: A0W34_19090 A0W34_25275
+            RHON: EHW12_19820 EHW12_26060
+            RHWB: FND50_26315
+            RHSQ: E7742_03680(tenA)
+            RHWY: GFS60_02203
+            RHDM: HFP48_10455
+            RHWQ: HUN07_09270
+            RHMM: ISO16_27330
+            RHZP: HYG77_05825
+            RHRC: P0M12_02050 P0M12_08265
+            RHNY: ACBG85_18960 ACBG85_24995
+            RFA: A3L23_03222(tenA)
+            RHS: A3Q41_00110(tenA) A3Q41_02023
+            REQ: REQ_15870
+            PDEF: P9209_23960
+            GOR: KTR9_3809
+            GTA: BCM27_19980
+            GOS: QAD21_05045
+            GOJ: GR168_05120
+            GHN: MVF96_05285
+            SPIN: KV203_04700
+            DTM: BJL86_0107
+            DIT: C3V38_07205
+            DIZ: CT688_00695
+            DPC: A6048_00760
+            DLU: A6035_01335
+            DKN: NHB83_00855
+            DCD: VYL96_01110
+            DID: GJR88_00233
+            CBQ: AL705_04480 AL705_05035
+            SRC: M271_01785
+            SMAL: SMALA_8083
+            SSOI: I1A49_44140
+            SANT: QR300_01520 QR300_34595
+            SLK: SLUN_33685
+            SVR: CP971_16175(tenA)
+            SAUH: SU9_027570 SU9_027605
+            SROI: IAG44_09725
+            SDUR: M4V62_00260(tenA)
+            SLUO: PS467_01450
+            SPIH: ABXR15_22720
+            STRQ: CGL27_48390
+            KSK: KSE_39800
+            KAU: B6264_11180
+            KIT: CFP65_3861 CFP65_4172 CFP65_4180
+            KIS: HUT16_18680(tenA)
+            KCH: O1G21_19480(tenA)
+            KCM: ABWK59_18125(tenA)
+            KNB: ACF9IK_17370(tenA)
+            KIC: KCMC57_up32320(tenA)
+            KPUR: ACFCLZ_19665(tenA)
+            STRI: C7M71_015785(tenA)
+            PPOD: AB0761_19205(tenA)
+            STRH: GXP74_00320(tenA)
+            MICI: AB2L57_09175
+            FSB: GCM10025867_29570
+            CRY: B7495_16075
+            MSPO: KXZ72_00220
+            LYH: FrondiHNR_08175
+            ARR: ARUE_c04760(tenA)
+            ARH: AHiyo8_60590
+            ARN: CGK93_02555
+            AAU: AAur_0504
+            PNV: JMY29_02315
+            PAGO: IRJ34_02195
+            PAYN: HMI60_06455
+            PANY: ACPFL9_02560
+            PSFE: NG819_14720
+            RSA: RSal33209_3250(tenA)
+            MTEU: R3I42_10705
+            RMU: RMDY18_08940
+            RKR: I6G21_04835
+            NAE: BHE16_09270
+            AUL: DCC27_005020 DCC27_005025
+            AIG: QDX25_04525 QDX25_04530
+            BRX: BH708_15635 BH708_15640
+            BKI: M4486_16265 M4486_16270
+            BHH: Bra3105_13095(tenA) Bra3105_13100
+            BHQ: BRM3_01580
+            DVA: DAD186_03110
+            DJJ: COP05_09115
+            DHM: CYJ49_004285
+            HMM: R3I40_08465
+            BEI: GCM100_23470
+            CET: B8281_08300
+            CCEU: CBR64_03000
+            CPRT: FIC82_007130
+            ARS: ADJ73_01850
+            BLY: A2T55_03760 A2T55_13435
+            BLIN: BLSMQ_0702 BLSMQ_3002
+            BRI: FDF13_03570 FDF13_06945
+            BLUT: EW640_07115 EW640_13155
+            BCAU: I6G59_06730 I6G59_17930
+            BSPO: L1F31_13785
+            BREB: PGC08_03795 PGC08_14925
+            BREJ: LJ362_02915 LJ362_12655
+            BKR: AAFP32_02675 AAFP32_12525
+            SEVR: LWF01_09760
+            DCO: SAMEA4475696_0004(tenA)
+            AUS: IPK37_06600 IPK37_10435
+            DCP: RN607_11900 RN607_11925
+            PAC: PPA1507
+            PAK: HMPREF0675_4574
+            PAV: TIA2EST22_07560
+            PAX: TIA2EST36_07540
+            PAZ: TIA2EST2_07470
+            PAD: TIIST44_00530
+            PCN: TIB1ST10_07750
+            PACC: PAC1_07935
+            PACH: PAGK_0671
+            PACN: TIA1EST1_07570
+            CACN: RN83_08000
+            PRL: BCB70_10890
+            PFR: PFREUD_12090(tenA)
+            PFRE: RM25_0982
+            PACD: EGX94_08575
+            PAUS: NCTC13651_02140(tenA)
+            PPC: HMPREF9154_0874
+            ARUB: J5A65_10590
+            MPH: MLP_01210 MLP_51630
+            MIK: FOE78_10685
+            MICG: GJV80_03755
+            TFL: RPIT_11850
+            TFA: BW733_05570
+            TES: BW730_16750
+            TEZ: BKM78_06050
+            TDF: H9L22_12055
+            TLA: TLA_TLA_01224(tenA)
+            RAIN: Rai3103_08535 Rai3103_15770(tenA)
+            NOCL: KM427_09435(tenA) KM427_09455(tenA) KM427_09525(tenA)
+            NOCD: QJ852_03400(tenA) QJ852_03420 QJ852_03435(tenA)
+            AER: AERYTH_07070
+            MUZ: H4N58_13185
+            MQR: AB3M34_14685
+            SGRG: L0C25_01625
+            KFL: Kfla_2096
+            KQI: F1D05_29585(tenA)
+            KSL: OG809_23105(tenA)
+            KRI: OX958_25775(tenA)
+            TFU: Tfu_2953
+            THAO: NI17_019030(tenA)
+            TALX: FOF52_16320(tenA)
+            NDA: Ndas_5262
+            NAL: B005_1899
+            NGV: CDO52_02540
+            NFE: HUT17_00505
+            NEX: NE857_00430 NE857_24635(tenA)
+            NEC: KGD82_07335
+            NAKE: KGD83_00465
+            NCG: KGD84_00125
+            NOCB: UIS43_18390
+            STRR: EKD16_00400(tenA)
+            SNAH: OUQ99_00400
+            SAIU: J4H86_02190(tenA)
+            TCU: Tcur_0089
+            ACTW: F7P10_19925 F7P10_39675
+            AGRA: AGRA3207_004008
+            AMAZ: LUW76_06640 LUW76_26335
+            ACIR: OG979_17740 OG979_34455
+            SPIQ: OHA34_23260
+            ACTQ: OG417_02565 OG417_38205
+            SRO: Sros_0123 Sros_2138 Sros_3844 Sros_4157 Sros_4177 Sros_6338
+            NOA: BKM31_00070 BKM31_41675 BKM31_45060 BKM31_58665
+            NOW: GBF35_00815 GBF35_31070(tenA) GBF35_37775
+            NCX: Nocox_03405(tenA)
+            NGN: LCN96_00710 LCN96_03615 LCN96_42045
+            NFS: OIE67_06980 OIE67_48335
+            TBI: Tbis_0044 Tbis_1301
+            MHAI: OHB01_01730 OHB01_11170
+            FAL: FRAAL1555
+            GOB: Gobs_0097
+            BSD: BLASA_0104(tenA) BLASA_4996
+            BMON: ABDB74_00405 ABDB74_20430
+            MOM: KUM42_10065 KUM42_10235
+            KRA: Krad_0855
+            SEN: SACE_1298 SACE_7151
+            SACG: FDZ84_10560 FDZ84_18085(tenA)
+            AAB: A4R43_28420
+            AMYY: YIM_00930(tenA)
+            ARHD: VSH64_38020(tenA)
+            ACYN: ORV05_14820(tenA)
+            ACAB: QRX50_07120(tenA)
+            AMYD: K1T34_18985(tenA)
+            PDX: Psed_5477
+            PSEA: WY02_12770 WY02_13290
+            PSEE: FRP1_00940 FRP1_01480
+            PSEH: XF36_00355 XF36_00860
+            PSEQ: AD006_08575 AD006_09105
+            PECQ: AD017_16405 AD017_16935
+            PHH: AFB00_14840
+            PAUT: Pdca_59050 Pdca_60830
+            PBRO: HOP40_11850(tenA)
+            PPEL: H6H00_11870(tenA)
+            PSDS: K1T35_39505 K1T35_43625(tenA)
+            PALQ: PaSha_13850 PaSha_14705(tenA)
+            ACTI: UA75_11055
+            ACAD: UA74_10965
+            AHG: AHOG_10310(tenA)
+            ACTA: C1701_23515(tenA)
+            ACAU: ACOJVX_14330(tenA)
+            PMAD: BAY61_00720 BAY61_12010
+            SACE: GIY23_05795(tenA) GIY23_21695
+            ACTY: OG774_02565(tenA) OG774_20975
+            STUC: G5S47_07770
+            ARD: AXF14_11530
+            BLO: BL0804
+            BLN: Blon_1460
+            BLON: BLIJ_1506
+            BAD: BAD_0874
+            BADL: BADO_0929 BADO_1016
+            BADO: BBMN23_1010 BBMN23_1100
+            BFJ: B19861_10570 B19861_11450(tenA)
+            BLA: BLA_1213(tenA)
+            BLC: Balac_0685
+            BLT: Balat_0685
+            BBB: BIF_00231(tenA)
+            BBC: BLC1_0658
+            BNM: BALAC2494_00445
+            BLV: BalV_0662
+            BLW: W7Y_0689
+            BLS: W91_0712
+            BANI: BL12_03430(tenA)
+            BANL: BLAC_03445
+            BNI: BANAN_03410
+            BANM: EN10_03485
+            BDE: BDP_1341(tenA) BDP_2140(tenA)
+            BDN: BBDE_1279 BBDE_2010
+            BBV: HMPREF9228_0903
+            BBRU: Bbr_0964(tenA)
+            BBRE: B12L_0881(tenA)
+            BBRV: B689b_0975
+            BBRJ: B7017_1028
+            BBRC: B7019_1037
+            BBRN: B2258_0927
+            BBRS: BS27_0961(tenA)
+            BBRD: BBBR_0912
+            BTP: D805_1323
+            BKA: AH68_06485 AH68_09700
+            BKS: BBKW_1194 BBKW_1889
+            BCAT: BBCT_1070
+            BPSP: AH67_03755
+            BANG: BBAG_1081
+            BPSC: BBPC_1072 BBPC_1696
+            BSCA: BBSC_1050 BBSC_1079 BBSC_1164
+            BCHO: BcFMB_05825
+            BGX: ESN35_07170(tenA)
+            BLEM: BL8807_08090(tenA)
+            BSUE: BS3272_01145 BS3272_01150
+            BAQK: QN215_06230(tenA) QN215_08245
+            BFK: QN062_00555(tenA) QN062_00735 QN062_02625 QN062_04580
+            GVG: HMPREF0421_21010
+            GVH: HMPREF9231_0569
+            SIJ: SCIP_1237
+            AEY: CDG81_05505(tenA) CDG81_22220
+            EKE: EK0264_03470
+            JCY: M6B22_00495(tenA)
+            JAT: SAMN05892883_3715
+            RXY: Rxyl_2784
+            RRD: RradSPS_0582 RradSPS_2426
+            RUB: GBA63_19440 GBA63_19560(tenA)
+            RMAR: GBA65_02440 GBA65_02530(tenA)
+            PBAJ: LRS13_11910(tenA)
+            CWO: Cwoe_5519
+            PARQ: DSM112329_03528(tenA)
+            SYC: syc0455_d(tenA)
+            SYU: M744_11190
+            SYF: Synpcc7942_1094
+            CYA: CYA_0413
+            CYB: CYB_2439
+            PMM: PMM0357
+            PMI: PMT9312_0361
+            PMB: A9601_03941
+            PMC: P9515_04021
+            PMG: P9301_03931
+            PMH: P9215_03991
+            PRC: EW14_0412
+            LET: O77CONTIG1_02036(tenA)
+            LEPV: J4558_15275
+            LEPB: GFS31_32050
+            LEPI: EDM05_60805
+            HHG: XM38_023390(tenA_2)
+            THEU: HPC62_21630
+            TOG: HNI00_06895
+            TSIN: OXH18_23925
+            GLP: Glo7428_1010
+            CHON: NIES4102_14780
+            GDU: P0S91_13190
+            MAR: MAE_47490
+            MPK: VL20_3400
+            MIQ: B5D77_02580
+            MVZ: myaer102_20880
+            MIBL: ACE3JL_12880
+            MICD: ACQY1Y_12165
+            MPRC: ACQY1X_12240
+            HAO: PCC7418_1729
+            ENN: FRE64_04065 FRE64_05075(tenA)
+            CYC: PCC7424_1007
+            CYJ: Cyan7822_0028
+            TER: Tery_0805
+            MVAG: D0A34_04425
+            CSAU: ACL6C3_15935
+            OXY: HCG48_22550(tenA)
+            OAC: Oscil6304_1299
+            PHOR: JWS08_11010
+            PYH: NEA10_12930
+            ONI: Osc7112_4827
+            MIC: Mic7113_0479
+            GEI: GEI7407_3674
+            ANA: alr2769
+            NPU: Npun_R3311
+            NOP: Nos7524_4426
+            NON: NOS3756_07910
+            NFL: COO91_04084
+            NOE: CLI64_04405
+            NSH: GXM_02039
+            NED: HUN01_30580
+            NPZ: ACX27_09485
+            NLK: NIES25_64300
+            NCW: NIES2107_03800
+            NCF: ANSO36C_45140
+            NOST: GJB62_10935
+            NOSU: JYQ62_27890
+            NOSQ: PQG02_10265
+            AVA: Ava_0021
+            ACY: Anacy_5979
+            ANN: EH233_06945
+            CSG: Cylst_6548
+            RSIN: B6N60_05249
+            HBQ: QI031_08870
+            AEE: IM676_00480
+            CALO: Cal7507_3305
+            CALT: Cal6303_4996
+            CALN: NIES2098_59790
+            CALS: NIES3974_47270
+            RIV: Riv7116_1326
+            MDP: NIES3275_30800
+            FIS: FIS3754_15470
+            DFS: HGD76_24600
+            SKV: NIES73_49500
+            TOQ: HCG51_09985
+            TTQ: NIES37_43350
+            TOI: HG267_26830
+            TOZ: HGR01_27790
+            ALAX: NIES50_43240
+            SCYT: SAMD_03180
+            SCYS: NIES4073_13650
+            BSEN: DP114_11345
+            BOX: DP113_11285
+            NCN: BZZ01_21970
+            CTHE: Chro_2842
+            PLP: Ple7327_1166
+            SCS: Sta7437_1947
+            DTB: BH720_003270
+            RRS: RoseRS_1028
+            RCA: Rcas_1431
+            CAU: Caur_0797
+            CHL: Chy400_0862
+            HAU: Haur_2439
+            TTR: Tter_0644 Tter_2438
+            CAP: CLDAP_22980
+            KBS: EPA93_18350(tenA)
+            KBB: ccbrp13_31320
+            THUG: KNN16_14490
+            DMB: E5F05_02480
+            AMO: Anamo_2050
+            CSOM: MKD34_05540(tenA)
+            STR: Sterm_1156
+            FSH: Q2T83_06500(tenA)
+            PFU: PF1338
+            PFI: PFC_05905
+            PHO: PH1161(PH1161)
+            PAB: PAB1641
+            PYN: PNA2_1769
+            PYS: Py04_0940
+            PYC: TQ32_06015
+            PWE: ACMFNG_09555(tenA)
+            TSI: TSIB_0466
+            TCH: CHITON_1452
+            TAGG: NF865_00380(tenA)
+            HHB: Hhub_4094(tenA)
+            HNO: LT974_12570(tenA) LT974_15970(tenA)
+            HANX: ABSL23_00920(tenA)
+            HSU: HLASF_1556(tenA)
+            HSF: HLASA_1543(tenA)
+            HALR: EFA46_011220 EFA46_011225(tenA)
+            HJE: HacjB3_01130 HacjB3_01135
+            HDO: MUK72_08000(tenA) MUK72_16260
+            HARA: AArcS_2610(tenA) AArcS_2611(tenA2)
+            HMA: rrnAC1765(tenA) rrnAC1767(tenA-2)
+            HSIN: KDQ40_01925 KDQ40_01930(tenA)
+            HHI: HAH_2295(tenA) HAH_2296(tenA-2)
+            HHN: HISP_11685 HISP_11690
+            HAB: SG26_04030 SG26_04035
+            HTA: BVU17_11190 BVU17_11195
+            HALJ: G9465_04300(tenA) G9465_04305
+            HUT: Huta_0684 Huta_0685
+            HASV: SVXHr_0912(tenA3) SVXHr_0913(tenA4)
+            HABN: HBNXHr_0904(tenA3) HBNXHr_0905(tenA4)
+            HARC: HARCEL1_04310(tenA) HARCEL1_04315
+            NPH: NP_4080A(tenA1) NP_4082A(tenA2)
+            NMO: Nmlp_1839(tenA1) Nmlp_2310(tenA2)
+            NHO: HWV23_06480(tenA)
+            NSAL: HWV07_01585(tenA) HWV07_01590
+            HWA: HQ_2369A(tenA)
+            HWC: Hqrw_2630(tenA)
+            HVO: HVO_B0380(tenA1) HVO_B0381(tenA2)
+            HALE: G3A49_07180(tenA) G3A49_07185
+            HLN: SVXHx_3473(tenA) SVXHx_3474(tenA2)
+            HME: HFX_5295(tenA-2) HFX_5296(tenA)
+            HGI: ABY42_15450 ABY42_15455
+            HLS: KU306_16280 KU306_17725(tenA)
+            HBO: Hbor_30560 Hbor_30570
+            HAQ: DU484_04850 DU484_11100(tenA)
+            HAJ: DU500_05290 DU500_11365(tenA)
+            HAER: DU502_02705 DU502_08700(tenA)
+            HRA: EI982_05880(tenA)
+            HLM: DV707_08690(tenA)
+            HLA: Hlac_2986 Hlac_2987
+            HALB: EKH57_06505(tenA)
+            HEZZ: EO776_05995(tenA)
+            HSAI: HPS36_00995(tenA)
+            HAZZ: KI388_03575(tenA)
+            SRUB: C2R22_14575 C2R22_14580(tenA)
+            HAE: halTADL_0737 halTADL_0738
+            HALU: HUG12_18835(tenA) HUG12_18840
+            HRE: K6T36_15660 K6T36_15665(tenA)
+            HAH: Halar_1067 Halar_1068
+            HTU: Htur_2707
+            HSAL: JMJ58_15335(tenA)
+            HAKZ: J0X25_01480(tenA)
+            NMG: Nmag_0869(tenA)
+            HXA: Halxa_2795
+            NAT: NJ7G_3269
+            NVR: FEJ81_11735(tenA)
+            NPL: FGF80_10845(tenA)
+            NAY: HYG81_14595(tenA)
+            NGE: Natgr_2811
+            HLC: CHINAEXTREME09390 CHINAEXTREME09395
+            HRU: Halru_0039
+            SAWL: NGM29_14210(tenA)
+            HALV: NGM15_05465(tenA)
+            NOU: Natoc_1476 Natoc_1856 Natoc_1857
+            HLR: HALLA_10605
+            NAJ: B1756_11095
+            NAG: AArcMg_2796 AArcMg_2797
+            NAN: AArc1_0910 AArc1_0911
+            NBG: DV706_10485(tenA)
+            NAS: GCU68_01570(tenA)
+            HDA: BB347_09250
+            TVO: TVG0084143(TVG0084143)
+            PTO: PTO1258
+            FAC: FACI_IFERC01G1311
+            FAI: FAD_0325
+            APE: APE_0669.1(tenA)
+            ACJ: ACAM_0495(tenA)
+            SMR: Smar_0054
+            SHC: Shell_0762
+            STO: STK_06840 STK_10070
+            SOH: D1869_03295 D1869_06100(tenA)
+            SJV: SJAV_17020 SJAV_20040(tenA)
+            SSO: SSO2206(tenA-1) SSO2598(tenA-2)
+            SOL: Ssol_0025 Ssol_0407
+            SSOA: SULA_0023 SULA_0402(tenA)
+            SSOL: SULB_0024 SULB_0404(tenA)
+            SSOF: SULC_0023 SULC_0402(tenA)
+            SSHI: J5U23_00895 J5U23_01016
+            SCAS: SACC_22590
+            SIS: LS215_0023 LS215_2880
+            SIA: M1425_0023 M1425_2713
+            SIM: M1627_0023 M1627_2767
+            SID: M164_0023 M164_2698
+            SIY: YG5714_0023 YG5714_2893
+            SIN: YN1551_0023 YN1551_3080
+            SII: LD85_0023 LD85_3039
+            SIH: SiH_0023 SiH_2671
+            SIR: SiRe_0023 SiRe_2608
+            SIC: SiL_0023 SiL_2557
+            SULA: BFU36_09380 BFU36_09680
+            SULE: GFS03_01080(tenA) GFS03_01650
+            SAI: Saci_1230
+            SACN: SacN8_06000
+            SACR: SacRon12I_05995
+            SACS: SUSAZ_05865
+            SULO: GFS33_06280(tenA) GFS33_06850
+            SULL: EWF20_07345(tenA)
+            MSE: Msed_1351
+            MEMJ: MJ1HA_1561
+            MCN: Mcup_0881
+            MHK: DFR87_12335(tenA)
+            MPRU: DFR88_11570(tenA)
+            MTEN: GWK48_00570(tenA)
+            MJN: MjAS7_2411
+            AHO: Ahos_0019 Ahos_2099
+            AMAN: B6F84_01735 B6F84_02235
+            ABRI: DFR85_05590(tenA)
+            ASUL: DFR86_01720(tenA) DFR86_02215
+            AAMB: D1866_05500(tenA) D1866_06960
+            ACIH: HS5_09140 HS5_12750
+            SACD: HS1genome_1281
+            SAZO: D1868_04000(tenA) D1868_07490
+            CSTY: KN1_10150 KN1_23500
+            STEP: IC006_0022 IC006_1075
+            SMET: RQ359_001537
+            SAHS: HS7_00820
+            PAI: PAE0170
+            PIS: Pisl_1974
+            PCL: Pcal_1316
+            PAS: Pars_2186
+            PYR: P186_0930
+            POG: Pogu_2702
+            TNE: Tneu_1074
+            PYW: PYWP30_02099
+            CMA: Cmaq_0480
+            TTN: TTX_0325(tenA)
+            TUZ: TUZN_0831
+            VDI: Vdis_1122 Vdis_2464
+            VMO: VMUT_0803 VMUT_1986
+            VSO: Vsou_09190 Vsou_19380
+            ASC: ASAC_0493
+            ACIA: SE86_03340 SE86_04850
+            CLG: Calag_0587
+            FFO: FFONT_0756
+            CCAI: NAS2_0629
+REFERENCE   PMID:1898926
+  AUTHORS   Pang AS, Nathoo S, Wong SL
+  TITLE     Cloning and characterization of a pair of novel genes that regulate production of extracellular enzymes in Bacillus subtilis.
+  JOURNAL   J Bacteriol 173:46-54 (1991)
+            DOI:10.1128/JB.173.1.46-54.1991
+  SEQUENCE  [bsu:BSU11650]
+REFERENCE   PMID:15709744
+  AUTHORS   Toms AV, Haas AL, Park JH, Begley TP, Ealick SE
+  TITLE     Structural characterization of the regulatory proteins TenA and TenI from Bacillus subtilis and identification of TenA as a thiaminase II.
+  JOURNAL   Biochemistry 44:2319-29 (2005)
+            DOI:10.1021/bi0478648
+///

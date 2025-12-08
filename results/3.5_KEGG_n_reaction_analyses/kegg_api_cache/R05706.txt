@@ -1,0 +1,27 @@
+ENTRY       R05706                      Reaction
+NAME        FMNH2:NADP+ oxidoreductase
+DEFINITION  Reduced FMN + NADP+ <=> FMN + NADPH + H+
+EQUATION    C01847 + C00006 <=> C00061 + C00005 + C00080
+COMMENT     see R05705 (NADH)
+RCLASS      RC00001  C00005_C00006
+            RC00126  C00061_C01847
+ENZYME      1.5.1.38        1.5.1.39        1.5.1.-
+PATHWAY     rn00740  Riboflavin metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.1  With NAD+ or NADP+ as acceptor
+                1.5.1.38
+                 R05706  Reduced FMN + NADP+ <=> FMN + NADPH + H+
+                1.5.1.39
+                 R05706  Reduced FMN + NADP+ <=> FMN + NADPH + H+
+                1.5.1.-
+                 R05706  Reduced FMN + NADP+ <=> FMN + NADPH + H+
+ORTHOLOGY   K00299  FMN reductase [EC:1.5.1.38]
+            K13562  NAD(P)H:FMN oxidoreductase [EC:1.5.1.-]
+            K19285  FMN reductase (NADPH) [EC:1.5.1.38]
+            K19286  FMN reductase [NAD(P)H] [EC:1.5.1.39]
+DBLINKS     RHEA: 21627
+///

@@ -1,0 +1,21 @@
+ENTRY       R03269                      Reaction
+NAME        N-[(R)-4'-phosphopantothenoyl]-L-cysteine carboxy-lyase
+DEFINITION  (R)-4'-Phosphopantothenoyl-L-cysteine <=> Pantetheine 4'-phosphate + CO2
+EQUATION    C04352 <=> C01134 + C00011
+RCLASS      RC00822  C01134_C04352
+ENZYME      4.1.1.36
+PATHWAY     rn00770  Pantothenate and CoA biosynthesis
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00120  Coenzyme A biosynthesis, pantothenate => CoA
+            M00914  Coenzyme A biosynthesis, archaea, 2-oxoisovalerate => 4-phosphopantoate => CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.1  Carboxy-lyases
+                4.1.1.36
+                 R03269  (R)-4'-Phosphopantothenoyl-L-cysteine <=> Pantetheine 4'-phosphate + CO2
+ORTHOLOGY   K01598  phosphopantothenoylcysteine decarboxylase [EC:4.1.1.36]
+            K13038  phosphopantothenoylcysteine decarboxylase / phosphopantothenate---cysteine ligase [EC:4.1.1.36 6.3.2.5]
+DBLINKS     RHEA: 16796
+///

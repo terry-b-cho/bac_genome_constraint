@@ -1,0 +1,22 @@
+ENTRY       R01121                      Reaction
+NAME        ATP:(R)-5-diphosphomevalonate carboxy-lyase (adding ATP; isopentenyl-diphosphate-forming);
+            ATP:(R)-5-diphosphomevalonate carboxy-lyase (dehydrating)
+DEFINITION  ATP + (R)-5-Diphosphomevalonate <=> ADP + Orthophosphate + Isopentenyl diphosphate + CO2
+EQUATION    C00002 + C01143 <=> C00008 + C00009 + C00129 + C00011
+COMMENT     possibly intermediate ((R)-5-diphospho-3-phosphomevalonate)
+RCLASS      RC00002  C00002_C00008
+            RC00453  C00129_C01143
+ENZYME      4.1.1.33
+PATHWAY     rn00900  Terpenoid backbone biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00095  C5 isoprenoid biosynthesis, mevalonate pathway
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.1  Carboxy-lyases
+                4.1.1.33
+                 R01121  ATP + (R)-5-Diphosphomevalonate <=> ADP + Orthophosphate + Isopentenyl diphosphate + CO2
+ORTHOLOGY   K01597  diphosphomevalonate decarboxylase [EC:4.1.1.33]
+DBLINKS     RHEA: 23735
+///

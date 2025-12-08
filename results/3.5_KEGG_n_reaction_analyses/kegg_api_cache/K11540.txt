@@ -1,0 +1,829 @@
+ENTRY       K11540                      KO
+SYMBOL      CAD
+NAME        carbamoyl-phosphate synthase / aspartate carbamoyltransferase / dihydroorotase [EC:6.3.5.5 2.1.3.2 3.5.2.3]
+PATHWAY     map00220  Arginine biosynthesis
+            map00240  Pyrimidine metabolism
+            map00250  Alanine, aspartate and glutamate metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01240  Biosynthesis of cofactors
+MODULE      M00051  De novo pyrimidine biosynthesis, glutamine (+ PRPP) => UMP
+REACTION    R00256  L-glutamine amidohydrolase
+            R00575  HCO3-:L-glutamine amido-ligase (ADP-forming, carbamate-phosphorylating)
+            R01395  ATP:carbamate phosphotransferase
+            R01397  carbamoyl-phosphate:L-aspartate carbamoyltransferase
+            R01993  (S)-dihydroorotate amidohydrolase
+            R10948  ATP:HCO3- phosphotransferase
+            R10949  
+DISEASE     H00606  Early infantile epileptic encephalopathy
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09104 Nucleotide metabolism
+               00240 Pyrimidine metabolism
+                K11540  CAD; carbamoyl-phosphate synthase / aspartate carbamoyltransferase / dihydroorotase
+              09105 Amino acid metabolism
+               00250 Alanine, aspartate and glutamate metabolism
+                K11540  CAD; carbamoyl-phosphate synthase / aspartate carbamoyltransferase / dihydroorotase
+               00220 Arginine biosynthesis
+                K11540  CAD; carbamoyl-phosphate synthase / aspartate carbamoyltransferase / dihydroorotase
+             09180 Brite Hierarchies
+              09181 Protein families: metabolism
+               01002 Peptidases and inhibitors
+                K11540  CAD; carbamoyl-phosphate synthase / aspartate carbamoyltransferase / dihydroorotase
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.1  Transferring one-carbon groups
+               2.1.3  Carboxy- and carbamoyltransferases
+                2.1.3.2  aspartate carbamoyltransferase
+                 K11540  CAD; carbamoyl-phosphate synthase / aspartate carbamoyltransferase / dihydroorotase
+             3. Hydrolases
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.2  In cyclic amides
+                3.5.2.3  dihydroorotase
+                 K11540  CAD; carbamoyl-phosphate synthase / aspartate carbamoyltransferase / dihydroorotase
+             6. Ligases
+              6.3  Forming carbon-nitrogen bonds
+               6.3.5  Carbon-nitrogen ligases with glutamine as amido-N-donor
+                6.3.5.5  carbamoyl-phosphate synthase (glutamine-hydrolysing)
+                 K11540  CAD; carbamoyl-phosphate synthase / aspartate carbamoyltransferase / dihydroorotase
+            Peptidases and inhibitors [BR:ko01002]
+             Cysteine peptidases
+              Family C26: gamma-glutamyl hydrolase family
+               K11540  CAD; carbamoyl-phosphate synthase / aspartate carbamoyltransferase / dihydroorotase
+             Metallo peptidases
+              Family M38: beta-aspartyl dipeptidase family
+               K11540  CAD; carbamoyl-phosphate synthase / aspartate carbamoyltransferase / dihydroorotase
+DBLINKS     GO: 0004088 0004070 0004151
+GENES       HSA: 790(CAD)
+            PTR: 470338(CAD)
+            PPS: 100989545(CAD)
+            GGO: 101138023(CAD)
+            PON: 100444071(CAD)
+            PPYG: 129030588(CAD)
+            NLE: 100604681(CAD)
+            HMH: 116480471(CAD)
+            SSYN: 129467619(CAD)
+            MCC: 699460(CAD)
+            MCF: 102128048(CAD)
+            MTHB: 126933727
+            MNI: 105479760(CAD)
+            CSAB: 103220607(CAD)
+            CATY: 105578472(CAD)
+            PANU: 100997394(CAD)
+            TGE: 112605411(CAD)
+            MLEU: 105533983(CAD)
+            RRO: 104668500(CAD)
+            RBB: 108532706(CAD)
+            TFN: 117062568(CAD)
+            PTEH: 111554402(CAD)
+            CANG: 105517363(CAD)
+            CJC: 100405052(CAD)
+            SBQ: 101034080(CAD)
+            CIMI: 108315922(CAD)
+            ANAN: 105733164(CAD)
+            CSYR: 103251601(CAD)
+            MMUR: 105884399(CAD)
+            LCAT: 123636721(CAD)
+            ERUF: 138400228(CAD)
+            PCOQ: 105816938(CAD)
+            OGA: 100953236(CAD)
+            MMU: 69719(Cad)
+            MCAL: 110294100(Cad)
+            MPAH: 110324844(Cad)
+            RNO: 24240(Cad)
+            MCOC: 116079655(Cad)
+            ANU: 117716943(Cad)
+            ASYL: 127687535(Cad)
+            MUN: 110547690(Cad)
+            CGE: 100689232(Cad)
+            MAUA: 101843763(Cad)
+            PROB: 127220084(Cad)
+            PLEU: 114696717(Cad)
+            PMAV: 102925768(Cad)
+            MORG: 121433026 121439634
+            MFOT: 126492237
+            AAMP: 119806436(Cad)
+            CNL: 130872378(Cad)
+            NGI: 103735684(Cad)
+            HGL: 101710382(Cad)
+            CPOC: 100727133(Cad)
+            CCAN: 109679699(Cad)
+            DORD: 105983698(Cad)
+            DSP: 122122523(Cad)
+            DMER: 138829131(Cad)
+            PLOP: 125356640(Cad)
+            NCAR: 124962757
+            MMMA: 107137422(Cad)
+            ITI: 101971696(Cad)
+            OCU: 100352236
+            OPI: 101536661(CAD)
+            OCZ: 121164750(CAD)
+            TUP: 102478104(CAD)
+            GVR: 103600395(CAD)
+            CFA: 483009(CAD)
+            CLUD: 112664634(CAD)
+            VVP: 112908478(CAD)
+            VLG: 121490826(CAD)
+            NPO: 129511123(CAD)
+            AML: 100465885(CAD)
+            UMR: 103671649
+            UAH: 113271052(CAD)
+            UAR: 123799913(CAD)
+            ELK: 111158365
+            LLV: 125108295
+            MPUF: 101676555(CAD)
+            MNP: 132021217(CAD)
+            MLK: 131840626(CAD)
+            NVS: 122915225(CAD)
+            ORO: 101382379(CAD)
+            EJU: 114205877(CAD)
+            ZCA: 113938732(CAD)
+            MLX: 118007689(CAD)
+            NSU: 110587291(CAD)
+            LWW: 102745802(CAD)
+            FCA: 101091102(CAD)
+            PYU: 121044255(CAD)
+            PCOO: 112864353(CAD)
+            PBG: 122497338(CAD)
+            PVIV: 125161841(CAD)
+            LRUF: 124503295
+            LGF: 123581345(CAD)
+            AJU: 106967912
+            PTG: 102971909(CAD)
+            PPAD: 109266874(CAD)
+            PUC: 125937592
+            PLEZ: 122216505(CAD)
+            HHV: 120235931(CAD)
+            BTA: 504261(CAD)
+            BOM: 102271526(CAD)
+            BIU: 109566291(CAD)
+            BBUB: 102389153(CAD)
+            BKE: 129623358(CAD)
+            BBIS: 104989128(CAD)
+            CHX: 102179779(CAD)
+            OAS: 101115776(CAD)
+            BTAX: 128055081(CAD)
+            CSUM: 138087540(CAD)
+            ODA: 120851563(CAD)
+            CCAD: 122441948 122441949
+            MREE: 136163971(CAD)
+            OVR: 110132752(CAD)
+            MBEZ: 129539167(CAD)
+            SSC: 100624530(CAD)
+            CFR: 102513447(CAD)
+            CBAI: 105063833(CAD)
+            CDK: 105098535(CAD)
+            VPC: 102528462(CAD)
+            BACU: 103012656(CAD)
+            BMUS: 118905812(CAD)
+            LVE: 103070440(CAD)
+            OOR: 101271999(CAD)
+            LALB: 132531945(CAD)
+            GMF: 115854215(CAD)
+            DDP: 132435048(CAD)
+            DLE: 111174963(CAD)
+            PCAD: 102988062(CAD)
+            PSIU: 116764433(CAD)
+            PPHC: 136133924(CAD)
+            NASI: 112412797(CAD)
+            ECB: 100055366(CAD)
+            EPZ: 103546468(CAD)
+            EAI: 106837038(CAD)
+            MYB: 102255715(CAD)
+            MYD: 102767883(CAD)
+            MMYO: 118669180(CAD)
+            MLF: 102440221(CAD)
+            MDT: 132213544(CAD)
+            MYUM: 139019765(CAD)
+            PKL: 118717193(CAD)
+            EFUS: 103305521(CAD)
+            MNA: 107534438(CAD)
+            DRO: 112297782(CAD)
+            SHON: 119001345(CAD)
+            AJM: 119050384(CAD)
+            PDIC: 114498575(CAD)
+            PHAS: 123822469(CAD)
+            MMF: 118630710(CAD)
+            PPAM: 129066910(CAD)
+            HAI: 109380279(CAD)
+            RFQ: 117033242(CAD)
+            PALE: 102896266(CAD)
+            PGIG: 120621846(CAD)
+            PVP: 105289732(CAD)
+            RAY: 107502147(CAD)
+            MJV: 108391199(CAD)
+            TOD: 119259464(CAD)
+            SARA: 101556833(CAD)
+            SFUM: 130033674(CAD)
+            SETR: 126023848(CAD)
+            LAV: 100656120(CAD)
+            TMU: 101359976
+            ETF: 101650987(CAD)
+            DNM: 101434818(CAD)
+            MDO: 100026061(CAD)
+            GAS: 123234990(CAD)
+            SHR: 100930182(CAD)
+            AFZ: 127548741
+            PCW: 110206480(CAD)
+            TVP: 118842377(CAD)
+            PBRV: 138149134(CAD)
+            MLAO: 141504690(CAD)
+            OAA: 100085020(CAD)
+            TACU: 119932217(CAD)
+            GGA: 428659(CAD)
+            PCOC: 116230667(CAD)
+            MGP: 100547622(CAD)
+            CJO: 107312305(CAD)
+            TPAI: 128082993(CAD)
+            LMUT: 125689345(CAD)
+            NMEL: 110396876(CAD)
+            APLA: 119716457(CAD)
+            AACU: 137855044(CAD)
+            ACYG: 106049900(CAD)
+            CATA: 118259029(CAD)
+            AFUL: 116488248(CAD)
+            TGU: 100221353(CAD)
+            LSR: 110478515(CAD)
+            SCAN: 103824593(CAD)
+            PMOA: 120502873(CAD)
+            OTC: 121336253(CAD)
+            PRUF: 121355675(CAD)
+            ATRC: 139584873(CAD)
+            GFR: 102044833(CAD)
+            FAB: 101809093(CAD)
+            OMA: 130251318(CAD)
+            PHI: 102101862(CAD)
+            PMAJ: 107198724(CAD)
+            CCAE: 111927462(CAD)
+            CCW: 104684514(CAD)
+            CBRC: 103615210(CAD)
+            ACOE: 138108819(CAD)
+            ETL: 114069993(CAD)
+            ZAB: 102074924(CAD)
+            ZLE: 135446278(CAD)
+            SVG: 106860398(CAD)
+            HRT: 120750298(CAD)
+            SATI: 136358624(CAD)
+            CFAI: 136287442(CAD)
+            CCIC: 134041517(CAD)
+            FPG: 101915663(CAD)
+            FCH: 102055000(CAD)
+            NNT: 104404545(CAD)
+            SHAB: 115609790(CAD)
+            SURA: 141940377(CAD)
+            TALA: 116965192(CAD)
+            ACHC: 115350975(CAD)
+            HLE: 104830758(CAD)
+            AGEN: 126046342
+            HHAR: 128151853(CAD)
+            BBUT: 142040692(CAD)
+            DPUB: 104308333(CAD)
+            PPUS: 135176969(CAD)
+            NNI: 104009152(CAD)
+            PARX: 142054158(CAD)
+            AFOR: 103901427(CAD)
+            CBOR: 142079982(CAD)
+            CBOY: 140650127(CAD)
+            MAME: 142407875(CAD)
+            CLV: 102091228(CAD)
+            CNIC: 135987824(CAD)
+            CUCA: 104068795(CAD)
+            GAME: 129204653(CAD)
+            CPEA: 104392375(CAD)
+            RTD: 128907546(CAD)
+            CRID: 134513724(CAD)
+            LMIC: 141741491(CAD)
+            NARQ: 141468826(CAD)
+            AROW: 112961056(CAD)
+            NPD: 112955776(CAD)
+            DNE: 112996580(CAD)
+            ASN: 102374540(CAD)
+            AMJ: 102564082(CAD)
+            CPOO: 109311574(CAD)
+            GGN: 109300219(CAD)
+            CIZ: 142011681(CAD)
+            CMY: 102941481(CAD)
+            CCAY: 125634841(CAD)
+            NDS: 141984319(CAD)
+            CPIC: 101931696(CAD)
+            EOB: 135875457(CAD)
+            CABI: 116827143(CAD)
+            MRV: 120401308(CAD)
+            ASAO: 132761756(CAD)
+            PVT: 110086992(CAD)
+            SUND: 121931149(CAD)
+            PBI: 103060670(CAD)
+            PMUR: 107286448(CAD)
+            CTIG: 120309166(CAD)
+            TSR: 106545894(CAD)
+            PGUT: 117667631(CAD)
+            PCAE: 139308567(CAD)
+            APRI: 131188957(CAD)
+            PTEX: 113441592(CAD)
+            NSS: 113414613(CAD)
+            VKO: 123018738(CAD)
+            PMUA: 114595016(CAD)
+            PRAF: 128411533(CAD)
+            ZVI: 118082583(CAD)
+            HCG: 128325350(CAD)
+            GJA: 107113765(CAD)
+            STOW: 125443580(CAD)
+            EMC: 129336255(CAD)
+            XLA: 108716059(cad.L)
+            XTR: 100125119(cad)
+            NPR: 108803083(CAD)
+            RTEM: 120935968(CAD)
+            ACAT: 141138997(CAD)
+            PADS: 140328718(CAD)
+            BBUF: 120996996(CAD)
+            BGAR: 122923352 122934160(CAD)
+            DTC: 141065357(CAD)
+            PCOB: 134993047(CAD)
+            PWL: 138295357(CAD)
+            MUO: 115466986(CAD)
+            GSH: 117357148(CAD)
+            DRE: 266992(cad)
+            SRX: 107727603(cad)
+            SANH: 107676241(cad)
+            SGH: 107602171
+            CCAR: 109054368 122134577
+            CAUA: 113051032 113120429
+            CGIB: 127938155 127984107
+            PTET: 122324972(cad)
+            LROH: 127182475(cad)
+            GRF: 141348592(cad)
+            OMC: 131526920(cad)
+            PPRM: 120493808(cad)
+            RKG: 130103174(cad)
+            MAMB: 125278356(cad)
+            CIDE: 127501884
+            CERY: 137019127(cad)
+            MASI: 127410052 127415950
+            TROS: 130565431(cad)
+            TDW: 130434159(cad)
+            MANU: 129429072(cad)
+            PDAB: 135738246(cad) 135757959
+            IPU: 108256234
+            IFU: 128621636(cad)
+            PHYP: 113528723(cad)
+            SMEO: 124400907(cad)
+            TFD: 113643371(cad)
+            TVC: 132854368(cad)
+            CGAR: 128507838(cad)
+            NGRA: 132881537(cad)
+            TRN: 134320549(cad)
+            AMEX: 103044710(cad)
+            CMAO: 118815206(cad)
+            EEE: 113571203(cad)
+            CHAR: 105901561(cad)
+            SPIL: 134097603(cad)
+            ASAD: 121712120(cad)
+            TRU: 101071903(cad)
+            TFS: 130516171(cad)
+            TNG: GSTEN00009790G001
+            LCO: 104928828(cad)
+            TBEN: 117475139(cad)
+            CGOB: 115028885
+            PGEO: 117439889(cad)
+            GACU: 117535928(cad)
+            EMAC: 134877169(cad)
+            ELY: 117270809(cad)
+            EFO: 125896704(cad)
+            PLEP: 121955190(cad)
+            SLUC: 116060328(cad)
+            ECRA: 117961481(cad)
+            ESP: 116706285(cad)
+            PFLV: 114572997(cad)
+            GAT: 120807858(cad)
+            PPUG: 119194586(cad)
+            AFB: 129107088(cad)
+            CLUM: 117727228(cad)
+            PSWI: 130202573(cad)
+            CANA: 137785514(cad)
+            CVE: 137870992(cad)
+            MSAM: 119909048(cad)
+            SCHU: 122863008(cad)
+            EARM: 139301831(cad)
+            CUD: 121521324(cad)
+            SPUL: 138610982(cad)
+            LMIX: 132984684(cad)
+            HTC: 141801622(cad)
+            ALAT: 119012526(cad)
+            ASTR: 137613573(cad)
+            PKLU: 139217635(cad)
+            MZE: 101477088
+            ONL: 100700233(cad)
+            OAU: 116325347(cad)
+            OLA: 101175119(cad)
+            OML: 112157887(cad)
+            CSAI: 133464431(cad)
+            XMA: 102224683(cad)
+            XCO: 114158728(cad)
+            XHE: 116734268(cad)
+            PRET: 103457308(cad)
+            PFOR: 103129222(cad)
+            PLAI: 106949231(cad)
+            PMEI: 106917232(cad)
+            GAF: 122825206(cad)
+            PPRL: 129375368(cad)
+            CVG: 107083521(cad)
+            CTUL: 119795903(cad)
+            GMU: 124882183(cad)
+            NFU: 107377848(cad)
+            KMR: 108247065(cad)
+            ALIM: 106530344(cad)
+            NWH: 119418633(cad)
+            AOCE: 111565465(cad)
+            EJA: 138212088(cad)
+            BFRE: 138636671(cad)
+            CSEM: 103381268(cad)
+            POV: 109645101(cad)
+            SSEN: 122784146(cad)
+            SSOE: 131443594(cad)
+            HHIP: 117758003(cad)
+            HSP: 118099395(cad)
+            PPLT: 128459862(cad)
+            SMAU: 118290347(cad)
+            LCF: 108890455
+            SDU: 111235926(cad)
+            SLAL: 111672610(cad)
+            XGL: 120788870(cad)
+            HCQ: 109523514(cad)
+            SSCV: 125990673(cad)
+            SBIA: 133496534(cad)
+            PEE: 133416911(cad)
+            PTAO: 133468452(cad)
+            BPEC: 110167003(cad)
+            ENY: 140374677(cad)
+            MALB: 109970556(cad)
+            BSPL: 114849631(cad)
+            SJO: 128377168(cad)
+            SSCO: 133997226(cad)
+            TTY: 137169408(cad)
+            GMH: 115534374(cad)
+            SASA: 106571444 106607850
+            STRU: 115174751 115192272(cad)
+            OTW: 112250349 112261904
+            OMY: 100135860(cpsaseii) 110522267(cad)
+            OGO: 123990792 124019348
+            ONE: 115107794 115139375(cad)
+            OKI: 109866262(cad) 109900780
+            OKE: 118386940 118398613(cad)
+            OMM: 135505935 135557630
+            OCLA: 139407160 139415164
+            SALP: 111954105 112068127(cad)
+            SNH: 120019759 120024029
+            SFON: 129817429 129825153
+            CCLU: 121548885(cad) 121552604
+            ELS: 105017763(cad)
+            OEP: 134024605(cad)
+            SFM: 108925182(cad)
+            PKI: 111854017(cad)
+            AANG: 118229767(cad)
+            AROT: 135257468(cad)
+            CCOG: 133128153(cad)
+            LOC: 102697989(cad)
+            PSPA: 121315552(cad)
+            ARUT: 117402726(cad)
+            PSEX: 120526095(cad)
+            LCM: 102353472(CAD)
+            CMK: 103185793(cad)
+            RTP: 109935824(cad)
+            CPLA: 122543481(cad)
+            CPUN: 140463525(cad)
+            HOC: 132833411(cad)
+            SCAU: 119967460(cad)
+            LERI: 129697189(cad)
+            HAKA: 140733594(cad)
+            PMRN: 116953099(CAD)
+            LRJ: 133347615
+            BFO: 118409817
+            BBEL: 109481007
+            CIN: 108949273
+            SCLV: 120335598
+            CLEP: 143468535
+            SPU: 580997
+            LPIC: 129280734
+            LVG: 121430499 121430504
+            AJJ: 139973207
+            APLC: 110988169
+            ARUN: 117304780
+            AAMU: 139952766
+            AFIL: 140148106
+            AJC: 117111265
+            SKO: 100373224
+            PFLL: 139133855
+            DME: Dmel_CG18572(r)
+            DER: 6550003
+            DSE: 6617969
+            DSI: Dsimw501_GD24842(Dsim_r)
+            DYA: Dyak_GE17287
+            DAN: 6504506
+            DSR: 110184346
+            DPO: 4814491
+            DPE: 6598264
+            DMN: 108158165
+            DWI: 6641338
+            DGR: 6564580
+            DMO: Dmoj_GI15230
+            DAZ: 108618190
+            DNV: 115565029
+            DHE: 111598350
+            DVI: 6631988(r)
+            CCAT: 101452837
+            BOD: 106624794
+            BDR: 105223708
+            RZE: 108371347 108374780 108378251
+            AOQ: 129239672
+            ALUD: 128857847
+            TDA: 119671241
+            MDE: 101901505
+            SCAC: 106090811
+            LCQ: 111674829
+            LSQ: 119607074
+            CVJ: 135956494(rudimentary)
+            GFS: 119641137
+            ECOE: 129948181
+            CLON: 129605315
+            HIS: 119656597
+            AGA: 1271961
+            ACOZ: 120949972
+            AARA: 120906175
+            AMER: 121592555
+            ASTE: 118504021
+            AMAP: 126560329
+            AFUN: 125763202
+            AMOU: 128307414
+            AMRS: 128713626
+            ANIL: 128729251
+            AALI: 118465753
+            ADAR: 125949185
+            ACOS: 131269606
+            AAG: 5572005
+            AALB: 109397692 109432961
+            ASUA: 134205749
+            CQU: CpipJ_CPIJ007153
+            CPII: 120432271
+            CBRI: 134829653
+            CNS: 116343758
+            BCOO: 119067212
+            LLL: 129788546 129788551
+            PPAP: 129807505
+            AME: 410408
+            ACER: 108002626
+            ALAB: 122717621
+            ADR: 102681140
+            AFLR: 100866160
+            BIM: 100743881
+            BBIF: 117216456
+            BVK: 117237966
+            BVAN: 117154750
+            BHUN: 126872398
+            BTER: 100643742
+            BAFF: 126922667
+            BPYO: 122574071
+            BPAS: 132911482
+            FVI: 122529387
+            CCAL: 108632047
+            OBB: 114879302
+            OLG: 117603370
+            MGEN: 117222543
+            NMEA: 116428453
+            CGIG: 122401733
+            SOC: 105197003
+            MPHA: 105840778
+            AEC: 105153614
+            ACEP: 105618642
+            ACOC: 108684732
+            MZT: 108723056(rudimentary)
+            CCOA: 108781210
+            TCZ: 108762226
+            TSEP: 108751030
+            VEM: 105561045
+            COBS: 139108900(Rudimentary)
+            TLN: 139813540(Rudimentary)
+            TAME: 143902548(Rudimentary)
+            HST: 105191437
+            DQU: 106741586
+            CFO: 105257739
+            FEX: 115242940
+            PMEC: 138939644(Rudimentary)
+            LHU: 105675396(r)
+            PGC: 109855546
+            OBO: 105280338
+            PCF: 106786608
+            PFUC: 122522577
+            VPS: 122636605
+            VCRB: 124432216
+            VVE: 124956483
+            NVI: 100678143
+            CSOL: 105361904
+            TPRE: 106658586
+            LHT: 122510308
+            LBD: 127291675
+            MDL: 103569765
+            CGLO: 123274218
+            CTYP: 141529259(Rudimentary)
+            FAS: 105270378
+            DAM: 107043801
+            AGIF: 122854920 122855189
+            CINS: 118064350
+            VCAN: 122408269
+            CCIN: 107272441
+            DSM: 124405839
+            NPT: 124212525(rudimentary)
+            NFB: 124176160
+            NLO: 107219530
+            NVG: 124298968
+            AROA: 105693755
+            TCA: 660900
+            TMOL: 138127057(r)
+            DPA: 109533123
+            ESIM: 136409796(rudimentary)
+            EFOR: 136343423(rudimentary)
+            SOY: 115883357 115891909
+            RFG: 143199788(r)
+            AGRG: 126746370
+            ATD: 109595615
+            CSET: 123313428
+            HAXR: 123681155 123685610
+            AGB: 108904276
+            LDC: 111505021
+            DVV: 114336164
+            NVL: 108556632
+            DCOR: 135801682 135804113
+            APLN: 108745207
+            PPYR: 116176322
+            OTU: 111425985
+            BMAN: 114251567
+            MSEX: 115443182
+            DPL: KGM_205071B
+            BANY: 112051973
+            MJU: 123880844
+            NIQ: 126769922
+            VCD: 124533798
+            MCIX: 123653566
+            PMAC: 106710718
+            PPOT: 106109245
+            PXU: 106128253
+            BPHI: 137930666(r)
+            PRAP: 110992680
+            PBX: 123710880
+            PNAP: 125053048
+            ZCE: 119834857
+            CCRC: 123691094
+            LSIN: 126964950
+            AAGE: 121731617
+            HAW: 110370025
+            HZE: 124630910
+            TNL: 113504558
+            SLIU: 111351829
+            OFU: 114353970
+            ONU: 135071822
+            ATRA: 106131787
+            GMW: 113517594
+            ECLR: 140753325(r)
+            PXY: 119693751
+            PGW: 126367590 126376456
+            LGLY: 125227837
+            CSTB: 134742103
+            CFUM: 141428161(r)
+            CFEL: 113377710
+            CCRN: 123296988
+            API: 100163703
+            DNX: 107170492
+            AGS: 114131175
+            RMD: 113555003
+            ACOO: 126843043
+            DVT: 126901848
+            BTAB: 109033141
+            CLEC: 106663568
+            HHAL: 106682238(rudimentary)
+            NLU: 111048445
+            LDA: 142324129(r)
+            HVI: 124367257
+            MQU: 128987706
+            PHU: Phum_PHUM000420
+            FOC: 113210221
+            TPAL: 117644619
+            ZNE: 110834919
+            CSEC: 111872620
+            PAME: 138696230(r)
+            SGRE: 126318424 126355867
+            BROR: 134530556
+            IEL: 124167180
+            HAMR: 139695522(r)
+            FCD: 110863058
+            DPX: DAPPUDRAFT_187511
+            DMK: 116934362
+            DPZ: 124326971
+            AFRA: 136033939
+            PVM: 113813772(r)
+            PCHN: 125029953
+            PMOO: 119580557
+            PCLA: 123768968(r)
+            PTRU: 123502568
+            ESN: 127005653
+            MNZ: 135197931
+            MRJ: 136838745(rudimentary)
+            PORN: 139765916(r)
+            HAZT: 108679055
+            OOT: 143040631(r)
+            EAF: 111703810
+            LSM: 121121486(r)
+            TCF: 131884663
+            PPOI: 119097924
+            ISC: 120850397
+            DSV: 119466399
+            DALB: 139061320(r)
+            RSAN: 119372514
+            OTI: 135399323
+            VDE: 111253013
+            VJA: 111266376
+            GOE: 100897523
+            TUT: 107362966
+            DPTE: 113795876
+            DFR: 124499564
+            CSCU: 111627119
+            CVS: 136974380(r)
+            PTEP: 107440496
+            ABRU: 129965471
+            UDV: 129233126
+            SDM: 118195139
+            LPOL: 106463332
+            PMEO: 129580598 129589145
+            CEL: CELE_D2085.1(pyr-1)
+            CBR: CBG_00515(Cbr-pyr-1)
+            CRQ: GCK72_004896
+            NAI: NECAME_08218
+            HRO: HELRODRAFT_186717
+            LGI: LOTGIDRAFT_190512
+            PVUL: 126819068
+            PCAN: 112573344
+            LSAX: 138966357
+            BARL: 143294688
+            BGT: 106065454
+            GAE: 121374889
+            HRF: 124133165
+            HRJ: 124262101
+            HASI: 137290463
+            HCRA: 139480512
+            CRG: 105319299
+            CANU: 128187028
+            CVN: 111134478
+            OED: 125660475
+            MYI: 110450403
+            PMAX: 117344715
+            AIRR: 138316324
+            YBA: 132549363
+            MCAF: 127719905
+            MMER: 123527031
+            RPHI: 132748397
+            DPOL: 127869210
+            MAEA: 128203694
+            OBI: 106882594
+            OSN: 115211025
+            LJP: 135469809
+            LAK: 106170881 106173663
+            SMM: Smp_186670
+            SHX: MS3_00005261
+            LLON: 135487049
+            NVE: 5499589 5509221
+            ATEN: 116308028
+            ADF: 107347294
+            AMIL: 114948167
+            MCAZ: 138045113
+            MFOO: 137977733
+            PDAM: 113680153
+            SPIS: 111336945
+            DGT: 114535055 114537690
+            XEN: 124450795
+            HMG: 100208851(cad)
+            HSY: 130653926
+            RES: 135688841
+            TAD: TRIADDRAFT_29177
+            AQU: 100635388
+            CCLM: 134185099
+            CME: CYME_CMQ255C
+            GSL: Gasu_42540
+            CCP: CHC_T00010056001
+            MBR: MONBRDRAFT_37518
+            SRE: PTSG_03067
+            DDI: DDB_G0276335(pyr1-3)
+            DPP: DICPUDRAFT_31008
+            DFA: DFA_05982(pyr1-3)
+            ACAN: ACA1_267180
+            GTT: GUITHDRAFT_160213
+REFERENCE   PMID:8619816
+  AUTHORS   Iwahana H, Fujimura M, Ii S, Kondo M, Moritani M, Takahashi Y, Yamaoka T, Yoshimoto K, Itakura M
+  TITLE     Molecular cloning of a human cDNA encoding a trifunctional enzyme of carbamoyl-phosphate synthetase-aspartate transcarbamoylase-dihydroorotase in de Novo pyrimidine synthesis.
+  JOURNAL   Biochem Biophys Res Commun 219:249-55 (1996)
+            DOI:10.1006/bbrc.1996.0213
+  SEQUENCE  [hsa:790]
+REFERENCE   PMID:24332717
+  AUTHORS   Grande-Garcia A, Lallous N, Diaz-Tejada C, Ramon-Maiques S
+  TITLE     Structure, functional characterization, and evolution of the dihydroorotase domain of human CAD.
+  JOURNAL   Structure 22:185-98 (2014)
+            DOI:10.1016/j.str.2013.10.016
+  SEQUENCE  [hsa:790]
+///

@@ -1,0 +1,223 @@
+ENTRY       K02304                      KO
+SYMBOL      MET8
+NAME        precorrin-2 dehydrogenase / sirohydrochlorin ferrochelatase [EC:1.3.1.76 4.99.1.4]
+PATHWAY     map00860  Porphyrin metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01120  Microbial metabolism in diverse environments
+            map01240  Biosynthesis of cofactors
+MODULE      M00846  Siroheme biosynthesis, glutamyl-tRNA => siroheme
+            M00924  Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide
+REACTION    R02864  S-adenosyl-L-methionine:uroporphyrin-III C-methyltransferase
+            R03947  S-adenosyl-L-methionine:uroporphyrin-III C-methyltransferase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
+               00860 Porphyrin metabolism
+                K02304  MET8; precorrin-2 dehydrogenase / sirohydrochlorin ferrochelatase
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.3  Acting on the CH-CH group of donors
+               1.3.1  With NAD+ or NADP+ as acceptor
+                1.3.1.76  precorrin-2 dehydrogenase
+                 K02304  MET8; precorrin-2 dehydrogenase / sirohydrochlorin ferrochelatase
+             4. Lyases
+              4.99  Other lyases
+               4.99.1  Sole sub-subclass for lyases that do not belong in the other subclasses
+                4.99.1.4  sirohydrochlorin ferrochelatase
+                 K02304  MET8; precorrin-2 dehydrogenase / sirohydrochlorin ferrochelatase
+DBLINKS     COG: COG1648
+            GO: 0043115 0004325
+GENES       SCE: YBR213W(MET8)
+            SEUB: DI49_1239
+            SPAO: SPAR_B03110
+            AGO: AGOS_AAR152W
+            ERC: Ecym_3081
+            KLA: KLLA0_C05544g
+            KMX: KLMA_10243(MET8)
+            LTH: KLTH0H06820g
+            VPO: Kpol_530p45
+            ZRO: ZYRO0C05038g
+            CGR: 2890446(MET8)
+            NCS: NCAS_0H01490(NCAS0H01490)
+            NDI: NDAI_0F01760(NDAI0F01760)
+            TPF: TPHA_0F02830(TPHA0F02830)
+            TBL: TBLA_0F02410(TBLA0F02410)
+            TGB: HG536_0H03770
+            TDL: TDEL_0G03660(TDEL0G03660)
+            KAF: KAFR_0G02310(KAFR0G02310)
+            KNG: KNAG_0M00860(KNAG0M00860)
+            ZMK: HG535_0G02120
+            DHA: DEHA2F02706g
+            PIC: PICST_63116(MET8)
+            SPAA: SPAPADRAFT_139882
+            LEL: PVL30_003869(MET8)
+            LBG: 92208361(LODBEIA_P31650)
+            CAL: CAALFM_C307210WA(MET8)
+            CTP: CTRG_05628
+            COT: CORT_0C00200
+            CDU: CD36_87130
+            CTEN: 18247041(MET8)
+            CLU: CLUG_05268
+            CLUS: A9F13_14g00396
+            CAUR: CJI96_0004390
+            ASAU: 88174217(PUMCH_003153)
+            PPA: PAS_chr1-4_0222
+            PKZ: C5L36_0D02750
+            BNN: FOA43_003079
+            BBRX: BRETT_005332
+            OPA: HPODL_05212
+            YLI: 2912753(YALI2_E01532g)
+            SLB: AWJ20_4352(MET8)
+            NCR: NCU07585
+            NTE: NEUTE1DRAFT77927(NEUTE1DRAFT_77927)
+            SMP: 10805368(SMAC4_07291)
+            PAN: PODANSg303
+            PBEL: QC761_300330(MET8)
+            PPSD: QC762_300330(MET8)
+            PPSP: QC763_300330(MET8)
+            PPSA: QC764_300330(MET8)
+            TTT: THITE_2116280
+            MTM: MYCTH_2305681
+            CTHR: CTHT_0064810
+            RTHE: 98126447(VTJ83DRAFT_5226)
+            MGR: MGG_17830
+            PPEI: PpBr36_04051
+            PGRI: PgNI_12405
+            TMN: UCRPA7_5070
+            SSCK: SPSK_09667
+            FGR: FGSG_04222
+            FPU: FPSE_10426
+            FPOA: FPOAC1_006676
+            FVN: FVRRES_07295
+            FVR: FVEG_10412
+            FOX: FOXG_11407
+            NHE: NECHADRAFT_70041
+            FFC: NCS54_00800800
+            FKR: NCS57_00843600
+            FMU: J7337_011688
+            TRE: TRIREDRAFT_54181
+            TRR: M419DRAFT_32006
+            TASP: 36616175(TrAFT101_002096)
+            MAW: 19248599(MET8_1)
+            MAJ: MAA_02805
+            MBRN: 26241694(met8)
+            PCHM: VFPPC_07187
+            UVI: 66061020(UV8b_00242)
+            CMT: CCM_04648
+            AMUS: LMH87_009119
+            PLJ: 28890908(PLICBS_004764)
+            PTKZ: JDV02_006592(MET8)
+            DCON: 63715707(DCS_03064)
+            VAL: VDBG_08550
+            VDA: VDAG_08219
+            CFJ: CFIO01_05975
+            CLUP: CLUP02_15823
+            CHIG: CH63R_05259
+            CDET: 87942334(CDEST_05831)
+            SAPO: SAPIO_CDS1496
+            ELA: UCREL1_7146
+            PFY: PFICI_05244
+            SSL: SS1G_14076
+            BFU: BCIN_12g05710(Bcmet8)
+            MBE: MBM_00710
+            PSCO: LY89DRAFT_84129
+            GLZ: GLAREA_08253
+            ANI: ANIA_06710
+            AFM: AFUA_7G05680
+            ACT: ACLA_007400
+            NFI: NFIA_026930
+            AOR: AO090005000430
+            ANG: An07g02200
+            AFV: AFLA_003217
+            ALUC: AKAW2_11934S(MET8)
+            ACHE: ACHE_60971S(MET8)
+            APUU: APUU_70240A(MET8)
+            PCS: N7525_008620
+            PDP: PDIP_47460
+            POU: POX_e06188
+            PPSF: 300794608(PFLUO_LOCUS8340)
+            TMF: EYB26_007388
+            TRG: TRUGW13939_06971
+            CIM: CIMG_05467
+            CPW: 9693140(MET8)
+            URE: UREG_06259
+            ABE: ARB_00672
+            TVE: TRV_05014
+            PBL: PAAG_00047
+            PBN: PADG_07214
+            AJE: HCAG_03974
+            BGH: BDBG_05735
+            PNO: SNOG_05850
+            PTE: PTT_11930
+            PTRR: 6343370(PtrM4_121630)
+            BZE: COCCADRAFT_108806
+            BSC: COCSADRAFT_38220
+            BOR: COCMIDRAFT_108836
+            AALT: CC77DRAFT_938306
+            ADAC: 96086524(ACET3X_006202)
+            ARAB: EKO05_0000658
+            ZTR: MYCGRDRAFT_76564
+            PFJ: MYCFIDRAFT_60255
+            FFU: CLAFUR5_02481
+            CBET: CB0940_03310
+            BCOM: BAUCODRAFT_122397
+            NPA: UCRNP2_3417
+            TML: GSTUM_00011202001
+            SPO: 2543624(met8)
+            SOM: SOMG_02407(met8)
+            CNE: CNF00750
+            CNB: CNBF3830
+            CNG: CNAG_05898
+            CGI: CGB_F5530C
+            CDEU: CNBG_1649
+            CDEC: 89990575(IAS62_003803)
+            CTEG: 91990787(I308_103931)
+            CBAS: 91983795(I312_103750)
+            CDEP: 91087407(L203_103196)
+            KMG: 30167760(I203_100091)
+            KNE: 92184047(IAR55_006789)
+            KDJ: 28971882(I303_106560)
+            KBI: 30204493(I302_101412)
+            KPIN: 30173837(I206_106989)
+            KSH: 87958256(IL334_006126)
+            KER: 91103733(V865_004932)
+            KEP: 91096738(L201_006068)
+            TMS: TREMEDRAFT_35940
+            TASA: A1Q1_04432
+            CCAC: CcaHIS019_0211480(MET8)
+            PPL: POSPLDRAFT_25647 POSPLDRAFT_25648
+            TVS: TRAVEDRAFT_146160
+            DSQ: DICSQDRAFT_84170
+            PCO: PHACADRAFT_256591
+            SHS: STEHIDRAFT_134062
+            HIR: HETIRDRAFT_379742
+            PSQ: PUNSTDRAFT_88347
+            ADL: AURDEDRAFT_110941
+            FME: FOMMEDRAFT_132168
+            GTR: GLOTRDRAFT_76688
+            RSX: RhiXN_03076
+            LBC: LACBIDRAFT_146719
+            CCI: CC1G_01163
+            ABP: AGABI1DRAFT117978(AGABI1DRAFT_117978)
+            PCUB: JR316_0003592
+            MPR: MPER_06565
+            MORE: E1B28_008890
+            SCM: SCHCO_02607604(SCHCODRAFT_02607604)
+            CPUT: CONPUDRAFT_135134
+            SLA: SERLADRAFT_474462
+            WSE: WALSEDRAFT_50897
+            UMA: UMAG_00458
+            PFP: PFL1_06158
+            SGRA: EX895_000687
+            MGL: MGL_2195
+            MRT: MRET_0314
+            MSYM: MSY001_1924
+            MLR: MELLADRAFT_49870
+REFERENCE   PMID:11980703
+  AUTHORS   Schubert HL, Raux E, Brindley AA, Leech HK, Wilson KS, Hill CP, Warren MJ
+  TITLE     The structure of Saccharomyces cerevisiae Met8p, a bifunctional dehydrogenase and ferrochelatase.
+  JOURNAL   EMBO J 21:2068-75 (2002)
+            DOI:10.1093/emboj/21.9.2068
+  SEQUENCE  [sce:YBR213W]
+///

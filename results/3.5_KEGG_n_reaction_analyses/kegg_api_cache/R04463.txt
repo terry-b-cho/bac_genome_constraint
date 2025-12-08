@@ -1,0 +1,25 @@
+ENTRY       R04463                      Reaction
+NAME        5'-phosphoribosylformylglycinamide:L-glutamine amido-ligase (ADP-forming)
+DEFINITION  ATP + 5'-Phosphoribosyl-N-formylglycinamide + L-Glutamine + H2O <=> ADP + Orthophosphate + 2-(Formamido)-N1-(5'-phosphoribosyl)acetamidine + L-Glutamate
+EQUATION    C00002 + C04376 + C00064 + C00001 <=> C00008 + C00009 + C04640 + C00025
+RCLASS      RC00002  C00002_C00008
+            RC00010  C00025_C00064
+            RC01160  C04376_C04640
+ENZYME      6.3.5.3
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00048  De novo purine biosynthesis, PRPP + glutamine => IMP
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.5  Carbon-nitrogen ligases with glutamine as amido-N-donor
+                6.3.5.3
+                 R04463  ATP + 5'-Phosphoribosyl-N-formylglycinamide + L-Glutamine + H2O <=> ADP + Orthophosphate + 2-(Formamido)-N1-(5'-phosphoribosyl)acetamidine + L-Glutamate
+ORTHOLOGY   K01952  phosphoribosylformylglycinamidine synthase [EC:6.3.5.3]
+            K23264  phosphoribosylformylglycinamidine synthase subunit PurS [EC:6.3.5.3]
+            K23265  phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]
+            K23269  phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]
+            K23270  phosphoribosylformylglycinamidine synthase subunit PurSL [EC:6.3.5.3]
+DBLINKS     RHEA: 17132
+///

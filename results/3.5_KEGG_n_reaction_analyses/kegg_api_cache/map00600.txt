@@ -1,0 +1,46 @@
+ENTRY       map00600                    Pathway
+NAME        Sphingolipid metabolism
+CLASS       Metabolism; Lipid metabolism
+PATHWAY_MAP map00600  Sphingolipid metabolism
+MODULE      M00066  Lactosylceramide biosynthesis [PATH:map00600]
+            M00067  Sulfoglycolipids biosynthesis, ceramide/1-alkyl-2-acylglycerol => sulfatide/seminolipid [PATH:map00600]
+            M00094  Ceramide biosynthesis [PATH:map00600]
+            M00099  Sphingosine biosynthesis [PATH:map00600]
+            M00100  Sphingosine degradation [PATH:map00600]
+DBLINKS     GO: 0006665
+REFERENCE   PMID:12011104
+  AUTHORS   Merrill AH Jr.
+  TITLE     De novo sphingolipid biosynthesis: a necessary, but dangerous, pathway.
+  JOURNAL   J Biol Chem 277:25843-6 (2002)
+            DOI:10.1074/jbc.R200009200
+REFERENCE   PMID:10652340
+  AUTHORS   Tani M, Okino N, Mitsutake S, Tanigawa T, Izu H, Ito M.
+  TITLE     Purification and characterization of a neutral ceramidase from mouse liver. A single protein catalyzes the reversible reaction in which ceramide is both hydrolyzed and synthesized.
+  JOURNAL   J Biol Chem 275:3462-8 (2000)
+            DOI:10.1074/jbc.275.5.3462
+REFERENCE   PMID:11305904
+  AUTHORS   Hannun YA, Luberto C, Argraves KM.
+  TITLE     Enzymes of sphingolipid metabolism: from modular to integrative signaling.
+  JOURNAL   Biochemistry 40:4893-903 (2001)
+            DOI:10.1021/bi002836k
+REFERENCE   PMID:1495423
+  AUTHORS   Merrill AH Jr, Wang E.
+  TITLE     Enzymes of ceramide biosynthesis.
+  JOURNAL   Methods Enzymol 209:427-37 (1992)
+            DOI:10.1016/0076-6879(92)09053-6
+REFERENCE   PMID:8457204
+  AUTHORS   Hirschberg K, Rodger J, Futerman AH.
+  TITLE     The long-chain sphingoid base of sphingolipids is acylated at the cytosolic surface of the endoplasmic reticulum in rat liver.
+  JOURNAL   Biochem J 290 ( Pt 3):751-7 (1993)
+            DOI:10.1042/bj2900751
+REFERENCE   PMID:10366774
+  AUTHORS   Dickson RC, Lester RL.
+  TITLE     Metabolism and selected functions of sphingolipids in the yeast Saccharomyces cerevisiae.
+  JOURNAL   Biochim Biophys Acta 1438:305-21 (1999)
+            DOI:10.1016/S1388-1981(99)00068-2
+REL_PATHWAY map00260  Glycine, serine and threonine metabolism
+            map00601  Glycosphingolipid biosynthesis - lacto and neolacto series
+            map00603  Glycosphingolipid biosynthesis - globo and isoglobo series
+            map00604  Glycosphingolipid biosynthesis - ganglio series
+KO_PATHWAY  ko00600
+///

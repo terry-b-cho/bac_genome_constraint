@@ -1,0 +1,24 @@
+ENTRY       R04144                      Reaction
+NAME        5-phospho-D-ribosylamine:glycine ligase (ADP-forming)
+DEFINITION  ATP + 5-Phosphoribosylamine + Glycine <=> ADP + Orthophosphate + 5'-Phosphoribosylglycinamide
+EQUATION    C00002 + C03090 + C00037 <=> C00008 + C00009 + C03838
+RCLASS      RC00002  C00002_C00008
+            RC00090  C00037_C03838
+            RC00166  C03090_C03838
+ENZYME      6.3.4.13
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00048  De novo purine biosynthesis, PRPP + glutamine => IMP
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.4  Other carbon-nitrogen ligases
+                6.3.4.13
+                 R04144  ATP + 5-Phosphoribosylamine + Glycine <=> ADP + Orthophosphate + 5'-Phosphoribosylglycinamide
+ORTHOLOGY   K01945  phosphoribosylamine---glycine ligase [EC:6.3.4.13]
+            K11787  phosphoribosylamine--glycine ligase / phosphoribosylglycinamide formyltransferase / phosphoribosylformylglycinamidine cyclo-ligase [EC:6.3.4.13 2.1.2.2 6.3.3.1]
+            K11788  phosphoribosylamine--glycine ligase / phosphoribosylformylglycinamidine cyclo-ligase [EC:6.3.4.13 6.3.3.1]
+            K13713  fusion protein PurCD [EC:6.3.2.6 6.3.4.13]
+DBLINKS     RHEA: 17456
+///

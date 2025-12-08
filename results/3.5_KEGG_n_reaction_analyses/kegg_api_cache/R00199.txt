@@ -1,0 +1,30 @@
+ENTRY       R00199                      Reaction
+NAME        ATP:pyruvate,water phosphotransferase
+DEFINITION  ATP + Pyruvate + H2O <=> AMP + Phosphoenolpyruvate + Orthophosphate
+EQUATION    C00002 + C00022 + C00001 <=> C00020 + C00074 + C00009
+COMMENT     multi-step reaction
+RCLASS      RC00002  C00002_C00020
+            RC00015  C00022_C00074
+ENZYME      2.7.9.2
+PATHWAY     rn00010  Glycolysis / Gluconeogenesis
+            rn00620  Pyruvate metabolism
+            rn00680  Methane metabolism
+            rn00720  Other carbon fixation pathways
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00173  Reductive citrate cycle (Arnon-Buchanan cycle)
+            M00374  Dicarboxylate-hydroxybutyrate cycle
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.9  Phosphotransferases with paired acceptors
+                2.7.9.2
+                 R00199  ATP + Pyruvate + H2O <=> AMP + Phosphoenolpyruvate + Orthophosphate
+            Overall reaction [br08210.html]
+             Carbon fixation
+              R00199
+ORTHOLOGY   K01007  pyruvate, water dikinase [EC:2.7.9.2]
+DBLINKS     RHEA: 11367
+///

@@ -1,0 +1,19 @@
+ENTRY       R02324                      Reaction
+NAME        ATP:N-ribosylnicotinamide 5'-phosphotransferase
+DEFINITION  ATP + Nicotinamide-beta-riboside <=> ADP + Nicotinamide D-ribonucleotide
+EQUATION    C00002 + C03150 <=> C00008 + C00455
+RCLASS      RC00002  C00002_C00008
+            RC00017  C00455_C03150
+ENZYME      2.7.1.22
+PATHWAY     rn00760  Nicotinate and nicotinamide metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.22
+                 R02324  ATP + Nicotinamide-beta-riboside <=> ADP + Nicotinamide D-ribonucleotide
+ORTHOLOGY   K06211  HTH-type transcriptional regulator, transcriptional repressor of NAD biosynthesis genes [EC:2.7.7.1 2.7.1.22]
+            K10524  nicotinamide/nicotinate riboside kinase [EC:2.7.1.22 2.7.1.173]
+DBLINKS     RHEA: 14020
+///

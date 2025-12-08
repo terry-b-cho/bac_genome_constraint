@@ -1,0 +1,72 @@
+ENTRY       map00997                    Pathway
+NAME        Biosynthesis of various other secondary metabolites
+  INCLUDING Ditryptophenaline biosynthesis, Fumiquinazoline D biosynthesis, Paerucumarin biosynthesis, Staphyloferrin B biosynthesis, Cyclooctatin biosynthesis, Lovastatin biosynthesis, Grixazone biosynthesis, Staphyloferrin A biosynthesis, Ethynylserine biosynthesis, Aerobactin biosynthesis
+CLASS       Metabolism; Biosynthesis of other secondary metabolites
+PATHWAY_MAP map00997  Biosynthesis of various other secondary metabolites
+MODULE      M00875  Staphyloferrin B biosynthesis, L-serine => staphyloferrin B [PATH:map00997]
+            M00876  Staphyloferrin A biosynthesis, L-ornithine => staphyloferrin A [PATH:map00997]
+            M00891  Ditryptophenaline biosynthesis, tryptophan + phenylalanine => ditryptophenaline [PATH:map00997]
+            M00893  Lovastatin biosynthesis, malonyl-CoA => lovastatin acid [PATH:map00997]
+            M00901  Fumiquinazoline biosynthesis, tryptophan + alanine + anthranilate => fumiquinazoline [PATH:map00997]
+            M00905  Grixazone biosynthesis, aspartate 4-semialdehyde => grixazone B [PATH:map00997]
+            M00906  Ethynylserine biosynthesis, lysine => ethynylserine [PATH:map00997]
+            M00918  Aerobactin biosynthesis, lysine => aerobactin [PATH:map00997]
+            M00921  Cyclooctatin biosynthesis, dimethylallyl-PP + isopentenyl-PP => cyclooctatin [PATH:map00997]
+REFERENCE   PMID:24677498
+  AUTHORS   Saruwatari T, Yagishita F, Mino T, Noguchi H, Hotta K, Watanabe K
+  TITLE     Cytochrome P450 as dimerization catalyst in diketopiperazine alkaloid biosynthesis.
+  JOURNAL   Chembiochem 15:656-9 (2014)
+            DOI:10.1002/cbic.201300751
+REFERENCE   PMID:24612080
+  AUTHORS   Lim FY, Ames B, Walsh CT, Keller NP
+  TITLE     Co-ordination between BrlA regulation and secretion of the oxidoreductase FmqD directs selective accumulation of fumiquinazoline C to conidial tissues in Aspergillus fumigatus.
+  JOURNAL   Cell Microbiol 16:1267-83 (2014)
+            DOI:10.1111/cmi.12284
+REFERENCE   PMID:18689486
+  AUTHORS   Clarke-Pearson MF, Brady SF
+  TITLE     Paerucumarin, a new metabolite produced by the pvc gene cluster from Pseudomonas  aeruginosa.
+  JOURNAL   J Bacteriol 190:6927-30 (2008)
+            DOI:10.1128/JB.00801-08
+REFERENCE   PMID:19775248
+  AUTHORS   Cheung J, Beasley FC, Liu S, Lajoie GA, Heinrichs DE
+  TITLE     Molecular characterization of staphyloferrin B biosynthesis in Staphylococcus aureus.
+  JOURNAL   Mol Microbiol 74:594-608 (2009)
+            DOI:10.1111/j.1365-2958.2009.06880.x
+REFERENCE   PMID:19635410
+  AUTHORS   Kim SY, Zhao P, Igarashi M, Sawa R, Tomita T, Nishiyama M, Kuzuyama T
+  TITLE     Cloning and heterologous expression of the cyclooctatin biosynthetic gene cluster afford a diterpene cyclase and two p450 hydroxylases.
+  JOURNAL   Chem Biol 16:736-43 (2009)
+            DOI:10.1016/j.chembiol.2009.06.007
+REFERENCE   PMID:23653178
+  AUTHORS   Xu W, Chooi YH, Choi JW, Li S, Vederas JC, Da Silva NA, Tang Y
+  TITLE     LovG: the thioesterase required for dihydromonacolin L release and lovastatin nonaketide synthase turnover in lovastatin biosynthesis.
+  JOURNAL   Angew Chem Int Ed Engl 52:6472-5 (2013)
+            DOI:10.1002/anie.201302406
+REFERENCE   PMID:17003031
+  AUTHORS   Suzuki H, Ohnishi Y, Furusho Y, Sakuda S, Horinouchi S
+  TITLE     Novel benzene ring biosynthesis from C(3) and C(4) primary metabolites by two enzymes.
+  JOURNAL   J Biol Chem 281:36944-51 (2006)
+            DOI:10.1074/jbc.M608103200
+REFERENCE   PMID:19138128
+  AUTHORS   Cotton JL, Tao J, Balibar CJ
+  TITLE     Identification and characterization of the Staphylococcus aureus gene cluster coding for staphyloferrin A.
+  JOURNAL   Biochemistry 48:1025-35 (2009)
+            DOI:10.1021/bi801844c
+REFERENCE   PMID:30867596
+  AUTHORS   Marchand JA, Neugebauer ME, Ing MC, Lin CI, Pelton JG, Chang MCY
+  TITLE     Discovery of a pathway for terminal-alkyne amino acid biosynthesis.
+  JOURNAL   Nature 567:420-424 (2019)
+            DOI:10.1038/s41586-019-1020-y
+REFERENCE   PMID:1393837
+  AUTHORS   Neilands JB
+  TITLE     Mechanism and regulation of synthesis of aerobactin in Escherichia coli K12 (pColV-K30).
+  JOURNAL   Can J Microbiol 38:728-33 (1992)
+            DOI:10.1139/m92-119
+REL_PATHWAY map00010  Glycolysis / Gluconeogenesis
+            map00020  Citrate cycle (TCA cycle)
+            map00250  Alanine, aspartate and glutamate metabolism
+            map00260  Glycine, serine and threonine metabolism
+            map00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            map00900  Terpenoid backbone biosynthesis
+KO_PATHWAY  ko00997
+///

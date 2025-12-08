@@ -1,0 +1,597 @@
+ENTRY       K14727                      KO
+SYMBOL      pcaL
+NAME        3-oxoadipate enol-lactonase / 4-carboxymuconolactone decarboxylase [EC:3.1.1.24 4.1.1.44]
+PATHWAY     map00362  Benzoate degradation
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01220  Degradation of aromatic compounds
+MODULE      M00568  Catechol ortho-cleavage, catechol => 3-oxoadipate
+REACTION    R02991  4-carboxymethylbut-3-en-4-olide enol-lactonohydrolase
+            R03470  4-carboxymuconolactone carboxy-lyase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09111 Xenobiotics biodegradation and metabolism
+               00362 Benzoate degradation
+                K14727  pcaL; 3-oxoadipate enol-lactonase / 4-carboxymuconolactone decarboxylase
+            Enzymes [BR:ko01000]
+             3. Hydrolases
+              3.1  Acting on ester bonds
+               3.1.1  Carboxylic-ester hydrolases
+                3.1.1.24  3-oxoadipate enol-lactonase
+                 K14727  pcaL; 3-oxoadipate enol-lactonase / 4-carboxymuconolactone decarboxylase
+             4. Lyases
+              4.1  Carbon-carbon lyases
+               4.1.1  Carboxy-lyases
+                4.1.1.44  4-carboxymuconolactone decarboxylase
+                 K14727  pcaL; 3-oxoadipate enol-lactonase / 4-carboxymuconolactone decarboxylase
+DBLINKS     COG: COG0596 COG0599
+            GO: 0047570 0047575
+GENES       SMAR: SM39_2609
+            SERF: L085_12795
+            SURI: J0X03_08140(pcaD)
+            PAM: PANA_3346(catD)
+            PLF: PANA5342_0715(catD)
+            PAJ: PAJ_2591(catD)
+            PAQ: PAGR_g0733
+            PAGC: BEE12_22245
+            LCP: LC55x_1059(pcaC)
+            GKD: K6Q96_19630
+            ELIT: AB8599_16350
+            MBS: MRBBS_1320(pcaD)
+            PSPG: AK823_05490
+            PSYG: AK825_05545
+            CSA: Csal_0302
+            CCAG: SR908_06735
+            HEL: HELO_3958
+            HAK: KO116_00164
+            HAM: HALO0088
+            HHU: AR456_17745
+            HPRO: LMS44_23295
+            HHAO: QWG60_01745
+            HASO: B2G49_18405
+            HCAM: I4484_19040
+            HAAH: HALA3H3_370013
+            HABD: OM794_22420
+            HAFN: KF947_10855
+            HAMC: HNO52_18980
+            HANY: LG409_17055
+            HADN: NKF27_02075
+            HAAZ: HaloA020_10560
+            HSPE: IT895_18445
+            HCK: MRB56_20935
+            HHH: CLM76_07185
+            HOL: HORIV_71180
+            HPIZ: GYM47_17235
+            HNP: SR894_21800
+            HTT: HZS52_05220
+            HMD: CTT34_17645
+            VRE: ACFIOZ_21460
+            VRS: V8F66_21280
+            HSX: HNO51_19120
+            HTX: EKK97_21440
+            HSV: HNO53_19400
+            KUS: B9G99_05140
+            KMA: B9H00_10030
+            SAJS: QO259_01860
+            MARS: A8C75_03785
+            MRZ: KDW95_12440(pcaD)
+            OCE: GU3_14330
+            SALN: SALB1_1080
+            RPJ: N234_32957
+            REH: H16_B2288(pcaCD)
+            CNC: CNE_2c22560(pcaCD)
+            CUH: BJN34_33845
+            REU: Reut_B5022
+            RME: Rmet_4016(pcaD)
+            CBW: RR42_s2354
+            CCUP: BKK81_28415
+            CUP: BKK80_27960
+            CUU: BKK79_33875
+            CPAU: EHF44_19565(pcaD)
+            COX: E0W60_04925(pcaD)
+            CCAM: M5D45_20640(pcaD)
+            CUK: KB879_16670(pcaD)
+            CNAN: A2G96_28865
+            CUPE: KLP38_20015(pcaD)
+            CUPP: CTP10_R56980(pcaD)
+            PEW: KZJ38_26820(pcaD)
+            PBON: QS306_14130(pcaD)
+            RAND: ACQUFY_19950(pcaD)
+            BBRO: BAU06_03800
+            BFZ: BAU07_15815
+            BOH: AKI39_21280
+            PIG: EGT29_00565(pcaD)
+            BOF: FQV39_13470(pcaD) FQV39_22350(pcaD)
+            AZC: AZC_1444
+            MET: M446_4655
+            MNO: Mnod_2083
+            META: Y590_19180
+            MAQU: Maq22A_c03900(mhpC)
+            MEE: DA075_03115(pcaD)
+            MTEA: DK419_07280(pcaD)
+            MIND: mvi_43530
+            MOC: BB934_22175
+            MAAD: AZF01_20130
+            JAV: OXU80_01180(pcaD)
+            PSF: PSE_2278(pcaD)
+            CCR: CC_2411
+            CCS: CCNA_02494
+            CAK: Caul_3853
+            CSE: Cseg_2355
+            CAUL: KCG34_04705(pcaD)
+            YRH: AABB31_17640
+            NRE: BES08_24935(pcaL)
+            NDR: HT578_08780(pcaD)
+            NHUM: PQ457_18345(pcaD)
+            SNAP: PQ455_14630(pcaD)
+            SAAP: E2E30_19900(pcaD)
+            SPCL: F9288_01400(pcaD)
+            SINA: KNJ79_18265(pcaD)
+            SWI: Swit_1070
+            SPCA: GL174_01200(pcaD)
+            SPWT: N6H05_08280(pcaD)
+            GBE: GbCGDNIH1_0525
+            GBH: GbCGDNIH2_0525
+            GBC: GbCGDNIH3_0525
+            GBS: GbCGDNIH4_0525
+            ACR: Acry_3004
+            AMV: ACMV_33480(pcaL)
+            RGI: RGI145_19280
+            ROS: CTJ15_17225(pcaC)
+            RMUC: FOB66_21290(pcaC)
+            RMT: IAI58_20355(pcaD)
+            RCV: PFY06_12695(pcaC)
+            SUR: STAUR_1335(pcaCD)
+            PBRU: LZC95_00590(pcaD)
+            PRUE: LVJ94_00595(pcaD)
+            PALJ: LZC94_00450(pcaC)
+            PPHT: GA004_04015(pcaC)
+            TPLA: ElP_22180(bioH)
+            SUS: Acid_0244
+            ABAC: LuPra_04010(catD)
+            HHY: Halhy_5004
+            SLI: Slin_1535
+            SPIR: CWM47_00590
+            SPIK: EXU85_00820(pcaD)
+            SRHO: HH216_17340(pcaD)
+            SENF: GJR95_37915(pcaD)
+            EOL: Emtol_1578
+            RSI: Runsl_0527
+            RUN: DR864_04990
+            RUP: DTQ70_10645(pcaD)
+            MARM: YQ22_04985
+            MARB: CJ263_16440
+            MLIO: NYZ99_12265(pcaD)
+            TSX: RHP49_17125(pcaD)
+            ERZ: ER308_16390(pcaD)
+            MMC: Mmcs_1701
+            MKM: Mkms_1729 Mkms_1745
+            MJL: Mjls_1679
+            MKN: MKAN_01100 MKAN_23755
+            MYE: AB431_15725
+            MNM: MNVM_33330
+            MGAU: MGALJ_11440
+            MBRD: MBRA_44360
+            MADI: A7U43_01855 A7U43_27820
+            MSM: MSMEG_2604(pcaC)
+            MVA: Mvan_0563
+            MGI: Mflv_0527
+            MSP: Mspyr1_02320
+            MRH: MycrhN_3220
+            MMAG: MMAD_03480
+            MARZ: MARA_04420
+            MGAD: MGAD_12740
+            MPHU: MPHO_51010
+            MSEI: MSEDJ_10040
+            MMON: EWR22_08650(pcaC)
+            MPAE: K0O64_27270(pcaC)
+            MRF: MJO55_29175(pcaC)
+            MDF: K0O62_03410
+            MCRO: MI149_00570(pcaC)
+            MFRE: EXE63_02035 EXE63_02265(pcaC) EXE63_06615(pcaC)
+            MBUG: MU0053_005111(pcaC)
+            MPAT: MPNTM1_05393
+            MIZ: BAB75_27020
+            MJD: JDM601_2716(pip)
+            MTER: 4434518_02664(pip_1)
+            MMIN: MMIN_04110
+            MHIB: MHIB_21420
+            MHER: K3U94_15525(pcaC)
+            MVM: MJO54_15480(pcaC)
+            CAMC: I6I65_04755
+            RHA: RHA1_ro01338(pcaL)
+            RER: RER_52890(pcaL)
+            REY: O5Y_25115
+            REB: XU06_25470
+            RQI: C1M55_26665
+            ROP: ROP_10540(pcaL)
+            ROA: Pd630_LPD05453
+            RPY: Y013_13395
+            RBY: CEJ39_00735
+            RHB: NY08_392
+            RAV: AAT18_24240
+            RRZ: CS378_13825
+            RHQ: IM25_04745 IM25_23020
+            RHOD: AOT96_06565
+            RRT: 4535765_04606(catD_6)
+            RKO: JWS14_06885(pcaD)
+            RGO: KYT97_30335(pcaD)
+            ROZ: CBI38_11180
+            RPSK: JWS13_39565(pcaD)
+            RGOR: NMQ04_19575(pcaD)
+            RANT: RHODO2019_00240(pcaD)
+            RHOO: RA302_25710(pcaD)
+            RHOU: KZJ41_25695(pcaD)
+            RHOW: A4U64_00325
+            RHOJ: JVH1_30655(pcaD)
+            RHOS: QWW67_14720(pcaD)
+            RHOQ: QWW98_14725(pcaD)
+            RHOY: QNA09_21340(pcaD)
+            RHOH: CPI83_03805
+            RHOX: RBB84_18075(pcaD)
+            RHJS: OYT95_32095(pcaD)
+            RSF: OED52_19425(pcaD)
+            RHZQ: GO592_07615(pcaD)
+            RHZG: BO226_21245
+            RHBH: A0W34_25370
+            RHPD: U9J23_22705(pcaD)
+            RHON: EHW12_26155(pcaD)
+            RHWB: FND50_24660(pcaD)
+            RHSQ: E7742_12835(pcaD)
+            RHWY: GFS60_02412(pcaC)
+            RHDM: HFP48_25020(pcaD)
+            RHWQ: HUN07_19300(pcaD)
+            RHMM: ISO16_14670(pcaD)
+            RHZP: HYG77_04425(pcaD)
+            RHRC: P0M12_08360(pcaD)
+            RHNY: ACBG85_25090(pcaD)
+            RHRD: RDE2_47320
+            RHDK: PST05_06865(pcaD)
+            RFA: A3L23_03718(catD)
+            RHS: A3Q41_04522(catD_2)
+            REQ: REQ_33590(pcaL)
+            PDEF: P9209_11880(pcaD)
+            PSOW: ABI214_21440(pcaD)
+            GOC: CXX93_01745(pcaC)
+            GOS: QAD21_13275(pcaC)
+            GJI: H1R19_00985(pcaC)
+            GSI: P5P27_04585(pcaC)
+            TPR: Tpau_0618
+            DTM: BJL86_0346
+            DLU: A6035_02410
+            SCO: SCO6339(SC3A7.07) SCO6697(SC4C6.07c)
+            SALB: XNR_0508
+            SMA: SAVERM_1706(pcaL1) SAVERM_1968(pcaL2)
+            SGR: SGR_1257
+            SGB: WQO_29035
+            SFI: SFUL_6212
+            SANL: KZO11_31035
+            SGRF: SGFS_027390 SGFS_030740
+            SCYE: R2B67_04920
+            SCB: SCAB_13661 SCAB_18171
+            SSX: SACTE_5554
+            SVL: Strvi_2455 Strvi_7689
+            SHY: SHJG_7386 SHJG_7604
+            SHO: SHJGH_7146 SHJGH_7365
+            SRC: M271_13485 M271_32870
+            SMAL: SMALA_2485 SMALA_6052
+            SAUO: BV401_34065
+            SSOI: I1A49_34120(pcaC)
+            SANT: QR300_11295(pcaC) QR300_28980(pcaC)
+            SFA: Sfla_1009
+            SBH: SBI_02905 SBI_07267
+            SVE: SVEN_6144
+            SDV: BN159_1725 BN159_2030
+            SALS: SLNWT_0031 SLNWT_0514
+            STRP: F750_5838
+            SCI: B446_29405 B446_30575
+            SLV: SLIV_05020 SLIV_06455
+            SGU: SGLAU_27010
+            SVT: SVTN_30530 SVTN_37100
+            STRE: GZL_02577
+            SCW: TU94_27090 TU94_28735
+            SLD: T261_1812 T261_1950
+            SLC: SL103_24635 SL103_25670
+            STRC: AA958_29245
+            SAMB: SAM23877_6017 SAM23877_6351
+            SPRI: SPRI_1384
+            SCZ: ABE83_05320
+            SCX: AS200_09290 AS200_11095
+            SRW: TUE45_07009(catD_2) TUE45_07247(catD_3)
+            STRF: ASR50_28750 ASR50_30190
+            SLE: sle_11280(sle_11280) sle_13730(sle_13730)
+            SRN: A4G23_04871(catD_3)
+            SPAV: Spa2297_26695 Spa2297_27865
+            STRT: A8713_26175 A8713_27080
+            SCLF: BB341_03850
+            SGS: AVL59_13525 AVL59_14810
+            STSI: A4E84_32995 A4E84_34430
+            SKY: D0C37_04070
+            SALW: CP975_29690(pcaC) CP975_30900(pcaD)
+            SGM: GCM10017557_12080 GCM10017557_14770
+            SCAD: DN051_08800(pcaD) DN051_09875(pcaC)
+            SPHW: NFX46_10855(pcaC) NFX46_12340(pcaD)
+            SGRS: V9K83_04835(pcaD) V9K83_05860
+            SLS: SLINC_6798 SLINC_7130
+            SNR: SNOUR_10990
+            SALU: DC74_6311 DC74_6435
+            SALL: SAZ_31690 SAZ_33205
+            SPLU: LK06_027655
+            STRD: NI25_04920 NI25_06330
+            SNW: BBN63_05550
+            SSIA: A7J05_07585
+            SVU: B1H20_29670
+            SPUN: BFF78_06730 BFF78_09300
+            SGV: B1H19_32085
+            SLAU: SLA_6203
+            SALF: SMD44_06950(pcaL)
+            SALJ: SMD11_1392(pcaL)
+            STRO: STRMOE7_29930 STRMOE7_30805
+            SFK: KY5_6653 KY5_7039c
+            SNZ: DC008_28150(pcaC) DC008_29370
+            SGE: DWG14_01475(catD_1) DWG14_01790(catD_2)
+            SRJ: SRO_1498
+            SVQ: N6Q81_28005 N6Q81_29295(pcaD)
+            SLK: SLUN_32260(pcaC)
+            SDX: C4B68_05160 C4B68_06820(pcaC)
+            SGD: ELQ87_05600(pcaD) ELQ87_06950(pcaC)
+            SQZ: FQU76_28015
+            SCYA: EJ357_38250(pcaC) EJ357_40185(pcaD)
+            SAST: CD934_03575 CD934_04920(pcaC) CD934_30960
+            SNQ: CP978_26830(pcaC) CP978_28725(pcaD)
+            STIR: DDW44_26115(pcaC)
+            SKA: CP970_04865(pcaD) CP970_07365(pcaC)
+            SNK: CP967_02795(pcaD) CP967_04505(pcaC)
+            SHAW: CEB94_33865(pcaC) CEB94_35270(pcaD)
+            SRK: FGW37_26225
+            SFIC: EIZ62_05705(pcaC)
+            SGAL: CP966_29475(pcaC) CP966_30740(pcaD)
+            SSPO: DDQ41_23500(pcaC)
+            SPAD: DVK44_29240(pcaC) DVK44_35320(pcaD)
+            SFY: GFH48_08415(pcaD) GFH48_10065(pcaC)
+            SAQU: EJC51_37585(pcaC) EJC51_39125(pcaD)
+            SGF: HEP81_01463(pcaC)
+            SCAV: CVT27_28535
+            SSEO: D0Z67_23705
+            SBY: H7H31_00465(pcaD) H7H31_05625
+            SRIM: CP984_07495(pcaC) CP984_08115(pcaC)
+            SPHV: F9278_39230(pcaC) F9278_40440(pcaD)
+            SCIN: CP977_27815
+            SFUG: CNQ36_26945(pcaC) CNQ36_30725
+            SPAC: B1H29_05765 B1H29_07065
+            STSU: B7R87_28380
+            SCHA: CP983_06815(pcaD) CP983_08660(pcaC)
+            SGX: H4W23_31680 H4W23_37175(pcaD)
+            SCOE: CP976_35015(pcaC) CP976_36785(pcaD)
+            SBAT: G4Z16_04990(pcaC) G4Z16_24180
+            SSPB: CP982_32805(pcaC)
+            SPLA: CP981_30205(pcaD) CP981_31410(pcaC)
+            SBRO: GQF42_34235 GQF42_37345(pcaD)
+            STUI: GCM10017668_57750 GCM10017668_60490
+            SATA: C5746_33860(pcaC) C5746_41600
+            SCHF: IPT68_30060(pcaC) IPT68_31385(pcaD)
+            SHUN: DWB77_01663(catD_1)
+            SCYG: S1361_31990(catD3)
+            SFEU: IM697_28790(pcaD) IM697_31215(pcaC)
+            SLIA: HA039_05840(pcaC)
+            SDW: K7C20_28915(pcaD) K7C20_29770(pcaC)
+            SVD: CP969_02175 CP969_30605 CP969_32020(pcaD)
+            SCAL: I6J39_29505
+            SAUH: SU9_028435(pcaC)
+            SFB: CP974_26060
+            SPRA: CP972_29355 CP972_30735(pcaD)
+            SPEU: CGZ69_30280(pcaC)
+            SROI: IAG44_06455(pcaC) IAG44_07690(pcaC)
+            SXN: IAG42_06650(pcaC) IAG42_12350
+            SGJ: IAG43_26960(pcaC)
+            SHK: J2N69_30940(pcaC) J2N69_32395(pcaD)
+            SANU: K7396_07310(pcaC)
+            SDD: D9753_06240(pcaC)
+            SACT: DMT42_30985 DMT42_32145
+            SGOB: test1122_23120(pcaC)
+            SINE: KI385_34625(pcaD) KI385_35520(pcaC)
+            SLF: JEQ17_09055(pcaD) JEQ17_10850(pcaC)
+            SDEC: L3078_37280(pcaC) L3078_38695(pcaD)
+            SAOV: G3H79_06295(pcaC)
+            SDUR: M4V62_08150(pcaD) M4V62_09500(pcaC)
+            SRUG: F0345_24885
+            SAKB: K1J60_05625(pcaD) K1J60_08000(pcaC)
+            STAA: LDH80_08740 LDH80_35505(pcaD)
+            SNIG: HEK616_48200 HEK616_49720
+            SVIO: HWN34_03440
+            SCAE: IHE65_06030(pcaD) IHE65_08230(pcaC)
+            STUB: MMF93_27115(pcaC) MMF93_29165
+            SSPN: LXH13_31445 LXH13_32985(pcaD)
+            SCIR: STRCI_006531(pcaC) STRCI_006807(pcaD)
+            SLON: LGI35_34150(pcaC) LGI35_35175(pcaD)
+            SDRZ: NEH16_04650
+            STUD: STRTU_001221(pcaC)
+            STEE: F3L20_13465(pcaC)
+            SENG: OJ254_29600(pcaD)
+            SYUN: MOV08_10790(pcaC) MOV08_11360(pcaD)
+            SARG: HKX69_04760(pcaD) HKX69_06155(pcaC)
+            SJN: RI060_06090(pcaD) RI060_07710(pcaC)
+            SCYN: N8I84_31935(pcaC) N8I84_33985(pcaD)
+            SFIY: F0344_04205
+            SHAU: K9S39_11055(pcaC)
+            SKG: KJK29_04515(pcaD) KJK29_05810(pcaC)
+            SCOA: QU709_05055(pcaD) QU709_07465(pcaC)
+            SLAI: P8A22_01955(pcaC) P8A22_06125
+            SFP: QUY26_07265(pcaC)
+            SCHG: NRO40_24575(pcaC)
+            SINN: ABB07_05225 ABB07_06770
+            STRZ: OYE22_00540(pcaD) OYE22_05435
+            SCAY: PYS65_04060(pcaD) PYS65_05900
+            KBU: Q4V64_46760(pcaD) Q4V64_55680(pcaC)
+            SARM: DVA86_00355(pcaC) DVA86_00575
+            SLUO: PS467_02925 PS467_14390(pcaD) PS467_31455
+            STPB: QR97_17940 QR97_19715
+            SRPA: HEP86_31445(pcaD) HEP86_32615(pcaC)
+            SMIB: SMIR_01295(pcaD) SMIR_04300(pcaC)
+            SCAJ: O1G22_07215(pcaD) O1G22_08455(pcaC)
+            STRW: QHG49_07240
+            STRL: HEP84_40315(pcaC) HEP84_43300(pcaD)
+            STSD: HEP87_41880(pcaC) HEP87_44550(pcaD)
+            SRPZ: HEP85_31375(pcaC) HEP85_33065(pcaD)
+            SCHE: QRN89_18425(pcaD) QRN89_28465(pcaC)
+            SGLY: P8A20_03935(pcaD) P8A20_05615
+            SCAT: P8A18_29115
+            SABD: N8I86_29845 N8I86_31100(pcaD)
+            STRV: EZV63_30225(pcaC) EZV63_31785(pcaD)
+            SPAZ: ABXI76_05685(pcaC)
+            SPIH: ABXR15_03450(pcaC)
+            SMOD: POD33_25200(pcaC) POD33_33245(pcaD)
+            SPOF: P8A21_33130 P8A21_37655(pcaD)
+            STBR: ABDE16_05495(pcaD) ABDE16_06900
+            SGRO: UBV09_28150
+            STAC: ABII15_31225(pcaC) ABII15_32745(pcaD)
+            STVB: OH133_05365
+            SSOC: ABZO31_27035
+            SSLI: R2D22_07235
+            STYI: C9F11_31935(catD)
+            SCIT: V2W30_32145(pcaC) V2W30_33870(pcaD)
+            SSIR: WAB15_32455(pcaC)
+            SEXP: SLV14_001473(pcaC) SLV14_001766
+            SFLU: ACKTSN_08850(pcaC)
+            SOKE: ACE1N8_29750(pcaC)
+            SLUA: AB8735_05460(pcaD)
+            STGO: KBP30_07825(pcaD) KBP30_08850(pcaC)
+            STCM: SCMC78_09840
+            STID: G7Z12_06770(pcaC) G7Z12_07810
+            STCZ: JHY03_58930
+            STHU: M1P56_23570
+            STRQ: CGL27_16945 CGL27_35490(pcaC)
+            SSEC: ABZO29_08705(pcaD) ABZO29_10860(pcaC)
+            SHUG: ABVG11_09225(pcaC) ABVG11_37290(pcaD)
+            STRK: R2B38_34315(pcaC)
+            STJL: ACE1OA_07260
+            SCT: SCAT_4828
+            SCY: SCATT_48230
+            KAB: B7C62_30790
+            PPOD: AB0761_35075(pcaD)
+            YIA: LO772_32225
+            ABRY: NYE86_24360
+            AGLA: OIE69_07235(pcaC) OIE69_10945
+            AREV: RVR_1688 RVR_8153
+            LEIF: HF024_10690
+            LSE: F1C12_11450(pcaC)
+            MPRL: AB0870_16750
+            MCLI: PQV94_01545
+            AGY: ATC03_10695
+            AMAV: GCM10025877_23100
+            CPHY: B5808_03025
+            MHUM: NNL39_07985(pcaC)
+            MYL: C3E77_01170
+            LYD: D7I47_08155
+            SUBT: KPL76_03370(pcaC)
+            NAEI: GCM126_03390
+            AJG: KKR91_13530
+            ASUN: KG104_14430
+            AWW: G8758_12060
+            ACAO: NF551_12845(pcaC) NF551_12850
+            AZH: MUK71_12790(pcaC)
+            AGEG: MUG94_13815(pcaC)
+            AKO: N9A08_12395
+            ARTN: ABCW42_19905
+            PANY: ACPFL9_20305
+            PSNB: NIBR502770_17450
+            GPR: JQN66_01975
+            GEY: QMQ05_02185
+            KPL: KPaMU14_09965
+            MPOR: KW076_03920
+            CCYC: SCMU_39680
+            SPUE: AB5L97_18550
+            NAE: BHE16_09925
+            CMUA: P8192_13185(pcaC)
+            PAEY: KUF55_17265
+            PROZ: ACO229_06220
+            ARS: ADJ73_06015
+            BLY: A2T55_04135 A2T55_07795
+            BLIN: BLSMQ_0773
+            BRI: FDF13_08985
+            BLUT: EW640_05225
+            BCAU: I6G59_06945(pcaC) I6G59_10950
+            BSPO: L1F31_04200(pcaC)
+            ARUB: J5A65_09370
+            MIK: FOE78_11915(pcaC)
+            TFA: BW733_12860
+            TES: BW730_10175
+            TDF: H9L22_09205
+            TLS: QH948_10505
+            BRT: J4N02_07160
+            NCA: Noca_1011
+            NDK: I601_1607(catD_1)
+            NANO: G5V58_11585
+            NARO: CFH99_20135
+            NAQU: ENKNEFLB_00531(catD_1)
+            NRO: K8W59_17635(pcaC)
+            NPC: KUV85_14695(pcaC)
+            NPS: KRR39_02445(pcaC)
+            NMAR: HPC71_00600
+            NOCR: OSR43_00880 OSR43_13390(pcaC)
+            NOCW: ABFU82_26135
+            NOCL: KM427_00795(pcaC) KM427_02175(pcaC)
+            NOCD: QJ852_17635 QJ852_21300
+            NOCQ: QI633_04555
+            NLB: P5P86_19945
+            PSIM: KR76_06130
+            MUZ: H4N58_00590(pcaC)
+            MQR: AB3M34_00520(pcaC)
+            SGRG: L0C25_06640(pcaC)
+            NEX: NE857_15775(pcaD)
+            NEC: KGD82_14795(pcaD)
+            NCG: KGD84_19545(pcaC)
+            NOCB: UIS43_19115
+            SNAH: OUQ99_14010(pcaD)
+            SAIU: J4H86_15325
+            TCU: Tcur_3347
+            ACTW: F7P10_41240(pcaD)
+            AWS: ACN3XK_28905(pcaD) ACN3XK_29830(pcaD)
+            ACTQ: OG417_36150(pcaD)
+            NOA: BKM31_30655
+            NOW: GBF35_35110(pcaC)
+            NCX: Nocox_28245(catD2)
+            NGN: LCN96_14535(pcaC)
+            NFS: OIE67_32375(pcaC)
+            TBI: Tbis_2832
+            MHAI: OHB01_28500(pcaD)
+            ARHD: VSH64_09980(pcaD)
+            AMYD: K1T34_01060(pcaD)
+            PHH: AFB00_24455
+            PALQ: PaSha_17990(pcaD)
+            KAL: KALB_2210
+            KUT: JJ691_51370
+            LXR: ACRSBM_12125
+            ASE: ACPL_2370
+            AMS: AMIS_36700
+            ACTS: ACWT_2243
+            AIH: Aiant_69290
+            ACTL: L3i22_025760
+            ASIC: Q0Z83_059630(pcaD_1)
+            AOU: ACTOB_002358(pcaC)
+            ACTE: ACTI_55180
+            DVC: Dvina_30725(pcaC)
+            DMAT: Dmats_25810(pcaC)
+            DACT: KZZ52_43840
+            CAI: Caci_4887
+            AEY: CDG81_09395
+            JCY: M6B22_19315(pcaC)
+            BALA: DSM104299_03157
+            DGE: Dgeo_2388
+            DDR: Deide_1p01340
+            DAH: DAETH_33950
+            DMB: E5F05_14070(pcaD)
+            DSC: ABOD76_01745(pcaD)
+REFERENCE   PMID:17142403
+  AUTHORS   Hara H, Eltis LD, Davies JE, Mohn WW
+  TITLE     Transcriptomic analysis reveals a bifurcated terephthalate degradation pathway in Rhodococcus sp. strain RHA1.
+  JOURNAL   J Bacteriol 189:1641-7 (2007)
+            DOI:10.1128/JB.01322-06
+  SEQUENCE  [rha:RHA1_ro01338]
+REFERENCE   PMID:9495744
+  AUTHORS   Eulberg D, Lakner S, Golovleva LA, Schlomann M
+  TITLE     Characterization of a protocatechuate catabolic gene cluster from Rhodococcus opacus 1CP: evidence for a merged enzyme with 4-carboxymuconolactone-decarboxylating and 3-oxoadipate enol-lactone-hydrolyzing activity.
+  JOURNAL   J Bacteriol 180:1072-81 (1998)
+            DOI:10.1128/JB.180.5.1072-1081.1998
+  SEQUENCE  [roa:Pd630_LPD05453]
+///

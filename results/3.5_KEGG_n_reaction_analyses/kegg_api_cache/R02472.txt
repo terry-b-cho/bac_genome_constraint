@@ -1,0 +1,24 @@
+ENTRY       R02472                      Reaction
+NAME        (R)-pantoate:NADP+ 2-oxidoreductase
+DEFINITION  (R)-Pantoate + NADP+ <=> 2-Dehydropantoate + NADPH + H+
+EQUATION    C00522 + C00006 <=> C00966 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00726  C00522_C00966
+ENZYME      1.1.1.169
+PATHWAY     rn00770  Pantothenate and CoA biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01240  Biosynthesis of cofactors
+MODULE      M00119  Pantothenate biosynthesis, valine/L-aspartate => pantothenate
+            M00913  Pantothenate biosynthesis, 2-oxoisovalerate/spermine => pantothenate
+            M00914  Coenzyme A biosynthesis, archaea, 2-oxoisovalerate => 4-phosphopantoate => CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.169
+                 R02472  (R)-Pantoate + NADP+ <=> 2-Dehydropantoate + NADPH + H+
+ORTHOLOGY   K00077  2-dehydropantoate 2-reductase [EC:1.1.1.169]
+            K24263  2-dehydropantoate 2-reductase [EC:1.1.1.169]
+DBLINKS     RHEA: 16236
+///

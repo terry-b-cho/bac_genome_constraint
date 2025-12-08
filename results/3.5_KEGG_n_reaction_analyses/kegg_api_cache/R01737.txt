@@ -1,0 +1,22 @@
+ENTRY       R01737                      Reaction
+NAME        ATP:D-gluconate 6-phosphotransferase
+DEFINITION  ATP + D-Gluconic acid <=> ADP + 6-Phospho-D-gluconate
+EQUATION    C00002 + C00257 <=> C00008 + C00345
+RCLASS      RC00002  C00002_C00008
+            RC00017  C00257_C00345
+ENZYME      2.7.1.12
+PATHWAY     rn00030  Pentose phosphate pathway
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.12
+                 R01737  ATP + D-Gluconic acid <=> ADP + 6-Phospho-D-gluconate
+ORTHOLOGY   K00851  gluconokinase [EC:2.7.1.12]
+            K25031  gluconokinase [EC:2.7.1.12]
+DBLINKS     RHEA: 19436
+///

@@ -1,0 +1,232 @@
+ENTRY       K18649                      KO
+SYMBOL      IMPL2
+NAME        inositol-phosphate phosphatase / L-galactose 1-phosphate phosphatase / histidinol-phosphatase [EC:3.1.3.25 3.1.3.93 3.1.3.15]
+PATHWAY     map00053  Ascorbate and aldarate metabolism
+            map00340  Histidine metabolism
+            map00562  Inositol phosphate metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01230  Biosynthesis of amino acids
+            map04070  Phosphatidylinositol signaling system
+MODULE      M00026  Histidine biosynthesis, PRPP => histidine
+REACTION    R01185  1D-myo-inositol 1-phosphate phosphohydrolase
+            R01186  1D-myo-inositol 4-phosphate phosphohydrolase
+            R01187  1D-myo-inositol 3-phosphate phosphohydrolase
+            R03013  L-histidinol-phosphate phosphohydrolase
+            R07674  beta-L-galactose-1-phosphate phosphohydrolase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09101 Carbohydrate metabolism
+               00053 Ascorbate and aldarate metabolism
+                K18649  IMPL2; inositol-phosphate phosphatase / L-galactose 1-phosphate phosphatase / histidinol-phosphatase
+               00562 Inositol phosphate metabolism
+                K18649  IMPL2; inositol-phosphate phosphatase / L-galactose 1-phosphate phosphatase / histidinol-phosphatase
+              09105 Amino acid metabolism
+               00340 Histidine metabolism
+                K18649  IMPL2; inositol-phosphate phosphatase / L-galactose 1-phosphate phosphatase / histidinol-phosphatase
+             09130 Environmental Information Processing
+              09132 Signal transduction
+               04070 Phosphatidylinositol signaling system
+                K18649  IMPL2; inositol-phosphate phosphatase / L-galactose 1-phosphate phosphatase / histidinol-phosphatase
+            Enzymes [BR:ko01000]
+             3. Hydrolases
+              3.1  Acting on ester bonds
+               3.1.3  Phosphoric-monoester hydrolases
+                3.1.3.15  histidinol-phosphatase
+                 K18649  IMPL2; inositol-phosphate phosphatase / L-galactose 1-phosphate phosphatase / histidinol-phosphatase
+                3.1.3.25  inositol-phosphate phosphatase
+                 K18649  IMPL2; inositol-phosphate phosphatase / L-galactose 1-phosphate phosphatase / histidinol-phosphatase
+                3.1.3.93  L-galactose 1-phosphate phosphatase
+                 K18649  IMPL2; inositol-phosphate phosphatase / L-galactose 1-phosphate phosphatase / histidinol-phosphatase
+DBLINKS     GO: 0008934 0010347 0004401
+GENES       YBA: 132564867
+            ATH: AT4G39120(IMPL2)
+            ALY: 9304959
+            CRB: 17879544
+            CSAT: 104716190 104720823 104729217
+            EUS: EUTSA_v10025644mg
+            BRP: 103835143
+            BNA: 106353357 106361489 106406767
+            BOE: 106336071
+            RSZ: 108834826 130498826
+            THJ: 104807751
+            CPAP: 110810458
+            CIT: 102617016
+            CIC: CICLE_v10028779mg
+            PVY: 116110131
+            MINC: 123213625
+            TCC: 18607733
+            GRA: 105795327
+            GHI: 107908803 107927829
+            GAB: 108474730
+            HSYR: 120175431 120214810
+            DZI: 111297018
+            EGR: 104453354
+            RARG: 115754606
+            GMX: 100527811
+            GSJ: 114408443 114414466
+            PVU: 137821086
+            VRA: 106762079
+            VAR: 108330818
+            VUN: 114163228
+            VUM: 124824591
+            CCAJ: 109788874
+            APRC: 113864744
+            MTR: 11419457
+            TPRA: 123899510
+            CAM: 101502853
+            PSAT: 127083375
+            VVO: 131657633 131660419 131660427
+            LJA: 130729128
+            ADU: 107459071 107459873
+            AIP: 107609158 107613726
+            AHF: 112703118 112703639 112765607 112771437
+            LANG: 109327793
+            PCIN: 129285765 129293427
+            QSA: O6P43_001872 O6P43_011566
+            FVE: 101290997
+            AANS: 126783890
+            RCN: 112173712
+            PPER: 18768639
+            PMUM: 103335696
+            PAVI: 110768479
+            PDUL: 117637438
+            MDM: 103410485 103412081
+            MSYL: 126623914
+            PXB: 103939855 103962046
+            PCOX: 137726404 137729962
+            ZJU: 107426610
+            MNT: 21384156
+            CSAV: 115695844
+            HLP: 133781771
+            CSV: 101205614
+            CMO: 103499699
+            BHJ: 120087575
+            MCHA: 111015418
+            CMAX: 111484263
+            CMOS: 111448992
+            CPEP: 111777092
+            RCU: 8284328
+            MEAN: 126683119
+            JCU: 105630124
+            HBR: 110657808
+            MESC: 110613017
+            POP: 7464008
+            PEU: 105120157 105142070
+            PALZ: 118058937
+            PNZ: 133680276
+            JRE: 108986922 109013338
+            CILL: 122314369
+            CAVE: 132184145
+            AGLU: 133882813
+            QSU: 112020757
+            QLO: 115969608
+            CSAA: 142642298
+            TWL: 119990867 119997809 119998841 119998857 119999079 119999080 120006753
+            VVI: 100260677
+            VRI: 117909421
+            SLY: 101254644
+            SPEN: 107004365 107025374
+            SOT: 102589172 107060700
+            SSTN: 125856179 125873217
+            SDUL: 129869928 129885429
+            SVER: 125816674
+            CANN: 107840437
+            LBB: 132599198 132615550 132644329
+            NTA: 107765195 107767520 107779235 107791846 107797228 107815806
+            NSY: 104216633 104241226
+            NTO: 104085856 104085994 104101224
+            NAU: 109209275 109213673 109214303
+            INI: 109162162
+            ITR: 116015736
+            SIND: 105169672
+            OEU: 111394577 111412108
+            EGT: 105957671
+            SSPL: 121749700 121753114
+            SMIL: 131005402
+            SHIS: 125187025
+            APAN: 127258756
+            PEBU: 140811973
+            PTAB: 142526314 142526326
+            CARB: 113726278 113726279 113731247 113731252 113731255
+            HAN: 110929164
+            BHW: 143546958 143547154 143554559
+            ECAD: 122599474
+            LSV: 111918256
+            CCAV: 112501301
+            DCR: 108200932 108227607
+            AGRV: 141687143 141718258 141719392
+            CSIN: 114267151
+            RVL: 131307958 131325178
+            AEW: 130779094
+            DLT: 127801827
+            BVG: 104904312 104907756
+            SOE: 110792578
+            CQI: 110698430 110705128
+            ATRI: 130823150
+            SLAF: 141599340 141605259 141607211
+            MOF: 131156480
+            NNU: 104595613
+            MING: 122072599 122091979
+            TSS: 122657434 122661423
+            PSOM: 113308035
+            OSA: 4342620
+            DOSA: Os07g0191000
+            OBR: 102719163
+            OGL: 127778364
+            BDI: 100838580
+            ATS: 109768500
+            TDC: 119267870 119275762
+            TAES: 123060988 123069600 123078087
+            TUA: 125543533
+            HVG: 123443436
+            LPER: 127342405
+            LRD: 124665501
+            SBI: 8085818
+            ZMA: 100280816
+            MFLO: 136458031
+            SITA: 101782298
+            SVS: 117854542
+            PVIR: 120706421
+            PHAI: 112894336
+            PAUA: 133931074
+            PDA: 103711558
+            EGU: 105058778
+            ZOF: 121971558 121972880 121976096 121978554 121978561 121978567
+            DCT: 110107577
+            PEQ: 110031830
+            AOF: 109828921 109844836
+            MSIN: 131237920
+            ACAK: 137941116
+            NCOL: 116246642
+            ATR: 18426768
+            CJF: 131056799
+            SMO: SELMODRAFT_270021 SELMODRAFT_81253
+            PPP: 112285229 112288452 112291813
+            MNG: MNEG_15624
+            CSL: COCSUDRAFT_17466
+            CVR: CHLNCDRAFT_58575
+            APRO: F751_5675
+            OLU: OSTLU_31726
+            OTA: OT_ostta05g02610
+            BPG: Bathy03g03320
+            MIS: MICPUN_108257
+            MPP: MICPUCDRAFT_14899
+            CME: CYME_CMH095C
+            GSL: Gasu_46960
+            CCP: CHC_T00007726001
+            TPS: THAPSDRAFT_31846
+            AAF: AURANDRAFT_4399
+REFERENCE   PMID:19339506
+  AUTHORS   Torabinejad J, Donahue JL, Gunesekera BN, Allen-Daniels MJ, Gillaspy GE
+  TITLE     VTC4 is a bifunctional enzyme that affects myoinositol and ascorbate biosynthesis in plants.
+  JOURNAL   Plant Physiol 150:951-61 (2009)
+            DOI:10.1104/pp.108.135129
+  SEQUENCE  [ath:AT4G39120]
+REFERENCE   PMID:20023146
+  AUTHORS   Petersen LN, Marineo S, Mandala S, Davids F, Sewell BT, Ingle RA
+  TITLE     The missing link in plant histidine biosynthesis: Arabidopsis myoinositol monophosphatase-like2 encodes a functional histidinol-phosphate phosphatase.
+  JOURNAL   Plant Physiol 152:1186-96 (2010)
+            DOI:10.1104/pp.109.150805
+  SEQUENCE  [ath:AT4G39120]
+///

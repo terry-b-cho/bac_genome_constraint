@@ -1,0 +1,19 @@
+ENTRY       R02285                      Reaction
+NAME        N-formimino-L-glutamate formiminohydrolase
+DEFINITION  N-Formimino-L-glutamate + H2O <=> L-Glutamate + Formamide
+EQUATION    C00439 + C00001 <=> C00025 + C00488
+RCLASS      RC00221  C00025_C00439
+            RC00681  C00439_C00488
+ENZYME      3.5.3.8
+PATHWAY     rn00340  Histidine metabolism
+            rn01100  Metabolic pathways
+MODULE      M00045  Histidine degradation, histidine => N-formiminoglutamate => glutamate
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.3  In linear amidines
+                3.5.3.8
+                 R02285  N-Formimino-L-glutamate + H2O <=> L-Glutamate + Formamide
+ORTHOLOGY   K01479  formiminoglutamase [EC:3.5.3.8]
+DBLINKS     RHEA: 22495
+///

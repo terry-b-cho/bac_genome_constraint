@@ -1,0 +1,22 @@
+ENTRY       R01201                      Reaction
+NAME        ATP:N-acetyl-D-glucosamine 6-phosphotransferase
+DEFINITION  ATP + N-Acetyl-D-glucosamine <=> ADP + N-Acetyl-D-glucosamine 6-phosphate
+EQUATION    C00002 + C00140 <=> C00008 + C00357
+RCLASS      RC00002  C00002_C00008
+            RC00017  C00140_C00357
+ENZYME      2.7.1.59
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M01003  UDP-GlcNAc biosynthesis, GlcNAc => UDP-GlcNAc
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.59
+                 R01201  ATP + N-Acetyl-D-glucosamine <=> ADP + N-Acetyl-D-glucosamine 6-phosphate
+ORTHOLOGY   K00884  N-acetylglucosamine kinase [EC:2.7.1.59]
+            K28207  N-acetylglucosamine kinase [EC:2.7.1.59]
+            K28208  N-acetylmuramate/N-acetylglucosamine kinase [EC:2.7.1.- 2.7.1.59]
+DBLINKS     RHEA: 17420
+///

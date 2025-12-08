@@ -1,0 +1,257 @@
+ENTRY       K13830                      KO
+SYMBOL      ARO1
+NAME        pentafunctional AROM polypeptide [EC:4.2.3.4 4.2.1.10 1.1.1.25 2.7.1.71 2.5.1.19]
+PATHWAY     map00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            map00999  Biosynthesis of various plant secondary metabolites
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01230  Biosynthesis of amino acids
+MODULE      M00022  Shikimate pathway, phosphoenolpyruvate + erythrose-4P => chorismate
+REACTION    R02412  ATP:shikimate 3-phosphotransferase
+            R02413  shikimate:NADP+ 3-oxidoreductase
+            R03083  2-dehydro-3-deoxy-D-arabino-heptonate 7-phosphate phosphate-lyase (cyclyzing)
+            R03084  3-dehydroquinate hydro-lyase
+            R03460  phosphoenolpyruvate:3-phosphoshikimate 5-O-(1-carboxyvinyl)-transferase
+            R12885  
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09105 Amino acid metabolism
+               00400 Phenylalanine, tyrosine and tryptophan biosynthesis
+                K13830  ARO1; pentafunctional AROM polypeptide
+              09110 Biosynthesis of other secondary metabolites
+               00999 Biosynthesis of various plant secondary metabolites
+                K13830  ARO1; pentafunctional AROM polypeptide
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.25  shikimate dehydrogenase (NADP+)
+                 K13830  ARO1; pentafunctional AROM polypeptide
+             2. Transferases
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+                2.5.1.19  3-phosphoshikimate 1-carboxyvinyltransferase
+                 K13830  ARO1; pentafunctional AROM polypeptide
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.71  shikimate kinase
+                 K13830  ARO1; pentafunctional AROM polypeptide
+             4. Lyases
+              4.2  Carbon-oxygen lyases
+               4.2.1  Hydro-lyases
+                4.2.1.10  3-dehydroquinate dehydratase
+                 K13830  ARO1; pentafunctional AROM polypeptide
+               4.2.3  Acting on phosphates
+                4.2.3.4  3-dehydroquinate synthase
+                 K13830  ARO1; pentafunctional AROM polypeptide
+DBLINKS     GO: 0003856 0003855 0004764 0004765 0003866
+GENES       SCE: YDR127W(ARO1)
+            SEUB: DI49_0321
+            SPAO: SPAR_D03390
+            AGO: AGOS_AGR066W
+            KLA: KLLA0_F19712g
+            KMX: KLMA_40161(ARO1)
+            LTH: KLTH0G13090g
+            ZRO: ZYRO0D06578g
+            CGR: 2891409(GVI51_M11451)
+            NCS: NCAS_0B05170(NCAS0B05170)
+            NDI: NDAI_0B02540(NDAI0B02540)
+            TPF: TPHA_0C01060(TPHA0C01060)
+            TBL: TBLA_0D04030(TBLA0D04030)
+            TGB: HG536_0C01670
+            TDL: TDEL_0F04140(TDEL0F04140)
+            KAF: KAFR_0B02850(KAFR0B02850)
+            KNG: KNAG_0G02160(KNAG0G02160)
+            ZMK: HG535_0G04190
+            SLUD: SCDLUD_001723
+            PIC: PICST_89141
+            PGU: PGUG_03670
+            SPAA: SPAPADRAFT_142469
+            LEL: PVL30_003884(ARO1)
+            LBG: 92210017(LODBEIA_P48210)
+            CAL: CAALFM_C400890WA(ARO1)
+            CTP: CTRG_00061
+            COT: CORT_0E00110
+            CDU: CD36_40930
+            CTEN: 18246013(ARO1)
+            CLU: CLUG_04813
+            CLUS: A9F13_27g00385
+            CAUR: CJI96_0002717
+            ASAU: 88175946(PUMCH_004886)
+            PPA: PAS_chr3_0506
+            PKZ: C5L36_0A08410
+            BNN: FOA43_003846(ARO1)
+            BBRX: BRETT_000557
+            OPA: HPODL_04497
+            YLI: 2908044(YALI2_F00730g)
+            SLB: AWJ20_2499(ARO1)
+            NCR: NCU01632(aro-1)
+            NTE: NEUTE1DRAFT147102(NEUTE1DRAFT_147102)
+            SMP: 10808258(SMAC4_02366)
+            PAN: PODANSg7061
+            PBEL: QC761_605280(ARO1)
+            PPSD: QC762_605280(ARO1)
+            PPSP: QC763_605280(ARO1)
+            PPSA: QC764_605280(ARO1)
+            TTT: THITE_2124223
+            MTM: MYCTH_2312474
+            CTHR: CTHT_0008860
+            RTHE: 98128096(VTJ83DRAFT_6710)
+            MGR: MGG_01128
+            PPEI: PpBr36_08007
+            PGRI: PgNI_08108
+            TMN: UCRPA7_7489
+            SSCK: SPSK_01371
+            FGR: FGSG_04287
+            FPU: FPSE_04808
+            FPOA: FPOAC1_006746
+            FVN: FVRRES_07367
+            FVR: FVEG_11377
+            FOX: FOXG_13955
+            NHE: NECHADRAFT_47780
+            FFC: NCS54_01054600
+            FKR: NCS57_01048400
+            FMU: J7337_011754
+            TRE: TRIREDRAFT_82516
+            TRR: M419DRAFT_105065
+            TATV: 25778372(TrAtP1_009806)
+            TASP: 36612978(TrAFT101_011362)
+            MAW: 19253432(ARO1_1)
+            MAJ: MAA_05292
+            MBRN: 26239166(ARO1)
+            PCHM: VFPPC_03508
+            UVI: 66065808(UV8b_05030)
+            CMT: CCM_07445
+            AMUS: LMH87_009792
+            PLJ: 28887002(PLICBS_002309)
+            PTKZ: JDV02_002701(ARO1)
+            DCON: 63716360(DCS_03717)
+            VAL: VDBG_03429
+            VDA: VDAG_10038
+            CFJ: CFIO01_03140
+            CLUP: CLUP02_00963
+            CHIG: CH63R_12832
+            CDET: 87943005(CDEST_06502)
+            SAPO: SAPIO_CDS3886
+            ELA: UCREL1_11577
+            PFY: PFICI_07309
+            SSL: SS1G_13550
+            BFU: BCIN_13g04430
+            MBE: MBM_07361
+            PSCO: LY89DRAFT_605552
+            GLZ: GLAREA_00449
+            ANI: ANIA_00708
+            AFM: AFUA_1G13740
+            ACT: ACLA_021700
+            NFI: NFIA_011760
+            AOR: AO090012000502
+            ANG: An08g06810
+            AFV: AFLA_002224
+            ALUC: AKAW2_30398A
+            ACHE: ACHE_30476A
+            APUU: APUU_11303A
+            PCS: N7525_010542
+            PDP: PDIP_67370
+            POU: POX_c03693
+            PPSF: 300791912(PFLUO_LOCUS5914)
+            TMF: EYB26_002869 EYB26_010016
+            TRG: TRUGW13939_09354
+            CIM: CIMG_03391
+            CPW: 9694276(ARO1)
+            URE: UREG_07217
+            ABE: ARB_05227
+            TVE: TRV_02266
+            PBL: PAAG_07102
+            PBN: PADG_00875
+            AJE: HCAG_06699
+            BGH: BDBG_02999
+            PNO: SNOG_01444(SNOG_01443)
+            PTE: PTT_04545
+            PTRR: 6339819(PtrM4_017700)
+            BZE: COCCADRAFT_94951
+            BSC: COCSADRAFT_217249
+            BOR: COCMIDRAFT_9647
+            AALT: CC77DRAFT_1090647
+            ADAC: 96089725(ACET3X_009403)
+            ARAB: EKO05_0010321
+            ZTR: MYCGRDRAFT_65516(ARO1)
+            PFJ: MYCFIDRAFT_38952
+            FFU: CLAFUR5_12119
+            CBET: CB0940_11809
+            BCOM: BAUCODRAFT_187934
+            NPA: UCRNP2_5464
+            TML: GSTUM_00004770001
+            SPO: 2542115(aro1)
+            SOM: SOMG_03884(aro1)
+            CNE: CNB01990
+            CNB: CNBB3730
+            CNG: CNAG_03701
+            CGI: CGB_B5500W
+            CDEU: CNBG_0103
+            CDEC: 89990028(IAS62_003255)
+            CTEG: 91989349(I308_102492)
+            CBAS: 91982913(I312_102867)
+            CDEP: 91084620(L203_100404)
+            KMG: 30164838(I203_108132)
+            KNE: 92177709(IAR55_000449)
+            KDJ: 28967491(I303_103774)
+            KBI: 30212884(I302_105197)
+            KPIN: 30169898(I206_103468)
+            KSH: 87956146(IL334_004015)
+            KER: 91107140(V865_008339)
+            KSN: 43587188(CI109_100267)
+            KEP: 91095686(L201_005016)
+            TMS: TREMEDRAFT_44120
+            TASA: A1Q1_08054
+            CCAC: CcaHIS019_0203940(CcaverHIS019_0203940)
+            TVS: TRAVEDRAFT_172173
+            DSQ: DICSQDRAFT_155103
+            PCO: PHACADRAFT_210784
+            SHS: STEHIDRAFT_101013
+            HIR: HETIRDRAFT_331603
+            PSQ: PUNSTDRAFT_91763
+            ADL: AURDEDRAFT_186785
+            FME: FOMMEDRAFT_130954
+            GTR: GLOTRDRAFT_117906
+            RSX: RhiXN_05799
+            LBC: LACBIDRAFT_233717
+            CCI: CC1G_09809
+            ABP: AGABI1DRAFT61742(AGABI1DRAFT_61742)
+            ABV: AGABI2DRAFT210736(AGABI2DRAFT_210736)
+            PCUB: JR316_0011555
+            MRR: Moror_10131
+            MORE: E1B28_011414
+            SCM: SCHCO_02557283(SCHCODRAFT_02557283)
+            CPUT: CONPUDRAFT_147016
+            SLA: SERLADRAFT_363753
+            WSE: WALSEDRAFT_61030
+            WIC: J056_001161
+            UMA: UMAG_03607
+            PFP: PFL1_02540
+            SGRA: EX895_006553
+            MGL: MGL_3989
+            MRT: MRET_4221
+            MSYM: MSY001_2204
+            PGR: PGTG_04545 PGTG_13928 PGTG_19855
+            PTRC: PtA15_15A405
+            PSTR: Pst134EA_027839
+            MLR: MELLADRAFT_74837
+            RIE: OCT59_021636
+            MBR: MONBRDRAFT_32780
+            SRE: PTSG_11780
+            ACAN: ACA1_175450
+            TET: TTHERM_00590510
+            PTM: GSPATT00002455001 GSPATT00006893001
+            PIF: PITG_17925
+            PSOJ: PHYSODRAFT_343591
+            BLAC: 94346764(CCR75_002996)
+            SPAR: SPRG_08112
+            EHX: EMIHUDRAFT_632235(AROM)
+            GTT: GUITHDRAFT_67756
+REFERENCE   PMID:2825635
+  AUTHORS   Duncan K, Edwards RM, Coggins JR
+  TITLE     The pentafunctional arom enzyme of Saccharomyces cerevisiae is a mosaic of monofunctional domains.
+  JOURNAL   Biochem J 246:375-86 (1987)
+            DOI:10.1042/bj2460375
+  SEQUENCE  [sce:YDR127W]
+///

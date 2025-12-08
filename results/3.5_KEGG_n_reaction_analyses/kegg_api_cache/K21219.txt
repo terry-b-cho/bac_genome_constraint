@@ -1,0 +1,428 @@
+ENTRY       K21219                      KO
+SYMBOL      thiDN
+NAME        hydroxymethylpyrimidine kinase / phosphomethylpyrimidine kinase / thiamine-phosphate diphosphorylase [EC:2.7.1.49 2.7.4.7 2.5.1.3]
+PATHWAY     map00730  Thiamine metabolism
+            map01100  Metabolic pathways
+            map01240  Biosynthesis of cofactors
+MODULE      M00127  Thiamine biosynthesis, prokaryotes, AIR (+ DXP/tyrosine) => TMP/TPP
+            M00896  Thiamine biosynthesis, archaea, AIR (+ NAD+) => TMP/TPP
+            M00899  Thiamine salvage pathway, HMP/HET => TMP
+REACTION    R03223  2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:4-methyl-5-(2-phosphoethyl)-thiazole 2-methyl-4-aminopyridine-5-methenyltransferase
+            R03471  ATP:4-amino-5-hydroxymethyl-2-methylpyrimidine 5-phosphotransferase
+            R04509  ATP:4-amino-2-methyl-5-phosphomethylpyrimidine phosphotransferase
+            R10712  2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate 2-methyl-4-aminopyrimidine-5-methenyltransferase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
+               00730 Thiamine metabolism
+                K21219  thiDN; hydroxymethylpyrimidine kinase / phosphomethylpyrimidine kinase / thiamine-phosphate diphosphorylase
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+                2.5.1.3  thiamine phosphate synthase
+                 K21219  thiDN; hydroxymethylpyrimidine kinase / phosphomethylpyrimidine kinase / thiamine-phosphate diphosphorylase
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.49  hydroxymethylpyrimidine kinase
+                 K21219  thiDN; hydroxymethylpyrimidine kinase / phosphomethylpyrimidine kinase / thiamine-phosphate diphosphorylase
+               2.7.4  Phosphotransferases with a phosphate group as acceptor
+                2.7.4.7  phosphooxymethylpyrimidine kinase
+                 K21219  thiDN; hydroxymethylpyrimidine kinase / phosphomethylpyrimidine kinase / thiamine-phosphate diphosphorylase
+DBLINKS     COG: COG0351 COG1992
+            GO: 0008902 0008972 0004789
+GENES       DSA: Desal_1774
+            DHY: DESAM_22422
+            DAS: Daes_1844
+            DPI: BN4_10299
+            DEJ: AWY79_13195
+            PPRF: DPRO_0943
+            PSEL: GM415_15090(thiD)
+            DDN: DND132_0246
+            PTHE: LF599_07845(thiD)
+            DSX: GD604_11660(thiD)
+            DSD: GD606_06665(thiD)
+            DAO: Desac_0182
+            DTI: Desti_1539
+            DMP: FAK_14580
+            TID: Thein_0524
+            TAV: G4V39_04455(thiD)
+            TMAI: FVE67_03190
+            DAW: HS1_000273
+            TTK: TST_1656(thiD)
+            NLI: G3M70_00760(thiD)
+            NVA: G3M78_13560(thiD)
+            DHR: LGS26_00335(thiD)
+            CALK: HUE98_09900(thiD)
+            TMA: TM0790
+            TMM: Tmari_0791
+            TMI: THEMA_00700
+            TMW: THMA_0809
+            TMQ: THMB_0809
+            TMX: THMC_0809
+            TPT: Tpet_0139
+            TNP: Tnap_0140
+            TRQ: TRQ2_0137
+            TNA: CTN_1788
+            THQ: T2812B_00700
+            THZ: CELL2_00725
+            THR: TRQ7_00700
+            TLE: Tlet_1753
+            TTA: Theth_1371
+            TME: Tmel_1594
+            TAF: THA_1801
+            THP: BG95_08675
+            THER: Y592_08780
+            TFE: JYK00_09425
+            FNO: Fnod_1419
+            FPE: Ferpe_0643
+            FIA: NA23_03505
+            FRR: IB67_05350
+            FNG: JM64_03415
+            FGW: QO060_03085
+            FTHL: U0O82_08720
+            OCY: OSSY52_15610(thiDN)
+            MPZ: Marpi_0891
+            MARN: LN42_04900
+            MAEO: JRV97_03760
+            MJA: MJ_0236
+            MFE: Mefer_0443
+            MVU: Metvu_1681
+            MFS: MFS40622_1814
+            MIF: Metin_1371
+            MJH: JH146_1565
+            MESG: MLAUSG7_0473(thiDN)
+            MESA: MLASG1_0039(thiDN)
+            MIG: Metig_0827
+            MMP: MMP1639
+            MMQ: MmarC5_1769
+            MMX: MmarC6_1032
+            MMZ: MmarC7_0912
+            MMD: GYY_09050
+            MMAK: MMKA1_18710
+            MMAO: MMOS7_17530
+            MMAD: MMJJ_11980(thiD)
+            MAE: Maeo_0460
+            MVN: Mevan_0944
+            MVO: Mvol_1254
+            MOK: Metok_0333
+            METF: CFE53_02505
+            MKA: MK0589(thiD)
+            AVE: Arcve_1968
+            GAC: GACE_1547
+            GAH: GAH_00126
+            PFU: PF1333
+            PFI: PFC_05880
+            PHO: PH1155(PH1155)
+            PAB: PAB1646
+            PYN: PNA2_1764
+            PYA: PYCH_04500
+            PYS: Py04_0935
+            PYC: TQ32_06000
+            TKO: TK0435
+            TGA: TGAM_1271(thiD)
+            TSI: TSIB_0462
+            TBA: TERMP_00508
+            THE: GQS_02020
+            THM: CL1_0035
+            TLT: OCC_04964
+            THS: TES1_0593
+            TNU: BD01_0514
+            TEU: TEU_09500
+            TGY: X802_10055
+            THV: ADU37_CDS03940
+            TCH: CHITON_1447
+            TPEP: A0127_02265
+            TPIE: A7C91_09065
+            TCE: A3L02_01990
+            TTD: A3L14_05485
+            TPRF: A3L09_06400
+            TPAF: A3L08_06890
+            THY: A3L12_05215
+            TIC: FH039_06455(thiD)
+            TCQ: TIRI35C_0993
+            THEM: FPV09_02935(thiD)
+            THEI: K1720_05435
+            TAGG: NF865_00395
+            PPAC: PAP_03995
+            MBA: Mbar_A3501
+            MBY: MSBRM_1279
+            MBW: MSBRW_1232
+            MBAR: MSBR2_1128
+            MBAK: MSBR3_1454
+            MAC: MA_3197(thiD)
+            MMA: MM_0338
+            MMAZ: MmTuc01_0345
+            MMJ: MSMAS_0963
+            MMAC: MSMAC_0965
+            MVC: MSVAZ_2169
+            MEK: MSKOL_2162
+            MLS: MSLAZ_2393
+            METM: MSMTP_2342
+            MEF: MSWH1_0616
+            MEQ: MSWHS_0635
+            MSJ: MSSAC_3239
+            MSZ: MSSIH_1070
+            MSW: MSSIT_1117
+            MTHR: MSTHT_1098
+            MTHE: MSTHC_2205
+            MHOR: MSHOH_3049
+            MFZ: AOB57_010930(thiD)
+            MHAB: RSJ42_11100(thiD)
+            METW: AAY43_08275
+            MBU: Mbur_2182(thiD)
+            MMET: MCMEM_0359
+            MELO: J7W08_11920(thiD)
+            MMH: Mmah_0363
+            MHAZ: BHR79_01690
+            MPOT: BKM01_06780
+            MEV: Metev_0182
+            MZH: Mzhil_1367
+            MPY: Mpsy_2779
+            MZI: HWN40_08755(thiD)
+            MMAV: RE476_01410(thiD)
+            MSEB: RE474_11100(thiD)
+            MHZ: Metho_0714
+            MEHF: MmiHf6_02060(pdxK)
+            MEES: MmiEs2_07930(pdxK)
+            MTP: Mthe_0828
+            MCJ: MCON_0806(thiD)
+            MHI: Mhar_1899
+            MEZ: Mtc_2023(thiD)
+            MJK: N2V74_01275(thiD) N2V74_04590(thiD)
+            HAL: VNG_2606G(thiD)
+            HSL: OE_4654F(thiDN)
+            HANR: LJ422_10535(thiD)
+            HHB: Hhub_1123(thiDN)
+            HAGS: JT689_11970(thiD)
+            HABO: JRZ79_10300(thiD)
+            HNO: LT974_00710(thiD)
+            HLU: LT972_12870(thiD)
+            HANX: ABSL23_05445(thiD)
+            HSU: HLASF_1503(thiD2)
+            HSF: HLASA_1490(thiD2)
+            SALR: FQU85_03525(thiD)
+            HALR: EFA46_013160(thiD)
+            HJE: HacjB3_14355
+            HDO: MUK72_07985(thiD)
+            HALX: M0R89_08610(thiD)
+            HAXZ: M0R88_08720(thiD)
+            HAYC: NGM10_06875(thiD)
+            HAXY: NGM07_01035
+            SALI: L593_03780
+            SAIM: K0C01_06785(thiD)
+            HARA: AArcS_2159(thiD)
+            HMA: rrnAC2449(thiD)
+            HSIN: KDQ40_15050(thiD)
+            HHI: HAH_2882(thiD)
+            HHN: HISP_14650
+            HAB: SG26_06785
+            HTA: BVU17_14015
+            HALJ: G9465_05525(thiD)
+            HUT: Huta_0491
+            HALA: Hrd1104_03805(thiD)
+            HASV: SVXHr_1104(thiD)
+            HABN: HBNXHr_1092(thiD)
+            HMU: Hmuk_0364
+            HALZ: E5139_05105(thiD)
+            HALL: LC1Hm_2892(thiDN)
+            HAZP: GBQ70_05100(thiD)
+            HALI: BV210_06075
+            HSN: DV733_06810(thiD)
+            HDS: HSR122_0512(thiD)
+            HRR: HZS55_11725(thiD)
+            HPEL: HZS54_14065(thiD)
+            HLT: I7X12_02440(thiD)
+            HARC: HARCEL1_03120(thiD)
+            HAAD: MW046_11495(thiD)
+            NPH: NP_0546A(thiDN)
+            NMO: Nmlp_3884(thiDN)
+            NHO: HWV23_11230(thiD)
+            NSAL: HWV07_13365(thiD)
+            HME: HFX_2683(thiD)
+            HGI: ABY42_13360
+            HBO: Hbor_34650
+            HAQ: DU484_00925(thiD)
+            HAJ: DU500_01490(thiD)
+            HAER: DU502_16980(thiD)
+            HRA: EI982_13975(thiD)
+            HLM: DV707_08680(thiD)
+            HLA: Hlac_2988
+            HALP: DOS48_04635(thiD)
+            HALB: EKH57_11765(thiD)
+            HEZZ: EO776_00410(thiD)
+            HALQ: Hrr1229_006270
+            HSS: J7656_00820(thiD)
+            HAZZ: KI388_14085(thiD)
+            SRUB: C2R22_14585(thiD)
+            HAE: halTADL_2323
+            HALN: B4589_006720(thiD)
+            HALG: HUG10_08605(thiD)
+            HALU: HUG12_18830(thiD)
+            HMP: K6T50_02085(thiD)
+            HRE: K6T36_01905(thiD) K6T36_15670(thiD)
+            HRM: K6T25_14535(thiD)
+            HACB: Hbl1158_08975(thiD)
+            HDF: AArcSl_2693(thiDN)
+            HAAA: AArcCO_1441(thiD)
+            HAH: Halar_1066
+            HTU: Htur_3232
+            HSAL: JMJ58_12310(thiD)
+            HAKZ: J0X25_03185(thiD)
+            NMG: Nmag_1282(thiDN)
+            HXA: Halxa_2106
+            NAT: NJ7G_2232
+            NPE: Natpe_0691
+            NVR: FEJ81_03720(thiD)
+            NPL: FGF80_07090(thiD)
+            NAY: HYG81_07270(thiD)
+            HALY: HYG82_09440(thiD)
+            HJT: DVR14_12795(thiD)
+            HLO: J0X27_13600(thiD)
+            NGE: Natgr_2394
+            HLC: CHINAEXTREME07690
+            HRU: Halru_0512
+            NOU: Natoc_2167
+            HLR: HALLA_17735
+            NAJ: B1756_10205
+            NAG: AArcMg_3169
+            NAN: AArc1_3078
+            NARA: QQ977_07445(thiD)
+            NBG: DV706_09585(thiD)
+            NAS: GCU68_02470(thiD)
+            HDA: BB347_10160
+            MELU: MTLP_01760(thiD)
+            MEAM: MU439_00150(thiD)
+            MEAE: QEN48_02660(thiD)
+            TAR: TALC_00624
+            MAX: MMALV_06080
+            MER: MMINT_13690
+            MEAR: Mpt1_c03150(thiDN)
+            MEUZ: KRP56_05050(thiD)
+            MARC: AR505_0650
+            APE: APE_2400.1(thiDN)
+            ACJ: ACAM_1502(thiDN)
+            SMR: Smar_0049
+            SHC: Shell_0767
+            IHO: Igni_0888
+            IIS: EYM_07800
+            DKA: DKAM_0714
+            DFD: Desfe_0794
+            DMU: Desmu_0544
+            IAG: Igag_1669
+            THG: TCELL_1024
+            HBU: Hbut_1459
+            PFM: Pyrfu_0689
+            PDL: Pyrde_0221
+            PABI: PABY_17310
+            STO: STK_05260(thiD)
+            SOH: D1869_02465(thiD)
+            SJV: SJAV_15360(thiD_2)
+            SSO: SSO2393(thiD-2)
+            SOL: Ssol_0200
+            SSOA: SULA_0192(thiD)
+            SSOL: SULB_0193(thiD)
+            SSOF: SULC_0192(thiD)
+            SSHI: J5U23_01206
+            SCAS: SACC_19020
+            SIS: LS215_0216
+            SIA: M1425_0185
+            SIM: M1627_0185
+            SID: M164_0204
+            SIY: YG5714_0189
+            SIN: YN1551_2791
+            SII: LD85_0189
+            SIH: SiH_0191
+            SIR: SiRe_0185
+            SIC: SiL_0178
+            SULA: BFU36_10645
+            SULE: GFS03_02475(thiD)
+            SAI: Saci_0953
+            SACN: SacN8_04625
+            SACR: SacRon12I_04615
+            SACS: SUSAZ_04375
+            SULO: GFS33_08750(thiD)
+            SULL: EWF20_03990(thiD)
+            MSE: Msed_0646
+            MEMJ: MJ1HA_0756
+            MCN: Mcup_1524
+            MHK: DFR87_02965(thiD)
+            MPRU: DFR88_03350(thiD)
+            MTEN: GWK48_09145(thiD)
+            MJN: MjAS7_1409
+            AHO: Ahos_2188
+            AMAN: B6F84_03170
+            ABRI: DFR85_00670(thiD)
+            ASUL: DFR86_03170(thiD)
+            AAMB: D1866_05920(thiD)
+            ACIH: HS5_09990
+            SACD: HS1genome_1443
+            SAZO: D1868_10230(thiD)
+            CSTY: KN1_03220
+            STEP: IC006_2571
+            SMET: RQ359_001758(thiD)
+            SAHS: HS7_16620
+            PAI: PAE2535
+            PIS: Pisl_1419
+            PCL: Pcal_0240
+            PAS: Pars_0839
+            PYR: P186_2074
+            POG: Pogu_1494
+            TNE: Tneu_1881
+            PYW: PYWP30_02058
+            CMA: Cmaq_0452
+            TTN: TTX_0857(thiD)
+            TUZ: TUZN_0613
+            VDI: Vdis_2402
+            VMO: VMUT_0747
+            VSO: Vsou_21520
+            THEL: IG193_08165
+            ASC: ASAC_1274
+            ACIA: SE86_07465
+            CLG: Calag_0858
+            FFO: FFONT_0261
+            KCR: Kcr_0867
+            MVJ: ACO0C9_07065
+            NMR: Nmar_0542
+            NIR: NSED_02730
+            NKR: NKOR_02800
+            NID: NPIRD3C_1734
+            NIN: NADRNF5_1639
+            NIW: Nisw_02165(thiD)
+            NCL: C5F47_02780(thiD)
+            NOX: C5F49_02960(thiD)
+            NUE: C5F50_04155(thiD)
+            NIP: NsoK4_05640(thiD)
+            NZT: NZOSNM25_001471
+            NCT: NMSP_1131(thiDN)
+            NIC: DSQ20_03015(thiD)
+            NGA: Ngar_c15420(thiD)
+            NVN: NVIE_006780(thiD)
+            NEV: NTE_02040
+            TAA: NMY3_02518(thiD)
+            NFN: NFRAN_0101(thiD)
+            NCV: NCAV_1388(thiD)
+            NDV: NDEV_0535
+            CSY: CENSYa_0221
+            CSU: CSUB_C1491
+            NBV: T478_0467(thiD)
+            TAH: SU86_003375
+            NIU: DSQ19_02775(thiD)
+            NCK: QVH35_06810(thiD)
+            CCAI: NAS2_1199
+            BARC: AOA65_2405(thiDN)
+            BARB: AOA66_0398(thiDN)
+            FLT: Sv326_0186
+REFERENCE   PMID:12794638
+  AUTHORS   Morett E, Korbel JO, Rajan E, Saab-Rincon G, Olvera L, Olvera M, Schmidt S, Snel B, Bork P
+  TITLE     Systematic discovery of analogous enzymes in thiamin biosynthesis.
+  JOURNAL   Nat Biotechnol 21:790-5 (2003)
+            DOI:10.1038/nbt834
+  SEQUENCE  [tma:TM0790]
+REFERENCE   PMID:24583237
+  AUTHORS   Hayashi M, Kobayashi K, Esaki H, Konno H, Akaji K, Tazuya K, Yamada K, Nakabayashi T, Nosaka K
+  TITLE     Enzymatic and structural characterization of an archaeal thiamin phosphate synthase.
+  JOURNAL   Biochim Biophys Acta 1844:803-9 (2014)
+            DOI:10.1016/j.bbapap.2014.02.017
+  SEQUENCE  [pcl:Pcal_0240]
+///

@@ -1,0 +1,20 @@
+ENTRY       R01384                      Reaction
+NAME        UDP-D-glucuronate carboxy-lyase (UDP-D-xylose-forming)
+DEFINITION  UDP-glucuronate <=> UDP-D-xylose + CO2
+EQUATION    C00167 <=> C00190 + C00011
+RCLASS      RC00508  C00167_C00190
+ENZYME      4.1.1.35
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M00997  UDP-Xyl/L-Ara biosynthesis, UDP-Glc => UDP-Xyl => UDP-L-Ala
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.1  Carboxy-lyases
+                4.1.1.35
+                 R01384  UDP-glucuronate <=> UDP-D-xylose + CO2
+ORTHOLOGY   K08678  UDP-glucuronate decarboxylase [EC:4.1.1.35]
+            K12449  UDP-apiose/xylose synthase
+DBLINKS     RHEA: 23919
+///

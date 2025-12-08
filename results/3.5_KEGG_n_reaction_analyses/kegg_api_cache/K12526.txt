@@ -1,0 +1,258 @@
+ENTRY       K12526                      KO
+SYMBOL      lysAC
+NAME        bifunctional diaminopimelate decarboxylase / aspartate kinase [EC:4.1.1.20 2.7.2.4]
+PATHWAY     map00260  Glycine, serine and threonine metabolism
+            map00261  Monobactam biosynthesis
+            map00270  Cysteine and methionine metabolism
+            map00300  Lysine biosynthesis
+            map00470  D-Amino acid metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01120  Microbial metabolism in diverse environments
+            map01230  Biosynthesis of amino acids
+MODULE      M00016  Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine
+            M00018  Threonine biosynthesis, aspartate => homoserine => threonine
+            M00526  Lysine biosynthesis, DAP dehydrogenase pathway, aspartate => lysine
+            M00527  Lysine biosynthesis, DAP aminotransferase pathway, aspartate => lysine
+REACTION    R00451  meso-2,6-diaminoheptanedioate carboxy-lyase (L-lysine-forming)
+            R00480  ATP:L-aspartate 4-phosphotransferase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09105 Amino acid metabolism
+               00260 Glycine, serine and threonine metabolism
+                K12526  lysAC; bifunctional diaminopimelate decarboxylase / aspartate kinase
+               00270 Cysteine and methionine metabolism
+                K12526  lysAC; bifunctional diaminopimelate decarboxylase / aspartate kinase
+               00300 Lysine biosynthesis
+                K12526  lysAC; bifunctional diaminopimelate decarboxylase / aspartate kinase
+              09106 Metabolism of other amino acids
+               00470 D-Amino acid metabolism
+                K12526  lysAC; bifunctional diaminopimelate decarboxylase / aspartate kinase
+              09110 Biosynthesis of other secondary metabolites
+               00261 Monobactam biosynthesis
+                K12526  lysAC; bifunctional diaminopimelate decarboxylase / aspartate kinase
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.7  Transferring phosphorus-containing groups
+               2.7.2  Phosphotransferases with a carboxy group as acceptor
+                2.7.2.4  aspartate kinase
+                 K12526  lysAC; bifunctional diaminopimelate decarboxylase / aspartate kinase
+             4. Lyases
+              4.1  Carbon-carbon lyases
+               4.1.1  Carboxy-lyases
+                4.1.1.20  diaminopimelate decarboxylase
+                 K12526  lysAC; bifunctional diaminopimelate decarboxylase / aspartate kinase
+DBLINKS     COG: COG0019 COG0527
+            GO: 0008836 0004072
+GENES       XFA: XF_1116
+            XFT: PD_0408(lysC)
+            XFM: Xfasm12_0461
+            XFN: XfasM23_0402
+            XFF: XFLM_07435
+            XFL: P303_01510
+            XFS: D934_03155
+            XFH: XFHB_09990
+            XTW: AB672_02625
+            XCC: XCC2741(lysA)
+            XCB: XC_1372
+            XCA: xcc-b100_1420
+            XCP: XCR_3106
+            XCV: XCV3056(lysA)
+            XAX: XACM_2843(lysA)
+            XAC: XAC2911(lysA)
+            XCI: XCAW_03188(lysC)
+            XCT: J151_03096
+            XCJ: J158_03075
+            XCU: J159_03071
+            XCN: J169_03094
+            XCW: J162_03074
+            XCR: J163_03071
+            XCM: J164_03071
+            XCF: J172_03087
+            XFU: XFF4834R_chr17280(lysA)
+            XAO: XAC29_14800
+            XOM: XOO1317(XOO1317)
+            XOO: XOO1433(lysA)
+            XOP: PXO_02010
+            XOY: AZ54_17300
+            XOR: XOC_1504
+            XOZ: BE73_15885
+            XAL: XALC_1038
+            XSA: SB85_19230
+            XTN: FD63_12895
+            XGM: KFS84_13000
+            XCS: KHA79_06590
+            XFR: BER92_13390
+            XVE: BJD12_05430
+            XPE: BJD13_02090
+            XHR: XJ27_01665
+            XGA: BI317_14845
+            XPH: XppCFBP6546_21355(XppCFBP6546P_21355)
+            XVA: C7V42_14855(lysA)
+            XAN: AC801_14465
+            XAR: XB05_09300
+            XHY: FZ025_02790
+            XCZ: EBN15_12530
+            XTH: G4Q83_06625
+            XEU: XSP_002831
+            XHD: LMG31886_14420(lysA)
+            XPR: MUG10_17305
+            XAG: HEP73_01420
+            XDY: NYR95_15645
+            XAS: HEP74_01346
+            XHA: PG878_13580
+            XRY: QN244_13560
+            XSO: RAB70_16595
+            XIN: Q7W82_10395
+            XAI: HEP75_01385
+            XAZ: XSP_002722
+            XTS: AB3X08_07375
+            XMD: AB3X07_07765
+            XBN: AB3X10_07425
+            XAF: NUG20_14715
+            XAB: NUG21_13200
+            SML: Smlt1168
+            SMT: Smal_1011
+            BUJ: BurJV3_1005
+            SMZ: SMD_1089(lysA)
+            SFOE: K5L94_05350
+            SPAQ: STNY_R11320
+            SACZ: AOT14_11440
+            STEK: AXG53_12025
+            SRH: BAY15_1163
+            SLM: BIZ42_14370
+            STEN: CCR98_05420(lysA)
+            STEM: CLM74_05410(lysA)
+            STES: MG068_05035
+            SINC: DAIF1_10550(lysA)
+            STEQ: ICJ04_04930
+            SGEN: RKE57_05045
+            SOU: PDM29_12645
+            SARC: PDM28_05375
+            SCYC: AB1723_01235
+            STEJ: FQS62_005460
+            STEO: PEM_03540(lysA)
+            STEZ: ACEPA4_05255
+            SLAB: AB9L18_15210
+            PSU: Psesu_0811
+            PSUW: WQ53_12420
+            PSD: DSC_05865
+            PMEX: H4W19_08640
+            PJP: LAG73_03180
+            PDD: MNQ95_10935
+            PWI: MWN52_12510
+            PSSE: OY559_04740
+            PKQ: ACEJ41_09980
+            LAB: LA76x_1650
+            LAQ: GLA29479_625
+            LCP: LC55x_1438
+            LGU: LG3211_3707
+            LEZ: GLE_3732(lysA)
+            LEM: LEN_1402(lysA)
+            LYT: DWG18_03445
+            LSOL: GOY17_14350
+            LAUX: LA521A_28300
+            LYA: RDV84_14260
+            LSY: H8L67_08245
+            LHX: LYSHEL_19030(lysA)
+            LYW: H2514_09540
+            LCAS: LYSCAS_19030(lysA)
+            LCIC: INQ41_04405
+            LAVI: INQ42_04175
+            LLZ: LYB30171_00858(lysA)
+            LYJ: FKV23_04200
+            LMB: C9I47_0891
+            LSF: I8J32_017145
+            LSX: H8B22_02555
+            LUE: DCD74_07535
+            LUM: CNR27_12545
+            LUS: E5843_04835
+            LUG: FPZ22_04135
+            LFX: LU699_02680
+            LUJ: BGP89_08150
+            THES: FHQ07_12070
+            THEH: G7079_04610
+            TCN: H9L16_01125
+            TBV: H9L17_12615
+            THEX: ICG51_000718
+            XBC: ELE36_04530
+            FAU: Fraau_2760
+            FSG: LQ771_02315
+            FED: LQ772_02815
+            RHD: R2APBS1_3192
+            RGL: CS053_04840
+            RTH: LRK53_15945
+            DJI: CH75_01985
+            DJA: HY57_07385
+            DTX: ATSB10_38160
+            DYE: EO087_15585
+            DCS: ISN74_03610
+            DTL: H8F01_14045
+            DTA: DYST_04092
+            DYG: DYGSA30_44930(lysA_2)
+            DKY: ACN9MB_17785
+            DKO: I596_818
+            LRZ: BJI69_02835
+            LPY: FIV34_16575
+            LANH: KR767_11535
+            LFL: IM816_03470
+            LAEG: L2Y94_04610
+            LAEO: L2Y97_17615
+            LAES: L2Y96_17500
+            XBA: C7S18_07680(lysA)
+            RBD: ALSL_0761
+            TAMN: N4264_21460
+            PAGR: E2H98_18220
+            CCHR: ACJMKR_02830
+            LPN: lpg1811(lysC)
+            LPH: LPV_2082(lysAC)
+            LPO: LPO_1862(lysAC)
+            LPU: LPE509_01376
+            LPM: LP6_1789(lysC)
+            LPF: lpl1775(lysAC)
+            LPP: lpp1774(lysAC)
+            LPC: LPC_1255
+            LPA: lpa_02617(lysC)
+            LPE: lp12_1750
+            LLO: LLO_1101(lysAC)
+            LFA: LFA_1953
+            LHA: LHA_2285
+            LOK: Loa_01051
+            LCD: clem_03925(lysA)
+            LES: CCU22_00615
+            LSH: CAB17_09710
+            LLG: 44548918_00744(lysAC_1)
+            LIB: E4T55_02480
+            LGT: E4T54_03145
+            LJR: NCTC11533_00855(lysAC_1)
+            LCJ: NCTC11976_01892(lysAC_1) NCTC11976_01898(lysAC_2)
+            LWA: SAMEA4504053_2002(lysC)
+            LSS: NCTC12082_02925(lysAC)
+            LADL: NCTC12735_01266(lysC_2)
+            LANT: TUM19329_25100(lysC)
+            LLY: J2N86_06795
+            LCAD: PXX05_02740
+            TMC: LMI_1048
+            WMA: WM2015_534
+            WEZ: IC757_02855
+            WOC: BA177_09725
+            PLEI: Q9312_00625
+            KKO: Kkor_1828
+            KGE: TQ33_1515
+            KSD: KS2013_1575
+            KPD: CW740_08520
+            KAM: SR900_05705
+            SDF: ACG33_07605
+            MMR: Mmar10_0407
+            GAK: X907_0694
+            GABY: AB6B38_00415
+            OAX: ABWI01_05815
+            GMT: V3331_10535
+            RMR: Rmar_1656
+            RMG: Rhom172_1130
+            SRU: SRU_0301
+            SRM: SRM_00378(dapG)
+            BSED: DN745_14090
+            PCAY: FRD00_21630
+            BBAE: FRD01_07565
+///

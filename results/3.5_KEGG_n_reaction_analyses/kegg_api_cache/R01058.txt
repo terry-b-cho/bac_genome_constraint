@@ -1,0 +1,26 @@
+ENTRY       R01058                      Reaction
+NAME        D-glyceraldehyde 3-phosphate:NADP+ oxidoreductase
+DEFINITION  D-Glyceraldehyde 3-phosphate + NADP+ + H2O <=> 3-Phospho-D-glycerate + NADPH + H+
+EQUATION    C00118 + C00006 + C00001 <=> C00197 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00242  C00118_C00197
+ENZYME      1.2.1.9         1.2.1.90
+PATHWAY     rn00010  Glycolysis / Gluconeogenesis
+            rn00030  Pentose phosphate pathway
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00308  Semi-phosphorylative Entner-Doudoroff pathway, gluconate => glycerate-3P
+            M00633  Semi-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate-3P
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.9
+                 R01058  D-Glyceraldehyde 3-phosphate + NADP+ + H2O <=> 3-Phospho-D-glycerate + NADPH + H+
+                1.2.1.90
+                 R01058  D-Glyceraldehyde 3-phosphate + NADP+ + H2O <=> 3-Phospho-D-glycerate + NADPH + H+
+ORTHOLOGY   K00131  glyceraldehyde-3-phosphate dehydrogenase (NADP+) [EC:1.2.1.9]
+            K18978  glyceraldehyde-3-phosphate dehydrogenase [NAD(P)+] [EC:1.2.1.90]
+DBLINKS     RHEA: 14672
+///

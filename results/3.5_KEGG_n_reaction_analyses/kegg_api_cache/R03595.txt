@@ -1,0 +1,18 @@
+ENTRY       R03595                      Reaction
+NAME        ATP:selenide, water phosphotransferase
+DEFINITION  ATP + Hydrogen selenide + H2O <=> AMP + Selenophosphoric acid + Orthophosphate
+EQUATION    C00002 + C01528 + C00001 <=> C00020 + C05172 + C00009
+RCLASS      RC00002  C00002_C00020
+            RC02878  C01528_C05172
+ENZYME      2.7.9.3
+PATHWAY     rn00450  Selenocompound metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.9  Phosphotransferases with paired acceptors
+                2.7.9.3
+                 R03595  ATP + Hydrogen selenide + H2O <=> AMP + Selenophosphoric acid + Orthophosphate
+ORTHOLOGY   K01008  selenide, water dikinase [EC:2.7.9.3]
+DBLINKS     RHEA: 18740
+///

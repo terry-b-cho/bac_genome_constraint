@@ -1,0 +1,29 @@
+ENTRY       R02613                      Reaction
+NAME        phenethylamine:oxygen oxidoreductase (deaminating)
+DEFINITION  Phenethylamine + Oxygen + H2O <=> Phenylacetaldehyde + Ammonia + Hydrogen peroxide
+EQUATION    C05332 + C00007 + C00001 <=> C00601 + C00014 + C00027
+COMMENT     see R02612 (1.4.99.4)
+RCLASS      RC00062  C00601_C05332
+            RC02755  C00007_C00027
+ENZYME      1.4.3.4         1.4.3.21
+PATHWAY     rn00360  Phenylalanine metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.4
+                 R02613  Phenethylamine + Oxygen + H2O <=> Phenylacetaldehyde + Ammonia + Hydrogen peroxide
+                1.4.3.21
+                 R02613  Phenethylamine + Oxygen + H2O <=> Phenylacetaldehyde + Ammonia + Hydrogen peroxide
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.4.3.4
+               R11354  RCH2NHR' <=> Aldehyde
+                R02613  Phenethylamine <=> Phenylacetaldehyde
+              1.4.3.21
+               R01853  RCH2NH2 <=> Aldehyde
+                R02613  Phenethylamine <=> Phenylacetaldehyde
+ORTHOLOGY   K00274  monoamine oxidase [EC:1.4.3.4]
+            K00276  primary-amine oxidase [EC:1.4.3.21]
+DBLINKS     RHEA: 25268
+///

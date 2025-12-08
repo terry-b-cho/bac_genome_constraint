@@ -1,0 +1,19 @@
+ENTRY       R02204                      Reaction
+NAME        L-pipecolate:oxygen 1,6-oxidoreductase
+DEFINITION  L-Pipecolate + Oxygen <=> (S)-2,3,4,5-Tetrahydropyridine-2-carboxylate + Hydrogen peroxide
+EQUATION    C00408 + C00007 <=> C00450 + C00027
+RCLASS      RC00083  C00408_C00450
+            RC02755  C00007_C00027
+ENZYME      1.5.3.7
+PATHWAY     rn00310  Lysine degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.3  With oxygen as acceptor
+                1.5.3.7
+                 R02204  L-Pipecolate + Oxygen <=> (S)-2,3,4,5-Tetrahydropyridine-2-carboxylate + Hydrogen peroxide
+ORTHOLOGY   K00306  sarcosine oxidase / L-pipecolate oxidase [EC:1.5.3.1 1.5.3.7]
+DBLINKS     RHEA: 11995
+///

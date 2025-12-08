@@ -1,0 +1,23 @@
+ENTRY       R00956                      Reaction
+NAME        CTP:alpha-D-glucose-1-phosphate cytidylyltransferase
+DEFINITION  CTP + D-Glucose 1-phosphate <=> Diphosphate + CDP-glucose
+EQUATION    C00063 + C00103 <=> C00013 + C00501
+RCLASS      RC00002  C00103_C00501
+ENZYME      2.7.7.33
+PATHWAY     rn00500  Starch and sucrose metabolism
+            rn00520  Amino sugar and nucleotide sugar metabolism
+            rn00541  Biosynthesis of various nucleotide sugars
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M01029  CDP-Tyv biosynthesis, Glc-1P => CDP-Par => CDP-Tyv
+            M01030  CDP-Abe biosynthesis, Glc-1P => CDP-Abe
+            M01031  CDP-Asc biosynthesis, Glc-1P => CDP-Asc
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.7  Nucleotidyltransferases
+                2.7.7.33
+                 R00956  CTP + D-Glucose 1-phosphate <=> Diphosphate + CDP-glucose
+ORTHOLOGY   K00978  glucose-1-phosphate cytidylyltransferase [EC:2.7.7.33]
+DBLINKS     RHEA: 18216
+///

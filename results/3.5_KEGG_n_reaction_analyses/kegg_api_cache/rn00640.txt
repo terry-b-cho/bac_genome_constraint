@@ -1,0 +1,130 @@
+ENTRY       rn00640                     Pathway
+NAME        Propanoate metabolism
+CLASS       Metabolism; Carbohydrate metabolism
+PATHWAY_MAP rn00640  Propanoate metabolism
+MODULE      M00013  Malonate semialdehyde pathway, propanoyl-CoA => acetyl-CoA [PATH:rn00640]
+            M00741  Propanoyl-CoA metabolism, propanoyl-CoA => succinyl-CoA [PATH:rn00640]
+            M00982  Methylcitrate cycle [PATH:rn00640]
+            M00991  Dimethylsulfoniopropionate (DMSP) degradation, cleavage pathway, DMSP => acetyl-CoA [PATH:rn00640]
+            M00992  Dimethylsulfoniopropionate (DMSP) degradation, cleavage pathway, DMSP => acrylate => acetyl-CoA [PATH:rn00640]
+            M00993  Dimethylsulfoniopropionate (DMSP) degradation, cleavage pathway, DMSP => propionyl-CoA [PATH:rn00640]
+DBLINKS     GO: 0019541
+REACTION    R00233  malonyl-CoA carboxy-lyase (acetyl-CoA-forming)
+            R00353  malonyl-CoA:pyruvate carboxytransferase
+            R00405  succinate:CoA ligase (ADP-forming)
+            R00409  (2S,3R)-3-hydroxybutane-1,2,3-tricarboxylate pyruvate-lyase (succinate-forming)
+            R00432  succinate:CoA ligase (GDP-forming)
+            R00705  3-oxopropanoate:NAD+ oxidoreductase (decarboxylating, CoA-acetylating)
+            R00706  3-oxopropanoate:NADP+ oxidoreductase (decarboxylating, CoA-acetylating)
+            R00740  3-oxopropanoate:NADP+ oxidoreductase (CoA-malonylating)
+            R00742  acetyl-CoA:carbon-dioxide ligase (ADP-forming)
+            R00744  3-oxopropionyl-CoA:NAD+ oxidoreductase
+            R00833  (R)-methylmalonyl-CoA CoA-carbonylmutase
+            R00907  L-alanine:3-oxopropanoate aminotransferase
+            R00908  beta-alanine:2-oxoglutarate aminotransferase
+            R00914  beta-alanine CoA-transferase
+            R00919  propanoyl-CoA:NADP+ 2-oxidoreductase; acrylyl-CoA reductase (NADPH)
+            R00920  propanoate:CoA ligase (ADP-forming)
+            R00921  propanoyl-CoA:phosphate propanoyltransferase
+            R00923  (S)-methylmalonyl-CoA carboxy-lyase (propanoyl-CoA-forming)
+            R00926  propionyladenylate:CoA propionyltransferase
+            R00928  acetyl-CoA:propanoate CoA-transferase
+            R00930  (S)-2-methyl-3-oxopropanoyl-CoA:pyruvate carboxyltransferase
+            R00931  propanoyl-CoA:oxaloacetate C-propanoyltransferase (thioester-hydrolysing, 1-carboxyethyl-forming); 2-methylcitrate oxaloacetate-lyase
+            R00935  (S)-methylmalonate semialdehyde:NAD+ oxidoreductase (CoA-propanoylating)
+            R00993  2-oxobutanoate:oxygen 2-oxidoreductase (phosphorylating)
+            R01000  2-hydroxybutyrate:NAD+ oxidoreductase
+            R01016  glycerone-phosphate phosphate-lyase (methylglyoxal-forming)
+            R01199  2-oxobutanoate:ferredoxin 2-oxidoreductase (CoA-propanoylating)
+            R01353  ATP:propanoate phosphotransferase
+            R01354  ATP:propanoate adenylyltransferase
+            R01449  lactoyl-CoA:propanoate CoA-transferase
+            R01608  3-hydroxypropanoate:NAD+ oxidoreductase
+            R01611  3-oxopropanoate hydro-lyase
+            R01859  propanoyl-CoA:carbon-dioxide ligase (ADP-forming)
+            R02257  propane-1,2-diol:NAD+ oxidoreductase
+            R02260  (S)-lactaldehyde:NADP+ oxidoreductase
+            R02376  propane-1,2-diol hydro-lyase
+            R02377  propane-1,3-diol:NAD+ 1-oxidoreductase
+            R02528  
+            R02764  (S)-methylmalonyl-CoA hydrolase
+            R02765  methylmalonyl-CoA epimerase
+            R02963  lactoyl-CoA hydro-lyase
+            R03045  3-hydroxypropionyl-CoA hydro-lyase
+            R03046  beta-alanyl-CoA ammonia-lyase (acryloyl-CoA-forming)
+            R03158  
+            R03381  
+            R03872  
+            R04424  (2S,3S)-2-hydroxybutane-1,2,3-tricarboxylate hydro-lyase [(Z)-but-2-ene-1,2,3-tricarboxylate-forming]
+            R04425  (2S,3R)-3-hydroxybutane-1,2,3-tricarboxylate hydro-lyase
+            R04432  propanoyl-CoA:electron-transfer flavoprotein 2,3-oxidoreductase
+            R04919  3-hydroxypropionyl-CoA:NADP+ oxidoreductase
+            R06987  propanoyl-CoA:formate C-propanoyltransferase
+            R07618  enzyme N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase
+            R09097  propanal:NAD+ oxidoreductase (CoA-propanoylating)
+            R10161  propanoyl-CoA:NAD+ oxidoreductase
+            R10715  
+            R10717  propane-1,2-diol:NAD+ 2-oxidoreductase
+            R10718  hydroxyacetone:NAD+ 1-oxidoreductase
+            R10996  
+            R10997  
+            R10998  propanoyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-propanoyltransferase
+            R11263  (2S,3S)-2-hydroxybutane-1,2,3-tricarboxylate hydro-lyase (2-methyl-trans-aconitate forming)
+            R11264  
+            R11773  propionyl-CoA:succinate CoA transferase
+            R12356  propanoyl-CoA:oxygen 2-oxidoreductase
+            R13136  propanoate:NAD+ oxidoreductase
+            R13457  
+COMPOUND    C00024  Acetyl-CoA
+            C00036  Oxaloacetate
+            C00042  Succinate
+            C00068  Thiamin diphosphate
+            C00083  Malonyl-CoA
+            C00091  Succinyl-CoA
+            C00099  beta-Alanine
+            C00100  Propanoyl-CoA
+            C00109  2-Oxobutanoate
+            C00111  Glycerone phosphate
+            C00163  Propanoate
+            C00186  (S)-Lactate
+            C00222  3-Oxopropanoate
+            C00424  (S)-Lactaldehyde
+            C00479  Propanal
+            C00511  Acrylic acid
+            C00546  Methylglyoxal
+            C00583  Propane-1,2-diol
+            C00683  (S)-Methylmalonyl-CoA
+            C00804  Propynoate
+            C00827  Lactoyl-CoA
+            C00894  Propenoyl-CoA
+            C01013  3-Hydroxypropanoate
+            C01213  (R)-Methylmalonyl-CoA
+            C02170  Methylmalonate
+            C02225  2-Methylcitrate
+            C02335  beta-Alanyl-CoA
+            C02876  Propanoyl phosphate
+            C04225  (Z)-But-2-ene-1,2,3-tricarboxylate
+            C04593  (2S,3R)-3-Hydroxybutane-1,2,3-tricarboxylate
+            C05235  Hydroxyacetone
+            C05668  3-Hydroxypropionyl-CoA
+            C05979  Propane-1-ol
+            C05983  Propionyladenylate
+            C05984  2-Hydroxybutanoic acid
+            C05989  3-Oxopropionyl-CoA
+            C06002  (S)-Methylmalonate semialdehyde
+            C15972  Enzyme N6-(lipoyl)lysine
+            C15973  Enzyme N6-(dihydrolipoyl)lysine
+            C21017  2-(alpha-Hydroxypropyl)thiamine diphosphate
+            C21018  Enzyme N6-(S-propyldihydrolipoyl)lysine
+            C21250  2-Methyl-trans-aconitate
+REL_PATHWAY rn00010  Glycolysis / Gluconeogenesis
+            rn00020  Citrate cycle (TCA cycle)
+            rn00260  Glycine, serine and threonine metabolism
+            rn00270  Cysteine and methionine metabolism
+            rn00280  Valine, leucine and isoleucine degradation
+            rn00410  beta-Alanine metabolism
+            rn00620  Pyruvate metabolism
+            rn00660  C5-Branched dibasic acid metabolism
+            rn00770  Pantothenate and CoA biosynthesis
+KO_PATHWAY  ko00640
+///

@@ -1,0 +1,167 @@
+ENTRY       K00205                      KO
+SYMBOL      fwdF, fmdF
+NAME        4Fe-4S ferredoxin
+PATHWAY     map00680  Methane metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01200  Carbon metabolism
+MODULE      M00567  Methanogenesis, CO2 => methane
+REACTION    R03015  formylmethanofuran:ferredoxin oxidoreductase
+            R08060  
+            R11743  formylmethanofuran:ferredoxin oxidoreductase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09102 Energy metabolism
+               00680 Methane metabolism
+                K00205  fwdF, fmdF; 4Fe-4S ferredoxin
+DBLINKS     COG: COG1145
+            GO: 0018493
+GENES       ABAT: CFX1CAM_1229
+            PSUB: Pelsub_P0990
+            MJA: MJ_1166
+            MFE: Mefer_0158
+            MVU: Metvu_0802
+            MFS: MFS40622_0799 MFS40622_1784
+            MIF: Metin_1129
+            MJH: JH146_0676
+            MESG: MLAUSG7_0784(fwdF)
+            MESA: MLASG1_0409(fwdF)
+            MIG: Metig_0469
+            MMP: MMP1245(fwdF)
+            MMQ: MmarC5_0346
+            MMX: MmarC6_1428
+            MMZ: MmarC7_0491
+            MMD: GYY_07060
+            MMAK: MMKA1_10890(fwdF) MMKA1_11060(fwdF) MMKA1_14710(fwdF)
+            MMAO: MMOS7_13530(fwdF)
+            MMAD: MMJJ_16000(nuoI_2)
+            MAE: Maeo_0634
+            MVN: Mevan_0559
+            MVO: Mvol_0877
+            MOK: Metok_0868
+            METF: CFE53_06105
+            MTH: MTH_1554 MTH_926
+            MMG: MTBMA_c01400(fwdF) MTBMA_c13130
+            MWO: MWSIV6_0095(fwdF1) MWSIV6_1318(fwdF3)
+            MTEE: MTTB_15370
+            METC: MTCT_0841 MTCT_1419
+            METE: tca_00889(por) tca_01503(nuoI)
+            METZ: METMT2_0017
+            METK: FVF72_03850 FVF72_06960
+            MTHM: FZP57_00395 FZP57_06260
+            METJ: FZP68_04390 FZP68_05405
+            MRU: mru_0340(fwdF) mru_0830
+            MSI: Msm_0783 Msm_1409
+            MEB: Abm4_0138(fwdF) Abm4_1291
+            MMIL: sm9_1704 sm9_2177(fwdF)
+            MEYE: TL18_00955 TL18_00965 TL18_07570
+            MOL: YLM1_0036 YLM1_0421
+            MARO: MarbSA_07900 MarbSA_13610
+            METV: K4897_04245 K4897_07595
+            MEL: Metbo_2502 Metbo_2513
+            MEW: MSWAN_0051 MSWAN_0123 MSWAN_0150
+            METH: MBMB1_0110(fwdF1) MBMB1_0143(fwdF3)
+            MFC: BRM9_0174(fwdF1) BRM9_0211(fwdF2)
+            MFI: DSM1535_1492(fwdF1) DSM1535_1527(fwdF3)
+            MCUB: MCBB_0126(fwdF1) MCBB_0152(fwdF3)
+            MSUB: BK009_10350 BK009_10500
+            METN: BK008_05980 BK008_06135
+            METT: CIT01_06270 CIT01_06355 CIT01_09815
+            METO: CIT02_06295 CIT02_06470
+            MEME: HYG87_07090 HYG87_07175
+            MFEG: GCM10025860_09050 GCM10025860_09540
+            MEER: NKF70_07310 NKF70_07365
+            MRID: FGU46_04360 FGU46_04450
+            MFV: Mfer_0976
+            MKA: MK0307(fwdF_1) MK0323(fwd_F2)
+            AFU: AF_1644
+            AFG: AFULGI_00004690 AFULGI_00018940
+            AVE: Arcve_1077 Arcve_1118
+            AST: Asulf_00330
+            FPL: Ferp_0140 Ferp_0651
+            GAC: GACE_0528 GACE_1882
+            GAH: GAH_00538 GAH_01180
+            MBA: Mbar_A1288 Mbar_A2588
+            MBY: MSBRM_0390 MSBRM_0639 MSBRM_1493
+            MBW: MSBRW_2141 MSBRW_3436
+            MBAR: MSBR2_0909 MSBR2_1739 MSBR2_1991
+            MBAK: MSBR3_0157 MSBR3_0797 MSBR3_2177
+            MAC: MA_0305(fmdF) MA_2867 MA_4174(fmdF)
+            MMA: MM_0055 MM_1565(fmdF)
+            MMAZ: MmTuc01_0061 MmTuc01_1628
+            MMJ: MSMAS_1273 MSMAS_3103
+            MMAC: MSMAC_2624 MSMAC_3122
+            MVC: MSVAZ_1749 MSVAZ_2686 MSVAZ_3307
+            MEK: MSKOL_1718 MSKOL_2690 MSKOL_3267
+            MLS: MSLAZ_0262 MSLAZ_1577
+            METM: MSMTP_1468 MSMTP_2999
+            MEF: MSWH1_0216 MSWH1_1494
+            MEQ: MSWHS_0227 MSWHS_1837
+            MSJ: MSSAC_0295 MSSAC_2859 MSSAC_3899
+            MSZ: MSSIH_0255 MSSIH_2513 MSSIH_3428
+            MSW: MSSIT_0260 MSSIT_2557 MSSIT_3501
+            MTHR: MSTHT_0376 MSTHT_1765
+            MTHE: MSTHC_0345 MSTHC_1526
+            MHOR: MSHOH_1420 MSHOH_3824
+            MFZ: AOB57_000360 AOB57_008015
+            MHAB: RSJ42_04340 RSJ42_17350
+            METW: AAY43_02740 AAY43_11945
+            MBU: Mbur_0285(fmdF) Mbur_0553
+            MMET: MCMEM_0845 MCMEM_1366
+            MELO: J7W08_02455 J7W08_05465
+            MMH: Mmah_0956 Mmah_1267
+            MHAZ: BHR79_07200 BHR79_08790
+            MPOT: BKM01_03450 BKM01_08620
+            MEV: Metev_1442
+            MZH: Mzhil_0655
+            MPY: Mpsy_2761 Mpsy_2950
+            MZI: HWN40_07670 HWN40_08855
+            MMAV: RE476_01320 RE476_05125
+            MSEB: RE474_01385 RE474_11010
+            MHZ: Metho_0728 Metho_1080
+            MTP: Mthe_1575
+            MCJ: MCON_0242(fmdF)
+            MHI: Mhar_0606 Mhar_1287
+            MHU: Mhun_1835
+            MRTJ: KHC33_05230
+            MLA: Mlab_0238 Mlab_0398
+            MEM: Memar_0626
+            MBG: BN140_1725
+            MEMA: MMAB1_2220
+            MCHK: MchiMG62_07550
+            MSUM: OH143_09850
+            MRC: R6Y96_02585
+            MPI: Mpet_2474 Mpet_2480
+            MEFW: F1737_00650
+            MAQE: RJ40_06030
+            MFK: E2N92_06160
+            MOU: OU421_03595
+            MESB: L1S32_07195
+            MANQ: L1994_01125
+            MBN: Mboo_0591
+            MFO: Metfor_2600
+            MESK: METHP_00375
+            MPL: Mpal_2242
+            MPD: MCP_1579(fwdF-1) MCP_2771(fwdF-2)
+            MEZ: Mtc_2476(fwdF)
+            RCI: RCIX592(fwdF-1) RRC254(fwdF-2)
+            MJK: N2V74_00050 N2V74_05800
+            MELU: MTLP_00230 MTLP_04140 MTLP_11370 MTLP_13320
+            BARC: AOA65_1971(mvhB_1)
+            BARB: AOA66_0154(fpoI)
+            LOKI: Lokiarch_08360(ndhI_3)
+            LOB: NEF87_000190 NEF87_003201
+            PSYT: DSAG12_02808
+REFERENCE   PMID:8575452
+  AUTHORS   Hochheimer A, Schmitz RA, Thauer RK, Hedderich R
+  TITLE     The tungsten formylmethanofuran dehydrogenase from Methanobacterium thermoautotrophicum contains sequence motifs characteristic for enzymes containing molybdopterin dinucleotide.
+  JOURNAL   Eur J Biochem 234:910-20 (1995)
+            DOI:10.1111/j.1432-1033.1995.910_a.x
+  SEQUENCE  [mmg:MTBMA_c01400]
+REFERENCE   PMID:8617280
+  AUTHORS   Vorholt JA, Vaupel M, Thauer RK
+  TITLE     A polyferredoxin with eight [4Fe-4S] clusters as a subunit of molybdenum formylmethanofuran dehydrogenase from Methanosarcina barkeri.
+  JOURNAL   Eur J Biochem 236:309-17 (1996)
+            DOI:10.1111/j.1432-1033.1996.t01-1-00309.x
+  SEQUENCE  [mba:Mbar_A1288]
+///

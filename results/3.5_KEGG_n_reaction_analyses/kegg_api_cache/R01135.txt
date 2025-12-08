@@ -1,0 +1,23 @@
+ENTRY       R01135                      Reaction
+NAME        IMP:L-aspartate ligase (GDP-forming)
+DEFINITION  GTP + IMP + L-Aspartate <=> GDP + Orthophosphate + N6-(1,2-Dicarboxyethyl)-AMP
+EQUATION    C00044 + C00130 + C00049 <=> C00035 + C00009 + C03794
+RCLASS      RC00002  C00035_C00044
+            RC00458  C00049_C03794
+            RC00459  C00130_C03794
+ENZYME      6.3.4.4
+PATHWAY     rn00230  Purine metabolism
+            rn00250  Alanine, aspartate and glutamate metabolism
+            rn01100  Metabolic pathways
+            rn01232  Nucleotide metabolism
+            rn01240  Biosynthesis of cofactors
+MODULE      M00049  Adenine ribonucleotide biosynthesis, IMP => ADP,ATP
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.4  Other carbon-nitrogen ligases
+                6.3.4.4
+                 R01135  GTP + IMP + L-Aspartate <=> GDP + Orthophosphate + N6-(1,2-Dicarboxyethyl)-AMP
+ORTHOLOGY   K01939  adenylosuccinate synthase [EC:6.3.4.4]
+DBLINKS     RHEA: 15756
+///

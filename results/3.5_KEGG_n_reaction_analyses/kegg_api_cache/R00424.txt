@@ -1,0 +1,20 @@
+ENTRY       R00424                      Reaction
+NAME        GTP 7,8-8,9-dihydrolase
+DEFINITION  GTP + H2O <=> 7,8-Dihydroneopterin 3'-triphosphate + Formate
+EQUATION    C00044 + C00001 <=> C04895 + C00058
+COMMENT     four-step reaction (see R00428+R05046+R05048+R04639)
+RCLASS      RC00292  C00044_C04895
+            RC02504  C00044_C00058
+ENZYME      3.5.4.16
+PATHWAY     rn01240  Biosynthesis of cofactors
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.4  In cyclic amidines
+                3.5.4.16
+                 R00424  GTP + H2O <=> 7,8-Dihydroneopterin 3'-triphosphate + Formate
+ORTHOLOGY   K01495  GTP cyclohydrolase IA [EC:3.5.4.16]
+            K09007  GTP cyclohydrolase IB [EC:3.5.4.16]
+            K22391  GTP cyclohydrolase I [EC:3.5.4.16]
+DBLINKS     RHEA: 17476
+///

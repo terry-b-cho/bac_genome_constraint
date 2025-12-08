@@ -1,0 +1,20 @@
+ENTRY       R01853                      Reaction
+NAME        RCH2NH2:oxygen oxidoreductase (deaminating) (copper-containing)
+DEFINITION  RCH2NH2 + H2O + Oxygen <=> Aldehyde + Ammonia + Hydrogen peroxide
+EQUATION    C00375 + C00001 + C00007 <=> C00071 + C00014 + C00027
+COMMENT     general reaction
+RCLASS      RC01708  C00071_C00375
+            RC02755  C00007_C00027
+ENZYME      1.4.3.21
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.21
+                 R01853  RCH2NH2 + H2O + Oxygen <=> Aldehyde + Ammonia + Hydrogen peroxide
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.4.3.21
+               R01853  RCH2NH2 <=> Aldehyde
+DBLINKS     RHEA: 16156 26417
+///

@@ -1,0 +1,45 @@
+ENTRY       K18358                      KO
+SYMBOL      padF
+NAME        phenylglyoxylate dehydrogenase delta subunit [EC:1.2.1.58]
+PATHWAY     map00360  Phenylalanine metabolism
+            map01100  Metabolic pathways
+REACTION    R02450  phenylglyoxylate:NAD+ oxidoreductase (CoA benzoylating)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09105 Amino acid metabolism
+               00360 Phenylalanine metabolism
+                K18358  padF; phenylglyoxylate dehydrogenase delta subunit
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.58  phenylglyoxylate dehydrogenase (acylating)
+                 K18358  padF; phenylglyoxylate dehydrogenase delta subunit
+            Enzymes of 2-oxocarboxylic acid metabolism [br01601.html]
+             2-Oxoacid oxidizing enzymes
+              K18358
+DBLINKS     GO: 0047110
+GENES       SHD: SUTH_01626(padF)
+            EBA: ebB191(padF)
+            ABRE: pbN1_03630 pbN1_13520(padF1) pbN1_22290(padF2)
+            APET: ToN1_00320(padF1) ToN1_39570(padF2)
+            AZA: AZKH_2900(padF)
+            AZI: AzCIB_1805 AzCIB_2841
+            AZD: CDA09_15490
+            TMZ: Tmz1t_2963
+            TCL: Tchl_2135
+            TAK: Tharo_1293
+            DDZ: DSYM_12690
+            RPD: RPD_1511
+            MAGX: XM1_3889
+            MAGN: WV31_20660
+            MAG: amb1677
+            DTO: TOL2_C41580(padF2)
+            AG: CAD21690(padF)
+REFERENCE   PMID:9490067
+  AUTHORS   Hirsch W, Schagger H, Fuchs G
+  TITLE     Phenylglyoxylate:NAD+ oxidoreductase (CoA benzoylating), a new enzyme of anaerobic phenylalanine metabolism in the denitrifying bacterium Azoarcus evansii.
+  JOURNAL   Eur J Biochem 251:907-15 (1998)
+            DOI:10.1046/j.1432-1327.1998.2510907.x
+  SEQUENCE  [ag:CAD21690]
+///

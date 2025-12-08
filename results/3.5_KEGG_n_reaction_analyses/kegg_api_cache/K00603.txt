@@ -1,0 +1,439 @@
+ENTRY       K00603                      KO
+SYMBOL      fctD
+NAME        glutamate formiminotransferase / 5-formyltetrahydrofolate cyclo-ligase [EC:2.1.2.5 6.3.3.2]
+PATHWAY     map00340  Histidine metabolism
+            map00670  One carbon pool by folate
+            map01100  Metabolic pathways
+MODULE      M00045  Histidine degradation, histidine => N-formiminoglutamate => glutamate
+REACTION    R02287  5-formiminotetrahydrofolate:L-glutamate N-formiminotransferase
+            R02301  5-formyltetrahydrofolate cyclo-ligase (ADP-forming)
+            R03189  5-formyltetrahydrofolate:L-glutamate N-formiminotransferase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09105 Amino acid metabolism
+               00340 Histidine metabolism
+                K00603  fctD; glutamate formiminotransferase / 5-formyltetrahydrofolate cyclo-ligase
+              09108 Metabolism of cofactors and vitamins
+               00670 One carbon pool by folate
+                K00603  fctD; glutamate formiminotransferase / 5-formyltetrahydrofolate cyclo-ligase
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.1  Transferring one-carbon groups
+               2.1.2  Hydroxymethyl-, formyl- and related transferases
+                2.1.2.5  glutamate formimidoyltransferase
+                 K00603  fctD; glutamate formiminotransferase / 5-formyltetrahydrofolate cyclo-ligase
+             6. Ligases
+              6.3  Forming carbon-nitrogen bonds
+               6.3.3  Cyclo-ligases
+                6.3.3.2  5-formyltetrahydrofolate cyclo-ligase
+                 K00603  fctD; glutamate formiminotransferase / 5-formyltetrahydrofolate cyclo-ligase
+DBLINKS     COG: COG3643
+            GO: 0030409 0030272
+GENES       BBAY: A4V04_09620
+            HNI: W911_06225
+            FIL: BN1229_v1_0522
+            FIY: BN1229_v1_0525
+            DLM: DPPLL_09310
+            DBK: DGMP_20080
+            DHG: EYB58_10975(ftcD)
+            DVR: Dvar_55100
+            DML: Dmul_14120(ftcD1)
+            DMM: dnm_068630(ftcD)
+            SAT: SYN_00461
+            PBAP: Pla133_14560(fchA)
+            UAM: UABAM_00804
+            UHL: UABHE_002388(ftcD)
+            TDE: TDE_0296
+            TPED: TPE_0827
+            TPK: JO40_03990
+            TPHG: FUT81_11925(ftcD)
+            ACA: ACP_0519(ftcD)
+            ACM: AciX9_1907
+            GMA: AciX8_3182
+            GRW: FTO74_06925(ftcD)
+            GRB: GOB94_14845(ftcD)
+            TSA: AciPR4_1516
+            TRS: Terro_2108 Terro_2472
+            TALB: FTW19_15490(ftcD)
+            ABAS: ACPOL_1045
+            EDA: GWR55_04165(ftcD)
+            EDG: H7846_10120(ftcD)
+            EPL: P4G45_11240(ftcD)
+            ADIN: H7849_09925(ftcD)
+            ORP: MOP44_19640(ftcD)
+            TGI: RBB81_16520(ftcD)
+            TEMP: RBB75_18585(ftcD)
+            TPSC: RBB77_12040(ftcD)
+            CTM: Cabther_A1910
+            CVL: J8C06_02265(ftcD)
+            CHLO: J8C02_09390(ftcD)
+            LUB: TBR22_A31840
+            SCOR: J3U87_06830(ftcD)
+            EPM: Dip510_001259
+            PPRX: Dip518_000288
+            PSPC: Strain318_000738(ftcD)
+            GMT: V3331_08470
+            BTH: BT_2693
+            BTHO: Btheta7330_00393
+            BFR: BF4147
+            BFS: BF9343_3864(ftcD)
+            BFG: BF638R_4006(ftcD)
+            BFB: VU15_19090
+            BHL: Bache_1091
+            BXY: BXY_18190
+            BOA: Bovatus_02751
+            BCEL: BcellWH2_03451
+            BZG: C4H11_10240(ftcD)
+            BHF: C3V43_06990(ftcD)
+            BIS: DXK01_007975(ftcD)
+            BUN: Bun01g_11760
+            BEG: INE88_02103
+            BSTE: K6V31_09200(ftcD)
+            BFE: K6V30_02370(ftcD)
+            BNO: K8P02_15595(ftcD)
+            BHUM: JXR92_006175(ftcD)
+            BFC: BacF7301_02090(ftcD)
+            BSAL: K6V25_01835(ftcD)
+            BACE: H1A11_17390(ftcD)
+            BVU: BVU_0334
+            BDO: EL88_21085
+            BDH: GV66_01880
+            PGI: PG_0329
+            PGN: PGN_1633
+            PGT: PGTDC60_1448
+            PAH: Poras_1353
+            PCRE: NCTC12858_00154
+            PCAG: NCTC12856_00371
+            PEND: LA319_01865(ftcD)
+            PSOE: CE91St14_17200
+            PBT: ING2E5B_1142(ftcd)
+            PET: PEIBARAKI_5434
+            PSAC: PSM36_1609(ftcd)
+            PROJ: KDN43_13340(ftcD)
+            PDI: BDI_3645
+            PARC: CI960_01370(ftcD)
+            PMER: INE87_02075
+            PGOL: K6V26_18345(ftcD)
+            PJO: LK449_00110(ftcD)
+            TFO: BFO_0770(ftcD)
+            TOH: BCB71_03440(ftcD)
+            MGOD: E7746_07305(ftcD)
+            ANF: AQPE_3842
+            GHY: ACOIT5_19365(ftcD)
+            THEO: IMW88_00635(ftcD)
+            PCAU: HWD63_00745(ftcD)
+            MUG: INP83_20500(ftcD)
+            PPEC: H9W90_03765(ftcD)
+            PHG: KCTC32516_01875
+            LUY: QZH61_09495(ftcD)
+            SHYR: LA303_02980(ftcD)
+            FML: FMIA91_00560
+            CPO: COPRO5265_1036
+            CEX: CSE_13370
+            NKF: Nkreftii_000807
+            NTI: DNFV4_04155
+            NALL: PP769_01590(ftcD)
+            NNEO: PQG83_12790(ftcD)
+            ALAM: RT761_02637
+            TVX: QBE54_03370(ftcD)
+            ATHO: M15_14690(ftcD)
+            SPY: SPy_2083
+            SPZ: M5005_Spy1772
+            SPYM: M1GAS476_1820
+            SPYA: A20_1815(ftcD)
+            SPM: spyM18_2142
+            SPG: SpyM3_1774
+            SPS: SPs1771
+            SPH: MGAS10270_Spy1838
+            SPI: MGAS10750_Spy1864
+            SPJ: MGAS2096_Spy1805
+            SPK: MGAS9429_Spy1783
+            SPF: SpyM51730
+            SPA: M6_Spy1769
+            SPB: M28_Spy1756
+            STG: MGAS15252_1616(fctD)
+            STX: MGAS1882_1677(fctD)
+            SOZ: Spy49_1725
+            STZ: SPYALAB49_001753(ftcD)
+            SPYH: L897_08810
+            SPYO: STAB901_08620
+            SSA: SSA_0434
+            SGO: SGO_1806(ftcD)
+            SDS: SDEG_2057
+            SDG: SDE12394_10380
+            SDA: GGS_1889
+            SDC: SDSE_2157(FTCD)
+            SDQ: SDSE167_2155
+            STK: STP_0392
+            SCP: HMPREF0833_11149(ftcD)
+            SCF: Spaf_1717
+            SOI: I872_01190
+            SIK: K710_1368
+            SIQ: DQ08_06340
+            SIO: DW64_06335
+            SIZ: SI82_06490
+            SIG: N596_05530
+            SIP: N597_07385
+            SKI: D7D50_05080(ftcD)
+            SCAI: NCTC12191_00728
+            SPSU: NCTC13786_01894
+            SPOC: NCTC10925_01269
+            SAUP: NCTC3168_01110(ftcD)
+            SVF: NCTC3166_01638(ftcD)
+            SRUN: LPB404_08775(ftcD)
+            SZG: J5M87_06485(ftcD)
+            SDEN: SM121_03770(ftcD)
+            SLIN: SM123_02530(ftcD)
+            SINS: PW252_07435(ftcD)
+            ETH: CK496_05180(ftcD)
+            ESG: EsVE80_00960
+            EMS: P3T75_13190(ftcD)
+            VTE: BHY08_07575
+            VCP: H9L18_10740(ftcD)
+            VHY: G7082_10050(ftcD)
+            VFV: K5K99_06915(ftcD)
+            VLC: G314FT_20330
+            VIE: OL234_06095(ftcD)
+            ASAN: AWM72_05025
+            IRU: M0R79_03585(ftcD)
+            CTC: CTC_02305
+            CTET: BN906_02518
+            CLJ: CLJU_c21500
+            CAH: CAETHG_0237(ftcD)
+            CSQ: CSCA_3654
+            CACE: CACET_c03050(ftcD) CACET_c32550
+            CCK: Ccar_23050
+            CEU: A7L45_08075
+            CFM: BJL90_01680
+            CARG: RSJ17_08200
+            CDRK: B9W14_01350
+            CCOH: SAMEA4530647_1981
+            CLOS: DMR38_11055(ftcD)
+            CCAA: KQH81_06235(ftcD)
+            CTAG: LL095_12210(ftcD)
+            CLOO: RCG18_12880(ftcD) RCG18_26315(ftcD)
+            CALE: FDN13_08360(ftcD)
+            CALD: PWK10_12135(ftcD) PWK10_12285(ftcD)
+            CRS: FQB35_01070(ftcD) FQB35_12570(ftcD) FQB35_13075(ftcD)
+            CPRF: K7H06_14430(ftcD) K7H06_17205(ftcD)
+            CRAS: KVH43_02155(ftcD)
+            OCW: OW730_12135(ftcD)
+            PROQ: P6M73_12275(ftcD)
+            OVA: OBV_12230 OBV_12330
+            LASA: L9O85_05265(ftcD) L9O85_05280(ftcD)
+            STH: STH3192
+            SALQ: SYNTR_1301
+            DOR: Desor_5015
+            DAI: Desaci_4226
+            DMI: Desmer_4009
+            FWA: DCMF_10675
+            AACX: DEACI_0871
+            ACAE: HYG86_08725(ftcD)
+            SAY: TPY_0925
+            SAP: Sulac_2720
+            STHR: BXT84_08480
+            HFV: R50_1799
+            FMS: M1R53_06030(ftcD)
+            PROM: QO263_02260(ftcD) QO263_10045(ftcD)
+            BYL: A4V09_10310
+            BHAN: CGC63_11335(ftcD)
+            BLAU: DQQ01_11205(ftcD)
+            BPRO: PMF13cell1_03209
+            BCOC: BLCOC_23010
+            BLAR: LC508_07945(ftcD)
+            CSO: CLS_36910
+            STOM: QU660_02440(ftcD)
+            VGU: HYG85_18620(ftcD)
+            VPY: HZI73_17935(ftcD)
+            AMIJ: EQM06_00460(ftcD)
+            AMIC: Ami3637_06870(ftcD)
+            ABUT: Ami103574_01595(ftcD)
+            ETM: CE91St48_01390
+            EMJ: V1225_02865(ftcD)
+            AMT: Amet_4073 Amet_4586
+            AOE: Clos_0361 Clos_0580
+            GFE: Gferi_10445 Gferi_16125
+            CSPO: QNI18_11595(ftcD)
+            PBIF: KXZ80_02950(ftcD) KXZ80_09885(ftcD)
+            PSOR: RSJ16_02900
+            RIL: CRIB_368
+            RHOM: FRIFI_0458
+            TEM: JW646_12585(ftcD) JW646_19355(ftcD)
+            TGC: L0P85_09005 L0P85_15095(ftcD)
+            TMY: TEMA_23020
+            TPET: TPHSE_19970 TPHSE_33740
+            TVT: TVTCOM_32750
+            TEB: T8CH_2476
+            THYR: P4S50_04685(ftcD)
+            IBR: NQ514_05495(ftcD)
+            PBQ: C3V37_06710(ftcD)
+            EAC: EAL2_808p06030
+            CST: CLOST_1282
+            TTE: TTE0450
+            TEX: Teth514_0390
+            THX: Thet_0437
+            TPD: Teth39_1836
+            TIT: Thit_0420
+            TMT: Tmath_0502
+            TBO: Thebr_1884
+            TWI: Thewi_0507
+            THEZ: OEI98_000496(ftcD)
+            CHY: CHY_0695(ftcD)
+            TPZ: Tph_c20440(ftcd)
+            GEK: kuro4_08460
+            TTM: Tthe_2241
+            TTO: Thethe_02323
+            TXY: Thexy_1941
+            TSH: Tsac_0044
+            THED: SAMN05660242_0697
+            TEP: TepRe1_0775
+            TAE: TepiRe1_0840
+            BACG: D2962_04785(ftcD)
+            TOC: Toce_1474
+            NTH: Nther_2818
+            HPK: Hprae_0089
+            AAR: Acear_1939
+            AFT: BBF96_15240
+            KME: H0A61_01271
+            HPRF: HLPR_02750(ftcD_1) HLPR_12700(ftcD_2)
+            PED: ING2D1G_0116 ING2D1G_0162(ftcd)
+            PHAR: NCTC13077_00302
+            PEQU: O6R05_01160(ftcD)
+            PGK: M9426_03135(ftcD)
+            MHAP: JFY71_01555(ftcD)
+            MFOM: VZL98_07125(ftcD)
+            CAD: Curi_c03010(ftcD)
+            GBX: SANA_09460(ftcD)
+            SPOA: EQM13_04095(ftcD)
+            KPAR: JL105_06140(ftcD)
+            CAZO: G3A45_08665(ftcD)
+            TIS: P3962_00475(ftcD) P3962_11985(ftcD) P3962_14425(ftcD)
+            TIZ: RBU61_09360(ftcD) RBU61_18615(ftcD)
+            SPOK: ACFWUA_08545(ftcD)
+            SEDZ: JYG23_06485(ftcD)
+            SEDM: RBQ61_08555(ftcD) RBQ61_15050(ftcD)
+            ECOU: M1R54_08080(ftcD)
+            PUF: UFO1_4407
+            PFT: JBW_02658
+            MANA: MAMMFC1_01798
+            STED: SPTER_12840
+            SSPH: SPSPH_003210 SPSPH_013210
+            SOVA: SOV_02410
+            SSID: SPSIL_002420 SPSIL_018750
+            SACV: SPACI_018190 SPACI_048010
+            SCAO: SCACP_07070
+            AFN: Acfer_0235
+            AIN: Acin_0279
+            ERL: AOC36_11475
+            FCZ: IMF26_09645(ftcD)
+            FBS: N510_001787
+            MANR: MPAN_001580
+            XCL: G4Z02_03225(ftcD)
+            MBJ: KQ51_00528
+            TBK: HF295_08655(ftcD)
+            TBM: BK010_00795
+            TBZ: BK011_00685
+            ABAI: IMCC26256_112007
+            RMAR: GBA65_11780 GBA65_11785
+            BSOL: FSW04_18740
+            BALA: DSM104299_03304
+            PBAJ: LRS13_18570
+            CWO: Cwoe_3011
+            PARN: NBH00_14255
+            PARQ: DSM112329_03124
+            TALU: JDY09_05795
+            AFO: Afer_0329
+            ATQ: GH723_01895
+            AQZ: KSP35_19245
+            ADAE: ACE2AJ_07020
+            IAM: HC251_02120
+            GLJ: GKIL_4221
+            ABAO: BEQ56_10165
+            CAP: CLDAP_31470
+            PMET: G4Y79_13140(ftcD)
+            CCZ: CCALI_01998
+            FGI: OP10G_2267
+            NPY: NPRO_03700
+            CCOT: CCAX7_42550
+            VAB: WPS_14010
+            TAI: Taci_0915
+            CPOR: BED41_03785 BED41_07870
+            ACO: Amico_0715 Amico_1539
+            AMIZ: RBH88_01935(ftcD) RBH88_08170(ftcD) RBH88_11280(ftcD)
+            TLI: Tlie_0373
+            AMO: Anamo_0712
+            PPIO: CE91St28_23720
+            PYY: RAH42_00075(ftcD) RAH42_12980(ftcD)
+            ARAM: KAR29_01655(ftcD)
+            APRP: KIH16_01655(ftcD)
+            TMA: TM0843
+            TMM: Tmari_0845
+            TMI: THEMA_00425
+            TMW: THMA_0864
+            TMQ: THMB_0864
+            TMX: THMC_0864
+            TPT: Tpet_0084
+            TNP: Tnap_0084
+            TRQ: TRQ2_0084
+            TNA: CTN_1732
+            THQ: T2812B_00425
+            THZ: CELL2_00450
+            THR: TRQ7_00425
+            TLE: Tlet_1282
+            TTA: Theth_0981
+            PHY: AJ81_09910
+            TME: Tmel_1173
+            TAF: THA_1560(ftcD)
+            THP: BG95_06670
+            THER: Y592_06750
+            TFE: JYK00_01350(ftcD)
+            FNO: Fnod_0808
+            FPE: Ferpe_1011
+            FIA: NA23_05005(ftcD)
+            FRR: IB67_09415
+            FNG: JM64_07940
+            FGW: QO060_04080(ftcD)
+            FTHL: U0O82_03340(ftcD)
+            OCY: OSSY52_03880
+            PMO: Pmob_0241 Pmob_1367
+            DTN: DTL3_1345(ftcd) DTL3_1638
+            OCS: OF820_10140(ftcD)
+            KOL: Kole_1720
+            KPF: IX53_04625
+            MPG: Theba_0352
+            MINF: MESINF_1752
+            ASAC: ATHSA_1311
+            FNU: FN0741 FN1407
+            FNC: HMPREF0946_00225
+            FNT: HMPREF0405_01030
+            FUS: HMPREF0409_00839
+            FNE: FSDG_00338
+            FHW: RN87_06640
+            FPD: CTM68_09850(ftcD)
+            FGO: C4N16_03620(ftcD)
+            FNF: BSQ88_01990(ftcD)
+            FPEI: C4N17_03035(ftcD)
+            FCI: I6I83_07900(ftcD) I6I83_10065(ftcD)
+            FPOL: ERS445057_01493
+            FWT: CCUG74246_00160(ftcD) CCUG74246_06710(ftcD)
+            CSOM: MKD34_10675(ftcD)
+            BANA: BARAN1_0275
+            BIH: BIP78_1563
+            TAC: Ta1476
+            TVO: TVG0092631(TVG0092631)
+            OMR: OXIME_001712(ftcD)
+            PTO: PTO1242
+            FAC: FACI_IFERC01G0470
+            FAI: FAD_1385
+            CDIV: CPM_0208
+            BARC: AOA65_0374
+            FLT: Sv326_1019
+            LOKI: Lokiarch_22020
+            LOB: NEF87_002879
+REFERENCE   PMID:20952389
+  AUTHORS   Jeanguenin L, Lara-Nunez A, Pribat A, Mageroy MH, Gregory JF 3rd, Rice KC, de Crecy-Lagard V, Hanson AD
+  TITLE     Moonlighting glutamate formiminotransferases can functionally replace 5-formyltetrahydrofolate cycloligase.
+  JOURNAL   J Biol Chem 285:41557-66 (2010)
+            DOI:10.1074/jbc.M110.190504
+  SEQUENCE  [spy:SPy_2083]
+///

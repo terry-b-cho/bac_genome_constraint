@@ -1,0 +1,291 @@
+ENTRY       rn00230                     Pathway
+NAME        Purine metabolism
+CLASS       Metabolism; Nucleotide metabolism
+PATHWAY_MAP rn00230  Purine metabolism
+MODULE      M00005  PRPP biosynthesis, ribose-5P => PRPP [PATH:rn00230]
+            M00048  De novo purine biosynthesis, PRPP + glutamine => IMP [PATH:rn00230]
+            M00049  Adenine ribonucleotide biosynthesis, IMP => ADP,ATP [PATH:rn00230]
+            M00050  Guanine ribonucleotide biosynthesis, IMP => GDP,GTP [PATH:rn00230]
+            M00053  Deoxyribonucleotide biosynthesis, ADP/GDP/CDP/UDP => dATP/dGTP/dCTP/dUTP [PATH:rn00230]
+            M00546  Purine degradation, xanthine => urea [PATH:rn00230]
+            M00958  Adenine ribonucleotide degradation, AMP => Urate [PATH:rn00230]
+            M00959  Guanine ribonucleotide degradation, GMP => Urate [PATH:rn00230]
+            M00968  Pentose bisphosphate pathway (nucleoside degradation), archaea, nucleoside/NMP => 3-PGA/glycerone phosphate [PATH:rn00230]
+DBLINKS     GO: 0006163 0042278
+REACTION    R00086  ATP phosphohydrolase
+            R00087  ATP diphosphohydrolase (diphosphate-forming); ATP pyrophosphohydrolase
+            R00089  ATP diphosphate-lyase (cyclizing; 3',5'-cyclic-AMP-forming)
+            R00122  ADP phosphohydrolase
+            R00125  P1,P4-bis(5'-adenosyl)-tetraphosphate nucleotidebisphosphohydrolase
+            R00126  ADP:ATP adenylyltransferase
+            R00127  ATP:AMP phosphotransferase
+            R00128  adenosine-tetraphosphate phosphohydrolase
+            R00150  ATP:carbamate phosphotransferase
+            R00181  AMP aminohydrolase
+            R00182  AMP phosphoribohydrolase
+            R00183  adenosine 5'-monophosphate phosphohydrolase
+            R00184  P1,P4-bis(5'-adenosyl)-tetraphosphate adenylohydrolase
+            R00185  ATP:adenosine 5'-phosphotransferase
+            R00187  P1,P3-bis(5'-adenosyl)-triphosphate adenylohydrolase
+            R00190  AMP:diphosphate phospho-D-ribosyltransferase
+            R00191  adenosine 3',5'-phosphate 5'-nucleotidohydrolase
+            R00322  5'-acetylphosphoadenosine acetylhydrolase
+            R00328  GDP phosphohydrolase
+            R00330  ATP:GDP phosphotransferase
+            R00331  ATP:nucleoside-diphosphate phosphotransferase
+            R00332  ATP:GMP phosphotransferase
+            R00333  nucleoside-triphosphate:AMP phosphotransferase
+            R00335  GTP phosphohydrolase
+            R00336  guanosine-3',5'-bis(diphosphate) 3'-diphosphohydrolase
+            R00426  GTP diphosphohydrolase (diphosphate-forming); guanosine 5'-triphosphate pyrophosphohydrolase
+            R00429  ATP:GTP 3'-diphosphotransferase
+            R00434  GTP diphosphate-lyase (cyclizing; 3',5'-cyclic-GMP-forming)
+            R00469  (S)-ureidoglycolate amidohydrolase (decarboxylating)
+            R00507  3'-phosphoadenylyl-sulfate sulfohydrolase; 3'-phosphoadenylyl-sulfate nucleotidohydrolase
+            R00509  ATP:adenylylsulfate 3'-phosphotransferase
+            R00529  ATP:sulfate adenylyltransferase
+            R00719  ITP phosphohydrolase
+            R00720  inosine 5'-triphosphate pyrophosphohydrolase
+            R00722  ATP:IDP phosphotransferase
+            R00723  inosine 5'-tetraphosphate phosphohydrolase
+            R00776  (S)-ureidoglycolate urea-lyase (glyoxylate-forming)
+            R00961  IDP phosphohydrolase; inosine diphosphate phosphatase
+            R01049  ATP:D-ribose-5-phosphate diphosphotransferase
+            R01053  ribose-5-phosphate:ammonia ligase (ADP-forming)
+            R01054  ADP-ribose ribophosphohydrolase
+            R01057  D-ribose 1,5-phosphomutase
+            R01072  5-phosphoribosylamine:diphosphate phospho-alpha-D-ribosyltransferase (glutamate-amidating)
+            R01083  N6-(1,2-dicarboxyethyl)AMP AMP-lyase (fumarate-forming)
+            R01126  inosine 5'-monophosphate phosphohydrolase
+            R01127  IMP 1,2-hydrolase (decyclizing)
+            R01130  IMP:NAD+ oxidoreductase
+            R01131  ATP:inosine 5'-phosphotransferase
+            R01132  IMP:diphosphate phospho-D-ribosyltransferase
+            R01134  inosine-5'-phosphate:NADP+ oxidoreductase (aminating); NADH:guanosine-5'-phosphate oxidoreductase (deaminating)
+            R01135  IMP:L-aspartate ligase (GDP-forming)
+            R01137  ATP:dADP phosphotransferase
+            R01227  guanosine 5'-monophosphate phosphohydrolase
+            R01228  ATP:guanosine 5'-phosphotransferase
+            R01229  GMP:diphosphate 5-phospho-alpha-D-ribosyltransferase
+            R01230  xanthosine-5'-phosphate:ammonia ligase (AMP-forming)
+            R01231  xanthosine-5'-phosphate:L-glutamine amido-ligase (AMP-forming)
+            R01232  P1,P4-bis(5'-guanosyl)-tetraphosphate guanylylhydrolase
+            R01234  guanosine 3',5'-cyclic phosphate 5'-nucleotidohydrolase
+            R01244  adenine aminohydrolase
+            R01245  adenosine ribohydrolase
+            R01423  5'-benzoylphosphoadenosine benzoylhydrolase
+            R01547  ATP:dAMP phosphotransferase
+            R01560  adenosine aminohydrolase
+            R01561  adenosine:phosphate alpha-D-ribosyltransferase
+            R01562  adenosine 3'-phosphate phosphohydrolase
+            R01618  APS:ATP adenylyltransferase
+            R01676  guanine aminohydrolase
+            R01677  guanosine ribohydrolase
+            R01690  5'-butyrylphosphoinosine butyrylhydrolase
+            R01768  hypoxanthine:NAD+ oxidoreductase
+            R01769  hypoxanthine:oxygen oxidoreductase
+            R01770  inosine ribohydrolase
+            R01855  2'-deoxyguanosine 5'-triphosphate diphosphohydrolase
+            R01856  dGTP triphosphohydrolase
+            R01857  ATP:dGDP phosphotransferase
+            R01863  inosine:phosphate alpha-D-ribosyltransferase
+            R01885  
+            R01967  ATP:deoxyguanosine 5'-phosphotransferase
+            R01968  2'-deoxyguanosine 5'-monophosphate phosphohydrolase
+            R01969  deoxyguanosine:orthophosphate ribosyltransferase
+            R02014  2'-deoxyadenosine 5'-triphosphate:oxydized-thioredoxin 2'-oxidoreductase
+            R02017  2'-deoxyadenosine 5'-diphosphate:oxidized-thioredoxin 2'-oxidoreductase
+            R02019  2'-deoxyguanosine 5'-diphosphate:oxidized-thioredoxin 2'-oxidoreductase
+            R02020  2'-deoxyguanosine 5'-triphosphate:oxydized-thioredoxin 2'-oxidoreductase
+            R02088  2'-deoxyadenosine 5'-monophosphate phosphohydrolase
+            R02089  ATP:deoxyadenosine 5'-phosphotransferase
+            R02090  ATP:dGMP phosphotransferase
+            R02103  xanthine:NAD+ oxidoreductase
+            R02106  urate:oxygen oxidoreductase
+            R02107  xanthine:oxygen oxidoreductase
+            R02141  
+            R02142  XMP:pyrophosphate phosphoribosyltransferase
+            R02143  xanthosine ribohydrolase
+            R02147  guanosine:phosphate alpha-D-ribosyltransferase
+            R02148  guanosine 3'-phosphate phosphohydrolase
+            R02297  xanthosine:orthophosphate ribosyltransferase
+            R02422  allantoate amidinohydrolase
+            R02423  allantoate amidinohydrolase (decarboxylating)
+            R02425  (S)-allantoin amidohydrolase
+            R02556  deoxyadenosine aminohydrolase
+            R02557  deoxyadenosine:orthophosphate ribosyltransferase
+            R02646  urate-3-ribonucleoside:phosphate D-ribosyltransferase
+            R02719  xanthosine 5'-phosphate phosphohydrolase
+            R02720  XTP pyrophosphohydrolase; XTP diphosphohydrolase (diphosphate-forming)
+            R02729  5-formiminotetrahydrofolate:glycine N-formiminotransferase
+            R02748  deoxyinosine:orthophosphate ribosyltransferase
+            R02805  P1,P4-bis(5'-nucleosyl)-tetraphosphate nucleotidohydrolase
+            R02935  (S)-ureidoglycolate:NAD+ oxidoreductase
+            R02936  (S)-ureidoglycolate:NADP+ oxidoreductase
+            R02937  carbamoyl-phosphate:oxamate carbamoyltransferase
+            R03409  guanosine 3'-diphosphate 5'-triphosphate 5'-phosphohydrolase
+            R03530  ATP:dIDP phosphotransferase
+            R03531  2'-deoxyinosine-5'-triphosphate pyrophosphohydrolase; dITP diphosphohydrolase (diphosphate-forming)
+            R03537  2',3'-cyclic AMP 3'-nucleotidohydrolase
+            R03925  allantoin racemase
+            R04026  
+            R04144  5-phospho-D-ribosylamine:glycine ligase (ADP-forming)
+            R04208  2-(formamido)-N1-(5-phosphoribosyl)acetamidine cyclo-ligase (ADP-forming)
+            R04209  1-(5-phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate carboxy-lyase
+            R04325  10-formyltetrahydrofolate:5'-phosphoribosylglycinamide formyltransferase
+            R04378  1-(5'-phosphoribosyl)-5-amino-4-imidazolecarboxamide:pyrophosphate phosphoribosyltransferase
+            R04463  5'-phosphoribosylformylglycinamide:L-glutamine amido-ligase (ADP-forming)
+            R04559  1-(5'-phosphoribosyl)-5-amino-4-(N-succinocarboxamide)-imidazole AMP-lyase
+            R04560  10-formyltetrahydrofolate:5'-phosphoribosyl-5-amino-4-imidazolecarboxamide formyltransferase
+            R04591  1-(5-phosphoribosyl)-5-amino-4-carboxyimidazole:L-aspartate ligase (ADP-forming)
+            R04731  4-aminoimidazole aminohydrolase
+            R04732  
+            R04857  
+            R05135  2',3'-cyclic GMP 3'-nucleotidohydrolase
+            R05554  ureidoglycine aminohydrolase; (S)-ureidoglycine aminohydrolase
+            R06601  5-hydroxyisourate amidohydrolase
+            R06604  5-hydroxy-2-oxo-4-ureido-2,5-dihydro-1H-imidazole-5-carboxylate carboxy-lyase [(S)-allantoin-forming]
+            R06605  
+            R06974  formate:N1-(5-phospho-beta-D-ribosyl)glycinamide ligase (ADP-forming)
+            R06975  formate:5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide ligase (ADP-forming); 5-formaminoimidazole-4-carboxamide-1-beta-D-ribofuranosyl 5'-monophosphate synthetase
+            R07404  5-amino-1-(5-phospho-D-ribosyl)imidazole:carbon-dioxide ligase (ADP-forming)
+            R07405  5-carboxyamino-1-(5-phospho-D-ribosyl)imidazole carboxymutase
+            R09514  urate,NADH:oxygen oxidoreductase (5-hydroxyisourate forming)
+            R10235  deoxyinosine diphosphate phosphatase
+            R10836  AMP:phosphate (5-phospho-alpha-D-ribosyl)transferase
+            R10908  (S)-ureidoglycine:glyoxylate aminotransferase
+            R11617  oxamate amidohydrolase
+            R11633  GTP:formate 2'-oxidoreductase
+            R11634  ATP:formate 2'-oxidoreductase
+            R12703  
+            R12786  dGMP:L-aspartate ligase (ADP-forming)
+            R12851  adenylosuccinate lyase
+            R12852  guanylate kinase
+            R12853  nucleoside-diphosphate kinase
+            R12987  adenine:NAD+ oxidoreductase
+            R12988  8-hydroxyadenine:NAD+ oxidoreductase
+            R12989  adenine:oxygen oxidoreductase
+            R12990  8-hydroxyadenine:oxygen oxidoreductase
+            R13420  urea amidohydrolase
+COMPOUND    C00002  ATP
+            C00008  ADP
+            C00011  CO2
+            C00014  Ammonia
+            C00020  AMP
+            C00035  GDP
+            C00037  Glycine
+            C00039  DNA
+            C00044  GTP
+            C00046  RNA
+            C00048  Glyoxylate
+            C00053  3'-Phosphoadenylyl sulfate
+            C00054  Adenosine 3',5'-bisphosphate
+            C00059  Sulfate
+            C00064  L-Glutamine
+            C00081  ITP
+            C00086  Urea
+            C00104  IDP
+            C00117  D-Ribose 5-phosphate
+            C00119  5-Phospho-alpha-D-ribose 1-diphosphate
+            C00130  IMP
+            C00131  dATP
+            C00144  GMP
+            C00147  Adenine
+            C00169  Carbamoyl phosphate
+            C00206  dADP
+            C00209  Oxalate
+            C00212  Adenosine
+            C00224  Adenylyl sulfate
+            C00242  Guanine
+            C00262  Hypoxanthine
+            C00286  dGTP
+            C00288  HCO3-
+            C00294  Inosine
+            C00301  ADP-ribose
+            C00330  Deoxyguanosine
+            C00360  dAMP
+            C00361  dGDP
+            C00362  dGMP
+            C00366  Urate
+            C00385  Xanthine
+            C00387  Guanosine
+            C00499  Allantoate
+            C00559  Deoxyadenosine
+            C00575  3',5'-Cyclic AMP
+            C00603  (S)-Ureidoglycolate
+            C00620  alpha-D-Ribose 1-phosphate
+            C00655  Xanthosine 5'-phosphate
+            C00700  XTP
+            C00802  Oxalureate
+            C00942  3',5'-Cyclic GMP
+            C01228  Guanosine 3',5'-bis(diphosphate)
+            C01260  P1,P4-Bis(5'-adenosyl)tetraphosphate
+            C01261  P1,P4-Bis(5'-guanosyl) tetraphosphate
+            C01344  dIDP
+            C01345  dITP
+            C01367  3'-AMP
+            C01444  Oxamate
+            C01762  Xanthosine
+            C02091  (S)-Ureidoglycine
+            C02348  (R)(-)-Allantoin
+            C02350  (S)-Allantoin
+            C02353  2',3'-Cyclic AMP
+            C02718  N-Formiminoglycine
+            C03090  5-Phosphoribosylamine
+            C03373  Aminoimidazole ribotide
+            C03483  Adenosine tetraphosphate
+            C03614  Inosine 5'-tetraphosphate
+            C03794  N6-(1,2-Dicarboxyethyl)-AMP
+            C03838  5'-Phosphoribosylglycinamide
+            C04051  5-Amino-4-imidazolecarboxyamide
+            C04376  5'-Phosphoribosyl-N-formylglycinamide
+            C04392  P1,P4-Bis(5'-xanthosyl) tetraphosphate
+            C04494  Guanosine 3'-diphosphate 5'-triphosphate
+            C04640  2-(Formamido)-N1-(5'-phosphoribosyl)acetamidine
+            C04677  1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide
+            C04734  1-(5'-Phosphoribosyl)-5-formamido-4-imidazolecarboxamide
+            C04751  1-(5-Phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate
+            C04823  1-(5'-Phosphoribosyl)-5-amino-4-(N-succinocarboxamide)-imidazole
+            C05239  5-Aminoimidazole
+            C05512  Deoxyinosine
+            C05513  Urate-3-ribonucleoside
+            C05515  5-Ureido-4-imidazole carboxylate
+            C05516  5-Amino-4-imidazole carboxylate
+            C05993  Acetyl adenylate
+            C06193  Guanosine 3'-phosphate
+            C06194  2',3'-Cyclic GMP
+            C06195  Imidazolone
+            C06196  2'-Deoxyinosine 5'-phosphate
+            C06197  P1,P3-Bis(5'-adenosyl) triphosphate
+            C06433  5'-Benzoylphosphoadenosine
+            C06435  5'-Butyrylphosphoinosine
+            C11821  5-Hydroxyisourate
+            C12248  5-Hydroxy-2-oxo-4-ureido-2,5-dihydro-1H-imidazole-5-carboxylate
+            C15667  5-Carboxyamino-1-(5-phospho-D-ribosyl)imidazole
+            C22395  N6-Succino-2-amino-2'-deoxyadenylate
+            C22441  dZMP
+            C22442  dZDP
+            C22443  dZTP
+            C22499  8-Hydroxyadenine
+            C22500  2,8-Dihydroxyadenine
+REFERENCE   PMID:10601204
+  AUTHORS   Cusa E, Obradors N, Baldoma L, Badia J, Aguilar J.
+  TITLE     Genetic analysis of a chromosomal region containing genes required for assimilation of allantoin nitrogen and linked glyoxylate metabolism in Escherichia coli.
+  JOURNAL   J Bacteriol 181:7479-84 (1999)
+            DOI:10.1128/JB.181.24.7479-7484.1999
+REFERENCE   PMID:10986234
+  AUTHORS   Xi H, Schneider BL, Reitzer L.
+  TITLE     Purine catabolism in Escherichia coli and function of xanthine dehydrogenase in purine salvage.
+  JOURNAL   J Bacteriol 182:5332-41 (2000)
+            DOI:10.1128/JB.182.19.5332-5341.2000
+REL_PATHWAY rn00030  Pentose phosphate pathway
+            rn00220  Arginine biosynthesis
+            rn00250  Alanine, aspartate and glutamate metabolism
+            rn00260  Glycine, serine and threonine metabolism
+            rn00340  Histidine metabolism
+            rn00630  Glyoxylate and dicarboxylate metabolism
+            rn00730  Thiamine metabolism
+            rn00740  Riboflavin metabolism
+            rn00790  Folate biosynthesis
+KO_PATHWAY  ko00230
+///

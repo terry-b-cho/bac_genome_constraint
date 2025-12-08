@@ -1,0 +1,19 @@
+ENTRY       R01034                      Reaction
+NAME        glycerol:NAD+ 2-oxidoreductase
+DEFINITION  Glycerol + NAD+ <=> Glycerone + NADH + H+
+EQUATION    C00116 + C00003 <=> C00184 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00029  C00116_C00184
+ENZYME      1.1.1.6
+PATHWAY     rn00561  Glycerolipid metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.6
+                 R01034  Glycerol + NAD+ <=> Glycerone + NADH + H+
+ORTHOLOGY   K00005  glycerol dehydrogenase [EC:1.1.1.6]
+            K22251  glycerol dehydrogenase [EC:1.1.1.6]
+DBLINKS     RHEA: 13772
+///

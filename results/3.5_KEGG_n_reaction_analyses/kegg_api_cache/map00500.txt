@@ -1,0 +1,13 @@
+ENTRY       map00500                    Pathway
+NAME        Starch and sucrose metabolism
+CLASS       Metabolism; Carbohydrate metabolism
+PATHWAY_MAP map00500  Starch and sucrose metabolism
+MODULE      M00565  Trehalose biosynthesis, D-glucose-1P => trehalose [PATH:map00500]
+            M00854  Glycogen biosynthesis, glucose-1P => glycogen/starch [PATH:map00500]
+            M00855  Glycogen degradation, glycogen => glucose-6P [PATH:map00500]
+DBLINKS     GO: 0005982 0005985
+REL_PATHWAY map00010  Glycolysis / Gluconeogenesis
+            map00074  Mycolic acid biosynthesis
+            map00520  Amino sugar and nucleotide sugar metabolism
+KO_PATHWAY  ko00500
+///

@@ -1,0 +1,19 @@
+ENTRY       map00240                    Pathway
+NAME        Pyrimidine metabolism
+CLASS       Metabolism; Nucleotide metabolism
+PATHWAY_MAP map00240  Pyrimidine metabolism
+MODULE      M00046  Pyrimidine degradation, uracil => beta-alanine, thymine => 3-aminoisobutanoate [PATH:map00240]
+            M00051  De novo pyrimidine biosynthesis, glutamine (+ PRPP) => UMP [PATH:map00240]
+            M00052  Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP [PATH:map00240]
+            M00053  Deoxyribonucleotide biosynthesis, ADP/GDP/CDP/UDP => dATP/dGTP/dCTP/dUTP [PATH:map00240]
+            M00938  Pyrimidine deoxyribonucleotide biosynthesis, UDP => dTTP [PATH:map00240]
+            M00939  Pyrimidine degradation, uracil => 3-hydroxypropanoate [PATH:map00240]
+            M00968  Pentose bisphosphate pathway (nucleoside degradation), archaea, nucleoside/NMP => 3-PGA/glycerone phosphate [PATH:map00240]
+DBLINKS     GO: 0006220 0006213
+REL_PATHWAY map00030  Pentose phosphate pathway
+            map00220  Arginine biosynthesis
+            map00250  Alanine, aspartate and glutamate metabolism
+            map00280  Valine, leucine and isoleucine degradation
+            map00410  beta-Alanine metabolism
+KO_PATHWAY  ko00240
+///

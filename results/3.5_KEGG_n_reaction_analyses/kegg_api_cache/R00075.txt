@@ -1,0 +1,21 @@
+ENTRY       R00075                      Reaction
+NAME        S-adenosyl-L-methionine:S-adenosyl-L-methionine 3-amino-3-carboxypropyltransferase
+DEFINITION  3 S-Adenosyl-L-methionine <=> 3 5'-Methylthioadenosine + Nicotianamine
+EQUATION    3 C00019 <=> 3 C00170 + C05324
+COMMENT     multi-step reaction
+RCLASS      RC00021  C00019_C00170
+ENZYME      2.5.1.43
+PATHWAY     rn00270  Cysteine and methionine metabolism
+            rn00999  Biosynthesis of various plant secondary metabolites
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00953  Mugineic acid biosynthesis, methionine => 3-epihydroxymugineic acid
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+                2.5.1.43
+                 R00075  3 S-Adenosyl-L-methionine <=> 3 5'-Methylthioadenosine + Nicotianamine
+ORTHOLOGY   K05953  nicotianamine synthase [EC:2.5.1.43]
+DBLINKS     RHEA: 16484
+///

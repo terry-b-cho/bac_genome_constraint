@@ -1,0 +1,21 @@
+ENTRY       R03254                      Reaction
+NAME        phosphoenolpyruvate:D-arabinose-5-phosphate C-(1-carboxyvinyl)transferase (phosphate-hydrolysing, 2-carboxy-2-oxoethyl-forming);
+            2-dehydro-3-deoxy-D-octonate-8-phosphate D-arabinose-5-phosphate-lyase (pyruvate-phosphorylating)
+DEFINITION  3-Deoxy-D-manno-octulosonate 8-phosphate + Orthophosphate <=> Phosphoenolpyruvate + D-Arabinose 5-phosphate + H2O
+EQUATION    C04478 + C00009 <=> C00074 + C01112 + C00001
+COMMENT     KdsA
+RCLASS      RC00435  C01112_C04478
+ENZYME      2.5.1.55
+PATHWAY     rn00541  Biosynthesis of various nucleotide sugars
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M00063  CMP-KDO biosynthesis, ribulose-5P => CMP-KDO
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+                2.5.1.55
+                 R03254  3-Deoxy-D-manno-octulosonate 8-phosphate + Orthophosphate <=> Phosphoenolpyruvate + D-Arabinose 5-phosphate + H2O
+ORTHOLOGY   K01627  2-dehydro-3-deoxyphosphooctonate aldolase (KDO 8-P synthase) [EC:2.5.1.55]
+DBLINKS     RHEA: 14056
+///

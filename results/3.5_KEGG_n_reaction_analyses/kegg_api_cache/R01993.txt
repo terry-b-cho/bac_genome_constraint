@@ -1,0 +1,20 @@
+ENTRY       R01993                      Reaction
+NAME        (S)-dihydroorotate amidohydrolase
+DEFINITION  (S)-Dihydroorotate + H2O <=> N-Carbamoyl-L-aspartate
+EQUATION    C00337 + C00001 <=> C00438
+RCLASS      RC00632  C00337_C00438
+ENZYME      3.5.2.3
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00051  De novo pyrimidine biosynthesis, glutamine (+ PRPP) => UMP
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.2  In cyclic amides
+                3.5.2.3
+                 R01993  (S)-Dihydroorotate + H2O <=> N-Carbamoyl-L-aspartate
+ORTHOLOGY   K01465  dihydroorotase [EC:3.5.2.3]
+            K11540  carbamoyl-phosphate synthase / aspartate carbamoyltransferase / dihydroorotase [EC:6.3.5.5 2.1.3.2 3.5.2.3]
+DBLINKS     RHEA: 24299
+///

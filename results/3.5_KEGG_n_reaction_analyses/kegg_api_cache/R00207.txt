@@ -1,0 +1,18 @@
+ENTRY       R00207                      Reaction
+NAME        pyruvate:oxygen 2-oxidoreductase (phosphorylating)
+DEFINITION  Pyruvate + Orthophosphate + Oxygen <=> Acetyl phosphate + Hydrogen peroxide + CO2
+EQUATION    C00022 + C00009 + C00007 <=> C00227 + C00027 + C00011
+RCLASS      RC02745  C00022_C00227
+            RC02755  C00007_C00027
+ENZYME      1.2.3.3
+PATHWAY     rn00620  Pyruvate metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.3  With oxygen as acceptor
+                1.2.3.3
+                 R00207  Pyruvate + Orthophosphate + Oxygen <=> Acetyl phosphate + Hydrogen peroxide + CO2
+ORTHOLOGY   K00158  pyruvate oxidase [EC:1.2.3.3]
+DBLINKS     RHEA: 20851
+///

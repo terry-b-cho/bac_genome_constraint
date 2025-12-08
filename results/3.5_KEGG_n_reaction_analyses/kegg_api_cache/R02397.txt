@@ -1,0 +1,17 @@
+ENTRY       R02397                      Reaction
+NAME        4-trimethylammoniobutanoate,2-oxoglutarate:oxygen oxidoreductase (3-hydroxylating)
+DEFINITION  4-Trimethylammoniobutanoate + 2-Oxoglutarate + Oxygen <=> Carnitine + Succinate + CO2
+EQUATION    C01181 + C00026 + C00007 <=> C00487 + C00042 + C00011
+RCLASS      RC00709  C00487_C01181
+ENZYME      1.14.11.1
+PATHWAY     rn00310  Lysine degradation
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.11  With 2-oxoglutarate as one donor, and incorporation of one atom of oxygen into each donor
+                1.14.11.1
+                 R02397  4-Trimethylammoniobutanoate + 2-Oxoglutarate + Oxygen <=> Carnitine + Succinate + CO2
+ORTHOLOGY   K00471  gamma-butyrobetaine dioxygenase [EC:1.14.11.1]
+DBLINKS     RHEA: 24031
+///

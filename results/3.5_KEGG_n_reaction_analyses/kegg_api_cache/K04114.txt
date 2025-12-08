@@ -1,0 +1,67 @@
+ENTRY       K04114                      KO
+SYMBOL      bcrA, badF
+NAME        benzoyl-CoA reductase subunit A [EC:1.3.7.8]
+PATHWAY     map00362  Benzoate degradation
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01220  Degradation of aromatic compounds
+MODULE      M00541  Benzoyl-CoA degradation, benzoyl-CoA => 3-hydroxypimeloyl-CoA
+REACTION    R02451  cyclohexa-1,5-diene-1-carbonyl-CoA:ferredoxin oxidoreductase (aromatizing, ATP-forming)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09111 Xenobiotics biodegradation and metabolism
+               00362 Benzoate degradation
+                K04114  bcrA, badF; benzoyl-CoA reductase subunit A
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.3  Acting on the CH-CH group of donors
+               1.3.7  With an iron-sulfur protein as acceptor
+                1.3.7.8  benzoyl-CoA reductase
+                 K04114  bcrA, badF; benzoyl-CoA reductase subunit A
+DBLINKS     GO: 0018522
+GENES       SHD: SUTH_01648(bcrA)
+            EBA: ebA5287(bcrA) ebA742(bcrA)
+            ABRE: pbN1_04340(bcrA1) pbN1_30610(bcrA2)
+            APET: ToN1_49070(bcrA)
+            AZA: AZKH_2140(bcrA_bzdQ)
+            AZI: AzCIB_1605 AzCIB_4619
+            AZD: CDA09_12145(bzdQ) CDA09_22645(bzdQ)
+            TMZ: Tmz1t_2949
+            TCL: Tchl_2149
+            TAK: Tharo_1307
+            DDZ: DSYM_16280
+            RPA: TX73_003415(bcrA)
+            RPC: RPC_1027
+            RPD: RPD_1536
+            RPE: RPE_0606
+            RPT: Rpal_0726
+            RPX: Rpdx1_4127
+            RHOE: LRC39_03395(bcrA)
+            RVA: Rvan_0039
+            RLAC: QMO75_01845(bcrA)
+            BLAG: BLTE_16490
+            MAGX: XM1_2894(bcrA)
+            MAGN: WV31_08610
+            MAG: amb2139
+            DTI: Desti_1474
+            DMP: FAK_34130
+            DDL: Desdi_0720
+            AACX: DEACI_1769
+            DGI: Desgi_1430
+            SSID: SPSIL_024000(hadI_3)
+            FPL: Ferp_1187
+            GAC: GACE_0796
+            BARC: AOA65_0736
+            AG: CAA12249(bcrA)
+REFERENCE   PMID:8575453
+  AUTHORS   Boll M, Fuchs G
+  TITLE     Benzoyl-coenzyme A reductase (dearomatizing), a key enzyme of anaerobic aromatic metabolism. ATP dependence of the reaction, purification and some properties of the enzyme from Thauera aromatica strain K172.
+  JOURNAL   Eur J Biochem 234:921-33 (1995)
+            DOI:10.1111/j.1432-1033.1995.921_a.x
+REFERENCE   PMID:9746358
+  AUTHORS   Breese K, Boll M, Alt-Morbe J, Schagger H, Fuchs G
+  TITLE     Genes coding for the benzoyl-CoA pathway of anaerobic aromatic metabolism in the bacterium Thauera aromatica.
+  JOURNAL   Eur J Biochem 256:148-54 (1998)
+            DOI:10.1046/j.1432-1327.1998.2560148.x
+  SEQUENCE  [ag:CAA12249]
+///

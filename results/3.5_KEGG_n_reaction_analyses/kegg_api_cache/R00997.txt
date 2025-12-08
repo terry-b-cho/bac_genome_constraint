@@ -1,0 +1,19 @@
+ENTRY       R00997                      Reaction
+NAME        1-aminocyclopropane-1-carboxylate aminohydrolase (isomerizing);
+            1-aminocyclopropane-1-carboxylate endolyase (deaminating)
+DEFINITION  1-Aminocyclopropane-1-carboxylate + H2O <=> 2-Oxobutanoate + Ammonia
+EQUATION    C01234 + C00001 <=> C00109 + C00014
+COMMENT     multi-step reaction
+RCLASS      RC00419  C00109_C01234
+ENZYME      3.5.99.7
+PATHWAY     rn00270  Cysteine and methionine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.99  In other compounds
+                3.5.99.7
+                 R00997  1-Aminocyclopropane-1-carboxylate + H2O <=> 2-Oxobutanoate + Ammonia
+ORTHOLOGY   K01505  1-aminocyclopropane-1-carboxylate deaminase [EC:3.5.99.7]
+DBLINKS     RHEA: 16936
+///

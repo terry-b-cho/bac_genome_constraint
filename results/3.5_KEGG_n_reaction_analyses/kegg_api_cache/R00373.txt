@@ -1,0 +1,19 @@
+ENTRY       R00373                      Reaction
+NAME        glycine:oxaloacetate aminotransferase
+DEFINITION  Glycine + Oxaloacetate <=> Glyoxylate + L-Aspartate
+EQUATION    C00037 + C00036 <=> C00048 + C00049
+RCLASS      RC00006  C00036_C00049
+            RC00018  C00037_C00048
+ENZYME      2.6.1.35
+PATHWAY     rn00630  Glyoxylate and dicarboxylate metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.6  Transferring nitrogenous groups
+               2.6.1  Transaminases
+                2.6.1.35
+                 R00373  Glycine + Oxaloacetate <=> Glyoxylate + L-Aspartate
+ORTHOLOGY   K28179  glycine---oxaloacetate transaminase [EC:2.6.1.35]
+DBLINKS     RHEA: 17144
+///

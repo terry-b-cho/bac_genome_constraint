@@ -1,0 +1,348 @@
+ENTRY       rn00999                     Pathway
+NAME        Biosynthesis of various plant secondary metabolites
+  INCLUDING Crocin biosynthesis, Ginsenoside biosynthesis, Saponin adjuvant biosynthesis, Cannabidiol biosynthesis, Mugineic acid biosynthesis, Pentagalloylglucose biosynthesis, Benzoxazinoid biosynthesis, Gramine biosynthesis, Coumarin biosynthesis, Furanocoumarin biosynthesis, Hordatine biosynthesis, Podophyllotoxin biosynthesis
+CLASS       Metabolism; Biosynthesis of other secondary metabolites
+PATHWAY_MAP rn00999  Biosynthesis of various plant secondary metabolites
+MODULE      M00894  Cannabidiol biosynthesis, malonyl-CoA => cannabidiol/dronabinol [PATH:rn00999]
+            M00900  Crocin biosynthesis, crocetin => crocin [PATH:rn00999]
+            M00902  Podophyllotoxin biosynthesis, coniferyl alcohol => podophyllotoxin [PATH:rn00999]
+            M00952  Benzoxazinoid biosynthesis, indoleglycerol phosphate => DIMBOA-glucoside [PATH:rn00999]
+            M00953  Mugineic acid biosynthesis, methionine => 3-epihydroxymugineic acid [PATH:rn00999]
+            M00971  QS-7 biosynthesis, 2,3-epoxysqualene => QS-7 [PATH:rn00999]
+REACTION    R00075  S-adenosyl-L-methionine:S-adenosyl-L-methionine 3-amino-3-carboxypropyltransferase
+            R00177  ATP:L-methionine S-adenosyltransferase
+            R01617  4-coumaroyl-CoA:agmatine N4-coumaroyltransferase
+            R02254  trans-cinnamate,NADPH:oxygen oxidoreductase (2-hydroxylating)
+            R02340  (1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate D-glyceraldehyde-3-phosphate-lyase
+            R02882  S-adenosyl-L-methionine:bergaptol O-methyltransferase
+            R02982  S-adenosyl-L-methionine:xanthotoxol O-methyltransferase
+            R03297  UDPglucose:gallate beta-D-glucosyltransferase
+            R03594  UDPglucose:scopoletin O-beta-D-glucosyltransferase
+            R03692  dihydrocoumarin lactonohydrolase
+            R03710  UDPglucose:trans-2-hydroxycinnamate O-beta-D-glucosyltransferase
+            R04498  1-O-galloyl-beta-D-glucose:1,2,3,6-tetrakis-O-galloyl-beta-D-glucose 4-O-galloyltransferase
+            R04686  
+            R04998  beta-D-glucosyl-2-coumarinate glucohydrolase
+            R04999  
+            R06469  (3S)-2,3-epoxy-2,3-dihydrosqualene mutase (cyclizing, beta-amyrin-forming)
+            R07141  2'-deoxymugineic acid:NAD+ 3''-oxidoreductase
+            R07142  2'-deoxymugineic acid:NADP+ 3''-oxidoreductase
+            R07185  2'-deoxymugineic acid,2-oxoglutarate:oxygen oxidoreductase(2-hydroxylating)
+            R07186  mugineic acid,2-oxoglutarate:oxygen oxidoreductase (3-hydroxylating)
+            R07187  2'-deoxymugineic acid,2-oxoglutarate:oxygen oxidoreductase (3-hydroxylating)
+            R07277  nicotianamine:2-oxoglutarate aminotransferase; nicotianamine transaminase
+            R07403  indole,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (2-hydroxylating)
+            R07421  indolin-2-one,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (3-hydroxylating)
+            R07422  3-hydroxyindolin-2-one,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (2-hydroxy-2H-1,4-benzoxazin-3(4H)-one-forming)
+            R07423  2-hydroxy-2H-1,4-benzoxazin-3(4H)-one,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (N-hydroxylating)
+            R07426  UDP-glucose:DIBOA 2-D-glucosyltransferase
+            R08207  (+)-marmesin,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase
+            R08538  S-adenosyl-L-methionine:5-hydroxyfuranocoumarin O-methyltransferase
+            R08972  (2R)-4-hydroxy-3-oxo-3,4-dihydro-2H-1,4-benzoxazin-2-yl beta-D-glucopyranoside:oxygen oxidoreductase (7-hydroxylating)
+            R08973  S-adenosyl-L-methionine:TRIBOA-glucoside 7-O-methyltransferase
+            R08996  dimethylallyl-diphosphate:umbelliferone 6-dimethylallyltransferase
+            R08997  demethylsuberosin,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase
+            R08998  
+            R08999  
+            R09000  
+            R09002  (+)-columbianetin,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase
+            R09016  
+            R09255  feruloyl-CoA:agmatine feruloyltransferase
+            R09701  (S)-squalene-2,3-epoxide hydro-lyase (dammarenediol-II forming)
+            R09757  UDP-glucose:crocetin 8-O-D-glucosyltransferase
+            R09758  UDP-glucose:beta-D-glucosylcrocetin 8'-O-D-glucosyltransferase
+            R09759  UDP-glucose:beta-D-gentiobiosylcrocetin 8'-O-D-glucosyltransferase
+            R10129  (-)-secoisolariciresinol:NAD+ oxidoreductase
+            R10160  cannabigerolate:oxygen oxidoreductase (cyclizing, cannabidiolate-forming)
+            R10171  malonyl-CoA:hexanoyl-CoA malonyltransferase (3,5,7-trioxododecanoyl-CoA-forming)
+            R10176  geranyl-diphosphate:olivetolate geranyltransferase
+            R10225  (+)-lariciresinol:NADP+ oxidoreductase
+            R10226  (-)-secoisolariciresinol:NADP+ oxidoreductase
+            R10227  (-)-lariciresinol:NADP+ oxidoreductase
+            R10228  (+)-secoisolariciresinol:NADPH+ oxidoreductase
+            R10278  3,5,7-trioxododecanoyl-CoA CoA-lyase (2,4-dihydroxy-6-pentylbenzoate-forming)
+            R10540  dammarenediol-II,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (12beta-hydroxylating)
+            R10591  protopanaxadiol,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (6alpha-hydroxylating)
+            R10607  UDP-glucose:ginsenoside-Rd beta-1,6-glucosyltransferase
+            R10843  zeaxanthin:oxygen oxidoreductase (7,8-cleaving)
+            R10844  beta-citraurin:oxygen oxidoreductase (7,8-cleaving)
+            R10924  beta-amyrin,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (28-hydroxylating)
+            R10988  UDP-alpha-D-glucose:beta-D-glucosyl-crocetin beta-1,6-glucosyltransferase
+            R10989  UDP-alpha-D-glucose:bis(beta-D-glucosyl)-crocetin beta-1,6-glucosyltransferase
+            R10990  UDP-alpha-D-glucose:beta-D-gentiobiosyl-beta-D-glucosyl-crocetin beta-1,6-glucosyltransferase
+            R11210  (-)-yatein,2-oxoglutarate:oxygen oxidoreductase (ring-forming)
+            R11211  (-)-bursehernin,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (5'-hydroxylating)
+            R11222  (-)-matairesinol,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (methylenedioxy-bridge-forming)
+            R11230  S-adenosyl-L-methionine:(-)-pluviatolide 4-O-methyltransferase
+            R11545  S-adenosyl-L-methionine:(-)-5'-demethylyatein 5'-O-methyltransferase
+            R11549  feruloyl-CoA,2-oxoglutarate:oxygen oxidoreductase (6-hydroxylating)
+            R11550  
+            R11698  S-adenosyl-L-methionine:3-(aminomethyl)indole N-methyltransferase
+            R11699  S-adenosyl-L-methionine:(1H-indol-3-yl)-N-methylmethanamine N-methyltransferase
+            R12101  cannabigerolate:oxygen oxidoreductase (cyclizing, Delta9-tetrahydrocannabinolate-forming)
+            R12102  
+            R12103  
+            R12126  
+            R12127  
+            R12135  
+            R12136  
+            R12137  
+            R12145  
+            R12222  scopoletin,2-oxoglutarate:oxygen oxidoreductase (8-hydroxylating)
+            R12223  fraxetin,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (5-hydroxylating)
+            R12306  (2E)-3-(4-hydroxyphenyl)prop-2-enoyl-CoA,2-oxoglutarate:oxygen oxidoreductase (2-hydroxylating)
+            R12310  
+            R12382  UDP-alpha-D-glucose:(20S)-protopanaxadiol 20-O-glucosyltransferase (configuration-inverting)
+            R12383  UDP-alpha-D-glucose:protopanaxadiol-type ginsenoside 3-O-glucosyltransferase (configuration-retaining)
+            R12384  UDP-alpha-D-glucose:protopanaxadiol-type ginsenoside 3-O-glucosyltransferase (configuration-retaining)
+            R12385  UDP-alpha-D-glucose:3-O-glucosyl-protopanaxadiol-type ginsenoside 2''-O-glucosyltransferase
+            R12386  UDP-alpha-D-glucose:3-O-glucosyl-protopanaxadiol-type ginsenoside 2''-O-glucosyltransferase
+            R12387  UDP-alpha-D-glucose:ginsenoside F1 6-O-glucosyltransferase
+            R12388  UDP-alpha-D-glucose:protopanaxatriol 6-O-glucosyltransferase
+            R12826  3-epihydroxy-2'-deoxymugineic acid,2-oxoglutarate:oxygen oxidoreductase (2-hydroxylating)
+            R12838  
+            R12839  
+            R12842  
+            R12843  
+            R12844  
+            R12858  
+            R12876  
+            R12877  
+            R12878  
+            R12879  
+            R12880  
+            R12881  
+            R12882  
+            R12883  
+            R12885  
+            R12886  
+            R12887  
+            R12888  
+            R12889  
+            R12890  
+            R12891  
+            R12892  
+            R12893  
+            R12957  
+            R12993  
+            R12994  
+            R12995  
+            R13149  
+            R13150  
+            R13151  
+            R13152  
+            R13153  
+            R13154  
+            R13155  
+            R13156  
+            R13157  
+            R13158  
+            R13159  
+            R13160  
+            R13161  
+            R13162  
+            R13163  
+            R13164  
+            R13165  
+COMPOUND    C00019  S-Adenosyl-L-methionine
+            C00024  Acetyl-CoA
+            C00036  Oxaloacetate
+            C00049  L-Aspartate
+            C00073  L-Methionine
+            C00074  Phosphoenolpyruvate
+            C00078  L-Tryptophan
+            C00079  L-Phenylalanine
+            C00082  L-Tyrosine
+            C00083  Malonyl-CoA
+            C00108  Anthranilate
+            C00179  Agmatine
+            C00223  p-Coumaroyl-CoA
+            C00251  Chorismate
+            C00254  Prephenate
+            C00323  Caffeoyl-CoA
+            C00353  Geranylgeranyl diphosphate
+            C00406  Feruloyl-CoA
+            C00423  trans-Cinnamate
+            C00448  trans,trans-Farnesyl diphosphate
+            C00463  Indole
+            C00493  Shikimate
+            C00590  Coniferyl alcohol
+            C00751  Squalene
+            C00758  Bergaptol
+            C00841  Xanthotoxol
+            C01054  (S)-2,3-Epoxysqualene
+            C01158  1-O-Galloyl-beta-D-glucose
+            C01198  3-(2-Hydroxyphenyl)propanoate
+            C01424  Gallate
+            C01527  Scopolin
+            C01557  Bergapten
+            C01752  Scopoletin
+            C01772  trans-2-Hydroxycinnamate
+            C01864  Xanthotoxin
+            C02162  Isopimpinellin
+            C02274  Dihydrocoumarin
+            C02637  3-Dehydroshikimate
+            C02951  5-Hydroxyxanthotoxin
+            C03506  Indoleglycerol phosphate
+            C04498  p-Coumaroylagmatine
+            C04576  Pentagalloylglucose
+            C04831  DIMBOA-glucoside
+            C05158  trans-beta-D-Glucosyl-2-hydroxycinnamate
+            C05324  Nicotianamine
+            C05366  (+)-Pinoresinol
+            C05838  cis-2-Hydroxycinnamate
+            C05839  cis-beta-D-Glucosyl-2-hydroxycinnamate
+            C05851  Coumarin
+            C06098  Zeaxanthin
+            C06972  Dronabinol
+            C07578  Cannabidiol
+            C08304  Gramine
+            C08307  Hordatine A
+            C08308  Hordatine B
+            C08588  Crocetin
+            C08589  Crocin
+            C08616  beta-Amyrin
+            C08942  Echinocystic acid
+            C08946  Ginsenoside Rg1
+            C08972  Quillaic acid
+            C09060  Angelicin
+            C09263  Esculetin
+            C09265  Fraxetin
+            C09276  Marmesin
+            C09305  Psoralen
+            C09311  Scoparone
+            C09315  Umbelliferone
+            C10556  Deoxypodophyllotoxin
+            C10557  Dihydroanhydropodorhizol
+            C10646  Lariciresinol
+            C10682  Matairesinol
+            C10784  Cannabidiolic acid
+            C10874  Podophyllotoxin
+            C11130  3-Hydroxyindolin-2-one
+            C12312  Indolin-2-one
+            C15485  2'-Deoxymugineic acid
+            C15486  3''-Deamino-3''-oxonicotianamine
+            C15500  Mugineic acid
+            C15501  3-Epihydroxymugineic acid
+            C15502  3-Epihydroxy-2'-deoxymugineic acid
+            C15769  HBOA
+            C15770  DIBOA
+            C15772  DIBOA-glucoside
+            C17055  Picrocrocin
+            C17062  Safranal
+            C17148  Oleanolic acid
+            C17513  trans-Crocetin (beta-D-glucosyl) (beta-D-gentibiosyl) ester
+            C18062  TRIBOA-glucoside
+            C18079  Isoscopoletin
+            C18080  Osthenol
+            C18083  Demethylsuberosin
+            C18167  Secoisolariciresinol
+            C18325  Feruloylagmatine
+            C19707  (+)-Columbianetin
+            C19730  Crocetin dialdehyde
+            C19731  (3S)-3-Hydroxycyclocitral
+            C19829  Dammarenediol-II
+            C19867  beta-D-Glucosyl crocetin
+            C19868  Bis(beta-D-glucosyl) crocetin
+            C19869  beta-D-Gentiobiosyl crocetin
+            C20406  Cannabigerolate
+            C20413  3,5,7-Trioxododecanoyl-CoA
+            C20417  2,4-Dihydroxy-6-pentylbenzoate
+            C20454  (-)-Lariciresinol
+            C20455  (-)-Pinoresinol
+            C20456  (+)-Secoisolariciresinol
+            C20713  Ginsenoside Rb1
+            C20715  Protopanaxadiol
+            C20716  Protopanaxatriol
+            C20725  Ginsenoside Rd
+            C20778  Ginsenoside Rg3
+            C20779  Ginsenoside F2
+            C20780  Ginsenoside F1
+            C20894  beta-Citraurin
+            C21183  Bursehernin
+            C21184  (-)-5'-Demethylyatein
+            C21191  Pluviatolide
+            C21459  6-Hydroxyferuloyl-CoA
+            C21601  3-(Aminomethyl)indole
+            C21602  (1H-Indol-3-yl)-N-methylmethanamine
+            C21903  Delta9-Tetrahydrocannabinolate
+            C22007  Sideretin
+            C22070  2,4-Dihydroxycinnamoyl-CoA
+            C22127  Ginsenoside C-K
+            C22128  (20S)-Ginsenoside Rh2
+            C22129  Ginsenoside Rh1
+            C22152  Bergamottin
+            C22153  Epoxybergamottin
+            C22156  6',7'-Dihydroxybergamottin
+            C22438  3,5-Dehydroshikimate
+            C22444  5,8-Dihydroxypsoralen
+            C22445  8-Hydroxybergapten
+            C22452  6,7,8-Trihydroxycoumarin
+            C22652  Quillaic acid 3-O-beta-D-glucuronide
+            C22653  Quillaic acid 3-O-beta-D-galactosyl-1,2-beta-D-glucuronide
+            C22654  Quillaic acid 3-O-beta-D-xylosyl-1,3-(beta-D-galactosyl-1,2)-beta-D-glucuronide
+            C22655  Quillaic acid 3-O-alpha-L-rhamnosyl-1,3-(beta-D-galactosyl-1,2)-beta-D-glucuronide
+            C22656  Quillaic acid 3-O-beta-D-xylosyl-1,3-(beta-D-galactosyl-1,2)-beta-D-glucuronide-28-O-beta-D-fucoside
+            C22657  Quillaic acid 3-O-alpha-L-rhamnosyl-1,3-(beta-D-galactosyl-1,2)-beta-D-glucuronide-28-O-beta-D-fucoside
+            C22658  Quillaic acid 3-O-beta-D-xylosyl-1,3-(beta-D-galactosyl-1,2)-beta-D-glucuronide-28-O-alpha-L-rhamnosyl-1,2-beta-D-fucoside
+            C22659  Quillaic acid 3-O-alpha-L-rhamnosyl-1,3-(beta-D-galactosyl-1,2)-beta-D-glucuronide-28-O-alpha-L-rhamnosyl-1,2-beta-D-fucoside
+            C22660  Quillaic acid 3-O-beta-D-xylosyl-1,3-(beta-D-galactosyl-1,2)-beta-D-glucuronide-28-O-beta-D-xylosyl-1,4-alpha-L-rhamnosyl-1,2-beta-D-fucoside
+            C22661  Quillaic acid 3-O-alpha-L-rhamnosyl-1,3-(beta-D-galactosyl-1,2)-beta-D-glucuronide-28-O-beta-D-xylosyl-1,4-alpha-L-rhamnosyl-1,2-beta-D-fucoside
+            C22662  Quillaic acid 3-O-beta-D-xylosyl-1,3-(beta-D-galactosyl-1,2)-beta-D-glucuronide-28-O-beta-D-xylosyl-1,3-beta-D-xylosyl-1,4-alpha-L-rhamnosyl-1,2-beta-D-fucoside
+            C22663  Quillaic acid 3-O-alpha-L-rhamnosyl-1,3-(beta-D-galactosyl-1,2)-beta-D-glucuronide-28-O-beta-D-xylosyl-1,3-beta-D-xylosyl-1,4-alpha-L-rhamnosyl-1,2-beta-D-fucoside
+            C22664  Quillaic acid 3-O-beta-D-xylosyl-1,3-(beta-D-galactosyl-1,2)-beta-D-glucuronide-28-O-beta-D-apiosyl-1,3-beta-D-xylosyl-1,4-alpha-L-rhamnosyl-1,2-beta-D-fucoside
+            C22665  Quillaic acid 3-O-alpha-L-rhamnosyl-1,3-(beta-D-galactosyl-1,2)-beta-D-glucuronide-28-O-beta-D-apiosyl-1,3-beta-D-xylosyl-1,4-alpha-L-rhamnosyl-1,2-beta-D-fucoside
+            C22666  Quillaic acid 3-O-beta-D-xylosyl-1,3-(beta-D-galactosyl-1,2)-beta-D-glucuronide 28-O-beta-D-apiosyl-1,3-beta-D-xylosyl-1,4-(beta-D-glucosyl-1,3)-alpha-L-rhamnosyl-1,2-(alpha-L-rhamnosyl-1,3)-4-O-acetyl-beta-D-fucoside
+REFERENCE   PMID:22569263
+  AUTHORS   Nagatoshi M, Terasaka K, Owaki M, Sota M, Inukai T, Nagatsu A, Mizukami H
+  TITLE     UGT75L6 and UGT94E5 mediate sequential glucosylation of crocetin to crocin in Gardenia jasminoides.
+  JOURNAL   FEBS Lett 586:1055-61 (2012)
+            DOI:10.1016/j.febslet.2012.03.003
+REFERENCE   PMID:17544411
+  AUTHORS   Taura F, Sirikantaramas S, Shoyama Y, Yoshikai K, Shoyama Y, Morimoto S
+  TITLE     Cannabidiolic-acid synthase, the chemotype-determining enzyme in the fiber-type Cannabis sativa.
+  JOURNAL   FEBS Lett 581:2929-34 (2007)
+            DOI:10.1016/j.febslet.2007.05.043
+REFERENCE   PMID:9952442
+  AUTHORS   Higuchi K, Suzuki K, Nakanishi H, Yamaguchi H, Nishizawa NK, Mori S
+  TITLE     Cloning of nicotianamine synthase genes, novel genes involved in the biosynthesis of phytosiderophores.
+  JOURNAL   Plant Physiol 119:471-80 (1999)
+            DOI:10.1104/pp.119.2.471
+REFERENCE   PMID:7622460
+  AUTHORS   Ma JF, Shinada T, Matsuda C, Nomoto K
+  TITLE     Biosynthesis of phytosiderophores, mugineic acids, associated with methionine cycling.
+  JOURNAL   J Biol Chem 270:16549-54 (1995)
+            DOI:10.1074/jbc.270.28.16549
+REFERENCE   PMID:33346890
+  AUTHORS   Tahara K, Nishiguchi M, Funke E, Miyazawa SI, Miyama T, Milkowski C
+  TITLE     Dehydroquinate dehydratase/shikimate dehydrogenases involved in gallate biosynthesis of the aluminum-tolerant tree species Eucalyptus camaldulensis.
+  JOURNAL   Planta 253:3 (2020)
+            DOI:10.1007/s00425-020-03516-w
+REFERENCE   PMID:26558757
+  AUTHORS   Dugrand-Judek A, Olry A, Hehn A, Costantino G, Ollitrault P, Froelicher Y, Bourgaud F.
+  TITLE     The Distribution of Coumarins and Furanocoumarins in Citrus Species Closely Matches Citrus Phylogeny and Reflects the Organization of Biosynthetic Pathways.
+  JOURNAL   PLoS One 10:e0142757 (2015)
+            DOI:10.1371/journal.pone.0142757
+REFERENCE   PMID:15009205
+  AUTHORS   Hehmann M, Lukacin R, Ekiert H, Matern U
+  TITLE     Furanocoumarin biosynthesis in Ammi majus L. Cloning of bergaptol O-methyltransferase.
+  JOURNAL   Eur J Biochem 271:932-40 (2004)
+            DOI:10.1111/j.1432-1033.2004.03995.x
+REFERENCE   PMID:26359402
+  AUTHORS   Lau W, Sattely ES
+  TITLE     Six enzymes from mayapple that complete the biosynthetic pathway to the etoposide aglycone.
+  JOURNAL   Science 349:1224-8 (2015)
+            DOI:10.1126/science.aac7202
+REFERENCE   PMID:36952412
+  AUTHORS   Reed J, Orme A, El-Demerdash A, Owen C, Martin LBB, Misra RC, Kikuchi S, Rejzek M, Martin AC, Harkess A, Leebens-Mack J, Louveau T, Stephenson MJ, Osbourn A.
+  TITLE     Elucidation of the pathway for biosynthesis of saponin adjuvants from the soapbark tree.
+  JOURNAL   Science 379:1252-1264 (2023)
+            DOI:10.1126/science.adf3727
+REL_PATHWAY rn00010  Glycolysis / Gluconeogenesis
+            rn00020  Citrate cycle (TCA cycle)
+            rn00270  Cysteine and methionine metabolism
+            rn00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            rn00900  Terpenoid backbone biosynthesis
+            rn00940  Phenylpropanoid biosynthesis
+KO_PATHWAY  ko00999
+///

@@ -1,0 +1,71 @@
+ENTRY       rn00643                     Pathway
+NAME        Styrene degradation
+CLASS       Metabolism; Xenobiotics biodegradation and metabolism
+PATHWAY_MAP rn00643  Styrene degradation
+DBLINKS     UMBBD: sty acr pao
+            GO: 0042207
+REACTION    R01364  4-fumarylacetoacetate fumarylhydrolase
+            R02517  3-hydroxyphenylacetate,NADPH:oxygen oxidoreductase (6-hydroxylating)
+            R02519  homogentisate:oxygen 1,2-oxidoreductase (decyclizing)
+            R02536  phenylacetaldehyde:NAD+ oxidoreductase
+            R02540  2-phenylacetamide amidohydrolase
+            R02963  lactoyl-CoA hydro-lyase
+            R03181  4-maleylacetoacetate cis-trans-isomerase
+            R05354  styrene cis-glycol:NAD+ oxidoreductase
+            R05358  acrylonitrile aminohydrolase
+            R05362  2-hydroxy-6-oxoocta-2,4,7-trienoate formylhydrolase
+            R05379  acrylamide hydro-lyase
+            R05404  
+            R05417  
+            R05450  
+            R05487  phenylacetate,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (2-hydroxylating)
+            R05488  styrene,FADH2:oxygen oxidoreductase
+            R05508  
+            R05509  
+            R05551  
+            R07638  (Z)-phenylacetaldehyde-oxime hydro-lyase
+            R07854  2-phenylacetamide hydro-lyase (nitrile-forming)
+            R07855  phenylacetonitrile aminohydrolase
+            R10697  styrene-oxide isomerase (epoxide-cleaving)
+COMPOUND    C00122  Fumarate
+            C00164  Acetoacetate
+            C00186  (S)-Lactate
+            C00511  Acrylic acid
+            C00544  Homogentisate
+            C00596  2-Hydroxy-2,4-pentadienoate
+            C00601  Phenylacetaldehyde
+            C00827  Lactoyl-CoA
+            C00894  Propenoyl-CoA
+            C01036  4-Maleylacetoacetate
+            C01061  4-Fumarylacetoacetate
+            C01659  Acrylamide
+            C01998  Acrylonitrile
+            C02505  2-Phenylacetamide
+            C05593  3-Hydroxyphenylacetate
+            C05852  2-Hydroxyphenylacetate
+            C07083  Styrene
+            C07084  Styrene-cis-2,3-dihydrodiol
+            C07085  3-Vinylcatechol
+            C07086  Phenylacetic acid
+            C07087  2-Hydroxy-6-oxoocta-2,4,7-trienoate
+            C16074  Phenylacetonitrile
+            C16075  (Z)-Phenylacetaldehyde oxime
+            C20782  (S)-2-Phenyloxirane
+REFERENCE   PMID:11544206
+  AUTHORS   Rodriguez-Saiz M, Barredo JL, Moreno MA, Fernandez-Canon JM, Penalva MA, Diez B.
+  TITLE     Reduced function of a phenylacetate-oxidizing cytochrome p450 caused strong genetic improvement in early phylogeny of penicillin-producing strains.
+  JOURNAL   J Bacteriol 183:5465-71 (2001)
+            DOI:10.1128/JB.183.19.5465-5471.2001
+REFERENCE   PMID:17189487
+  AUTHORS   Ferrer-Sevillano F, Fernandez-Canon JM.
+  TITLE     Novel phacB-encoded cytochrome P450 monooxygenase from Aspergillus nidulans with 3-hydroxyphenylacetate 6-hydroxylase and 3,4-dihydroxyphenylacetate 6-hydroxylase activities.
+  JOURNAL   Eukaryot Cell 6:514-20 (2007)
+            DOI:10.1128/EC.00226-06
+REL_PATHWAY rn00020  Citrate cycle (TCA cycle)
+            rn00360  Phenylalanine metabolism
+            rn00362  Benzoate degradation
+            rn00620  Pyruvate metabolism
+            rn00640  Propanoate metabolism
+            rn00642  Ethylbenzene degradation
+KO_PATHWAY  ko00643
+///

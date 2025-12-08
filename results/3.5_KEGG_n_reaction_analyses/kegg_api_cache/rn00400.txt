@@ -1,0 +1,116 @@
+ENTRY       rn00400                     Pathway
+NAME        Phenylalanine, tyrosine and tryptophan biosynthesis
+CLASS       Metabolism; Amino acid metabolism
+PATHWAY_MAP rn00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+MODULE      M00022  Shikimate pathway, phosphoenolpyruvate + erythrose-4P => chorismate [PATH:rn00400]
+            M00023  Tryptophan biosynthesis, chorismate => tryptophan [PATH:rn00400]
+            M00024  Phenylalanine biosynthesis, chorismate => phenylpyruvate => phenylalanine [PATH:rn00400]
+            M00025  Tyrosine biosynthesis, chorismate => HPP => tyrosine [PATH:rn00400]
+            M00040  Tyrosine biosynthesis, chorismate => arogenate => tyrosine [PATH:rn00400]
+            M00910  Phenylalanine biosynthesis, chorismate => arogenate => phenylalanine [PATH:rn00400]
+DBLINKS     GO: 0009094 0006571 0000162
+REACTION    R00674  L-serine hydro-lyase (adding indole; L-tryptophan-forming)
+            R00688  L-phenylalanine:NAD+ oxidoreductase (deaminating)
+            R00689  L-phenylalanine:oxygen oxidoreductase (deaminating)
+            R00691  L-arogenate hydro-lyase (decarboxylating; L-phenylalanine-forming)
+            R00692  L-phenylalanine:pyruvate aminotransferase
+            R00694  L-phenylalanine:2-oxoglutarate aminotransferase
+            R00729  L-tyrosine:oxygen oxidoreductase (deaminating)
+            R00732  L-arogenate:NAD+ oxidoreductase
+            R00733  L-arogenate:NADP+ oxidoreductase
+            R00734  L-tyrosine:2-oxoglutarate aminotransferase
+            R00985  chorismate pyruvate-lyase (amino-accepting; anthranilate-forming)
+            R00986  chorismate pyruvate-lyase (amino-accepting)
+            R01073  N-(5-phospho-D-ribosyl)anthranilate:pyrophosphate phosphoribosyl-transferase
+            R01373  prephenate hydro-lyase (decarboxylating; phenylpyruvate-forming)
+            R01627  3-dehydroshikimate hydro-lyase
+            R01714  5-O-(1-carboxyvinyl)-3-phosphoshikimate phosphate-lyase (chorismate-forming)
+            R01715  chorismate pyruvatemutase
+            R01728  prephenate:NAD+ oxidoreductase(decarboxylating)
+            R01730  prephenate:NADP+ oxidoreductase(decarboxylating)
+            R01731  L-arogenate:2-oxoglutarate aminotransferase
+            R01795  L-phenylalanine,tetrahydrobiopterin:oxygen oxidoreductase (4-hydroxylating)
+            R01826  phosphoenolpyruvate:D-erythrose-4-phosphate C-(1-carboxyvinyl)transferase (phosphate hydrolysing, 2-carboxy-2-oxoethyl-forming)
+            R01872  L-quinate:NAD+ 3-oxidoreductase; quinate:NAD+ 5-oxidoreductase
+            R01873  quinate:pyrroloquinoline-quinone 3-oxidoreductase; quinate:pyrroloquinoline-quinone 5-oxidoreductase
+            R02340  (1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate D-glyceraldehyde-3-phosphate-lyase
+            R02412  ATP:shikimate 3-phosphotransferase
+            R02413  shikimate:NADP+ 3-oxidoreductase
+            R02415  shikimate:pyrroloquinoline-quinone 3-oxidoreductase
+            R02722  L-serine hydro-lyase [adding 1-C-(indol-3-yl)glycerol 3-phosphate; L-tryptophan and glyceraldehyde-3-phosphate-forming]
+            R03083  2-dehydro-3-deoxy-D-arabino-heptonate 7-phosphate phosphate-lyase (cyclyzing)
+            R03084  3-dehydroquinate hydro-lyase
+            R03460  phosphoenolpyruvate:3-phosphoshikimate 5-O-(1-carboxyvinyl)-transferase
+            R03508  1-(2-carboxyphenylamino)-1-deoxy-D-ribulose-5-phosphate carboxy-lyase(cyclizing)
+            R03509  N-(5-phospho-beta-D-ribosyl)anthranilate ketol-isomerase
+            R06846  L-quinate:NADP+ 3-oxidoreductase
+            R06847  shikimate:NAD+ 3-oxidoreductase
+            R07276  L-arogenate:2-oxoglutarate aminotransferase
+            R08568  L-aspartate 4-semialdehyde:1-deoxy-D-threo-hexo-2,5-diulose 6-phosphate methylglyoxaltransferase
+            R08569  2-amino-3,7-dideoxy-D-threo-hept-6-ulosonate:NAD+ oxidoreductase (deaminating)
+            R09254  L-tyrosine:pyruvate aminotransferase
+            R09830  L-tyrosine:NAD+ oxidoreductase (deaminating)
+            R10049  2-oxopropanal:D-fructose 1,6-bisphosphate glycerone-phosphotransferase
+            R10050  2-oxopropanal:D-fructose 1-phosphate glycerone-phosphotransferase
+            R10500  acetyl-CoA:phenylpyruvate C-acetyltransferase (thioester-hydrolysing, carboxymethyl-forming)
+            R10501  2-benzylmalate hydro-lyase (3-benzylmalate-forming)
+            R10502  3-benzylmalate:NAD+ oxidoreductase (decarboxylating)
+            R10503  L-amino acid:2-oxo-4-phenylbutyric-acid aminotransferase
+            R10583  chorismate pyruvate-hydrolase
+            R10597  chorismate pyruvate-lyase (3-hydroxybenzoate-forming)
+COMPOUND    C00074  Phosphoenolpyruvate
+            C00078  L-Tryptophan
+            C00079  L-Phenylalanine
+            C00082  L-Tyrosine
+            C00108  Anthranilate
+            C00119  5-Phospho-alpha-D-ribose 1-diphosphate
+            C00166  Phenylpyruvate
+            C00230  3,4-Dihydroxybenzoate
+            C00251  Chorismate
+            C00254  Prephenate
+            C00279  D-Erythrose 4-phosphate
+            C00296  Quinate
+            C00354  D-Fructose 1,6-bisphosphate
+            C00441  L-Aspartate 4-semialdehyde
+            C00463  Indole
+            C00493  Shikimate
+            C00587  3-Hydroxybenzoate
+            C00826  L-Arogenate
+            C00944  3-Dehydroquinate
+            C01094  D-Fructose 1-phosphate
+            C01179  3-(4-Hydroxyphenyl)pyruvate
+            C01269  5-O-(1-Carboxyvinyl)-3-phosphoshikimate
+            C01302  1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate
+            C02637  3-Dehydroshikimate
+            C03175  Shikimate 3-phosphate
+            C03506  Indoleglycerol phosphate
+            C04302  N-(5-Phospho-D-ribosyl)anthranilate
+            C04691  2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate
+            C16848  6-Deoxy-5-ketofructose 1-phosphate
+            C16850  2-Amino-3,7-dideoxy-D-threo-hept-6-ulosonic acid
+            C17235  L-Homophenylalanine
+            C20327  2-Oxo-4-phenylbutyric acid
+            C20653  2-Benzylmalic acid
+            C20654  3-Benzylmalic acid
+            C20710  (4R,5R)-4,5-Dihydroxycyclohexa-1(6),2-diene-1-carboxylate
+REL_PATHWAY rn00010  Glycolysis / Gluconeogenesis
+            rn00030  Pentose phosphate pathway
+            rn00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            rn00350  Tyrosine metabolism
+            rn00360  Phenylalanine metabolism
+            rn00362  Benzoate degradation
+            rn00380  Tryptophan metabolism
+            rn00402  Benzoxazinoid biosynthesis
+            rn00403  Indole diterpene alkaloid biosynthesis
+            rn00404  Staurosporine biosynthesis
+            rn00710  Carbon fixation by Calvin cycle
+            rn00790  Folate biosynthesis
+            rn00901  Indole alkaloid biosynthesis
+            rn00940  Phenylpropanoid biosynthesis
+            rn00950  Isoquinoline alkaloid biosynthesis
+            rn00960  Tropane, piperidine and pyridine alkaloid biosynthesis
+            rn00966  Glucosinolate biosynthesis
+            rn01053  Biosynthesis of siderophore group nonribosomal peptides
+            rn01059  Biosynthesis of enediyne antibiotics
+KO_PATHWAY  ko00400
+///

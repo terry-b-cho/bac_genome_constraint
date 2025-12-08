@@ -1,0 +1,80 @@
+ENTRY       K28126                      KO
+SYMBOL      K28126
+NAME        phosphogalactosamine/phosphoglucosamine mutase [EC:5.4.2.13 5.4.2.10]
+PATHWAY     map00520  Amino sugar and nucleotide sugar metabolism
+            map01100  Metabolic pathways
+            map01250  Biosynthesis of nucleotide sugars
+MODULE      M00909  UDP-GlcNAc biosynthesis, prokaryotes, Fru-6P => UDP-GlcNAc
+            M01002  UDP-GalNAc biosynthesis, Fru-6P => UDP-GalNAc
+REACTION    R02060  D-glucosamine 1-phosphate 1,6-phosphomutase
+            R12221  alpha-D-galactosamine 1,6-phosphomutase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09107 Glycan biosynthesis and metabolism
+               00520 Amino sugar and nucleotide sugar metabolism
+                K28126  K28126; phosphogalactosamine/phosphoglucosamine mutase
+            Enzymes [BR:ko01000]
+             5. Isomerases
+              5.4  Intramolecular transferases
+               5.4.2  Phosphotransferases (phosphomutases)
+                5.4.2.10  phosphoglucosamine mutase
+                 K28126  K28126; phosphogalactosamine/phosphoglucosamine mutase
+                5.4.2.13  phosphogalactosamine mutase
+                 K28126  K28126; phosphogalactosamine/phosphoglucosamine mutase
+DBLINKS     COG: COG1109
+            GO: 0008966
+GENES       TCS: IMZ38_06595(glmM)
+            STO: STK_02420
+            SOH: D1869_00715(glmM)
+            SJV: SJAV_12100(glmM)
+            SSO: SSO0207(pmM)
+            SOL: Ssol_1188
+            SSOA: SULA_1224(glmM)
+            SSOL: SULB_1225(glmM)
+            SSOF: SULC_1223(glmM)
+            SSHI: J5U23_00050
+            SCAS: SACC_01230
+            SIS: LS215_2090
+            SIA: M1425_1927
+            SIM: M1627_2005
+            SID: M164_1935
+            SIY: YG5714_2049
+            SIN: YN1551_0869
+            SII: LD85_2187
+            SIH: SiH_1872
+            SIR: SiRe_1800
+            SIC: SiL_1781
+            SULA: BFU36_04880
+            SULE: GFS03_10580(glmM)
+            SAI: Saci_0806
+            SACN: SacN8_03910
+            SACR: SacRon12I_03900
+            SACS: SUSAZ_03645
+            SULO: GFS33_02395(glmM)
+            SULL: EWF20_02150(glmM)
+            MSE: Msed_0223
+            MEMJ: MJ1HA_0308
+            MCN: Mcup_1849
+            MHK: DFR87_05590(glmM)
+            MPRU: DFR88_05505(glmM)
+            MTEN: GWK48_05925(glmM)
+            MJN: MjAS7_0809
+            AHO: Ahos_0595
+            AMAN: B6F84_07955
+            ABRI: DFR85_06850(glmM)
+            ASUL: DFR86_06990(glmM)
+            AAMB: D1866_10715(glmM)
+            ACIH: HS5_20050
+            SACD: HS1genome_0888
+            SAZO: D1868_00990(glmM)
+            CSTY: KN1_17050
+            STEP: IC006_1848
+            SMET: RQ359_002370(glmM)
+            SAHS: HS7_16760
+REFERENCE   PMID:29507091
+  AUTHORS   Dadashipour M, Iwamoto M, Hossain MM, Akutsu JI, Zhang Z, Kawarabayasi Y
+  TITLE     Identification of a Direct Biosynthetic Pathway for UDP-N-Acetylgalactosamine from Glucosamine-6-Phosphate in Thermophilic Crenarchaeon Sulfolobus tokodaii.
+  JOURNAL   J Bacteriol 200:e00048-18 (2018)
+            DOI:10.1128/JB.00048-18
+  SEQUENCE  [sto:STK_02420]
+///

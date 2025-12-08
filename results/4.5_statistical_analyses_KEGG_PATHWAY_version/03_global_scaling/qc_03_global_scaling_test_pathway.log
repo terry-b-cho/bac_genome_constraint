@@ -1,0 +1,64 @@
+================================================================================
+Script 03: Global Scaling Fits - PATHWAY
+  TEST MODE: Processing small subset only
+================================================================================
+
+Loading data...
+  ✓ Loaded 2164 genomes from master_table_env_filtered_pathway.parquet
+  Found 10 pathway category columns (TEST MODE: using first 10)
+
+  ⚠ KEGG labels file not found: /n/scratch/users/b/byc014/github/bac_genome_constraint/results/4.5_statistical_analyses_KEGG_PATHWAY_version/05_kegg_labels/kegg_term_labels_pathway.tsv
+    Run Script 05 first for better labels. Will use category IDs only
+
+A. Pre-Regression Validation
+--------------------------------------------------------------------------------
+  Genomes removed due to zero counts:
+    Min: 0
+    Median: 96.0
+    Max: 2042
+  Genomes remaining per category after filtering:
+    Min: 122
+    Median: 2068.0
+    Max: 2164
+
+B. Fitting Global Scaling Laws
+--------------------------------------------------------------------------------
+  Successfully fitted 10 categories
+  Skipped 0 categories due to low sample size (<10)
+  Skipped 0 categories due to low variance
+
+C. Global Summary QC
+--------------------------------------------------------------------------------
+  Distribution of alpha_global:
+    Mean: 0.3882
+    Median: 0.4011
+    SD: 0.2129
+    Min: 0.0184
+    Max: 0.8414
+
+  QC Flags:
+    Categories with alpha < 0: 0
+    Categories with alpha > 4: 0
+    Categories with SE > 1: 0
+    Categories with R² < 0.2: 8
+
+  Top 10 categories with highest alpha_global:
+    Category map00220: alpha=0.8414, R²=0.3132
+    Category map00040: alpha=0.5561, R²=0.1423
+    Category map00051: alpha=0.4794, R²=0.1436
+    Category map00020: alpha=0.4305, R²=0.1321
+    Category map00030: alpha=0.4098, R²=0.2927
+    Category map00052: alpha=0.3923, R²=0.0773
+    Category map00053: alpha=0.3522, R²=0.0797
+    Category map00010: alpha=0.2245, R²=0.0727
+    Category map00061: alpha=0.1775, R²=0.0813
+    Category map00130: alpha=0.0184, R²=0.0001
+
+  Categories skipped:
+    Low variation: 0
+    Low sample size (<10): 0
+
+D. Writing Outputs
+--------------------------------------------------------------------------------
+  ✓ global_scaling_params_test_pathway.tsv: 10 categories
+  ✓ global_scaling_params_test_pathway.parquet: 10 categories

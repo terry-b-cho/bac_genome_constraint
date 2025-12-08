@@ -1,0 +1,56 @@
+================================================================================
+Script 07: Scaling Extensions (TF, Mobile, Nutrient)
+================================================================================
+
+Loading data...
+  ✓ Loaded 2164 genomes from Parquet (master_table_env_filtered_pathway.parquet)
+
+Data validation:
+  tf_count: min=11, max=1352, negative=0
+  mobile_element_count: min=840, max=11298, negative=0
+
+================================================================================
+Global Scaling Fits
+================================================================================
+
+Fitting global scaling for tf_count...
+  ✓ Fitted: α=1.4656 ± 0.0102, R²=0.9045, n=2164
+Fitting global scaling for mobile_element_count...
+  ✓ Fitted: α=1.0123 ± 0.0016, R²=0.9946, n=2164
+
+================================================================================
+Environment-Specific Scaling Fits
+================================================================================
+
+Fitting tf_count per environment...
+  ✓ tf_count: 8 environment fits
+Fitting mobile_element_count per environment...
+  ✓ mobile_element_count: 8 environment fits
+
+================================================================================
+Computing Z-Scores
+================================================================================
+
+  ✓ Computed 16 valid Z-scores
+
+================================================================================
+Outlier Detection (Cook's Distance)
+================================================================================
+
+  tf_count: 133 genomes with Cook's D > 0.0018 (max Cook's D = 0.0759)
+  mobile_element_count: 6 genomes with Cook's D > 0.0018 (max Cook's D = 0.6733)
+
+================================================================================
+QC Summary
+================================================================================
+
+Global scaling exponents:
+  tf_count: α=1.4656 ± 0.0102, R²=0.9045, n=2164
+    ⚠ TF exponent (1.4656) deviates from expected ~2
+  mobile_element_count: α=1.0123 ± 0.0016, R²=0.9946, n=2164
+
+================================================================================
+Writing Outputs
+================================================================================
+  ✓ tf_mobile_scaling_params_pathway.tsv: 18 fits
+  ✓ tf_mobile_env_Z_scores_pathway.tsv: 16 Z-scores

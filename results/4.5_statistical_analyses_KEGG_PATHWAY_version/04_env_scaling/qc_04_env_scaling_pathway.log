@@ -1,0 +1,47 @@
+================================================================================
+Script 04: Environment-Specific Fits & Z-Scores - PATHWAY
+================================================================================
+
+Loading data...
+  ✓ Loaded 2164 genomes from Parquet
+  ✓ Loaded 99 global scaling parameters
+  ✓ Loaded 8 valid environments
+  Using 8 environments and 101 pathway categories
+
+A. Fitting Per-Environment Scaling Laws
+--------------------------------------------------------------------------------
+  Aquatic: 95 / 101 categories fitted
+  Terrestrial: 96 / 101 categories fitted
+  Mammals: Human: 94 / 101 categories fitted
+  Plants: 94 / 101 categories fitted
+  Mammals: 87 / 101 categories fitted
+  Food production: 87 / 101 categories fitted
+  Wastewater: 83 / 101 categories fitted
+  Birds: 74 / 101 categories fitted
+
+  Total env×category fits: 710 / 808
+  Skipped due to low sample size (<10): 98
+  Skipped due to low variance: 0
+
+B. Computing Z-Scores
+--------------------------------------------------------------------------------
+  ⚠ Skipping Mammals: Human×map00401: invalid Z
+  ⚠ Skipping Mammals: Human×map00450: invalid Z
+  ⚠ Skipping Mammals: Human×map00460: invalid Z
+  ⚠ Skipping Mammals: Human×map00625: invalid Z
+  ⚠ Skipping Plants×map00061: invalid Z
+  ⚠ Skipping Plants×map00380: invalid Z
+  ⚠ Skipping Plants×map00625: invalid Z
+  ⚠ Skipping Plants×map01040: invalid Z
+  Computed 686 valid Z-scores
+
+C. Category-Level Aggregation
+--------------------------------------------------------------------------------
+  Aggregated Z-scores for 95 categories
+  Z_alpha: min=0.6967, median=1.8064, max=5.1578
+
+D. Writing Outputs
+--------------------------------------------------------------------------------
+  ✓ env_scaling_params_pathway.tsv: 710 env×category fits
+  ✓ env_vs_global_Z_scores_pathway.tsv: 686 env×category Z-scores
+  ✓ category_Z_summary_pathway.tsv: 95 categories

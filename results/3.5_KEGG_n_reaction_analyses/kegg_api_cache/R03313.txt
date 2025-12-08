@@ -1,0 +1,23 @@
+ENTRY       R03313                      Reaction
+NAME        L-glutamate-5-semialdehyde:NADP+ 5-oxidoreductase (phosphorylating)
+DEFINITION  L-Glutamate 5-semialdehyde + Orthophosphate + NADP+ <=> L-Glutamyl 5-phosphate + NADPH + H+
+EQUATION    C01165 + C00009 + C00006 <=> C03287 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00684  C01165_C03287
+ENZYME      1.2.1.41
+PATHWAY     rn00330  Arginine and proline metabolism
+            rn00332  Carbapenem biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01230  Biosynthesis of amino acids
+MODULE      M00015  Proline biosynthesis, glutamate => proline
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.41
+                 R03313  L-Glutamate 5-semialdehyde + Orthophosphate + NADP+ <=> L-Glutamyl 5-phosphate + NADPH + H+
+ORTHOLOGY   K00147  glutamate-5-semialdehyde dehydrogenase [EC:1.2.1.41]
+            K12657  delta-1-pyrroline-5-carboxylate synthetase [EC:2.7.2.11 1.2.1.41]
+DBLINKS     RHEA: 19544
+///

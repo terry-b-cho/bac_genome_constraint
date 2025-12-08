@@ -1,0 +1,20 @@
+ENTRY       R01150                      Reaction
+NAME        D-alanine:D-alanine ligase (ADP-forming)
+DEFINITION  ATP + 2 D-Alanine <=> ADP + Orthophosphate + D-Alanyl-D-alanine
+EQUATION    C00002 + 2 C00133 <=> C00008 + C00009 + C00993
+RCLASS      RC00002  C00002_C00008
+            RC00064  C00133_C00993
+            RC00141  C00133_C00993
+ENZYME      6.3.2.4
+PATHWAY     rn00470  D-Amino acid metabolism
+            rn00550  Peptidoglycan biosynthesis
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.2  Acid-D-amino-acid ligases (peptide synthases)
+                6.3.2.4
+                 R01150  ATP + 2 D-Alanine <=> ADP + Orthophosphate + D-Alanyl-D-alanine
+ORTHOLOGY   K01921  D-alanine-D-alanine ligase [EC:6.3.2.4]
+DBLINKS     RHEA: 11227
+///

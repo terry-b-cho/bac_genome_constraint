@@ -1,0 +1,201 @@
+ENTRY       K05308                      KO
+SYMBOL      gnaD
+NAME        gluconate/galactonate dehydratase [EC:4.2.1.140]
+PATHWAY     map00030  Pentose phosphate pathway
+            map00052  Galactose metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01200  Carbon metabolism
+MODULE      M00308  Semi-phosphorylative Entner-Doudoroff pathway, gluconate => glycerate-3P
+            M00309  Non-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate
+            M00633  Semi-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate-3P
+REACTION    R01538  D-gluconate hydro-lyase (2-dehydro-3-deoxy-D-gluconate-forming)
+            R03033  D-galactonate hydro-lyase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09101 Carbohydrate metabolism
+               00030 Pentose phosphate pathway
+                K05308  gnaD; gluconate/galactonate dehydratase
+               00052 Galactose metabolism
+                K05308  gnaD; gluconate/galactonate dehydratase
+            Enzymes [BR:ko01000]
+             4. Lyases
+              4.2  Carbon-oxygen lyases
+               4.2.1  Hydro-lyases
+                4.2.1.140  gluconate/galactonate dehydratase
+                 K05308  gnaD; gluconate/galactonate dehydratase
+DBLINKS     COG: COG4948
+GENES       MATG: ACMVPR_02610
+            PPOD: AB0761_28240
+            HAL: VNG_0442G(rspA)
+            HSL: OE_1664R(gnaD)
+            HANR: LJ422_01860
+            HHB: Hhub_1548(gnaD1)
+            HAGS: JT689_03140
+            HABO: JRZ79_01640
+            HNO: LT974_02950 LT974_08915
+            HLU: LT972_10545
+            HANX: ABSL23_07695
+            HAHS: HSRCO_2771(rspA5)
+            SALR: FQU85_02870
+            HALR: EFA46_006425 EFA46_011035
+            HJE: HacjB3_02665 HacjB3_13980 HacjB3_16911
+            HDO: MUK72_10685
+            HALX: M0R89_12595
+            HAXZ: M0R88_13190
+            HAYC: NGM10_04450
+            HAXY: NGM07_17265 NGM07_22980
+            SALI: L593_03520 L593_07320
+            HARA: AArcS_2287(rspA4)
+            HMA: rrnAC0575(dgoA4)
+            HSIN: KDQ40_07110
+            HHI: HAH_1276
+            HHN: HISP_06530
+            HAB: SG26_14175
+            HTA: BVU17_06220
+            HALJ: G9465_00310 G9465_01190 G9465_11295 G9465_19980
+            HMU: Hmuk_0321 Hmuk_2254
+            HALZ: E5139_04890 E5139_14415
+            HALL: LC1Hm_1568(gnaD) LC1Hm_2851(dgoD4)
+            HAZP: GBQ70_04885 GBQ70_14430
+            HALI: BV210_12330
+            HSN: DV733_15585
+            HRR: HZS55_02730 HZS55_16360
+            HPEL: HZS54_02460 HZS54_19125
+            HLT: I7X12_07425 I7X12_08665 I7X12_10485 I7X12_19535
+            HARC: HARCEL1_10530
+            HAAD: MW046_07370 MW046_12885 MW046_14350
+            NMO: Nmlp_1390(gnaD)
+            HWA: HQ_2412A(gnaD)
+            HWC: Hqrw_2676(gnaD)
+            HVO: HVO_1488(gnaD)
+            HALE: G3A49_10595
+            HLN: SVXHx_1438(gnad)
+            HME: HFX_1553(gnaD)
+            HGI: ABY42_07250
+            HLS: KU306_12510
+            HBO: Hbor_17420
+            HAQ: DU484_13730
+            HAJ: DU500_05985 DU500_13755
+            HAER: DU502_13920
+            HRA: EI982_16340
+            HLM: DV707_09645
+            HALM: FCF25_14340
+            HLA: Hlac_1300 Hlac_2579
+            HALP: DOS48_06235
+            HALB: EKH57_01910
+            HEZZ: EO776_08250
+            HALQ: Hrr1229_007680 Hrr1229_014835
+            HSS: J7656_05055 J7656_08185
+            HSAI: HPS36_10285 HPS36_13505
+            HAZZ: KI388_05945
+            SRUB: C2R22_00660 C2R22_09090
+            HAE: halTADL_0374
+            HALN: B4589_014190
+            HALG: HUG10_06105 HUG10_06895 HUG10_06975 HUG10_07030 HUG10_07280 HUG10_11455 HUG10_16095
+            HALU: HUG12_08375 HUG12_08435 HUG12_08585 HUG12_18715
+            HMP: K6T50_02880
+            HRE: K6T36_02700
+            HRM: K6T25_11995
+            HACB: Hbl1158_11715
+            HDF: AArcSl_1039(gnaD) AArcSl_2834(gnaD2)
+            HAAA: AArcCO_0893(rspA2)
+            HAH: Halar_1011 Halar_3730
+            HTU: Htur_2654 Htur_4388 Htur_4480
+            HSAL: JMJ58_15575 JMJ58_23050 JMJ58_23365
+            HAKZ: J0X25_01030 J0X25_01075
+            NMG: Nmag_0821(gnaD1) Nmag_1145(gnaD2) Nmag_1155(gnaD3) Nmag_3936(gnaD4)
+            HXA: Halxa_4119 Halxa_4131
+            NAT: NJ7G_1251
+            NPE: Natpe_2049 Natpe_2057
+            NVR: FEJ81_08260 FEJ81_09005 FEJ81_09055 FEJ81_21985
+            NPL: FGF80_03725
+            NAY: HYG81_01505 HYG81_02195 HYG81_23400 HYG81_24285
+            HALY: HYG82_04600 HYG82_13665
+            HJT: DVR14_18340 DVR14_18380 DVR14_22470 DVR14_22510
+            HLO: J0X27_05005
+            NGE: Natgr_0070 Natgr_2179
+            HLC: CHINAEXTREME08390 CHINAEXTREME10075 CHINAEXTREME10125
+            HRU: Halru_1854
+            SAWL: NGM29_12820 NGM29_14000
+            HALV: NGM15_05270
+            NOU: Natoc_2547
+            HLR: HALLA_00750 HALLA_06625
+            NAJ: B1756_04600
+            NAG: AArcMg_3063
+            NAN: AArc1_0639
+            NARA: QQ977_13995
+            NBG: DV706_11035
+            NAS: GCU68_01070 GCU68_01085 GCU68_19305
+            HDA: BB347_08605 BB347_14430 BB347_14735
+            TAC: Ta0085
+            TVO: TVG0179275(TVG0179275)
+            OMR: OXIME_001627
+            PTO: PTO0485
+            FAC: FACI_IFERC01G0930
+            FAI: FAD_1816
+            CDIV: CPM_1948
+            STO: STK_23660(gnaD) STK_25720(gnaD)
+            SOH: D1869_12965 D1869_13875
+            SJV: SJAV_07090 SJAV_27780
+            SSO: SSO2665 SSO3198
+            SOL: Ssol_0475 Ssol_0935
+            SSOA: SULA_0466 SULA_0968
+            SSOL: SULB_0468 SULB_0970
+            SSOF: SULC_0466 SULC_0969
+            SSHI: J5U23_00300 J5U23_00831
+            SCAS: SACC_23250 SACC_31330
+            SIS: LS215_2325 LS215_2810
+            SIA: M1425_2162 M1425_2649
+            SIM: M1627_2242 M1627_2703
+            SID: M164_2165 M164_2634
+            SIY: YG5714_2288 YG5714_2823
+            SIN: YN1551_0627 YN1551_3011
+            SII: LD85_2428 LD85_2966
+            SIH: SiH_2107 SiH_2603
+            SIR: SiRe_2039 SiRe_2542
+            SIC: SiL_2014 SiL_2491
+            SULA: BFU36_06085 BFU36_09035
+            SULE: GFS03_00750 GFS03_11775
+            SAI: Saci_0885
+            SACN: SacN8_04295
+            SACR: SacRon12I_04285
+            SACS: SUSAZ_04035
+            SULO: GFS33_03585
+            SULL: EWF20_14025
+            MSE: Msed_1303
+            MEMJ: MJ1HA_1511
+            MCN: Mcup_0900
+            MHK: DFR87_11980
+            MPRU: DFR88_11805
+            MTEN: GWK48_00490
+            MJN: MjAS7_2371
+            AHO: Ahos_0261
+            AMAN: B6F84_04915
+            ABRI: DFR85_14595
+            ASUL: DFR86_04375
+            AAMB: D1866_07685
+            ACIH: HS5_15440
+            SACD: HS1genome_0402
+            SAZO: D1868_08675
+            CSTY: KN1_06730
+            STEP: IC006_2132
+            SMET: RQ359_002106
+            SAHS: HS7_10370
+            PYR: P186_1932
+            CMA: Cmaq_0074 Cmaq_0154
+            TTN: TTX_1156(gad)
+            TUZ: TUZN_0958 TUZN_0966
+            VDI: Vdis_1648 Vdis_2509
+            VMO: VMUT_0856 VMUT_2313
+            VSO: Vsou_02030
+            CCAI: NAS2_0740
+            MARH: Mia14_0298
+            MIY: Micr_00459
+REFERENCE   PMID:15509194
+  AUTHORS   Kim S, Lee SB
+  TITLE     Identification and characterization of Sulfolobus solfataricus D-gluconate dehydratase: a key enzyme in the non-phosphorylated Entner-Doudoroff pathway.
+  JOURNAL   Biochem J 387:271-80 (2005)
+            DOI:10.1042/BJ20041053
+  SEQUENCE  [sso:SSO3198]
+///

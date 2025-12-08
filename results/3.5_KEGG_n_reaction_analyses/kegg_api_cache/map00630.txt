@@ -1,0 +1,62 @@
+ENTRY       map00630                    Pathway
+NAME        Glyoxylate and dicarboxylate metabolism
+CLASS       Metabolism; Carbohydrate metabolism
+PATHWAY_MAP map00630  Glyoxylate and dicarboxylate metabolism
+MODULE      M00012  Glyoxylate cycle [PATH:map00630]
+            M00373  Ethylmalonyl pathway [PATH:map00630]
+            M00532  Photorespiration [PATH:map00630]
+            M00621  Glycine cleavage system [PATH:map00630]
+            M00740  Methylaspartate cycle [PATH:map00630]
+            M00741  Propanoyl-CoA metabolism, propanoyl-CoA => succinyl-CoA [PATH:map00630]
+            M00968  Pentose bisphosphate pathway (nucleoside degradation), archaea, nucleoside/NMP => 3-PGA/glycerone phosphate [PATH:map00630]
+DBLINKS     GO: 0046487 0043648
+REFERENCE   PMID:10978349
+  AUTHORS   Njau RK, Herndon CA, Hawes JW.
+  TITLE     Novel beta-hydroxyacid dehydrogenases in Escherichia coli and Haemophilus influenzae.
+  JOURNAL   J Biol Chem 275:38780-6 (2000)
+            DOI:10.1074/jbc.M007432200
+REFERENCE   PMID:18065535
+  AUTHORS   Zarzycki J, Schlichting A, Strychalsky N, Muller M, Alber BE, Fuchs G
+  TITLE     Mesaconyl-coenzyme A hydratase, a new enzyme of two central carbon metabolic pathways in bacteria.
+  JOURNAL   J Bacteriol 190:1366-74 (2008)
+            DOI:10.1128/JB.01621-07
+REFERENCE   PMID:18819910
+  AUTHORS   Erb TJ, Retey J, Fuchs G, Alber BE
+  TITLE     Ethylmalonyl-CoA mutase from Rhodobacter sphaeroides defines a new subclade of coenzyme B12-dependent acyl-CoA mutases.
+  JOURNAL   J Biol Chem 283:32283-93 (2008)
+            DOI:10.1074/jbc.M805527200
+REFERENCE   PMID:9596633
+  AUTHORS   Coschigano KT, Melo-Oliveira R, Lim J, Coruzzi GM
+  TITLE     Arabidopsis gls mutants and distinct Fd-GOGAT genes. Implications for photorespiration and primary nitrogen assimilation.
+  JOURNAL   Plant Cell 10:741-52 (1998)
+            DOI:10.1105/tpc.10.5.741
+REFERENCE   PMID:16407450
+  AUTHORS   Masclaux-Daubresse C, Reisdorf-Cren M, Pageau K, Lelandais M, Grandjean O, Kronenberger J, Valadier MH, Feraud M, Jouglet T, Suzuki A
+  TITLE     Glutamine synthetase-glutamate synthase pathway and glutamate dehydrogenase play distinct roles in the sink-source nitrogen cycle in tobacco.
+  JOURNAL   Plant Physiol 140:444-56 (2006)
+            DOI:10.1104/pp.105.071910
+REFERENCE   PMID:21252347
+  AUTHORS   Khomyakova M, Bukmez O, Thomas LK, Erb TJ, Berg IA
+  TITLE     A methylaspartate cycle in haloarchaea.
+  JOURNAL   Science 331:334-7 (2011)
+            DOI:10.1126/science.1196544
+REFERENCE   PMID:11513957
+  AUTHORS   Serrano JA, Bonete MJ
+  TITLE     Sequencing, phylogenetic and transcriptional analysis of the glyoxylate bypass operon (ace) in the halophilic archaeon Haloferax volcanii.
+  JOURNAL   Biochim Biophys Acta 1520:154-62 (2001)
+            DOI:10.1016/S0167-4781(01)00263-9
+REL_PATHWAY map00010  Glycolysis / Gluconeogenesis
+            map00020  Citrate cycle (TCA cycle)
+            map00030  Pentose phosphate pathway
+            map00053  Ascorbate and aldarate metabolism
+            map00071  Fatty acid degradation
+            map00230  Purine metabolism
+            map00250  Alanine, aspartate and glutamate metabolism
+            map00260  Glycine, serine and threonine metabolism
+            map00270  Cysteine and methionine metabolism
+            map00620  Pyruvate metabolism
+            map00710  Carbon fixation by Calvin cycle
+            map00750  Vitamin B6 metabolism
+            map00910  Nitrogen metabolism
+KO_PATHWAY  ko00630
+///

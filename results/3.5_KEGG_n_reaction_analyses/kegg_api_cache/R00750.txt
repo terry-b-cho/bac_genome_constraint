@@ -1,0 +1,26 @@
+ENTRY       R00750                      Reaction
+NAME        4-hydroxy-2-oxopentanoate pyruvate-lyase (acetaldehyde-forming)
+DEFINITION  Acetaldehyde + Pyruvate <=> 4-Hydroxy-2-oxopentanoate
+EQUATION    C00084 + C00022 <=> C03589
+RCLASS      RC00307  C00022_C03589
+            RC00371  C00084_C03589
+ENZYME      4.1.3.39
+PATHWAY     rn00360  Phenylalanine metabolism
+            rn00362  Benzoate degradation
+            rn00621  Dioxin degradation
+            rn00622  Xylene degradation
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01220  Degradation of aromatic compounds
+MODULE      M00545  Trans-cinnamate degradation, trans-cinnamate => acetyl-CoA
+            M00569  Catechol meta-cleavage, catechol => acetyl-CoA / 4-methylcatechol => propanoyl-CoA
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.3  Oxo-acid-lyases
+                4.1.3.39
+                 R00750  Acetaldehyde + Pyruvate <=> 4-Hydroxy-2-oxopentanoate
+ORTHOLOGY   K01666  4-hydroxy 2-oxovalerate aldolase [EC:4.1.3.39]
+            K18365  4-hydroxy-2-oxovalerate/4-hydroxy-2-oxohexanoate aldolase [EC:4.1.3.39 4.1.3.43]
+DBLINKS     RHEA: 22627
+///

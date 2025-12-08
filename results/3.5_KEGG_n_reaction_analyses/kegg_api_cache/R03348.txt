@@ -1,0 +1,20 @@
+ENTRY       R03348                      Reaction
+NAME        nicotinate-nucleotide:pyrophosphate phosphoribosyltransferase (carboxylating)
+DEFINITION  Nicotinate D-ribonucleotide + Diphosphate + CO2 <=> Quinolinate + 5-Phospho-alpha-D-ribose 1-diphosphate
+EQUATION    C01185 + C00013 + C00011 <=> C03722 + C00119
+RCLASS      RC02877  C01185_C03722
+ENZYME      2.4.2.19
+PATHWAY     rn00760  Nicotinate and nicotinamide metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00115  NAD biosynthesis, aspartate => quinolinate => NAD
+            M00912  NAD biosynthesis, tryptophan => quinolinate => NAD
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.2  Pentosyltransferases
+                2.4.2.19
+                 R03348  Nicotinate D-ribonucleotide + Diphosphate + CO2 <=> Quinolinate + 5-Phospho-alpha-D-ribose 1-diphosphate
+ORTHOLOGY   K00767  nicotinate-nucleotide pyrophosphorylase (carboxylating) [EC:2.4.2.19]
+DBLINKS     RHEA: 12736
+///

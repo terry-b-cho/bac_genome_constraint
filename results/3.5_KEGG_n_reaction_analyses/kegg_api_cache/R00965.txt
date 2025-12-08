@@ -1,0 +1,20 @@
+ENTRY       R00965                      Reaction
+NAME        orotidine-5'-phosphate carboxy-lyase (UMP-forming)
+DEFINITION  Orotidine 5'-phosphate <=> UMP + CO2
+EQUATION    C01103 <=> C00105 + C00011
+RCLASS      RC00409  C00105_C01103
+ENZYME      4.1.1.23
+PATHWAY     rn00240  Pyrimidine metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00051  De novo pyrimidine biosynthesis, glutamine (+ PRPP) => UMP
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.1  Carboxy-lyases
+                4.1.1.23
+                 R00965  Orotidine 5'-phosphate <=> UMP + CO2
+ORTHOLOGY   K01591  orotidine-5'-phosphate decarboxylase [EC:4.1.1.23]
+            K13421  uridine monophosphate synthetase [EC:2.4.2.10 4.1.1.23]
+DBLINKS     RHEA: 11599
+///

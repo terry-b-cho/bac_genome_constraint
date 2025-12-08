@@ -1,0 +1,62 @@
+ENTRY       rn01055                     Pathway
+NAME        Biosynthesis of vancomycin group antibiotics
+CLASS       Metabolism; Metabolism of terpenoids and polyketides
+PATHWAY_MAP rn01055  Biosynthesis of vancomycin group antibiotics
+DRUG        D00212  Vancomycin (USP)
+REACTION    R05518  dTDP-4-dehydro-6-deoxy-alpha-D-glucopyranose hydro-lyase (dTDP-2,6-dideoxy-D-glycero-hex-2-enos-4-ulose-forming)
+            R06513  dTDPglucose 4,6-hydro-lyase
+            R06624  3,5-dihydroxyphenylacetyl-CoA:oxygen oxidoreductase (3,5-dihydroxyphenylglyoxylate-forming)
+            R06625  malonyl-CoA:malonyl-CoA malonyltransferase (3,5-dihydroxyphenylacetyl-CoA-forming)
+            R06626  
+            R06627  
+            R06628  dTDP-3-amino-2,3,6-trideoxy-C-methyl-D-erythro-hexopyranos-4-ulose 5-epimerase
+            R06629  
+            R06630  
+            R06631  dTDP-3-amino-2,3,6-trideoxy-4-keto-D-glucose:2-oxoglutarate aminotransferase
+            R06632  4-hydroxyphenylpyruvate:oxygen oxidoreductase (decarboxylating)
+            R06633  (S)-4-hydroxymandelate:oxygen 1-oxidoreductase
+            R06634  (S)-3,5-dihydroxyphenylglycine:2-oxoglutarate aminotransferase
+COMPOUND    C00082  L-Tyrosine
+            C00083  Malonyl-CoA
+            C00842  dTDP-glucose
+            C01179  3-(4-Hydroxyphenyl)pyruvate
+            C03198  (S)-4-Hydroxymandelate
+            C03590  4-Hydroxyphenylglyoxylate
+            C06620  dTDP-3,4-dioxo-2,6-dideoxy-D-glucose
+            C06689  Vancomycin
+            C11907  dTDP-4-oxo-6-deoxy-D-glucose
+            C12014  Chloroeremomycin
+            C12026  3,5-Dihydroxy-phenylglycine
+            C12318  dTDP-3-amino-2,3,6-trideoxy-4-keto-D-glucose
+            C12319  dTDP-3-amino-2,3,6-trideoxy-C-methyl-D-erythro-hexopyranos-4-ulose
+            C12320  dTDP-L-4-oxovancosamine
+            C12321  dTDP-L-epivancosamine
+            C12322  dTDP-L-vancosamine
+            C12323  L-4-Hydroxyphenylglycine
+            C12324  3,5-Dihydroxyphenylacetyl-CoA
+            C12325  3,5-Dihydroxyphenylglyoxylate
+REFERENCE   PMID:24884615
+  AUTHORS   Xu L, Huang H, Wei W, Zhong Y, Tang B, Yuan H, Zhu L, Huang W, Ge M, Yang S, Zheng H, Jiang W, Chen D, Zhao GP, Zhao W
+  TITLE     Complete genome sequence and comparative genomic analyses of the vancomycin-producing Amycolatopsis orientalis.
+  JOURNAL   BMC Genomics 15:363 (2014)
+            DOI:10.1186/1471-2164-15-363
+REFERENCE   PMID:12596194
+  AUTHORS   Hubbard BK, Walsh CT.
+  TITLE     Vancomycin assembly: nature's way.
+  JOURNAL   Angew Chem Int Ed Engl 42:730-65 (2003)
+            DOI:10.1002/anie.200390202
+REFERENCE   PMID:11035791
+  AUTHORS   Chen H, Thomas MG, Hubbard BK, Losey HC, Walsh CT, Burkart MD.
+  TITLE     Deoxysugars in glycopeptide antibiotics: enzymatic synthesis of TDP-L-epivancosamine in chloroeremomycin biosynthesis.
+  JOURNAL   Proc Natl Acad Sci U S A 97:11942-7 (2000)
+            DOI:10.1073/pnas.210395097
+REFERENCE   PMID:9545426
+  AUTHORS   van Wageningen AM, Kirkpatrick PN, Williams DH, Harris BR, Kershaw JK, Lennard NJ, Jones M, Jones SJ, Solenberg PJ.
+  TITLE     Sequencing and analysis of genes involved in the biosynthesis of a vancomycin group antibiotic.
+  JOURNAL   Chem Biol 5:155-62 (1998)
+            DOI:10.1016/S1074-5521(98)90060-6
+REL_PATHWAY rn00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            rn00520  Amino sugar and nucleotide sugar metabolism
+            rn00620  Pyruvate metabolism
+KO_PATHWAY  ko01055
+///

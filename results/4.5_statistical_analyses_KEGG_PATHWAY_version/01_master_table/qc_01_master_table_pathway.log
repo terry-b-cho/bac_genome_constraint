@@ -1,0 +1,63 @@
+================================================================================
+Script 01: Build Master Table - PATHWAY
+================================================================================
+
+A. Input Validation
+--------------------------------------------------------------------------------
+Using input file: /n/scratch/users/b/byc014/github/bac_genome_constraint/results/3.5_KEGG_n_reaction_analyses/all_pathway_counts_table_kegg_reaction.txt
+Loading pathway counts table...
+  ✓ File loaded successfully
+  Number of genomes with pathway data: 3088
+  Number of pathway categories: 202
+  Identified 101 pathway columns
+  ✓ All pathway columns are numeric
+  ✓ All pathway values are >= 0
+  ✓ Index contains unique genome identifiers
+
+B. Join Integrity Checks
+--------------------------------------------------------------------------------
+Joining pathway counts with feature matrix...
+  pathway counts index name: Genome
+  Feature matrix accession column: accession
+  Expected ≈3088 rows (all KEGG genomes)
+  Actual: 3088 rows
+  Difference: 0 genomes
+  ✓ Join size within expected range
+  ✓ No duplicate accessions after join
+  Missing environments: 0 NaN, 0 empty, 101 'Unclassified'
+
+C. QC Filtering
+--------------------------------------------------------------------------------
+  Starting with 3088 genomes
+  Completeness filter (>90):
+    NaN values treated as 0: 1
+    Lost: 259 genomes
+  Contamination filter (<5):
+    NaN values treated as 100: 353
+    Lost: 543 genomes
+  Genes filter (>0): Lost 0 genomes
+  Environment filter (not null/empty/'Unclassified'):
+    Lost: 77 genomes (0 null, 0 empty, 77 'Unclassified')
+  Total retained: 2209 genomes
+  Total lost: 879 genomes
+
+D. Environment-Level Sanity Checks
+--------------------------------------------------------------------------------
+  Environment counts (sorted by genome count):
+    Aquatic: 598 genomes
+    Terrestrial: 479 genomes
+    Mammals: Human: 406 genomes
+    Plants: 281 genomes
+    Mammals: 198 genomes
+    Food production: 103 genomes
+    Wastewater: 63 genomes
+    Birds: 36 genomes
+    Algae: 16 genomes
+    Bioreactor: 15 genomes
+    Solid waste: 14 genomes
+
+E. Writing Outputs
+--------------------------------------------------------------------------------
+  ✓ master_table_raw_pathway.tsv: 3088 rows
+  ✓ master_table_high_quality_pathway.tsv: 2209 rows
+  ✓ environment_counts_all_pathway.tsv: 11 environments

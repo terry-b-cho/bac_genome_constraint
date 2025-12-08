@@ -1,0 +1,123 @@
+ENTRY       rn00052                     Pathway
+NAME        Galactose metabolism
+CLASS       Metabolism; Carbohydrate metabolism
+PATHWAY_MAP rn00052  Galactose metabolism
+MODULE      M00309  Non-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate [PATH:rn00052]
+            M00552  D-galactonate degradation, De Ley-Doudoroff pathway, D-galactonate => glycerate-3P [PATH:rn00052]
+            M00554  UDP-Gal biosynthesis, Gal => UDP-Gal [PATH:rn00052]
+            M00632  Galactose degradation, Leloir pathway, galactose => alpha-D-glucose-1P [PATH:rn00052]
+            M00633  Semi-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate-3P [PATH:rn00052]
+            M01004  UDP-Galf biosynthesis, UDP-Glc => UDP-Galf [PATH:rn00052]
+DBLINKS     GO: 0006012
+REACTION    R00289  UTP:alpha-D-glucose-1-phosphate uridylyltransferase
+            R00291  UDP-glucose 4-epimerase; UDP-alpha-D-glucose 4-epimerase
+            R00502  UTP:alpha-D-galactose-1-phosphate uridylyltransferase
+            R00503  UDP-alpha-D-galactose:D-glucose 4-beta-D-galactosyltransferase
+            R00505  UDP-alpha-D-galactopyranose furanomutase
+            R00506  UDP-alpha-D-galactose:galactan beta-1,4-D-galactosyltransferase
+            R00801  sucrose glucohydrolase
+            R00955  UDP-glucose:alpha-D-galactose-1-phosphate uridylyltransferase
+            R00959  alpha-D-glucose 1-phosphate 1,6-phosphomutase
+            R01064  2-dehydro-3-deoxy-6-phospho-D-galactonate D-glyceraldehyde-3-phospho-lyase (pyruvate-forming)
+            R01069  D-tagatose 1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)
+            R01092  ATP:alpha-D-galactose 1-phosphotransferase
+            R01093  galactitol:NAD+ 1-oxidoreductase
+            R01094  D-galactose:NAD+ 1-oxidoreductase
+            R01095  galactitol:NADP+ 1-oxidoreductase
+            R01096  D-galactose:NADP+ 1-oxidoreductase
+            R01097  D-galactose:NADP+ 1-oxidoreductase
+            R01098  D-galactose:oxygen 6-oxidoreductase
+            R01101  melibiose galactohydrolase
+            R01103  raffinose galactohydrolase
+            R01104  galactosylglycerol galactohydrolase
+            R01105  galactan galactohydrolase
+            R01192  UDP-alpha-D-galactose:myo-inositol 3-alpha-D-galactosyltransferase; UDP-galactose:myo-inositol 1-alpha-D-galactosyltransferase
+            R01194  3-O-alpha-D-galactosyl-1D-myo-inositol galactohydrolase; 1-alpha-D-galactosyl-myo-inositol galactohydrolase
+            R01329  epimelibiose galactohydrolase
+            R01678  lactose galactohydrolase
+            R01786  ATP:alpha-D-glucose 6-phosphotransferase
+            R01788  alpha-D-glucose 6-phosphate phosphohydrolase
+            R02410  raffinose fructohydrolase
+            R02411  1-alpha-D-galactosyl-myo-inositol:sucrose 6-alpha-D-galactosyltransferase
+            R02926  melibiitol galactohydrolase
+            R02927  ATP:D-tagatose 6-phosphotransferase
+            R02928  galactitol:NAD+ 2-oxidoreductase
+            R03033  D-galactonate hydro-lyase
+            R03034  D-galactono-1,4-lactone hydroxyacylhydrolase
+            R03236  ATP:D-tagatose-6-phosphate 1-phosphotransferase
+            R03237  CTP:D-tagatose 6-phosphate 1-phosphotransferase
+            R03238  UTP:D-tagatose 6-phosphate 1-phosphotransferase
+            R03239  ITP:D-tagatose 6-phosphate 1-phosphotransferase
+            R03240  D-galactose 6-phosphate ketol-isomerase
+            R03256  lactose 6-phosphate 6-phosphogalactohydrolase
+            R03387  ATP:2-dehydro-3-deoxy-D-galactonate 6-phosphotransferase
+            R03418  1-alpha-D-galactosyl-myo-inositol:raffinose galactosyltransferase
+            R03634  
+            R03635  stachyose fructohydrolase
+            R04393  protein-N(pi)-phosphohistidine:lactose 6-phosphotransferase
+            R05168  N-acetyl-D-galactosamine 6-phosphate amidohydrolase
+            R05549  
+            R05570  protein-N(pi)-phosphohistidine:galactitol 1-phosphotransferase
+            R05571  galactitol-1-phosphate:NAD oxidoreductase
+            R08365  
+            R08366  protein-N(pi)-phosphohistidine:N-acetyl-D-galactosamine 6-phosphotransferase
+            R08367  protein-N(pi)-phosphohistidine:D-galactosamine 6-phosphotransferase
+            R08544  D-galactose:NAD+ 1-oxidoreductase
+            R10604  
+            R10616  2-dehydro-3-deoxy-D-galactonate D-glyceraldehyde-lyase (pyruvate-forming)
+            R10619  D-galactose 1-epimerase; aldose 1-epimerase
+            R11623  D-tagatose 6-phosphate 4-epimerase
+            R13545  
+COMPOUND    C00029  UDP-glucose
+            C00031  D-Glucose
+            C00052  UDP-alpha-D-galactose
+            C00085  D-Fructose 6-phosphate
+            C00089  Sucrose
+            C00095  D-Fructose
+            C00103  D-Glucose 1-phosphate
+            C00111  Glycerone phosphate
+            C00116  Glycerol
+            C00118  D-Glyceraldehyde 3-phosphate
+            C00124  D-Galactose
+            C00137  myo-Inositol
+            C00159  D-Mannose
+            C00243  Lactose
+            C00267  alpha-D-Glucose
+            C00446  alpha-D-Galactose 1-phosphate
+            C00492  Raffinose
+            C00577  D-Glyceraldehyde
+            C00668  alpha-D-Glucose 6-phosphate
+            C00794  D-Sorbitol
+            C00795  D-Tagatose
+            C00880  D-Galactonate
+            C00984  alpha-D-Galactose
+            C01097  D-Tagatose 6-phosphate
+            C01113  D-Galactose 6-phosphate
+            C01132  N-Acetyl-D-galactosamine
+            C01216  2-Dehydro-3-deoxy-D-galactonate
+            C01235  alpha-D-Galactosyl-(1->3)-1D-myo-inositol
+            C01286  2-Dehydro-3-deoxy-6-phospho-D-galactonate
+            C01613  Stachyose
+            C01697  Galactitol
+            C02262  D-Galactosamine
+            C02669  D-Galactono-1,5-lactone
+            C03383  D-Galactono-1,4-lactone
+            C03733  UDP-alpha-D-galactofuranose
+            C03785  D-Tagatose 1,6-bisphosphate
+            C05396  Lactose 6'-phosphate
+            C05399  Melibiitol
+            C05400  Epimelibiose
+            C05401  3-beta-D-Galactosyl-sn-glycerol
+            C05402  Melibiose
+            C05404  D-Gal alpha 1->6D-Gal alpha 1->6D-Glucose
+            C05796  Galactan
+            C06311  Galactitol 1-phosphate
+            C06376  N-Acetyl-D-galactosamine 6-phosphate
+            C06377  D-Galactosamine 6-phosphate
+REL_PATHWAY rn00010  Glycolysis / Gluconeogenesis
+            rn00030  Pentose phosphate pathway
+            rn00040  Pentose and glucuronate interconversions
+            rn00051  Fructose and mannose metabolism
+            rn00520  Amino sugar and nucleotide sugar metabolism
+KO_PATHWAY  ko00052
+///

@@ -1,0 +1,17 @@
+ENTRY       R07606                      Reaction
+NAME        L-methionine:thioredoxin-disulfide S-oxidoreductase
+DEFINITION  L-Methionine + Thioredoxin disulfide + H2O <=> L-Methionine (S)-S-oxide + Thioredoxin
+EQUATION    C00073 + C00343 + C00001 <=> C15999 + C00342
+RCLASS      RC00013  C00342_C00343
+            RC00639  C00073_C15999
+ENZYME      1.8.4.11        1.8.4.13
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.8  Acting on a sulfur group of donors
+               1.8.4  With a disulfide as acceptor
+                1.8.4.11
+                 R07606  L-Methionine + Thioredoxin disulfide + H2O <=> L-Methionine (S)-S-oxide + Thioredoxin
+                1.8.4.13
+                 R07606  L-Methionine + Thioredoxin disulfide + H2O <=> L-Methionine (S)-S-oxide + Thioredoxin
+DBLINKS     RHEA: 19996
+///

@@ -1,0 +1,18 @@
+ENTRY       R00892                      Reaction
+NAME        L-cysteine:NAD+ oxidoreductase;
+            NADH:L-cystine oxidoreductase
+DEFINITION  2 L-Cysteine + NAD+ <=> L-Cystine + H+ + NADH
+EQUATION    2 C00097 + C00003 <=> C00491 + C00080 + C00004
+RCLASS      RC00001  C00003_C00004
+            RC00011  C00097_C00491
+ENZYME      1.8.1.6
+PATHWAY     rn00270  Cysteine and methionine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.8  Acting on a sulfur group of donors
+               1.8.1  With NAD+ or NADP+ as acceptor
+                1.8.1.6
+                 R00892  2 L-Cysteine + NAD+ <=> L-Cystine + H+ + NADH
+DBLINKS     RHEA: 20600
+///

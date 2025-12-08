@@ -1,0 +1,138 @@
+ENTRY       rn00600                     Pathway
+NAME        Sphingolipid metabolism
+CLASS       Metabolism; Lipid metabolism
+PATHWAY_MAP rn00600  Sphingolipid metabolism
+MODULE      M00066  Lactosylceramide biosynthesis [PATH:rn00600]
+            M00067  Sulfoglycolipids biosynthesis, ceramide/1-alkyl-2-acylglycerol => sulfatide/seminolipid [PATH:rn00600]
+            M00094  Ceramide biosynthesis [PATH:rn00600]
+            M00099  Sphingosine biosynthesis [PATH:rn00600]
+            M00100  Sphingosine degradation [PATH:rn00600]
+DBLINKS     GO: 0006665
+REACTION    R01281  palmitoyl-CoA:L-serine C-palmitoyltransferase (decarboxylating)
+            R01494  N-acylsphingosine amidohydrolase
+            R01495  ATP:ceramide 1-phosphotransferase
+            R01496  acyl-CoA:sphingosine N-acyltransferase
+            R01497  UDP-glucose:N-acylsphingosine D-glucosyltransferase
+            R01498  D-glucosyl-N-acylsphingosine glucohydrolase
+            R01500  UDP-alpha-D-galactose:N-acylsphingosine D-galactosyltransferase
+            R01503  CDP-ethanolamine:ceramide phosphoethanolaminyltransferase
+            R01891  CDP-choline:N-acylsphingosine cholinephosphotransferase
+            R01926  ATP:sphingosine 1-phosphotransferase; sphingosine kinase
+            R01928  UDP-alpha-D-galactose:sphingosine 1-beta-galactosyltransferase
+            R01929  CDP-choline:sphingosine cholinephosphotransferase
+            R02464  sphinganine-1-phosphate pamlmitaldehyde-lyase
+            R02541  sphingomyelin cholinephosphohydrolase
+            R02542  sphingomyelin ceramide-phosphohydrolase
+            R02543  acyl-CoA:sphingosine N-acyltransferase
+            R02976  ATP:sphinganine 1-phosphotransferase
+            R02978  sphinganine:NADP+ 3-oxidoreductase
+            R03354  UDP-alpha-D-galactose:beta-D-glucosyl-(1<->1)-ceramide 4-beta-D-galactosyltransferase
+            R03355  beta-D-galactosyl-1,4-beta-D-glucosylceramide galactohydrolase
+            R03491  
+            R03492  GalNAc-beta1->4Gal-beta1->4Glc-beta1->1'Cer (GA2) N-acetylhexosaminohydrolase
+            R03617  D-galactosyl-N-acylsphingosine galactohydrolase
+            R03618  globotriosylceramide galactohydrolase
+            R04016  
+            R04017  3'-phosphoadenylylsulfate:galactosylceramide 3'-sulfotransferase
+            R04018  acylneuraminyl hydrolase
+            R04019  digalactosylceramide galactohydrolase
+            R04184  globoside N-acetylhexosaminohydrolase
+            R04586  N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide N-acetylhexosaminohydrolase
+            R04633  D-galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D- galactosyl-D-glucosylceramide galactohydrolase
+            R04856  sulfatide sulfohydrolase; cerebroside-3-sulfate 3-sulfohydrolase
+            R04921  
+            R05105  3'-phosphoadenylylsulfate:digalactosylceramide 3'-sulfotransferase
+            R05112  Gal-beta1->3GalNAc-beta1->4Gal-beta1->4Glc-beta1->1'Cer (GA1) galactohydrolase
+            R06516  sphingosine-1-phosphate palmitaldehyde-lyase (phosphoethanolamine-forming)
+            R06517  acyl-CoA:sphingosine N-acyltransferase
+            R06518  N-acylsphingosine amidohydrolase
+            R06519  dihydroceramide,ferrocytochrome b5:oxygen oxidoreductase (4,5-dehydrogenating)
+            R06520  3-sn-phosphatidate phosphohydrolase
+            R06521  3-sn-phosphatidate phosphohydrolase
+            R06522  3-sn-phosphatidate phosphohydrolase
+            R06525  sphinganine,ferrocytochrome b5:oxygen oxidoreductase (C4-hydroxylating)
+            R06526  dihydroceramide,ferrocytochrome b5:oxygen oxidoreductase (C4-hydroxylating)
+            R06527  acyl-CoA: phytosphingosine N-acyltransferase
+            R06528  phytoceramide amidohydrolase
+            R08969  ceramide:phosphatidylcholine cholinephosphotransferase
+            R12960  3'-phosphoadenylyl-sulfate:lactosylceramide 3'-sulfotransferase
+            R12961  lactosylceramide-sulfate sulfohydrolase
+            R12962  UDP-N-acetyl-D-galactosamine:lactosylceramide-sulfate N-acetyl-D-galactrosaminyltransferase
+            R12963  gangliotriaosylceramide-II3-sulfate N-acetylgalactosaminohydrolase
+            R13178  D-glucosylsphingosine glucohydrolase
+            R13179  psychosine galactohydrolase
+            R13541  phosphatidylethanolamine:ceramide phosphoethanolaminyltransferase
+            R13552  
+            R13564  
+COMPOUND    C00065  L-Serine
+            C00154  Palmitoyl-CoA
+            C00195  N-Acylsphingosine
+            C00319  Sphingosine
+            C00346  Ethanolamine phosphate
+            C00550  Sphingomyelin
+            C00836  Sphinganine
+            C01120  Sphinganine 1-phosphate
+            C01190  Glucosylceramide
+            C01290  Lactosylceramide
+            C01747  Psychosine
+            C02686  Galactosylceramide
+            C02934  3-Dehydrosphinganine
+            C02960  Ceramide 1-phosphate
+            C03108  D-Glucosylsphingosine
+            C03272  Globoside
+            C03405  Lactosylceramide sulfate
+            C03640  Sphingosyl-phosphocholine
+            C04730  GM3
+            C04737  alpha-D-Galactosyl-(1->4)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1)-ceramide
+            C04884  N-Acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide
+            C04911  D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide
+            C05681  Ceramide 2-aminoethylphosphonate
+            C06062  Ceramide phosphoethanolamine
+            C06124  Sphingosine 1-phosphate
+            C06125  Sulfatide
+            C06126  Digalactosylceramide
+            C06127  Digalactosylceramide sulfate
+            C06128  GM4
+            C06135  GA2
+            C06136  GA1
+            C12126  Dihydroceramide
+            C12144  Phytosphingosine
+            C12145  Phytoceramide
+            C22467  Gangliotriaosylceramide-II3 sulfate
+            C23072  Oxidized ceramide
+REFERENCE   PMID:12011104
+  AUTHORS   Merrill AH Jr.
+  TITLE     De novo sphingolipid biosynthesis: a necessary, but dangerous, pathway.
+  JOURNAL   J Biol Chem 277:25843-6 (2002)
+            DOI:10.1074/jbc.R200009200
+REFERENCE   PMID:10652340
+  AUTHORS   Tani M, Okino N, Mitsutake S, Tanigawa T, Izu H, Ito M.
+  TITLE     Purification and characterization of a neutral ceramidase from mouse liver. A single protein catalyzes the reversible reaction in which ceramide is both hydrolyzed and synthesized.
+  JOURNAL   J Biol Chem 275:3462-8 (2000)
+            DOI:10.1074/jbc.275.5.3462
+REFERENCE   PMID:11305904
+  AUTHORS   Hannun YA, Luberto C, Argraves KM.
+  TITLE     Enzymes of sphingolipid metabolism: from modular to integrative signaling.
+  JOURNAL   Biochemistry 40:4893-903 (2001)
+            DOI:10.1021/bi002836k
+REFERENCE   PMID:1495423
+  AUTHORS   Merrill AH Jr, Wang E.
+  TITLE     Enzymes of ceramide biosynthesis.
+  JOURNAL   Methods Enzymol 209:427-37 (1992)
+            DOI:10.1016/0076-6879(92)09053-6
+REFERENCE   PMID:8457204
+  AUTHORS   Hirschberg K, Rodger J, Futerman AH.
+  TITLE     The long-chain sphingoid base of sphingolipids is acylated at the cytosolic surface of the endoplasmic reticulum in rat liver.
+  JOURNAL   Biochem J 290 ( Pt 3):751-7 (1993)
+            DOI:10.1042/bj2900751
+REFERENCE   PMID:10366774
+  AUTHORS   Dickson RC, Lester RL.
+  TITLE     Metabolism and selected functions of sphingolipids in the yeast Saccharomyces cerevisiae.
+  JOURNAL   Biochim Biophys Acta 1438:305-21 (1999)
+            DOI:10.1016/S1388-1981(99)00068-2
+REL_PATHWAY rn00260  Glycine, serine and threonine metabolism
+            rn00601  Glycosphingolipid biosynthesis - lacto and neolacto series
+            rn00603  Glycosphingolipid biosynthesis - globo and isoglobo series
+            rn00604  Glycosphingolipid biosynthesis - ganglio series
+KO_PATHWAY  ko00600
+///

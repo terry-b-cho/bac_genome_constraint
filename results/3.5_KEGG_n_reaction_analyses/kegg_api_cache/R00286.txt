@@ -1,0 +1,28 @@
+ENTRY       R00286                      Reaction
+NAME        UDP-glucose:NAD+ 6-oxidoreductase
+DEFINITION  UDP-glucose + H2O + 2 NAD+ <=> UDP-glucuronate + 2 NADH + 2 H+
+EQUATION    C00029 + C00001 + 2 C00003 <=> C00167 + 2 C00004 + 2 C00080
+RCLASS      RC00001  C00003_C00004
+            RC00291  C00029_C00167
+ENZYME      1.1.1.22
+PATHWAY     rn00040  Pentose and glucuronate interconversions
+            rn00053  Ascorbate and aldarate metabolism
+            rn00520  Amino sugar and nucleotide sugar metabolism
+            rn00541  Biosynthesis of various nucleotide sugars
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M00014  Glucuronate pathway (uronate pathway)
+            M00129  Ascorbate biosynthesis, animals, glucose-1P => ascorbate
+            M00761  Und-P-alpha-L-Ara4N biosynthesis, UDP-Glc => UDP-L-Ara4FN => Und-P-alpha-L-Ara4N
+            M00997  UDP-Xyl/L-Ara biosynthesis, UDP-Glc => UDP-Xyl => UDP-L-Ala
+            M00999  UDP-GlcA/GalA biosynthesis, UDP-Glc => UDP-GlcA => UDP-GalA
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.22
+                 R00286  UDP-glucose + H2O + 2 NAD+ <=> UDP-glucuronate + 2 NADH + 2 H+
+ORTHOLOGY   K00012  UDPglucose 6-dehydrogenase [EC:1.1.1.22]
+DBLINKS     RHEA: 23599
+///

@@ -1,0 +1,23 @@
+ENTRY       R02541                      Reaction
+NAME        sphingomyelin cholinephosphohydrolase
+DEFINITION  Sphingomyelin + H2O <=> N-Acylsphingosine + Choline phosphate
+EQUATION    C00550 + C00001 <=> C00195 + C00588
+RCLASS      RC00017  C00195_C00550
+            RC00425  C00550_C00588
+ENZYME      3.1.4.12
+PATHWAY     rn00600  Sphingolipid metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.1  Acting on ester bonds
+               3.1.4  Phosphoric-diester hydrolases
+                3.1.4.12
+                 R02541  Sphingomyelin + H2O <=> N-Acylsphingosine + Choline phosphate
+ORTHOLOGY   K01117  sphingomyelin phosphodiesterase [EC:3.1.4.12]
+            K12350  sphingomyelin phosphodiesterase [EC:3.1.4.12]
+            K12351  sphingomyelin phosphodiesterase 2 [EC:3.1.4.12]
+            K12352  sphingomyelin phosphodiesterase 3 [EC:3.1.4.12]
+            K12353  sphingomyelin phosphodiesterase 4 [EC:3.1.4.12]
+            K12354  ectonucleotide pyrophosphatase/phosphodiesterase family member 7 [EC:3.1.4.12]
+DBLINKS     RHEA: 19256
+///

@@ -1,0 +1,135 @@
+ENTRY       rn00650                     Pathway
+NAME        Butanoate metabolism
+CLASS       Metabolism; Carbohydrate metabolism
+PATHWAY_MAP rn00650  Butanoate metabolism
+MODULE      M00027  GABA (gamma-Aminobutyrate) shunt [PATH:rn00650]
+            M00088  Ketone body biosynthesis, acetyl-CoA => acetoacetate/3-hydroxybutyrate/acetone [PATH:rn00650]
+DBLINKS     GO: 0019605
+REACTION    R00048  (R)-3-((R)-3-hydroxybutanoyloxy)-butanoate hydroxybutanoylhydrolase
+            R00212  acetyl-CoA:formate C-acetyltransferase
+            R00215  (R)-malate:NAD+ oxidoreductase (decarboxylating)
+            R00226  pyruvate:pyruvate acetaldehydetransferase (decarboxylating); (S)-2-acetolactate pyruvate-lyase (carboxylating)
+            R00238  acetyl-CoA:acetyl-CoA C-acetyltransferase
+            R00261  L-glutamate 1-carboxy-lyase (4-aminobutanoate-forming)
+            R00410  succinyl-CoA:acetoacetate CoA-transferase
+            R00713  succinate-semialdehyde:NAD+ oxidoreductase
+            R00714  succinate-semialdehyde:NADP+ oxidoreductase
+            R01087  maleate cis-trans-isomerase
+            R01171  butanoyl-CoA:NAD+ trans-2-oxidoreductase
+            R01172  butanal:NAD+ oxidoreductase (CoA-acylating)
+            R01173  butanal:NADP+ oxidoreductase (CoA-acylating)
+            R01174  butanoyl-CoA:phosphate butanoyltransferase
+            R01175  butanoyl-CoA:electron-transfer flavoprotein 2,3-oxidoreductase
+            R01176  butanoate:CoA ligase (AMP-forming)
+            R01179  butanoyl-CoA:acetate CoA-transferase
+            R01196  pyruvate:ferredoxin 2-oxidoreductase (CoA-acetylating)
+            R01357  acetoacetate:CoA ligase (AMP-forming)
+            R01358  acetoacetyl-CoA hydrolase
+            R01359  acetoacetyl-CoA:acetate CoA-transferase
+            R01360  (S)-3-hydroxy-3-methylglutaryl-CoA acetoacetate-lyase (acetyl-CoA-forming)
+            R01361  (R)-3-hydroxybutanoate:NAD+ oxidoreductase
+            R01366  acetoacetate carboxy-lyase (acetone-forming)
+            R01367  acetoacetate hydro-lyase (3-butynoate-forming)
+            R01550  propan-2-ol:NADP+ oxidoreductase
+            R01644  4-hydroxybutanoate:NAD+ oxidoreductase
+            R01648  4-aminobutanoate:2-oxoglutarate aminotransferase
+            R01688  ATP:butanoate 1-phosphotransferase
+            R01975  (S)-3-hydroxybutanoyl-CoA:NAD+ oxidoreductase
+            R01976  (S)-3-hydroxybutanoyl-CoA:NADP+ oxidoreductase
+            R01977  (R)-3-hydroxybutanoyl-CoA:NADP+ oxidoreductase
+            R01978  acetyl-CoA:acetoacetyl-CoA C-acetyltransferase (thioester-hydrolysing, carboxymethyl-forming)
+            R02164  succinate:quinone oxidoreductase
+            R02419  (R)-malate hydro-lyase
+            R02855  (R)-acetoin:NAD+ oxidoreductase
+            R02946  (R,R)-butane-2,3-diol:NAD+ oxidoreductase
+            R02948  (S)-2-hydroxy-2-methyl-3-oxobutanoate carboxy-lyase
+            R02949  (R)-acetoin racemase
+            R03026  (S)-3-hydroxybutanoyl-CoA hydro-lyase
+            R03027  (3R)-3-hydroxybutanoyl-CoA hydro-lyase
+            R03028  glutaconyl-1-CoA carboxy-lyase; 4-carboxybut-2-enoyl-CoA carboxy-lyase (but-2-enoyl-CoA-forming)
+            R03031  vinylacetyl-CoA Delta3-Delta2-isomerase
+            R03276  (S)-3-hydroxybutanoyl-CoA 3-epimerase
+            R03534  2-hydroxyglutarate:(acceptor) 2-oxidoreductase
+            R03544  
+            R03545  
+            R03707  (S,S)-butane-2,3-diol:NAD+ oxidoreductase
+            R03937  
+            R04000  (E)-glutaconate CoA-transferase
+            R04254  
+            R05118  
+            R05119  
+            R05120  
+            R05121  
+            R05336  acetyl-CoA:4-hydroxybutanoate CoA-transferase
+            R09078  (S)-acetoin:NAD+ oxidoreductase
+            R09280  succinate-semialdehyde:NADP+ oxidoreductase (CoA-acylating)
+            R09281  4-hydroxybutanoate:NADP+ oxidoreductase
+            R09738  butanoyl-CoA:NADP+ 2,3-oxidoreductase
+            R10178  4-aminobutanoate:pyruvate aminotransferase
+            R10343  succinyl-CoA:acetate CoA-transferase
+            R10504  meso-2,3-butanediol:NAD+ oxidoreductase [(S)-acetoin forming]
+            R10505  meso-2,3-butanediol:NAD+ oxidoreductase [(R)-acetoin forming]
+            R10506  
+            R10702  propane,NADH:oxygen oxidoreductase (2-hydroxylating)
+            R10703  propan-2-ol:NAD+ oxidoreductase
+            R10704  acetone,NADPH:oxygen oxidoreductase (methyl acetate-forming)
+            R10705  methyl acetate acetohydrolase
+            R10782  4-hydroxybutanoyl-CoA hydro-lyase
+            R11448  butane,NADH:oxygen oxidoreductase
+            R13137  succinate:ferricytochrome-c oxidoreductase
+COMPOUND    C00022  Pyruvate
+            C00024  Acetyl-CoA
+            C00025  L-Glutamate
+            C00026  2-Oxoglutarate
+            C00042  Succinate
+            C00091  Succinyl-CoA
+            C00122  Fumarate
+            C00132  Methanol
+            C00136  Butanoyl-CoA
+            C00164  Acetoacetate
+            C00207  Acetone
+            C00232  Succinate semialdehyde
+            C00246  Butanoic acid
+            C00332  Acetoacetyl-CoA
+            C00334  4-Aminobutanoate
+            C00356  (S)-3-Hydroxy-3-methylglutaryl-CoA
+            C00497  (R)-Malate
+            C00741  Diacetyl
+            C00810  (R)-Acetoin
+            C00877  Crotonoyl-CoA
+            C00989  4-Hydroxybutanoic acid
+            C01089  (R)-3-Hydroxybutanoate
+            C01144  (S)-3-Hydroxybutanoyl-CoA
+            C01384  Maleic acid
+            C01412  Butanal
+            C01769  (S)-Acetoin
+            C01845  Propan-2-ol
+            C02331  Vinylacetyl-CoA
+            C02411  Glutaconyl-1-CoA
+            C02527  Butanoylphosphate
+            C02630  2-Hydroxyglutarate
+            C03044  (R,R)-Butane-2,3-diol
+            C03046  (S,S)-Butane-2,3-diol
+            C03058  2-Hydroxyglutaryl-CoA
+            C03561  (R)-3-Hydroxybutanoyl-CoA
+            C04546  (R)-3-((R)-3-Hydroxybutanoyloxy)butanoate
+            C06010  (S)-2-Acetolactate
+            C06142  1-Butanol
+            C06143  Poly-beta-hydroxybutyrate
+            C06144  3-Butynoate
+            C06145  3-Butyn-1-al
+            C06146  3-Butyn-1-ol
+            C11062  4-Hydroxybutyryl-CoA
+            C17530  Methyl acetate
+            C20657  meso-2,3-Butanediol
+            C20783  Propane
+            C21390  Butane
+REL_PATHWAY rn00010  Glycolysis / Gluconeogenesis
+            rn00020  Citrate cycle (TCA cycle)
+            rn00250  Alanine, aspartate and glutamate metabolism
+            rn00330  Arginine and proline metabolism
+            rn00620  Pyruvate metabolism
+            rn00750  Vitamin B6 metabolism
+            rn01056  Biosynthesis of type II polyketide backbone
+KO_PATHWAY  ko00650
+///

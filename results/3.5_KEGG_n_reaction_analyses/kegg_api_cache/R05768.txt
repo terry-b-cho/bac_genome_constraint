@@ -1,0 +1,22 @@
+ENTRY       R05768                      Reaction
+NAME        GDP-mannose:3-phosphoglycerate 3-a-D-mannosyltransferase
+DEFINITION  GDP-mannose + 3-Phospho-D-glycerate <=> GDP + 2-(alpha-D-Mannosyl)-3-phosphoglycerate
+EQUATION    C00096 + C00197 <=> C00035 + C11516
+RCLASS      RC00005  C00035_C00096
+            RC00397  C00197_C11516
+            RC02748  C00096_C11516
+ENZYME      2.4.1.217
+PATHWAY     rn00051  Fructose and mannose metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.1  Hexosyltransferases
+                2.4.1.217
+                 R05768  GDP-mannose + 3-Phospho-D-glycerate <=> GDP + 2-(alpha-D-Mannosyl)-3-phosphoglycerate
+            Glycosyltransferase reactions [br08203.html]
+             Mannosyltransferase reactions
+              R05768
+ORTHOLOGY   K05947  mannosyl-3-phosphoglycerate synthase [EC:2.4.1.217]
+DBLINKS     RHEA: 13540
+///

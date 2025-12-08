@@ -1,0 +1,20 @@
+ENTRY       R00660                      Reaction
+NAME        phosphoenolpyruvate:UDP-N-acetyl-D-glucosamine 1-carboxyvinyl-transferase
+DEFINITION  Phosphoenolpyruvate + UDP-N-acetyl-alpha-D-glucosamine <=> UDP-N-acetyl-3-(1-carboxyvinyl)-D-glucosamine + Orthophosphate
+EQUATION    C00074 + C00043 <=> C04631 + C00009
+RCLASS      RC00350  C00043_C04631
+ENZYME      2.5.1.7
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+            rn00550  Peptidoglycan biosynthesis
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M00995  UDP-MurNAc biosynthesis, Fru-6P => UDP-MurNAc
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+                2.5.1.7
+                 R00660  Phosphoenolpyruvate + UDP-N-acetyl-alpha-D-glucosamine <=> UDP-N-acetyl-3-(1-carboxyvinyl)-D-glucosamine + Orthophosphate
+ORTHOLOGY   K00790  UDP-N-acetylglucosamine 1-carboxyvinyltransferase [EC:2.5.1.7]
+DBLINKS     RHEA: 18684
+///

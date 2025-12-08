@@ -1,0 +1,26 @@
+ENTRY       R03165                      Reaction
+NAME        hydroxymethylbilane hydro-lyase(cyclizing)
+DEFINITION  Hydroxymethylbilane <=> Uroporphyrinogen III + H2O
+EQUATION    C01024 <=> C01051 + C00001
+RCLASS      RC01861  C01024_C01051
+ENZYME      4.2.1.75
+PATHWAY     rn00860  Porphyrin metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01120  Microbial metabolism in diverse environments
+            rn01240  Biosynthesis of cofactors
+MODULE      M00121  Heme biosynthesis, plants and bacteria, glutamate => heme
+            M00846  Siroheme biosynthesis, glutamyl-tRNA => siroheme
+            M00868  Heme biosynthesis, animals and fungi, glycine => heme
+            M00926  Heme biosynthesis, bacteria, glutamyl-tRNA => coproporphyrin III => heme
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.2  Carbon-oxygen lyases
+               4.2.1  Hydro-lyases
+                4.2.1.75
+                 R03165  Hydroxymethylbilane <=> Uroporphyrinogen III + H2O
+ORTHOLOGY   K01719  uroporphyrinogen-III synthase [EC:4.2.1.75]
+            K13542  uroporphyrinogen III methyltransferase / synthase [EC:2.1.1.107 4.2.1.75]
+            K13543  uroporphyrinogen III methyltransferase / synthase [EC:2.1.1.107 4.2.1.75]
+DBLINKS     RHEA: 18968
+///

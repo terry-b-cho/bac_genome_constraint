@@ -1,0 +1,21 @@
+ENTRY       R02804                      Reaction
+NAME        nitrogen:ferricytochrome-c oxidoreductase (N2O-forming)
+DEFINITION  Nitrogen + 2 Ferricytochrome c + H2O <=> Nitrous oxide + 2 Ferrocytochrome c + 2 H+
+EQUATION    C00697 + 2 C00125 + C00001 <=> C00887 + 2 C00126 + 2 C00080
+RCLASS      RC00016  C00125_C00126
+            RC02861  C00697_C00887
+ENZYME      1.7.2.4
+PATHWAY     rn00910  Nitrogen metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01310  Nitrogen cycle
+MODULE      M00529  Denitrification, nitrate => nitrogen
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.7  Acting on other nitrogenous compounds as donors
+               1.7.2  With a cytochrome as acceptor
+                1.7.2.4
+                 R02804  Nitrogen + 2 Ferricytochrome c + H2O <=> Nitrous oxide + 2 Ferrocytochrome c + 2 H+
+ORTHOLOGY   K00376  nitrous-oxide reductase [EC:1.7.2.4]
+DBLINKS     RHEA: 43111
+///

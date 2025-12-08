@@ -1,0 +1,32 @@
+ENTRY       map00400                    Pathway
+NAME        Phenylalanine, tyrosine and tryptophan biosynthesis
+CLASS       Metabolism; Amino acid metabolism
+PATHWAY_MAP map00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+MODULE      M00022  Shikimate pathway, phosphoenolpyruvate + erythrose-4P => chorismate [PATH:map00400]
+            M00023  Tryptophan biosynthesis, chorismate => tryptophan [PATH:map00400]
+            M00024  Phenylalanine biosynthesis, chorismate => phenylpyruvate => phenylalanine [PATH:map00400]
+            M00025  Tyrosine biosynthesis, chorismate => HPP => tyrosine [PATH:map00400]
+            M00040  Tyrosine biosynthesis, chorismate => arogenate => tyrosine [PATH:map00400]
+            M00910  Phenylalanine biosynthesis, chorismate => arogenate => phenylalanine [PATH:map00400]
+DBLINKS     GO: 0009094 0006571 0000162
+REL_PATHWAY map00010  Glycolysis / Gluconeogenesis
+            map00030  Pentose phosphate pathway
+            map00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            map00350  Tyrosine metabolism
+            map00360  Phenylalanine metabolism
+            map00362  Benzoate degradation
+            map00380  Tryptophan metabolism
+            map00402  Benzoxazinoid biosynthesis
+            map00403  Indole diterpene alkaloid biosynthesis
+            map00404  Staurosporine biosynthesis
+            map00710  Carbon fixation by Calvin cycle
+            map00790  Folate biosynthesis
+            map00901  Indole alkaloid biosynthesis
+            map00940  Phenylpropanoid biosynthesis
+            map00950  Isoquinoline alkaloid biosynthesis
+            map00960  Tropane, piperidine and pyridine alkaloid biosynthesis
+            map00966  Glucosinolate biosynthesis
+            map01053  Biosynthesis of siderophore group nonribosomal peptides
+            map01059  Biosynthesis of enediyne antibiotics
+KO_PATHWAY  ko00400
+///

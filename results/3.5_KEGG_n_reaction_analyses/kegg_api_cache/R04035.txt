@@ -1,0 +1,22 @@
+ENTRY       R04035                      Reaction
+NAME        phosphoribosyl-ATP pyrophosphohydrolase
+DEFINITION  1-(5-Phospho-D-ribosyl)-ATP + H2O <=> Phosphoribosyl-AMP + Diphosphate
+EQUATION    C02739 + C00001 <=> C02741 + C00013
+RCLASS      RC00002  C02739_C02741
+ENZYME      3.6.1.31
+PATHWAY     rn00340  Histidine metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01230  Biosynthesis of amino acids
+MODULE      M00026  Histidine biosynthesis, PRPP => histidine
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.6  Acting on acid anhydrides
+               3.6.1  In phosphorus-containing anhydrides
+                3.6.1.31
+                 R04035  1-(5-Phospho-D-ribosyl)-ATP + H2O <=> Phosphoribosyl-AMP + Diphosphate
+ORTHOLOGY   K01523  phosphoribosyl-ATP pyrophosphohydrolase [EC:3.6.1.31]
+            K11755  phosphoribosyl-AMP cyclohydrolase / phosphoribosyl-ATP pyrophosphohydrolase [EC:3.5.4.19 3.6.1.31]
+            K14152  phosphoribosyl-ATP pyrophosphohydrolase / phosphoribosyl-AMP cyclohydrolase / histidinol dehydrogenase [EC:3.6.1.31 3.5.4.19 1.1.1.23]
+DBLINKS     RHEA: 22831
+///

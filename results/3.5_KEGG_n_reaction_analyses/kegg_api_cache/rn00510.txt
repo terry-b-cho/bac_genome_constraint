@@ -1,0 +1,128 @@
+ENTRY       rn00510                     Pathway
+NAME        N-Glycan biosynthesis
+DESCRIPTION N-glycans or asparagine-linked glycans are major constituents of glycoproteins in eukaryotes. N-glycans are covalently attached to asparagine with the consensus sequence of Asn-X-Ser/Thr by an N-glycosidic bond, GlcNAc b1- Asn. Biosynthesis of N-glycans begins on the cytoplasmic face of the ER membrane with the transferase reaction of UDP-GlcNAc and the lipid-like precursor P-Dol (dolichol phosphate) to generate GlcNAc a1- PP-Dol. After sequential addition of monosaccharides by ALG glycosyltransferases [MD:M00055], the N-glycan precursor is attached by the OST (oligosaccharyltransferase) complex to the polypeptide chain that is being synthesized and translocated through the ER membrane. The protein-bound N-glycan precursor is subsequently trimmed, extended, and modified in the ER and Golgi by a complex series of reactions catalyzed by membrane-bound glycosidases and glycosyltransferases. N-glycans thus synthesized are classified into three types: high-mannose type, complex type, and hybrid type. Defects in N-glycan biosynthesis lead to a variety of human diseases known as congenital disorders of glycosylation [DS:H00118 H00119].
+CLASS       Metabolism; Glycan biosynthesis and metabolism
+PATHWAY_MAP rn00510  N-Glycan biosynthesis
+MODULE      M00055  N-glycan precursor biosynthesis [PATH:rn00510]
+            M00072  N-glycosylation by oligosaccharyltransferase [PATH:rn00510]
+            M00073  N-glycan precursor trimming [PATH:rn00510]
+            M00074  N-glycan biosynthesis, high-mannose type [PATH:rn00510]
+            M00075  N-glycan biosynthesis, complex type [PATH:rn00510]
+DBLINKS     GO: 0006487
+REACTION    R01003  dolichyl-phosphate phosphohydrolase
+            R01004  dolichyl-diphosphate phosphohydrolase
+            R01005  UDPglucose:dolichyl-phosphate beta-D-glucosyltransferase
+            R01006  dolichyl-beta-D-glucosyl-phosphate dolichylphosphohydrolase
+            R01009  GDPmannose:dolichyl-phosphate O-beta-D-mannosyltransferase
+            R01018  CTP:dolichol O-phosphotransferase
+            R05969  UDP-N-acetyl-D-glucosamine:dolichyl-phosphate N-acetyl-D-glucosamine phosphotransferase
+            R05970  
+            R05972  
+            R05973  
+            R05976  
+            R05979  
+            R05980  Glc2Man9GlcNAc2-[protein] 3-alpha-glucohydrolase (configuration-inverting)
+            R05981  GlcMan9GlcNAc2-[protein] 3-alpha-glucohydrolase (configuration-inverting)
+            R05983  
+            R05984  
+            R05985  
+            R05986  
+            R05987  
+            R05988  
+            R05989  UDP-galactose:N-acetyl-beta-D-glucosaminylglycopeptide beta-1,4-galactosyltransferase
+            R05990  CMP-N-acetylneuraminate:beta-D-galactosyl 1,4-N-acetyl-beta-D-glucosamine alpha 2,6-N-acetylneuraminyltransferase
+            R05991  
+            R05992  
+            R06127  GDP-mannose:glycolipid 1,2-alpha-D-mannosyltransferase
+            R06128  GDP-mannose:glycolipid 1,2-alpha-D-mannosyltransferase
+            R06238  GDP-D-mannose:D-Man-alpha-(1->3)-D-Man-beta-(1->4)-D-GlcNAc-beta-(1->4)-D-GlcNAc-diphosphodolichol alpha-6-mannosyltransferase
+            R06258  
+            R06259  
+            R06260  
+            R06261  
+            R06262  dolichyl beta-D-glucosyl phosphate:D-Man-alpha-(1->2)-D-Man-alpha-(1->2)-D-Man-alpha-(1->3)-[D-Man-alpha-(1->2)-D-Man-alpha-(1->3)-[D-Man-alpha-(1->2)-D-Man-alpha-(1->6)]-D-Man-alpha-(1->6)]-D-Man-beta-(1->4)-D-GlcNAc-beta-(1->4)-D-GlcNAc-diphosphodolichol alpha-1,3-glucosyltransferase
+            R06263  dolichyl beta-D-glucosyl phosphate:D-Glc-alpha-(1->3)-D-Man-alpha-(1->2)-D-Man-alpha-(1->2)-D-Man-alpha-(1->3)-[D-Man-alpha-(1->2)-D-Man-alpha-(1->3)-[D-Man-alpha-(1->2)-D-Man-alpha-(1->6)]-D-Man-alpha-(1->6)]-D-Man-beta-(1->4)-D-GlcNAc-beta-(1->4)-D-GlcNAc-diphosphodolichol alpha-1,3-glucosyltransferase
+            R06264  dolichyl beta-D-glucosyl phosphate:D-Glc-alpha-(1->3)-D-Glc-alpha-(1->3)-D-Man-alpha-(1->2)-D-Man-alpha-(1->2)-D-Man-alpha-(1->3)-[D-Man-alpha-(1->2)-D-Man-alpha-(1->3)-[D-Man-alpha-(1->2)-D-Man-alpha-(1->6)]-D-Man-alpha-(1->6)]-D-Man-beta-(1->4)-D-GlcNAc-beta-(1->4)-D-GlcNAc-diphosphodolichol alpha-1,2-glucosyltransferase
+            R06722  alpha 1,2-mannosyloligosaccharide alpha-D-mannohydrolase
+            R12479  
+            R13402  ditrans,polycis-polyprenol:NAD+ oxidoreductase
+            R13403  dolichol:NADP+ oxidoreductase
+            R13444  dolichal:NADP+ 2,3-oxidoreductase
+COMPOUND    C00096  GDP-mannose
+            C00110  Dolichyl phosphate
+            C00381  Dolichol
+            C00621  Dolichyl diphosphate
+            C01246  Dolichyl beta-D-glucosyl phosphate
+            C03021  Protein asparagine
+            C03862  Dolichyl phosphate D-mannose
+            C06081  Polyprenol
+            C22974  ditrans,polycis-Polyprenal
+            C22975  Dolichal
+            G00001  N-Acetyl-D-glucosaminyldiphosphodolichol
+            G00002  N,N'-Chitobiosyldiphosphodolichol
+            G00003  
+            G00004  
+            G00005  
+            G00006  
+            G00007  
+            G00008  
+            G00009  
+            G00010  
+            G00011  
+            G00012  
+            G00013  
+            G00014  
+            G00015  
+            G00016  Core fucose
+            G00017  
+            G00018  DS 3
+            G00019  
+            G00020  
+            G00021  
+            G00022  
+            G00171  
+            G10526  
+            G10595  
+            G10596  
+            G10597  
+            G10598  
+            G10599  
+            G10694  
+REFERENCE   PMID:9111134
+  AUTHORS   Schutzbach JS.
+  TITLE     The role of the lipid matrix in the biosynthesis of dolichyl-linked oligosaccharides.
+  JOURNAL   Glycoconj J 14:175-82 (1997)
+            DOI:10.1023/A:1018533620002
+REFERENCE   PMID:12200473
+  AUTHORS   Oriol R, Martinez-Duncker I, Chantret I, Mollicone R, Codogno P.
+  TITLE     Common origin and evolution of glycosyltransferases using Dol-P-monosaccharides as donor substrate.
+  JOURNAL   Mol Biol Evol 19:1451-63 (2002)
+            DOI:10.1093/oxfordjournals.molbev.a004208
+REFERENCE   PMID:12684507
+  AUTHORS   Thiel C, Schwarz M, Peng J, Grzmil M, Hasilik M, Braulke T, Kohlschutter A, von Figura K, Lehle L, Korner C.
+  TITLE     A new type of congenital disorders of glycosylation (CDG-Ii) provides new insights into the early steps of dolichol-linked oligosaccharide biosynthesis.
+  JOURNAL   J Biol Chem 278:22498-505 (2003)
+            DOI:10.1074/jbc.M302850200
+REFERENCE   PMID:11278778
+  AUTHORS   Cipollo JF, Trimble RB, Chi JH, Yan Q, Dean N.
+  TITLE     The yeast ALG11 gene specifies addition of the terminal alpha 1,2-Man to the Man5GlcNAc2-PP-dolichol N-glycosylation intermediate formed on the cytosolic side of the endoplasmic reticulum.
+  JOURNAL   J Biol Chem 276:21828-40 (2001)
+            DOI:10.1074/jbc.M010896200
+REFERENCE   PMID:15987956
+  AUTHORS   Frank CG, Aebi M.
+  TITLE     ALG9 mannosyltransferase is involved in two different steps of lipid-linked oligosaccharide biosynthesis.
+  JOURNAL   Glycobiology 15:1156-63 (2005)
+            DOI:10.1093/glycob/cwj002
+REFERENCE   PMID:16878994
+  AUTHORS   O'Reilly MK, Zhang G, Imperiali B.
+  TITLE     In vitro evidence for the dual function of Alg2 and Alg11: essential mannosyltransferases in N-linked glycoprotein biosynthesis.
+  JOURNAL   Biochemistry 45:9593-603 (2006)
+            DOI:10.1021/bi060878o
+REL_PATHWAY rn00051  Fructose and mannose metabolism
+            rn00513  Various types of N-glycan biosynthesis
+            rn00515  Mannose type O-glycan biosynthesis
+            rn00520  Amino sugar and nucleotide sugar metabolism
+            rn00563  Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+            rn00900  Terpenoid backbone biosynthesis
+KO_PATHWAY  ko00510
+///

@@ -1,0 +1,17 @@
+ENTRY       R07164                      Reaction
+NAME        L-aspartate:NAD+ oxidoreductase (deaminating)
+DEFINITION  L-Aspartate + H2O + NAD+ <=> Oxaloacetate + Ammonia + NADH + H+
+EQUATION    C00049 + C00001 + C00003 <=> C00036 + C00014 + C00004 + C00080
+COMMENT     two-step reaction (see R07410+R13023)
+RCLASS      RC00001  C00003_C00004
+            RC00006  C00036_C00049
+            RC02799  C00014_C00049
+ENZYME      1.4.1.21
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.1  With NAD+ or NADP+ as acceptor
+                1.4.1.21
+                 R07164  L-Aspartate + H2O + NAD+ <=> Oxaloacetate + Ammonia + NADH + H+
+DBLINKS     RHEA: 11791
+///

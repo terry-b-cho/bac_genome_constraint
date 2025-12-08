@@ -1,0 +1,19 @@
+ENTRY       R00293                      Reaction
+NAME        UDP-glucose 4,6-hydro-lyase (UDP-4-dehydro-6-deoxy-D-glucose-forming)
+DEFINITION  UDP-glucose <=> UDP-4-dehydro-6-deoxy-D-glucose + H2O
+EQUATION    C00029 <=> C04089 + C00001
+RCLASS      RC00402  C00029_C04089
+ENZYME      4.2.1.76
+PATHWAY     rn00541  Biosynthesis of various nucleotide sugars
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M01021  UDP-L-Rha biosynthesis, UDP-Glc => UDP-L-Rha
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.2  Carbon-oxygen lyases
+               4.2.1  Hydro-lyases
+                4.2.1.76
+                 R00293  UDP-glucose <=> UDP-4-dehydro-6-deoxy-D-glucose + H2O
+ORTHOLOGY   K12450  UDP-glucose 4,6-dehydratase [EC:4.2.1.76]
+DBLINKS     RHEA: 21503
+///

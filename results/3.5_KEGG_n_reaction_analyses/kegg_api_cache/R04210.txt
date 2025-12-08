@@ -1,0 +1,20 @@
+ENTRY       R04210                      Reaction
+NAME        4-phospho-D-erythronate:NAD+ 2-oxidoreductase
+DEFINITION  4-Phospho-D-erythronate + NAD+ <=> 2-Oxo-3-hydroxy-4-phosphobutanoate + NADH + H+
+EQUATION    C03393 + C00003 <=> C06054 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00084  C03393_C06054
+ENZYME      1.1.1.290
+PATHWAY     rn00750  Vitamin B6 metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00124  Pyridoxal phosphate biosynthesis, erythrose-4P => pyridoxal-P
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.290
+                 R04210  4-Phospho-D-erythronate + NAD+ <=> 2-Oxo-3-hydroxy-4-phosphobutanoate + NADH + H+
+ORTHOLOGY   K03473  erythronate-4-phosphate dehydrogenase [EC:1.1.1.290]
+DBLINKS     RHEA: 18832
+///

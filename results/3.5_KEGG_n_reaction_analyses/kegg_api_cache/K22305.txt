@@ -1,0 +1,353 @@
+ENTRY       K22305                      KO
+SYMBOL      psp
+NAME        phosphoserine phosphatase [EC:3.1.3.3]
+PATHWAY     map00260  Glycine, serine and threonine metabolism
+            map00680  Methane metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01120  Microbial metabolism in diverse environments
+            map01200  Carbon metabolism
+            map01230  Biosynthesis of amino acids
+MODULE      M00020  Serine biosynthesis, glycerate-3P => serine
+REACTION    R00582  O-phospho-L-serine phosphohydrolase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09102 Energy metabolism
+               00680 Methane metabolism
+                K22305  psp; phosphoserine phosphatase
+              09105 Amino acid metabolism
+               00260 Glycine, serine and threonine metabolism
+                K22305  psp; phosphoserine phosphatase
+            Enzymes [BR:ko01000]
+             3. Hydrolases
+              3.1  Acting on ester bonds
+               3.1.3  Phosphoric-monoester hydrolases
+                3.1.3.3  phosphoserine phosphatase
+                 K22305  psp; phosphoserine phosphatase
+DBLINKS     COG: COG0406
+            GO: 0036424
+GENES       SYOU: RGE70_08570
+            MEEF: JWZ97_02190
+            MEEP: JWZ98_09465
+            HTN: KI616_08670
+            PMOB: HG718_06840
+            RBS: RHODOSMS8_01023(cobC)
+            RHIA: ACO34A_05020
+            RLAC: QMO75_11145
+            PPSO: QPJ95_17665
+            HBC: AEM38_01920
+            SPRR: OIM94_02655
+            SKT: IGS68_26085
+            AALU: ABWI00_17210
+            HMZ: WCX87_10615
+            HSJ: WCY03_10740
+            SOLI: ACP59X_22995
+            DAO: Desac_2759
+            MZL: GKS04_00590
+            MLAN: JY572_21640
+            MFAE: VZP55_05625
+            TACI: TDSAC_0512
+            MEAP: MTHMO_1806(phoE)
+            BREM: PSR63_06470
+            AMOB: HG15A2_39010(pspA_2)
+            BMEI: Spa11_29300(pspA_1)
+            GFM: Enr17x_37270(pspA_2)
+            GAW: V144x_23630(pspA_1)
+            MRI: Mal4_58850(pspA_2)
+            SDYN: Mal52_22070(pspA_1)
+            PLON: Pla110_29600(pspA_1)
+            ACAF: CA12_30720(pspA_1)
+            SVP: Pan189_14120(pspA_1)
+            CHYA: V22_17810(pspA_2)
+            PVAR: SH412_001593
+            KNV: Pan216_44450(pspA_1) Pan216_56470(pspA_2)
+            SFC: Spiaf_2755
+            SCD: Spica_2591
+            TGI: RBB81_07550
+            TEMP: RBB75_04645
+            TPSC: RBB77_06050
+            THYD: TTHT_0047(gpmB)
+            MSIL: METEAL_00540
+            BFH: F1611_18850
+            NIJ: ABDK00_000405
+            FBU: UJ101_01350
+            AAE: aq_1744(gpmA) aq_1990(pgmA)
+            HYA: HY04AAS1_0968 HY04AAS1_1617
+            HHO: HydHO_0962 HydHO_1594
+            HYS: HydSN_0986 HydSN_1638
+            HTH: HTH_0103(pgmA) HTH_0183
+            HTE: Hydth_0104 Hydth_0184
+            TAL: Thal_0107 Thal_0879
+            TRD: THERU_01060 THERU_06360
+            PDIZ: IAE16_02665 IAE16_06360
+            PFLO: G3M65_04105 G3M65_06190
+            SUL: SYO3AOP1_0114 SYO3AOP1_1503
+            SAF: SULAZ_0230 SULAZ_0587
+            PMX: PERMA_0343 PERMA_1158
+            TAM: Theam_1342
+            DTE: Dester_0258
+            TTK: TST_0280
+            TVX: QBE54_10535(cobC)
+            ATHO: M15_00110(cobC)
+            BACN: GNK04_02190 GNK04_21090
+            PERI: RE409_27050
+            PERJ: JNUCC41_08450
+            MHRF: QLQ22_12580
+            BBAM: RJD24_05990
+            BHUI: LOK74_09210
+            BBOR: RFB14_07180 RFB14_19915
+            BREH: HP435_06310
+            BREP: M655_008215
+            BGEL: AAFJ72_15500
+            PWN: QNH46_07290
+            PPOG: QPK24_06340
+            PPAB: KET34_07835
+            PEZZ: HW560_31095
+            PTUN: V6W81_06905
+            PTAC: ACJYJG_07565
+            ANEU: PP175_22130
+            FFE: LSG31_18310
+            PSHE: QWY16_15605
+            ALOY: CJ190_001400
+            CAY: CEA_G3027
+            CBE: Cbei_1719
+            CBZ: Cbs_1719
+            CBEI: LF65_01860
+            CSR: Cspa_c27790(pspA)
+            CPAS: Clopa_2035
+            CPAT: CLPA_c25090(pspA)
+            CPAE: CPAST_c25090(pspA)
+            CSB: CLSA_c23660(pspA)
+            CACE: CACET_c19520
+            CBUT: ATN24_11140
+            CTYK: CTK_C28230
+            CEU: A7L45_10550
+            CFM: BJL90_16140
+            CDY: F3K33_08505
+            CFER: D4Z93_10270
+            CAUN: CLAUR_036740(pspA_2)
+            CNN: CNEO_2353
+            CGEL: psyc5s11_28930
+            CLOD: C820_001599(pspA)
+            CLOL: ONV75_10470
+            CLOM: AXY43_23225
+            CALE: FDN13_02295
+            CRS: FQB35_07235
+            CPRF: K7H06_08205
+            CRAS: KVH43_11965
+            SARJ: HH195_04530
+            CTH: Cthe_0707
+            CTX: Clo1313_1517
+            CCL: Clocl_1853
+            FDU: GXM22_02240
+            FTK: PXT33_001535
+            FAH: MTP37_00930
+            OKO: Ruko_30700
+            DSY: DSY1834
+            DHD: Dhaf_2989
+            DDH: Desde_2455
+            DDL: Desdi_2064
+            DMT: DESME_06570
+            DOR: Desor_3349
+            DAI: Desaci_3078
+            DMI: Desmer_2612
+            DCA: Desca_1441
+            PTH: PTH_1315(GpmB)
+            DRM: Dred_1908
+            DRU: Desru_1955
+            DFG: B0537_09440
+            DAE: Dtox_3088
+            DKU: Desku_0011 Desku_2365
+            TFR: BR63_04670(cobC)
+            PHOS: ABFY19_06800(cobC)
+            TJR: TherJR_1313
+            DGI: Desgi_1897
+            HMO: HM1_2405(phoE)
+            AMAJ: ACIUZZ_09115 ACIUZZ_12275(cobC)
+            ACAE: HYG86_15815
+            TCP: Q5761_05380
+            CTHM: CFE_1382 CFE_2185
+            PROM: QO263_12410
+            RFC: ACIRUI_13110
+            ANR: Ana3638_00505
+            ACEL: acsn021_36390
+            CPRO: CPRO_25420(pspA)
+            ANV: RBQ60_02735
+            AMT: Amet_2630
+            AOE: Clos_1567
+            GFE: Gferi_00045 Gferi_27320
+            PBIF: KXZ80_07985
+            PSOR: RSJ16_09645
+            CDF: CD630_18140
+            PDC: CDIF630_02014
+            CDC: CD196_1734
+            CDL: CDR20291_1709
+            PDF: CD630DERM_18140
+            ROC: HF520_05650
+            RIL: CRIB_1223
+            RHOM: FRIFI_1354
+            PHX: KGNDJEFE_01310(pspA_1)
+            TEM: JW646_18815
+            TGC: L0P85_09540
+            TMY: TEMA_10530(pspA_1)
+            TPET: TPHSE_11710(pspA_2) TPHSE_21220(pspA_4)
+            TVT: TVTCOM_21150(pspA_3)
+            TEB: T8CH_1902
+            THYR: P4S50_08300 P4S50_08675
+            IBR: NQ514_08025
+            PEB: O0R46_04475
+            PANB: M1L67_04310 M1L67_06500
+            EAC: EAL2_c13790(gpmB)
+            DAU: Daud_1067
+            TTE: TTE1346(GpmB)
+            TEX: Teth514_1600
+            THX: Thet_1300
+            TPD: Teth39_1163
+            TIT: Thit_1141
+            TMT: Tmath_1194
+            TBO: Thebr_1192
+            TWI: Thewi_1301
+            TKI: TKV_c12640(pspA)
+            THEZ: OEI98_001353
+            ADG: Adeg_1465
+            TPZ: Tph_c11710(gpmB) Tph_c26380
+            GEK: kuro4_09060(pgmA)
+            TTM: Tthe_1357
+            TTO: Thethe_01322
+            TXY: Thexy_1233
+            TSH: Tsac_1880
+            AAUT: ACETAC_05525
+            MTA: Moth_1105
+            MTHO: MOTHE_c10650(pspA)
+            MTHZ: MOTHA_c11540(pspA)
+            NCJ: MCACP_12760(pspA)
+            DBC: MFMK1_002854(cobC)
+            BACG: D2962_09930(cobC)
+            NCD: ACONDI_02764(pspA)
+            KME: H0A61_02415(pspA_2)
+            CAD: Curi_c14320(gpm)
+            SPOA: EQM13_09025
+            KPAR: JL105_04965
+            CAZO: G3A45_01230
+            TIZ: RBU61_07455
+            SPOK: ACFWUA_10350
+            SEDM: RBQ61_07290
+            VDN: NCTC11831_01035(cobC)
+            VNK: VEIT17_09180
+            VOR: VEIS_06600
+            MED: MELS_0905
+            MHW: ACT01_01570
+            MEG: DKB62_08695
+            MMAX: LCQ47_09870
+            DHO: Dia5BBH33_12800
+            DIU: ACFWUL_00945 ACFWUL_05190
+            STIM: H1B31_09550
+            SELM: TAMA11512_14810(cobC)
+            PUF: UFO1_2206
+            STED: SPTER_43030(pspA_2)
+            SSPH: SPSPH_016240(pspA_1) SPSPH_042190(pspA_2)
+            SOVA: SOV_16430(pspA)
+            SSID: SPSIL_021320(pspA_1) SPSIL_052950(pspA_2)
+            SACV: SPACI_021000(pspA_1) SPACI_053710(pspA_2)
+            SCAO: SCACP_15030(pspA)
+            SGBI: P3F81_06300(cobC)
+            AIN: Acin_1190(gpm)
+            FCZ: IMF26_03705
+            CSC: Csac_1886
+            ATE: Athe_1322
+            COB: COB47_1235
+            CHD: Calhy_1404
+            COW: Calow_1113
+            CKI: Calkr_1309
+            CLC: Calla_0710
+            CKN: Calkro_1379
+            CCHA: ELD05_06865
+            CDIA: CaldiYA01_11840
+            CNAG: OTJ99_001407
+            CMOR: OTK00_001306
+            CDAN: SOJ16_001279
+            MYW: BVC93_02595
+            WHR: OG579_09660
+            GOS: QAD21_22890
+            GOJ: GR168_21975
+            GHN: MVF96_22940
+            MICK: B1A86_00005035
+            MLY: CJ228_002885
+            MPOR: KW076_09090
+            CXIE: NP048_02050
+            JAI: V1351_05365
+            JTR: V3C34_08210
+            DSS: GCM25873_03450
+            MICG: GJV80_06665
+            KRI: OX958_02880
+            AWS: ACN3XK_27840
+            BBRG: U6N30_01340
+            BMON: ABDB74_02325
+            PARN: NBH00_00540
+            PARQ: DSM112329_00115(pspA_1) DSM112329_00141(pspA_2)
+            DLF: V8247_08175
+            RRS: RoseRS_1699
+            RCA: Rcas_2324
+            CAU: Caur_0633
+            CHL: Chy400_0683
+            CAG: Cagg_3375
+            HAU: Haur_2470
+            CALL: OZ401_002366
+            KBB: ccbrp13_22760 ccbrp13_64020
+            TFLA: O0235_03915 O0235_08900
+            DMB: E5F05_20775
+            DSC: ABOD76_02405
+            TAI: Taci_0911
+            CPOR: BED41_07805
+            AMIZ: RBH88_02285(cobC) RBH88_02630
+            SBR: SY1_15330
+            TLI: Tlie_1354
+            AMO: Anamo_2077
+            PPIO: CE91St28_13020
+            PYY: RAH42_05625
+            ARAM: KAR29_04545 KAR29_06245
+            APRP: KIH16_03075 KIH16_04685 KIH16_09555
+            TMA: TM1374
+            TMM: Tmari_1381
+            TMI: THEMA_07465
+            TMW: THMA_1400
+            TMQ: THMB_1400
+            TMX: THMC_1400
+            TPT: Tpet_1409
+            TNP: Tnap_1429
+            TRQ: TRQ2_1455
+            TNA: CTN_1217
+            THQ: T2812B_07270
+            THZ: CELL2_07345
+            THR: TRQ7_07585
+            TLE: Tlet_0963
+            TTA: Theth_1879
+            PHY: AJ81_02285
+            FNO: Fnod_0369
+            FPE: Ferpe_0167
+            FIA: NA23_00945
+            FRR: IB67_04315
+            FNG: JM64_01440
+            FGW: QO060_01260
+            FTHL: U0O82_09520
+            OCY: OSSY52_16330
+            PMO: Pmob_0045
+            MPZ: Marpi_1065
+            MAEO: JRV97_03205
+            DTN: DTL3_0933
+            KOL: Kole_1931
+            KPF: IX53_08590
+            MPG: Theba_0649
+            MINF: MESINF_0380
+            SRG: XF24_00723(pspB)
+            FSH: Q2T83_09050 Q2T83_15945
+            NBN: HYY55_01025
+            FBN: HY931_03815
+            LOB: NEF87_003766
+REFERENCE   PMID:22337887
+  AUTHORS   Chiba Y, Oshima K, Arai H, Ishii M, Igarashi Y
+  TITLE     Discovery and analysis of cofactor-dependent phosphoglycerate mutase homologs as novel phosphoserine phosphatases in Hydrogenobacter thermophilus.
+  JOURNAL   J Biol Chem 287:11934-41 (2012)
+            DOI:10.1074/jbc.M111.330621
+  SEQUENCE  [hth:HTH_0103 HTH_0183]
+///

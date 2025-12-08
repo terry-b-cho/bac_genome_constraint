@@ -1,0 +1,19 @@
+ENTRY       R02055                      Reaction
+NAME        phsophatidyl-L-serine carboxy-lyase
+DEFINITION  Phosphatidylserine <=> Phosphatidylethanolamine + CO2
+EQUATION    C02737 <=> C00350 + C00011
+RCLASS      RC00299  C00350_C02737
+ENZYME      4.1.1.65
+PATHWAY     rn00564  Glycerophospholipid metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00093  Phosphatidylethanolamine (PE) biosynthesis, PA => PS => PE
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.1  Carboxy-lyases
+                4.1.1.65
+                 R02055  Phosphatidylserine <=> Phosphatidylethanolamine + CO2
+ORTHOLOGY   K01613  phosphatidylserine decarboxylase [EC:4.1.1.65]
+DBLINKS     RHEA: 20831
+///

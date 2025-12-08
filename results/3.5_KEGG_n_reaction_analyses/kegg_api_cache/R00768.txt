@@ -1,0 +1,26 @@
+ENTRY       R00768                      Reaction
+NAME        L-glutamine:D-fructose-6-phosphate isomerase (deaminating);
+            L-glutamine:D-fructose-6-phosphate aminotransferase (hexose isomerizing)
+DEFINITION  L-Glutamine + D-Fructose 6-phosphate <=> L-Glutamate + D-Glucosamine 6-phosphate
+EQUATION    C00064 + C00085 <=> C00025 + C00352
+RCLASS      RC00010  C00025_C00064
+            RC00163  C00085_C00352
+            RC02752  C00064_C00352
+ENZYME      2.6.1.16
+PATHWAY     rn00250  Alanine, aspartate and glutamate metabolism
+            rn00520  Amino sugar and nucleotide sugar metabolism
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M00892  UDP-GlcNAc biosynthesis, eukaryotes, Fru-6P => UDP-GlcNAc
+            M00909  UDP-GlcNAc biosynthesis, prokaryotes, Fru-6P => UDP-GlcNAc
+            M00995  UDP-MurNAc biosynthesis, Fru-6P => UDP-MurNAc
+            M01002  UDP-GalNAc biosynthesis, Fru-6P => UDP-GalNAc
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.6  Transferring nitrogenous groups
+               2.6.1  Transaminases
+                2.6.1.16
+                 R00768  L-Glutamine + D-Fructose 6-phosphate <=> L-Glutamate + D-Glucosamine 6-phosphate
+ORTHOLOGY   K00820  glutamine---fructose-6-phosphate transaminase (isomerizing) [EC:2.6.1.16]
+DBLINKS     RHEA: 13240
+///

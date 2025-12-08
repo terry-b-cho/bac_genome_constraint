@@ -1,0 +1,18 @@
+ENTRY       map00670                    Pathway
+NAME        One carbon pool by folate
+CLASS       Metabolism; Metabolism of cofactors and vitamins
+PATHWAY_MAP map00670  One carbon pool by folate
+MODULE      M00035  Methionine degradation [PATH:map00670]
+            M00126  Tetrahydrofolate biosynthesis, GTP => THF [PATH:map00670]
+            M00140  C1-unit interconversion, prokaryotes [PATH:map00670]
+            M00141  C1-unit interconversion, eukaryotes [PATH:map00670]
+            M00338  Cysteine biosynthesis, homocysteine + serine => cysteine [PATH:map00670]
+            M00555  Betaine biosynthesis, choline => betaine [PATH:map00670]
+            M00621  Glycine cleavage system [PATH:map00670]
+            M00974  Betaine metabolism, animals, betaine => glycine [PATH:map00670]
+DBLINKS     GO: 0035999
+REL_PATHWAY map00260  Glycine, serine and threonine metabolism
+            map00270  Cysteine and methionine metabolism
+            map00790  Folate biosynthesis
+KO_PATHWAY  ko00670
+///

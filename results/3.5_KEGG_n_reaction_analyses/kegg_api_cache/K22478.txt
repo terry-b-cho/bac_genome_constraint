@@ -1,0 +1,230 @@
+ENTRY       K22478                      KO
+SYMBOL      K22478
+NAME        bifunctional N-acetylglutamate synthase/kinase [EC:2.3.1.1 2.7.2.8]
+PATHWAY     map00220  Arginine biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01210  2-Oxocarboxylic acid metabolism
+            map01230  Biosynthesis of amino acids
+MODULE      M00028  Ornithine biosynthesis, glutamate => ornithine
+            M00845  Arginine biosynthesis, glutamate => acetylcitrulline => arginine
+REACTION    R00259  acetyl-CoA:L-glutamate N-acetyltransferase
+            R02649  ATP:N-acetyl-L-glutamate 5-phosphotransferase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09105 Amino acid metabolism
+               00220 Arginine biosynthesis
+                K22478  K22478; bifunctional N-acetylglutamate synthase/kinase
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.1  amino-acid N-acetyltransferase
+                 K22478  K22478; bifunctional N-acetylglutamate synthase/kinase
+              2.7  Transferring phosphorus-containing groups
+               2.7.2  Phosphotransferases with a carboxy group as acceptor
+                2.7.2.8  acetylglutamate kinase
+                 K22478  K22478; bifunctional N-acetylglutamate synthase/kinase
+DBLINKS     COG: COG5630 COG0548
+            GO: 0004042 0003991
+GENES       XFA: XF_1001
+            XFT: PD_0293(argB)
+            XFM: Xfasm12_0317
+            XFN: XfasM23_0287
+            XFF: XFLM_06840
+            XFL: P303_00900
+            XFS: D934_02535
+            XFH: XFHB_10435
+            XTW: AB672_01695
+            XCC: XCC2245(argB)
+            XCB: XC_1873
+            XCA: xcc-b100_1934
+            XCP: XCR_2514(argB)
+            XCV: XCV2547(argB)
+            XAX: XACM_2357(argB)
+            XAC: XAC2348(argB)
+            XCI: XCAW_02013(argB)
+            XCT: J151_02521
+            XCJ: J158_02511
+            XCU: J159_02509
+            XCN: J169_02518
+            XCW: J162_02510
+            XCR: J163_02505
+            XCM: J164_02507
+            XCF: J172_02512
+            XFU: XFF4834R_chr23530(argB)
+            XAO: XAC29_11900
+            XOM: XOO2518(XOO2518)
+            XOO: XOO2672(argB)
+            XOP: PXO_00349
+            XOY: AZ54_10780
+            XOR: XOC_2747(argB)
+            XOZ: BE73_13300
+            XAL: XALC_1892(argB)
+            XSA: SB85_18570
+            XTN: FD63_07495
+            XGM: KFS84_08000
+            XCS: KHA79_12305
+            XFR: BER92_11875
+            XVE: BJD12_02800
+            XPE: BJD13_04660
+            XHR: XJ27_05345
+            XGA: BI317_11415
+            XPH: XppCFBP6546_01275(XppCFBP6546P_01275)
+            XVA: C7V42_10405
+            XAN: AC801_12080
+            XAR: XB05_06820
+            XHY: FZ025_17125
+            XCZ: EBN15_10565
+            XTH: G4Q83_12315
+            XEU: XSP_002364
+            XHD: LMG31886_19260(argB)
+            XPR: MUG10_19805
+            XAG: HEP73_02669(argB)
+            XDY: NYR95_12740
+            XAS: HEP74_02503(argB)
+            XHA: PG878_12920
+            XRY: QN244_12845
+            XSO: RAB70_15950
+            XIN: Q7W82_11080
+            XAI: HEP75_01939(argB)
+            XAZ: XSP_002273
+            XTS: AB3X08_13435
+            XMD: AB3X07_13490
+            XBN: AB3X10_14045
+            XAF: NUG20_08800
+            XAB: NUG21_12490
+            SML: Smlt3299
+            SMT: Smal_2726
+            BUJ: BurJV3_2742
+            SMZ: SMD_2871
+            SFOE: K5L94_15265
+            SPAQ: STNY_R29140
+            SACZ: AOT14_16010
+            STEK: AXG53_02255
+            SRH: BAY15_2469
+            SLM: BIZ42_03275
+            STEN: CCR98_14155
+            STEM: CLM74_14455
+            STES: MG068_14115
+            SINC: DAIF1_28300(argB)
+            STEQ: ICJ04_06500
+            SGEN: RKE57_14260
+            SOU: PDM29_00060
+            SARC: PDM28_12600
+            SCYC: AB1723_08265
+            STEJ: FQS62_015260
+            STEO: PEM_16025
+            STEZ: ACEPA4_13480
+            SLAB: AB9L18_06820
+            PSU: Psesu_1229
+            PSUW: WQ53_01245
+            PSD: DSC_08085
+            PMEX: H4W19_02445
+            PJP: LAG73_09580
+            PDD: MNQ95_00255
+            PWI: MWN52_11095
+            PSSE: OY559_08095
+            PKQ: ACEJ41_05270
+            LAB: LA76x_3273(argB)
+            LAQ: GLA29479_4810(argB)
+            LCP: LC55x_3306(argB)
+            LGU: LG3211_1890(argB)
+            LEZ: GLE_1839(argB)
+            LEM: LEN_3145(argB)
+            LYT: DWG18_08135
+            LSOL: GOY17_12155
+            LAUX: LA521A_23540
+            LYA: RDV84_22880
+            LSY: H8L67_04100
+            LARE: HIV01_002505
+            LHX: LYSHEL_01230(argB)
+            LYW: H2514_08760
+            LCAS: LYSCAS_01230(argB)
+            LCIC: INQ41_05295
+            LAVI: INQ42_05065
+            LLZ: LYB30171_01057(argB)
+            LYJ: FKV23_10170
+            LMB: C9I47_1929
+            LSF: I8J32_015140
+            LSX: H8B22_13460
+            LUE: DCD74_05330
+            LUM: CNR27_08015
+            LUS: E5843_08610
+            LUG: FPZ22_11940
+            LFX: LU699_15745
+            LUJ: BGP89_10885
+            THES: FHQ07_02580
+            THEH: G7079_09300
+            TCN: H9L16_14830
+            TBV: H9L17_14640
+            THEX: ICG51_002538
+            XBC: ELE36_07730
+            FAU: Fraau_2109
+            FSG: LQ771_08910
+            FED: LQ772_05340
+            RHD: R2APBS1_1208
+            RGL: CS053_06200
+            RTH: LRK53_07555
+            DJI: CH75_03555
+            DJA: HY57_09550
+            DTX: ATSB10_16330
+            DYE: EO087_06245
+            DCS: ISN74_04890
+            DTL: H8F01_16040
+            DTA: DYST_01676
+            DYG: DYGSA30_21350(argB)
+            DKY: ACN9MB_06540
+            DKO: I596_2173
+            LRZ: BJI69_00680
+            LPY: FIV34_14300
+            LANH: KR767_14460
+            LFL: IM816_11940
+            LAEG: L2Y94_07545
+            LAEO: L2Y97_15450
+            LAES: L2Y96_15265
+            XBA: C7S18_05970
+            RBD: ALSL_1200
+            TAMN: N4264_10090
+            WMA: WM2015_187
+            WEZ: IC757_00610
+            KKO: Kkor_0546
+            KGE: TQ33_1834
+            KSD: KS2013_1898
+            KAM: SR900_11895
+            MMR: Mmar10_0365
+            GAK: X907_2457
+            GABY: AB6B38_08875
+            HYT: HXX25_09460
+            OAX: ABWI01_06285
+            APOP: AB6B39_12380
+            AZL: AZL_c01370(argC)
+            PBR: PB2503_11059
+            HFL: PUV54_02830
+            HFO: ABFZ83_08730
+            SCL: sce0073(argB1)
+            SCU: SCE1572_00425
+            SORG: NQZ70_00092(argB_1)
+            CCRO: CMC5_043080(argB)
+            MRM: A7982_00314
+            LLU: AKJ09_05862
+            NANN: O0S08_24910
+            VBS: EGM51_13620
+            VBL: L21SP4_01774
+            LBJ: LBJ_1017
+            LBL: LBL_2017
+            LBI: LEPBI_I1793
+            LBF: LBF_1740
+            LKM: EFP84_03945
+            GMT: V3331_06255
+            BSED: DN745_16940
+            PCAY: FRD00_19435
+            BBAE: FRD01_16240
+            PRF: PeribacterA2_0565
+REFERENCE   PMID:17425781
+  AUTHORS   Qu Q, Morizono H, Shi D, Tuchman M, Caldovic L
+  TITLE     A novel bifunctional N-acetylglutamate synthase-kinase from Xanthomonas campestris that is closely related to mammalian N-acetylglutamate synthase.
+  JOURNAL   BMC Biochem 8:4 (2007)
+            DOI:10.1186/1471-2091-8-4
+  SEQUENCE  [xcc:XCC2245]
+///

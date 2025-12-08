@@ -1,0 +1,414 @@
+ENTRY       K25995                      KO
+SYMBOL      frdB, fdrB
+NAME        succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1 7.1.1.12]
+PATHWAY     map00020  Citrate cycle (TCA cycle)
+            map00190  Oxidative phosphorylation
+            map00620  Pyruvate metabolism
+            map00650  Butanoate metabolism
+            map00720  Other carbon fixation pathways
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01120  Microbial metabolism in diverse environments
+REACTION    R02164  succinate:quinone oxidoreductase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09101 Carbohydrate metabolism
+               00020 Citrate cycle (TCA cycle)
+                K25995  frdB, fdrB; succinate dehydrogenase iron-sulfur subunit
+               00620 Pyruvate metabolism
+                K25995  frdB, fdrB; succinate dehydrogenase iron-sulfur subunit
+               00650 Butanoate metabolism
+                K25995  frdB, fdrB; succinate dehydrogenase iron-sulfur subunit
+              09102 Energy metabolism
+               00190 Oxidative phosphorylation
+                K25995  frdB, fdrB; succinate dehydrogenase iron-sulfur subunit
+               00720 Other carbon fixation pathways
+                K25995  frdB, fdrB; succinate dehydrogenase iron-sulfur subunit
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.3  Acting on the CH-CH group of donors
+               1.3.5  With a quinone or related compound as acceptor
+                1.3.5.1  succinate dehydrogenase
+                 K25995  frdB, fdrB; succinate dehydrogenase iron-sulfur subunit
+             7. Translocases
+              7.1  Catalysing the translocation of protons
+               7.1.1  Linked to oxidoreductase reactions
+                7.1.1.12  succinate dehydrogenase (electrogenic, proton-motive force generating)
+                 K25995  frdB, fdrB; succinate dehydrogenase iron-sulfur subunit
+DBLINKS     COG: COG0479
+GENES       SLIG: GTU79_24250
+            SON: SO_0399(frdB)
+            SFR: Sfri_0458 Sfri_0678
+            SAZ: Sama_3219
+            SBL: Sbal_3751 Sbal_3934
+            SBM: Shew185_0614 Shew185_3959
+            SBN: Sbal195_0641 Sbal195_4075
+            SBP: Sbal223_0636 Sbal223_3882
+            SBT: Sbal678_0657 Sbal678_4108
+            SBS: Sbal117_3905 Sbal117_4093
+            SBB: Sbal175_0472 Sbal175_0702
+            SLO: Shew_0335
+            SPC: Sputcn32_3438
+            SHP: Sput200_3576
+            SSE: Ssed_4113
+            SPL: Spea_0395
+            SHE: Shewmr4_0405
+            SHM: Shewmr7_3620
+            SHN: Shewana3_0404
+            SHW: Sputw3181_0501
+            SHL: Shal_3896
+            SWD: Swoo_0510
+            SWP: swp_0431
+            SHF: CEQ32_14110(frdB)
+            SJA: SJ2017_3768
+            SPSW: Sps_03073
+            SBJ: CF168_18795(frdB)
+            SMAV: CFF01_01655(frdB)
+            SHEW: CKQ84_05485(frdB) CKQ84_11225(frdB)
+            SALG: BS332_04920(frdB)
+            SLJ: EGC82_17965
+            SMAI: EXU30_13305
+            SPOL: FH971_02200
+            SBK: SHEWBE_4503(frdB)
+            SKH: STH12_03139(frdB)
+            SAES: HBH39_02120
+            SLIT: JQC75_16475
+            SDK: KHX94_06600
+            SCAA: TUM17387_34830(frdB)
+            SPSH: FM037_24975
+            SEUR: FM038_002585
+            SYK: KDN34_01935
+            SCYP: JYB88_01790
+            SAVI: JYB87_16385
+            SSEM: JYB85_01970
+            SGLA: FJ709_17495
+            SINV: K8B83_20960
+            SXM: MKD32_18935
+            SVM: KDH10_002558
+            SHEJ: MZ182_18225
+            SCHK: GII14_01655
+            SACH: K0H61_01520
+            SAEG: K0H80_01690
+            SDEO: D0436_02865
+            SMES: K0I73_01565
+            SHAO: K0H81_01750
+            SZH: K0H63_17595
+            SSPA: K0I31_01710
+            SHNS: K0J45_01730
+            SRHS: K0I63_01715
+            SPSJ: K0I62_17495
+            SMAY: K0H60_02365
+            SOG: RA178_03015 RA178_19930
+            SPSR: EGC80_03470
+            SHEA: GUY17_02550 GUY17_16805
+            SHEL: JM642_18620
+            SHEH: ABIS04_02175
+            SYOU: RGE70_16215
+            SHEM: HWQ47_03065
+            SHEP: AYJ58_04730(frdB)
+            COZ: A3Q34_01940(frdB)
+            FBL: Fbal_0458
+            FES: HER31_17880
+            MYA: MORIYA_1691(frdB)
+            TTU: TERTU_3684
+            HALC: EY643_12460
+            CVB: R0135_08260
+            TNI: TVNIR_1264(frdB_[H])
+            TTI: THITH_10595(frdB)
+            LHK: LHK_02342
+            MAER: DAI18_16035
+            SUTT: SUTMEG_18970(frdB)
+            SUTK: FG381_05405
+            SWS: I6J16_00915
+            BBAY: A4V04_04235(frdB)
+            UPL: DSM104440_00987(frdB_1)
+            DAR: Daro_1776
+            QAU: KI612_11865
+            AHV: AADV58_10715
+            TMZ: Tmz1t_1494
+            HPY: HP_0191
+            HEO: C694_00950(frdB)
+            HPJ: jhp_0177(frdB)
+            HPA: HPAG1_0185
+            HPS: HPSH_00980(frdB)
+            HHP: HPSH112_00940(frdB)
+            HHQ: HPSH169_00940(frdB)
+            HHR: HPSH417_00955(frdB)
+            HPG: HPG27_175(frdB)
+            HPP: HPP12_0192(frdB)
+            HPB: HELPY_0194(frdB)
+            HPL: HPB8_1376(frdB)
+            HPC: HPPC_00955(frdB)
+            HCA: HPPC18_00950(frdB)
+            HPM: HPSJM_01040(frdB)
+            HPE: HPELS_05830(frdB)
+            HPO: HMPREF4655_20431
+            HPI: hp908_0200
+            HPQ: hp2017_0195(frdB)
+            HPW: hp2018_0198
+            HPU: HPCU_00925(frdB)
+            HEF: HPF16_0197(frdB)
+            HPF: HPF30_1103(frdB)
+            HEQ: HPF32_0199(frdB)
+            HEX: HPF57_0209(frdB)
+            HPT: HPSAT_00940(frdB)
+            HPZ: HPKB_0199(sdhB)
+            HPV: HPV225_0205
+            HPX: HMPREF0462_0244
+            HEN: HPSNT_01135(frdB)
+            HPH: HPLT_01000(frdB)
+            HEG: HPGAM_00975(frdB)
+            HPN: HPIN_06185(frdB)
+            HEP: HPPN120_00970(frdB)
+            HEU: HPPN135_00965(frdB)
+            HES: HPSA_00960(frdB)
+            HPYS: HPSA20_0211
+            HCN: HPB14_00925(frdB)
+            HPD: KHP_0190(frdB)
+            HEY: MWE_0265(frdB)
+            HER: C695_00950(frdB)
+            HEI: C730_00950(frdB)
+            HPYA: HPAKL117_00950(frdB)
+            HPYK: HPAKL86_06035(frdB)
+            HPYO: HPOK113_0199(frdB)
+            HPYL: HPOK310_0196(frdB)
+            HPYB: HPOKI102_01250(frdB)
+            HPYC: HPOKI112_01245(frdB)
+            HPYD: HPOKI128_01050(frdB)
+            HPYE: HPOKI154_01030(frdB)
+            HPYF: HPOKI422_01245(frdB)
+            HPYG: HPOKI673_01030(frdB)
+            HPYH: HPOKI828_01030(frdB)
+            HPYJ: HPOKI898_01255(frdB)
+            HPYR: K747_09605(frdB)
+            HPYI: K750_07600(frdB)
+            HPYU: K751_06680(frdB)
+            HPYM: K749_04730(frdB)
+            HEM: K748_03150(frdB)
+            HEB: U063_0531
+            HEZ: U064_0532
+            HHE: HH_0687(frdB)
+            HAC: Hac_0376(frdB)
+            HMS: HMU13900(frdB)
+            HFE: HFELIS_14090(frdB)
+            HBI: HBZC1_01920
+            HCE: HCW_02975(frdB)
+            HCM: HCD_00310(frdB)
+            HCP: HCN_1824(frdB)
+            HCB: HCBAA847_2107(frdB)
+            HHM: BN341_9980
+            HTY: BN2458_PEG1913
+            HBL: XJ32_00490(frdB)
+            HAD: CDV25_00885(frdB)
+            HET: BBW65_00670(frdB)
+            HCL: NCTC13205_00120(frdB)
+            HWI: A0Z60_06885
+            HSH: NHP194022_14110(frdB)
+            HPUL: NCTC13154_00314(frdB)
+            HAIL: ASB7_00360(frdB)
+            HFI: NHP21005_08230(frdB)
+            HGA: NHP190012_06360(frdB)
+            HGS: NHP190003_03220(frdB)
+            HMY: V3I05_06015
+            WSU: WS0830(FRDB)
+            SULG: FJR48_07325
+            SBAL: HUE88_05145
+            SMAS: HUE87_06115
+            SAQT: GJV85_04585
+            TZH: WCX18_06085
+            CJE: Cj0410(frdB)
+            CJB: BN148_0410(frdB)
+            CJJ: CJJ81176_0434(frdB)
+            CJU: C8J_0385(frdB)
+            CJN: ICDCCJ07001_374
+            CJI: CJSA_0383(frdB)
+            CJM: CJM1_0388(frdB)
+            CJS: CJS3_0400
+            CJP: A911_01995(frdB)
+            CJEJ: N564_00393(frdB)
+            CJEU: N565_00442(frdB)
+            CJEN: N755_00443(frdB)
+            CJEI: N135_00454(frdB)
+            CJER: H730_02615(frdB)
+            CJV: MTVDSCj20_0380(frdB)
+            CJY: QZ67_00413(frdB)
+            CJQ: UC78_0396(frdB_1)
+            CJL: PJ17_01995(frdB)
+            CJW: PJ18_01995(frdB)
+            CJR: CJE0459(frdB)
+            CJD: JJD26997_1547(frdB)
+            CJZ: M635_06360(frdB)
+            CJX: BN867_03830
+            CFF: CFF8240_0414
+            CFT: CFF04554_0413(frdB)
+            CFV: CFVI03293_0412(frdB)
+            CFX: CFV97608_0415(frdB)
+            CFZ: CSG_4940
+            CAMP: CFT03427_0423(frdB)
+            CFP: CR44_02130(frdB)
+            CCV: CCV52592_2206(frdB)
+            CHA: CHAB381_0858
+            CCO: CCC13826_0424(frdB)
+            CCOC: CCON33237_1362(frdB)
+            CLA: CLA_0335(frdB)
+            CLR: UPTC16701_0336(frdB)
+            CLM: UPTC16712_0339(frdB)
+            CLQ: UPTC4110_0330(frdB)
+            CLN: UPTC3659_0352(frdB)
+            CLL: CONCH_0343(frdB)
+            CCOL: BN865_00140c
+            CCC: G157_06590(frdB)
+            CCQ: N149_0407
+            CCF: YSQ_07835(frdB)
+            CCY: YSS_01825(frdB)
+            CCOI: YSU_06835(frdB)
+            CCOF: VC76_02145(frdB)
+            CCOO: ATE51_03394(frdB)
+            CAJ: CIG1485E_0522(frdB)
+            CIS: CINS_0329(frdB)
+            CVO: CVOL_0329(frdB)
+            CPEL: CPEL_0341(frdB)
+            CAMR: CAQ16704_0341(frdB)
+            CSM: CSUB8521_0367(frdB)
+            CSF: CSUB8523_0349(frdB)
+            CGRA: CGRAC_0799(frdB)
+            CURE: CUREO_0978(frdB)
+            CHYO: CHH_0442(frdB)
+            CHV: CHELV3228_0754(frdB)
+            CSPF: CSF_0573(frdB)
+            CPIN: CPIN18020_1281(frdB)
+            CCUN: CCUN_0507(frdB)
+            CLX: CLAN_1063(frdB)
+            CAVI: CAV_0912(frdB)
+            CHW: A2J15_007550
+            CAMZ: CVIC12175_1026(frdB)
+            CAMY: CSUIS_1151(frdB)
+            COJ: CORN_0339(frdB)
+            CUX: CUP3940_1031(frdB)
+            CRX: CRECT_0618(frdB)
+            CGEO: CGEO_1122(frdB)
+            CBLA: CBLAS_1060(frdB)
+            CCOR: CCORG_0641(frdB)
+            CARM: CARM_0306(frdB)
+            CMUC: CMCT_0386(frdB)
+            CSHO: CSHOW_1471(frdB)
+            CINF: CINF_0576(frdB)
+            CNV: CNZW441b_0438(frdB)
+            CVU: CVULP_0600(frdB)
+            CDEV: CIGN_1061(frdB)
+            CCAQ: CCAL_1400(frdB)
+            CMOL: CMOL_0184(frdB)
+            SDL: Sdel_0396
+            SBA: Sulba_0441
+            SMUL: SMUL_0552(frdB)
+            SHAL: SHALO_0544
+            SULS: Sdiek1_0507
+            SULJ: SJPD1_0507
+            SULT: FA592_09565
+            SULU: SFB89_03080
+            ABU: Abu_0299(frdB)
+            ABT: ABED_0282
+            ABL: A7H1H_0301(frdB)
+            ASK: EI285_08330
+            ATP: ATR_0350(frdB)
+            ACIB: ACBT_1906(frdB)
+            ACRE: ACRYA_1669(frdB)
+            ALAN: ALANTH_0352(frdB)
+            AFC: AFAEC_1929(frdB)
+            ATHR: ATH_1702(frdB)
+            ANT: Arnit_0446 Arnit_2668
+            AELL: AELL_0449(frdB)
+            AAQI: AAQM_0368(frdB)
+            ASUI: ASUIS_0387(frdB)
+            ACLO: ACLO_0426(frdB)
+            AVP: AVENP_0455(frdB1) AVENP_2879(frdB2)
+            ADZ: ADFLV_0456(frdB)
+            ARC: ABLL_0442
+            PACO: AACT_0494(frdB)
+            APOC: APORC_1808(frdB)
+            AROS: NJU99_12685
+            AIE: LXN10_04170 LXN10_08785 LXN10_08805
+            ALK: ALEK_2981(frdB)
+            ALP: LPB137_12025(frdB)
+            AHS: AHALO_2294(frdB1) AHALO_2459(frdB2)
+            AMYT: AMYT_2349(frdB1) AMYT_2523(frdB2)
+            AMAR: AMRN_2382(frdB1) AMRN_2570(frdB2)
+            ACAA: ACAN_2387(frdB1) ACAN_2576(frdB2)
+            AMOL: AMOL_2366(frdB1) AMOL_2527(frdB2)
+            APAI: APAC_2194(frdB)
+            HBV: ABIV_0323(frdB)
+            HEBR: AEBR_0390(frdB1) AEBR_0394(frdB2) AEBR_2577(frdB3)
+            AANA: AANAER_0393(frdB1) AANAER_2545(frdB2)
+            HCJ: HCR_01450(frdB)
+            NSA: Nitsa_1312
+            SUN: SUN_0414
+            SLH: YH65_09140(frdB)
+            DDS: Ddes_1532
+            DFI: AXF13_15145(frdB)
+            DEF: CNY67_05315(frdB)
+            DFL: DFE_0591
+            PSYF: N1030_12780
+            DSB: LN040_12020
+            DELF: DESU86_2686(frdB)
+            DMA: DMR_05780(frdB) DMR_34290(frdB)
+            DCB: C3Y92_04760(frdB)
+            SOLI: ACP59X_07385
+            DGG: DGI_0828(frdBII) DGI_1570(fdrB)
+            DDE: Dde_1256
+            DMS: E8L03_11960 E8L03_12270
+            DSA: Desal_0722
+            DHY: DESAM_20177(frdB)
+            DAF: Desaf_1688
+            DAS: Daes_2065
+            DPI: BN4_10024(frdB) BN4_10582(frdB)
+            DEJ: AWY79_10170(frdB) AWY79_17530(frdB)
+            PPRF: DPRO_0024(frdB)
+            PSEL: GM415_12150
+            DDN: DND132_0816 DND132_2879
+            PSEF: PSDVSF_08280(frdB)
+            PPOR: JCM14722_05850(frdB_1) JCM14722_09090(frdB_2)
+            PNW: SYK_05600(frdB_1) SYK_09920(frdB_2)
+            PTHE: LF599_02980 LF599_11290
+            PMEN: V8V93_05990 V8V93_14010
+            DSX: GD604_12610
+            DSD: GD606_02450
+            PBIZ: LWC08_10380 LWC08_12085
+            DVU: DVU_3263(frdB)
+            DVL: Dvul_0126
+            DVM: DvMF_2460
+            DVG: Deval_3018
+            CLIH: KPS_002864
+            BWS: WCP94_001518
+            DBA: Dbac_3064
+            DOA: AXF15_04085(frdB)
+            DESU: NLA06_15285
+            THEW: TDMWS_03660(frdB)
+            DRT: Dret_1067
+            DAT: HRM2_32410(sdhB)
+            DTO: TOL2_C01630(frdB1) TOL2_C05110(frdB2)
+            DHG: EYB58_08405
+            DAO: Desac_0861
+            SFU: Sfum_1998
+            DMP: FAK_26260(frdB)
+            AFX: JZ786_08470 JZ786_24210
+            ACUR: JZ785_12670 JZ785_13345
+            ALIC: GI364_06830
+            EFF: skT53_22520(frdB)
+            DCA: Desca_1387
+            PTH: PTH_1018(SdhB)
+            DKU: Desku_0434
+            DGI: Desgi_3998
+            DAU: Daud_1931
+REFERENCE   PMID:9492313
+  AUTHORS   Simon J, Gross R, Ringel M, Schmidt E, Kroger A
+  TITLE     Deletion and site-directed mutagenesis of the Wolinella succinogenes fumarate reductase operon.
+  JOURNAL   Eur J Biochem 251:418-26 (1998)
+            DOI:10.1046/j.1432-1327.1998.2510418.x
+  SEQUENCE  [wsu:WS0830]
+REFERENCE   PMID:30297797
+  AUTHORS   Guan HH, Hsieh YC, Lin PJ, Huang YC, Yoshimura M, Chen LY, Chen SK, Chuankhayan P, Lin CC, Chen NC, Nakagawa A, Chan SI, Chen CJ.
+  TITLE     Structural insights into the electron/proton transfer pathways in the quinol:fumarate reductase from Desulfovibrio gigas.
+  JOURNAL   Sci Rep 8:14935 (2018)
+            DOI:10.1038/s41598-018-33193-5
+  SEQUENCE  [dgg:DGI_1570]
+///

@@ -1,0 +1,20 @@
+ENTRY       R00704                      Reaction
+NAME        (R)-lactate:NAD+ oxidoreductase
+DEFINITION  (R)-Lactate + NAD+ <=> Pyruvate + NADH + H+
+EQUATION    C00256 + C00003 <=> C00022 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00044  C00022_C00256
+ENZYME      1.1.1.28
+PATHWAY     rn00620  Pyruvate metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.28
+                 R00704  (R)-Lactate + NAD+ <=> Pyruvate + NADH + H+
+ORTHOLOGY   K03777  D-lactate dehydrogenase (quinone) [EC:1.1.5.12]
+            K03778  D-lactate dehydrogenase [EC:1.1.1.28]
+DBLINKS     RHEA: 16372
+///

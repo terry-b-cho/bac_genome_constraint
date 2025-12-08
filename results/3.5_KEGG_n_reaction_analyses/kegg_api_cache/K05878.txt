@@ -1,0 +1,2575 @@
+ENTRY       K05878                      KO
+SYMBOL      dhaK
+NAME        phosphoenolpyruvate---glycerone phosphotransferase subunit DhaK [EC:2.7.1.121]
+PATHWAY     map00561  Glycerolipid metabolism
+            map01100  Metabolic pathways
+REACTION    R01012  phosphoenolpyruvate:glycerone phosphotransferase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09103 Lipid metabolism
+               00561 Glycerolipid metabolism
+                K05878  dhaK; phosphoenolpyruvate---glycerone phosphotransferase subunit DhaK
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.121  phosphoenolpyruvate---glycerone phosphotransferase
+                 K05878  dhaK; phosphoenolpyruvate---glycerone phosphotransferase subunit DhaK
+DBLINKS     COG: COG2376
+            GO: 0047324
+GENES       ECO: b1200(dhaK)
+            ECJ: JW5187(dhaK)
+            ECD: ECDH10B_1253(dhaK)
+            EBW: BWG_1025(dhaK)
+            ECOK: ECMDS42_0987(dhaK)
+            ECOC: C3026_07055
+            ECE: Z1971
+            ECS: ECs_1705(dhaK)
+            ELX: CDCO157_1632
+            EOI: ECO111_1529(dhaK)
+            EOJ: ECO26_1713(dhaK)
+            EOH: ECO103_1302(dhaK)
+            ECOO: ECRM13514_1563(dhaK)
+            ECOH: ECRM13516_1520(dhaK)
+            ESL: O3K_14660
+            ESO: O3O_10960
+            ESM: O3M_14635
+            ECK: EC55989_1296(dhaK)
+            ECG: E2348C_1324(dhaK)
+            EOK: G2583_1470(dhaK)
+            ELR: ECO55CA74_07165
+            ELH: ETEC_1304
+            ECW: EcE24377A_1346(dhaK)
+            EUN: UMNK88_1515(dhaK)
+            ECP: ECP_1248
+            ENA: ECNA114_1344(ycgT)
+            ECOS: EC958_1444(ycgT)
+            ECV: APECO1_2103(ptnC) APECO1_317(dhaK)
+            ECOA: APECO78_09865
+            ECX: EcHS_A1304(dhaK)
+            ECM: EcSMS35_1941(dhaK) EcSMS35_4858(ptnC)
+            ECY: ECSE_1249
+            ECR: ECIAI1_1219(dhaK)
+            ECQ: ECED1_1348(dhaK)
+            EUM: ECUMN_1496(dhaK)
+            ECT: ECIAI39_1536(dhaK)
+            EOC: CE10_1377(dhaK)
+            EBR: ECB_01175(dhaK)
+            ECOB: C3029_10385
+            EBL: ECD_01175(dhaK)
+            EBE: B21_01185(dhaK)
+            EBD: ECBD_2422
+            ECI: UTI89_C1393(ycgT) UTI89_C5024
+            EIH: ECOK1_1353(dhaK) ECOK1_4827(dhaK)
+            ECZ: ECS88_1268(dhaK)
+            ECC: c1658(ycgT)
+            ELO: EC042_1256(dhaK)
+            ELN: NRG857_06150 NRG857_21830
+            ESE: ECSF_1150
+            ECL: EcolC_2426
+            EKF: KO11_16825(dhaK)
+            EAB: ECABU_c14710(dhaK)
+            EDH: EcDH1_2448
+            EDJ: ECDH1ME8569_1139(dhaK)
+            ELU: UM146_11060 UM146_22325
+            ELW: ECW_m1286(dhaK)
+            ELL: WFL_06295(dhaK)
+            ELC: i14_1488(ycgT)
+            ELD: i02_1488(ycgT)
+            ELP: P12B_c1935(dhaK)
+            ELF: LF82_0479(dhaK) LF82_724
+            ECOL: LY180_06095
+            ECOI: ECOPMV1_01329(dhaK_1) ECOPMV1_04774(dhaK_2)
+            ECOJ: P423_06640
+            EAL: EAKF1_ch0246 EAKF1_ch1524
+            EMA: C1192_06135
+            ESZ: FEM44_20995(dhaK)
+            ERUY: OSH18_01305(dhaK)
+            ESF: ACK8NJ_13470(dhaK)
+            SFL: SF1203
+            SFX: S1287
+            SFV: SFV_1214
+            SFE: SFxv_1374(dhaK)
+            SFN: SFy_1739
+            SFS: SFyv_1794
+            SFT: NCTC1_01268(dhaK)
+            SBO: SBO_1870
+            SBC: SbBS512_E1359(dhaK)
+            SHQ: A0259_10060
+            SHIG: LXH19_12745(dhaK)
+            ECLN: ECNIH4_18135
+            ECHG: FY206_05680(dhaK)
+            KPN: KPN_03495(dhaK)
+            KPU: KP1_4792(dhaK)
+            KPM: KPHS_46270
+            KPH: KPNIH24_05755
+            KPZ: KPNIH27_22095 KPNIH27_28395
+            KPV: KPNIH29_22985
+            KPW: KPNIH30_23310
+            KPY: KPNIH31_18215 KPNIH31_22495
+            KPG: KPNIH32_24160
+            KPC: KPNIH10_23045
+            KPQ: KPR0928_22565
+            KPT: VK055_3973(dhaK)
+            KPO: KPN2242_20565
+            KPR: KPR_4699(dhaK)
+            KPJ: N559_0679
+            KPI: D364_18010
+            KPA: KPNJ1_00665
+            KPS: KPNJ2_00707
+            KPX: PMK1_01013(dhaK_1)
+            KPB: FH42_13760
+            KPNE: KU54_003275
+            KPNU: LI86_03280
+            KPNK: BN49_0612(dhaK2)
+            KVA: Kvar_0605
+            KPE: KPK_0618(dhaK)
+            KPK: A593_07725
+            KVD: KR75_04990
+            KVQ: SP68_11625
+            KQU: AVR78_01315
+            KQV: B8P98_03320
+            KOX: KOX_03170
+            KOE: A225_5086
+            KOY: J415_06590
+            KOM: HR38_01770 HR38_29215 HR38_29640 HR38_29665
+            KOK: KONIH1_25720
+            KOC: AB185_10610
+            EAE: EAE_03850
+            EAR: CCG33222
+            KLL: BJF97_25385 BJF97_31530 BJF97_31970
+            KLW: DA718_03830(dhaK)
+            KAR: LGL98_03180(dhaK)
+            KGR: JJJ10_03380(dhaK)
+            KPAS: LUW96_03105(dhaK)
+            KLC: K7H21_03410(dhaK)
+            KLM: BWI76_24595
+            REE: electrica_00602(dhaK)
+            KLP: GUC22_03280(dhaK)
+            KLX: GQR96_21475(dhaK)
+            ROR: RORB6_21895
+            RON: TE10_24465
+            RPLN: B1209_03170
+            RAO: DSD31_03365
+            RTG: NCTC13098_00824(dhaK_2) NCTC13098_03930(dhaK_4) NCTC13098_04669(dhaK_5)
+            CKO: CKO_01212
+            CFD: CFNIH1_19685
+            CBRA: A6J81_06190
+            CWE: CO701_08555
+            CYO: CD187_10360
+            CPOT: FOB25_21965(dhaK)
+            CFQ: C2U38_10480
+            CSED: JY391_12800(dhaK)
+            CAMA: F384_08470 F384_24730
+            CAF: AL524_13770
+            CIF: AL515_13580
+            CFAR: CI104_14575
+            CIR: C2U53_02035 C2U53_23615
+            CIE: AN232_16435
+            CPAR: CUC49_09305
+            CTEL: GBC03_01450(dhaK) GBC03_04680(dhaK) GBC03_04700 GBC03_15990(dhaK) GBC03_27465(dhaK)
+            CITZ: E4Z61_06930(dhaK)
+            CARS: E1B03_15255(dhaK)
+            CIX: M4I31_10275(dhaK)
+            CIB: HF677_010460(dhaK)
+            CENS: P2W74_13580(dhaK)
+            CITR: GUC46_10495(dhaK)
+            CIQ: FD428_09665(dhaK)
+            CIY: HAP28_03535(dhaK) HAP28_13435(dhaK)
+            EBT: EBL_c30260(dhaK2)
+            PGE: LG71_13195
+            ESC: Entcl_3457 Entcl_3506 Entcl_4259
+            KLE: AO703_00575 AO703_04420 AO703_04725
+            KIE: NCTC12125_01986(dhaK_2)
+            KAS: KATP_43690 KATP_43790
+            KLU: K7B04_04150 K7B04_04175(dhaK)
+            KCY: RIN60_21930 RIN60_21950
+            KGN: GY169_22695 GY169_22720(dhaK)
+            LEF: LJPFL01_3607
+            BUF: D8682_25795(dhaK)
+            SYM: K6K13_18780(dhaK)
+            KIN: AB182_14465
+            PDZ: HHA33_17100(dhaK)
+            METY: MRY16398_32720 MRY16398_51690
+            TOE: QMG90_16950(dhaK)
+            MPHG: MPHASIOC01_001824(dhaK) MPHASIOC01_001853(dhaK) MPHASIOC01_004250(dhaK)
+            EBC: C2U52_01585 C2U52_25060
+            EBU: CUC76_18830
+            EBB: F652_114 F652_118 F652_3824
+            YPE: YPO3350(dhaK)
+            YPK: y0840
+            YPH: YPC_3668(dhaK)
+            YPA: YPA_2794
+            YPN: YPN_0744
+            YPM: YP_0337(dAK1_1)
+            YPP: YPDSF_3011
+            YPG: YpAngola_A0949
+            YPZ: YPZ3_2949
+            YPT: A1122_09180
+            YPD: YPD4_2935
+            YPX: YPD8_2933
+            YPW: CH59_2699
+            YPJ: CH55_1929
+            YPV: BZ15_173
+            YPL: CH46_1745
+            YPS: YPTB0782
+            YPO: BZ17_1774
+            YPI: YpsIP31758_3286
+            YPY: YPK_3419
+            YPB: YPTS_0816
+            YPQ: DJ40_1591
+            YPU: BZ21_4164
+            YPR: BZ20_1275
+            YPC: BZ23_257
+            YPF: BZ19_130
+            YEN: YE0540(dhaK)
+            YEP: YE105_C0551
+            YEY: Y11_37721
+            YEW: CH47_2937(dhaK)
+            YET: CH48_1060(dhaK)
+            YEF: FORC2_3551
+            YEE: YE5303_27891(dhaK)
+            YSI: BF17_12255
+            YAL: AT01_3060(dhaK)
+            YFR: AW19_3897(dhaK)
+            YIN: CH53_1150(dhaK)
+            YKR: CH54_1893(dhaK)
+            YRO: CH64_3171(dhaK)
+            YRU: BD65_2457(dhaK)
+            YRB: UGYR_12665
+            YAK: ACZ76_11890 ACZ76_12950
+            YMA: DA391_19355
+            YHI: D5F51_03045(dhaK)
+            YEL: LC20_04645
+            YCA: F0T03_03315(dhaK)
+            YMO: HRD69_08460(dhaK) HRD69_09600
+            YAS: N0H69_02935(dhaK)
+            YKI: HRD70_07655(dhaK)
+            YEG: PL78_13435
+            SMAR: SM39_3709(dhaK)
+            SMAC: SMDB11_2880(dhaK) SMDB11_3513(dhaK)
+            SMW: SMWW4_v1c35940 SMWW4_v1c42050(dhaK)
+            SPE: Spro_4272
+            SRR: SerAS9_4387
+            SRL: SOD_c40860(dhaK)
+            SRY: M621_22285
+            SPLY: Q5A_022305(dhaK)
+            SRS: SerAS12_4388
+            SRA: SerAS13_4388
+            SMAF: D781_3255 D781_4003
+            SLQ: M495_21475
+            SERF: L085_07015 L085_10705
+            SERS: SERRSCBI_17460 SERRSCBI_20440
+            SFW: WN53_00045 WN53_04225
+            SFG: AV650_22820 AV650_26360
+            SRZ: AXX16_1141 AXX16_1814
+            SERM: CLM71_17185 CLM71_20570
+            SQU: E4343_19425(dhaK)
+            SFJ: SAMEA4384070_3610(dhaK_1) SAMEA4384070_4243(dhaK_2)
+            SOF: NCTC11214_02406(dhaK)
+            SSUR: ATE40_014620 ATE40_017745
+            SURI: J0X03_02895(dhaK) J0X03_06040
+            SRHZ: FO014_13010(dhaK) FO014_17045
+            SENP: KHA73_20665(dhaK)
+            SNEM: NLX84_18075 NLX84_21715(dhaK)
+            SNEV: OI978_09855(dhaK)
+            SGRI: SGBXF1_04218(dhaK)
+            SSAR: SSARUM_004101(dhaK)
+            SERB: QEP77_01280(dhaK) QEP77_04430
+            SERN: GUC32_17915 GUC32_21070(dhaK)
+            SERT: TAN611_3455(dhaK) TAN611_4188(dhaK)
+            SERH: GF111_16235(dhaK)
+            SFO: Z042_04460 Z042_08215
+            ROX: BV494_03190
+            GQU: AWC35_15305
+            SERA: Ser39006_001475
+            SERQ: CWC46_01475
+            PROD: PCO85_00815
+            SOD: Sant_0062 Sant_2238 Sant_2371
+            SLIG: GTU79_00865(dhaK) GTU79_11075 GTU79_25015
+            PAM: PANA_0903(dhaK)
+            PLF: PANA5342_3403(dhaK)
+            PAJ: PAJ_0238(dhaK)
+            PAQ: PAGR_g3298
+            PAO: Pat9b_2296
+            PSTW: DSJ_19745
+            PPHO: CTZ24_17230
+            PMAK: PMPD1_2196 PMPD1_3214
+            PMR: PMI1231(dhaK1) PMI2402(dhaK)
+            PMIB: BB2000_1250(dhaK1) BB2000_2539(dhaK)
+            PVL: AOB99_08125 AOB99_13995
+            PVG: CRN77_06955 CRN77_12715
+            PHAU: PH4a_04270
+            PROT: BTA34_07795 BTA34_13930
+            PCOL: F1325_09560(dhaK) F1325_15565(dhaK)
+            PCIB: F9282_09560(dhaK) F9282_15920(dhaK)
+            PPEE: I6G31_00825(dhaK) I6G31_12335(dhaK)
+            PAPP: QQS39_09380 QQS39_15775(dhaK)
+            PRON: LG402_10205(dhaK) LG402_17715(dhaK)
+            PSI: S70_13260 S70_13630
+            PSX: DR96_536(dhaK)
+            PSTA: BGK56_16085
+            PTHA: OI982_10030(dhaK)
+            PRG: RB151_018760(dhaK)
+            PHEI: NCTC12003_02380(dhaK)
+            PRQ: CYG50_08025
+            PVC: G3341_16890(dhaK)
+            PMAG: JI723_16915(dhaK)
+            PHAG: PZ638_12700
+            PZN: ACE2AM_16640(dhaK)
+            PXH: ACE2AL_12685
+            PROV: ABE954_13085
+            MWI: MNY66_01905(dhaK)
+            EIC: NT01EI_1228
+            ETE: ETEE_3067(dhaK)
+            ETC: ETAC_05370
+            EDW: QY76_14635
+            EDL: AAZ33_05810
+            HAV: AT03_02970 AT03_05560 AT03_05580
+            HPAR: AL518_02495
+            OPO: DSM2777_23370
+            PRAG: EKN56_14735
+            PFQ: QQ39_02935
+            LRI: NCTC12151_02843(dhaK)
+            LGB: V8L73_14890
+            PMU: PM1649
+            PMV: PMCN06_2210(dhaK)
+            PUL: NT08PM_1982
+            PMP: Pmu_21310(dhaK)
+            PMUL: DR93_713
+            PCAI: K7G93_001335
+            MSU: MS1606(dAK1)
+            BSUN: A4G13_02880 A4G13_05475
+            MHT: D648_19150
+            MHQ: D650_7020
+            MHAT: B824_19140(dhaK)
+            MHX: MHH_c27690(dhaK)
+            MHAE: F382_04560
+            MHAM: J450_03560
+            MHAO: J451_04800
+            MHAL: N220_10685
+            MHAQ: WC39_03530
+            MHAY: VK67_03530
+            MVR: X781_17420
+            MVI: X808_5680
+            MVG: X874_5820
+            MVE: X875_15050
+            MGRA: A4G16_00575
+            APL: APL_0083(dhaK)
+            APJ: APJL_0083(dhaK)
+            APA: APP7_0083(dhaK)
+            ASU: Asuc_1441 Asuc_1586
+            ASI: ASU2_06765
+            ASS: ASU1_06840
+            AEU: ACEE_07035
+            APOR: DDU33_08955
+            ADP: NCTC12871_00674(dhaK)
+            ALIG: NCTC10568_00093(dhaK)
+            AGP: NYR63_00445(dhaK)
+            AGK: NYR60_05200(dhaK)
+            GSS: NYR30_00965
+            VPA: VP0364
+            VPB: VPBB_0371
+            VPK: M636_19950
+            VPF: M634_03790
+            VPH: VPUCM_0384
+            VAG: N646_2549
+            VEX: VEA_001638
+            VDB: AL552_10235
+            VOW: A9237_12055
+            VFU: vfu_B00884
+            VNI: VIBNI_A0465
+            VEU: IXK98_05185
+            VBR: A6E01_08980
+            VSH: BSZ05_16675 BSZ05_23490 BSZ05_25030
+            VQI: CCZ37_00860
+            VNL: D3H41_01795(dhaK)
+            VAS: GT360_10380 GT360_17445
+            VIS: VspSTUT16_27190
+            VIP: H9L11_08760(dhaK)
+            VIC: SNR28_08490 SNR28_16005(dhaK) SNR28_16105
+            VII: ACHFJ9_09800(dhaK)
+            PPR: PBPRB0219(SF1203)
+            PSB: Psyr_2566
+            PSYR: N018_14535
+            PSP: PSPPH_2724
+            PAMG: BKM19_015850
+            PAVL: BKM03_15060
+            PVD: CFBP1590__2689
+            PCOF: POR16_12090
+            PTRE: I9H09_12815
+            PSYI: MME58_13475
+            PAST: N015_14185
+            PFN: HZ99_05280
+            PFC: PflA506_2377(dhaK)
+            PFB: VO64_0742
+            PTV: AA957_03070
+            PVR: PverR02_18295
+            PAZO: AYR47_18455
+            PMUD: NCTC8068_01984(dhaK)
+            PTOL: I7845_12430
+            PBRE: QDY63_17680
+            PFW: PF1751_v1c22720(dhaK)
+            PFF: PFLUOLIPICF725350
+            PSK: U771_14115
+            PCH: EY04_18740
+            PCHP: C4K32_3785
+            PANR: A7J50_2368
+            PYM: AK972_3418
+            PTRT: HU722_0011820
+            PSAM: HU731_000290
+            PSHH: HU773_016010
+            PASG: KSS96_13205
+            PPEG: KUA23_18475
+            PHYG: JTY93_14975
+            PPAE: LDL65_27195
+            PSKU: KUIN1_25500
+            PSNC: C0058_13405
+            PKV: QYQ93_16780
+            PCAA: V6L78_21415
+            PSSX: DCC84_14300
+            PSNS: CI807_24680
+            PIM: OQ460_14400
+            PSYQ: HXW90_17795
+            AVN: Avin_22060
+            AVL: AvCA_22060
+            AVD: AvCA6_22060
+            AGZ: M0C34_17895(dhaK)
+            PSY: PCNPT3_12330
+            MYA: MORIYA_1445(dhaK)
+            MCA: MCA0040
+            METU: GNH96_02535(dhaK)
+            MMEO: OOT43_12600(dhaK)
+            MEEF: JWZ97_04170(dhaK)
+            MMT: Metme_2605
+            MDN: JT25_017320
+            MDH: AYM39_13060
+            MKO: MKLM6_2677
+            METL: U737_08165(dhaK)
+            MPAD: KEF85_07340(dhaK)
+            MELL: IVG45_06845(dhaK)
+            MRP: NM686_015710(dhaK)
+            MMOT: QZJ86_06935(dhaK)
+            MEEP: JWZ98_07435(dhaK)
+            MEEC: PL263_02705(dhaK)
+            MEUP: QC632_15995(dhaK)
+            MAH: MEALZ_3955(dhaK)
+            MBUR: EQU24_21615(dhaK)
+            MPSY: CEK71_00445
+            MMAI: sS8_2790
+            MSZE: MSZNOR_4298(dhaK)
+            MMOB: F6R98_00745(dhaK)
+            MEIN: methR_P0814
+            MOZ: MoryE10_32600
+            MISZ: MishRS11D_02090
+            MESL: KKZ03_18580(dhaK)
+            MECH: Q9L42_008325(dhaK)
+            MLAU: ACEPPP_12570(dhaK)
+            MEIY: MIN45_P0931
+            MCAU: MIT9_P0864
+            MEJ: Q7A_2496
+            MEC: Q7C_1676
+            MPIN: LGT42_003305(dhaK)
+            MMAF: GCM100_18910
+            MTHA: VSX76_15465(dhaK)
+            SPIU: SPICUR_08525 SPICUR_08540
+            CSA: Csal_0356
+            CCAG: SR908_06510
+            HEL: HELO_1187
+            KUY: FY550_11590(dhaK)
+            EMP: EZMO1_4504(dhaK)
+            AHA: AHA_4008(dhaK)
+            AHY: AHML_21185
+            AHD: AI20_20995
+            AHR: V428_22085
+            AHP: V429_22115
+            AHJ: V469_01410
+            AHH: RY45_20945
+            AHI: VU14_01615
+            AAJ: BOQ57_20900
+            ASA: ASA_4051(dhaK)
+            AEO: O23A_p3365
+            AVR: B565_0419
+            AVO: AMS64_20995
+            AMED: B224_4970
+            ASR: WL1483_42(dhaK)
+            ADH: CK627_02290
+            ACAV: VI35_01415
+            AEM: CK911_19235
+            AEA: C2U39_20120
+            ARV: C7N77_05715
+            AES: C2U30_12330
+            AEL: NCTC12917_03949(dhaK)
+            ASIM: FE240_15400(dhaK)
+            AALL: I6G90_13600(dhaK)
+            AJD: I6H43_08290(dhaK)
+            ARIV: KYK33_18415(dhaK)
+            ASAA: KXJ75_22405(dhaK)
+            AEJ: E5E97_02800(dhaK)
+            ABES: IU367_20250(dhaK)
+            AERO: CK910_06510
+            AERZ: E5E96_05835(dhaK)
+            AMYQ: ACFWHB_19855(dhaK)
+            ZDF: AN401_08045
+            CHJ: NCTC10426_01582(dhaK)
+            GAP: GAPWK_0381 GAPWK_1544
+            FPP: FPB0191_00991
+            ORB: IPMB12_01405 IPMB12_01435(dhaK) IPMB12_08415
+            OMO: RHO11_09765 RHO11_09780 RHO11_10650(dhaK)
+            OWH: RHO14_09090(dhaK)
+            OSV: RHO12_00440(dhaK)
+            UBR: RHO15_07335 RHO15_07350
+            THIN: CRN91_08460
+            CRZ: D1345_15015
+            CHAE: CH06BL_31520
+            BMA: BMAA1809
+            BMV: BMASAVP1_0807
+            BML: BMA10229_1097
+            BMN: BMA10247_A2071
+            BMAZ: BM44_3933
+            BMAL: DM55_3973
+            BMAE: DM78_4884
+            BMAQ: DM76_4669
+            BMAI: DM57_06970
+            BMAF: DM51_3502
+            BMAB: BM45_4708
+            BPS: BPSS0260
+            BPM: BURPS1710b_A1796
+            BPL: BURPS1106A_A0365(dhaK)
+            BPD: BURPS668_A0460
+            BPR: GBP346_B3037
+            BPSE: BDL_6155
+            BPSM: BBQ_5949
+            BPSU: BBN_3646
+            BPSD: BBX_5324
+            BPZ: BP1026B_II0287
+            BPQ: BPC006_II0346
+            BPK: BBK_5460
+            BPSH: DR55_5097
+            BPSA: BBU_5865
+            BPSO: X996_4864
+            BUT: X994_4364
+            BTD: BTI_4465
+            BOK: DM82_4266
+            BOC: BG90_3757
+            BUU: WS70_18710
+            BSAV: WS86_20100
+            BHG: I6G56_00425 I6G56_30780
+            BUD: AQ610_18810 AQ610_20950
+            BUG: BC1001_5982
+            BYI: BYI23_B006200(dhaK) BYI23_C002700 BYI23_C005880
+            BUL: BW21_3989 BW21_6402
+            BUQ: AC233_03080 AC233_29980
+            BUI: AX768_19340
+            BURT: BTHE68_32980 BTHE68_61510
+            BURF: Bsp3421_001174
+            BPH: Bphy_6364
+            BGE: BC1002_6402
+            BPX: BUPH_00082
+            BPY: Bphyt_5631
+            BCAI: K788_0000105 K788_0001709 K788_0007244
+            PARA: BTO02_13895 BTO02_30675 BTO02_32610
+            PARB: CJU94_17590
+            PHS: C2L64_22965 C2L64_30380
+            PTER: C2L65_24420
+            PGP: CUJ91_03200 CUJ91_26220
+            PCJ: CUJ87_21165 CUJ87_22390
+            PACP: FAZ97_19670(dhaK)
+            PEW: KZJ38_08795(dhaK) KZJ38_24765(dhaK) KZJ38_32790(dhaK) KZJ38_35500
+            PSAA: QEN71_09440(dhaK) QEN71_36040
+            PKF: RW095_20505(dhaK) RW095_21845
+            PLAD: PPGU16_43510 PPGU16_56100
+            PAZZ: PBP221_40840(dhaK) PBP221_52190
+            BUO: BRPE64_BCDS07260 BRPE64_DCDS01820
+            CABK: NK8_35850(dhaK) NK8_52960(dhaK)
+            BUE: BRPE67_BCDS08480(dhaK) BRPE67_CCDS05580 BRPE67_CCDS09520
+            TVL: FAZ95_34915(dhaK)
+            CDN: BN940_14866
+            POL: Bpro_0697 Bpro_0706
+            VAX: H7F36_05375(dhaK) H7F36_12320(dhaK)
+            HYDA: ABSY19_07500(dhaK)
+            ATER: MW290_11025
+            HRB: Hrubri_0899(dhaK)
+            HEW: HBDW_09100
+            GLC: JQN73_16370
+            XYK: GT347_22185
+            XYG: R9X41_01355
+            MFA: Mfla_0960 Mfla_1104
+            MMB: Mmol_1376
+            MEH: M301_0885
+            MEI: Msip34_1139
+            MEP: MPQ_1202(dak1)
+            MEU: ACJ67_05785
+            MMEC: FIU01_04495(dhaK)
+            MEDZ: MTDW_17910(dhaK)
+            MLO: mll5289 mll7280 mlr9018
+            MLN: A9174_01135 A9174_29225
+            MCI: Mesci_0217 Mesci_5316
+            MCIC: A4R28_00530 A4R28_27290
+            MOP: Mesop_0220 Mesop_5781
+            MAM: Mesau_00223 Mesau_05275
+            MAMO: A6B35_06640 A6B35_10970 A6B35_24120 A6B35_24135
+            MESW: A9K65_001085 A9K65_029060
+            MESM: EJ066_10130(dhaK) EJ066_15460(dhaK)
+            MESP: C1M53_16405
+            MHUA: MCHK_0797(dhaK) MCHK_6334(dhaK)
+            MJR: EB229_01155(dhaK) EB229_29805(dhaK)
+            MERD: EB233_01230(dhaK) EB233_25850(dhaK)
+            MESR: FGU64_19830(dhaK)
+            MOH: IHQ72_00875(dhaK) IHQ72_30695(dhaK)
+            MMEI: LRP31_01095(dhaK) LRP31_14510(dhaK) LRP31_14520 LRP31_30025(dhaK)
+            MESJ: MJ8_06140
+            MESI: LGH82_15545(dhaK)
+            MESU: LHFGNBLO_000471(dhaK) LHFGNBLO_002975(dhaK)
+            MEWS: QAZ47_01140(dhaK)
+            MEWM: QAZ22_01130(dhaK)
+            NKI: KW403_06460(dhaK)
+            NRH: T8J41_05580
+            CHEA: PVE73_14035
+            PHT: BLM14_28595
+            RPOD: E0E05_15825
+            OST: ABWH87_06750
+            AMAX: ABWH92_17210
+            SME: SM_b20312 SM_b20314
+            SMK: Sinme_3865 Sinme_3867
+            SMQ: SinmeB_4362 SinmeB_4364
+            SMX: SM11_pD1303 SM11_pD1305
+            SMI: BN406_06358 BN406_06360
+            SMEG: C770_GR4pD1289 C770_GR4pD1291
+            SMEL: SM2011_b20312 SM2011_b20314
+            SMER: DU99_31825 DU99_31840
+            SMD: Smed_3823 Smed_3825
+            RHI: NGR_b04130
+            SFH: SFHH103_03743
+            SFD: USDA257_c27610(dhaK4)
+            SIX: BSY16_5148 BSY16_5150 BSY16_5496
+            ESJ: SJ05684_b53040
+            EAK: EKH55_5175
+            EMX: FKV68_25470(dhaK) FKV68_29300
+            ENU: PYH37_000859(dhaK)
+            EGI: PZN02_000236(dhaK)
+            SKM: PZL22_001075 PZL22_001077
+            STEG: QA637_19635 QA637_21740(dhaK)
+            SCHP: RB548_25225 RB548_30585(dhaK)
+            EAD: OV14_a1233 OV14_a1235
+            ECAA: J3R84_21590(dhaK) J3R84_21600
+            EAW: ACEP9W_18430(dhaK)
+            AGC: BSY240_4609
+            ALF: CFBP5473_16435 CFBP5473_16445
+            ARUI: G6M88_17510 G6M88_17520
+            ALEG: CFBP4996_05390
+            RET: RHE_PF00031
+            REC: RHECIAT_CH0002641 RHECIAT_PC0000975
+            REL: REMIM1_PF00035(dhaK)
+            REI: IE4771_PA00177(dhaK)
+            RLE: RL1749(dhaK3) RL1751 RL2906(dhaK2) pRL120387(dhaKp12)
+            RLT: Rleg2_4660
+            RLG: Rleg_1401 Rleg_1403 Rleg_2438 Rleg_4753
+            RLB: RLEG3_07450 RLEG3_22890
+            RLU: RLEG12_22400
+            RTR: RTCIAT899_PA00885 RTCIAT899_PC04800
+            RHL: LPU83_pLPU83c0197(dhaK1) LPU83_pLPU83c0528
+            RGA: RGR602_PA00166(dhaK-1) RGR602_PC01090(dhaK-2) RGR602_PC01950(dhaK-3)
+            RHN: AMJ98_CH02576(dhaK-1) AMJ98_PE00034(dhaK-2)
+            RPHA: AMC79_PD00982(dhaK)
+            RHX: AMK02_CH02617(dhaK-1) AMK02_PD00037(dhaK-2)
+            RHK: Kim5_CH02676(dhaK)
+            REZ: AMJ99_CH02685(dhaK-1) AMJ99_PD00034(dhaK-2)
+            RJG: CCGE525_31900(dhaK) CCGE525_31910 CCGE525_32390(dhaK)
+            RHR: CKA34_20025 CKA34_20035 CKA34_20660
+            RGR: FZ934_27745(dhaK)
+            RAD: CO657_28330(dhaK)
+            RII: FFM53_004165(dhaK) FFM53_004175 FFM53_023485(dhaK) FFM53_024665(dhaK)
+            RHID: FFM81_008555(dhaK)
+            RBQ: J2J99_13225(dhaK)
+            RLN: J0663_00185(dhaK)
+            RBAN: J2J98_12745(dhaK) J2J98_22080(dhaK)
+            RRG: J3P73_09785 J3P73_09795(dhaK) J3P73_14785(dhaK) J3P73_25330(dhaK)
+            RLS: HB780_06735(dhaK)
+            RROS: D4A92_23155(dhaK)
+            RAW: NE851_23995 NE851_33170
+            RSUL: N2599_24800(dhaK) N2599_29505 N2599_32180
+            RLW: RlegWSM1455_12335(dhaK) RlegWSM1455_25715(dhaK)
+            RRHO: PR018_15970 PR018_15980
+            RTU: PR017_15915 PR017_15925 PR017_18510
+            RCT: PYR68_11120(dhaK)
+            ARA: Arad_7533 Arad_7536 Arad_9240
+            RBW: RLCC275e_12420(dhaK) RLCC275e_25185(dhaK)
+            RIF: U5G49_002438 U5G49_005407
+            RHIZ: QMO80_004798
+            RHIB: I8E17_22830(dhaK) I8E17_23410 I8E17_23420(dhaK)
+            RHIW: KQ933_24855 KQ933_24865(dhaK) KQ933_29430(dhaK)
+            RBIN: PO860_11335
+            RHIP: NE852_12470(dhaK)
+            RHIK: MHI61_30695(dhaK)
+            NEN: NCHU2750_12640(dhaK)
+            SHZ: shn_29760 shn_29775
+            SZO: K8M09_13055 K8M09_13065(dhaK)
+            SOJ: K6301_16280 K6301_16415 K6301_21885 K6301_21895(dhaK)
+            SSUM: Q9314_23255 Q9314_26320 Q9314_26330
+            ABAW: D5400_18355(dhaK)
+            ASIT: N7E02_05025
+            BME: BMEI0396 BMEI0398
+            BMEL: DK63_1027 DK63_1029
+            BMI: BMEA_A1678 BMEA_A1680
+            BMZ: BM28_A1630 BM28_A1632
+            BMG: BM590_A1616 BM590_A1618
+            BMW: BMNI_I1565 BMNI_I1567
+            BMEE: DK62_1918 DK62_1920
+            BMC: BAbS19_I15400
+            BAA: BAA13334_I01370 BAA13334_I01376
+            BABO: DK55_1594 DK55_1597
+            BABR: DO74_292 DO74_295
+            BABT: DK49_1352 DK49_1355
+            BABB: DK48_522 DK48_525
+            BABU: DK53_1578 DK53_1581
+            BABS: DK51_1963 DK51_1965
+            BABC: DO78_1499 DO78_1502
+            BSUI: BSSP1_I1647 BSSP1_I1649
+            BSUP: BSPT1_I1664 BSPT1_I1666
+            BSUV: BSPT2_I1646 BSPT2_I1648
+            BSUC: BSSP2_I1651 BSSP2_I1653
+            BMT: BSUIS_A1685 BSUIS_A1687
+            BSZ: DK67_700 DK67_702
+            BSW: IY71_08030 IY71_08045
+            BSG: IY72_07770 IY72_07785
+            BOV: BOV_1570 BOV_1572
+            BCS: BCAN_A1663 BCAN_A1665
+            BSK: BCA52141_I2584 BCA52141_I2589
+            BCAR: DK60_1636 DK60_1638
+            BCAS: DA85_07810 DA85_07825
+            BMR: BMI_I1644 BMI_I1646
+            BPP: BPI_I1683 BPI_I1685
+            BPV: DK65_1870 DK65_1872
+            BCET: V910_100393 V910_100395
+            BCEE: V568_100433
+            BVL: BF3285c1_1233 BF3285c1_1235
+            BRU: BFS01_07815 BFS01_07830
+            OIN: IAR37_13285 IAR37_13295
+            BIO: BR141012304_11067 BR141012304_11069
+            OAN: Oant_4069 Oant_4071 Oant_4368
+            OAH: DR92_3876 DR92_4182 DR92_4184
+            OPS: A8A54_16510 A8A54_16520
+            BPSN: NIK97_15850 NIK97_15860 NIK97_18755
+            BRUC: LJ361_11640 LJ361_13145 LJ361_13155
+            BRUB: GRI33_07995 GRI33_08005
+            OCR: HGK82_13490 HGK82_13500 HGK82_14965(dhaK)
+            OCL: GTN27_13085(dhaK) GTN27_14540 GTN27_14550
+            OCC: KMS41_12190(dhaK) KMS41_17440
+            OCH: CES85_4749 CES85_4751 CES85_5425
+            BJA: blr3577(blr3577)
+            BJU: BJ6T_24460
+            BJP: RN69_11945
+            BRA: BRADO4609(dhaK)
+            AOL: S58_43120
+            BRO: BRAD285_4385(dhaK)
+            BOT: CIT37_35690
+            BGZ: XH91_22605
+            BARH: WN72_19520 WN72_35455
+            BVZ: BRAD3257_5302(dhaK)
+            BEL: BE61_46110
+            BSEP: HAP48_0033440(dhaK)
+            BQB: J4P68_0024025(dhaK)
+            BBAN: J4G43_042640(dhaK)
+            BAUT: QA635_12430(dhaK)
+            BBRA: QA636_11510(dhaK)
+            BGK: IC762_14150(dhaK)
+            BCOU: IC761_22485(dhaK)
+            BPAH: QA639_32345(dhaK)
+            BRAZ: LRP30_07660(dhaK)
+            BOY: LQG66_02090(dhaK)
+            BRAA: NL528_18030(dhaK)
+            BGEA: ACP2YP_15470(dhaK)
+            BGEP: ACP2YO_36545(dhaK)
+            BVV: BHK69_14335
+            BOP: AXW83_15505 AXW83_15680
+            BOF: FQV39_09115(dhaK)
+            BOW: NWE53_07610(dhaK)
+            STAR: G3545_14530(dhaK) G3545_16160 G3545_27715(dhaK)
+            LNE: FZC33_06390 FZC33_06400(dhaK) FZC33_28215(dhaK)
+            SNO: Snov_4112
+            ANC: GBB76_14410(dhaK)
+            APRA: G3A50_00030(dhaK)
+            APOL: K9D25_04335(dhaK) K9D25_18640(dhaK)
+            MOC: BB934_31785 BB934_41320
+            MTEZ: HPT29_026795
+            DEQ: XM25_02105
+            DEI: C4375_04885
+            DEA: FPZ08_01390
+            DSAL: K1X15_19075
+            DNP: N8A98_01330
+            DRH: JI748_12055
+            DAG: PSQ19_01220
+            DRP: PSQ90_02085 PSQ90_07350
+            YTI: FNA67_05905
+            MHAR: L1P08_13520
+            PLEO: OHA_1_02330(dhaK)
+            MAAD: AZF01_17190
+            MMED: Mame_02107(dhaK_1) Mame_02109(dhaK_2)
+            MLUT: JET14_19395(dhaK)
+            AUA: M673_19535 M673_19545
+            AALA: IGS74_12545(dhaK) IGS74_12560 IGS74_13320(dhaK)
+            AALM: LUX29_01730 LUX29_14435(dhaK) LUX29_14450 LUX29_15170(dhaK)
+            AUZ: Sa4125_07160
+            JAV: OXU80_05625
+            NOH: G5V57_12895(dhaK)
+            BRN: D1F64_08315(dhaK)
+            PSF: PSE_2351
+            LABT: FIU93_29420(dhaK2) FIU93_29430(dhaK3)
+            LAGG: B0E33_29495
+            RAGG: QUB73_29040 QUB73_29050(dhaL)
+            SIW: GH266_09560(dhaK)
+            LIZ: LGH83_16730
+            ACUT: MRB58_06140(dhaK)
+            RFU: ROLI_027250(dhaK-2)
+            DSH: Dshi_0527(dahK)
+            CMAR: IMCC12053_2332
+            MALG: MALG_04870
+            YPAC: CEW88_19355
+            TPRO: Ga0080559_TMP3674 Ga0080559_TMP3676 Ga0080559_TMP429
+            SDO: SD1155_06020
+            PALX: GQA70_21765 GQA70_21780
+            PARR: EOJ32_14035(dhaL) EOJ32_14045
+            PLIA: E4191_10530 E4191_10540(dhaL)
+            PMAU: CP157_00793(dhaK) CP157_00795(lerK_1)
+            PSEW: JHW44_09290(dhaK) JHW44_14205 JHW44_15950(dhaL) JHW44_15960
+            PFIS: JHX87_03195(dhaL) JHX87_03205
+            PHOI: ACLISE_15705
+            THW: BMG03_05555
+            TEC: AKL02_019380(dhaK)
+            YRH: AABB31_06355
+            GEH: HYN69_06080
+            SEDI: EBB79_22905
+            ACOB: P0Y56_05555
+            ALB: AEB_P1180
+            AAY: WYH_02994(dhaK)
+            PMAS: NCF86_16010(dhaK)
+            EGN: BMF35_a0340
+            GDI: GDI0263(dhaK)
+            GDJ: Gdia_2328
+            COQ: D9V35_00285
+            COMM: GN303_00470
+            EBLA: JGUZn3_20210(dhaK-2)
+            LCK: HN018_01660 HN018_27590
+            RAP: RHOA_0161(dhaK) RHOA_2192(dhaK)
+            NGU: QN315_04630(dhaK)
+            ACR: Acry_2616
+            AMV: ACMV_29410(dhaK)
+            ABS: AZOBR_p220045(dhaK)
+            ABQ: ABAZ39_26085
+            ABF: AMK58_15210
+            AARE: D3093_24325 D3093_33015
+            RRU: Rru_A1340 Rru_A1361
+            RRF: F11_06930 F11_07030
+            HTQ: FRZ44_17000
+            HADH: FRZ61_29880
+            THAC: CSC3H3_24085(dhaL) CSC3H3_24095
+            TII: DY252_19400(dhaK)
+            THAI: IT893_02110(dhaK)
+            TLU: R1T41_10710
+            THGO: M9H61_10630
+            APC: HIMB59_00006980
+            ACU: Atc_0229
+            ACZ: Acaty_c0255
+            ATX: GCD22_03777(dhaK)
+            ACIY: MQE22_00130(dhaK)
+            ACMS: ACJU26_15535(dhaK)
+            DMA: DMR_35590(dhaK)
+            DCB: C3Y92_15460
+            SOLI: ACP59X_12940(dhaK)
+            DDE: Dde_1178
+            DSA: Desal_2545
+            DHY: DESAM_22628(dhaK)
+            DVU: DVU_0979
+            DVL: Dvul_2009
+            DVM: DvMF_2582
+            DVG: Deval_0905
+            AORY: AMOR_02970 AMOR_04110
+            SUR: STAUR_2092
+            PBRU: LZC95_52005(dhaK)
+            PRUE: LVJ94_51820(dhaK)
+            PALJ: LZC94_10365(dhaK)
+            SCL: sce2491(dak1)
+            SCU: SCE1572_14965
+            SORG: NQZ70_03112(dhaK)
+            PAUU: E8A73_021950(dhaK)
+            STI: Sthe_3123
+            OBT: OPIT5_10045 OPIT5_28205
+            PPHT: GA004_04415
+            ROO: G5S37_14015
+            KNV: Pan216_54430(dhaK)
+            LPRO: PQO03_04760
+            LBAC: LJT99_01340
+            TDE: TDE_2360
+            TPK: JO40_08585
+            TPHG: FUT81_14895(dhaK)
+            TSK: HRI97_00810(dhaK)
+            SSM: Spirs_0071 Spirs_2700
+            SGP: SpiGrapes_0180 SpiGrapes_1737
+            TAZ: TREAZ_0193 TREAZ_3644
+            BHC: JFL75_03040
+            BHY: BHWA1_02444(dhaK)
+            BHD: BHYOB78_04020
+            BHYB: B204_002210(dhaK)
+            BHYJ: JR80WH_002247(dhaK)
+            BRM: Bmur_2201
+            BIP: Bint_2220(dhaK)
+            BHP: BHAMNSH16_03945
+            BCEL: BcellWH2_01199(dhaK)
+            BIS: DXK01_020520
+            BNO: K8P02_06750 K8P02_19840
+            PDI: BDI_0629
+            PARC: CI960_07095
+            PMER: INE87_00401(dhaK)
+            PGOL: K6V26_11715
+            PJO: LK449_06470
+            PFAI: NXY11_10315
+            RBC: BN938_0047
+            MBAS: ALGA_3664
+            FAX: FUAX_35280
+            ATK: AUTU_49100
+            FNK: E1750_17375
+            CPRV: CYPRO_3033
+            ALAM: RT761_00654(dhaK)
+            TVX: QBE54_08460(dhaK) QBE54_09260(dhaK)
+            ATHO: M15_02290(dhaK_1) M15_04250(dhaK_2)
+            BTM: MC28_F111
+            BWD: CT694_32990
+            BMET: BMMGA3_04845(dhaK)
+            BSM: BSM4216_1881
+            BASB: M662_15240(dhaK)
+            BKN: WDJ61_07590(dhaK)
+            BAEZ: DPQ26_14880(dhaK)
+            BACN: GNK04_04510(dhaK)
+            BHA: BH3397
+            BKW: BkAM31D_09820(dhaK_1) BkAM31D_22930(dhaK_2)
+            BCL: ABC0952 ABC3610
+            OIH: OB2474
+            OCN: CUC15_14090
+            OJD: NP439_01340 NP439_18845(dhaK)
+            OON: NP440_01405 NP440_03580 NP440_16425
+            OKM: ACN6MR_10540 ACN6MR_12750(dhaK)
+            HHD: HBHAL_3985(dhaK)
+            HMN: HM131_06035
+            HLI: HLI_15255
+            HNZ: P9989_17820
+            HSAN: MUN89_19265(dhaK)
+            HSHI: MUO14_06160(dhaK)
+            HAMY: MUO15_18420(dhaK)
+            VIR: X953_07070
+            VHL: BME96_05985
+            VIG: BKP57_16895
+            VIL: CFK37_10780 CFK37_18070
+            VPN: A21D_00263(dhaK)
+            VIM: GWK91_09945(dhaK)
+            VPT: KBP50_13065(dhaK)
+            VIK: KFZ58_05950(dhaK) KFZ58_05965(dhaK) KFZ58_13670(dhaK)
+            VSS: PD280_11445(dhaK) PD280_11545
+            LAO: AOX59_18390
+            LEX: Len3610_10170(dhaK)
+            SJE: AAV35_012305
+            SAPL: U0355_13840(dhaK)
+            APAK: AP3564_02565
+            ACOP: RI196_10245(dhaK) RI196_14920(dhaK)
+            PPSR: I6J18_01240(dhaK)
+            PESI: V1500_13005(dhaK) V1500_14645
+            AQT: FN924_14695(dhaK)
+            RAX: KO561_15625(dhaK)
+            BTHV: CQJ30_04370
+            PSYB: KD050_04810(dhaK)
+            GRC: GI584_07785(dhaK) GI584_20995(dhaK)
+            GCS: MUN88_20645(dhaK)
+            GSM: MUN87_20905(dhaK)
+            SALE: EPH95_11945(dhaK)
+            SCIB: HUG20_17910(dhaK)
+            SCIA: HUG15_21725(dhaK)
+            NDT: L1999_26495(dhaK)
+            MLIT: KDJ21_019355(dhaK)
+            MENL: MVE64_25505(dhaK)
+            MEBZ: LPC09_11660(dhaK)
+            SEDD: ERJ70_14990(dhaK)
+            BCK: BCO26_2485
+            BAG: Bcoa_1902
+            BCOA: BF29_1643(dhaK)
+            BVJ: I5776_17625(dhaK)
+            BOU: I5818_21680(dhaK)
+            HSPO: JGZ69_02935(dhaK)
+            BBEV: BBEV_0421(dhaK)
+            BSE: Bsel_0937
+            PSUA: FLK61_34525(dhaK)
+            FHL: OE105_04665(dhaK)
+            FAF: OE104_06495(dhaK)
+            AHAL: FTX54_011865(dhaK)
+            PMAF: V1498_12400(dhaK)
+            PEST: V1501_09080(dhaK)
+            FEC: QNH15_21630(dhaK) QNH15_22185
+            PHJ: LC071_16410(dhaK)
+            BCAL: CWI35_00750
+            GWC: GWCH70_1342
+            GYC: GYMC61_2220
+            GYA: GYMC52_1348
+            GMC: GY4MC1_2541
+            GSE: GT50_00910
+            PTB: DER53_11225(dhaK)
+            PARG: PspKH34_24120(dhaK1)
+            PCAL: BV455_00413(dhaK)
+            ANM: GFC28_2948(dhaK)
+            ANL: GFC29_2487(dhaK)
+            AND: GRQ40_17000(dhaK)
+            ACAI: ISX45_04770(dhaK)
+            HYI: K2M58_03975(dhaK)
+            PUK: PU629_02840 PU629_10350(dhaK) PU629_13160 PU629_20530(dhaK)
+            SAU: SA0605
+            SAV: SAV0650
+            SAW: SAHV_0647
+            SAH: SaurJH1_0688
+            SAJ: SaurJH9_0673
+            SAM: MW0612
+            SAS: SAS0615
+            SAR: SAR0660
+            SAC: SACOL0707
+            SAX: USA300HOU_0671
+            SAA: SAUSA300_0636
+            SAO: SAOUHSC_00655
+            SAE: NWMN_0619
+            SAD: SAAV_0612
+            SUU: M013TW_0637(dhaK)
+            SUV: SAVC_02880
+            SUE: SAOV_0684
+            SUJ: SAA6159_00604(dhaK)
+            SUK: SAA6008_00666
+            SUC: ECTR2_601(dhaK)
+            SUT: SAT0131_00720
+            SUQ: HMPREF0772_12538(dhaK)
+            SUZ: MS7_0700(dhaK)
+            SUD: ST398NM01_0728
+            SUX: SAEMRSA15_05760
+            SUW: SATW20_07250
+            SUG: SAPIG0728(dhaK)
+            SUF: SARLGA251_05830
+            SAUA: SAAG_01072
+            SAUE: RSAU_000626(dhaK)
+            SAUN: SAKOR_00644
+            SAUS: SA40_0590
+            SAUU: SA957_0605
+            SAUG: SA268_0603
+            SAUZ: SAZ172_0661
+            SAUT: SAI1T1_2005020
+            SAUJ: SAI2T2_1005040
+            SAUK: SAI3T3_1005030
+            SAUQ: SAI4T8_1005020
+            SAUV: SAI7S6_1005030
+            SAUW: SAI5S5_1004990
+            SAUX: SAI6T6_1005000
+            SAUY: SAI8T7_1005030
+            SAUF: X998_0697
+            SAB: SAB0599
+            SUY: SA2981_0626(dhaK)
+            SAUB: C248_0733
+            SAUM: BN843_6510
+            SAUC: CA347_663(dhaK)
+            SAUR: SABB_00697
+            SAUI: AZ30_03400
+            SAUD: CH52_02515
+            SAMS: NI36_03255
+            SUH: SAMSHR1132_05960
+            SER: SERP2345
+            SEP: SE_0236
+            SEPP: SEB_00161
+            SEPS: DP17_1233(dhaK)
+            SHA: SH2244
+            SHH: ShL2_02092
+            SSP: SSP0525 SSP2070
+            SCA: SCA_2113 SCA_2415
+            SSD: SPSINT_2208
+            SDT: SPSE_0259(dhaK)
+            SDP: NCTC12225_00312(dhaK)
+            SWA: A284_10080
+            SPAS: STP1_1735
+            SXY: BE24_01005 BE24_09340
+            SXL: SXYLSMQ121_0560 SXYLSMQ121_2047
+            SXO: SXYL_00566 SXYL_02200(dhaK)
+            SHU: SHYC_01740(dhaK)
+            SCAP: AYP1020_0017(dhaK)
+            SSCH: LH95_00305 LH95_01590
+            SSCZ: RN70_00500 RN70_01930
+            SAGQ: EP23_08385(dhaK)
+            SEQO: SE1039_04780 SE1039_20480
+            SSIF: AL483_11805
+            SCV: A4G25_09640
+            SPET: CEP67_10235
+            SLZ: B5P37_04690
+            SCOH: BZ166_07060
+            SURY: MUA21_01910(dhaK)
+            SNL: BJD96_02940 BJD96_11625
+            SKL: C7J89_04190 C7J89_12200
+            SFQ: C7J90_04385
+            SMUS: C7J88_06655
+            SCAR: DWB96_10980
+            SCHR: DWB92_01545
+            SARL: SAP2_06050 SAP2_21190
+            SPIC: SAMEA4384060_0435(dhaK)
+            SSH: NCTC13712_00612(dhaK)
+            SSIM: SAMEA4384339_0061(dhaK_1) SAMEA4384339_0592(dhaK_2)
+            SDB: CNQ82_02970(dhaK)
+            SLLO: ISP08_02880 ISP08_10465(dhaK)
+            SAUL: I6G39_09465(dhaK)
+            SSAC: I6I31_03605(dhaK)
+            SRAI: LN051_01270(dhaK)
+            SPSD: JMB28_03295 JMB28_11145(dhaK)
+            STAS: HYI43_10410(dhaK)
+            SEDA: MNY58_02865 MNY58_11170(dhaK)
+            SCAQ: QMO72_02840 QMO72_11055(dhaK)
+            SROT: ML435_03055(dhaK)
+            STAP: AOB58_1279 AOB58_2367
+            SHSI: QQM35_04935(dhaK)
+            SGAI: K3U27_00950(dhaK) K3U27_08925
+            SSUC: ACSSAF_02725 ACSSAF_10935(dhaK)
+            SSCU: CEP64_02510
+            SFF: FOB90_06205(dhaK) FOB90_07510(dhaK)
+            SSTE: SAMEA4384403_0582(dhaK_1) SAMEA4384403_1611(dhaK_2)
+            MLEN: H3V22_05815(dhaK)
+            MVT: I6J10_08225(dhaK)
+            MACR: BHM04_07800
+            MBOC: QSV55_08810(dhaK)
+            MPSH: QA539_02145(dhaK)
+            MBOE: HT586_02970(dhaK)
+            SHV: AAT16_00735 AAT16_04285
+            SBAH: RQP18_00420(dhaK) RQP18_03590
+            SAHZ: ACKRAT_00480(dhaK)
+            LMO: lmo0348 lmo2695
+            LMN: LM5578_0165 LM5578_0383
+            LMY: LM5923_0165 LM5923_0382
+            LMT: LMRG_00039 LMRG_02002
+            LMOC: LMOSLCC5850_0350 LMOSLCC5850_2708
+            LMOE: BN418_0389 BN418_3185
+            LMOB: BN419_0400
+            LMOD: LMON_0355 LMON_2718
+            LMOW: AX10_07645 AX10_10290
+            LMOQ: LM6179_00110(dhaK1) LM6179_00648(dhaK2)
+            LMR: LMR479A_0359 LMR479A_2833(dhaK)
+            LMOM: IJ09_08575 IJ09_11240
+            LMF: LMOf2365_0368 LMOf2365_2674
+            LMC: Lm4b_00366 Lm4b_02668
+            LMOG: BN389_03710(dhaK) BN389_26630(dhaK_2)
+            LMP: MUO_01925 MUO_13490
+            LMOL: LMOL312_0346 LMOL312_2660
+            LMOJ: LM220_05027 LM220_08520
+            LMOZ: LM1816_05583 LM1816_16845(dhaK)
+            LMOX: AX24_11545 AX24_14525
+            LMH: LMHCC_2286 LMHCC_2840(dhaK)
+            LMQ: LMM7_0376(dhaK) LMM7_2806(dhaK)
+            LML: lmo4a_0365 lmo4a_2758
+            LMG: LMKG_01566 LMKG_02144
+            LMS: LMLG_0701 LMLG_1319
+            LMJ: LMOG_01804 LMOG_02736
+            LMW: LMOSLCC2755_0349 LMOSLCC2755_2714
+            LMX: LMOSLCC2372_0349 LMOSLCC2372_2773
+            LMZ: LMOSLCC2482_0350 LMOSLCC2482_2713
+            LMON: LMOSLCC2376_0328 LMOSLCC2376_2590
+            LMOS: LMOSLCC7179_0334 LMOSLCC7179_2667
+            LMOO: LMOSLCC2378_0365 LMOSLCC2378_2703
+            LMOY: LMOSLCC2479_0348 LMOSLCC2479_2772
+            LMOT: LMOSLCC2540_0360 LMOSLCC2540_2744
+            LMOA: LMOATCC19117_0373 LMOATCC19117_2704
+            LMOK: CQ02_01915 CQ02_13755
+            LMV: Y193_02115(dhaK) Y193_14045
+            LIN: lin0366 lin2843
+            LWE: lwe0304 lwe0802 lwe2644(dak1)
+            LSG: lse_0298 lse_2600
+            LIV: LIV_2621
+            LII: JL52_13810
+            LIW: AX25_14025
+            LIA: JL58_01715 JL58_14155
+            LIO: JL53_02055 JL53_14605
+            LWI: UE46_14805
+            LGZ: NCTC10812_02707(dhaK)
+            LMAR: LAX80_013185(dhaK)
+            LNW: OTR81_02795 OTR81_06835(dhaK)
+            BTHS: CNY62_04305
+            ESI: Exig_1088
+            EAT: EAT1b_0714
+            EAN: Eab7_1060
+            EXM: U719_05670
+            EXU: ESP131_08055
+            EAP: KB235_06860(dhaK)
+            EACE: KKI46_05855(dhaK)
+            EAUR: NMQ00_05590(dhaK)
+            EMM: PTI97_09280(dhaK)
+            EPF: OE059_05290(dhaK)
+            EXI: A0126_05490
+            EXH: HNY42_07005(dhaK)
+            EMEX: ACNOIU_05170(dhaK)
+            BCHS: JNE38_03995(dhaK)
+            PNP: IJ22_29820
+            POW: IJ21_00820 IJ21_26310
+            PBK: Back11_58440
+            PTHI: NDS46_08740
+            PMAE: LMZ02_12170
+            PPOG: QPK24_04485
+            PKP: SK3146_02877(dhaK)
+            TCO: Theco_3630
+            CHEB: HH215_08360(dhaK)
+            COHL: J4772_35415(dhaK)
+            AACO: K1I37_00500(dhaK) K1I37_06005(dhaK)
+            ADAU: NZD86_10465 NZD86_16060
+            AFAS: NZD89_23650 NZD89_26885 NZD89_28425
+            ALIC: GI364_09660(dhaK) GI364_16855(dhaK) GI364_19035
+            FFE: LSG31_21565(dhaK)
+            PMAR: B0X71_18380
+            SPAE: E2C16_10795(dhaK)
+            VIJ: JNUCC6_03505(dhaK)
+            NTR: B0W44_06120 B0W44_10505
+            TVU: AB849_010480(dhaK)
+            PABS: JIR001_17330(dhaK1)
+            LLA: L45677(dhaL)
+            LLK: LLKF_0245(dhaK)
+            LLT: CVCAS_0229(dhaK2)
+            LLS: lilo_0205(dhaL)
+            LLD: P620_01555
+            LLX: NCDO2118_0243(dhaK)
+            LLJ: LG36_0231(dhaK)
+            LLR: llh_1470
+            LLI: uc509_0250(dhaK)
+            LLW: kw2_0239
+            LACN: QJV49_08590(dhaK)
+            LPK: LACPI_1472(dhaK)
+            LRN: CMV25_09925
+            LCAR: BHS00_03785
+            SPM: spyM18_0585
+            SPI: MGAS10750_Spy0447
+            SPF: SpyM51437
+            SPA: M6_Spy0461
+            SPV: SPH_1292(dhaK1)
+            SAG: SAG1650
+            SAN: gbs1694
+            SAK: SAK_1662
+            SGC: A964_1554(dhaK)
+            SAGS: SaSA20_1363
+            SAGM: BSA_17080
+            SAGI: MSA_17740
+            SAGR: SAIL_17010
+            SAGT: GBSCOH1_1500
+            SAGE: EN72_08925
+            SAGG: EN73_08080
+            SAGN: W903_1641(dhaK)
+            SAGJ: ID870_01490(dhaK)
+            SSA: SSA_0049
+            SSB: SSUBM407_1819
+            SSU: SSU05_1957
+            SSV: SSU98_1962
+            SSI: SSU1749
+            SSS: SSUSC84_1771
+            SSF: SSUA7_1777
+            SSW: SSGZ1_1771
+            SUP: YYK_08415
+            SSUS: NJAUSS_1802
+            SST: SSUST3_1797
+            SSUY: YB51_8875
+            SSK: SSUD12_1927
+            SSQ: SSUD9_1975
+            SUI: SSUJS14_1915
+            SUO: SSU12_1893
+            SRP: SSUST1_1852
+            SSUT: TL13_1763(dhaK)
+            SSUI: T15_2030(dhaK)
+            SEQ: SZO_05660(dhaK)
+            SUB: SUB0543
+            SDS: SDEG_0556
+            SDG: SDE12394_02800
+            SDA: GGS_0531
+            SDC: SDSE_0585(dhaK)
+            SDQ: SDSE167_0608(dhaK)
+            SGT: SGGB_1052(dhaK)
+            SMB: smi_1051
+            STOY: STYK_09600
+            STK: STP_0347
+            STB: SGPB_0919(dhaK)
+            SSR: SALIVB_0699(dhaK)
+            STF: Ssal_00757(dhaK)
+            STJ: SALIVA_1418(dhaK)
+            STRS: SSAL8618_06960
+            SSAH: HSISS4_01258
+            STD: SPPN_05705
+            SIU: SII_0064
+            SANG: SAIN_0062
+            SANC: SANR_0062
+            SANS: DK43_09815
+            SCG: SCI_0065
+            SCON: SCRE_0065
+            SCOS: SCR2_0065
+            SIK: K710_1434
+            SIQ: DQ08_06660
+            SIO: DW64_06650
+            SIZ: SI82_06790
+            SSOB: DK181_02455
+            SRQ: SR187_8920(dhaK)
+            SEQI: A6J79_09725
+            SPEI: EHW89_00325(dhaK)
+            SPLR: C0J00_02755
+            STRG: SRT_09980(dhaK)
+            SVB: NCTC12167_01313(dhaK)
+            SFER: NCTC12278_01255(dhaK)
+            SCAI: NCTC12191_00020(dhaK)
+            SPSU: NCTC13786_01843(dhaK)
+            SPOC: NCTC10925_01319(dhaK)
+            SURN: NCTC13766_01596(dhaK)
+            SACO: SAME_00762(dhaK)
+            SMIE: NCTC11169_00063(dhaK)
+            SPAM: SP4011_10180
+            SZG: J5M87_08630(dhaK)
+            SINS: PW252_01215(dhaK)
+            FPEN: KIW23_04940(dhaK)
+            LAC: LBA1433
+            LAD: LA14_1432
+            LAF: SD55_1415
+            LDE: LDBND_1827(dAK)
+            LHL: LBHH_0436
+            LHR: R0052_02725
+            LAM: LA2_02515
+            LAY: LAB52_02305
+            LKE: WANG_0173 WANG_p2040
+            LAW: LACWKB8_1034
+            LAE: LBAT_0203
+            LJE: BUE77_05210
+            LKL: DKL58_05235(dhaK) DKL58_07335
+            LHS: DLD54_04880(dhaK)
+            LTA: H1A07_02675(dhaK)
+            LPAI: GYM71_05440(dhaK)
+            LID: GYK47_04155(dhaK)
+            LIQ: KBW87_09420(dhaK)
+            LMUL: PUW59_03840(dhaK)
+            LACH: LDX54_06065(dhaK)
+            LCA: LSEI_0421
+            LCZ: LCAZH_0454
+            LCS: LCBD_0421 LCBD_0491
+            LCE: LC2W_0416 LC2W_0493
+            LCW: BN194_04260(dhaK) BN194_04980(dhaK_2)
+            LCL: LOCK919_0516
+            LPQ: AF91_01385
+            LPI: LBPG_02608
+            LPAP: LBPC_0388
+            LCB: LCABL_04180(dhaK) LCABL_04940(dak1B)
+            LCX: LCA12A_2434
+            LRH: LGG_00509(dhaK)
+            LRG: LRHM_0491
+            LRL: LC705_00500(dhaK)
+            LRA: LRHK_516(dhaK)
+            LRO: LOCK900_0473
+            LRC: LOCK908_0508
+            LCHI: KG086_01825(dhaK)
+            LZE: KG087_02105(dhaK)
+            LHN: LHUE1_001536(dhaK)
+            LPAH: LACPH_000440(dhaK)
+            LSB: LACSTY_000443(dhaK)
+            LPL: lp_0168(dak1B)
+            LPJ: JDM1_0157(dak1B)
+            LPT: zj316_0371(dak1B)
+            LPS: LPST_C0135(dak1B)
+            LPR: LBP_cg0140 LBP_p4g014
+            LPZ: Lp16_0151 Lp16_D011
+            LPB: SH83_00705
+            LPX: ASU28_03500
+            LPG: BB562_00730
+            LARG: LPA65_00745(dhaK)
+            LNG: BSQ50_05740
+            LHW: BSQ49_10425
+            LMAL: LM596_10725(dhaK)
+            LSL: LSL_1633(dAK)
+            LSI: HN6_01371(dAK)
+            LSJ: LSJ_1691c(dAK)
+            LRM: LRC_17770(dhaK)
+            LACA: LAC1533_0167
+            LANI: FAX13_09085(dhaK)
+            LFD: QFX10_06055(dhaK)
+            LBT: AYR52_08865 AYR52_11890
+            LCY: LC20004_02335
+            PPE: PEPE_1662
+            PPEN: T256_08180
+            PCE: PECL_1737(dhaK)
+            PACI: A4V11_05800
+            LGN: ABM34_02210
+            LHI: JP39_03765
+            LCT: BI355_0722
+            LALW: BTM29_10570
+            LALI: LA20249_02060
+            LFM: LF20184_08685
+            LZH: D1B17_04085(dhaK)
+            LFT: FG051_08480(dhaK)
+            CPAB: G6534_03160(dhaK)
+            LCV: FBA2_08320
+            LGM: LG542_01780(dhaK)
+            LBM: DS830_03610(dhaK)
+            LHB: D1010_14445(dhaK)
+            WHE: EFA59_01045(dhaK)
+            WSA: AB9G37_06300(dhaK)
+            XAK: KIMC2_08340
+            EFA: EF1360
+            EFL: EF62_1811(dhaK)
+            EFI: OG1RF_11148(dhaK)
+            EFD: EFD32_1172
+            EFS: EFS1_1180(dhaK)
+            EFN: DENG_01520(dhaK)
+            EFQ: DR75_434(dhaK)
+            EFC: EFAU004_00393
+            EFAU: EFAU085_00329
+            EFU: HMPREF0351_10403(dhaK2)
+            EFM: M7W_568
+            EFT: M395_01825
+            EHR: EHR_03495
+            ECAS: ECBG_02497
+            EMU: EMQU_0380(dhaK2)
+            EDU: LIU_00065
+            EGA: AL523_02230(dhaK) AL523_08555(dhaK)
+            ESS: ATZ33_13315
+            ETH: CK496_01290(dhaK)
+            EGV: EGCR1_14930 EGCR1_15820 EGCR1_17150(dhaK)
+            EAV: EH197_02210(dhaK) EH197_05780 EH197_05795(dhaK) EH197_06215
+            ESG: EsVE80_20350
+            ELAC: I4Q40_02050(dhaK)
+            ERAF: J9537_02190(dhaK) J9537_15595(dhaK)
+            EIE: ENLAB_12170(DAK_1)
+            EDS: PML78_10080(dhaK)
+            EMS: P3T75_02395(dhaK)
+            ENI: CXM95_15065(dhaK)
+            ERX: ATZ35_04895
+            ENQ: RBL01_001705(dhaK)
+            EDE: AAEO79_01500(dhaK) AAEO79_14785(dhaK)
+            THL: TEH_02720(dhaK) TEH_04860(dhaK)
+            TEY: GLW17_04420(dhaK) GLW17_05645(dhaK)
+            TOO: C7K38_03280(dhaK)
+            TKR: C7K43_09325(dhaK)
+            VTE: BHY08_02530
+            VPI: BW732_02115 BW732_07790
+            VAC: E4Z98_08905(dhaK)
+            VAO: FA707_04685(dhaK)
+            VAH: G7081_03335(dhaK)
+            VCP: H9L18_13045(dhaK)
+            VHY: G7082_08005(dhaK)
+            VFV: K5K99_04820(dhaK)
+            VLU: M2919_08460(dhaK)
+            VLC: G314FT_00990(dhaK_2)
+            VIE: OL234_09240(dhaK)
+            AUI: APT62_09345
+            ASAN: AWM72_01665
+            AVS: AWM76_00845
+            AUH: AWM75_04495
+            ABAE: CL176_01865(dhaK)
+            FCT: NRE15_11045(dhaK)
+            RTF: VQP54_03525(dhaK)
+            CRN: CAR_c01110(dhaK)
+            CML: BN424_3631(dhaK)
+            CAW: Q783_00280
+            CARC: NY10_1823
+            CDJ: BFC22_01090
+            CARN: FPV25_06645(dhaK)
+            CVD: LHA31_06450(dhaK)
+            MARR: BKP56_00905 BKP56_03165 BKP56_11310
+            JDA: BW727_101936(dhaK)
+            JEM: LZ578_12260(dhaK)
+            DPM: FNV33_03205(dhaK)
+            DST: VUQ06_01540(dhaK)
+            DINC: QNK01_04150(dhaK)
+            ALKF: ACO1PF_07830(dhaK)
+            CTC: CTC_01762
+            CTET: BN906_01911
+            CNO: NT01CX_0689(dhaK)
+            CBK: CLL_A0109(dhaK)
+            CBN: CbC4_2421(dhaK)
+            CBT: CLH_0093(dhaK)
+            CBE: Cbei_2148
+            CBZ: Cbs_2148
+            CBEI: LF65_03491
+            CLB: Clo1100_1938
+            CPAS: Clopa_3762
+            CBV: U729_2235(dhaK)
+            CSQ: CSCA_1468
+            CCK: Ccar_07355
+            CBUT: ATN24_04560
+            CTAE: BGI42_00430
+            CFM: BJL90_00850
+            CDRK: B9W14_11920
+            CIA: BEN51_10890
+            CDY: F3K33_10720(dhaK) F3K33_19855(dhaK)
+            CCOH: SAMEA4530647_1546(dhaK)
+            CGAS: J1C67_06570(dhaK)
+            CTAG: LL095_02550(dhaK)
+            CINT: HZF06_08305(dhaK)
+            CLOL: ONV75_17570(dhaK)
+            CIU: G4D55_01295(dhaK) G4D55_01725 G4D55_01745(dhaK) G4D55_08480(dhaK) G4D55_15900 G4D55_20080
+            CLOM: AXY43_25475
+            CLOO: RCG18_12975(dhaK)
+            CALE: FDN13_06225(dhaK) FDN13_13750(dhaK)
+            CPRF: K7H06_15395 K7H06_15430(dhaK)
+            CLO: HMPREF0868_1138(dhaK)
+            CCE: Ccel_1639
+            RPAY: P0092_11335
+            OBJ: EIO64_03420
+            CLF: GJQ69_08330(dhaK)
+            ACOL: K5I23_03735 K5I23_08695 K5I23_10160 K5I23_13950
+            LASA: L9O85_00945 L9O85_02015
+            PETR: QKW49_10575
+            BIE: RFF05_11760
+            RBP: B6259_02095
+            CAPR: EQM14_03925 EQM14_11820 EQM14_13630 EQM14_13665
+            CFEM: HCR03_03315(dhaK)
+            INT: RX717_05680
+            HMO: HM1_0840(dhaK)
+            ELM: ELI_1078 ELI_3084 ELI_4294
+            EMT: CPZ25_007840 CPZ25_008805 CPZ25_014550
+            ELIM: B2M23_01935 B2M23_13000 B2M23_14005
+            AWO: Awo_c09010(dhaK1) Awo_c16680(dhaL2) Awo_c20330(dhaK2)
+            AWI: CHL1_001463 CHL1_001472 CHL1_001916(dhaK) CHL1_002875(dhaK)
+            AMAJ: ACIUZZ_08035 ACIUZZ_08080 ACIUZZ_10000(dhaK) ACIUZZ_16050
+            ACAE: HYG86_11080(dhaK)
+            TMR: Tmar_1641
+            THEF: E1B22_11715(dhaK)
+            THEP: DYI95_008125(dhaK)
+            TCP: Q5761_08300(dhaK)
+            SAY: TPY_2953(dhaK)
+            SAP: Sulac_0936
+            STHR: BXT84_10470
+            HFV: R50_2686(dhaK)
+            PROM: QO263_02860(dhaK)
+            ROB: CK5_12870
+            BPRO: PMF13cell1_01510(dhaK)
+            BCOC: BLCOC_04330(dhaK-2) BLCOC_54170(dhaK)
+            BLIQ: INP51_11405(dhaK)
+            BLAR: LC508_16205(dhaK)
+            BLUI: Blut17040_26950
+            BHV: BLHYD_15030(dhaK)
+            CPY: Cphy_1262
+            LACY: A4V08_07195 A4V08_13870 A4V08_15520
+            CSCI: HDCHBGLK_00756(dhaK)
+            CHYL: CE91St63_00220 CE91St63_19860 CE91St63_28400 CE91St63_29840 CE91St63_31030 CE91St63_31870 CE91St63_33270
+            CSH: Closa_1831 Closa_1990
+            CSO: CLS_12830
+            BPRL: CL2_01580 CL2_02570 CL2_21970 CL2_22000
+            ARF: AR1Y2_0259 AR1Y2_0304 AR1Y2_0307 AR1Y2_3039 AR1Y2_3101 AR1Y2_3233
+            ACAC: EYQ97_01660 EYQ97_02345 EYQ97_02545 EYQ97_06330 EYQ97_15180(dhaK) EYQ97_15195
+            LGG: QJR73_00040
+            EHL: EHLA_1089
+            PXV: FXF36_06675(dhaK)
+            CBOL: CGC65_01290 CGC65_02965 CGC65_10595
+            CASP: NQ535_03380 NQ535_04935 NQ535_10640(dhaK)
+            ECLF: QMP25_02605(dhaK) QMP25_26505 QMP25_28500
+            QDO: H9Q78_06855 H9Q78_10095(dhaK)
+            WHJ: H9Q79_15425 H9Q79_17365
+            KSI: V6984_06595 V6984_20825 V6984_21120
+            LBP: V1224_05705 V1224_06700 V1224_13930
+            CBAR: PATL70BA_0904(dhaK)
+            VGU: HYG85_08160(dhaK) HYG85_17720(dhaK) HYG85_22265
+            VPY: HZI73_20635
+            ETM: CE91St48_12480
+            AHAD: FRZ06_05405
+            AMT: Amet_4114
+            GFE: Gferi_13095 Gferi_18050
+            CSPO: QNI18_06280(dhaK)
+            ROC: HF520_06075(dhaK) HF520_08730(dhaK)
+            THYR: P4S50_11090(dhaK)
+            CMIU: B1H56_13190
+            TTE: TTE1997(Dak1.2)
+            TEX: Teth514_1025 Teth514_1909
+            THX: Thet_1025 Thet_1891
+            TPD: Teth39_0542
+            TIT: Thit_1796
+            TMT: Tmath_1776
+            TBO: Thebr_0556
+            TWI: Thewi_2004
+            THEZ: OEI98_001987 OEI98_002300(dhaK)
+            GEK: kuro4_26490(dhaK1_1) kuro4_27260(dhaK1_2)
+            TTM: Tthe_0591
+            TTO: Thethe_00588
+            TXY: Thexy_0486
+            TSH: Tsac_1209
+            THED: SAMN05660242_2269
+            TEP: TepRe1_0577 TepRe1_2221
+            TAE: TepiRe1_0630(dhaK) TepiRe1_2389(dhaK)
+            BACG: D2962_14770(dhaK)
+            HOR: Hore_03250
+            HAS: Halsa_0014 Halsa_0685 Halsa_2303
+            HPK: Hprae_0015
+            HALS: D7D81_01040(dhaK) D7D81_01165(dhaK) D7D81_01185(dhaK)
+            IFN: GM661_17100(dhaK) GM661_17235(dhaK) GM661_17255(dhaK)
+            KME: H0A61_00091(dhaK)
+            APR: Apre_1080
+            AVG: I6H45_04285(dhaK)
+            AOB: I6H46_07580(dhaK)
+            MHAP: JFY71_07815(dhaK)
+            GBX: SANA_04860(dhaK_1) SANA_07520(dhaK_2) SANA_11700
+            KPAR: JL105_08915(dhaK)
+            MED: MELS_0898
+            MEG: DKB62_08635
+            MMAX: LCQ47_09835(dhaK)
+            SRI: SELR_18870(dhaK) SELR_20410(dhaK)
+            SELO: AXE86_06300
+            SELM: TAMA11512_03660(dhaK)
+            MHG: MHY_05710
+            MFUN: GXM21_12445(dhaK)
+            PUF: UFO1_0518
+            PFT: JBW_03931
+            SSPH: SPSPH_046060(dhaK)
+            SOVA: SOV_52710(dhaK)
+            SSID: SPSIL_058560(dhaK)
+            SACV: SPACI_056970(dhaK)
+            SGBI: P3F81_11950(dhaK)
+            PFAC: PFJ30894_00533(dhaK)
+            ERD: G7062_07135 G7062_10250
+            EIO: H9L01_09325(dhaK) H9L01_09355(dhaQ)
+            LCG: L3BBH23_08690
+            ERB: A4V01_03105 A4V01_03545 A4V01_09720 A4V01_18830
+            FBS: N510_001814(dhaK)
+            MMY: MSC_0747(dhaK1)
+            MMYM: MMS_A0818(dhaK)
+            MMYI: mycmycITA_00789(dhaK)
+            MML: MLC_6970(dhaK1)
+            MCP: MCAP_0698
+            MCAP: MCCPF38_00812(dhaK_2)
+            MCAI: MCCG_0799
+            MLC: MSB_A0716(dhaK)
+            MLH: MLEA_006760(dhaK)
+            MFER: D500_00213(dhaK)
+            MCD: MCRO_0437(dhaK)
+            MPF: MPUT_0043(dhaK)
+            MPUT: MPUT9231_6950(dhaK1)
+            MANS: FRW55_02025(dhaK)
+            MLAC: CP520_01540
+            ELJ: ELUMI_v1c07320(dhaK) ELUMI_v1c07330(dhaK)
+            SCR: SCHRY_v1c08500(dhaK)
+            SSYR: SSYRP_v1c08870(dhaK)
+            SCLA: SCLARK_001168
+            MMOL: NX772_01845(dhaK)
+            MLAG: QEG99_01740(dhaK)
+            MCOU: NCTC10179_00230(dhaK)
+            MCY: MCYN_0520(MCYN0520)
+            MCAS: AAW50_00305
+            MCK: AXW82_00225
+            MPUL: BLA55_00345
+            MBOH: CO229_02375
+            MANI: DP067_01245
+            MFEL: JPM2_1330(dhaK1)
+            MCIT: NCTC10181_00736(dhaK)
+            MCAV: NPA07_00185(dhaK)
+            MCAG: MCAV_00740
+            MPE: MYPE3320(MYPE3320)
+            FVG: I6G91_03610(dhaK)
+            OLS: Olsu_0400
+            OLO: ADJ70_01615
+            ATB: J4859_15810
+            CGO: Corgl_0488
+            ELE: Elen_1229
+            EYY: EGYY_11650
+            EGD: GS424_006385
+            GPA: GPA_30710
+            RTS: CE91St31_12890
+            ERZ: ER308_14620(dhaK)
+            MSA: Mycsm_01720
+            MYE: AB431_10285
+            MDX: BTO20_24625
+            MYW: BVC93_10320
+            MSM: MSMEG_2123(dhaK)
+            MSG: MSMEI_2075
+            MSB: LJ00_10580
+            MSN: LI99_10580
+            MSH: LI98_10580
+            MLL: B1R94_04400 B1R94_12030 B1R94_18985
+            MAUB: MAUB_02810
+            MPOF: MPOR_20450(dhaK)
+            MMAT: MMAGJ_50610(dhaK) MMAGJ_55150
+            MSEI: MSEDJ_26520
+            MGO: AFA91_08700 AFA91_28525
+            MPAE: K0O64_09655(dhaK)
+            MCRO: MI149_09395(dhaK)
+            MFLU: HZU40_21770(dhaK)
+            ASD: AS9A_4379
+            CDI: DIP2334
+            CDH: CDB402_2194
+            CDE: CDHC02_2199
+            CDZ: CD31A_2356
+            CDB: CDBH8_2330
+            CDS: CDC7B_2307
+            CDD: CDCE8392_2222
+            CDW: CDPW8_2314
+            CDIP: ERS451417_02360(dhaK)
+            CAR: cauri_1455(dhaL)
+            CKP: ckrop_0152(dhaK)
+            CPU: CPFRC_05345(dhaK)
+            CPL: Cp3995_1084(dhaK)
+            CPG: CP316_05495(dhaK)
+            CPP: CpP54B96_1078(dhaK)
+            CPK: CP1002_07800(dhaK)
+            CPQ: CPC231_05350(dhaK)
+            CPX: CPI19_06170(dhaK)
+            CPZ: CpPAT10_1058(dhaK)
+            COR: Cp267_1110(dhaK)
+            COP: CP31_05725(dhaK)
+            COD: Cp106_1042(dhaK)
+            COS: Cp4202_1051(dhaK)
+            COI: CPCIP5297_05515(dhaK)
+            COE: CP258_05510(dhaK)
+            COU: CP162_05780(dhaK)
+            CPSE: CPTA_01633
+            CPSU: CPTB_02130
+            CPSF: CPTC_01624
+            CUL: CULC22_01134
+            CUC: CULC809_01119
+            CUE: CULC0102_1243
+            CUN: Cul210932_1175(dhaK)
+            CUQ: Cul210931_1125(dhaK)
+            CUZ: Cul05146_1199(dhaK)
+            CUJ: CUL131002_1157c(dhaK)
+            CUS: CulFRC11_1143(dhaK)
+            CSX: CSING_07960(dhaK)
+            CUT: CUTER_04690(dhaK)
+            CSP: WM42_2510(dhaK)
+            CSTR: CBE89_06225
+            CPEG: CPELA_10940(dhaK)
+            CGK: CGERO_10605(dhaK)
+            CPSO: CPPEL_11065(dhaK)
+            CKF: I6I12_05845(dhaK)
+            CSIL: CBE74_06370
+            CPYR: CYJ47_12210
+            CPSK: Q0N40_00760(dhaK)
+            CHES: R3O64_07590(dhaK)
+            CBEL: ABMV07_13665(dhaK)
+            NNO: NONO_c18670
+            NSR: NS506_00485(dhaK)
+            NTP: CRH09_33130
+            NOD: FOH10_14170(dhaK) FOH10_32295(dhaK)
+            NAH: F5544_37520(dhaK)
+            NTC: KHQ06_05230(dhaK)
+            NHU: H0264_00655(dhaK)
+            NYA: LTV02_32295(dhaK)
+            NYU: D7D52_21940(dhaK)
+            RER: RER_51510(dhaK)
+            RHOD: AOT96_05785
+            RANT: RHODO2019_03220(dhaK)
+            RHOH: CPI83_04585
+            RHJS: OYT95_41740
+            RHSQ: E7742_07720
+            PDEF: P9209_17255
+            PSOW: ABI214_00580
+            GOI: LK459_09615(dhaK)
+            SCO: SCO7073(SC4G1.39c)
+            SALB: XNR_4678
+            SMA: SAVERM_1285(dak1)
+            SGR: SGR_6662 SGR_776
+            SGB: WQO_00190 WQO_01785
+            SFI: SFUL_483
+            SANL: KZO11_01510(dhaK)
+            SGRF: SGFS_012000
+            SCYE: R2B67_23620 R2B67_34340(dhaK)
+            SCB: SCAB_83811(dhaK)
+            SSX: SACTE_0333 SACTE_0450
+            SVL: Strvi_5076 Strvi_5775
+            SHY: SHJG_2269
+            SHO: SHJGH_2034
+            SRC: M271_40265 M271_43295 M271_47325
+            SMAL: SMALA_0167 SMALA_0737
+            SAUO: BV401_00850 BV401_04570 BV401_07540
+            SSOI: I1A49_00590 I1A49_04265 I1A49_07280(dhaK)
+            SANT: QR300_36915(dhaK) QR300_40225
+            SFA: Sfla_5950
+            SBH: SBI_01109
+            SVE: SVEN_0402
+            SDV: BN159_8090(dhaK)
+            SALS: SLNWT_0162 SLNWT_0320
+            STRP: F750_0619(dhaK)
+            SCI: B446_04915
+            SLV: SLIV_03890
+            SGU: SGLAU_03155
+            SVT: SVTN_03910
+            STRE: GZL_07378
+            SCW: TU94_03180
+            SLD: T261_6994
+            SLC: SL103_13145
+            SXI: SXIM_07000
+            STRM: M444_03760
+            STRC: AA958_01770
+            SAMB: SAM23877_1013(dhaK)
+            SPRI: SPRI_6818
+            SCZ: ABE83_05100 ABE83_33140
+            SCX: AS200_39660
+            SRW: TUE45_01033(dhaK)
+            STRF: ASR50_04755
+            SLE: sle_62490(sle_62490)
+            SRN: A4G23_00178(dhaK)
+            SPAV: Spa2297_03010
+            STRT: A8713_02900
+            SCLF: BB341_00500 BB341_26600
+            SGS: AVL59_27990
+            STSI: A4E84_03435
+            SKY: D0C37_25240
+            SALW: CP975_03850(dhaK)
+            SGM: GCM10017557_02070(dhaK) GCM10017557_75930
+            SCAD: DN051_02305(dhaK) DN051_34190(dhaK)
+            SPHW: NFX46_24285(dhaK)
+            SGRS: V9K83_29400(dhaK) V9K83_32735
+            SLS: SLINC_0754
+            SNR: SNOUR_33945
+            SALL: SAZ_09380
+            SPLU: LK06_030340
+            STRD: NI25_34400
+            SNW: BBN63_31720
+            SSIA: A7J05_31130
+            SVU: B1H20_01355
+            SPUN: BFF78_38500
+            SGV: B1H19_08215
+            SLAU: SLA_0305
+            SALF: SMD44_00792(dhaK)
+            SALJ: SMD11_0582(dhaK)
+            SLX: SLAV_32635(dhaK)
+            STRO: STRMOE7_06950
+            SFK: KY5_0811
+            SNZ: DC008_02890(dhaK)
+            SGE: DWG14_07687(dhaK_1) DWG14_07786(dhaK_2)
+            SRJ: SRO_6595
+            SVQ: N6Q81_34455(dhaK)
+            SLK: SLUN_03650(dhaK) SLUN_20945(dhaK) SLUN_20960(dhaK)
+            SDX: C4B68_36740(dhaK)
+            SGD: ELQ87_29100 ELQ87_36345(dhaK)
+            SQZ: FQU76_01730(dhaK)
+            SCYA: EJ357_43285(dhaK)
+            SAST: CD934_02555(dhaK)
+            SNQ: CP978_31905(dhaK)
+            STIR: DDW44_15785(dhaK)
+            SKA: CP970_38920(dhaK)
+            SGZ: C0216_18715(dhaK)
+            SVN: CP980_29605(dhaK) CP980_33255(dhaK)
+            SNK: CP967_06200
+            SHAW: CEB94_03475(dhaK)
+            SRK: FGW37_29820(dhaK)
+            SFIC: EIZ62_30830(dhaK)
+            SGAL: CP966_01770(dhaK)
+            SSPO: DDQ41_30110(dhaK)
+            SVR: CP971_10175(dhaK)
+            SPAD: DVK44_00635(dhaK) DVK44_35175
+            SFY: GFH48_36970(dhaK)
+            SAQU: EJC51_06495(dhaK)
+            SGF: HEP81_06938(dhaK)
+            SCAV: CVT27_01500(dhaK) CVT27_27425
+            SSEO: D0Z67_01465(dhaK)
+            SBY: H7H31_02430(dhaK)
+            SRIM: CP984_35025(dhaK)
+            SSUB: CP968_00335(dhaK) CP968_28810(dhaK)
+            SPHV: F9278_02740(dhaK)
+            SCIN: CP977_03600(dhaK)
+            SFUG: CNQ36_31415(dhaK)
+            SPAC: B1H29_33215
+            STSU: B7R87_01925
+            SCHA: CP983_40315(dhaK)
+            SGX: H4W23_04415(dhaK)
+            SCOE: CP976_01405(dhaK)
+            SBAT: G4Z16_30450(dhaK)
+            SSPB: CP982_38345(dhaK)
+            SNF: JYK04_01429(dhaK)
+            SPLA: CP981_05525(dhaK)
+            SBRO: GQF42_06410(dhaK)
+            STUI: GCM10017668_64960
+            SATA: C5746_03540(dhaK)
+            SCHF: IPT68_03555(dhaK)
+            SHUN: DWB77_06636(dhaK)
+            SHAR: HUT13_04105(dhaK)
+            SCYG: S1361_03810(dhaK)
+            SFEU: IM697_26560(dhaK)
+            SLIA: HA039_02905(dhaK) HA039_05345 HA039_32115(dhaK)
+            SDW: K7C20_05180(dhaK)
+            SVD: CP969_06030(dhaK)
+            SCAL: I6J39_01460(dhaK)
+            SAUH: SU9_004140(dhaK)
+            SFB: CP974_00980(dhaK)
+            SMOB: J7W19_03535(dhaK)
+            SPRA: CP972_04390(dhaK) CP972_29610
+            SPEU: CGZ69_00760(dhaK) CGZ69_00775(dhaK) CGZ69_03250(dhaK)
+            SROI: IAG44_03195(dhaK)
+            SXN: IAG42_32135(dhaK)
+            SGJ: IAG43_02625(dhaK)
+            SANU: K7396_30570(dhaK)
+            SDD: D9753_32705(dhaK)
+            SACT: DMT42_03460(dhaK)
+            SMAO: CAG99_25845
+            SGOB: test1122_23620(dhaK) test1122_25395(dhaK)
+            SINE: KI385_08205(dhaK)
+            SLF: JEQ17_43570(dhaK)
+            SDEC: L3078_04330(dhaK)
+            SAOV: G3H79_34335(dhaK)
+            SDUR: M4V62_37600(dhaK)
+            SYAN: NRK68_00970(dhaK)
+            SRUG: F0345_06700
+            SAKB: K1J60_41750(dhaK)
+            STAA: LDH80_34595(dhaK)
+            SNIG: HEK616_22660
+            SVIO: HWN34_23640
+            SCAE: IHE65_41955(dhaK)
+            STUB: MMF93_02935(dhaK)
+            SSPN: LXH13_03070(dhaK)
+            SCIR: STRCI_000579(dhaK)
+            SXT: KPP03845_101128(dhaK)
+            SLON: LGI35_08045(dhaK)
+            SDRZ: NEH16_29970
+            STUD: STRTU_006186(dhaK)
+            STEE: F3L20_21995(dhaK)
+            SGK: PET44_02345(dhaK)
+            SYUN: MOV08_34180(dhaK)
+            SARG: HKX69_31670(dhaK)
+            SJN: RI060_39920(dhaK)
+            SCYN: N8I84_36750(dhaK)
+            SOV: QZH56_33450(dhaK)
+            SHAU: K9S39_37175(dhaK)
+            SKG: KJK29_36800(dhaK)
+            SCOA: QU709_41960(dhaK)
+            SLAI: P8A22_36135(dhaK)
+            SROC: RGF97_31320(dhaK)
+            SFP: QUY26_36465(dhaK)
+            SCHG: NRO40_01695(dhaK)
+            STTN: BSL84_01740
+            SINN: ABB07_34370
+            STRZ: OYE22_02385(dhaK)
+            SCAY: PYS65_32015(dhaK)
+            KBU: Q4V64_50400(dhaK)
+            SARM: DVA86_12990(dhaK) DVA86_32675(dhaK)
+            SPRF: K4G22_00790(dhaK)
+            SLUO: PS467_06430 PS467_06905(dhaK) PS467_37240
+            STPB: QR97_28615
+            SRPA: HEP86_06975(dhaK)
+            SMIB: SMIR_36180(dhaK)
+            SCAJ: O1G22_37345(dhaK)
+            STRW: QHG49_31445(dhaK)
+            STRL: HEP84_01665(dhaK) HEP84_08610(dhaK)
+            STSD: HEP87_57565
+            SRPZ: HEP85_04585(dhaK) HEP85_05115(dhaK)
+            SCHE: QRN89_02605(dhaK)
+            SGLY: P8A20_34685(dhaK)
+            SCAT: P8A18_00445 P8A18_01255(dhaK)
+            STII: DRB96_32715
+            STIC: DRB89_32370
+            SABD: N8I86_05215(dhaK)
+            STRV: EZV63_03200(dhaK) EZV63_32885
+            SPAZ: ABXI76_35000(dhaK)
+            SPIH: ABXR15_00405(dhaK) ABXR15_01555
+            SMOD: POD33_31725(dhaK)
+            SPOF: P8A21_01505(dhaK) P8A21_02560
+            STBR: ABDE16_34355(dhaK)
+            SGRO: UBV09_03270(dhaK)
+            STAC: ABII15_02630(dhaK)
+            STVB: OH133_36435(dhaK)
+            SSOC: ABZO31_02420(dhaK)
+            SSLI: R2D22_33640(dhaK)
+            STYI: C9F11_38890(dhaK2)
+            SCIT: V2W30_03350(dhaK)
+            SSIR: WAB15_07120(dhaK)
+            STRJ: H7827_25205(dhaK)
+            SEXP: SLV14_006731(dhaK)
+            SFLU: ACKTSN_43390(dhaK)
+            SOKE: ACE1N8_03755(dhaK)
+            SSTO: ACE1OC_35810(dhaK)
+            SLUA: AB8735_06790(dhaK)
+            STGO: KBP30_36645(dhaK)
+            STCM: SCMC78_71120(dhaK)
+            STID: G7Z12_31845(dhaK)
+            STCZ: JHY03_03550(dhaK) JHY03_04870
+            STSG: B6R96_35495
+            STHU: M1P56_20100(dhaK)
+            STRQ: CGL27_03555 CGL27_43850(dhaK)
+            SSEC: ABZO29_00980(dhaK) ABZO29_00995(dhaK) ABZO29_40815(dhaK)
+            SHUG: ABVG11_06310(dhaK) ABVG11_34130
+            STRK: R2B38_00865(dhaK) R2B38_50520
+            STJL: ACE1OA_31420(dhaK)
+            SCT: SCAT_0770(dhaK) SCAT_p0945(dhaK)
+            SCY: SCATT_07720 SCATT_p07940
+            KAB: B7C62_01210
+            KAU: B6264_05255
+            KIT: CFP65_5316
+            KIS: HUT16_33850(dhaK)
+            KCH: O1G21_13085(dhaK)
+            KCM: ABWK59_23740(dhaK)
+            KNB: ACF9IK_11170(dhaK)
+            KIC: KCMC57_up20190(dhaK)
+            KPUR: ACFCLZ_26130(dhaK)
+            STRI: C7M71_001465
+            PPOD: AB0761_31465(dhaK)
+            YIA: LO772_07770(dhaK)
+            STRH: GXP74_16635 GXP74_39285(dhaK)
+            ABRY: NYE86_14300(dhaK) NYE86_25385(dhaK)
+            AGLA: OIE69_32950(dhaK)
+            AREV: RVR_3977 RVR_9021 RVR_9272
+            LXL: KDY119_01358(dhaK)
+            PSIC: J4E96_06020(dhaK) J4E96_08355(dhaK)
+            PPHP: VTA80_13550(dhaK) VTA80_17115(dhaK)
+            LXX: Lxx09870(dak1)
+            LXY: O159_16010
+            LEIF: HF024_11440(dhaK)
+            LSE: F1C12_01525(dhaK) F1C12_05850(dhaK) F1C12_17460(dhaK)
+            LEIZ: IT072_12275(dhaK)
+            CMI: CMM_1829
+            CMH: VO01_08410
+            CMS: CMS0703
+            CMC: CMN_01806(dhaK)
+            CZH: H9X71_09210(dhaK)
+            CPHA: FGI33_03975(dhaK)
+            CCAF: FGD68_11605(dhaK)
+            CSEI: KYT88_09520(dhaK)
+            MTS: MTES_0395(dhaK)
+            MIM: AKG07_00275
+            MIX: AB663_001747
+            MIP: AXH82_11270
+            MIH: BJP65_03895
+            MICR: BMW26_04835
+            MHOS: CXR34_16010
+            MFOL: DXT68_04975
+            MLV: CVS47_00964(dhaK)
+            MWA: E4K62_05815(dhaK) E4K62_17435(dhaK)
+            MOY: CVS54_01131(dhaK)
+            MLZ: F6J85_05540(dhaK) F6J85_16520(dhaK)
+            MRN: K8F61_08610(dhaK)
+            MBIN: LXM64_11375(dhaK)
+            MLIQ: NMQ05_05780(dhaK)
+            MPAO: IZR02_04600(dhaK)
+            MAZA: NFX31_04555(dhaK)
+            MNF: JSY13_02840(dhaK)
+            MINV: T9R20_16805(dhaK)
+            MOJ: D7D94_13795(dhaK)
+            MICE: EHF32_01550(dhaK)
+            MAUG: KV397_11780(dhaK) KV397_14845
+            MSUF: KV394_10150(dhaK)
+            MGAB: KV396_11285(dhaK)
+            MBET: N8K70_04750(dhaK)
+            MICM: CHE218_10960(dhaK)
+            MALP: QSU92_09575(dhaK)
+            MJI: QNO14_02115
+            MINX: MICNX66_0985(dhaK)
+            MPRL: AB0870_05005(dhaK)
+            MICJ: LRQ07_01930 LRQ07_05200(dhaK)
+            MCLI: PQV94_04950(dhaK)
+            MCHN: HCR76_07670(dhaK) HCR76_15245
+            RTN: A6122_1145
+            RRY: C1O28_05005
+            RIA: C7V51_02525
+            RFS: C1I64_08755
+            RTE: GSU10_06530(dhaK)
+            ROE: Q0F99_16815(dhaK)
+            RATH: GSU68_04315(dhaK) GSU68_07925(dhaK)
+            CUM: NI26_08155
+            CUB: BJK06_17675
+            CUG: C1N91_08290 C1N91_13215(dhaK)
+            CQF: GBG65_15520(dhaK)
+            CCIT: QPK07_08475(dhaK) QPK07_13285(dhaK)
+            CUF: KM842_05195(dhaK)
+            CUY: I8920_07985(dhaK)
+            CPOI: OE229_11730(dhaK)
+            CURT: LCG91_08050(dhaK)
+            CURZ: LQK89_08510(dhaK) LQK89_13230(dhaK)
+            MVD: AWU67_01615 AWU67_06310 AWU67_12180
+            FRP: AX769_12100 AX769_12510
+            FSB: GCM10025867_27180
+            AGY: ATC03_10275
+            AGM: DCE93_07320
+            AGF: ET445_11425(dhaK) ET445_12650(dhaK)
+            AARC: G127AT_00490(dhaK) G127AT_05490
+            AMAU: DSM26151_14510(dhaK)
+            ASOI: MTP13_14395(dhaK)
+            AMAV: GCM10025877_32760(dhaK)
+            ALAV: MTO99_04535(dhaK) MTO99_05860(dhaK)
+            AIL: FLP10_00260(dhaK) FLP10_16335(dhaK)
+            CART: PA27867_1102 PA27867_1728
+            CRY: B7495_05480(dhaK) B7495_08450 B7495_18200
+            CPHY: B5808_08075
+            PSAI: C3B54_111255
+            MALK: MalAC0309_0565 MalAC0309_2304
+            MHUM: NNL39_06980(dhaK)
+            MDB: OVN18_06920(dhaK)
+            MYL: C3E77_06610
+            MSPO: KXZ72_03520(dhaK) KXZ72_06520
+            SALA: ESZ53_06785(dhaK)
+            HUM: DVJ78_12790
+            HUW: FPZ11_01830(dhaK)
+            GRY: D7I44_05560(dhaK)
+            LYD: D7I47_03915(dhaK)
+            PROA: H4J02_02230(dhaK)
+            PLAP: EAO79_14445(dhaK)
+            PFLU: BWO91_10780
+            LEU: Leucomu_00295(dhaK)
+            LTN: KVY00_09675(dhaK)
+            AGG: C1N71_06570
+            AGRO: JSQ78_02975(dhaK)
+            MANT: BHD05_11430 BHD05_12085
+            HEA: HL652_02810(dhaK) HL652_07095(dhaK)
+            HEH: L3i23_14590(dhaK)
+            FRN: F1C15_02340(dhaK)
+            GLN: F1C58_13870(dhaK)
+            AGX: AGREI_1469(dhaK)
+            SUBT: KPL76_10660(dhaK)
+            SUBA: LQ955_06810(dhaK) LQ955_07240(dhaK)
+            PSEV: USB125703_01975(dhaK)
+            HOM: OF852_03780(dhaK)
+            NAEI: GCM126_32250(dhaK)
+            AOG: LH407_08690(dhaK)
+            HFA: U2H20_03065(dhaK)
+            ART: Arth_0172
+            ARR: ARUE_c01680(dhaK)
+            ARM: ART_2556
+            ARE: AL755_00880
+            AAQ: AOC05_16365
+            ARW: MB46_15390
+            ARH: AHiyo8_33220
+            ARU: ASPU41_03225 ASPU41_06955
+            ARQ: BWQ92_08745
+            ARN: CGK93_01065
+            ARX: ARZXY2_3740(dhaK) ARZXY2_4036(dhaK)
+            ARTH: C3B78_01360
+            ARTP: E5206_02080(dhaK)
+            AAGI: NCTC2676_1_00115(dhaK_1)
+            AJG: KKR91_00515(dhaK) KKR91_10395(dhaK)
+            ASUN: KG104_00535(dhaK)
+            ARTY: AHiyo4_03390
+            APOA: J0916_14125(dhaK)
+            AWW: G8758_14335(dhaK)
+            ACAO: NF551_00535(dhaK)
+            AZH: MUK71_00540(dhaK)
+            AGEG: MUG94_00510(dhaK)
+            AOD: Q8Z05_08945(dhaK)
+            AKO: N9A08_00545(dhaK)
+            AZX: N2K95_00525(dhaK) N2K95_01285
+            AJR: N2K98_00525(dhaK) N2K98_06570(dhaK)
+            ARTM: MN0502_01060(dhaK) MN0502_07620
+            ARTU: E7Y32_04645(dhaK)
+            ARTZ: FCN77_00935(dhaK)
+            ARTO: PJ267_13100(dhaK)
+            ARTT: IG195_07070(dhaK) IG195_08460(dhaK)
+            ARTC: KY499_11010(dhaK)
+            ARTL: ArtHe_15435(dhaK)
+            ARTE: QI450_17350(dhaK)
+            ARTN: ABCW42_00625(dhaK)
+            ARI: UM93_14285
+            AAU: AAur_0173(dhaK)
+            PUE: FV140_00725(dhaK) FV140_21115(dhaK)
+            PNV: JMY29_00815(dhaK)
+            PAYJ: HMI59_20330(dhaK)
+            PAGO: IRJ34_00785(dhaK)
+            PAYN: HMI60_05005(dhaK)
+            PHRZ: QN084_09970 QN084_11550(dhaK)
+            PANY: ACPFL9_01070(dhaK) ACPFL9_09450
+            ARZ: AUT26_00690 AUT26_19365
+            ACH: Achl_0335
+            APN: Asphe3_03230
+            PSUL: AU252_08765
+            PSNI: NIBR502771_03855(dhaK)
+            PDEL: JCQ34_01180(dhaK)
+            POK: SMD14_01610(dhaK) SMD14_05250(dhaK)
+            PSLS: KTR40_01480(dhaK)
+            PQA: WHH00_17205(dhaK)
+            PSSO: ACOM2C_13385(dhaK)
+            PSNB: NIBR502770_19230(dhaK)
+            RSA: RSal33209_3184
+            KPL: KPaMU14_07070
+            KRS: EQG70_05285(dhaK)
+            RKR: I6G21_01615(dhaK)
+            SATK: SA2016_0285
+            CCYC: SCMU_03260(dhaK)
+            SPUE: AB5L97_01315(dhaK)
+            BFA: Bfae_01180
+            BRX: BH708_13995
+            BRV: CFK39_08850
+            BGG: CFK41_16630
+            BRZ: CFK38_01900
+            BSAU: DWV08_15165
+            BRR: C1N80_03695
+            BKI: M4486_12810(dhaK)
+            BRHA: NLU66_04135(dhaK)
+            BHH: Bra3105_09965(dhaK)
+            BHQ: BRM3_03390(dhaK) BRM3_03820
+            BRAC: RBL05_15365
+            DHM: CYJ49_005830
+            HMM: R3I40_04795(dhaK)
+            JDE: Jden_0972
+            LMOI: VV02_18355
+            YIM: J5M86_08700(dhaK)
+            ALX: LVQ62_06135(dhaK)
+            BEI: GCM100_13350(dhaK)
+            XCE: Xcel_0081 Xcel_1154
+            XYL: ET495_01950(dhaK)
+            XYA: ET471_05680(dhaK) ET471_11225(dhaK)
+            IVA: Isova_1171
+            IDO: I598_1093(dhaK)
+            IHA: UQW22_16970(dhaK)
+            CET: B8281_15145
+            CCEU: CBR64_16235
+            CPRT: FIC82_014015(dhaK)
+            PROU: AB1046_00760(dhaK)
+            PROZ: ACO229_13325(dhaK)
+            SKE: Sked_23900
+            SANW: G7063_05885(dhaK)
+            SBIL: SANBI_002355(dhaK)
+            CFL: Cfla_1457
+            CFI: Celf_1485
+            CGA: Celgi_2127
+            CEZ: CBP52_02665
+            CELZ: E5225_10895(dhaK)
+            CEJ: GC089_11240(dhaK)
+            CELH: GXP71_04210(dhaK)
+            CIRA: LFM56_10960(dhaK)
+            CPAL: F1D97_09470(dhaK)
+            CELC: K5O09_12070(dhaK)
+            CDON: KKR89_07095(dhaK)
+            CWAN: KG103_07350(dhaK)
+            CFEN: KG102_06370(dhaK)
+            CWN: NP075_07470(dhaK)
+            CCHE: NP064_10475(dhaK) NP064_12830(dhaK)
+            CXIE: NP048_07205(dhaK)
+            CELE: P9841_17945(dhaK)
+            CELA: REH70_04880(dhaK)
+            CELN: CELD12_21520(dhaK)
+            OEK: FFI11_011035(dhaK)
+            PSEI: GCE65_07965(dhaK) GCE65_10705(dhaK)
+            SERJ: SGUI_0072
+            ORN: DV701_01235
+            ORZ: FNH13_12490(dhaK)
+            OCP: NF557_10615(dhaK)
+            OFA: NF556_12670(dhaK)
+            SERW: FY030_09380(dhaK)
+            AUS: IPK37_11475(dhaK)
+            HALT: IM660_07315(dhaK)
+            RHAL: LQF10_12300(dhaK)
+            RSUA: LQF12_05940(dhaK)
+            GEZ: FE251_04100(dhaK) FE251_04765(dhaK)
+            GYU: FE374_05975(dhaK) FE374_10185(dhaK) FE374_14985(dhaK)
+            GEW: MF406_06515(dhaK)
+            PAC: PPA1947
+            PAK: HMPREF0675_5007(dhaK)
+            PAV: TIA2EST22_09535
+            PAX: TIA2EST36_09520
+            PAZ: TIA2EST2_09480
+            PAW: PAZ_c20310(dhaK)
+            PAD: TIIST44_02530
+            PCN: TIB1ST10_09920
+            PACC: PAC1_09960
+            PACH: PAGK_1863
+            PACN: TIA1EST1_09600
+            CACN: RN83_10030
+            PRA: PALO_01250
+            PRL: BCB70_08680
+            CGRN: 4412665_00125(dhaK)
+            CEQU: O6R08_08920(dhaK)
+            PFR: PFREUD_07980(dhaK)
+            PFRE: RM25_0763
+            PACD: EGX94_07970(dhaK)
+            PAUS: NCTC13651_00432(dhaK_1)
+            PPC: HMPREF9154_0487(dhaK)
+            ARUB: J5A65_02855(dhaK)
+            PBO: PACID_26550(dhaK)
+            AACI: ASQ49_08765
+            ACIJ: JS278_00872(dhaK)
+            AJI: C0Z10_02700
+            MPH: MLP_38540(dhaK)
+            TFL: RPIT_01870
+            TFA: BW733_04380
+            TES: BW730_00295 BW730_06855
+            TEZ: BKM78_11090 BKM78_11250
+            TDF: H9L22_00335(dhaK) H9L22_14965(dhaK)
+            TLA: TLA_TLA_02234(dhaK_1) TLA_TLA_02266(dhaK_2)
+            TEJ: KDB89_11390(dhaK)
+            TLS: QH948_02885(dhaK)
+            RAIN: Rai3103_04575(dhaK)
+            PRV: G7070_13250(dhaK)
+            PSOI: PCC79_05330(dhaK)
+            PROP: QQ658_07725(dhaK) QQ658_08160(dhaK) QQ658_12635
+            BROO: brsh051_02430(dhaK_1) brsh051_03330(dhaK_2)
+            NCA: Noca_3316
+            NOO: FE634_14300(dhaK)
+            NAQU: ENKNEFLB_03696(dhaK_2)
+            NRO: K8W59_08690(dhaK)
+            MGG: MPLG2_1319(dhaK) MPLG2_3360(dhaK)
+            SGRG: L0C25_19535(dhaK)
+            KFL: Kfla_6662
+            KQI: F1D05_18035(dhaK)
+            KSL: OG809_09060(dhaK) OG809_31120(dhaK)
+            KRI: OX958_03845(dhaK)
+            TALX: FOF52_07985
+            NDA: Ndas_2457
+            NAL: B005_2119
+            NGV: CDO52_09100(dhaK)
+            NEX: NE857_01540
+            NEC: KGD82_26660(dhaK)
+            NAKE: KGD83_13250(dhaK)
+            NOCB: UIS43_05920
+            STRR: EKD16_06590(dhaK1)
+            SAIU: J4H86_09130
+            ACTW: F7P10_12780(dhaK)
+            AGRA: AGRA3207_003112(dhaK)
+            AMAZ: LUW76_31960(dhaK) LUW76_46285
+            ACIR: OG979_23275(dhaK)
+            AWS: ACN3XK_56370(dhaK) ACN3XK_56940(dhaK)
+            SPIQ: OHA34_19205(dhaK)
+            ACTQ: OG417_06155(dhaK)
+            SRO: Sros_3048
+            NOA: BKM31_27285
+            NOW: GBF35_19070(dhaK)
+            NCX: Nocox_16165(dhaK)
+            NGN: LCN96_19245(dhaK)
+            NFS: OIE67_27360(dhaK)
+            MHAI: OHB01_25300(dhaK)
+            FRI: FraEuI1c_1223
+            NML: Namu_1659 Namu_4393
+            NAKA: H7F38_04010(dhaK) H7F38_20875(dhaK)
+            GOB: Gobs_2347
+            MMAR: MODMU_5201(dhaK)
+            MOM: KUM42_03520(dhaK) KUM42_04575(dhaK)
+            SEN: SACE_5291(dhaK) SACE_6248
+            SACG: FDZ84_06225(dhaK)
+            SVI: Svir_29380
+            SACC: EYD13_16240(dhaK)
+            AMD: AMED_7748(dhaK)
+            AMN: RAM_39805
+            AMM: AMES_7631(dhaK)
+            AMZ: B737_7631(dhaK)
+            AOI: AORI_6529(dhaK)
+            AJA: AJAP_06315(dhaK)
+            AMQ: AMETH_1387(dhaK) AMETH_4283(dhaK)
+            AMYC: CU254_31170
+            AMYB: BKN51_26105
+            AAB: A4R43_22255
+            AMYY: YIM_06485(dhaK1)
+            AORI: SD37_07770
+            AACD: LWP59_06765(dhaK)
+            APRT: MUY14_45480(dhaK)
+            AROO: NQK81_33175(dhaK)
+            ATHM: L1857_09540(dhaK) L1857_24315(dhaK)
+            ARHD: VSH64_28100(dhaK)
+            AMOG: QRX60_20735(dhaK)
+            ACYN: ORV05_26230(dhaK)
+            ACOR: LCL61_35140(dhaK)
+            AMYZ: HUW46_06003(dhaK)
+            ACAB: QRX50_16785(dhaK)
+            ANW: QP939_23910(dhaK)
+            AMYD: K1T34_08785(dhaK)
+            ABAR: AMYBAR_001342(dhaK)
+            AMYE: MJQ72_16995(dhaK)
+            AMYS: CVV72_36750
+            PDX: Psed_2972
+            PSEA: WY02_03190
+            PSEE: FRP1_09605 FRP1_17480
+            PSEH: XF36_11020
+            PSEQ: AD006_17165 AD006_24935
+            PECQ: AD017_04525 AD017_25000
+            PHH: AFB00_25375
+            PAUT: Pdca_49790
+            PSDS: K1T35_14765(dhaK)
+            PALQ: PaSha_22865
+            APRE: CNX65_30085
+            AMI: Amir_6114
+            SESP: BN6_73240(dhaK)
+            SSYI: EKG83_40905(dhaK)
+            SACX: IOD16_30520(dhaK)
+            KAL: KALB_7571
+            KUT: JJ691_90290(dhaK)
+            KBR: Q4V65_32055(dhaK) Q4V65_49610(dhaK)
+            KPHY: AOZ06_46175
+            LED: BBK82_20840
+            LXR: ACRSBM_03015(dhaK)
+            AHM: TL08_07435
+            ACTI: UA75_07150
+            ACAD: UA74_07155
+            AHG: AHOG_06875(dhaK)
+            ACTA: C1701_17780
+            ACAU: ACOJVX_20250(dhaK)
+            ALO: CRK59003
+            PMAD: BAY61_25355
+            SACE: GIY23_17995(dhaK)
+            ACTU: Actkin_05101(dhaK)
+            AAUR: V5P93_006139(dhaK)
+            CROS: N8J89_35060(dhaK)
+            ACTY: OG774_28550(dhaK)
+            UME: RM788_18025(dhaK)
+            MTUA: CSH63_21765
+            VMA: VAB18032_16555
+            VET: ACQVFL_20085
+            ASE: ACPL_5490(dak1)
+            AMS: AMIS_56240
+            ACTN: L083_4489(dak1)
+            ACTS: ACWT_5359
+            AIH: Aiant_13400
+            ACTR: Asp14428_76140(dhaK)
+            ACTL: L3i22_062660 L3i22_078330
+            ASIC: Q0Z83_002700(dhaK)
+            AOU: ACTOB_006063(dhaK)
+            ACTE: ACTI_64200 ACTI_80780(dhaK)
+            AFS: AFR_16375 AFR_23235
+            PLK: CIK06_25875
+            PFLA: Pflav_003890(dhaK) Pflav_017690 Pflav_030000
+            PSUU: Psuf_057530(dhaK_1) Psuf_061180(dhaK_2)
+            ATL: Athai_27830(dhaK)
+            ASER: Asera_46980(dhaK)
+            PRY: Prubr_17580
+            CATI: CS0771_38690(dhaK)
+            DVC: Dvina_08850(dhaK)
+            DFU: Dfulv_08320(dhaK)
+            DROS: Drose_08580(dhaK)
+            DAUR: Daura_08300(dhaK)
+            DMAT: Dmats_08365(dhaK)
+            DACT: KZZ52_08155(dhaK)
+            NHY: JQS43_20730(dhaK)
+            CCAZ: COUCH_26955(dhaK) COUCH_32970(dhaK)
+            CAI: Caci_1101
+            AWL: P8A24_01940(dhaK)
+            ACAS: P7079_00465
+            TPY: CQ11_06550 CQ11_09760
+            TPYO: X956_01120 X956_01150 X956_08545
+            TBW: NCTC13354_01383(dhaK)
+            TPEC: HLG82_07730(dhaK)
+            TBER: QPC17_07285(dhaK)
+            ASG: FB03_00065
+            ACTT: DDD63_08175 DDD63_10060
+            AMY: ADJ76_02415 ADJ76_07855
+            SOO: FBF35_06180(dhaK) FBF35_10290(dhaK)
+            STUC: G5S47_03135(dhaK) G5S47_08165(dhaK)
+            AOS: AXE84_02370
+            ARD: AXF14_05295 AXF14_06990
+            ACTP: B6G06_01820
+            ACTC: CHIBA101_0547
+            ANE: ATCC27039_01380(dhaK)
+            AHW: NCTC11636_00344(dhaK_1) NCTC11636_01201(dhaK_2)
+            ACTZ: CWT12_05680 CWT12_10975
+            AIR: AIF0345_1654(dhaK)
+            ASLA: NCTC11923_00058(dhaK)
+            AVC: NCTC10951_02850(dhaK)
+            AWE: JG540_05180(dhaK)
+            AMAM: HPC72_08090(dhaK)
+            AMAS: QU670_08640(dhaK)
+            ACAP: MANAM107_16160(dhaK)
+            AUO: R3I39_08515(dhaK)
+            ALIL: D5R93_07805
+            ACHN: JJJ14_02605(dhaK)
+            FSL: EJO69_05020(dhaK) EJO69_06530(dhaK) EJO69_09995
+            FLH: EJ997_06105(dhaK) EJ997_11760
+            GEU: CJ185_002745(dhaK)
+            GHM: CJ187_004650(dhaK)
+            VCB: CYK25_000225(dhaK)
+            PHON: BH719_01565
+            SAPP: SAC06_07260(dhaK)
+            AEY: CDG81_05290
+            PLIM: PHILAsVB114_00150
+            NAB: B1sIIB91_01875
+            RXY: Rxyl_1064
+            RRD: RradSPS_1024
+            RUB: GBA63_07925(dhaK)
+            BALA: DSM104299_01301(dhaK)
+            CWO: Cwoe_0620 Cwoe_3126 Cwoe_3915
+            AFO: Afer_0877
+            GLP: Glo7428_3214
+            GDU: P0S91_01635(dhaK)
+            CYC: PCC7424_4782
+            CYJ: Cyan7822_0574
+            OXY: HCG48_23280(dhaK)
+            MIC: Mic7113_2861
+            MPRO: BJP34_00210
+            NPU: Npun_R5520
+            NON: NOS3756_20060
+            NFL: COO91_03036
+            NSH: GXM_06136
+            NED: HUN01_08355(dhaK)
+            NPZ: ACX27_09325
+            NLK: NIES25_15140
+            NCW: NIES2107_53090
+            NOST: GJB62_11975(dhaK)
+            NOSU: JYQ62_33705(dhaK)
+            NOSQ: PQG02_22445(dhaK)
+            NOSZ: WKK05_31700(dhaK)
+            NAZ: Aazo_2074
+            ACY: Anacy_5625
+            RSIN: B6N60_00042
+            HBQ: QI031_07345(dhaK)
+            CALT: Cal6303_5240
+            CALN: NIES2098_12690
+            CALS: NIES3974_39640
+            RIV: Riv7116_6093
+            MDP: NIES3275_08770
+            FIS: FIS3754_22550
+            DOT: EZY12_08810(dhaK)
+            CCUR: IAR63_13480(dhaK)
+            CRK: L3I90_12305(dhaK)
+            STOQ: K2F26_03200(dhaK)
+            SKV: NIES73_37760
+            OCF: WJM97_21645(dhaK)
+            TOQ: HCG51_26060(dhaK)
+            TTQ: NIES37_24650
+            TOI: HG267_01550(dhaK)
+            TOZ: HGR01_16755(dhaK)
+            ALAX: NIES50_61970
+            SCYT: SAMD_00880
+            SCYS: NIES4073_16280
+            BSEN: DP114_32680
+            BOX: DP113_32780
+            NCN: BZZ01_32645
+            CTHE: Chro_5606
+            PLP: Ple7327_3959
+            RRS: RoseRS_1766 RoseRS_3297
+            RCA: Rcas_2044 Rcas_4109
+            CAU: Caur_3294
+            CHL: Chy400_3554
+            CAG: Cagg_0074
+            PSUB: Pelsub_P1005 Pelsub_P2986
+            ABAO: BEQ56_00895 BEQ56_03100 BEQ56_05835 BEQ56_09370
+            CAP: CLDAP_08320(dhaK) CLDAP_26970(dhaK) CLDAP_38580(dhaK)
+            PBF: CFX0092_A1884(dhaK)
+            KBS: EPA93_17805(dhaK)
+            KBB: ccbrp13_01010 ccbrp13_35240
+            THUG: KNN16_13495(dhaK)
+            TAI: Taci_1556
+            AMO: Anamo_1735
+            PPIO: CE91St28_10040
+            ARAM: KAR29_02545(dhaK)
+            APRP: KIH16_02535(dhaK)
+            OCS: OF820_02690
+            FNU: FN1840
+            FNC: HMPREF0946_01584
+            FNT: HMPREF0405_01391
+            FUS: HMPREF0409_01363
+            FNE: FSDG_02005
+            FHW: RN87_00260
+            FVA: FV113G1_14060 FV113G1_19750
+            FUL: C4N20_15315
+            FGO: C4N16_05200(dhaK)
+            FNF: BSQ88_03915(dhaK)
+            FCI: I6I83_03160(dhaK)
+            FPOL: ERS445057_00522(dhaK)
+            FWT: CCUG74246_00785(dhaK)
+            IPO: Ilyop_0448 Ilyop_0851
+            CSOM: MKD34_04125 MKD34_10555(dhaK)
+            LEO: AMK43_08560
+            STR: Sterm_0651 Sterm_2056 Sterm_3211
+            SNS: VC03_02335
+            HALR: EFA46_000295(dhaK)
+            HJE: HacjB3_07520
+            SALI: L593_10510
+            HARA: AArcS_2212(dhaK)
+            HTA: BVU17_08950
+            HALJ: G9465_14765(dhaK)
+            HSN: DV733_09055
+            HDS: HSR122_0738(dhaK)
+            HLT: I7X12_00565(dhaK)
+            HAAD: MW046_15575(dhaK)
+            HWA: HQ_2672A(dhaK)
+            HWC: Hqrw_3003(dhaK)
+            HVO: HVO_1546(dhaK)
+            HALE: G3A49_10850(dhaK)
+            HLN: SVXHx_1492(dhak)
+            HME: HFX_1607(dhaK)
+            HGI: ABY42_07515
+            HALM: FCF25_14590(dhaK)
+            HLA: Hlac_1458
+            HALP: DOS48_07005
+            HALQ: Hrr1229_014455(dhaK)
+            HSS: J7656_07835(dhaK)
+            HSAI: HPS36_13200(dhaK)
+            HAZZ: KI388_06310(dhaK)
+            SRUB: C2R22_09430
+            HAE: halTADL_2260
+            HLC: CHINAEXTREME12000
+            HLR: HALLA_03915
+REFERENCE   PMID:22773791
+  AUTHORS   Monniot C, Zebre AC, Ake FM, Deutscher J, Milohanic E
+  TITLE     Novel listerial glycerol dehydrogenase- and phosphoenolpyruvate-dependent dihydroxyacetone kinase system connected to the pentose phosphate pathway.
+  JOURNAL   J Bacteriol 194:4972-82 (2012)
+            DOI:10.1128/JB.00801-12
+  SEQUENCE  [lin:lin0366]
+///

@@ -1,0 +1,177 @@
+ENTRY       K10977                      KO
+SYMBOL      aksA
+NAME        methanogen homocitrate synthase [EC:2.3.3.14 2.3.3.-]
+PATHWAY     map00300  Lysine biosynthesis
+            map00620  Pyruvate metabolism
+            map00680  Methane metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01120  Microbial metabolism in diverse environments
+            map01210  2-Oxocarboxylic acid metabolism
+            map01230  Biosynthesis of amino acids
+            map01240  Biosynthesis of cofactors
+MODULE      M00608  2-Oxocarboxylic acid chain extension, 2-oxoglutarate => 2-oxoadipate => 2-oxopimelate => 2-oxosuberate
+REACTION    R00271  acetyl-CoA:2-oxoglutarate C-acetyltransferase (thioester-hydrolysing, carboxymethyl forming)
+            R08213  
+            R08331  acetyl-CoA:2-oxoadipate C-acetyltransferase (thioester-hydrolysing, carboxymethyl forming)
+            R08332  acetyl-CoA:2-oxopimelate C-acetyltransferase (thioester-hydrolysing, carboxymethyl forming)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09101 Carbohydrate metabolism
+               00620 Pyruvate metabolism
+                K10977  aksA; methanogen homocitrate synthase
+              09102 Energy metabolism
+               00680 Methane metabolism
+                K10977  aksA; methanogen homocitrate synthase
+              09105 Amino acid metabolism
+               00300 Lysine biosynthesis
+                K10977  aksA; methanogen homocitrate synthase
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.3  Acyltransferases
+               2.3.3  Acyl groups converted into alkyl groups on transfer
+                2.3.3.14  homocitrate synthase
+                 K10977  aksA; methanogen homocitrate synthase
+            Enzymes of 2-oxocarboxylic acid metabolism [br01601.html]
+             2-Oxoacid chain elongation
+              K10977
+DBLINKS     COG: COG0119
+            GO: 0004410
+GENES       CCE: Ccel_1624
+            MJA: MJ_0503
+            MFE: Mefer_0710
+            MVU: Metvu_1576
+            MFS: MFS40622_1791
+            MIF: Metin_1354
+            MJH: JH146_1425
+            MESG: MLAUSG7_0108(aksA)
+            MESA: MLASG1_1291(aksA)
+            MIG: Metig_0696
+            MMP: MMP0153(aksA)
+            MMQ: MmarC5_1522
+            MMX: MmarC6_0797
+            MMZ: MmarC7_1153
+            MMD: GYY_00785(aksA)
+            MMAK: MMKA1_01580(cimA)
+            MMAO: MMOS7_01840(cimA)
+            MMAD: MMJJ_09310(leuA_1)
+            MAE: Maeo_0994
+            MVN: Mevan_1158
+            MVO: Mvol_1568
+            MOK: Metok_0640
+            METF: CFE53_04770(aksA)
+            MTH: MTH_1630
+            MMG: MTBMA_c02150(leuA2)
+            MWO: MWSIV6_0176(aksA)
+            MTEE: MTTB_13800(aksA)
+            METC: MTCT_1489
+            METE: tca_01580(leuA_3)
+            METZ: METMT2_1469
+            METK: FVF72_03475
+            MTHM: FZP57_00770
+            METJ: FZP68_05780
+            MST: Msp_1099(leuA2)
+            METB: AW729_10320(aksA)
+            MEIS: PXD04_02110
+            MRU: mru_0385(aksA)
+            MSI: Msm_0722
+            MEB: Abm4_0181(aksA)
+            MMIL: sm9_2160(aksA)
+            MEYE: TL18_01070(aksA)
+            MOL: YLM1_0056
+            MARO: MarbSA_09070(aksA_1) MarbSA_13810(aksA_2)
+            METV: K4897_04155
+            MEL: Metbo_2071
+            MEW: MSWAN_0569
+            METH: MBMB1_0290(aksA)
+            MFC: BRM9_1985(aksA)
+            MFI: DSM1535_0177(aksA)
+            MCUB: MCBB_0566(aksA)
+            MSUB: BK009_11615(aksA)
+            METN: BK008_07190(aksA)
+            METT: CIT01_06835(aksA)
+            METO: CIT02_05435(aksA)
+            MEME: HYG87_07555
+            MFEG: GCM10025860_11500(aksA)
+            MEER: NKF70_09710
+            MRID: FGU46_02085
+            MFV: Mfer_0964
+            MKA: MK1209(leuA)
+            MBA: Mbar_A2192
+            MBY: MSBRM_2239
+            MBW: MSBRW_2549
+            MBAR: MSBR2_0170
+            MBAK: MSBR3_1047
+            MAC: MA_3342(leuA)
+            MMA: MM_2785
+            MMAZ: MmTuc01_2834
+            MMJ: MSMAS_1942
+            MMAC: MSMAC_1183
+            MVC: MSVAZ_2030
+            MEK: MSKOL_2008
+            MLS: MSLAZ_1553
+            METM: MSMTP_1363
+            MEF: MSWH1_1527
+            MEQ: MSWHS_1780
+            MSJ: MSSAC_2553
+            MSZ: MSSIH_2157
+            MSW: MSSIT_2270
+            MTHR: MSTHT_0432
+            MTHE: MSTHC_0289
+            MHOR: MSHOH_1618
+            MFZ: AOB57_000055(aksA)
+            MHAB: RSJ42_08115
+            METW: AAY43_11655(aksA)
+            MBU: Mbur_0854(cimA)
+            MMET: MCMEM_0986
+            MELO: J7W08_02750(aksA)
+            MMH: Mmah_1162
+            MHAZ: BHR79_07725(aksA)
+            MPOT: BKM01_03970(aksA)
+            MEV: Metev_0432
+            MZH: Mzhil_1141
+            MPY: Mpsy_2899
+            MZI: HWN40_08205(aksA)
+            MMAV: RE476_02105
+            MSEB: RE474_12000
+            MHZ: Metho_0886
+            MEHF: MmiHf6_03460(leuA_1)
+            MEES: MmiEs2_06200(leuA_1)
+            MTP: Mthe_1533
+            MCJ: MCON_2596(leuA)
+            MHI: Mhar_1932
+            MHU: Mhun_1801
+            MRTJ: KHC33_05405
+            MLA: Mlab_0232
+            MEM: Memar_0633
+            MBG: BN140_1718(aksA)
+            MEMA: MMAB1_2210(aksA)
+            MCHK: MchiMG62_07630(aksA)
+            MSUM: OH143_09885
+            MRC: R6Y96_02550
+            MPI: Mpet_2488
+            MEND: L6E24_09230
+            MEFW: F1737_00615(aksA)
+            MAQE: RJ40_05985(aksA)
+            MFK: E2N92_06115(aksA)
+            MOU: OU421_03650
+            MESB: L1S32_07250
+            MANQ: L1994_01090
+            MBN: Mboo_0598
+            MFO: Metfor_2593
+            MESK: METHP_00368
+            MPL: Mpal_2142
+            MPD: MCP_1960(aksA)
+            MEZ: Mtc_1560(aksA)
+            RCI: RCIX2647(leuA-4)
+            HASV: SVXHr_0597(leuA)
+            HABN: HBNXHr_0575(leuA)
+            MEUZ: KRP56_01640
+            MVJ: ACO0C9_04145
+REFERENCE   PMID:9665716
+  AUTHORS   Howell DM, Harich K, Xu H, White RH
+  TITLE     Alpha-keto acid chain elongation reactions involved in the biosynthesis of coenzyme B (7-mercaptoheptanoyl threonine phosphate) in methanogenic Archaea.
+  JOURNAL   Biochemistry 37:10108-17 (1998)
+            DOI:10.1021/bi980662p
+  SEQUENCE  [mja:MJ_0503]
+///

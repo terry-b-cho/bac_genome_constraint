@@ -1,0 +1,22 @@
+ENTRY       R00948                      Reaction
+NAME        ATP:alpha-D-glucose-1-phosphate adenylyltransferase
+DEFINITION  ATP + D-Glucose 1-phosphate <=> Diphosphate + ADP-glucose
+EQUATION    C00002 + C00103 <=> C00013 + C00498
+RCLASS      RC00002  C00103_C00498
+ENZYME      2.7.7.27
+PATHWAY     rn00500  Starch and sucrose metabolism
+            rn00520  Amino sugar and nucleotide sugar metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M00565  Trehalose biosynthesis, D-glucose-1P => trehalose
+            M00854  Glycogen biosynthesis, glucose-1P => glycogen/starch
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.7  Nucleotidyltransferases
+                2.7.7.27
+                 R00948  ATP + D-Glucose 1-phosphate <=> Diphosphate + ADP-glucose
+ORTHOLOGY   K00975  glucose-1-phosphate adenylyltransferase [EC:2.7.7.27]
+DBLINKS     RHEA: 12123
+///

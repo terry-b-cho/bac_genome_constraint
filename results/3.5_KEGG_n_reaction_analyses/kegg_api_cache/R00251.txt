@@ -1,0 +1,21 @@
+ENTRY       R00251                      Reaction
+NAME        5-oxo-L-proline amidohydrolase (ATP-hydrolysing)
+DEFINITION  ATP + 5-Oxoproline + 2 H2O <=> ADP + Orthophosphate + L-Glutamate
+EQUATION    C00002 + C01879 + 2 C00001 <=> C00008 + C00009 + C00025
+RCLASS      RC00002  C00002_C00008
+            RC00553  C00025_C01879
+ENZYME      3.5.2.9
+PATHWAY     rn00480  Glutathione metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.2  In cyclic amides
+                3.5.2.9
+                 R00251  ATP + 5-Oxoproline + 2 H2O <=> ADP + Orthophosphate + L-Glutamate
+ORTHOLOGY   K01469  5-oxoprolinase (ATP-hydrolysing) [EC:3.5.2.9]
+            K07160  5-oxoprolinase (ATP-hydrolysing) subunit A [EC:3.5.2.9]
+            K23123  5-oxoprolinase (ATP-hydrolysing) subunit B [EC:3.5.2.9]
+            K23124  5-oxoprolinase (ATP-hydrolysing) subunit C [EC:3.5.2.9]
+DBLINKS     RHEA: 10351
+///

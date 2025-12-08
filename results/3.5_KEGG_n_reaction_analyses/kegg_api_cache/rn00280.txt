@@ -1,0 +1,109 @@
+ENTRY       rn00280                     Pathway
+NAME        Valine, leucine and isoleucine degradation
+CLASS       Metabolism; Amino acid metabolism
+PATHWAY_MAP rn00280  Valine, leucine and isoleucine degradation
+MODULE      M00036  Leucine degradation, leucine => acetoacetate + acetyl-CoA [PATH:rn00280]
+            M00741  Propanoyl-CoA metabolism, propanoyl-CoA => succinyl-CoA [PATH:rn00280]
+DBLINKS     GO: 0006550 0006552 0006574
+REACTION    R00238  acetyl-CoA:acetyl-CoA C-acetyltransferase
+            R00410  succinyl-CoA:acetoacetate CoA-transferase
+            R00833  (R)-methylmalonyl-CoA CoA-carbonylmutase
+            R00922  2-methyl-3-oxopropanoate:NAD+ oxidoreductase (CoA-propanoylating)
+            R00927  acetyl-CoA:propanoyl-CoA 2-C-acetyltransferase; 2-methylacetoacetyl-CoA thiolase
+            R01088  L-leucine:NAD+ oxidoreductase (deaminating)
+            R01090  L-leucine:2-oxoglutarate aminotransferase
+            R01214  L-valine:2-oxoglutarate aminotransferase
+            R01357  acetoacetate:CoA ligase (AMP-forming)
+            R01360  (S)-3-hydroxy-3-methylglutaryl-CoA acetoacetate-lyase (acetyl-CoA-forming)
+            R01434  L-valine:NAD+ oxidoreductase(deaminating)
+            R01859  propanoyl-CoA:carbon-dioxide ligase (ADP-forming)
+            R01978  acetyl-CoA:acetoacetyl-CoA C-acetyltransferase (thioester-hydrolysing, carboxymethyl-forming)
+            R02050  (R)-3-amino-2-methylpropanoate:pyruvate aminotransferase
+            R02085  (S)-3-hydroxy-3-methylglutaryl-CoA hydro-lyase (trans-3-methylglutaconyl-CoA-forming)
+            R02197  L-isoleucine:oxygen oxidoreductase (deaminating)
+            R02199  L-isoleucine:2-oxoglutarate aminotransferase
+            R02661  2-methylpropanoyl-CoA:(acceptor) 2,3-oxidoreductase
+            R02662  2-methylpropanoyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-(2-methylpropanoyl)transferase
+            R02663  
+            R02764  (S)-methylmalonyl-CoA hydrolase
+            R02765  methylmalonyl-CoA epimerase
+            R03172  (S)-2-methylbutanoyl-CoA:acceptor 2,3-oxidoreductase
+            R03174  (S)-2-methylbutanoyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-(2-methylbutanoyl)transferase
+            R03175  
+            R03383  methylmalonate:CoA ligase (AMP-forming)
+            R03869  (S)-methylmalonate semialdehyde:NAD+ oxidoreductase
+            R03871  (S)-methylmalonate semialdehyde:oxygen oxidoreductase
+            R04095  3-methylbutanoyl-CoA:electron-transfer flavoprotein 2,3-oxidoreductase
+            R04097  3-methylbutanoyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-(3-methylbutanoyl)transferase
+            R04098  
+            R04137  3-hydroxyisovaleryl-CoA hydro-lyase
+            R04138  3-methylcrotonoyl-CoA:carbon-dioxide ligase (ADP-forming)
+            R04187  L-alanine:3-oxopropanoate aminotransferase
+            R04188  L-3-amino-isobutanoate:2-oxoglutarate aminotransferase
+            R04203  (2S,3S)-3-hydroxy-2-methylbutanoyl-CoA:NAD+ oxidoreductase
+            R04204  (2S,3S)-3-hydroxy-2-methylbutanoyl-CoA hydro-liase
+            R04224  (S)-3-hydroxyisobutyryl-CoA hydro-lyase
+            R05064  (S)-3-hydroxyisobutyryl-CoA hydrolase
+            R05066  3-hydroxy-2-methylpropanoate:NAD+ oxidoreductase
+            R07160  3-methyl-2-oxobutanoate:ferredoxin oxidoreductase (decarboxylating;CoA-2-methylpropanoylating)
+            R07599  
+            R07600  
+            R07601  
+            R07602  
+            R07603  
+            R07604  
+            R07618  enzyme N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase
+            R08566  4-methyl-2-oxopentanoate:ferredoxin oxidoreductase (decarboxylating; CoA-3-methylbutanoylating)
+            R08567  (S)-3-methyl-2-oxopentanoate:ferredoxin oxidoreductase (decarboxylating; CoA-2-methylbutanoylating)
+            R10759  
+COMPOUND    C00024  Acetyl-CoA
+            C00068  Thiamin diphosphate
+            C00091  Succinyl-CoA
+            C00100  Propanoyl-CoA
+            C00123  L-Leucine
+            C00141  3-Methyl-2-oxobutanoic acid
+            C00164  Acetoacetate
+            C00183  L-Valine
+            C00233  4-Methyl-2-oxopentanoate
+            C00332  Acetoacetyl-CoA
+            C00349  2-Methyl-3-oxopropanoate
+            C00356  (S)-3-Hydroxy-3-methylglutaryl-CoA
+            C00407  L-Isoleucine
+            C00630  2-Methylpropanoyl-CoA
+            C00671  (S)-3-Methyl-2-oxopentanoic acid
+            C00683  (S)-Methylmalonyl-CoA
+            C01205  (R)-3-Amino-2-methylpropanoate
+            C01213  (R)-Methylmalonyl-CoA
+            C02170  Methylmalonate
+            C02939  3-Methylbutanoyl-CoA
+            C03069  3-Methylcrotonyl-CoA
+            C03231  3-Methylglutaconyl-CoA
+            C03284  L-3-Aminoisobutanoate
+            C03344  2-Methylacetoacetyl-CoA
+            C03345  2-Methylbut-2-enoyl-CoA
+            C03460  2-Methylprop-2-enoyl-CoA
+            C04405  (2S,3S)-3-Hydroxy-2-methylbutanoyl-CoA
+            C05996  Branched chain fatty acid
+            C05998  3-Hydroxyisovaleryl-CoA
+            C06000  (S)-3-Hydroxyisobutyryl-CoA
+            C06001  (S)-3-Hydroxyisobutyrate
+            C06002  (S)-Methylmalonate semialdehyde
+            C15972  Enzyme N6-(lipoyl)lysine
+            C15973  Enzyme N6-(dihydrolipoyl)lysine
+            C15974  3-Methyl-1-hydroxybutyl-ThPP
+            C15975  [Dihydrolipoyllysine-residue (2-methylpropanoyl)transferase] S-(3-methylbutanoyl)dihydrolipoyllysine
+            C15976  2-Methyl-1-hydroxypropyl-ThPP
+            C15977  [Dihydrolipoyllysine-residue (2-methylpropanoyl)transferase] S-(2-methylpropanoyl)dihydrolipoyllysine
+            C15978  2-Methyl-1-hydroxybutyl-ThPP
+            C15979  [Dihydrolipoyllysine-residue (2-methylpropanoyl)transferase] S-(2-methylbutanoyl)dihydrolipoyllysine
+            C15980  (S)-2-Methylbutanoyl-CoA
+            C20827  3-Hydroxyisovalerate
+REL_PATHWAY rn00020  Citrate cycle (TCA cycle)
+            rn00240  Pyrimidine metabolism
+            rn00290  Valine, leucine and isoleucine biosynthesis
+            rn00522  Biosynthesis of 12-, 14- and 16-membered macrolides
+            rn00640  Propanoate metabolism
+            rn00900  Terpenoid backbone biosynthesis
+            rn01056  Biosynthesis of type II polyketide backbone
+KO_PATHWAY  ko00280
+///

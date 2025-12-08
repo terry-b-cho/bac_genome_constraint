@@ -1,0 +1,16 @@
+ENTRY       R04449                      Reaction
+NAME        acetate:holo-[citrate-(pro-3S)-lyase] ligase (AMP-forming)
+DEFINITION  ATP + Acetate + Holo-[citrate (pro-3S)-lyase] <=> AMP + Diphosphate + Acetyl-[citrate (pro-3S)-lyase]
+EQUATION    C00002 + C00033 + C04298 <=> C00020 + C00013 + C04334
+RCLASS      RC00012  C00033_C04334
+            RC00039  C04298_C04334
+ENZYME      6.2.1.22
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.2  Forming carbon-sulfur bonds
+               6.2.1  Acid-thiol ligases
+                6.2.1.22
+                 R04449  ATP + Acetate + Holo-[citrate (pro-3S)-lyase] <=> AMP + Diphosphate + Acetyl-[citrate (pro-3S)-lyase]
+ORTHOLOGY   K01910  [citrate (pro-3S)-lyase] ligase [EC:6.2.1.22]
+DBLINKS     RHEA: 23791
+///

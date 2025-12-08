@@ -1,0 +1,109 @@
+ENTRY       rn00970                     Pathway
+NAME        Aminoacyl-tRNA biosynthesis
+CLASS       Genetic Information Processing; Translation
+PATHWAY_MAP rn00970  Aminoacyl-tRNA biosynthesis
+REACTION    R02918  L-tyrosine:tRNA(Tyr) ligase (AMP-forming)
+            R03038  L-alanine:tRNA(Ala) ligase (AMP-forming)
+            R03646  L-arginine:tRNA(Arg) ligase (AMP-forming)
+            R03647  L-aspartate:tRNAAsp ligase (AMP-forming)
+            R03648  L-asparagine:tRNA(Asn) ligase (AMP-forming)
+            R03650  L-cysteine:tRNA(Cys) ligase (AMP-forming)
+            R03651  L-glutamate:tRNA(Gln) ligase (AMP-forming)
+            R03652  L-glutamine:tRNA(Gln) ligase (AMP-forming)
+            R03654  glycine:tRNA(Gly) ligase (AMP-forming)
+            R03655  L-histidine:tRNA(His) ligase (AMP-forming)
+            R03656  L-isoleucine:tRNA(Ile) ligase (AMP-forming)
+            R03657  L-leucine:tRNA(Leu) ligase (AMP-forming)
+            R03658  L-lysine:tRNALys ligase (AMP-forming)
+            R03659  L-methionine:tRNAMet ligase (AMP-forming)
+            R03660  L-phenylalanine:tRNA(Ala) ligase (AMP-forming)
+            R03661  L-proline:tRNA(Pro) ligase (AMP-forming)
+            R03662  L-serine:tRNA(Ser) ligase (AMP-forming)
+            R03663  L-threonine:tRNA(Thr) ligase (AMP-forming)
+            R03664  L-tryptophan -tRNA(Trp) ligase (AMP-forming)
+            R03665  L-valine:tRNAVal ligase (AMP-forming)
+            R03905  Glu-tRNA(Gln):L-glutamine amido-ligase (ADP-forming)
+            R03940  10-formyltetrahydrofolate:L-methionyl-tRNA N-formyltransferase
+            R04212  Asp-tRNA(Asn):L-glutamine amido-ligase (ADP-forming)
+            R05577  L-aspartate:tRNA(Asp) ligase (AMP-forming)
+            R05578  L-glutamate:tRNA(Glu) ligase (AMP-forming)
+            R08218  L-serine:tRNASec ligase (AMP-forming)
+            R08219  selenophosphate:L-seryl-tRNASec selenium transferase
+            R08223  L-seryl-tRNA(Sec) kinase
+            R08224  selenophosphate:O-phospho-L-seryl-tRNA(Sec) selenium transferase
+            R08576  O-phospho-L-serine:tRNA(Cys) ligase (AMP-forming)
+            R08577  O-phospho-L-seryl-tRNACys:hydrogen sulfide 2-aminopropanoate transferase; O-phosphoseryl-tRNA(Cys):hydrogen-sulfide 2-amino-2-[tRNA(Cys)-carbonyl]ethyltransferase
+            R08578  L-pyrrolysine:tRNA(Pyl) ligase (AMP-forming)
+COMPOUND    C00025  L-Glutamate
+            C00037  Glycine
+            C00041  L-Alanine
+            C00047  L-Lysine
+            C00049  L-Aspartate
+            C00062  L-Arginine
+            C00064  L-Glutamine
+            C00065  L-Serine
+            C00073  L-Methionine
+            C00078  L-Tryptophan
+            C00079  L-Phenylalanine
+            C00082  L-Tyrosine
+            C00097  L-Cysteine
+            C00101  Tetrahydrofolate
+            C00123  L-Leucine
+            C00135  L-Histidine
+            C00148  L-Proline
+            C00152  L-Asparagine
+            C00183  L-Valine
+            C00188  L-Threonine
+            C00234  10-Formyltetrahydrofolate
+            C00407  L-Isoleucine
+            C00886  L-Alanyl-tRNA
+            C01005  O-Phospho-L-serine
+            C01931  L-Lysyl-tRNA
+            C02047  L-Leucyl-tRNA
+            C02163  L-Arginyl-tRNA(Arg)
+            C02282  Glutaminyl-tRNA
+            C02412  Glycyl-tRNA(Gly)
+            C02430  L-Methionyl-tRNA
+            C02553  L-Seryl-tRNA(Ser)
+            C02554  L-Valyl-tRNA(Val)
+            C02702  L-Prolyl-tRNA(Pro)
+            C02839  L-Tyrosyl-tRNA(Tyr)
+            C02984  L-Aspartyl-tRNA(Asp)
+            C02987  L-Glutamyl-tRNA(Glu)
+            C02988  L-Histidyl-tRNA(His)
+            C02992  L-Threonyl-tRNA(Thr)
+            C03125  L-Cysteinyl-tRNA(Cys)
+            C03127  L-Isoleucyl-tRNA(Ile)
+            C03294  N-Formylmethionyl-tRNA
+            C03402  L-Asparaginyl-tRNA(Asn)
+            C03511  L-Phenylalanyl-tRNA(Phe)
+            C03512  L-Tryptophanyl-tRNA(Trp)
+            C06112  L-Glutamyl-tRNA(Gln)
+            C06113  L-Aspartyl-tRNA(Asn)
+            C06481  L-Seryl-tRNA(Sec)
+            C06482  L-Selenocysteinyl-tRNA(Sec)
+            C16138  L-Pyrrolysine
+            C16638  O-Phosphoseryl-tRNA(Sec)
+            C17022  O-Phosphoseryl-tRNA(Cys)
+            C17027  L-Pyrrolysyl-tRNA(Pyl)
+REFERENCE   PMID:18252769
+  AUTHORS   Sheppard K, Yuan J, Hohn MJ, Jester B, Devine KM, Soll D
+  TITLE     From one amino acid to another: tRNA-dependent amino acid biosynthesis.
+  JOURNAL   Nucleic Acids Res 36:1813-25 (2008)
+            DOI:10.1093/nar/gkn015
+REFERENCE   PMID:15314242
+  AUTHORS   Polycarpo C, Ambrogelly A, Berube A, Winbush SM, McCloskey JA, Crain PF, Wood JL, Soll D
+  TITLE     An aminoacyl-tRNA synthetase that specifically activates pyrrolysine.
+  JOURNAL   Proc Natl Acad Sci U S A 101:12450-4 (2004)
+            DOI:10.1073/pnas.0405362101
+REL_PATHWAY rn00250  Alanine, aspartate and glutamate metabolism
+            rn00260  Glycine, serine and threonine metabolism
+            rn00270  Cysteine and methionine metabolism
+            rn00290  Valine, leucine and isoleucine biosynthesis
+            rn00300  Lysine biosynthesis
+            rn00330  Arginine and proline metabolism
+            rn00340  Histidine metabolism
+            rn00380  Tryptophan metabolism
+            rn00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+KO_PATHWAY  ko00970
+///

@@ -1,0 +1,18 @@
+ENTRY       R04496                      Reaction
+NAME        S-adenosyl-L-methionine:protein-C-terminal-S-farnesyl-L-cysteine O-methyltransferase
+DEFINITION  S-Adenosyl-L-methionine + Protein C-terminal S-farnesyl-L-cysteine <=> S-Adenosyl-L-homocysteine + Protein C-terminal S-farnesyl-L-cysteine methyl ester
+EQUATION    C00019 + C04506 <=> C00021 + C04748
+RCLASS      RC00003  C00019_C00021
+            RC00460  C04506_C04748
+ENZYME      2.1.1.100
+PATHWAY     rn00900  Terpenoid backbone biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.100
+                 R04496  S-Adenosyl-L-methionine + Protein C-terminal S-farnesyl-L-cysteine <=> S-Adenosyl-L-homocysteine + Protein C-terminal S-farnesyl-L-cysteine methyl ester
+ORTHOLOGY   K00587  protein-S-isoprenylcysteine O-methyltransferase [EC:2.1.1.100]
+DBLINKS     RHEA: 21675
+///

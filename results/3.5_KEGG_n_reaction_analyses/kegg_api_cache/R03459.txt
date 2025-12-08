@@ -1,0 +1,21 @@
+ENTRY       R03459                      Reaction
+NAME        2,5-diamino-6-hydroxy-4-(5-phosphoribosylamino)-pyrimidine 2-aminohydrolase
+DEFINITION  2,5-Diamino-6-(5-phospho-D-ribosylamino)pyrimidin-4(3H)-one + H2O <=> 5-Amino-6-(5'-phosphoribosylamino)uracil + Ammonia
+EQUATION    C01304 + C00001 <=> C01268 + C00014
+RCLASS      RC00204  C01268_C01304
+ENZYME      3.5.4.26
+PATHWAY     rn00740  Riboflavin metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01240  Biosynthesis of cofactors
+MODULE      M00125  Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.4  In cyclic amidines
+                3.5.4.26
+                 R03459  2,5-Diamino-6-(5-phospho-D-ribosylamino)pyrimidin-4(3H)-one + H2O <=> 5-Amino-6-(5'-phosphoribosylamino)uracil + Ammonia
+ORTHOLOGY   K01498  diaminohydroxyphosphoribosylaminopyrimidine deaminase [EC:3.5.4.26]
+            K11752  diaminohydroxyphosphoribosylaminopyrimidine deaminase / 5-amino-6-(5-phosphoribosylamino)uracil reductase [EC:3.5.4.26 1.1.1.193]
+DBLINKS     RHEA: 21871
+///

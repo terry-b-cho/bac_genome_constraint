@@ -1,0 +1,20 @@
+ENTRY       R04148                      Reaction
+NAME        nicotinate-nucleotide:dimethylbenzimidazole phospho-D-ribosyltransferase
+DEFINITION  Nicotinate D-ribonucleotide + Dimethylbenzimidazole <=> Nicotinate + N1-(5-Phospho-alpha-D-ribosyl)-5,6-dimethylbenzimidazole + H+
+EQUATION    C01185 + C03114 <=> C00253 + C04778 + C00080
+RCLASS      RC00033  C00253_C01185
+            RC00063  C03114_C04778
+ENZYME      2.4.2.21
+PATHWAY     rn00860  Porphyrin metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00122  Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.4  Glycosyltransferases
+               2.4.2  Pentosyltransferases
+                2.4.2.21
+                 R04148  Nicotinate D-ribonucleotide + Dimethylbenzimidazole <=> Nicotinate + N1-(5-Phospho-alpha-D-ribosyl)-5,6-dimethylbenzimidazole + H+
+ORTHOLOGY   K00768  nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase [EC:2.4.2.21]
+DBLINKS     RHEA: 11199
+///

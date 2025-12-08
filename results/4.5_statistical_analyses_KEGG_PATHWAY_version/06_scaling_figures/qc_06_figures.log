@@ -1,0 +1,45 @@
+================================================================================
+Script 06: Make Scaling Figures
+================================================================================
+
+Loading data...
+  ✓ Loaded 101 KEGG labels
+  ✓ Loaded 95 categories, 710 env×category fits
+  ✓ Loaded 2164 genomes, 101 KEGG labels
+
+Generating Panel 1a: Z-statistics for exponents by category...
+  ✓ Saved fig1a_Z_exponents_by_category_env_pathway.png and .pdf
+  ✓ Panel 1a completed
+
+Generating Panel 1b: Z-statistics for offsets by category...
+  ✓ Saved fig1b_Z_offsets_by_category_env_pathway.png and .pdf
+  ✓ Panel 1b completed
+
+Generating Panels 1c-1e: Exponent comparisons for selected categories...
+  ✓ Saved fig1cde_env_exponents_selected_categories_pathway.png and .pdf
+  ✓ Panels 1c-1e completed (8 categories)
+    Selected categories: 8 total (low Z, medium Z, high Z, and additional)
+
+Generating Panels 1f-1k: Scatter plots with fits...
+  ✓ Saved fig1f_to_k_env_scatter_scaling_pathway.png and .pdf
+  ✓ Panels 1f-1k (log scale) completed (15 panels)
+  ✓ Saved fig1f_to_k_env_scatter_scaling_linear_pathway.png and .pdf
+  ✓ Panels 1f-1k (linear scale) completed (15 panels)
+  ✓ fig1_panel_metadata.tsv written
+
+Generating Panels: KEGG category count vs total annotated domains...
+  ✓ Saved fig1_domains_vs_total_domains_pathway.png and .pdf
+  ✓ Panels (domains vs total domains, log scale) completed (0 panels)
+  ✓ Saved fig1_domains_vs_total_domains_linear_pathway.png and .pdf
+  ✓ Panels (domains vs total domains, linear scale) completed (0 panels)
+
+================================================================================
+QC Summary
+================================================================================
+  ✗ fig1a_Z_exponents_by_category_env: Missing files
+  ✗ fig1b_Z_offsets_by_category_env: Missing files
+  ✗ fig1cde_env_exponents_selected_categories: Missing files
+  ✗ fig1f_to_k_env_scatter_scaling: Missing files
+  ✗ fig1f_to_k_env_scatter_scaling_linear: Missing files
+
+Writing QC log...

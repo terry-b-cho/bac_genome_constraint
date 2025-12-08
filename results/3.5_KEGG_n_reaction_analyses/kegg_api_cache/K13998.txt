@@ -1,0 +1,286 @@
+ENTRY       K13998                      KO
+SYMBOL      DHFR-TS
+NAME        dihydrofolate reductase / thymidylate synthase [EC:1.5.1.3 2.1.1.45]
+PATHWAY     map00240  Pyrimidine metabolism
+            map00670  One carbon pool by folate
+            map00790  Folate biosynthesis
+            map01100  Metabolic pathways
+            map01232  Nucleotide metabolism
+            map01240  Biosynthesis of cofactors
+MODULE      M00126  Tetrahydrofolate biosynthesis, GTP => THF
+            M00841  Tetrahydrofolate biosynthesis, mediated by PTPS, GTP => THF
+            M00938  Pyrimidine deoxyribonucleotide biosynthesis, UDP => dTTP
+REACTION    R00936  5,6,7,8-tetrahydrofolate:NAD+ oxidoreductase
+            R00937  5,6,7,8-tetrahydrofolate:NAD+ oxidoreductase
+            R00939  5,6,7,8-tetrahydrofolate:NADP+ oxidoreductase
+            R00940  5,6,7,8-tetrahydrofolate:NADP+ oxidoreductase
+            R02101  5,10-methylenetetrahydrofolate:dUMP C-methyltransferase
+            R02235  dihydrofolate:NAD+ oxidoreductase
+            R02236  dihydrofolate:NADP+ oxidoreductase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09104 Nucleotide metabolism
+               00240 Pyrimidine metabolism
+                K13998  DHFR-TS; dihydrofolate reductase / thymidylate synthase
+              09108 Metabolism of cofactors and vitamins
+               00790 Folate biosynthesis
+                K13998  DHFR-TS; dihydrofolate reductase / thymidylate synthase
+               00670 One carbon pool by folate
+                K13998  DHFR-TS; dihydrofolate reductase / thymidylate synthase
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.5  Acting on the CH-NH group of donors
+               1.5.1  With NAD+ or NADP+ as acceptor
+                1.5.1.3  dihydrofolate reductase
+                 K13998  DHFR-TS; dihydrofolate reductase / thymidylate synthase
+             2. Transferases
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.45  thymidylate synthase
+                 K13998  DHFR-TS; dihydrofolate reductase / thymidylate synthase
+DBLINKS     GO: 0004146 0004799
+GENES       DPTE: 113798991
+            ATH: AT2G16370(THY-1) AT2G21550 AT4G34570(THY-2)
+            ALY: 9305209 9316457 9322288
+            CRB: 17877840 17887860 17891157
+            CSAT: 104702701 104713608 104716677 104721335 104729758 104747430 104751813 104766934 104792357
+            EUS: EUTSA_v10000156mg EUTSA_v10022646mg EUTSA_v10024973mg
+            BRP: 103836808 103858399 103860451 103862355
+            BNA: 106354095 106384507 106393759 106406829 106442422 125575152
+            BOE: 106309714 106328327 106329435
+            RSZ: 108836084 108842569 108861958 130509264
+            THJ: 104807303 104819616 104824813
+            CIT: 102610005
+            CIC: CICLE_v10028191mg
+            PVY: 116127617
+            MINC: 123213144 123227647 123229278 123229303
+            TCC: 18591434 18607742
+            GRA: 105769038 105772952 105795321
+            GHI: 107905452 107908795 107927990 107928896 107937003 107960692
+            GAB: 108453978 108474386 108480725
+            HSYR: 120175428 120178255 120194709
+            DZI: 111282035 111296923
+            EGR: 104453306
+            RARG: 115737167 115738554
+            GMX: 100786311 100786329 100788658 547833(DHFR-TS)
+            GSJ: 114374890 114379844 114408452 114414471
+            PVU: 137820114 137830007
+            VRA: 106755099 106762733 106765682
+            VAR: 108324425 108331800 108338839
+            VUN: 114163394 114168580
+            VUM: 124828953 124831564 124837385
+            CCAJ: 109788871 109800919
+            APRC: 113864394 113864826
+            MTR: 11415341 11440565 25495385
+            TPRA: 123899206 123916149
+            CAM: 101489312 101514182
+            PSAT: 127083824 127106027
+            VVO: 131623512 131632237 131660403 131660409 131660447
+            LJA: 130729138 130747500
+            ADU: 107460028 107471889 107476648
+            AIP: 107610060 107623690 107628864
+            AHF: 112705584 112716796 112736912 112764559 112783199 112789171
+            LANG: 109344038 109355467
+            PCIN: 129289822 129292987
+            QSA: O6P43_001881 O6P43_011576
+            FVE: 101310472
+            AANS: 126782357
+            RCN: 112173264
+            PPER: 18768793
+            PMUM: 103335682
+            PAVI: 110768489
+            PDUL: 117636448
+            MDM: 103440375 103448418
+            MSYL: 126586977 126622017
+            PXB: 103967122
+            PCOX: 137725416 137728039
+            ZJU: 107403693 107405872
+            MNT: 21392108
+            CSAV: 115706733 115712098
+            HLP: 133798577 133822341
+            CSV: 101208660
+            CMO: 103499691
+            BHJ: 120088401
+            MCHA: 111015400
+            CMAX: 111484218 111499552
+            CMOS: 111448895 111451711
+            CPEP: 111777623 111794868
+            RCU: 8275764 8285348
+            MEAN: 126682214
+            JCU: 105630137
+            HBR: 110645146 110648723 110651614 110658623
+            MESC: 110606532 110613044 110626513
+            POP: 7456362 7470002 7477628
+            PEU: 105134685 105142240 105142730
+            PALZ: 118039734 118058921 118062116
+            PNZ: 133680285 133699991
+            JRE: 108983433 108986993 108991352
+            CILL: 122310717 122313275 122317474
+            CAVE: 132189920 132191371
+            AGLU: 133872031 133882221
+            QSU: 111986005 112011045
+            QLO: 115967528 115974377
+            CSAA: 142619100 142642912
+            TWL: 120002759 120013798
+            VVI: 100255872 100267529
+            VRI: 117906191 117911438 117911790
+            SLY: 101267455
+            SPEN: 107008381
+            SOT: 102593228
+            SSTN: 125873180
+            SDUL: 129885437
+            SVER: 125816649
+            CANN: 107840424
+            LBB: 132599188
+            NTA: 107792811 107794251
+            NSY: 104226167 104246758
+            NTO: 104105538
+            NAU: 109223692 109229673
+            INI: 109161459 109165210
+            ITR: 116030408 116032351
+            SIND: 105159256
+            OEU: 111388204 111401309 111410074
+            EGT: 105963185
+            SSPL: 121753989 121758822
+            SMIL: 130986590
+            APAN: 127265234
+            PEBU: 140819764
+            PTAB: 142520993
+            CARB: 113707866 113712498 113713534 140003885
+            HAN: 110900389 110929462
+            BHW: 143543696 143547140 143554567 143571461 143595568 143604881
+            ECAD: 122595924 122599620
+            LSV: 111908602 111918249
+            CCAV: 112500613 112516607
+            DCR: 108193031 108227144
+            AGRV: 141683339 141702352 141704797
+            CSIN: 114264669 114288633
+            RVL: 131307945 131319431
+            AEW: 130779880 130786646 130786973
+            DLT: 127802578 127802579 127804324
+            BVG: 104904324
+            SOE: 110803064
+            CQI: 110698439 110702982 110705118 110724197
+            ATRI: 130809792 130815602
+            SLAF: 141599341 141605294 141648553
+            MOF: 131156495
+            NNU: 104595633
+            MING: 122063099
+            TSS: 122658701 122660413
+            PSOM: 113285996 113307581 113323259
+            OSA: 4350527 9271078
+            OBR: 102699594 102706896
+            OGL: 127754870 127758176
+            BDI: 100832991
+            ATS: 109782258
+            TDC: 119356870 119366109
+            TAES: 123047147 123054960 123190811
+            TUA: 125540101
+            HVG: 123428176
+            LPER: 127299054 127307748 127337252
+            LRD: 124651986 124653628 124669467 124672258 124686829 124686834
+            SBI: 8068714
+            ZMA: 100286018 103644908 103653497 541707
+            MFLO: 136481906 136483752 136484999 136486805 136505104 136508437 136508568
+            SITA: 101772369 101778216
+            SVS: 117833345 117844780
+            PVIR: 120644352 120670599 120685347
+            PHAI: 112902480
+            PAUA: 133886948 133900423
+            PDA: 103701887 103704597 120103784 120111890
+            EGU: 105046541 105048636
+            MUS: 135583478
+            ZOF: 121988359 122038701
+            DCT: 110095917 110107974
+            PEQ: 110030414
+            AOF: 109830591
+            MSIN: 131234405 131237929
+            ACAK: 137938832 137941061
+            NCOL: 116248449
+            ATR: 18437260
+            CJF: 131028859 131040783
+            SMO: SELMODRAFT_233517 SELMODRAFT_404548
+            PPP: 112291384
+            CRE: CHLRE_17g715900v5
+            VCN: VOLCADRAFT_66296
+            MNG: MNEG_15931
+            CSL: COCSUDRAFT_37014
+            CVR: CHLNCDRAFT_30873
+            APRO: F751_2439
+            OLU: OSTLU_49676
+            OTA: OT_ostta01g05920
+            BPG: Bathy03g03500
+            MIS: MICPUN_58650(DHFR-TS)
+            MPP: MICPUCDRAFT_56456(DHFR-TS)
+            CME: CYME_CMS462C
+            GSL: Gasu_03410
+            CCP: CHC_T00010030001
+            ACAN: ACA1_199730
+            PFA: PF3D7_0417200
+            PFD: PFDG_04158
+            PREI: PRSY57_0414700
+            PGAB: PGSY75_0417200
+            PLAG: 39740250(PADL01_0416400)
+            PYO: PY17X_0719300
+            PCB: PCHAS_0728300
+            PBE: PBANKA_0719300
+            PVV: PVVCY_0701900
+            PKN: PKNH_0509600
+            PVX: PVX_089950
+            PCY: PCYB_053150
+            PMAL: PMUG01_05034700(DHFR-TS)
+            PBRS: 92369569(MKS88_001481)
+            PREL: PRELSG_0512500(DHFR-TS)
+            PCOT: PCOAH_00012090
+            TAN: TA08775
+            TPV: TP04_0504
+            TOT: TOT_040000412
+            BEQ: BEWA_008170
+            BBO: BBOV_II000780
+            BMIC: BMR1_02g03680
+            BBIG: BBBOND_0200560
+            CPV: cgd4_4460
+            CHO: Chro.40506
+            TGO: TGME49_249180
+            BBES: BESB_004440
+            TET: TTHERM_00312120
+            PTM: GSPATT00019973001
+            PTI: PHATRDRAFT_1690
+            FCY: FRACYDRAFT_157897
+            TPS: THAPS_13647(TMS1)
+            AAF: AURANDRAFT_38942
+            PIF: PITG_06749
+            PSOJ: PHYSODRAFT_555231
+            BLAC: 94345841(CCR75_002070)
+            SPAR: SPRG_06761
+            TBR: Tb927.7.5480
+            TBG: TbgDal_VII6360
+            TCR: 509153.90
+            LMA: LMJF_06_0860(DHFR-TS)
+            LIF: LINJ_06_0890(DHFR-TS)
+            LDO: LDBPK_060890
+            LMI: LMXM_06_0860
+            LMAT: 92517853(LSCM1_07994)
+            LBZ: LBRM_06_0830
+            LPAN: LPMP_060820(DHFR-TS)
+            LOI: 92363604(LSCM4_07793)
+            LEIS: 94183348(GH5_08135)
+            LENR: 94174679(CUR178_07528)
+            LEIN: 94191359(JIQ42_07786)
+            PHET: 94293172(JKF63_07154)
+            NGR: NAEGRDRAFT_76251
+            EHX: EMIHUDRAFT_451981
+            GTT: GUITHDRAFT_69716
+            VG: 3655083(EhV113)
+REFERENCE   PMID:8374616
+  AUTHORS   Lazar G, Zhang H, Goodman HM
+  TITLE     The origin of the bifunctional dihydrofolate reductase-thymidylate synthase isogenes of Arabidopsis thaliana.
+  JOURNAL   Plant J 3:657-68 (1993)
+            DOI:10.1111/j.1365-313X.1993.00657.x
+  SEQUENCE  [ath:AT2G16370 AT4G34570]
+REFERENCE   PMID:8628226
+  AUTHORS   Schlichtherle IM, Roos DS, Van Houten JL
+  TITLE     Cloning and molecular analysis of the bifunctional dihydrofolate reductase-thymidylate synthase gene in the ciliated protozoan Paramecium tetraurelia.
+  JOURNAL   Mol Gen Genet 250:665-73 (1996)
+            DOI:10.1007/BF02172977
+///

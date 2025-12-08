@@ -1,0 +1,453 @@
+ENTRY       K00672                      KO
+SYMBOL      ftr
+NAME        formylmethanofuran--tetrahydromethanopterin N-formyltransferase [EC:2.3.1.101]
+PATHWAY     map00680  Methane metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+            map01200  Carbon metabolism
+MODULE      M00567  Methanogenesis, CO2 => methane
+REACTION    R03390  formylmethanofuran:5,6,7,8-tetrahydromethanopterin 5-formyltransferase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09102 Energy metabolism
+               00680 Methane metabolism
+                K00672  ftr; formylmethanofuran--tetrahydromethanopterin N-formyltransferase
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.101  formylmethanofuran---tetrahydromethanopterin N-formyltransferase
+                 K00672  ftr; formylmethanofuran--tetrahydromethanopterin N-formyltransferase
+DBLINKS     COG: COG2037
+            GO: 0030270
+GENES       MCA: MCA2858
+            METU: GNH96_03555(fhcD)
+            MMEO: OOT43_14040(fhcD)
+            MEEF: JWZ97_17405(fhcD)
+            MMT: Metme_0668
+            MDN: JT25_013495
+            MDH: AYM39_03060
+            MKO: MKLM6_0653
+            METL: U737_20590(fhcD)
+            MPAD: KEF85_01265(fhcD)
+            MELL: IVG45_17720(fhcD)
+            MRP: NM686_019565(fhcD)
+            MMOT: QZJ86_03530(fhcD)
+            MEEP: JWZ98_18885(fhcD)
+            MEEC: PL263_11500(fhcD)
+            MEUP: QC632_06005(fhcD)
+            MAH: MEALZ_1269(ffsA)
+            MBUR: EQU24_08945(fhcD)
+            MPSY: CEK71_00135(fhcD)
+            MMAI: sS8_3401
+            MSZE: MSZNOR_2922(fhcD)
+            MMOB: F6R98_03265(fhcD)
+            MEIN: methR_P2636
+            MOZ: MoryE10_28940(ffsA)
+            MISZ: MishRS11D_09940(ffsA)
+            MESL: KKZ03_06770(fhcD)
+            MECH: Q9L42_009130(fhcD)
+            MLAU: ACEPPP_12150(fhcD)
+            MEIY: MIN45_P1471
+            MCAU: MIT9_P1920
+            MEJ: Q7A_285(fhcD)
+            MEC: Q7C_1963
+            MPIN: LGT42_001495(fhcD)
+            MMAF: GCM100_14930(ffsA)
+            MTHA: VSX76_02695(fhcD)
+            TIG: THII_0586
+            BLEP: AL038_10680(fhcD)
+            NOC: Noc_0023
+            NHL: Nhal_0013
+            NWA: Nwat_0021
+            NWR: E3U44_04045(fhcD)
+            NTT: TAO_0008
+            TSY: THSYN_31575
+            NTG: NSCAC_0006(ffsA)
+            SEDS: AAY24_01630
+            COX: E0W60_32005(fhcD)
+            BUG: BC1001_3973
+            BGF: BC1003_5429
+            BYI: BYI23_B014210
+            BUQ: AC233_22160
+            BURT: BTHE68_38700(ffsA)
+            BXE: Bxe_B2463(fhcD)
+            BXB: DR64_4790(fhcD)
+            BPH: Bphy_5933 Bphy_6506
+            BGE: BC1002_3198
+            BPX: BUPH_00557
+            BCAI: K788_0001570 K788_0007403
+            PSPW: BJG93_19520(fhcD)
+            PARA: BTO02_23520
+            PARB: CJU94_31065(fhcD)
+            PHS: C2L64_21750(fhcD) C2L64_38180(fhcD)
+            PTER: C2L65_26245(fhcD) C2L65_34175(fhcD)
+            PGP: CUJ91_21370(fhcD)
+            PCJ: CUJ87_23550(fhcD)
+            PTS: CUJ90_27940(fhcD)
+            PGIS: I6I06_22595(fhcD)
+            PEW: KZJ38_24950(fhcD)
+            PDIO: PDMSB3_0602.1(ffsA)
+            PSAA: QEN71_32700(fhcD) QEN71_34020(fhcD)
+            PKF: RW095_18675(fhcD)
+            PPAI: E1956_20525(fhcD)
+            PHUN: U0042_02440(fhcD)
+            PLAD: PPGU16_69780(ffsA)
+            PAZZ: PBP221_72290(fhcD)
+            BUO: BRPE64_BCDS01290
+            CABK: NK8_41610(fhcD)
+            BUE: BRPE67_BCDS01180(ffsA)
+            TCAR: U0034_17405(fhcD)
+            VAP: Vapar_3065
+            VPD: VAPA_1c31300
+            MPT: Mpe_A2625
+            METP: C1M51_15015(fhcD)
+            RGE: RGE_40410(fhcD)
+            SMIO: CATMQ487_35820(ffsA)
+            ATER: MW290_07045(fhcD)
+            LCH: Lcho_3134
+            AON: DEH84_18925(fhcD)
+            METR: BSY238_3298(fhcD)
+            MFA: Mfla_1664
+            MMB: Mmol_0859
+            MEH: M301_0910
+            MEI: Msip34_1508
+            MEP: MPQ_1571(ftr)
+            MBAC: BN1209_0741(ffsA)
+            MEU: ACJ67_06825
+            MMEC: FIU01_05425(fhcD)
+            MEDZ: MTDW_15990(fhcD)
+            MPAU: ZMTM_11780(ffsA)
+            SPLB: SFPGR_26040(ffsA)
+            AZA: AZKH_p0240(fhcD)
+            THU: AC731_004915
+            THAU: C4PIVTH_3712(ffsA)
+            THK: CCZ27_13180(fhcD)
+            THAG: CKCBHOJB_02566(fhcD)
+            DDZ: DSYM_25630
+            MCI: Mesci_4253
+            MCIC: A4R28_05790
+            MESW: A9K65_023585
+            MESM: EJ066_29685(fhcD)
+            MOH: IHQ72_13910(fhcD)
+            MMEI: LRP31_14040(fhcD)
+            MEAA: ACG873_04790(fhcD)
+            PHT: BLM14_23755
+            PMEL: LLE53_018390(fhcD)
+            RGA: RGR602_PC01561(ffsA)
+            NPM: QEO92_19185(fhcD)
+            XAU: Xaut_1794
+            STAR: G3545_09745(fhcD)
+            LNE: FZC33_09305(fhcD)
+            SNO: Snov_0757
+            ANC: GBB76_00785(fhcD)
+            APRA: G3A50_16530(fhcD)
+            APOL: K9D25_20155(fhcD)
+            AQI: J5J86_17180(fhcD)
+            MEA: Mex_1p1756(fhcD)
+            MDI: METDI2508(fhcD)
+            MEX: Mext_1825
+            MCH: Mchl_2160
+            MPO: Mpop_1776
+            MZA: B2G69_16785
+            METQ: MSPGM_18630(ffsA)
+            MRD: Mrad2831_0524
+            MET: M446_5774
+            MNO: Mnod_5998
+            MOR: MOC_0679(fhcD)
+            META: Y590_08740
+            MAQU: Maq22A_c16440(fhcD)
+            MPHY: MCBMB27_00101
+            MEE: DA075_05675(fhcD)
+            METD: C0214_10495(fhcD)
+            METX: A3862_28330
+            METS: DK389_20625(fhcD)
+            METI: DK427_18415(fhcD)
+            MMES: MMSR116_16660(fhcD)
+            MTEA: DK419_10765(fhcD)
+            MIND: mvi_45840(ffsA)
+            MOG: MMB17_20055(fhcD)
+            MTAD: M6G65_13695(fhcD)
+            MECL: CLZ_08260(fhcD)
+            MFUJ: ABC766_06655(fhcD)
+            MENI: GU700_08260(fhcD)
+            MENS: LOK46_02850(fhcD)
+            MSL: Msil_2402
+            MTUN: MTUNDRAET4_2739(ffsA)
+            MLG: CWB41_06010(fhcD)
+            MEHY: MHY1_02183(fhcD)
+            MEDK: QEV83_11690(fhcD)
+            MPOL: RZS28_14040(fhcD)
+            BBAI: CU048_00750(fhcD)
+            HDN: Hden_1609
+            HDT: HYPDE_29918
+            HMC: HYPMC_1887(ffsA)
+            HNI: W911_13340
+            FIL: BN1229_v1_0555(fhcD)
+            FIY: BN1229_v1_0557(fhcD)
+            MCG: GL4_1794
+            METG: HT051_10145(fhcD)
+            MSC: BN69_0584
+            MBRY: B1812_16145
+            MROS: EHO51_08980(fhcD)
+            MHEY: H2LOC_018910(fhcD)
+            MPAR: F7D14_18745(fhcD)
+            MIWA: SS37A_26180(ffsA)
+            MESZ: LNB28_16095(fhcD)
+            MECI: RVU70_01105(fhcD)
+            MEMC: OGR47_12435(fhcD)
+            MTW: CQW49_03835(fhcD)
+            MECQ: MSC49_09120(ffsA)
+            MSPR: MSP5_002441(fhcD)
+            CMET: K6K41_25510(fhcD)
+            PLEO: OHA_1_00509(fhcD)
+            HDI: HDIA_2304(fhcD)
+            AALA: IGS74_05810(fhcD)
+            AALM: LUX29_06565(fhcD)
+            AUZ: Sa4125_38460(ffsA)
+            AUB: LXB15_01015(fhcD)
+            JAV: OXU80_18165(fhcD)
+            MFLG: ABS361_01770(fhcD)
+            GBE: GbCGDNIH1_0780
+            GBH: GbCGDNIH2_0780
+            GBC: GbCGDNIH3_0780
+            GBS: GbCGDNIH4_0780
+            ALI: AZOLI_p10692(ffsA1) AZOLI_p10895(ffsA2)
+            ABS: AZOBR_p270089(ffsA)
+            ABQ: ABAZ39_25435
+            ABF: AMK58_22365
+            ATI: AL072_27050
+            AHU: A6A40_18500(fhcD) A6A40_28890(fhcD)
+            AZT: TSH58p_01170(fhcD)
+            AZM: DM194_17105(fhcD)
+            AOZ: HUE56_08950(fhcD)
+            AARE: D3093_24995(fhcD)
+            AZS: E6C72_18275(fhcD) E6C72_22430(fhcD)
+            AZP: E6C67_07200(fhcD)
+            SOLI: ACP59X_03800(fhcD)
+            RBA: RB9835(ffsA)
+            RHOI: PSR62_04070(fhcD)
+            PSL: Psta_0715
+            PIR: VN12_16340(fhcD_1) VN12_25910(fhcD_2)
+            RUL: UC8_09150(fhcD_1) UC8_33780(fhcD_2)
+            RML: FF011L_22160(fhcD_1) FF011L_54310(fhcD_2)
+            MFF: MFFC18_20420(fhcD)
+            ROL: CA51_12000(fhcD_1) CA51_13910(fhcD_2)
+            RUV: EC9_12750(fhcD)
+            RCF: Poly24_09810(fhcD)
+            AHEL: Q31a_04500(fhcD_1) Q31a_36640(fhcD_2)
+            LCRE: Pla8534_21150(fhcD)
+            AAGG: ETAA8_53250(fhcD)
+            BVO: Pan97_37010(fhcD)
+            BREM: PSR63_19775(fhcD)
+            RLC: K227x_47420(fhcD_1) K227x_49350(fhcD_2)
+            SMAM: Mal15_58920(fhcD)
+            SNEP: Enr13x_27230(fhcD)
+            SMAE: TBK1r_22040(fhcD)
+            LPAV: PLANPX_0512
+            LLH: I41_05710(fhcD)
+            AMUC: Pan181_03870(fhcD)
+            PND: Pla175_42740(fhcD)
+            AMOB: HG15A2_01040(fhcD)
+            BMEI: Spa11_06120(fhcD)
+            BGOK: Pr1d_11660(fhcD)
+            PLM: Plim_0767
+            PEH: Spb1_16490(fhcD)
+            PBS: Plabr_2746
+            PLS: VT03_25050(fhcD_1) VT03_26560(fhcD_2)
+            PLH: VT85_05450(fhcD)
+            FMR: Fuma_04732(fhcD)
+            GMR: GmarT_39510(fhcD)
+            GIM: F1728_26355(fhcD)
+            GPN: Pan110_38360(fhcD)
+            GFM: Enr17x_40580(fhcD)
+            GAZ: Pan241w_39920(fhcD)
+            GAW: V144x_21320(fhcD)
+            GAX: Pan161_40360(fhcD)
+            MRI: Mal4_35610(fhcD_1) Mal4_53660(fhcD_2)
+            SDYN: Mal52_51090(fhcD)
+            PLON: Pla110_03360(fhcD_1) Pla110_31860(fhcD_2)
+            ACAF: CA12_24050(fhcD)
+            SVP: Pan189_26260(fhcD)
+            TPOL: Mal48_48890(fhcD)
+            CHYA: V22_03900(fhcD)
+            CCOS: Pan44_18510(fhcD_1) Pan44_22860(fhcD_2)
+            PVAR: SH412_001346(fhcD) SH412_001659(fhcD)
+            CCOP: Mal65_10730(fhcD_1) Mal65_19530(fhcD_2)
+            CSPN: ACLV6H_03155(fhcD) ACLV6H_25405(fhcD)
+            SCHL: QJS52_02735(fhcD) QJS52_21050(fhcD)
+            SSPE: ACGY09_00985(fhcD) ACGY09_08750(fhcD)
+            GES: VT84_05645(fhcD_1) VT84_15260(fhcD_2)
+            GOG: C1280_03970(fhcD) C1280_18540(fhcD)
+            GMS: SOIL9_37840 SOIL9_85360
+            TIM: GMBLW1_15700 GMBLW1_28450
+            LRS: PX52LOC_00703 PX52LOC_07047(fhcD)
+            FTJ: FTUN_4729 FTUN_5703
+            ULI: ETAA1_01420(fhcD_1) ETAA1_48410(fhcD_2)
+            TSPH: KIH39_17475(fhcD)
+            IPA: Isop_0523
+            SACI: Sinac_1239
+            SING: V5E97_39165(fhcD)
+            PBOR: BSF38_00166(fhcD)
+            AGV: OJF2_59260(fhcD)
+            TPLA: ElP_43950(fhcD)
+            KNV: Pan216_40240(fhcD)
+            CMIC: caldi_15540
+            FWA: DCMF_03905 DCMF_14865
+            HAS: Halsa_0945
+            AMO: Anamo_1138
+            ARAM: KAR29_10140(fhcD)
+            APRP: KIH16_10065(fhcD)
+            MOX: DAMO_0459(fhcD)
+            MJA: MJ_0318
+            MFE: Mefer_1275
+            MVU: Metvu_0497
+            MFS: MFS40622_1090
+            MIF: Metin_0870
+            MJH: JH146_0889
+            MESG: MLAUSG7_1535(ftr)
+            MESA: MLASG1_1139(ftr)
+            MIG: Metig_0697
+            MMP: MMP1609(ftr)
+            MMQ: MmarC5_1799
+            MMX: MmarC6_1060
+            MMZ: MmarC7_0857
+            MMD: GYY_08900
+            MMAK: MMKA1_18400(ftr)
+            MMAO: MMOS7_17220(ftr)
+            MMAD: MMJJ_12270(fhcD)
+            MAE: Maeo_0224
+            MVN: Mevan_0919
+            MVO: Mvol_1497
+            MOK: Metok_0159
+            METF: CFE53_06700(fhcD)
+            MTH: MTH_1259 MTH_403
+            MMG: MTBMA_c08020(ehaS) MTBMA_c16460(ftr)
+            MWO: MWSIV6_0792(ehaS) MWSIV6_1651(ftr)
+            MTEE: MTTB_01700 MTTB_07390
+            METC: MTCT_0346 MTCT_1150
+            METE: tca_00370(fhcD_1) tca_01215(fhcD_2)
+            METZ: METMT2_0534 METMT2_1264
+            METK: FVF72_00375 FVF72_05280(fhcD)
+            MTHM: FZP57_03785 FZP57_08075(fhcD)
+            METJ: FZP68_02705(fhcD) FZP68_08825
+            MST: Msp_0070(ftr2) Msp_1502(ftr1)
+            METB: AW729_06880 AW729_07855
+            MEIS: PXD04_03210(fhcD) PXD04_04160
+            MRU: mru_1393(ftr1) mru_2022(ftr2)
+            MSI: Msm_0308 Msm_1092
+            MEB: Abm4_0936(ftr1) Abm4_1598(ftr2)
+            MMIL: sm9_0727(ftr1) sm9_2108(ftr2)
+            MEYE: TL18_03515 TL18_09675
+            MOL: YLM1_0892 YLM1_1463
+            MARO: MarbSA_03240 MarbSA_10120
+            METV: K4897_02055 K4897_06005(fhcD)
+            MEL: Metbo_0252 Metbo_1272
+            MEW: MSWAN_0958 MSWAN_2195
+            METH: MBMB1_1128(ehaS) MBMB1_1832(ftr)
+            MFC: BRM9_1337(ftr) BRM9_2162(ftr2)
+            MFI: DSM1535_1101(ftr) DSM1535_2022(ehaS)
+            MCUB: MCBB_1014(ehaS) MCBB_2124(ftr)
+            MSUB: BK009_02535 BK009_08310
+            METN: BK008_03985 BK008_10190
+            METT: CIT01_00445 CIT01_04260(fhcD)
+            METO: CIT02_02460 CIT02_08420(fhcD)
+            MEME: HYG87_01525 HYG87_05445(fhcD)
+            MFEG: GCM10025860_04640 GCM10025860_19180
+            MEER: NKF70_05760(fhcD) NKF70_14275
+            MRID: FGU46_00770 FGU46_05810(fhcD)
+            MFV: Mfer_0535 Mfer_1096
+            MKA: MK0116(ftr_1) MK0816(ftr_2)
+            AFU: AF_2073 AF_2207
+            AFG: AFULGI_00023420 AFULGI_00024790
+            APO: Arcpr_0160
+            AVE: Arcve_0336 Arcve_1202
+            AST: Asulf_00215 Asulf_00752
+            FPL: Ferp_0657 Ferp_1323
+            GAC: GACE_0426 GACE_2049
+            GAH: GAH_00633 GAH_01298
+            MBA: Mbar_A0980
+            MBY: MSBRM_3513
+            MBW: MSBRW_3742
+            MBAR: MSBR2_3465
+            MBAK: MSBR3_3472
+            MAC: MA_0010(ftr)
+            MMA: MM_1321
+            MMAZ: MmTuc01_1368
+            MMJ: MSMAS_3341
+            MMAC: MSMAC_3365
+            MVC: MSVAZ_3505
+            MEK: MSKOL_3473
+            MLS: MSLAZ_3094
+            METM: MSMTP_3245
+            MEF: MSWH1_3192
+            MEQ: MSWHS_3401
+            MSJ: MSSAC_4333
+            MSZ: MSSIH_3834
+            MSW: MSSIT_3904
+            MTHR: MSTHT_1825
+            MTHE: MSTHC_1461
+            MHOR: MSHOH_4088
+            MFZ: AOB57_008395(fhcD)
+            MHAB: RSJ42_16020(fhcD)
+            METW: AAY43_03120
+            MBU: Mbur_1728(ftr)
+            MMET: MCMEM_2199
+            MELO: J7W08_10015(fhcD)
+            MMH: Mmah_2027
+            MHAZ: BHR79_03500
+            MPOT: BKM01_10405
+            MEV: Metev_1828
+            MZH: Mzhil_2022
+            MPY: Mpsy_1734
+            MZI: HWN40_01035(fhcD)
+            MMAV: RE476_10105(fhcD)
+            MSEB: RE474_06690(fhcD)
+            MHZ: Metho_2457
+            MTP: Mthe_1643
+            MCJ: MCON_1472(fhcD)
+            MHI: Mhar_2214
+            MHU: Mhun_1808
+            MRTJ: KHC33_05365(fhcD)
+            MLA: Mlab_0215
+            MEM: Memar_0628
+            MBG: BN140_1723(ftr)
+            MEMA: MMAB1_2217(ftr)
+            MCHK: MchiMG62_07570
+            MSUM: OH143_09860(fhcD)
+            MRC: R6Y96_02575(fhcD)
+            MPI: Mpet_1069 Mpet_2482
+            MEND: L6E24_09260(fhcD) L6E24_12315(fhcD)
+            MEFW: F1737_00640(fhcD) F1737_05040(fhcD)
+            MAQE: RJ40_06020(fhcD)
+            MFK: E2N92_06150(fhcD)
+            MOU: OU421_03625(fhcD)
+            MESB: L1S32_07225(fhcD) L1S32_10650(fhcD)
+            MANQ: L1994_01115(fhcD) L1994_04945(fhcD)
+            MBN: Mboo_0593 Mboo_0993
+            MFO: Metfor_1973 Metfor_2598
+            MESK: METHP_00373
+            MPL: Mpal_2244
+            MPD: MCP_1033(ftr)
+            MEZ: Mtc_1916(ftr)
+            RCI: LRC202(ftr)
+            MJK: N2V74_01535(fhcD) N2V74_04325(fhcD) N2V74_07165
+            MELU: MTLP_04500(fhcD) MTLP_05130
+            MEAM: MU439_06340
+            MEAE: QEN48_03805
+            BARC: AOA65_1220(ftr_1) AOA65_2064(ftr_2)
+            BARB: AOA66_0598(ftr)
+            LOKI: Lokiarch_11730(ftr_1) Lokiarch_20800(ftr_2)
+            LOB: NEF87_004808
+            PSYT: DSAG12_02401
+REFERENCE   PMID:2403564
+  AUTHORS   DiMarco AA, Sment KA, Konisky J, Wolfe RS
+  TITLE     The formylmethanofuran:tetrahydromethanopterin formyltransferase from Methanobacterium thermoautotrophicum delta H. Nucleotide sequence and functional  expression of the cloned gene.
+  JOURNAL   J Biol Chem 265:472-6 (1990)
+  SEQUENCE  [mth:MTH_1259]
+REFERENCE   PMID:8522533
+  AUTHORS   Nolling J, Pihl TD, Reeve JN
+  TITLE     Cloning, sequencing, and growth phase-dependent transcription of the coenzyme F420-dependent N5,N10-methylenetetrahydromethanopterin reductase-encoding genes from Methanobacterium thermoautotrophicum delta H and Methanopyrus kandleri.
+  JOURNAL   J Bacteriol 177:7238-44 (1995)
+            DOI:10.1128/JB.177.24.7238-7244.1995
+///

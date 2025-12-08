@@ -1,0 +1,22 @@
+ENTRY       R02715                      Reaction
+NAME        D-arabinono-1,4-lactone:oxygen oxidoreductase
+DEFINITION  D-Arabinono-1,4-lactone + Oxygen <=> Dehydro-D-arabinono-1,4-lactone + Hydrogen peroxide
+EQUATION    C00652 + C00007 <=> C06316 + C00027
+RCLASS      RC00195  C00652_C06316
+            RC02755  C00007_C00027
+ENZYME      1.1.3.37
+PATHWAY     rn00053  Ascorbate and aldarate metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.3  With oxygen as acceptor
+                1.1.3.37
+                 R02715  D-Arabinono-1,4-lactone + Oxygen <=> Dehydro-D-arabinono-1,4-lactone + Hydrogen peroxide
+ORTHOLOGY   K00107  D-arabinono-1,4-lactone oxidase [EC:1.1.3.37]
+REFERENCE   1  [PMID:8841374]
+  AUTHORS   Kim ST, Huh WK, Kim JY, Hwang SW, Kang SO.
+  TITLE     D-arabinose dehydrogenase and biosynthesis of erythroascorbic acid in Candida albicans.
+  JOURNAL   Biochim Biophys Acta 1297:1-8 (1996)
+DBLINKS     RHEA: 23759
+///

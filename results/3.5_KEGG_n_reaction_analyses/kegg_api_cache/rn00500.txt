@@ -1,0 +1,127 @@
+ENTRY       rn00500                     Pathway
+NAME        Starch and sucrose metabolism
+CLASS       Metabolism; Carbohydrate metabolism
+PATHWAY_MAP rn00500  Starch and sucrose metabolism
+MODULE      M00565  Trehalose biosynthesis, D-glucose-1P => trehalose [PATH:rn00500]
+            M00854  Glycogen biosynthesis, glucose-1P => glycogen/starch [PATH:rn00500]
+            M00855  Glycogen degradation, glycogen => glucose-6P [PATH:rn00500]
+DBLINKS     GO: 0005982 0005985
+REACTION    R00010  alpha,alpha-trehalose glucohydrolase
+            R00028  maltose glucohydrolase
+            R00287  UDP-glucose glucophosphohydrolase
+            R00289  UTP:alpha-D-glucose-1-phosphate uridylyltransferase
+            R00292  UDP-glucose:glycogen 4-alpha-D-glucosyltransferase
+            R00299  ATP:D-glucose 6-phosphotransferase
+            R00303  D-glucose-6-phosphate phosphohydrolase
+            R00306  cellobiose glucohydrolase
+            R00308  1,3-beta-D-glucan glucanohydrolase
+            R00760  ATP:D-fructose 6-phosphotransferase
+            R00766  UDP-glucose:D-fructose-6-phosphate 2-alpha-D-glucosyltransferase
+            R00771  D-glucose-6-phosphate aldose-ketose-isomerase
+            R00801  sucrose glucohydrolase
+            R00803  sucrose:phosphate alpha-D-glucosyltransferase
+            R00805  sucrose-6F-phosphate phosphohydrolase
+            R00806  UDP-glucose:D-fructose 2-alpha-D-glucosyltransferase
+            R00807  sucrose:(acceptor) 3-oxidoreductase
+            R00811  protein-Npi-phospho-L-histidine:sugar phosphotransferase
+            R00837  alpha,alpha-trehalose-6-phosphate phosphoglucohydrolase
+            R00838  maltose-6'-phosphate 6-phosphoglucohydrolase
+            R00839  6-phospho-beta-D-glucosyl-(1->4)-D-glucose 6-phosphoglucohydrolase
+            R00948  ATP:alpha-D-glucose-1-phosphate adenylyltransferase
+            R00949  ATP:D-glucose-1-phosphate 6-phosphotransferase
+            R00951  ADP-glucose glucose-1-phosphohydrolase
+            R00952  cellobiose:phosphate alpha-D-glucosyltransferase
+            R00954  GTP:alpha-D-glucose-1-phosphate guanylyltransferase
+            R00956  CTP:alpha-D-glucose-1-phosphate cytidylyltransferase
+            R00960  D-glucose-1-phosphate:D-glucose-1-phosphate 6-phosphotransferase
+            R01233  GDPglucose sugarphosphohydrolase
+            R01555  maltose:phosphate 1-beta-D-glucosyltransferase
+            R01557  maltose alpha-D-glucosylmutase
+            R01660  3-phospho-D-glyceroyl-phosphate:alpha-D-glucose-1-phosphate 6-phosphotransferase
+            R01718  isomaltose 6-alpha-D-glucanohydrolase
+            R01790  1,4-alpha-D-glucan glucohydrolase
+            R01791  dextrin 6-alpha-D-glucanohydrolase
+            R01823  sucrose:1,4-alpha-D-glucan 4-alpha-D-glucosyltransferase
+            R01824  maltodextrin 1-alpha-D-glucosylmutase
+            R02110  1,4-alpha-D-glucan:1,4-alpha-D-glucan 6-alpha-D-(1,4-alpha-D-glucano)-transferase
+            R02111  1,4-alpha-D-glucan:orthophosphate alpha-D-glucosyltransferase
+            R02112  1,4-alpha-D-glucan maltohydrolase
+            R02120  sucrose:1,6-alpha-D-glucan 6-alpha-D-glucosyltransferase
+            R02421  ADP-glucose:1,4-alpha-D-glucan 4-alpha-D-glucosyltransferase
+            R02727  alpha,alpha-trehalose:orthophosphate beta-D-glucosyltransferase
+            R02737  UDPglucose:D-glucose-6-phosphate 1-alpha-D-glucosyltransferase
+            R02778  trehalose-6-phosphate phosphohydrolase
+            R02780  
+            R02886  1,4-(1,3;1,4)-beta-D-glucan 4-glucanohydrolase
+            R02887  1,4-beta-D-glucan glucohydrolase
+            R02889  UDPglucose:1,4-beta-D-glucan 4-beta-D-glucosyltransferase
+            R02890  GDPglucose:1,4-beta-D-glucan 4-beta-D-glucosyltransferase
+            R03118  UDPglucose:1,3-beta-D-glucan 3-beta-D-glucosyltransferase
+            R03122  cyclomaltodextrin dextrin-hydrolase (decyclizing)
+            R03526  UDP-glucose:beta-D-glucosyltransferase (acceptor-unspecific)
+            R03527  D-glucoside glucohydrolase
+            R03921  sucrose 6-phosphate fructohydrolase
+            R04111  protein-N(pi)-phosphohistidine:maltose 6'-phosphotransferase
+            R04194  sucrose:2,1-beta-D-fructan 1-beta-D-fructosyltransferase
+            R05140  sucrose:2,6-beta-D-fructan 6-beta-D-fructosyltransferase
+            R05196  1,4-alpha-D-glucan:1,4-alpha-D-glucan 4-alpha-D-glycosyltransferase
+            R08639  alpha-D-glucose 1,6-phosphomutase
+            R08946  ADP-glucose: D-glucose 1-alpha-D-glucosyltransferase
+            R09945  ATP:alpha-maltose 1-phosphotransferase
+            R09994  alpha-maltose 1-phosphate:(1->4)-alpha-D-glucan 4-alpha-D-maltosyltransferase
+            R10486  maltose 6'-phosphate phosphohydrolase
+            R10784  (2->6)-beta-D-fructanan 6-(beta-D-fructosyl)-D-fructohydrolase; levan levanbiohydrolase
+            R11172  protein-Npi-phospho-L-histidine:cellobiose 6'-O-phosphotransferase
+            R11256  4-alpha-D-[(1->4)-alpha-D-glucano]trehalose glucanohydrolase (trehalose-producing)
+            R11260  
+            R11261  
+            R11262  maltodextrin maltohydrolase
+            R11306  UDP-D-glucose:D-glucose 1-alpha-D-glucosyltransferase
+            R11307  
+            R11308  
+            R11309  
+            R11310  beta-D-glucose 1,6-phosphomutase
+            R11311  
+            R11530  ADP-alpha-D-glucose:alpha-D-glucose-1-phosphate 4-alpha-D-glucosyltransferase (configuration-retaining)
+COMPOUND    C00029  UDP-glucose
+            C00031  D-Glucose
+            C00085  D-Fructose 6-phosphate
+            C00089  Sucrose
+            C00092  D-Glucose 6-phosphate
+            C00095  D-Fructose
+            C00103  D-Glucose 1-phosphate
+            C00185  Cellobiose
+            C00208  Maltose
+            C00252  Isomaltose
+            C00369  Starch
+            C00372  Dextran
+            C00394  GDP-glucose
+            C00498  ADP-glucose
+            C00501  CDP-glucose
+            C00663  beta-D-Glucose 1-phosphate
+            C00689  alpha,alpha'-Trehalose 6-phosphate
+            C00718  Amylose
+            C00721  Dextrin
+            C00760  Cellulose
+            C00963  beta-D-Glucoside
+            C00965  1,3-beta-D-Glucan
+            C00973  Cyclomaltodextrin
+            C01083  alpha,alpha-Trehalose
+            C01231  alpha-D-Glucose 1,6-bisphosphate
+            C01725  Levanbiose
+            C01898  Cellodextrin
+            C01935  Maltodextrin
+            C02591  Sucrose 6'-phosphate
+            C02995  Maltose 6'-phosphate
+            C03323  (2,1-beta-D-Fructosyl)n
+            C04534  6-Phospho-beta-D-glucosyl-(1,4)-D-glucose
+            C05731  3-Ketosucrose
+            C06215  Levan
+            C06400  1-alpha-D-[(1->4)-alpha-D-Glucosyl](n-1)-alpha-D-glucopyranoside
+            C16688  Sucrose 6-phosphate
+            C20237  alpha-Maltose 1-phosphate
+REL_PATHWAY rn00010  Glycolysis / Gluconeogenesis
+            rn00074  Mycolic acid biosynthesis
+            rn00520  Amino sugar and nucleotide sugar metabolism
+KO_PATHWAY  ko00500
+///

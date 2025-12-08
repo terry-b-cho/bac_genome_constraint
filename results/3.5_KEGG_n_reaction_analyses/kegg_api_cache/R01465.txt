@@ -1,0 +1,19 @@
+ENTRY       R01465                      Reaction
+NAME        L-threonine:NAD+ oxidoreductase
+DEFINITION  L-Threonine + NAD+ <=> L-2-Amino-3-oxobutanoic acid + NADH + H+
+EQUATION    C00188 + C00003 <=> C03508 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00525  C00188_C03508
+ENZYME      1.1.1.103
+PATHWAY     rn00260  Glycine, serine and threonine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.103
+                 R01465  L-Threonine + NAD+ <=> L-2-Amino-3-oxobutanoic acid + NADH + H+
+ORTHOLOGY   K00060  threonine 3-dehydrogenase [EC:1.1.1.103]
+            K15789  threonine 3-dehydrogenase [EC:1.1.1.103]
+DBLINKS     RHEA: 13164
+///

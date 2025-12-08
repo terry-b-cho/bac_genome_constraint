@@ -1,0 +1,20 @@
+ENTRY       R03464                      Reaction
+NAME        5,10-methenyltetrahydromethanopterin 10-hydrolase (decyclizing)
+DEFINITION  5,10-Methenyltetrahydromethanopterin + H2O <=> 5-Formyl-5,6,7,8-tetrahydromethanopterin + H+
+EQUATION    C04330 + C00001 <=> C01274 + C00080
+RCLASS      RC01870  C01274_C04330
+ENZYME      3.5.4.27
+PATHWAY     rn00680  Methane metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00567  Methanogenesis, CO2 => methane
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.4  In cyclic amidines
+                3.5.4.27
+                 R03464  5,10-Methenyltetrahydromethanopterin + H2O <=> 5-Formyl-5,6,7,8-tetrahydromethanopterin + H+
+ORTHOLOGY   K01499  methenyltetrahydromethanopterin cyclohydrolase [EC:3.5.4.27]
+DBLINKS     RHEA: 19056
+///

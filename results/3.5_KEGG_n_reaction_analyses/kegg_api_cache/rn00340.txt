@@ -1,0 +1,112 @@
+ENTRY       rn00340                     Pathway
+NAME        Histidine metabolism
+CLASS       Metabolism; Amino acid metabolism
+PATHWAY_MAP rn00340  Histidine metabolism
+MODULE      M00026  Histidine biosynthesis, PRPP => histidine [PATH:rn00340]
+            M00045  Histidine degradation, histidine => N-formiminoglutamate => glutamate [PATH:rn00340]
+DBLINKS     GO: 0006547
+REACTION    R00069  4-imidazolone-5-propanoate:oxygen oxidoreductase
+            R00254  N-carbamyl-L-glutamate amidohydrolase
+            R00270  
+            R00525  N-formyl-L-glutamate amidohydrolase
+            R00526  N-formyl-L-aspartate amidohydrolase
+            R01071  1-(5-phospho-D-ribosyl)-ATP:diphosphate phospho-alpha-D-ribosyl-transferase
+            R01159  S-adenosyl-L-methionine:L-histidine N-methyltransferase
+            R01161  L-histidine:2-oxoglutarate aminotransferase
+            R01163  L-histidinal:NAD+ oxidoreductase
+            R01164  L-histidine:beta-alanine ligase (ADP-forming)
+            R01166  Nalpha-(beta-alanyl)-L-histidine hydrolase
+            R01167  L-histidine carboxy-lyase (histamine-forming)
+            R01168  L-histidine ammonia-lyase (urocanate-forming)
+            R01169  S-adenosyl-L-methionine:L-histidine Nalpha-methyltransferase
+            R02144  S-adenosyl-L-methionine:carnosine N-methyltransferase
+            R02150  1H-imidazole-4-ethanamine:oxygen oxidoreductase (deaminating) (copper-containing)
+            R02152  
+            R02155  S-adenosyl-L-methionine:histamine N-tele-methyltransferase
+            R02285  N-formimino-L-glutamate formiminohydrolase
+            R02286  N-formimino-L-glutamate iminohydrolase
+            R02287  5-formiminotetrahydrofolate:L-glutamate N-formiminotransferase
+            R02288  4-imidazolone-5-propanoate amidohydrolase
+            R02914  4,5-dihydro-4-oxo-5-imidazolepropanoate hydro-lyase
+            R03012  L-histidinol:NAD+ oxidoreductase
+            R03013  L-histidinol-phosphate phosphohydrolase
+            R03188  N-formimino-L-aspartate iminohydrolase
+            R03243  5-amino-2-oxopentanoate:2-oxoglutarate aminotransferase
+            R03286  N(pi)-methyl-L-histidine:beta-alanine ligase (ADP-forming)
+            R03288  beta-alanyl-N(pi)-methyl-L-histidine hydrolase; anserine hydrolase
+            R03457  D-erythro-1-(imidazol-4-yl)glycerol 3-phosphate hydro-lyase
+            R04035  phosphoribosyl-ATP pyrophosphohydrolase
+            R04037  1-(5-phospho-D-ribosyl)-AMP 1,6-hydrolase
+            R04065  imidazole acetaldehyde:NAD+ oxidoreductase
+            R04066  imidazole-4-acetate,NADH:oxygen oxidoreductase (5-hydroxylating)
+            R04068  imidazole-4-acetate:5-phosphoribosyl-diphosphate ligase (ADP- and pyrophosphate- forming)
+            R04214  
+            R04282  
+            R04283  
+            R04479  
+            R04558  5-[(5-phospho-1-deoxy-D-ribulos-1-ylamino)methylideneamino]-1-(5-phospho-beta-D-ribosyl)imidazole-4-carboxamide D-erythro-1-(imidazol-4-yl)glycerol 3-phosphate-lyase (L-glutamine-hydrolysing; 5-amino-1-(5-phospho-beta-D-ribosyl)imidazole-4-carboxamide-forming)
+            R04640  N-(5'-phospho-D-ribosylformimino)-5-amino-1- (5''-phospho-D-ribosyl)-4-imidazolecarboxamide ketol-isomerase; 1-(5-phospho-beta-D-ribosyl)-5-[(5-phospho-beta-D-ribosylamino)methylideneamino]imidazole-4-carboxamide aldose-ketose-isomerase
+            R04674  N-methylhistamine:oxygen oxidoreductase (deaminating)
+            R04874  
+            R04875  
+            R04876  
+            R04877  
+            R04879  
+            R04996  3-methylimidazole acetaldehyde:NAD+ oxidoreductase
+            R10330  dihydrourocanate:acceptor oxidoreductase
+            R11013  hercynine,gamma-L-glutamyl-L-cysteine:oxygen oxidoreductase [gamma-L-glutamyl-S-(hercyn-2-yl)-L-cysteine S-oxide-forming]
+            R11014  hercynine,L-cysteine:oxygen [S-(hercyn-2-yl)-L-cysteine S-oxide-forming]
+            R11021  S-gamma-glutamyl hercynylcysteine S-oxide amidohydrolase
+            R11023  S-(hercyn-2-yl)-L-cysteine-S-oxide ergothioneine-lyase (deaminating; pyruvate-forming)
+COMPOUND    C00025  L-Glutamate
+            C00026  2-Oxoglutarate
+            C00049  L-Aspartate
+            C00119  5-Phospho-alpha-D-ribose 1-diphosphate
+            C00135  L-Histidine
+            C00386  Carnosine
+            C00388  Histamine
+            C00439  N-Formimino-L-glutamate
+            C00785  Urocanate
+            C00860  L-Histidinol
+            C01044  N-Formyl-L-aspartate
+            C01045  N-Formyl-L-glutamate
+            C01100  L-Histidinol phosphate
+            C01152  N(pi)-Methyl-L-histidine
+            C01262  beta-Alanyl-N(pi)-methyl-L-histidine
+            C01267  3-(Imidazol-4-yl)-2-oxopropyl phosphate
+            C01929  L-Histidinal
+            C02739  1-(5-Phospho-D-ribosyl)-ATP
+            C02741  Phosphoribosyl-AMP
+            C02835  Imidazole-4-acetate
+            C03277  Imidazol-5-yl-pyruvate
+            C03409  N-Formimino-L-aspartate
+            C03680  4-Imidazolone-5-propanoate
+            C04437  1-(5-Phosphoribosyl)imidazole-4-acetate
+            C04666  D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate
+            C04677  1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide
+            C04896  5-(5-Phospho-D-ribosylaminoformimino)-1-(5-phosphoribosyl)-imidazole-4-carboxamide
+            C04916  N-(5'-Phospho-D-1'-ribulosylformimino)-5-amino-1-(5''-phospho-D-ribosyl)-4-imidazolecarboxamide
+            C05127  N-Methylhistamine
+            C05130  Imidazole-4-acetaldehyde
+            C05131  (1-Ribosylimidazole)-4-acetate
+            C05133  4-Imidazolone-5-acetate
+            C05135  4-(beta-Acetylaminoethyl)imidazole
+            C05565  Hydantoin-5-propionate
+            C05568  Imidazole lactate
+            C05570  Ergothioneine
+            C05571  Thiourocanic acid
+            C05572  4-Oxoglutaramate
+            C05575  Hercynine
+            C05827  Methylimidazole acetaldehyde
+            C05828  Methylimidazoleacetic acid
+            C05829  N-Carbamyl-L-glutamate
+            C16673  Isoglutamine
+            C16674  Formylisoglutamine
+            C20522  Dihydrourocanate
+            C20994  S-(Hercyn-2-yl)-L-cysteine S-oxide
+            C20995  gamma-L-Glutamyl-S-(hercyn-2-yl)-L-cysteine S-oxide
+REL_PATHWAY rn00030  Pentose phosphate pathway
+            rn00230  Purine metabolism
+            rn00250  Alanine, aspartate and glutamate metabolism
+KO_PATHWAY  ko00340
+///

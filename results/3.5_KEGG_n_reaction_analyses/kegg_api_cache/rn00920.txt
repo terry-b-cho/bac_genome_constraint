@@ -1,0 +1,180 @@
+ENTRY       rn00920                     Pathway
+NAME        Sulfur metabolism
+DESCRIPTION Sulfur is an essential element for life and the metabolism of organic sulfur compounds plays an important role in the global sulfur cycle. Sulfur occurs in various oxidation states ranging from +6 in sulfate to -2 in sulfide (H2S). Sulfate reduction can occur in both an energy consuming assimilatory pathway and an energy producing dissimilatory pathway. The assimilatory pathway, which is found in a wide range of organisms, produces reduced sulfur compounds for the biosynthesis of S-containing amino acids and does not lead to direct excretion of sulfide. In the dissimilatory pathway, which is restricted to obligatory anaerobic bacterial and archaeal lineages, sulfate (or sulfur) is the terminal electron acceptor of the respiratory chain producing large quantities of inorganic sulfide. Both pathways start from the activation of sulfate by reaction with ATP to form adenylyl sulfate (APS). In the assimilatory pathway [MD:M00176] APS is converted to 3'-phosphoadenylyl sulfate (PAPS) and then reduced to sulfite, and sulfite is further reduced to sulfide by the assimilatory sulfite reductase. In the dissimilatory pathway [MD:M00596] APS is directly reduced to sulfite, and sulfite is further reduced to sulfide by the dissimilatory sulfite reductase. The capacity for oxidation of sulfur is quite widespread among bacteria and archaea, comprising phototrophs and chemolithoautotrophs. The SOX (sulfur-oxidation) system [MD:M00595] is a well-known sulfur oxidation pathway and is found in both photosynthetic and non-photosynthetic sulfur-oxidizing bacteria. Green sulfur bacteria and purple sulfur bacteria carry out anoxygenic photosynthesis with reduced sulfur compounds such as sulfide and elemental sulfur, as well as thiosulfate (in some species with the SOX system), as the electron donor for photoautotrophic growth. In some chemolithoautotrophic sulfur oxidizers (such as Thiobacillus denitrificans), it has been suggested that dissimilatory sulfur reduction enzymes operate in the reverse direction, forming a sulfur oxidation pathway from sulfite to APS and then to sulfate.
+CLASS       Metabolism; Energy metabolism
+PATHWAY_MAP rn00920  Sulfur metabolism
+MODULE      M00021  Cysteine biosynthesis, serine => cysteine [PATH:rn00920]
+            M00176  Assimilatory sulfate reduction, sulfate => H2S [PATH:rn00920]
+            M00595  Sulfur oxidation, SOX system, thiosulfate => sulfate [PATH:rn00920]
+            M00596  Dissimilatory sulfate reduction, sulfate => H2S [PATH:rn00920]
+            M00984  Sulfur oxidation, tetrathionate intermediate (S4I) pathway, thiosulfate => sulfur + sulfate + thiosulfate [PATH:rn00920]
+            M00985  Sulfide oxidation, sulfide => sulfur [PATH:rn00920]
+            M00986  Sulfur reduction, sulfur => sulfide [PATH:rn00920]
+            M00987  Assimilatory sulfate reduction, plants, sulfate => H2S [PATH:rn00920]
+            M00990  Dimethylsulfoniopropionate (DMSP) degradation, demethylation pathway, DMSP => methanethiol [PATH:rn00920]
+            M00991  Dimethylsulfoniopropionate (DMSP) degradation, cleavage pathway, DMSP => acetyl-CoA [PATH:rn00920]
+            M00992  Dimethylsulfoniopropionate (DMSP) degradation, cleavage pathway, DMSP => acrylate => acetyl-CoA [PATH:rn00920]
+            M00993  Dimethylsulfoniopropionate (DMSP) degradation, cleavage pathway, DMSP => propionyl-CoA [PATH:rn00920]
+DBLINKS     GO: 0006790
+REACTION    R00029  thiosulfate:ferricytochrome-c oxidoreductase
+            R00295  trithionate,NAD+ oxidoreductase
+            R00507  3'-phosphoadenylyl-sulfate sulfohydrolase; 3'-phosphoadenylyl-sulfate nucleotidohydrolase
+            R00508  3'-phospho-5'-adenylyl sulfate 3'-phosphohydrolase
+            R00509  ATP:adenylylsulfate 3'-phosphotransferase
+            R00528  sulfite:ferricytochrome-c oxidoreductase
+            R00529  ATP:sulfate adenylyltransferase
+            R00530  ADP:sulfate adenylyltransferase
+            R00531  adenylylsulfate sulfohydrolase
+            R00533  sulfite:oxygen oxidoreductase
+            R00586  acetyl-CoA:L-serine O-acetyltransferase
+            R00649  S-adenosyl-L-methionine:L-methionine S-methyltransferase
+            R00858  hydrogen-sulfide:NADP+ oxidoreductase
+            R00859  hydrogen-sulfide:ferredoxin oxidoreductase
+            R00861  [DsrC protein]-trisulfide,NAD+ oxidoreductase (sulfite-forming)
+            R00897  O3-acetyl-L-serine:hydrogen-sulfide 2-amino-2-carboxyethyltransferase; O3-acetyl-L-serine acetate-lyase (adding hydrogen sulfide)
+            R01283  L-homocysteine hydrogen-sulfide-lyase (deaminating; 2-oxobutanoate-forming)
+            R01288  O4-succinyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase; O-succinyl-L-homoserine succinate-lyase (adding hydrogen sulfide)
+            R01777  succinyl-CoA:L-homoserine O-succinyltransferase
+            R01851  methanethiol:oxygen oxidoreductase
+            R01930  trithionate thiosulfohydrolase
+            R01931  thiosulfate:cyanide sulfurtranserase
+            R02021  adenosine 3',5'-bisphosphate,sulfite:oxidized-thioredoxin oxidoreductase (3'-phosphoadenosine-5'-phosphosulfate -forming)
+            R02574  S,S-dimethyl-beta-propiothetin dimethyl-sulfide-lyase
+            R03533  donor:sulfur oxidoreductase
+            R05320  taurine,2-oxoglutarate:O2 oxidoreductase (sulfite-forming)
+            R05717  AMP,sulfite:glutathione-disulfide oxidoreductase (adenosine-5'-phosphosulfate-forming)
+            R07177  thiosulfate:6-decylubiquinone oxidoreductase
+            R07210  alkanesulfonate,reduced-FMN:oxygen oxidoreductase
+            R07365  sulfur:oxygen oxidoreductase (hydrogen-sulfide- and sulfite-forming)
+            R08553  AMP,sulfite:acceptor oxidoreductase (adenosine-5'-phosphosulfate-forming)
+            R08678  S-sulfanylglutathione:oxygen oxidoreductase
+            R09498  dimethylsulfone reductase
+            R09499  hydrogen-sulfide:flavocytochrome c oxidoreductase
+            R09500  dimethyl sulfide:ferricytochrome-c2 oxidoreductase
+            R09501  dimethyl sulfide:menaquinone oxidoreductase
+            R09513  methanesulfonate,NADH:oxygen oxidoreductase
+            R09786  dimethyl sulfide,NADH:oxygen oxidoreductase
+            R09997  methanethiol:coenzyme M methyltransferase
+            R10146  
+            R10149  
+            R10150  
+            R10151  
+            R10152  sulfide:quinone oxidoreductase
+            R10203  
+            R10206  methanesulfonate,FMNH2:oxygen oxidoreductase
+            R10333  S,S-dimethyl-beta-propiothetin:tetrahydrofolate S-methyltransferase
+            R10390  H2:polysulfide oxidoreductase
+            R10419  hydrogen sulfide:NAD+ oxidoreductase (CoA-dependent)
+            R10438  hydrogen sulfide:NADP+ oxidoreductase (CoA-dependent)
+            R10820  3-(methylthio)propanoate:CoA ligase (AMP-forming)
+            R10936  3-(methylthio)acryloyl-CoA hydratase
+            R11130  3-(methylsulfanyl)propanoyl-CoA:acceptor 2-oxidoreductase
+            R11487  sulfite:quinone oxidoreductase
+            R11546  S-adenosyl-L-methionine:methanethiol S-methyltransferase
+            R11929  sulfide:glutathione,quinone oxidoreductase
+            R12666  S-adenosyl-L-methionine:(2R)-2-hydroxy-4-(methylsulfanyl)butanoate S-methyltransferase
+            R13227  hydrogen sulfide:[DsrC protein]-dithiol oxidoreductase (trisulfide-forming)
+            R13400  
+            R13446  
+            R13447  
+            R13448  
+            R13449  
+            R13450  
+            R13451  
+            R13452  
+            R13453  
+            R13454  
+            R13455  
+            R13556  
+COMPOUND    C00033  Acetate
+            C00042  Succinate
+            C00053  3'-Phosphoadenylyl sulfate
+            C00054  Adenosine 3',5'-bisphosphate
+            C00059  Sulfate
+            C00065  L-Serine
+            C00073  L-Methionine
+            C00084  Acetaldehyde
+            C00087  Sulfur
+            C00094  Sulfite
+            C00097  L-Cysteine
+            C00155  L-Homocysteine
+            C00163  Propanoate
+            C00224  Adenylyl sulfate
+            C00245  Taurine
+            C00263  L-Homoserine
+            C00283  Hydrogen sulfide
+            C00320  Thiosulfate
+            C00409  Methanethiol
+            C00511  Acrylic acid
+            C00580  Dimethyl sulfide
+            C00894  Propenoyl-CoA
+            C00979  O-Acetyl-L-serine
+            C01013  3-Hydroxypropanoate
+            C01118  O-Succinyl-L-homoserine
+            C01180  4-Methylthio-2-oxobutanoic acid
+            C01861  Trithionate
+            C02084  Tetrathionate
+            C03172  S-Methyl-L-methionine
+            C03920  2-(Methylthio)ethanesulfonate
+            C04022  S,S-Dimethyl-beta-propiothetin
+            C08276  3-(Methylthio)propanoate
+            C11142  Dimethyl sulfone
+            C11143  Dimethyl sulfoxide
+            C11145  Methanesulfonic acid
+            C15521  Alkanesulfonate
+            C17267  S-Sulfanylglutathione
+            C19692  Polysulfide
+            C20870  3-(Methylthio)propanoyl-CoA
+            C20955  3-(Methylthio)acryloyl-CoA
+            C22315  (2R)-2-Hydroxy-4-(methylsulfanyl)butanoate
+            C22316  (2R)-4-(Dimethylsulfaniumyl)-2-hydroxybutanoate
+            C22834  Protein-trisulfide
+            C23001  3-Aminopropyl(dimethyl)sulfanium
+            C23002  3-Dimethylsulfoniopropionaldehyde
+REFERENCE   PMID:22982583
+  AUTHORS   Grein F, Ramos AR, Venceslau SS, Pereira IA
+  TITLE     Unifying concepts in anaerobic respiration: Insights from dissimilatory sulfur metabolism.
+  JOURNAL   Biochim Biophys Acta 1827:145-60 (2013)
+            DOI:10.1016/j.bbabio.2012.09.001
+REFERENCE   PMID:22633058
+  AUTHORS   Fauque GD, Barton LL
+  TITLE     Hemoproteins in dissimilatory sulfate- and sulfur-reducing prokaryotes.
+  JOURNAL   Adv Microb Physiol 60:1-90 (2012)
+            DOI:10.1016/B978-0-12-398264-3.00001-2
+REFERENCE   PMID:20143161
+  AUTHORS   Sakurai H, Ogawa T, Shiga M, Inoue K
+  TITLE     Inorganic sulfur oxidizing system in green sulfur bacteria.
+  JOURNAL   Photosynth Res 104:163-76 (2010)
+            DOI:10.1007/s11120-010-9531-2
+REFERENCE   PMID:22092713
+  AUTHORS   Falkenby LG, Szymanska M, Holkenbrink C, Habicht KS, Andersen JS, Miller M, Frigaard NU
+  TITLE     Quantitative proteomics of Chlorobaculum tepidum: insights into the sulfur metabolism of a phototrophic green sulfur bacterium.
+  JOURNAL   FEMS Microbiol Lett 323:142-50 (2011)
+            DOI:10.1111/j.1574-6968.2011.02370.x
+REFERENCE   PMID:21833341
+  AUTHORS   Gregersen LH, Bryant DA, Frigaard NU
+  TITLE     Mechanisms and evolution of oxidative sulfur metabolism in green sulfur bacteria.
+  JOURNAL   Front Microbiol 2:116 (2011)
+            DOI:10.3389/fmicb.2011.00116
+REFERENCE   PMID:16452431
+  AUTHORS   Beller HR, Chain PS, Letain TE, Chakicherla A, Larimer FW, Richardson PM, Coleman MA, Wood AP, Kelly DP.
+  TITLE     The genome sequence of the obligately chemolithoautotrophic, facultatively anaerobic bacterium Thiobacillus denitrificans.
+  JOURNAL   J Bacteriol 188:1473-88 (2006)
+            DOI:10.1128/JB.188.4.1473-1488.2006
+REFERENCE   PMID:9695921
+  AUTHORS   Pott AS, Dahl C
+  TITLE     Sirohaem sulfite reductase and other proteins encoded by genes at the dsr locus of Chromatium vinosum are involved in the oxidation of intracellular sulfur.
+  JOURNAL   Microbiology 144 ( Pt 7):1881-94 (1998)
+            DOI:10.1099/00221287-144-7-1881
+REFERENCE   PMID:18929068
+  AUTHORS   Frigaard NU, Dahl C
+  TITLE     Sulfur metabolism in phototrophic sulfur bacteria.
+  JOURNAL   Adv Microb Physiol 54:103-200 (2009)
+            DOI:10.1016/S0065-2911(08)00002-7
+REL_PATHWAY rn00260  Glycine, serine and threonine metabolism
+            rn00270  Cysteine and methionine metabolism
+            rn00640  Propanoate metabolism
+            rn00680  Methane metabolism
+            rn00720  Other carbon fixation pathways
+KO_PATHWAY  ko00920
+///

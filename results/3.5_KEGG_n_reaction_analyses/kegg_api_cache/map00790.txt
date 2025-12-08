@@ -1,0 +1,58 @@
+ENTRY       map00790                    Pathway
+NAME        Folate biosynthesis
+CLASS       Metabolism; Metabolism of cofactors and vitamins
+PATHWAY_MAP map00790  Folate biosynthesis
+MODULE      M00126  Tetrahydrofolate biosynthesis, GTP => THF [PATH:map00790]
+            M00840  Tetrahydrofolate biosynthesis, mediated by ribA and trpF, GTP => THF [PATH:map00790]
+            M00841  Tetrahydrofolate biosynthesis, mediated by PTPS, GTP => THF [PATH:map00790]
+            M00842  Tetrahydrobiopterin biosynthesis, GTP => BH4 [PATH:map00790]
+            M00843  L-threo-Tetrahydrobiopterin biosynthesis, GTP => L-threo-BH4 [PATH:map00790]
+            M00880  Molybdenum cofactor biosynthesis, GTP => molybdenum cofactor [PATH:map00790]
+            M00988  PreQ1 biosynthesis, GTP => 7-Aminomethyl-7-deazaguanine [PATH:map00790]
+DBLINKS     GO: 0046656
+REFERENCE   
+  AUTHORS   Nishizuka Y, Seyama Y, Ikai A, Ishimura Y, Kawaguchi A (eds).
+  TITLE     [Cellular Functions and Metabolic Maps] (In Japanese)
+  JOURNAL   Tokyo Kagaku Dojin (1997)
+REFERENCE   PMID:19675644
+  AUTHORS   Schwarz G, Mendel RR, Ribbe MW
+  TITLE     Molybdenum cofactors, enzymes and pathways.
+  JOURNAL   Nature 460:839-47 (2009)
+            DOI:10.1038/nature08302
+REFERENCE   PMID:16632608
+  AUTHORS   Hanzelmann P, Schindelin H
+  TITLE     Binding of 5'-GTP to the C-terminal FeS cluster of the radical S-adenosylmethionine enzyme MoaA provides insights into its mechanism.
+  JOURNAL   Proc Natl Acad Sci U S A 103:6829-34 (2006)
+            DOI:10.1073/pnas.0510711103
+REFERENCE   PMID:18092812
+  AUTHORS   Daniels JN, Wuebbens MM, Rajagopalan KV, Schindelin H
+  TITLE     Crystal structure of a molybdopterin synthase-precursor Z complex: insight into its sulfur transfer mechanism and its role in molybdenum cofactor deficiency.
+  JOURNAL   Biochemistry 47:615-26 (2008)
+            DOI:10.1021/bi701734g
+REFERENCE   PMID:12571226
+  AUTHORS   Wuebbens MM, Rajagopalan KV
+  TITLE     Mechanistic and mutational studies of Escherichia coli molybdopterin synthase clarify the final step of molybdopterin biosynthesis.
+  JOURNAL   J Biol Chem 278:14523-32 (2003)
+            DOI:10.1074/jbc.M300453200
+REFERENCE   PMID:21867484
+  AUTHORS   Werner ER, Blau N, Thony B
+  TITLE     Tetrahydrobiopterin: biochemistry and pathophysiology.
+  JOURNAL   Biochem J 438:397-414 (2011)
+            DOI:10.1042/BJ20110293
+REFERENCE   PMID:12893295
+  AUTHORS   Iino T, Tabata M, Takikawa S, Sawada H, Shintaku H, Ishikura S, Hara A
+  TITLE     Tetrahydrobiopterin is synthesized from 6-pyruvoyl-tetrahydropterin by the human aldo-keto reductase AKR1 family members.
+  JOURNAL   Arch Biochem Biophys 416:180-7 (2003)
+            DOI:10.1016/S0003-9861(03)00295-9
+REFERENCE   PMID:1902669
+  AUTHORS   Park YS, Heizmann CW, Wermuth B, Levine RA, Steinerstauch P, Guzman J, Blau N
+  TITLE     Human carbonyl and aldose reductases: new catalytic functions in tetrahydrobiopterin biosynthesis.
+  JOURNAL   Biochem Biophys Res Commun 175:738-44 (1991)
+            DOI:10.1016/0006-291X(91)91628-P
+REL_PATHWAY map00230  Purine metabolism
+            map00362  Benzoate degradation
+            map00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            map00670  One carbon pool by folate
+            map00680  Methane metabolism
+KO_PATHWAY  ko00790
+///

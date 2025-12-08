@@ -1,0 +1,19 @@
+ENTRY       map00051                    Pathway
+NAME        Fructose and mannose metabolism
+CLASS       Metabolism; Carbohydrate metabolism
+PATHWAY_MAP map00051  Fructose and mannose metabolism
+MODULE      M00114  Ascorbate biosynthesis, plants, fructose-6P => ascorbate [PATH:map00051]
+            M01000  GDP-Man biosynthesis, Fru-6P => GDP-Man [PATH:map00051]
+            M01015  GDP-Man biosynthesis, Man => GDP-Man [PATH:map00051]
+            M01016  GDP-L-Fuc biosynthesis, GDP-Man => GDP-L-Fuc [PATH:map00051]
+            M01018  GDP-D-Rha biosynthesis, GDP-Man => GDP-D-Rha [PATH:map00051]
+            M01019  GDP-6-deoxy-Tal biosynthesis, GDP-Man => GDP-6-deoxy-Tal [PATH:map00051]
+DBLINKS     GO: 0006000 0006013
+REL_PATHWAY map00010  Glycolysis / Gluconeogenesis
+            map00052  Galactose metabolism
+            map00053  Ascorbate and aldarate metabolism
+            map00510  N-Glycan biosynthesis
+            map00520  Amino sugar and nucleotide sugar metabolism
+            map00620  Pyruvate metabolism
+KO_PATHWAY  ko00051
+///

@@ -1,0 +1,87 @@
+ENTRY       rn00660                     Pathway
+NAME        C5-Branched dibasic acid metabolism
+CLASS       Metabolism; Carbohydrate metabolism
+PATHWAY_MAP rn00660  C5-Branched dibasic acid metabolism
+MODULE      M00535  Isoleucine biosynthesis, pyruvate => 2-oxobutanoate [PATH:rn00660]
+REACTION    R00008  4-hydroxy-4-methyl-2-oxoglutarate pyruvate-lyase (pyruvate-forming)
+            R00226  pyruvate:pyruvate acetaldehydetransferase (decarboxylating); (S)-2-acetolactate pyruvate-lyase (carboxylating)
+            R00237  (3S)-citramalyl-CoA pyruvate-lyase (acetyl-CoA-forming)
+            R00262  L-threo-3-methylaspartate carboxy-aminomethylmutase
+            R00325  (2S)-2-hydroxy-2-methylbutanedioate pyruvate-lyase (acetate-forming); (3S)-citramalate pyruvate-lyase
+            R00932  propanoyl-CoA:glyoxylate C-propanoyltransferase (thioester-hydrolysing, 2-carboxyethyl-forming); 2-hydroxyglutarate glyoxylate-lyase (CoA-propanoylating)
+            R00934  L-erythro-3-methylmalyl-CoA glyoxylate-lyase (propanoyl-CoA-forming)
+            R00993  2-oxobutanoate:oxygen 2-oxidoreductase (phosphorylating)
+            R00994  (2R,3S)-3-methylmalate:NAD+ oxidoreductase
+            R00995  methyloxaloacetate carboxy-lyase (2-oxobutanoate-forming)
+            R02243  cis-aconitate carboxy-lyase
+            R02244  trans-aconitate delta2-delta3-isomerase
+            R02404  itaconate:CoA ligase (ADP-forming)
+            R02407  succinyl-CoA:itaconate CoA-transferase
+            R02491  (3S)-citramalyl-CoA hydro-lyase (itaconyl-CoA-forming)
+            R02711  4-methylene-L-glutamate:ammonia ligase (AMP-forming)
+            R02712  4-methylene-L-glutamine amidohydrolase
+            R02713  
+            R02948  (S)-2-hydroxy-2-methyl-3-oxobutanoate carboxy-lyase
+            R03153  acetyl-CoA:citramalate CoA-transferase
+            R03154  succinyl-CoA:(S)-citramalate CoA-transferase
+            R03693  (S)-2-methylmalate hydro-lyase
+            R03694  
+            R03695  
+            R03696  L-threo-3-methylaspartate ammonia-lyase
+            R03896  (R)-2-methylmalate hydro-lyase (2-methylmaleate-forming)
+            R03897  
+            R03898  2-methylmaleate hydratase; D-erythro-3-methylmalate hydro-lyase (2-methylmaleate-forming)
+            R03995  
+            R04269  
+            R05076  (2R,3S)-2-methylmalyl-CoA hydro-lyase (2-methylfumaryl-CoA-forming)
+            R05077  
+            R05078  
+            R05079  
+            R07399  
+            R11749  trans-aconitate decarboxylase
+            R11750  
+            R13177  acetyl-CoA:acetaldehyde acetyltransferase
+COMPOUND    C00022  Pyruvate
+            C00024  Acetyl-CoA
+            C00025  L-Glutamate
+            C00026  2-Oxoglutarate
+            C00033  Acetate
+            C00048  Glyoxylate
+            C00100  Propanoyl-CoA
+            C00109  2-Oxobutanoate
+            C00417  cis-Aconitate
+            C00490  Itaconate
+            C00531  Itaconyl-CoA
+            C00651  4-Methylene-L-glutamate
+            C00810  (R)-Acetoin
+            C01011  (3S)-Citramalyl-CoA
+            C01109  4-Methylene-L-glutamine
+            C01732  Mesaconate
+            C02226  2-Methylmaleate
+            C02341  trans-Aconitate
+            C02612  (R)-2-Methylmalate
+            C02614  (S)-2-Methylmalate
+            C02630  2-Hydroxyglutarate
+            C02876  Propanoyl phosphate
+            C03618  L-threo-3-Methylaspartate
+            C06010  (S)-2-Acetolactate
+            C06027  L-erythro-3-Methylmalyl-CoA
+            C06028  2-Methylfumaryl-CoA
+            C06029  L-threo-3-Methylmalate
+            C06030  Methyloxaloacetate
+            C06031  D-threo-3-Methylmalate
+            C06032  D-erythro-3-Methylmalate
+            C06033  Parapyruvate
+            C06034  4-Hydroxy-4-methylglutamate
+            C06035  4-Methylene-2-oxoglutarate
+            C06234  4-Methyl-L-glutamate
+            C21632  2-Hydroxyparaconate
+REL_PATHWAY rn00010  Glycolysis / Gluconeogenesis
+            rn00020  Citrate cycle (TCA cycle)
+            rn00250  Alanine, aspartate and glutamate metabolism
+            rn00290  Valine, leucine and isoleucine biosynthesis
+            rn00620  Pyruvate metabolism
+            rn00640  Propanoate metabolism
+            rn00760  Nicotinate and nicotinamide metabolism
+KO_PATHWAY  ko00660
+///

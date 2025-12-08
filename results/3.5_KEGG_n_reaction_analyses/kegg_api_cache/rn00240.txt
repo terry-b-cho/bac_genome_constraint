@@ -1,0 +1,189 @@
+ENTRY       rn00240                     Pathway
+NAME        Pyrimidine metabolism
+CLASS       Metabolism; Nucleotide metabolism
+PATHWAY_MAP rn00240  Pyrimidine metabolism
+MODULE      M00046  Pyrimidine degradation, uracil => beta-alanine, thymine => 3-aminoisobutanoate [PATH:rn00240]
+            M00051  De novo pyrimidine biosynthesis, glutamine (+ PRPP) => UMP [PATH:rn00240]
+            M00052  Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP [PATH:rn00240]
+            M00053  Deoxyribonucleotide biosynthesis, ADP/GDP/CDP/UDP => dATP/dGTP/dCTP/dUTP [PATH:rn00240]
+            M00938  Pyrimidine deoxyribonucleotide biosynthesis, UDP => dTTP [PATH:rn00240]
+            M00939  Pyrimidine degradation, uracil => 3-hydroxypropanoate [PATH:rn00240]
+            M00968  Pentose bisphosphate pathway (nucleoside degradation), archaea, nucleoside/NMP => 3-PGA/glycerone phosphate [PATH:rn00240]
+DBLINKS     GO: 0006220 0006213
+REACTION    R00139  ATP:2'-deoxy-5-hydroxymethylcytidine-5'-diphosphate phosphotransferase
+            R00140  ATP:5-hydroxymethyldeoxycytidylate phosphotransferase
+            R00155  UDP phosphohydrolase
+            R00156  ATP:UDP phosphotransferase
+            R00158  ATP:UMP phosphotransferase
+            R00159  UTP phosphohydrolase
+            R00510  cytidine-5'-monophosphate phosphoribohydrolase
+            R00511  cytidine-5'-monophosphate phosphohydrolase
+            R00512  ATP:CMP phosphotransferase
+            R00513  ATP:cytidine 5'-phosphotransferase
+            R00514  CDP phosphohydrolase
+            R00515  CTP diphosphohydrolase (diphosphate-forming); CTP pyrophosphohydrolase
+            R00517  GTP:cytidine 5'-phosphotransferase
+            R00569  CTP phosphohydrolase
+            R00570  ATP:CDP phosphotransferase
+            R00571  UTP:ammonia ligase (ADP-forming)
+            R00573  UTP:L-glutamine amido-ligase (ADP-forming)
+            R00574  CTP diphosphate-lyase (cyclizing; 3',5'-cyclic-CMP-forming)
+            R00575  HCO3-:L-glutamine amido-ligase (ADP-forming, carbamate-phosphorylating)
+            R00662  uridine triphosphate pyrophosphohydrolase
+            R00905  3-ureidopropanoate amidohydrolase
+            R00963  uridine 5'-monophosphate phosphohydrolase
+            R00964  ATP:uridine 5'-phosphotransferase
+            R00965  orotidine-5'-phosphate carboxy-lyase (UMP-forming)
+            R00966  UMP:diphosphate phospho-alpha-D-ribosyltransferase
+            R00968  GTP:uridine 5'-phosphotransferase
+            R00969  P1,P4-bis(5'-uridyl)-tetraphosphate uridylohydrolase
+            R00974  cytosine aminohydrolase
+            R00976  uracil:acceptor oxidoreductase
+            R00977  5,6-dihydrouracil:NAD+ oxidoreductase
+            R00978  5,6-dihydrouracil:NADP+ oxidoreductase
+            R01055  uracil hydro-lyase (adding D-ribose 5-phosphate;pseudouridine-5'-phosphate-forming)
+            R01080  uridine ribohydrolase
+            R01397  carbamoyl-phosphate:L-aspartate carbamoyltransferase
+            R01411  5-methylcytosine aminohydrolase
+            R01413  thymine:acceptor oxidoreductase
+            R01415  5,6-dihydrothymine:NADP+ oxidoreductase
+            R01567  ATP:thymidine 5'-phosphotransferase
+            R01569  thymidylate 5'-phosphohydrolase
+            R01570  thymidine:phosphate deoxy-alpha-D-ribosyltransferase
+            R01663  dCMP aminohydrolase
+            R01664  2'-deoxycytidine 5'-monophosphate phosphohydrolase
+            R01665  ATP:dCMP phosphotransferase
+            R01666  ATP:deoxycitidine 5'-phosphotransferase
+            R01668  dCTP nucleotidohydrolase; deoxycytidine 5'-triphosphate diphosphohydrolase
+            R01669  5,10-methylenetetrahydrofolate:deoxycytidylate 5-hydroxymethyltransferase
+            R01867  (S)-dihydroorotate:fumarate oxidoreductase
+            R01868  (S)-dihydroorotate:quinone oxidoreductase
+            R01869  (S)-dihydroorotate:NAD+ oxidoreductase
+            R01870  orotidine-5'-phosphate:diphosphate phospho-alpha-D-ribosyl-transferase
+            R01876  uridine:phosphate alpha-D-ribosyltransferase
+            R01877  uridine 3'-monophosphate phosphohydrolase
+            R01878  cytidine aminohydrolase
+            R01993  (S)-dihydroorotate amidohydrolase
+            R02018  2'-deoxyuridine 5'-diphosphate:oxidized-thioredoxin 2'-oxidoreductase
+            R02022  2'-deoxyuridine 5'-triphosphate:oxydized-thioredoxin 2'-oxidoreductase
+            R02023  2'-deoxyuridine 5'-triphosphate:oxydized-thioredoxin 2'-oxidoreductase
+            R02024  2'-deoxycytidine diphosphate:oxidized-thioredoxin 2'-oxidoreductase
+            R02092  dTDP phosphohydrolase
+            R02093  ATP:dTDP phosphotransferase
+            R02094  ATP:dTMP phosphotransferase
+            R02095  dTTP nucleotidohydrolase
+            R02098  ATP:dUMP phosphotransferase
+            R02099  ATP:deoxyuridine 5'-phosphotransferase
+            R02100  dUTP nucleotidohydrolase
+            R02101  5,10-methylenetetrahydrofolate:dUMP C-methyltransferase
+            R02102  2'-deoxyuridine 5'-monophosphate phosphohydrolase
+            R02137  cytidine ribohydrolase
+            R02139  barbiturate amidohydrolase (3-oxo-3-ureidopropanoate-forming)
+            R02269  5,6-dihydrouracil amidohydrolase
+            R02296  cytidine:orthophosphate alpha-D-ribosyltransferase
+            R02325  dCTP aminohydrolase
+            R02326  ATP:dCDP phosphotransferase
+            R02330  dUTP nucleotidohydrolase
+            R02331  ATP:dUDP phosphotransferase
+            R02370  cytidine 3'-phosphate phosphohydrolase
+            R02484  deoxyuridine:orthophosphate 2-deoxy-D-ribosyltransferase; deoxyuridine:orthophosphate ribosyltransferase
+            R02485  deoxycytidine aminohydrolase
+            R03055  (R)-5,6-dihydrothymine amidohydrolase
+            R03315  ATP:pseudouridine 5'-phosphotransferase
+            R03538  2',3'-cyclic UMP 3'-nucleotidohydrolase
+            R03929  2',3'-cyclic CMP 3'-nucleotidohydrolase
+            R04666  (R)-3-ureidoisobutyrate amidohydrolase
+            R06613  5,10-methylenetetrahydrofolate,NADPH:dUMP C-methyltransferase
+            R07307  dCTP aminohydrolase (dUMP-forming)
+            R07629  3-oxo-3-ureidopropanoate amidohydrolase (urea- and malonate-forming)
+            R09289  3-hydroxypropionate:NADP+ oxidoreductase
+            R09936  uracil,FMNH2:oxygen oxidoreductase (uracil hydroxylating, ring-opening)
+            R09947  (Z)-3-ureidoacrylate-peracid amidohydrolase
+            R09980  ureidoacrylate amidohydrolase
+            R09981  
+            R09982  
+            R09983  
+            R10777  5-methylbarbiturate amidohydrolase (2-methyl-3-oxo-3-ureidopropanoate-forming)
+            R10778  2-methyl-3-oxo-3-ureidopropanoate amidohydrolase (urea- and methylmalonate-forming)
+            R10837  CMP:phosphate (5-phospho-alpha-D-ribosyl)transferase
+            R10838  UMP:phosphate (5-phospho-alpha-D-ribosyl)transferase
+            R11026  (R)-5,6-dihydrothymine:NAD+ oxidoreductase
+            R11323  dTTP diphosphohydrolase
+            R11635  UTP:formate 2'-oxidoreductase
+            R11636  CTP:formate 2'-oxidoreductase
+            R12955  uridine 5'-monophosphate phosphoribohydrolase
+            R12956  thymidine 5'-monophosphate phosphodeoxyribohydrolase
+            R12998  UTP diphosphate-lyase (cyclizing; 3',5'-cyclic-UMP-forming)
+COMPOUND    C00015  UDP
+            C00039  DNA
+            C00046  RNA
+            C00055  CMP
+            C00063  CTP
+            C00064  L-Glutamine
+            C00075  UTP
+            C00086  Urea
+            C00099  beta-Alanine
+            C00105  UMP
+            C00106  Uracil
+            C00112  CDP
+            C00119  5-Phospho-alpha-D-ribose 1-diphosphate
+            C00169  Carbamoyl phosphate
+            C00178  Thymine
+            C00214  Thymidine
+            C00222  3-Oxopropanoate
+            C00239  dCMP
+            C00295  Orotate
+            C00299  Uridine
+            C00337  (S)-Dihydroorotate
+            C00363  dTDP
+            C00364  dTMP
+            C00365  dUMP
+            C00380  Cytosine
+            C00383  Malonate
+            C00429  5,6-Dihydrouracil
+            C00438  N-Carbamoyl-L-aspartate
+            C00458  dCTP
+            C00459  dTTP
+            C00460  dUTP
+            C00475  Cytidine
+            C00526  Deoxyuridine
+            C00672  2-Deoxy-D-ribose 1-phosphate
+            C00705  dCDP
+            C00813  Barbiturate
+            C00881  Deoxycytidine
+            C00941  3',5'-Cyclic CMP
+            C01013  3-Hydroxypropanoate
+            C01103  Orotidine 5'-phosphate
+            C01168  Pseudouridine 5'-phosphate
+            C01205  (R)-3-Amino-2-methylpropanoate
+            C01346  dUDP
+            C01368  3'-UMP
+            C01563  Carbamate
+            C02067  Pseudouridine
+            C02170  Methylmalonate
+            C02354  2',3'-Cyclic CMP
+            C02355  2',3'-Cyclic UMP
+            C02376  5-Methylcytosine
+            C02642  3-Ureidopropionate
+            C03997  5-Hydroxymethyldeoxycytidylate
+            C05281  5-Methylbarbiturate
+            C05822  3'-CMP
+            C06198  P1,P4-Bis(5'-uridyl) tetraphosphate
+            C11038  2'-Deoxy-5-hydroxymethylcytidine-5'-diphosphate
+            C11039  2'-Deoxy-5-hydroxymethylcytidine-5'-triphosphate
+            C15607  3-Oxo-3-ureidopropanoate
+            C20231  (Z)-3-Ureidoacrylate peracid
+            C20249  (Z)-3-Peroxyaminoacrylate
+            C20253  Aminoacrylate
+            C20254  Ureidoacrylate
+            C20846  3-Oxo-3-ureidoisobutyrate
+            C21028  (R)-5,6-Dihydrothymine
+            C21029  (R)-3-Ureidoisobutyrate
+            C22509  3',5'-Cyclic UMP
+REL_PATHWAY rn00030  Pentose phosphate pathway
+            rn00220  Arginine biosynthesis
+            rn00250  Alanine, aspartate and glutamate metabolism
+            rn00280  Valine, leucine and isoleucine degradation
+            rn00410  beta-Alanine metabolism
+KO_PATHWAY  ko00240
+///

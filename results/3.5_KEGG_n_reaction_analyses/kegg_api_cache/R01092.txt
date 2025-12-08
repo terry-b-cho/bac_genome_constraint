@@ -1,0 +1,22 @@
+ENTRY       R01092                      Reaction
+NAME        ATP:alpha-D-galactose 1-phosphotransferase
+DEFINITION  ATP + alpha-D-Galactose <=> ADP + alpha-D-Galactose 1-phosphate
+EQUATION    C00002 + C00984 <=> C00008 + C00446
+RCLASS      RC00002  C00002_C00008
+            RC00078  C00446_C00984
+ENZYME      2.7.1.6
+PATHWAY     rn00052  Galactose metabolism
+            rn00520  Amino sugar and nucleotide sugar metabolism
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M00554  UDP-Gal biosynthesis, Gal => UDP-Gal
+            M00632  Galactose degradation, Leloir pathway, galactose => alpha-D-glucose-1P
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.6
+                 R01092  ATP + alpha-D-Galactose <=> ADP + alpha-D-Galactose 1-phosphate
+ORTHOLOGY   K00849  galactokinase [EC:2.7.1.6]
+DBLINKS     RHEA: 13556
+///

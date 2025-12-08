@@ -1,0 +1,146 @@
+ENTRY       K00189                      KO
+SYMBOL      vorG, porG
+NAME        2-oxoisovalerate/pyruvate ferredoxin oxidoreductase gamma subunit [EC:1.2.7.7 1.2.7.1]
+PATHWAY     map00010  Glycolysis / Gluconeogenesis
+            map00020  Citrate cycle (TCA cycle)
+            map00280  Valine, leucine and isoleucine degradation
+            map00620  Pyruvate metabolism
+            map00633  Nitrotoluene degradation
+            map00640  Propanoate metabolism
+            map00650  Butanoate metabolism
+            map00680  Methane metabolism
+            map00720  Other carbon fixation pathways
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01120  Microbial metabolism in diverse environments
+            map01200  Carbon metabolism
+            map01210  2-Oxocarboxylic acid metabolism
+MODULE      M00307  Pyruvate oxidation, pyruvate => acetyl-CoA
+REACTION    R01196  pyruvate:ferredoxin 2-oxidoreductase (CoA-acetylating)
+            R01199  2-oxobutanoate:ferredoxin 2-oxidoreductase (CoA-propanoylating)
+            R07160  3-methyl-2-oxobutanoate:ferredoxin oxidoreductase (decarboxylating;CoA-2-methylpropanoylating)
+            R08034  
+            R08566  4-methyl-2-oxopentanoate:ferredoxin oxidoreductase (decarboxylating; CoA-3-methylbutanoylating)
+            R08567  (S)-3-methyl-2-oxopentanoate:ferredoxin oxidoreductase (decarboxylating; CoA-2-methylbutanoylating)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09101 Carbohydrate metabolism
+               00010 Glycolysis / Gluconeogenesis
+                K00189  vorG, porG; 2-oxoisovalerate/pyruvate ferredoxin oxidoreductase gamma subunit
+               00020 Citrate cycle (TCA cycle)
+                K00189  vorG, porG; 2-oxoisovalerate/pyruvate ferredoxin oxidoreductase gamma subunit
+               00620 Pyruvate metabolism
+                K00189  vorG, porG; 2-oxoisovalerate/pyruvate ferredoxin oxidoreductase gamma subunit
+               00640 Propanoate metabolism
+                K00189  vorG, porG; 2-oxoisovalerate/pyruvate ferredoxin oxidoreductase gamma subunit
+               00650 Butanoate metabolism
+                K00189  vorG, porG; 2-oxoisovalerate/pyruvate ferredoxin oxidoreductase gamma subunit
+              09102 Energy metabolism
+               00720 Other carbon fixation pathways
+                K00189  vorG, porG; 2-oxoisovalerate/pyruvate ferredoxin oxidoreductase gamma subunit
+               00680 Methane metabolism
+                K00189  vorG, porG; 2-oxoisovalerate/pyruvate ferredoxin oxidoreductase gamma subunit
+              09105 Amino acid metabolism
+               00280 Valine, leucine and isoleucine degradation
+                K00189  vorG, porG; 2-oxoisovalerate/pyruvate ferredoxin oxidoreductase gamma subunit
+              09111 Xenobiotics biodegradation and metabolism
+               00633 Nitrotoluene degradation
+                K00189  vorG, porG; 2-oxoisovalerate/pyruvate ferredoxin oxidoreductase gamma subunit
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.7  With an iron-sulfur protein as acceptor
+                1.2.7.1  pyruvate synthase (ferredoxin)
+                 K00189  vorG, porG; 2-oxoisovalerate/pyruvate ferredoxin oxidoreductase gamma subunit
+                1.2.7.7  3-methyl-2-oxobutanoate dehydrogenase (ferredoxin)
+                 K00189  vorG, porG; 2-oxoisovalerate/pyruvate ferredoxin oxidoreductase gamma subunit
+            Enzymes of 2-oxocarboxylic acid metabolism [br01601.html]
+             2-Oxoacid oxidizing enzymes
+              K00189
+DBLINKS     COG: COG1014
+            GO: 0043807 0019164
+GENES       HMR: Hipma_0796
+            DAV: DESACE_01545
+            PMEN: V8V93_07190
+            DBK: DGMP_23530
+            DEK: DSLASN_10380
+            DAW: HS1_001571(porC)
+            AORY: AMOR_34150
+            DHR: LGS26_04510
+            OHI: H8790_09390
+            NCJ: MCACP_26190(porC_2)
+            SEDM: RBQ61_13285
+            SSID: SPSIL_057850(padE_2)
+            CALK: HUE98_02340
+            MPAG: C0J29_14490
+            AMYZ: HUW46_01359(porC)
+            SAPP: SAC06_00150
+            DLF: V8247_08890
+            LMAJ: GKN94_01220
+            PFU: PF0971
+            PFI: PFC_04085
+            PHO: PH0678(PH0678)
+            PAB: PAB1470
+            PYN: PNA2_1292
+            PYA: PYCH_06660
+            PYS: Py04_1082
+            PYC: TQ32_04845
+            TKO: TK1978
+            TON: TON_1476
+            TGA: TGAM_0267(porG)
+            TSI: TSIB_1384
+            TBA: TERMP_01560
+            THE: GQS_08140
+            THA: TAM4_1107
+            THM: CL1_1249
+            TLT: OCC_07501
+            THS: TES1_1555
+            TNU: BD01_1941
+            TEU: TEU_01685
+            TGY: X802_03775
+            THV: ADU37_CDS14470
+            TCH: CHITON_0665
+            TPEP: A0127_04995
+            TPIE: A7C91_04910
+            TGG: A3K92_07955
+            TCE: A3L02_06815
+            TBS: A3L01_08180
+            THH: CDI07_07400
+            TSL: A3L11_01530
+            TTD: A3L14_10575
+            TPRF: A3L09_01305
+            TRL: A3L10_07570
+            TPAF: A3L08_01305
+            THY: A3L12_04015
+            TIC: FH039_11775
+            TCQ: TIRI35C_1959(porG)
+            THEM: FPV09_09760
+            THEI: K1720_10015
+            TAGG: NF865_04270
+            PPAC: PAP_04300
+            MAQE: RJ40_07300
+            MFK: E2N92_07470
+            HAHS: HSRCO_0562(porG)
+            TAC: Ta0626
+            ABI: Aboo_0298
+            ACF: AciM339_0766
+            IPC: IPA_03975
+            PABI: PABY_00170
+            PARE: PYJP_01300
+            MVJ: ACO0C9_06950
+            FLT: Sv326_0312
+            LOB: NEF87_002291 NEF87_002419
+            PSYT: DSAG12_00810
+            AGW: QT03_C0001G0327
+REFERENCE   PMID:8550513 (P.furiosus)
+  AUTHORS   Heider J, Mai X, Adams MW
+  TITLE     Characterization of 2-ketoisovalerate ferredoxin oxidoreductase, a new and reversible coenzyme A-dependent enzyme involved in peptide fermentation by hyperthermophilic archaea.
+  JOURNAL   J Bacteriol 178:780-7 (1996)
+            DOI:10.1128/JB.178.3.780-787.1996
+REFERENCE   PMID:8550425
+  AUTHORS   Kletzin A, Adams MW
+  TITLE     Molecular and phylogenetic characterization of pyruvate and 2-ketoisovalerate ferredoxin oxidoreductases from Pyrococcus furiosus and pyruvate ferredoxin oxidoreductase from Thermotoga maritima.
+  JOURNAL   J Bacteriol 178:248-57 (1996)
+            DOI:10.1128/JB.178.1.248-257.1996
+  SEQUENCE  [pfu:PF0971]
+///

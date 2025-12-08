@@ -1,0 +1,64 @@
+================================================================================
+Script 03: Global Scaling Fits - REACTIONS
+  TEST MODE: Processing small subset only
+================================================================================
+
+Loading data...
+  ✓ Loaded 2164 genomes from master_table_env_filtered_reactions.parquet
+  Found 10 reactions category columns (TEST MODE: using first 10)
+
+  ⚠ KEGG labels file not found: /n/scratch/users/b/byc014/github/bac_genome_constraint/results/4.5_statistical_analyses_KEGG_PATHWAY_version/05_kegg_labels/kegg_term_labels_reactions.tsv
+    Run Script 05 first for better labels. Will use category IDs only
+
+A. Pre-Regression Validation
+--------------------------------------------------------------------------------
+  Genomes removed due to zero counts:
+    Min: 249
+    Median: 1885.5
+    Max: 2147
+  Genomes remaining per category after filtering:
+    Min: 17
+    Median: 278.5
+    Max: 1915
+
+B. Fitting Global Scaling Laws
+--------------------------------------------------------------------------------
+  Successfully fitted 10 categories
+  Skipped 0 categories due to low sample size (<10)
+  Skipped 0 categories due to low variance
+
+C. Global Summary QC
+--------------------------------------------------------------------------------
+  Distribution of alpha_global:
+    Mean: 0.0666
+    Median: 0.0403
+    SD: 0.0869
+    Min: -0.0012
+    Max: 0.2910
+
+  QC Flags:
+    Categories with alpha < 0: 1
+    Categories with alpha > 4: 0
+    Categories with SE > 1: 0
+    Categories with R² < 0.2: 10
+
+  Top 10 categories with highest alpha_global:
+    Category R00090: alpha=0.2910, R²=0.0688
+    Category R00084: alpha=0.1459, R²=0.1250
+    Category R00005: alpha=0.0889, R²=0.0268
+    Category R00036: alpha=0.0497, R²=0.0226
+    Category R00053: alpha=0.0478, R²=0.0334
+    Category R00004: alpha=0.0329, R²=0.0041
+    Category R00013: alpha=0.0107, R²=0.0026
+    Category R00075: alpha=0.0000, R²=0.0000
+    Category R00066: alpha=0.0000, R²=0.0000
+    Category R00048: alpha=-0.0012, R²=0.0000
+
+  Categories skipped:
+    Low variation: 0
+    Low sample size (<10): 0
+
+D. Writing Outputs
+--------------------------------------------------------------------------------
+  ✓ global_scaling_params_test_reactions.tsv: 10 categories
+  ✓ global_scaling_params_test_reactions.parquet: 10 categories

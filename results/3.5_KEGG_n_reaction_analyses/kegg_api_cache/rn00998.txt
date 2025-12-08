@@ -1,0 +1,275 @@
+ENTRY       rn00998                     Pathway
+NAME        Biosynthesis of various antibiotics
+  INCLUDING Kanosamine biosynthesis, Aurachin biosynthesis, Bacilysin biosynthesis, Puromycin biosynthesis, Dapdiamides biosynthesis, Fosfomycin biosynthesis, Cremeomycin biosynthesis, Fumagillin biosynthesis, Pentalenolactone biosynthesis, Terpentecin biosynthesis, Roseoflavin biosynthesis, Cycloserine biosynthesis
+CLASS       Metabolism; Biosynthesis of other secondary metabolites
+PATHWAY_MAP rn00998  Biosynthesis of various antibiotics
+MODULE      M00785  Cycloserine biosynthesis, arginine/serine => cycloserine [PATH:rn00998]
+            M00787  Bacilysin biosynthesis, prephenate => bacilysin [PATH:rn00998]
+            M00788  Terpentecin biosynthesis, GGAP => terpentecin [PATH:rn00998]
+            M00819  Pentalenolactone biosynthesis, farnesyl-PP => pentalenolactone [PATH:rn00998]
+            M00848  Aurachin biosynthesis, anthranilate => aurachin A [PATH:rn00998]
+            M00877  Kanosamine biosynthesis, glucose-6P => kanosamine [PATH:rn00998]
+            M00889  Puromycin biosynthesis, ATP => puromycin [PATH:rn00998]
+            M00890  Roseoflavin biosynthesis, FMN => roseoflavin [PATH:rn00998]
+            M00903  Fosfomycin biosynthesis, phosphoenolpyruvate => fosfomycin [PATH:rn00998]
+            M00904  Dapdiamides biosynthesis, L-2,3-diaminopropanoate => dapdiamide A/B/C [PATH:rn00998]
+            M00951  Cremeomycin biosynthesis, aspartate/3,4-AHBA => cremeomycin [PATH:rn00998]
+            M00969  Fumagillin biosynthesis, farnesyl-PP => fumagillin [PATH:rn00998]
+DRUG        D05653  Puromycin (USAN)
+REACTION    R00586  acetyl-CoA:L-serine O-acetyltransferase
+            R00661  phosphoenolpyruvate 2,3-phosphonomutase
+            R00982  anthranilate:CoA ligase (AMP-forming)
+            R02305  2-trans,6-trans-farnesyldiphosphate diphosphate-lyase (cyclizing, pentalenene-forming)
+            R04053  3-phosphonopyruvate carboxy-lyase
+            R05668  
+            R05669  
+            R05670  
+            R05671  
+            R05672  
+            R05673  
+            R05674  
+            R05675  
+            R05676  
+            R05677  
+            R08861  
+            R08863  (S)-2-hydroxypropylphosphonate,NADH:oxygen epoxidase
+            R09478  2-hydroxyethylphosphonate:NAD+ oxidoreductase
+            R09684  terpentedienyl-diphosphate diphosphate-lyase (terpentetriene-forming)
+            R09714  terpentedienyl-diphosphate lyase (decyclizing)
+            R09814  pentalenene,reduced ferredoxin:oxygen 13-oxidoreductase
+            R10145  pentalenolactone-D,2-oxoglutarate:oxygen oxidoreductase
+            R10154  1-deoxy-11-oxopentalenate,NADH:oxygen oxidoreductase (pentalenolactone-D forming)
+            R10155  1-deoxy-11-oxopentalenate,NADH:oxygen oxidoreductase (neopentalenolactone-D forming)
+            R10156  1-deoxy-11beta-hydroxypentalenate:NAD+ oxidoreductase
+            R10157  1-deoxypentalenic acid,2-oxoglutarate:oxygen oxidoreductase
+            R10158  1-deoxypentalenate,reduced ferredoxin:oxygen oxidoreductase
+            R10162  pentalenolactone-reduced-ferredoxin:oxygen oxidoreductase (pentalenolactone forming)
+            R10461  O-acetyl-L-serine:hydroxyurea 2-amino-2-carboxyethyltransferase
+            R10466  N(omega)-hydroxy-L-arginine amidinohydrolase
+            R10470  O-ureido-D-serine cyclo-ligase (D-cycloserine-forming)
+            R10488  (2S)-2-amino-3-[(carbamoylamino)oxy]propanoate 2-epimerase
+            R10519  D-glucose-6-phosphate:NAD+ oxidoreductase
+            R10547  kanosamine-6-phosphate phosphohydrolase
+            R10698  kanosamine-6-phosphate:2-oxoglutarate aminotransferase
+            R10917  L-dihydroanticapsin:NAD+ oxidoreductase
+            R10934  prephenate carboxy-lyase (3-[(4R)-4-hydroxycyclohexa-1,5-dien-1-yl]-2-oxopropanoate-forming)
+            R10940  fumarate:L-2,3-diaminopropanoate ligase (AMP-forming)
+            R10942  3-{[(2E)-4-amino-4-oxobut-2-enoyl]amino}-L-alanine:L-valine ligase (ADP-forming)
+            R10943  3-{[(2E)-4-amino-4-oxobut-2-enoyl]amino}-L-alanine:L-isoleucine ligase (ADP-forming)
+            R10944  3-{[(2E)-4-amino-4-oxobut-2-enoyl]amino}-L-alanine:L-leucine ligase (ADP-forming)
+            R11033  
+            R11064  L-alanine:L-anticapsin ligase (ADP-forming)
+            R11065  3-[(4R)-4-hydroxycyclohexa-1,5-dien-1-yl]-2-oxopropanoate isomerase
+            R11066  
+            R11067  
+            R11068  
+            R11069  
+            R11149  aurachin B:NAD+ 3-oxidoreductase
+            R11315  
+            R11382  aurachin C:NADH:oxygen oxidoreductase (4-hydroxy-2-methyl-3-oxo-4-farnesyl-3,4-dihydroquinoline-1-oxide-forming)
+            R11383  aurachin C:NADPH:oxygen oxidoreductase (4-hydroxy-2-methyl-3-oxo-4-farnesyl-3,4-dihydroquinoline-1-oxide-forming)
+            R11655  N-[(2S)-2-amino-2-carboxyethyl]-L-glutamate:NAD+ dehydrogenase (L-2,3-diaminopropanoate-forming)
+            R11705  O-phospho-L-serine:L-glutamate N-(2S)-2-amino-2-carboxyethyltransferase
+            R11779  S-adenosyl-L-methionine:8-amino-8-demethylriboflavin N-methyltransferase
+            R11780  S-adenosyl-L-methionine:8-demethyl-8-(methylamino)riboflavin N-methyltransferase
+            R11961  
+            R11962  
+            R11963  
+            R12049  
+            R12050  
+            R12051  aurachin-D,NADPH:oxygen oxidoreductase (N-hydroxylating)
+            R12052  aurachin-B,NADPH:oxygen oxidoreductase (2',3'-epoxidizing)
+            R12053  aurachin-B,NADH:oxygen oxidoreductase (2',3'-epoxidizing)
+            R12054  
+            R12114  8-amino-8-demethylriboflavin-5'-phosphate phosphohydrolase
+            R12352  N3-fumaroyl-L-2,3-diaminopropanoate:L-glutamine amido-ligase (AMP-forming)
+            R12497  S-adenosyl-L-methionine:cytidine 5'-{[hydroxy(2-hydroxyethyl)phosphonoyl]phosphate} C-methyltransferase
+            R12498  
+            R12499  
+            R12907  L-aspartate,NADPH:oxygen oxidoreductase [(2S)-2-nitrobutanedioate-forming]
+            R12912  3-amino-4-hydroxybenzoate,NADPH:oxygen oxidoreductase (2-hydroxylating)
+            R12928  S-adenosyl-L-methionine:3-amino-4-hydroxybenzoate 4-O-methyltransferase
+            R12943  3-amino-2-hydroxy-4-methoxybenzoate:nitrite ligase (AMP-forming)
+            R12947  2-nitrobutanedioate lyase (fumarate-forming)
+            R13104  (2E,6E)-farnesyl-diphosphate diphosphate-lyase [(+)-exo-beta-bergamotene-forming]
+            R13106  fumagillol:NADP+ 5-oxidoreductase
+            R13117  (+)-exo-beta-bergamotene,[reduced NADPH---hemoprotein reductase] oxidoreductase (5-dehydro-6-demethoxyfumagillol-producing)
+            R13122  5-dehydro-6-demethoxyfumagillol,2-oxoglutarate:oxygen oxidoreductase (6-hydroxylating)
+            R13123  S-adenosyl-L-methionine:5-dehydro-6-demethoxy-6-hydroxyfumagillol 6-O-methyltransferase
+            R13145  
+            R13146  
+            R13147  
+COMPOUND    C00002  ATP
+            C00022  Pyruvate
+            C00024  Acetyl-CoA
+            C00025  L-Glutamate
+            C00026  2-Oxoglutarate
+            C00036  Oxaloacetate
+            C00049  L-Aspartate
+            C00061  FMN
+            C00062  L-Arginine
+            C00065  L-Serine
+            C00074  Phosphoenolpyruvate
+            C00077  L-Ornithine
+            C00082  L-Tyrosine
+            C00083  Malonyl-CoA
+            C00085  D-Fructose 6-phosphate
+            C00088  Nitrite
+            C00092  D-Glucose 6-phosphate
+            C00108  Anthranilate
+            C00129  Isopentenyl diphosphate
+            C00197  3-Phospho-D-glycerate
+            C00251  Chorismate
+            C00254  Prephenate
+            C00279  D-Erythrose 4-phosphate
+            C00353  Geranylgeranyl diphosphate
+            C00441  L-Aspartate 4-semialdehyde
+            C00448  trans,trans-Farnesyl diphosphate
+            C00979  O-Acetyl-L-serine
+            C01005  O-Phospho-L-serine
+            C01179  3-(4-Hydroxyphenyl)pyruvate
+            C01610  Puromycin
+            C01841  Pentalenene
+            C02247  Anthraniloyl-CoA
+            C02798  3-Phosphonopyruvate
+            C03167  Phosphonoacetaldehyde
+            C03401  L-2,3-Diaminopropanoate
+            C05933  N(omega)-Hydroxyarginine
+            C06451  2-Hydroxyethylphosphonate
+            C06452  (S)-2-Hydroxypropylphosphonate
+            C06454  Fosfomycin
+            C07024  3'-Keto-3'-deoxy-ATP
+            C07025  3'-Keto-3'-deoxy-AMP
+            C07026  3'-Amino-3'-deoxy-AMP
+            C07027  N6,N6,O-Tridemethylpuromycin-5'-phosphate
+            C07028  N-Acetyl-N6,N6,O-tridemethylpuromycin-5'-phosphate
+            C07029  N-Acetyl-N6,O-didemethylpuromycin-5'-phosphate
+            C07030  N-Acetyl-O-demethylpuromycin-5'-phosphate
+            C07031  N-Acetyl-O-demethylpuromycin
+            C07032  N-Acetylpuromycin
+            C07044  Hydroxyurea
+            C08057  Cycloserine
+            C09668  Fumagillin
+            C10641  Aurachin D
+            C12115  3-Amino-4-hydroxybenzoate
+            C12212  Kanosamine
+            C12213  Kanosamine 6-phosphate
+            C19814  Terpentetriene
+            C19815  Terpentedienyl diphosphate
+            C19939  Pentalen-13-al
+            C20397  Pentalenolactone F
+            C20399  Pentalenolactone D
+            C20400  1-Deoxy-11-oxopentalenate
+            C20402  Neopentalenolactone D
+            C20403  1-Deoxy-11beta-hydroxypentalenate
+            C20404  1-Deoxypentalenate
+            C20405  Pentalenate
+            C20407  Pentalenolactone
+            C20639  O-Ureido-L-serine
+            C20651  O-Ureido-D-serine
+            C20668  3-Dehydro-D-glucose 6-phosphate
+            C20940  L-Dihydroanticapsin
+            C20941  L-Anticapsin
+            C20942  Bacilysin
+            C20953  3-[(4R)-4-Hydroxycyclohexa-1,5-dien-1-yl]-2-oxopropanoate
+            C20961  N3-Fumaroyl-L-2,3-diaminopropanoate
+            C20962  Dapdiamide A
+            C20963  Dapdiamide B
+            C20964  Dapdiamide C
+            C20966  3-{[(2E)-4-Amino-4-oxobut-2-enoyl]amino}-L-alanine
+            C21085  3-[(1E,4R)-4-Hydroxycyclohex-2-en-1-ylidene]-2-oxopropanoate
+            C21086  (3E)-3-[(1R,5R,6S)-5-Hydroxy-7-oxabicyclo[4.1.0]heptan-2-ylidene]-2-oxopropanoate
+            C21087  3-[(1R,2S,5R,6S)-5-Hydroxy-7-oxabicyclo[4.1.0]heptan-2-yl]-2-oxopropanoate
+            C21093  Terpentecin
+            C21140  Aurachin B
+            C21141  4-Hydroxy-2-methyl-3-oxo-4-[(2E,6E)-farnesyl]-3,4-dihydroquinoline 1-oxide
+            C21330  Aurachin C
+            C21559  N-[(2S)-2-Amino-2-carboxyethyl]-L-glutamate
+            C21646  8-Amino-8-demethylriboflavin
+            C21647  Roseoflavin
+            C21648  8-Demethyl-8-(methylamino)riboflavin
+            C21803  8-Demethyl-8-formylriboflavin 5'-phosphate
+            C21804  8-Carboxy-8-demethylriboflavin 5'-phosphate
+            C21805  8-Amino-8-demethylriboflavin 5'-phosphate
+            C21873  2-Methylquinolin-4-ol
+            C21874  Aurachin B epoxide
+            C21875  Aurachin A
+            C22216  Cytidine 5'-{[hydroxy(2-hydroxyethyl)phosphonoyl]phosphate}
+            C22217  Cytidine 5'-({hydroxy[(S)-2-hydroxypropyl]phosphonoyl}phosphate)
+            C22388  (2S)-2-Nitrobutanedioate
+            C22416  Cremeomycin
+            C22425  3-Amino-2-hydroxy-4-methoxybenzoate
+            C22455  3-Amino-2,4-dihydroxybenzoate
+            C22617  (+)-exo-beta-Bergamotene
+            C22618  Fumagillol
+            C22619  5-Dehydrofumagillol
+            C22629  5-Dehydro-6-demethoxyfumagillol
+            C22631  5-Dehydro-6-demethoxy-6-hydroxyfumagillol
+            C22650  Prefumagillin
+            C22651  Dodecapentaenoyl-[acyl-carrier protein]
+REFERENCE   PMID:17335090
+  AUTHORS   Sandmann A, Dickschat J, Jenke-Kodama H, Kunze B, Dittmann E, Muller R
+  TITLE     A Type II polyketide synthase from the gram-negative Bacterium Stigmatella aurantiaca is involved in Aurachin alkaloid biosynthesis.
+  JOURNAL   Angew Chem Int Ed Engl 46:2712-6 (2007)
+            DOI:10.1002/anie.200603513
+REFERENCE   PMID:23586652
+  AUTHORS   Vetter ND, Langill DM, Anjum S, Boisvert-Martel J, Jagdhane RC, Omene E, Zheng H, van Straaten KE, Asiamah I, Krol ES, Sanders DA, Palmer DR
+  TITLE     A previously unrecognized kanosamine biosynthesis pathway in Bacillus subtilis.
+  JOURNAL   J Am Chem Soc 135:5970-3 (2013)
+            DOI:10.1021/ja4010255
+REFERENCE   PMID:25644640
+  AUTHORS   Ozcengiz G, Ogulur I
+  TITLE     Biochemistry, genetics and regulation of bacilysin biosynthesis and its significance more than an antibiotic.
+  JOURNAL   N Biotechnol 32:612-9 (2015)
+            DOI:10.1016/j.nbt.2015.01.006
+REFERENCE   PMID:8576156
+  AUTHORS   Tercero JA, Espinosa JC, Lacalle RA, Jimenez A.
+  TITLE     The biosynthetic pathway of the aminonucleoside antibiotic puromycin, as deduced from the molecular analysis of the pur cluster of Streptomyces alboniger.
+  JOURNAL   J Biol Chem 271:1579-90 (1996)
+            DOI:10.1074/jbc.271.3.1579
+REFERENCE   PMID:19807062
+  AUTHORS   Hollenhorst MA, Clardy J, Walsh CT
+  TITLE     The ATP-dependent amide ligases DdaG and DdaF assemble the fumaramoyl-dipeptide scaffold of the dapdiamide antibiotics.
+  JOURNAL   Biochemistry 48:10467-72 (2009)
+            DOI:10.1021/bi9013165
+REFERENCE   PMID:27062037
+  AUTHORS   Schwarz J, Konjik V, Jankowitsch F, Sandhoff R, Mack M
+  TITLE     Identification of the Key Enzyme of Roseoflavin Biosynthesis.
+  JOURNAL   Angew Chem Int Ed Engl 55:6103-6 (2016)
+            DOI:10.1002/anie.201600581
+REFERENCE   PMID:20086163
+  AUTHORS   Kumagai T, Koyama Y, Oda K, Noda M, Matoba Y, Sugiyama M
+  TITLE     Molecular cloning and heterologous expression of a biosynthetic gene cluster for the antitubercular agent D-cycloserine produced by Streptomyces lavendulae.
+  JOURNAL   Antimicrob Agents Chemother 54:1132-9 (2010)
+            DOI:10.1128/AAC.01226-09
+REFERENCE   PMID:12138123
+  AUTHORS   Hamano Y, Kuzuyama T, Itoh N, Furihata K, Seto H, Dairi T
+  TITLE     Functional analysis of eubacterial diterpene cyclases responsible for biosynthesis of a diterpene antibiotic, terpentecin.
+  JOURNAL   J Biol Chem 277:37098-104 (2002)
+            DOI:10.1074/jbc.M206382200
+REFERENCE   PMID:17017767
+  AUTHORS   Quaderer R, Omura S, Ikeda H, Cane DE
+  TITLE     Pentalenolactone biosynthesis. Molecular cloning and assignment of biochemical function to PtlI, a cytochrome P450 of Streptomyces avermitilis.
+  JOURNAL   J Am Chem Soc 128:13036-7 (2006)
+            DOI:10.1021/ja0639214
+REFERENCE   PMID:7500951
+  AUTHORS   Hidaka T, Goda M, Kuzuyama T, Takei N, Hidaka M, Seto H
+  TITLE     Cloning and nucleotide sequence of fosfomycin biosynthetic genes of Streptomyces wedmorensis.
+  JOURNAL   Mol Gen Genet 249:274-80 (1995)
+            DOI:10.1007/BF00290527
+REFERENCE   PMID:24568283
+  AUTHORS   Lin HC, Tsunematsu Y, Dhingra S, Xu W, Fukutomi M, Chooi YH, Cane DE, Calvo AM, Watanabe K, Tang Y
+  TITLE     Generation of complexity in fungal terpene biosynthesis: discovery of a multifunctional cytochrome P450 in the fumagillin pathway.
+  JOURNAL   J Am Chem Soc 136:4426-36 (2014)
+            DOI:10.1021/ja500881e
+REL_PATHWAY rn00010  Glycolysis / Gluconeogenesis
+            rn00020  Citrate cycle (TCA cycle)
+            rn00030  Pentose phosphate pathway
+            rn00220  Arginine biosynthesis
+            rn00250  Alanine, aspartate and glutamate metabolism
+            rn00260  Glycine, serine and threonine metabolism
+            rn00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            rn00440  Phosphonate and phosphinate metabolism
+            rn00900  Terpenoid backbone biosynthesis
+KO_PATHWAY  ko00998
+///

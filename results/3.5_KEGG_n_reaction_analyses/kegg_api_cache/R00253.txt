@@ -1,0 +1,26 @@
+ENTRY       R00253                      Reaction
+NAME        L-glutamate:ammonia ligase (ADP-forming)
+DEFINITION  ATP + L-Glutamate + Ammonia <=> ADP + Orthophosphate + L-Glutamine
+EQUATION    C00002 + C00025 + C00014 <=> C00008 + C00009 + C00064
+RCLASS      RC00002  C00002_C00008
+            RC00010  C00025_C00064
+            RC02798  C00014_C00064
+ENZYME      6.3.1.2
+PATHWAY     rn00220  Arginine biosynthesis
+            rn00250  Alanine, aspartate and glutamate metabolism
+            rn00630  Glyoxylate and dicarboxylate metabolism
+            rn00910  Nitrogen metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01120  Microbial metabolism in diverse environments
+            rn01230  Biosynthesis of amino acids
+MODULE      M00978  Ornithine-ammonia cycle
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.3  Forming carbon-nitrogen bonds
+               6.3.1  Acid-D-ammonia (or amine) ligases (amide synthases)
+                6.3.1.2
+                 R00253  ATP + L-Glutamate + Ammonia <=> ADP + Orthophosphate + L-Glutamine
+ORTHOLOGY   K01915  glutamine synthetase [EC:6.3.1.2]
+DBLINKS     RHEA: 16172
+///

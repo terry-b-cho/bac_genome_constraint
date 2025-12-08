@@ -1,0 +1,23 @@
+ENTRY       R00216                      Reaction
+NAME        (S)-malate:NADP+ oxidoreductase(oxaloacetate-decarboxylating)
+DEFINITION  (S)-Malate + NADP+ <=> Pyruvate + CO2 + NADPH + H+
+EQUATION    C00149 + C00006 <=> C00022 + C00011 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00105  C00022_C00149
+ENZYME      1.1.1.40
+PATHWAY     rn00620  Pyruvate metabolism
+            rn00710  Carbon fixation by Calvin cycle
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00169  CAM (Crassulacean acid metabolism), light
+            M00172  C4-dicarboxylic acid cycle, NADP - malic enzyme type
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.40
+                 R00216  (S)-Malate + NADP+ <=> Pyruvate + CO2 + NADPH + H+
+ORTHOLOGY   K00029  malate dehydrogenase (oxaloacetate-decarboxylating)(NADP+) [EC:1.1.1.40]
+DBLINKS     RHEA: 18256
+///

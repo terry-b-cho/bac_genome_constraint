@@ -1,0 +1,16 @@
+ENTRY       map00280                    Pathway
+NAME        Valine, leucine and isoleucine degradation
+CLASS       Metabolism; Amino acid metabolism
+PATHWAY_MAP map00280  Valine, leucine and isoleucine degradation
+MODULE      M00036  Leucine degradation, leucine => acetoacetate + acetyl-CoA [PATH:map00280]
+            M00741  Propanoyl-CoA metabolism, propanoyl-CoA => succinyl-CoA [PATH:map00280]
+DBLINKS     GO: 0006550 0006552 0006574
+REL_PATHWAY map00020  Citrate cycle (TCA cycle)
+            map00240  Pyrimidine metabolism
+            map00290  Valine, leucine and isoleucine biosynthesis
+            map00522  Biosynthesis of 12-, 14- and 16-membered macrolides
+            map00640  Propanoate metabolism
+            map00900  Terpenoid backbone biosynthesis
+            map01056  Biosynthesis of type II polyketide backbone
+KO_PATHWAY  ko00280
+///

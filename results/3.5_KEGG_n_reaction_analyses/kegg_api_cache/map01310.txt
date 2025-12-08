@@ -1,0 +1,13 @@
+ENTRY       map01310          Overview  Pathway
+NAME        Nitrogen cycle
+DESCRIPTION This map is essentially the same as map00910 Nitrogen metabolism, but an emphasis here is how chemical compounds are transformed as a biogeochemical cycle and how different microorganisms are involved in specific transformation processes represented by KEGG module M numbers. They include: nitrogen fixation [MD:M00175] of converting atmospheric nitrogen to ammonia by diazotrophs, such as Rhizobium and Klebsiella, nitrification [MD:M00528 M00804] or oxidation of ammonia to nitrite and nitrate by denitrifying bacteria, such as Nitrosospira, denitrification [MD:M00529] or reduction of nitrate ultimately to molecular nitrogen by denitrifying bacteria, such as Pseudomonas, dissimilatory nitrate reduction [MD:M00530] from nitrate to ammonia by many bacteria including Enterobacteria, and annamox [MD:M00973] or anaerobic ammonium oxidation for conversion of nitrite and ammonium ion directly to molecular nitrogen by certain Planctomycetota. In the nitrogen cycle, eukaryotes are involved only in the energy-consuming assimilatory nitrate reduction [MD:M00531]. More details of organism groups responsible for each transformation step can be viewed from Taxonomy mapping.
+PATHWAY_MAP map01310  Nitrogen cycle
+MODULE      M00175  Nitrogen fixation, nitrogen => ammonia [PATH:map01310]
+            M00528  Nitrification, ammonia => nitrite [PATH:map01310]
+            M00529  Denitrification, nitrate => nitrogen [PATH:map01310]
+            M00530  Dissimilatory nitrate reduction, nitrate => ammonia [PATH:map01310]
+            M00531  Assimilatory nitrate reduction, nitrate => ammonia [PATH:map01310]
+            M00804  Complete nitrification, comammox, ammonia => nitrite => nitrate [PATH:map01310]
+            M00973  Anammox, nitrite + ammonia => nitrogen [PATH:map01310]
+KO_PATHWAY  ko01310
+///

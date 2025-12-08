@@ -1,0 +1,20 @@
+ENTRY       R02133                      Reaction
+NAME        thiamin hydrolase
+DEFINITION  Thiamine + H2O <=> 4-Amino-5-hydroxymethyl-2-methylpyrimidine + 5-(2-Hydroxyethyl)-4-methylthiazole + H+
+EQUATION    C00378 + C00001 <=> C01279 + C04294 + C00080
+RCLASS      RC00224  C00378_C04294
+            RC00652  C00378_C01279
+ENZYME      3.5.99.2
+PATHWAY     rn00730  Thiamine metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.99  In other compounds
+                3.5.99.2
+                 R02133  Thiamine + H2O <=> 4-Amino-5-hydroxymethyl-2-methylpyrimidine + 5-(2-Hydroxyethyl)-4-methylthiazole + H+
+ORTHOLOGY   K00877  hydroxymethylpyrimidine/phosphomethylpyrimidine kinase / thiaminase [EC:2.7.1.49 2.7.4.7 3.5.99.2]
+            K03707  thiaminase (transcriptional activator TenA) [EC:3.5.99.2]
+DBLINKS     RHEA: 17512
+///

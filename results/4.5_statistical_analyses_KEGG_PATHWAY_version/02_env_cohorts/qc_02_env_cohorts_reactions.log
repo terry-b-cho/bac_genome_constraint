@@ -1,0 +1,52 @@
+================================================================================
+Script 02: Define Environment Cohorts - REACTIONS
+================================================================================
+
+A. Verify Consistency with Script 01
+--------------------------------------------------------------------------------
+Loading master_table_high_quality_reactions.tsv...
+  ✓ File loaded successfully
+  Total genomes in input: 2209
+  ✓ No missing environments
+  Recomputing environment counts...
+  ✓ Environment counts match env_n_genomes column (within ±1 tolerance)
+
+B. Environment Threshold Filter
+--------------------------------------------------------------------------------
+  Threshold: ≥ 20 genomes per environment
+  Environments kept: 8
+  Environments dropped: 3
+
+  All environments with counts:
+    ✓ KEPT: Aquatic: 598 genomes
+    ✓ KEPT: Terrestrial: 479 genomes
+    ✓ KEPT: Mammals: Human: 406 genomes
+    ✓ KEPT: Plants: 281 genomes
+    ✓ KEPT: Mammals: 198 genomes
+    ✓ KEPT: Food production: 103 genomes
+    ✓ KEPT: Wastewater: 63 genomes
+    ✓ KEPT: Birds: 36 genomes
+    ✗ DROPPED: Algae: 16 genomes
+    ✗ DROPPED: Bioreactor: 15 genomes
+    ✗ DROPPED: Solid waste: 14 genomes
+
+  Final retained environments:
+    Aquatic: 598 genomes
+    Terrestrial: 479 genomes
+    Mammals: Human: 406 genomes
+    Plants: 281 genomes
+    Mammals: 198 genomes
+    Food production: 103 genomes
+    Wastewater: 63 genomes
+    Birds: 36 genomes
+
+C. Optional Flexibility Check
+--------------------------------------------------------------------------------
+  ✓ Sufficient environments (8) for analysis
+
+D. Writing Outputs
+--------------------------------------------------------------------------------
+  ✓ valid_environments_min20_reactions.tsv: 8 environments
+  ✓ master_table_env_filtered_reactions.tsv: 2164 genomes, 485 reactions columns
+  ✓ master_table_env_filtered_reactions.parquet: 2164 genomes
+  ✓ Row count verification: 2164 genomes = sum of n_genomes

@@ -1,0 +1,211 @@
+ENTRY       rn00380                     Pathway
+NAME        Tryptophan metabolism
+CLASS       Metabolism; Amino acid metabolism
+PATHWAY_MAP rn00380  Tryptophan metabolism
+MODULE      M00037  Melatonin biosynthesis, animals, tryptophan => serotonin => melatonin [PATH:rn00380]
+            M00038  Tryptophan metabolism, tryptophan => kynurenine => 2-aminomuconate [PATH:rn00380]
+            M00370  Glucosinolate biosynthesis, tryptophan => glucobrassicin [PATH:rn00380]
+            M00912  NAD biosynthesis, tryptophan => quinolinate => NAD [PATH:rn00380]
+            M00936  Melatonin biosynthesis, plants, tryptophan => serotonin => melatonin [PATH:rn00380]
+DBLINKS     GO: 0006568 0009851
+REACTION    R00074  2-aminophenol:oxygen oxidoreductase (dimerizing)
+            R00238  acetyl-CoA:acetyl-CoA C-acetyltransferase
+            R00673  L-tryptophan indole-lyase (deaminating; pyruvate-forming)
+            R00677  L-tryptophan:oxygen oxidoreductase (deaminating)
+            R00678  L-tryptophan:oxygen 2,3-oxidoreductase (decyclizing)
+            R00679  L-tryptophan:oxygen 2-oxidoreductase (decarboxylating)
+            R00681  L-tryptophan:oxygen 2'-oxidoreductase (side-chain-cleaving)
+            R00684  L-tryptophan:2-oxoglutarate aminotransferase
+            R00685  L-tryptophan decarboxy-lyase
+            R00983  2,3-dihydroxyindole:oxygen 2,3-oxidoreductase (decyclizing)
+            R00987  L-kynurenine hydrolase
+            R00988  N-formylanthranilate amidohydrolase
+            R00991  
+            R01814  L-tryptophan,tetrahydrobiopterin:oxygen oxidoreductase (5-hydroxylating)
+            R01933  2-oxoadipate dehydrogenase complex
+            R01937  
+            R01938  
+            R01956  L-kynurenine:2-oxoglutarate aminotransferase
+            R01959  N-formyl-L-kynurenine amidohydrolase
+            R01960  L-kynurenine,NADPH:oxygen oxidoreductase (3-hydroxylating)
+            R01973  S-adenosyl-L-methionine:(indol-3-yl)pyruvate C-methyltransferase
+            R01974  3-(indol-3-yl)pyruvate carboxy-lyase [(2-indol-3-yl)acetaldehyde-forming]
+            R01975  (S)-3-hydroxybutanoyl-CoA:NAD+ oxidoreductase
+            R02173  tryptamine:oxygen oxidoreductase(deaminating)
+            R02174  S-adenosyl-L-methionine:amine N-methyltransferase
+            R02338  indole:oxygen 2,3-oxidoreductase (decyclizing)
+            R02339  
+            R02488  glutaryl-CoA:electron-transfer flavoprotein 2,3-oxidoreductase (decarboxylating)
+            R02665  3-hydroxyanthranilate:oxygen 3,4-oxidoreductase (decyclizing)
+            R02668  3-hydroxy-L-kynurenine hydrolase
+            R02669  
+            R02670  
+            R02671  
+            R02678  indole-3-acetaldehyde:NAD+ oxidoreductase
+            R02679  indole-3-ethanol:NAD+ oxidoreductase
+            R02680  indole-3-ethanol:NADP+ oxidoreductase
+            R02681  indole-3-acetaldehyde:oxygen oxidoreductase
+            R02700  5-hydroxy-L-tryptophan:2-oxoglutarate aminotransferase
+            R02701  5-hydroxy-L-tryptophan decarboxy-lyase
+            R02702  5-hydroxy-L-tryptophan:oxygen 2,3-dioxygenase (indole-decyclizing)
+            R02908  5-hydroxytryptamine:oxygen oxidoreductase(deaminating)(flavin-containing)
+            R02909  5-hydroxytryptamine:oxygen 2,3-dioxygenase (indole-decyclizing)
+            R02910  S-adenosyl-L-methionine:amine N-methyltransferase
+            R02911  acetyl-CoA:aralkylamine N-acetyltransferase
+            R02912  serotonin O-methyltransferase
+            R03026  (S)-3-hydroxybutanoyl-CoA hydro-lyase
+            R03092  
+            R03093  3-indoleacetonitrile aminohydrolase
+            R03096  indole-3-acetamide amidohydrolase
+            R03097  
+            R03130  S-adenosyl-L-homocysteine:N-acetylserotonin O-methyltransferase
+            R03251  7,8-dihydro-7,8-dihydroxykynurenate:NAD+ oxidoreductase
+            R03253  7,8-dihydroxykynurenate:oxygen 8,8a-oxidoreductase (decyclizing)
+            R03439  kynurenate:oxygen oxidoreductase (hydroxylating)
+            R03440  kynurenate:oxygen oxidoreductase (hydroxylating)
+            R03445  
+            R03628  melatonin:oxygen 2,3-dioxygenase (indole-decyclizing)
+            R03629  melatonin,NADPH---hemoprotein reductase:oxygen oxidoreductase
+            R03873  N-acetylindoxyl:oxygen oxidoreductase
+            R03887  2-aminomuconate aminohydrolase
+            R03889  2-aminomuconate semialdehyde:NAD+ 6-oxidoreductase
+            R03911  
+            R03936  formylkynurenine hydrolase
+            R03954  
+            R03955  
+            R04020  indole-3-acetamide hydro-lyase
+            R04093  3-indoleacetaldoxime hydro-lyase
+            R04094  thioglucoside glucohydrolase
+            R04171  3-hydroxy-L-kynurenine:2-oxoglutarate aminotransferase
+            R04172  
+            R04293  
+            R04323  2-amino-3-carboxymuconate semialdehyde carboxy-lyase
+            R04903  5-hydroxyindoleacetaldehyde:NAD+ oxidoreductase
+            R04904  5-hydroxyindoleacetaldehyde:oxygen oxidoreductase
+            R04905  S-adenosyl-L-methionine:N-acetylserotonin O-methyltransferase
+            R04906  
+            R04907  3-hydroxykynurenamine:oxygen oxidoreductase(deaminating)(flavin-containing)
+            R04908  5-hydroxykynurenamine:oxygen oxidoreductase(deaminating)(flavin-containing)
+            R04909  5-hydroxykynurenamine decarboxy-lyase
+            R04910  
+            R04911  aryl-formylamine amidohydrolase
+            R04913  5-hydroxykynurenine:2-oxoglutarate aminotransferase
+            R04914  
+            R04916  
+            R04917  
+            R04918  
+            R08160  L-tryptophan,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (N-hydroxylating)
+            R08164  UDP-glucose:N-hydroxy-2-phenylethanethioamide S-beta-D-glucosyltransferase
+            R08167  3'-phosphoadenylyl-sulfate:indolylmethyl-desulfoglucosinolate sulfotransferase
+            R08168  indole-3-acetaldehyde-oxime,NADPH:oxidoreductase
+            R08170  
+            R08604  tryptamine,NADPH:oxygen oxidoreductase (N-hydroxylating)
+            R08605  N-hydroxyl-tryptamine oxidoreductase
+            R08606  
+            R08609  
+            R09517  anthranilate,FAD:oxygen oxidoreductase (3-hydroxylating)
+            R10180  L-tryptophan:pyruvate aminotransferase
+            R10181  indole-3-pyruvate,NADPH:oxygen oxidoreductase (1-hydroxylating, decarboxylating)
+            R11022  
+            R12055  L-methionine:indole-3-pyruvic acid aminotransferase
+            R12256  (R)-(indol-3-yl)lactate:NAD+ oxidoreductase
+            R12303  (1H-indol-3-yl)acetate carboxy-lyase (skatole-forming)
+            R12501  
+            R12659  tryptamine,NADPH---hemoprotein reductase:oxygen oxidoreductase (5-hydroxylating)
+            R13526  (indol-3-yl)pyruvate:(indol-3-yl)pyruvate ligase (didemethylasterriquinone D-forming)
+COMPOUND    C00024  Acetyl-CoA
+            C00078  L-Tryptophan
+            C00108  Anthranilate
+            C00322  2-Oxoadipate
+            C00328  L-Kynurenine
+            C00331  Indolepyruvate
+            C00332  Acetoacetyl-CoA
+            C00398  Tryptamine
+            C00463  Indole
+            C00527  Glutaryl-CoA
+            C00632  3-Hydroxyanthranilate
+            C00637  Indole-3-acetaldehyde
+            C00643  5-Hydroxy-L-tryptophan
+            C00780  Serotonin
+            C00877  Crotonoyl-CoA
+            C00954  Indole-3-acetate
+            C00955  Indole-3-ethanol
+            C00978  N-Acetylserotonin
+            C01111  7,8-Dihydroxykynurenate
+            C01144  (S)-3-Hydroxybutanoyl-CoA
+            C01249  7,8-Dihydro-7,8-dihydroxykynurenate
+            C01252  4-(2-Aminophenyl)-2,4-dioxobutanoate
+            C01598  Melatonin
+            C01717  4-Hydroxy-2-quinolinecarboxylic acid
+            C01987  2-Aminophenol
+            C02161  2-Aminophenoxazin-3-one
+            C02172  N-Acetylisatin
+            C02220  2-Aminomuconate
+            C02298  N-Acetylindoxyl
+            C02470  Xanthurenic acid
+            C02693  (Indol-3-yl)acetamide
+            C02700  L-Formylkynurenine
+            C02775  2,3-Dihydroxyindole
+            C02937  Indole-3-acetaldehyde oxime
+            C02938  3-Indoleacetonitrile
+            C03227  3-Hydroxy-L-kynurenine
+            C03230  (Indol-3-yl)glycolaldehyde
+            C03453  gamma-Oxalocrotonate
+            C03574  2-Formylaminobenzaldehyde
+            C03722  Quinolinate
+            C03824  2-Aminomuconate semialdehyde
+            C04409  2-Amino-3-carboxymuconate semialdehyde
+            C05634  5-Hydroxyindoleacetaldehyde
+            C05635  5-Hydroxyindoleacetate
+            C05636  3-Hydroxykynurenamine
+            C05637  4,8-Dihydroxyquinoline
+            C05638  5-Hydroxykynurenamine
+            C05639  4,6-Dihydroxyquinoline
+            C05640  Cinnavalininate
+            C05641  5-(3'-Carboxy-3'-oxopropenyl)-4,6-dihydroxypicolinate
+            C05642  Formyl-N-acetyl-5-methoxykynurenamine
+            C05643  6-Hydroxymelatonin
+            C05644  3-Methylindolepyruvate
+            C05645  4-(2-Amino-3-hydroxyphenyl)-2,4-dioxobutanoate
+            C05646  5-Hydroxyindolepyruvate
+            C05647  Formyl-5-hydroxykynurenamine
+            C05648  5-Hydroxy-N-formylkynurenine
+            C05651  5-Hydroxykynurenine
+            C05652  4-(2-Amino-5-hydroxyphenyl)-2,4-dioxobutanoate
+            C05653  Formylanthranilate
+            C05654  5-(2'-Formylethyl)-4,6-dihydroxypicolinate
+            C05655  5-(2'-Carboxyethyl)-4,6-dihydroxypicolinate
+            C05656  5-(3'-Carboxy-3'-oxopropyl)-4,6-dihydroxypicolinate
+            C05658  Indoxyl
+            C05659  5-Methoxytryptamine
+            C05660  5-Methoxyindoleacetate
+            C05663  6-Hydroxykynurenate
+            C05830  8-Methoxykynurenate
+            C05831  3-Methoxyanthranilate
+            C05832  5-Hydroxyindoleacetylglycine
+            C05834  3-Methyldioxyindole
+            C05835  2-Formaminobenzoylacetate
+            C05837  Glucobrassicin
+            C06212  N-Methylserotonin
+            C06213  N-Methyltryptamine
+            C08313  Skatole
+            C10164  Picolinic acid
+            C16516  Indolylmethylthiohydroximate
+            C16517  Indolylmethyl-desulfoglucosinolate
+            C16518  S-(Indolylmethylthiohydroximoyl)-L-cysteine
+            C17203  N-Hydroxyl-tryptamine
+            C22006  (R)-(Indol-3-yl)lactate
+            C22202  2-Oxoindole-3-acetate
+            C23064  Didemethylasterriquinone D
+REFERENCE   PMID:15749753
+  AUTHORS   Woodward AW, Bartel B
+  TITLE     Auxin: regulation, action, and interaction.
+  JOURNAL   Ann Bot 95:707-35 (2005)
+            DOI:10.1093/aob/mci083
+REL_PATHWAY rn00010  Glycolysis / Gluconeogenesis
+            rn00362  Benzoate degradation
+            rn00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            rn00627  Aminobenzoate degradation
+            rn00760  Nicotinate and nicotinamide metabolism
+KO_PATHWAY  ko00380
+///

@@ -1,0 +1,239 @@
+ENTRY       K11541                      KO
+SYMBOL      URA2
+NAME        carbamoyl-phosphate synthase / aspartate carbamoyltransferase [EC:6.3.5.5 2.1.3.2]
+PATHWAY     map00220  Arginine biosynthesis
+            map00240  Pyrimidine metabolism
+            map00250  Alanine, aspartate and glutamate metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01240  Biosynthesis of cofactors
+MODULE      M00051  De novo pyrimidine biosynthesis, glutamine (+ PRPP) => UMP
+REACTION    R00256  L-glutamine amidohydrolase
+            R00575  HCO3-:L-glutamine amido-ligase (ADP-forming, carbamate-phosphorylating)
+            R01395  ATP:carbamate phosphotransferase
+            R01397  carbamoyl-phosphate:L-aspartate carbamoyltransferase
+            R10948  ATP:HCO3- phosphotransferase
+            R10949  
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09104 Nucleotide metabolism
+               00240 Pyrimidine metabolism
+                K11541  URA2; carbamoyl-phosphate synthase / aspartate carbamoyltransferase
+              09105 Amino acid metabolism
+               00250 Alanine, aspartate and glutamate metabolism
+                K11541  URA2; carbamoyl-phosphate synthase / aspartate carbamoyltransferase
+               00220 Arginine biosynthesis
+                K11541  URA2; carbamoyl-phosphate synthase / aspartate carbamoyltransferase
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.1  Transferring one-carbon groups
+               2.1.3  Carboxy- and carbamoyltransferases
+                2.1.3.2  aspartate carbamoyltransferase
+                 K11541  URA2; carbamoyl-phosphate synthase / aspartate carbamoyltransferase
+             6. Ligases
+              6.3  Forming carbon-nitrogen bonds
+               6.3.5  Carbon-nitrogen ligases with glutamine as amido-N-donor
+                6.3.5.5  carbamoyl-phosphate synthase (glutamine-hydrolysing)
+                 K11541  URA2; carbamoyl-phosphate synthase / aspartate carbamoyltransferase
+DBLINKS     GO: 0004088 0004070
+GENES       SCE: YJL130C(URA2)
+            SEUB: DI49_2892
+            SPAO: SPAR_J00800
+            AGO: AGOS_ACR263C
+            ERC: Ecym_5206
+            KLA: KLLA0_E15357g
+            KMX: KLMA_60037(URA2)
+            LTH: KLTH0F05874g
+            VPO: Kpol_448p15
+            ZRO: ZYRO0D03300g
+            CGR: 2890801(GVI51_L05555)
+            NCS: NCAS_0A09770(NCAS0A09770)
+            NDI: NDAI_0G06170(NDAI0G06170)
+            TPF: TPHA_0B03110(TPHA0B03110)
+            TBL: TBLA_0B07830(TBLA0B07830)
+            TGB: HG536_0F01080
+            TDL: TDEL_0H01050(TDEL0H01050)
+            KAF: KAFR_0F02010(KAFR0F02010)
+            KNG: KNAG_0C02690(KNAG0C02690)
+            ZMK: HG535_0C00940
+            SLUD: SCDLUD_002630
+            DHA: DEHA2A10384g
+            PIC: PICST_90563(URA2)
+            PGU: PGUG_01980
+            SPAA: SPAPADRAFT_49095
+            LEL: PVL30_002943(URA2)
+            LBG: 92206663(LODBEIA_P14670)
+            CAL: CAALFM_CR07050CA(URA2)
+            CTP: CTRG_03135
+            COT: CORT_0D03260
+            CDU: CD36_32590
+            CTEN: 18246155(URA2)
+            CLU: CLUG_04779
+            CLUS: A9F13_11g00132
+            CAUR: CJI96_0002752
+            ASAU: 88174708(PUMCH_003645)
+            PPA: PAS_chr2-2_0142
+            PKZ: C5L36_0C03730
+            BNN: FOA43_002511(URA2)
+            BBRX: BRETT_000063(URA2)
+            OPA: HPODL_00057
+            YLI: 2912535(YALI2_E01571g)
+            SLB: AWJ20_2038(URA2)
+            NCR: NCU08287(pyr-3)
+            NTE: NEUTE1DRAFT128592(NEUTE1DRAFT_128592)
+            SMP: 10807550(SMAC4_00930)
+            PAN: PODANSg7147
+            PBEL: QC761_606090(URA2)
+            PPSD: QC762_606090(URA2)
+            PPSP: QC763_606090(URA2)
+            PPSA: QC764_606090(URA2)
+            TTT: THITE_2115457
+            MTM: MYCTH_2299023
+            CTHR: CTHT_0032600
+            RTHE: 98126062(VTJ83DRAFT_4880)
+            MGR: MGG_01537
+            PPEI: PpBr36_01052
+            PGRI: PgNI_03967
+            TMN: UCRPA7_7878
+            SSCK: SPSK_00652
+            FGR: FGSG_09638
+            FPU: FPSE_05918
+            FPOA: FPOAC1_012011
+            FVN: FVRRES_13081
+            FVR: FVEG_04203
+            FOX: FOXG_06351
+            NHE: NECHADRAFT_103501
+            FFC: NCS54_00281200
+            FKR: NCS57_00277200
+            FMU: J7337_004201
+            TRE: TRIREDRAFT_55928
+            TRR: M419DRAFT_5640
+            TATV: 25779744(TrAtP1_001361)
+            TASP: 36610030(TrAFT101_001137)
+            MAW: 19250694(URA2_1)
+            MAJ: MAA_06517
+            MBRN: 26237626(pyrABCN)
+            PCHM: VFPPC_09022
+            UVI: 66067594(UV8b_06817)
+            CMT: CCM_04128
+            AMUS: LMH87_006695
+            PLJ: 28882983(PLICBS_001001)
+            PTKZ: JDV02_007809(URA2)
+            DCON: 63714432(DCS_01789)
+            VAL: VDBG_00866
+            VDA: VDAG_00477
+            CFJ: CFIO01_12029
+            CLUP: CLUP02_17471
+            CHIG: CH63R_07786
+            CDET: 87945005(CDEST_08502)
+            SAPO: SAPIO_CDS7513
+            ELA: UCREL1_6069
+            PFY: PFICI_05144
+            SSL: SS1G_08553
+            BFU: BCIN_12g04860
+            MBE: MBM_04336
+            PSCO: LY89DRAFT_790580
+            GLZ: GLAREA_10907
+            ANI: ANIA_00565
+            AFM: AFUA_6G11310
+            ACT: ACLA_084980
+            NFI: NFIA_057010
+            AOR: AO090023000483
+            ANG: An08g07420
+            AFV: AFLA_006827
+            ALUC: AKAW2_30351S
+            ACHE: ACHE_60114A
+            APUU: APUU_11522S
+            PCS: N7525_006351
+            PDP: PDIP_39750
+            POU: POX_d04845
+            PPSF: 300793495(PFLUO_LOCUS7339)
+            TMF: EYB26_008391
+            TRG: TRUGW13939_00157
+            CIM: CIMG_09796
+            CPW: 9694590(D8B26_002566)
+            URE: UREG_04713
+            ABE: ARB_01717
+            TVE: TRV_03411
+            PBL: PAAG_05242
+            PBN: PADG_05071
+            AJE: HCAG_08357
+            BGH: BDBG_01634
+            PNO: SNOG_08506
+            PTE: PTT_17704
+            PTRR: 6347189(PtrM4_033780)
+            BZE: COCCADRAFT_8075
+            BSC: COCSADRAFT_78202
+            BOR: COCMIDRAFT_728
+            AALT: CC77DRAFT_989762
+            ADAC: 96083024(ACET3X_002702)
+            ZTR: MYCGRDRAFT_110798
+            PFJ: MYCFIDRAFT_86968
+            CBET: CB0940_06934
+            BCOM: BAUCODRAFT_152247
+            NPA: UCRNP2_6662
+            TML: GSTUM_00005367001
+            SPO: 2541544(ura1)
+            SOM: SOMG_01656(ura1)
+            CNE: CNA06000
+            CNB: CNBA5810
+            CNG: CNAG_07373
+            CGI: CGB_A6470C
+            CDEU: CNBG_9118
+            CDEC: 89988593(IAS62_001819)
+            CTEG: 91987975(I308_101117)
+            CBAS: 91981149(I312_101101)
+            CDEP: 91089208(L203_104999)
+            KMG: 30160224(I203_104642)
+            KNE: 92180893(IAR55_003635)
+            KDJ: 28969466(I303_105745)
+            KBI: 30210857(I302_107802)
+            KPIN: 30171803(I206_105664)
+            KSH: 87957386(IL334_005255)
+            KER: 91099300(V865_000496)
+            KSN: 43589790(CI109_103412)
+            KBO: 90017381(L199_006397)
+            KEP: 91096442(L201_005772)
+            TMS: TREMEDRAFT_72254
+            CCAC: CcaHIS019_0212810(URA2)
+            TVS: TRAVEDRAFT_155672
+            DSQ: DICSQDRAFT_87297
+            PCO: PHACADRAFT_103993
+            SHS: STEHIDRAFT_169813
+            HIR: HETIRDRAFT_53393
+            PSQ: PUNSTDRAFT_90646
+            ADL: AURDEDRAFT_107770
+            FME: FOMMEDRAFT_169884
+            GTR: GLOTRDRAFT_63880
+            RSX: RhiXN_07705
+            LBC: LACBIDRAFT_294748
+            CCI: CC1G_04764
+            ABP: AGABI1DRAFT122679(AGABI1DRAFT_122679)
+            ABV: AGABI2DRAFT188488(AGABI2DRAFT_188488)
+            PCUB: JR316_0012332
+            MRR: Moror_3989
+            MORE: E1B28_012198
+            SCM: SCHCO_02629622(SCHCODRAFT_02629622)
+            CPUT: CONPUDRAFT_109182
+            SLA: SERLADRAFT_362361
+            WSE: WALSEDRAFT_31765
+            WIC: J056_002512
+            UMA: UMAG_15005
+            PFP: PFL1_02607
+            SGRA: EX895_006517
+            MGL: MGL_1489
+            MRT: MRET_3870
+            MSYM: MSY001_2403
+            PGR: PGTG_15132
+            PTRC: PtA15_6A721
+            PSTR: Pst134EA_002821
+            MLR: MELLADRAFT_45459
+            RIE: OCT59_016407
+            BBIG: BBBOND_0311560
+REFERENCE   PMID:2570735
+  AUTHORS   Souciet JL, Nagy M, Le Gouar M, Lacroute F, Potier S
+  TITLE     Organization of the yeast URA2 gene: identification of a defective dihydroorotase-like domain in the multifunctional carbamoylphosphate synthetase-aspartate transcarbamylase complex.
+  JOURNAL   Gene 79:59-70 (1989)
+            DOI:10.1016/0378-1119(89)90092-9
+  SEQUENCE  [sce:YJL130C]
+///

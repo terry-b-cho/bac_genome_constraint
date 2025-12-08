@@ -1,0 +1,21 @@
+ENTRY       R01825                      Reaction
+NAME        D-erythrose 4-phosphate:NAD+ oxidoreductase
+DEFINITION  D-Erythrose 4-phosphate + NAD+ + H2O <=> 4-Phospho-D-erythronate + NADH + H+
+EQUATION    C00279 + C00003 + C00001 <=> C03393 + C00004 + C00080
+COMMENT     epd
+RCLASS      RC00001  C00003_C00004
+            RC00242  C00279_C03393
+ENZYME      1.2.1.72
+PATHWAY     rn00750  Vitamin B6 metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00124  Pyridoxal phosphate biosynthesis, erythrose-4P => pyridoxal-P
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.72
+                 R01825  D-Erythrose 4-phosphate + NAD+ + H2O <=> 4-Phospho-D-erythronate + NADH + H+
+ORTHOLOGY   K03472  D-erythrose 4-phosphate dehydrogenase [EC:1.2.1.72]
+DBLINKS     RHEA: 12059
+///

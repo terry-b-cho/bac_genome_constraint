@@ -1,0 +1,62 @@
+================================================================================
+Script 03: Global Scaling Fits - REACTIONS
+================================================================================
+
+Loading data...
+  ✓ Loaded 2164 genomes from master_table_env_filtered_reactions.parquet
+  Found 485 reactions category columns (no prevalence filter)
+
+  ✓ Loaded KEGG labels for 485 categories
+
+A. Pre-Regression Validation
+--------------------------------------------------------------------------------
+  Genomes removed due to zero counts:
+    Min: 0
+    Median: 1752.0
+    Max: 2164
+  Genomes remaining per category after filtering:
+    Min: 0
+    Median: 412.0
+    Max: 2164
+
+B. Fitting Global Scaling Laws
+--------------------------------------------------------------------------------
+  Successfully fitted 448 categories
+  Skipped 37 categories due to low sample size (<10)
+  Skipped 0 categories due to low variance
+
+C. Global Summary QC
+--------------------------------------------------------------------------------
+  Distribution of alpha_global:
+    Mean: 0.0723
+    Median: 0.0229
+    SD: 0.1573
+    Min: -0.2867
+    Max: 1.1422
+
+  QC Flags:
+    Categories with alpha < 0: 84
+    Categories with alpha > 4: 0
+    Categories with SE > 1: 0
+    Categories with R² < 0.2: 439
+
+  Top 10 categories with highest alpha_global:
+    D-galactose 6-phosphate ketol-isomerase (R03240): alpha=1.1422, R²=0.0939
+    donor:hydrogen-peroxide oxidoreductase (R03532): alpha=1.0221, R²=0.3831
+    carboxylic-ester hydrolase (R00630): alpha=0.8689, R²=0.2305
+    R03876 (R03876): alpha=0.8674, R²=0.1485
+    geranyl-diphosphate:isopentenyl-diphosphate geranyltrans-transferase (R02003): alpha=0.8625, R²=0.4574
+    L-glutamate:ammonia ligase (ADP-forming) (R00253): alpha=0.7788, R²=0.2624
+    pimeloyl-CoA:NAD+ oxidoreductase (R05311): alpha=0.7198, R²=0.3714
+    NADPH:quinone oxidoreductase (R07359): alpha=0.7002, R²=0.1674
+    cyclic bis(3->5')diguanylate 3-guanylylhydrolase (R08991): alpha=0.5745, R²=0.0512
+    phosphonoacetate phosphonohydrolase (R00318): alpha=0.5656, R²=0.2013
+
+  Categories skipped:
+    Low variation: 0
+    Low sample size (<10): 37
+
+D. Writing Outputs
+--------------------------------------------------------------------------------
+  ✓ global_scaling_params_reactions.tsv: 448 categories
+  ✓ global_scaling_params_reactions.parquet: 448 categories

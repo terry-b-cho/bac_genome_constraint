@@ -1,0 +1,25 @@
+ENTRY       R00214                      Reaction
+NAME        (S)-malate:NAD+ oxidoreductase (decarboxylating)
+DEFINITION  (S)-Malate + NAD+ <=> Pyruvate + CO2 + NADH + H+
+EQUATION    C00149 + C00003 <=> C00022 + C00011 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00105  C00022_C00149
+ENZYME      1.1.1.38        1.1.1.39
+PATHWAY     rn00620  Pyruvate metabolism
+            rn00710  Carbon fixation by Calvin cycle
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00171  C4-dicarboxylic acid cycle, NAD - malic enzyme type
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.38
+                 R00214  (S)-Malate + NAD+ <=> Pyruvate + CO2 + NADH + H+
+                1.1.1.39
+                 R00214  (S)-Malate + NAD+ <=> Pyruvate + CO2 + NADH + H+
+ORTHOLOGY   K00027  malate dehydrogenase (oxaloacetate-decarboxylating) [EC:1.1.1.38]
+            K00028  malate dehydrogenase (decarboxylating) [EC:1.1.1.39]
+DBLINKS     RHEA: 12656
+///

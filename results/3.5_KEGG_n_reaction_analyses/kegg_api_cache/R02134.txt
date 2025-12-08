@@ -1,0 +1,18 @@
+ENTRY       R02134                      Reaction
+NAME        ATP:thiamine phosphotransferase
+DEFINITION  ATP + Thiamine <=> ADP + Thiamin monophosphate
+EQUATION    C00002 + C00378 <=> C00008 + C01081
+RCLASS      RC00002  C00002_C00008
+            RC00017  C00378_C01081
+ENZYME      2.7.1.89
+PATHWAY     rn00730  Thiamine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.89
+                 R02134  ATP + Thiamine <=> ADP + Thiamin monophosphate
+ORTHOLOGY   K07251  thiamine kinase [EC:2.7.1.89]
+DBLINKS     RHEA: 12015
+///

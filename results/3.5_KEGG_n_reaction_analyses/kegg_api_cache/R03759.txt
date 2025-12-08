@@ -1,0 +1,17 @@
+ENTRY       R03759                      Reaction
+NAME        (R)-1-aminopropan-2-ol:NAD+ oxidoreductase
+DEFINITION  (R)-1-Aminopropan-2-ol + NAD+ <=> Aminoacetone + NADH + H+
+EQUATION    C03194 + C00003 <=> C01888 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00117  C01888_C03194
+ENZYME      1.1.1.75
+PATHWAY     rn00260  Glycine, serine and threonine metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.75
+                 R03759  (R)-1-Aminopropan-2-ol + NAD+ <=> Aminoacetone + NADH + H+
+DBLINKS     RHEA: 16520
+///

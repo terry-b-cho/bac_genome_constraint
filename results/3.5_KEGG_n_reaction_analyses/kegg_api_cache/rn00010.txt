@@ -1,0 +1,117 @@
+ENTRY       rn00010                     Pathway
+NAME        Glycolysis / Gluconeogenesis
+DESCRIPTION Glycolysis is the process of converting glucose into pyruvate and generating small amounts of ATP (energy) and NADH (reducing power). It is a central pathway that produces important precursor metabolites: six-carbon compounds of glucose-6P and fructose-6P and three-carbon compounds of glycerone-P, glyceraldehyde-3P, glycerate-3P, phosphoenolpyruvate, and pyruvate [MD:M00001]. Acetyl-CoA, another important precursor metabolite, is produced by oxidative decarboxylation of pyruvate [MD:M00307]. When the enzyme genes of this pathway are examined in completely sequenced genomes, the reaction steps of three-carbon compounds from glycerone-P to pyruvate form a conserved core module [MD:M00002], which is found in almost all organisms and which sometimes contains operon structures in bacterial genomes. Gluconeogenesis is a synthesis pathway of glucose from noncarbohydrate precursors. It is essentially a reversal of glycolysis with minor variations of alternative paths [MD:M00003].
+CLASS       Metabolism; Carbohydrate metabolism
+PATHWAY_MAP rn00010  Glycolysis / Gluconeogenesis
+MODULE      M00001  Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate [PATH:rn00010]
+            M00002  Glycolysis, core module involving three-carbon compounds [PATH:rn00010]
+            M00003  Gluconeogenesis, oxaloacetate => fructose-6P [PATH:rn00010]
+            M00307  Pyruvate oxidation, pyruvate => acetyl-CoA [PATH:rn00010]
+DBLINKS     GO: 0006096 0006094
+REACTION    R00014  pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating)
+            R00199  ATP:pyruvate,water phosphotransferase
+            R00200  ATP:pyruvate 2-O-phosphotransferase
+            R00206  ATP:pyruvate,phosphate phosphotransferase
+            R00229  acetate:CoA ligase (ADP-forming)
+            R00235  acetate:CoA ligase (AMP-forming)
+            R00341  ATP:oxaloacetate carboxy-lyase (transphosphorylating;phosphoenolpyruvate-forming)
+            R00431  GTP:oxaloacetate carboxy-lyase (adding GTP;phosphoenolpyruvate-forming); GTP:oxaloacetate carboxy-lyase (transphosphorylating)
+            R00658  2-phospho-D-glycerate hydro-lyase (phosphoenolpyruvate-forming)
+            R00703  (S)-lactate:NAD+ oxidoreductase
+            R00710  acetaldehyde:NAD+ oxidoreductase
+            R00711  acetaldehyde:NADP+ oxidoreductase
+            R00726  ITP:oxaloacetate carboxy-lyase (adding ITP; phosphoenolpyruvate-forming); ITP:oxaloacetate carboxy-lyase (transphosphorylating)
+            R00746  ethanol:NADP+ oxidoreductase
+            R00754  ethanol:NAD+ oxidoreductase
+            R00755  
+            R00756  ATP:D-fructose-6-phosphate 1-phosphotransferase
+            R00762  D-fructose-1,6-bisphosphate 1-phosphohydrolase
+            R00764  diphosphate:D-fructose-6-phosphate 1-phosphotransferase
+            R00947  alpha-D-glucose-1-phosphate phosphohydrolase
+            R00959  alpha-D-glucose 1-phosphate 1,6-phosphomutase
+            R01015  D-glyceraldehyde-3-phosphate aldose-ketose-isomerase
+            R01058  D-glyceraldehyde 3-phosphate:NADP+ oxidoreductase
+            R01061  D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating)
+            R01063  D-glyceraldehyde-3-phosphate:NADP+ oxidoreductase (phosphorylating)
+            R01068  D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)
+            R01196  pyruvate:ferredoxin 2-oxidoreductase (CoA-acetylating)
+            R01512  ATP:3-phospho-D-glycerate 1-phosphotransferase
+            R01516  2,3-bisphospho-D-glycerate 2-phosphohydrolase
+            R01518  D-phosphoglycerate 2,3-phosphomutase
+            R01600  ATP:beta-D-glucose 6-phosphotransferase
+            R01602  D-glucose 1-epimerase
+            R01662  3-phospho-D-glycerate 1,2-phosphomutase
+            R01786  ATP:alpha-D-glucose 6-phosphotransferase
+            R01788  alpha-D-glucose 6-phosphate phosphohydrolase
+            R02187  polyphosphate:D-glucose 6-phosphotransferase
+            R02189  polyphosphate:D-glucose 6-phosphotransferase
+            R02569  acetyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-acetyltransferase
+            R02738  protein-N(pi)-phosphohistidine:D-glucose 6-phosphotransferase
+            R02739  alpha-D-glucose 6-phosphate ketol-isomerase
+            R03270  
+            R04394  protein-N(pi)-phosphohistidine:salicin 6-phosphotransferase
+            R05132  protein-N(pi)-phosphohistidine:arbutin 6-phosphotransferase
+            R05133  arbutin 6-phosphate glucohydrolase
+            R05134  salicin 6-phosphate glucohydrolase
+            R05198  ethanol:cytochrome c oxidoreductase
+            R05805  ADP:D-fructose-6-phosphate 1-phosphotransferase
+            R07159  D-glyceraldehyde-3-phosphate:ferredoxin oxidoreductase
+            R07618  enzyme N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase
+            R09085  ADP:D-glucose 6-phosphotransferase
+            R09086  ADP:D-glucose 6-phosphotransferase
+            R09127  ethanol:cytochrome c oxidoreductase
+            R09479  ethanol:quinone oxidoreductase
+            R09532  2,3-bisphospho-D-glycerate 3-phosphohydrolase
+            R10860  D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase
+            R13199  alpha-D-glucose-6-phosphate aldose-ketose-isomerase
+COMPOUND    C00022  Pyruvate
+            C00024  Acetyl-CoA
+            C00031  D-Glucose
+            C00033  Acetate
+            C00036  Oxaloacetate
+            C00068  Thiamin diphosphate
+            C00074  Phosphoenolpyruvate
+            C00084  Acetaldehyde
+            C00085  D-Fructose 6-phosphate
+            C00103  D-Glucose 1-phosphate
+            C00111  Glycerone phosphate
+            C00118  D-Glyceraldehyde 3-phosphate
+            C00186  (S)-Lactate
+            C00197  3-Phospho-D-glycerate
+            C00221  beta-D-Glucose
+            C00236  3-Phospho-D-glyceroyl phosphate
+            C00267  alpha-D-Glucose
+            C00354  D-Fructose 1,6-bisphosphate
+            C00469  Ethanol
+            C00631  2-Phospho-D-glycerate
+            C00668  alpha-D-Glucose 6-phosphate
+            C01159  2,3-Bisphospho-D-glycerate
+            C01172  beta-D-Glucose 6-phosphate
+            C01451  Salicin
+            C05125  2-(alpha-Hydroxyethyl)thiamine diphosphate
+            C06186  Arbutin
+            C06187  Arbutin 6-phosphate
+            C06188  Salicin 6-phosphate
+            C15972  Enzyme N6-(lipoyl)lysine
+            C15973  Enzyme N6-(dihydrolipoyl)lysine
+            C16255  [Dihydrolipoyllysine-residue acetyltransferase] S-acetyldihydrolipoyllysine
+REFERENCE   
+  AUTHORS   Nishizuka Y (ed).
+  TITLE     [Metabolic Maps] (In Japanese)
+  JOURNAL   Tokyo Kagaku Dojin (1980)
+REFERENCE   
+  AUTHORS   Nishizuka Y, Seyama Y, Ikai A, Ishimura Y, Kawaguchi A (eds).
+  TITLE     [Cellular Functions and Metabolic Maps] (In Japanese)
+  JOURNAL   Tokyo Kagaku Dojin (1997)
+REFERENCE   
+  AUTHORS   Michal G.
+  TITLE     Biochemical Pathways
+  JOURNAL   Wiley (1999)
+REL_PATHWAY rn00020  Citrate cycle (TCA cycle)
+            rn00030  Pentose phosphate pathway
+            rn00500  Starch and sucrose metabolism
+            rn00620  Pyruvate metabolism
+            rn00640  Propanoate metabolism
+            rn00710  Carbon fixation by Calvin cycle
+KO_PATHWAY  ko00010
+///

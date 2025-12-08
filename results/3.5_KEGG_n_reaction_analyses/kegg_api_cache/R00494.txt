@@ -1,0 +1,19 @@
+ENTRY       R00494                      Reaction
+NAME        glutathione gamma-glutamylaminopeptidase
+DEFINITION  Glutathione + H2O <=> Cys-Gly + L-Glutamate
+EQUATION    C00051 + C00001 <=> C01419 + C00025
+RCLASS      RC00064  C00051_C01419
+            RC00090  C00025_C00051
+ENZYME      3.4.19.13
+PATHWAY     rn00480  Glutathione metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.4  Acting on peptide bonds (peptidases)
+               3.4.19  Omega peptidases
+                3.4.19.13
+                 R00494  Glutathione + H2O <=> Cys-Gly + L-Glutamate
+ORTHOLOGY   K00681  gamma-glutamyltranspeptidase / glutathione hydrolase [EC:2.3.2.2 3.4.19.13]
+            K18592  gamma-glutamyltranspeptidase / glutathione hydrolase / leukotriene-C4 hydrolase [EC:2.3.2.2 3.4.19.13 3.4.19.14]
+DBLINKS     RHEA: 28810
+///

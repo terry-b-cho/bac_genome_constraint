@@ -1,0 +1,22 @@
+ENTRY       R03231                      Reaction
+NAME        S-adenosyl-L-methionine:8-amino-7-oxononanoate aminotransferase
+DEFINITION  S-Adenosyl-L-methionine + 8-Amino-7-oxononanoate <=> S-Adenosyl-4-methylthio-2-oxobutanoate + 7,8-Diaminononanoate
+EQUATION    C00019 + C01092 <=> C04425 + C01037
+RCLASS      RC00006  C00019_C04425
+            RC00887  C01037_C01092
+ENZYME      2.6.1.62
+PATHWAY     rn00780  Biotin metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00123  Biotin biosynthesis, pimeloyl-ACP/CoA => biotin
+            M00577  Biotin biosynthesis, BioW pathway, pimelate => pimeloyl-CoA => biotin
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.6  Transferring nitrogenous groups
+               2.6.1  Transaminases
+                2.6.1.62
+                 R03231  S-Adenosyl-L-methionine + 8-Amino-7-oxononanoate <=> S-Adenosyl-4-methylthio-2-oxobutanoate + 7,8-Diaminononanoate
+ORTHOLOGY   K00833  adenosylmethionine---8-amino-7-oxononanoate aminotransferase [EC:2.6.1.62]
+            K19562  bifunctional dethiobiotin synthetase / spermidine---8-amino-7-oxononanoate transaminase [EC:6.3.3.3 2.6.1.127]
+DBLINKS     RHEA: 16864
+///

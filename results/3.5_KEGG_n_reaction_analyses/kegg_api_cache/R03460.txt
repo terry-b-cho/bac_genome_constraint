@@ -1,0 +1,22 @@
+ENTRY       R03460                      Reaction
+NAME        phosphoenolpyruvate:3-phosphoshikimate 5-O-(1-carboxyvinyl)-transferase
+DEFINITION  Phosphoenolpyruvate + Shikimate 3-phosphate <=> Orthophosphate + 5-O-(1-Carboxyvinyl)-3-phosphoshikimate
+EQUATION    C00074 + C03175 <=> C00009 + C01269
+RCLASS      RC00350  C01269_C03175
+ENZYME      2.5.1.19
+PATHWAY     rn00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01230  Biosynthesis of amino acids
+MODULE      M00022  Shikimate pathway, phosphoenolpyruvate + erythrose-4P => chorismate
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+                2.5.1.19
+                 R03460  Phosphoenolpyruvate + Shikimate 3-phosphate <=> Orthophosphate + 5-O-(1-Carboxyvinyl)-3-phosphoshikimate
+ORTHOLOGY   K00800  3-phosphoshikimate 1-carboxyvinyltransferase [EC:2.5.1.19]
+            K13830  pentafunctional AROM polypeptide [EC:4.2.3.4 4.2.1.10 1.1.1.25 2.7.1.71 2.5.1.19]
+            K24018  cyclohexadieny/prephenate dehydrogenase / 3-phosphoshikimate 1-carboxyvinyltransferase [EC:1.3.1.43 1.3.1.12 2.5.1.19]
+DBLINKS     RHEA: 21259
+///

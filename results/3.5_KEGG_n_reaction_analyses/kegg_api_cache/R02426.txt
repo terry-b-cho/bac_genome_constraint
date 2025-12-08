@@ -1,0 +1,21 @@
+ENTRY       R02426                      Reaction
+NAME        CDPglucose 4,6-hydro-lyase
+DEFINITION  CDP-glucose <=> CDP-4-dehydro-6-deoxy-D-glucose + H2O
+EQUATION    C00501 <=> C01219 + C00001
+RCLASS      RC00402  C00501_C01219
+ENZYME      4.2.1.45
+PATHWAY     rn00541  Biosynthesis of various nucleotide sugars
+            rn01100  Metabolic pathways
+            rn01250  Biosynthesis of nucleotide sugars
+MODULE      M01029  CDP-Tyv biosynthesis, Glc-1P => CDP-Par => CDP-Tyv
+            M01030  CDP-Abe biosynthesis, Glc-1P => CDP-Abe
+            M01031  CDP-Asc biosynthesis, Glc-1P => CDP-Asc
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.2  Carbon-oxygen lyases
+               4.2.1  Hydro-lyases
+                4.2.1.45
+                 R02426  CDP-glucose <=> CDP-4-dehydro-6-deoxy-D-glucose + H2O
+ORTHOLOGY   K01709  CDP-glucose 4,6-dehydratase [EC:4.2.1.45]
+DBLINKS     RHEA: 17156
+///

@@ -1,0 +1,131 @@
+ENTRY       K21220                      KO
+SYMBOL      thiN
+NAME        thiamine-phosphate diphosphorylase [EC:2.5.1.3]
+PATHWAY     map00730  Thiamine metabolism
+            map01100  Metabolic pathways
+            map01240  Biosynthesis of cofactors
+MODULE      M00896  Thiamine biosynthesis, archaea, AIR (+ NAD+) => TMP/TPP
+REACTION    R03223  2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:4-methyl-5-(2-phosphoethyl)-thiazole 2-methyl-4-aminopyridine-5-methenyltransferase
+            R10712  2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate 2-methyl-4-aminopyrimidine-5-methenyltransferase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
+               00730 Thiamine metabolism
+                K21220  thiN; thiamine-phosphate diphosphorylase
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.5  Transferring alkyl or aryl groups, other than methyl groups
+               2.5.1  Transferring alkyl or aryl groups, other than methyl groups (only sub-subclass identified to date)
+                2.5.1.3  thiamine phosphate synthase
+                 K21220  thiN; thiamine-phosphate diphosphorylase
+DBLINKS     COG: COG1992
+            GO: 0004789
+GENES       MTH: MTH_861
+            MMG: MTBMA_c12580(thiD2)
+            MWO: MWSIV6_1237(thiN)
+            MTEE: MTTB_05180
+            METC: MTCT_0777
+            METE: tca_00828(thiDN)
+            METZ: METMT2_0931
+            METK: FVF72_07240
+            MTHM: FZP57_05880
+            METJ: FZP68_00325
+            MEL: Metbo_1959
+            MEW: MSWAN_0660
+            METH: MBMB1_0679
+            MFC: BRM9_1515(thiD2)
+            MFI: DSM1535_2218
+            MCUB: MCBB_0689(thiN)
+            MSUB: BK009_01620
+            METN: BK008_09305
+            METT: CIT01_02140
+            METO: CIT02_03370
+            MEME: HYG87_03610
+            MFEG: GCM10025860_17450
+            MEER: NKF70_10390
+            MRID: FGU46_01670
+            MFV: Mfer_1268
+            MBA: Mbar_A3238
+            MBY: MSBRM_1572
+            MBW: MSBRW_1493
+            MBAR: MSBR2_0837
+            MBAK: MSBR3_0418
+            MVC: MSVAZ_1809
+            MEK: MSKOL_1786
+            MTHR: MSTHT_0630
+            MTHE: MSTHC_0090
+            MHOR: MSHOH_2017
+            MFZ: AOB57_013920
+            MHAB: RSJ42_05445
+            METW: AAY43_10425
+            MZH: Mzhil_1852
+            MHU: Mhun_1490
+            MRTJ: KHC33_07330
+            MLA: Mlab_1227
+            MEM: Memar_1460
+            MBG: BN140_1150
+            MEMA: MMAB1_1466
+            MPI: Mpet_1285
+            MESB: L1S32_02670
+            MANQ: L1994_02280 L1994_05430
+            MBN: Mboo_1394
+            MFO: Metfor_0237 Metfor_1777
+            MPL: Mpal_0478 Mpal_1221
+            MEAM: MU439_04840
+            MEAE: QEN48_05330
+            STO: STK_22090
+            SOH: D1869_12150
+            SJV: SJAV_05500
+            SSO: SSO0039
+            SOL: Ssol_1022
+            SSOA: SULA_1054
+            SSOL: SULB_1056
+            SSOF: SULC_1055
+            SSHI: J5U23_00209
+            SCAS: SACC_32260
+            SIS: LS215_2240
+            SIA: M1425_2075
+            SIM: M1627_2155
+            SID: M164_2082
+            SIY: YG5714_2202
+            SIN: YN1551_0714
+            SII: LD85_2343
+            SIH: SiH_2021
+            SIR: SiRe_1955
+            SIC: SiL_1929
+            SULA: BFU36_05660
+            SULE: GFS03_11355
+            SAI: Saci_2353
+            SACN: SacN8_11465
+            SACR: SacRon12I_11710
+            SACS: SUSAZ_11080
+            SULO: GFS33_03170
+            SULL: EWF20_13225
+            MSE: Msed_0564
+            MEMJ: MJ1HA_0671
+            MCN: Mcup_1531
+            MHK: DFR87_02705
+            MPRU: DFR88_03770
+            MTEN: GWK48_08190
+            MJN: MjAS7_1321
+            AHO: Ahos_0042
+            AMAN: B6F84_02125
+            ABRI: DFR85_01850
+            ASUL: DFR86_02100
+            AAMB: D1866_07075
+            ACIH: HS5_12980
+            SACD: HS1genome_0724
+            SAZO: D1868_08915
+            CSTY: KN1_06220
+            STEP: IC006_1999
+            SMET: RQ359_002225
+            SAHS: HS7_00190
+            PAS: Pars_0919
+            TPE: Tpen_1312
+REFERENCE   PMID:12794638
+  AUTHORS   Morett E, Korbel JO, Rajan E, Saab-Rincon G, Olvera L, Olvera M, Schmidt S, Snel B, Bork P
+  TITLE     Systematic discovery of analogous enzymes in thiamin biosynthesis.
+  JOURNAL   Nat Biotechnol 21:790-5 (2003)
+            DOI:10.1038/nbt834
+  SEQUENCE  [mth:MTH_861]
+///

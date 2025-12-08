@@ -1,0 +1,26 @@
+ENTRY       R00519                      Reaction
+NAME        formate:NAD+ oxidoreductase
+DEFINITION  Formate + NAD+ <=> H+ + CO2 + NADH
+EQUATION    C00058 + C00003 <=> C00080 + C00011 + C00004
+RCLASS      RC00001  C00003_C00004
+            RC02796  C00011_C00058
+ENZYME      1.17.1.9
+PATHWAY     rn00630  Glyoxylate and dicarboxylate metabolism
+            rn00680  Methane metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.17  Acting on CH or CH2 groups
+               1.17.1  With NAD+ or NADP+ as acceptor
+                1.17.1.9
+                 R00519  Formate + NAD+ <=> H+ + CO2 + NADH
+ORTHOLOGY   K00122  formate dehydrogenase [EC:1.17.1.9]
+            K00123  formate dehydrogenase major subunit [EC:1.17.1.9]
+            K00124  formate dehydrogenase iron-sulfur subunit
+            K00126  formate dehydrogenase subunit delta [EC:1.17.1.9]
+            K00127  formate dehydrogenase subunit gamma
+            K22515  formate dehydrogenase beta subunit [EC:1.17.1.9]
+DBLINKS     RHEA: 15988
+///

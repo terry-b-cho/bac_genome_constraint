@@ -1,0 +1,17 @@
+ENTRY       R01200                      Reaction
+NAME        N-acetyl-D-glucosamine amidohydrolase
+DEFINITION  N-Acetyl-D-glucosamine + H2O <=> D-Glucosamine + Acetate
+EQUATION    C00140 + C00001 <=> C00329 + C00033
+RCLASS      RC00166  C00140_C00329
+            RC00300  C00033_C00140
+ENZYME      3.5.1.33
+PATHWAY     rn00520  Amino sugar and nucleotide sugar metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.1  In linear amides
+                3.5.1.33
+                 R01200  N-Acetyl-D-glucosamine + H2O <=> D-Glucosamine + Acetate
+DBLINKS     RHEA: 20596
+///

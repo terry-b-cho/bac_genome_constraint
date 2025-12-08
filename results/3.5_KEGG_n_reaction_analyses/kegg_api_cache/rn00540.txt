@@ -1,0 +1,137 @@
+ENTRY       rn00540                     Pathway
+NAME        Lipopolysaccharide biosynthesis
+DESCRIPTION Lipopolysaccharide (LPS) is the major component of the outer membrane of Gram-negative bacteria consisting of three domains: a hydrophobic anchor called lipid A, a non-repeating core oligosaccharide (OS) and a repetitive glycan polymer called O-antigen or O-polysaccharide (O-PS). The enzymes for the biosynthesis of lipid A are well conserved among Gram-negative bacterial species [MD:M00060 M00866]. The core OS connecting lipid A with O-antigen is divided into inner and outer parts. Five core types, K-12 and R1-R4, are identified in Escherichia coli, with the common inner part composed of Kdo (ketodeoxyoctulosonic acid) and Hep (heptose) residues and the outer part made of various sugar residues. O-antigen is the most variable part used for serotyping of pathogenic Escherichia coli, where about 170 types are known. All three domains are involved in toxicity, pathogenicity, antimicrobial resistance and other activities.
+CLASS       Metabolism; Glycan biosynthesis and metabolism
+PATHWAY_MAP rn00540  Lipopolysaccharide biosynthesis
+MODULE      M00060  KDO2-lipid A biosynthesis, Raetz pathway, LpxL-LpxM type [PATH:rn00540]
+            M00866  KDO2-lipid A biosynthesis, Raetz pathway, non-LpxL-LpxM type [PATH:rn00540]
+            M00867  KDO2-lipid A modification pathway [PATH:rn00540]
+DBLINKS     GO: 0009103
+REACTION    R04549  UDP-2,3-bis[(3R)-3-hydroxymyristoyl]-alpha-D-glucosamine 2,3-bis[(3R)-3-hydroxymyristoyl]-beta-D-glucosaminyl 1-phosphate phosphohydrolase
+            R04550  (3R)-3-hydroxymyristoyl-[acyl-carrier protein]:UDP-3-O-[(3R)-3-hydroxymyristoyl]-alpha-D-glucosamine N-acetyltransferase
+            R04567  (R)-3-hydroxytetradecanoly-[acyl-carrier-protein]:UDP-N-acetyl-glucosamine 3-O-(3-hydroxytetradecanoyl)transferase
+            R04587  UDP-3-O-[(3R)-3-hydroxymyristoyl]-N-acetylglucosamine amidohydrolase
+            R04606  UDP-2,3-bis(3-hydroxytetradecanoyl)glucosamine:2,3-bis-(3-hydroxytetradecanoyl)-alpha-D-glucosaminyl-1-phosphate 2,3-bis(3-hydroxytetradecanoyl)-glucosaminyltransferase
+            R04657  ATP:2,3,2',3'-tetrakis(3-hydroxytetradecanoyl)-D-glucosaminyl-beta-D-1,6-glucosaminyl-alpha-phosphate 4-O'-phosphotransferase
+            R04658  CMP-3-deoxy-D-manno-oct-2-ulosonate:lipid IVA 3-deoxy-D-manno-oct-2-ulosonate transferase
+            R05074  CMP-3-deoxy-D-manno-oct-2-ulosonate:(KDO)-lipid IVA 3-deoxy-D-manno-oct-2-ulosonate transferase
+            R05075  tetradecanoyl-[acyl-carrier protein]:dodecanoyl-KDO2-lipid IV(A) O-tetradecanoyltransferase
+            R05146  dodecanoyl-[acyl-carrier protein]:KDO2-lipid-IVA O-dodecanoyltransferase
+            R06285  
+            R09767  ATP:(KDO)-lipid IVA 3-deoxy-alpha-D-manno-oct-2-ulopyranose 4-phosphotransferase
+            R09773  4-amino-4-deoxy-alpha-L-arabinopyranosyl ditrans,octacis-undecaprenyl phosphate:lipid IVA 4-amino-4-deoxy-beta-L-arabinopyranosyltransferase
+            R09781  4-amino-4-deoxy-alpha-L-arabinopyranosyl ditrans,octacis-undecaprenyl phosphate:KDO2-lipid A 4-amino-4-deoxy-alpha-L-arabinopyranosyltransferase
+            R10906  (9Z)-hexadec-9-enoyl-[acyl-carrier protein]:KDO2-lipid IVA O-palmitoleoyltransferase
+            R11186  ditrans,octacis-undecaprenyl-diphosphate:KDO2-lipid-A phosphotransferase
+            R11204  phosphatidylethanolamine:KDO2-lipid-A 7''-O-ethanolaminephosphotransferase
+            R11555  phosphatidylethanolamine:KDO2-lipid-A ethanolaminephosphotransferase
+            R11557  phosphatidylethanolamine:KDO2-lipid-A-1-(2-aminoethyl diphosphate) ethanolaminephosphotransferase
+            R12187  1-palmitoyl-2-acyl-sn-glycero-3-phosphocholine:lipid-IVA palmitoyltransferase
+            R12193  octadecanoyl-[acyl-carrier protein]:KDO2-lipid-IVA O-octadecanoyltransferase
+            R12194  tetradecanoyl-[acyl-carrier protein]:octadecanoyl-KDO2-lipid-IVA O-tetradecanoyltransferase
+            R12196  KDO2-lipid-A acyloxyacylhydrolase
+            R12197  tetradecanoyl-[acyl-carrier protein]:(9Z)-hexadec-9-enoyl-KDO2-lipid IVA O-tetradecanoyltransferase
+            R12198  lipid-IVB hydroxyacylhydrolase
+            R12199  lipid-IVA hydroxyacylhydrolase
+            R12200  1-palmitoyl-2-acyl-sn-glycero-3-phosphocholine:deacyl-lipid-IVA palmitoyltransferase
+            R12201  hexa-acylated-KDO2-lipid-A phosphohydrolase
+            R12202  phosphatidylethanolamine:1-dephospho-KDO2-lipid-A ethanolaminephosphotransferase
+            R12203  1-PEtN-KDO-lipid-A phosphohydrolase
+            R12204  4'-dephosphorylated-1-PEtN-KDO-lipid-A acyloxyacylhydrolase
+            R12206  1-palmitoyl-2-acyl-sn-glycero-3-phosphocholine:lipid-IIA palmitoyltransferase
+            R12207  4-amino-4-deoxy-alpha-L-arabinopyranosyl ditrans,octacis-undecaprenyl phosphate:lipid IVB 4-amino-4-deoxy-L-arabinopyranosyltransferase
+            R12210  KDO2-lipid-A,2-oxoglutarate:oxygen oxidoreductase (ester-linked acyl 2-hydroxylase)
+            R12211  1-palmitoyl-2-acyl-sn-glycero-3-phosphocholine:KDO2-lipid-A palmitoyltransferase
+            R12219  KDO2-lipid-A-1-(2-aminoethyl phosphate) hydrolase
+COMPOUND    C00043  UDP-N-acetyl-alpha-D-glucosamine
+            C00229  Acyl-carrier protein
+            C01187  3-Deoxy-D-manno-octulosonate
+            C04088  Octadecanoyl-[acyl-carrier protein]
+            C04121  CMP-3-deoxy-D-manno-octulosonate
+            C04652  UDP-2,3-bis(3-hydroxytetradecanoyl)glucosamine
+            C04738  UDP-3-O-(3-hydroxytetradecanoyl)-N-acetylglucosamine
+            C04824  Lipid X
+            C04919  2,3,2'3'-Tetrakis(3-hydroxytetradecanoyl)-D-glucosaminyl-1,6-beta-D-glucosamine 1,4'-bisphosphate
+            C04932  Lipid A disaccharide
+            C05223  Dodecanoyl-[acyl-carrier protein]
+            C05761  Tetradecanoyl-[acp]
+            C06022  UDP-3-O-(3-hydroxytetradecanoyl)-D-glucosamine
+            C06024  3-Deoxy-D-manno-octulosonyl-lipid IV(A)
+            C06025  KDO2-lipid IVA
+            C06026  KDO2-lipid A
+            C06251  Lauroyl-KDO2-lipid IV(A)
+            C06398  ADP-L-glycero-beta-D-manno-heptose
+            C16157  Undecaprenyl phosphate alpha-L-Ara4N
+            C19877  4-O-Phospho-alpha-Kdo-(2->6)-lipid IVA
+            C19884  Lipid IIA
+            C19890  alpha-Kdo-(2->4)-alpha-Kdo-(2->6)-[4-P-L-Ara4N]-lipid A
+            C20933  (9Z)-Hexadec-9-enoyl-KDO2-lipid IV(A)
+            C21157  KDO2-lipid A 1-diphosphate
+            C21173  PEtN-KDO2-lipid A
+            C21461  KDO2-lipid A 1-(2-aminoethyl diphosphate)
+            C21463  KDO2-lipid A 1,4'-bis(2-aminoethyl diphosphate)
+            C21982  Lipid IVB
+            C21983  Deacyl-lipid IVB
+            C21984  Deacyl-lipid IVA
+            C21988  H. pylori KDO2-lipid A
+            C21991  Palmitoleoyl-myristoyl-KDO2-lipid A
+            C21992  3'-O-Deacylated KDO2-lipid A
+            C21993  C16-KDO2-lipid A
+            C21994  1-Dephospho-KDO2-lipid A
+            C21995  1-PEtN-KDO2-lipid A
+            C21996  1-PEtN-KDO-lipid A
+            C21997  4'-Dephosphorylated 1-PEtN-KDO-lipid A
+            C21998  H. pylori KDO-lipid A
+            C21999  Stearoyl-KDO2-lipid IVA
+            C22002  Lipid IIB
+            C22003  (S)-2-Hydroxymyristate-modified lipid A
+            C22068  H. pylori KDO2-lipid IVA
+REFERENCE   PMID:9791168
+  AUTHORS   Heinrichs DE, Yethon JA, Whitfield C.
+  TITLE     Molecular basis for structural diversity in the core regions of the lipopolysaccharides of Escherichia coli and Salmonella enterica.
+  JOURNAL   Mol Microbiol 30:221-32 (1998)
+            DOI:10.1046/j.1365-2958.1998.01063.x
+REFERENCE   PMID:11751812
+  AUTHORS   Kneidinger B, Marolda C, Graninger M, Zamyatina A, McArthur F, Kosma P, Valvano MA, Messner P.
+  TITLE     Biosynthesis pathway of ADP-L-glycero-beta-D-manno-heptose in Escherichia coli.
+  JOURNAL   J Bacteriol 184:363-9 (2002)
+            DOI:10.1128/JB.184.2.363-369.2002
+REFERENCE   PMID:9587193
+  AUTHORS   Wyckoff TJ, Raetz CR, Jackman JE.
+  TITLE     Antibacterial and anti-inflammatory agents that target endotoxin.
+  JOURNAL   Trends Microbiol 6:154-9 (1998)
+            DOI:10.1016/S0966-842X(98)01230-X
+REFERENCE   PMID:9765561
+  AUTHORS   Shibayama K, Ohsuka S, Tanaka T, Arakawa Y, Ohta M.
+  TITLE     Conserved structural regions involved in the catalytic mechanism of Escherichia coli K-12 WaaO (RfaI).
+  JOURNAL   J Bacteriol 180:5313-8 (1998)
+            DOI:10.1128/JB.180.20.5313-5318.1998
+REFERENCE   PMID:12045108
+  AUTHORS   Raetz CR, Whitfield C
+  TITLE     Lipopolysaccharide endotoxins.
+  JOURNAL   Annu Rev Biochem 71:635-700 (2002)
+            DOI:10.1146/annurev.biochem.71.110601.135414
+REFERENCE   PMID:24372821
+  AUTHORS   Rubin EJ, O'Brien JP, Ivanov PL, Brodbelt JS, Trent MS
+  TITLE     Identification of a broad family of lipid A late acyltransferases with non-canonical substrate specificity.
+  JOURNAL   Mol Microbiol 91:887-99 (2014)
+            DOI:10.1111/mmi.12501
+REFERENCE   PMID:20659292
+  AUTHORS   Stead CM, Zhao J, Raetz CR, Trent MS
+  TITLE     Removal of the outer Kdo from Helicobacter pylori lipopolysaccharide and its impact on the bacterial surface.
+  JOURNAL   Mol Microbiol 78:837-52 (2010)
+            DOI:10.1111/j.1365-2958.2010.07304.x
+REFERENCE   PMID:30245684
+  AUTHORS   Ebbensgaard A, Mordhorst H, Aarestrup FM, Hansen EB
+  TITLE     The Role of Outer Membrane Proteins and Lipopolysaccharides for the Sensitivity of Escherichia coli to Antimicrobial Peptides.
+  JOURNAL   Front Microbiol 9:2153 (2018)
+            DOI:10.3389/fmicb.2018.02153
+REFERENCE   PMID:28630161
+  AUTHORS   Botos I, Noinaj N, Buchanan SK
+  TITLE     Insertion of proteins and lipopolysaccharide into the bacterial outer membrane.
+  JOURNAL   Philos Trans R Soc Lond B Biol Sci 372:20160224 (2017)
+            DOI:10.1098/rstb.2016.0224
+REL_PATHWAY rn00520  Amino sugar and nucleotide sugar metabolism
+            rn00541  Biosynthesis of various nucleotide sugars
+KO_PATHWAY  ko00540
+///

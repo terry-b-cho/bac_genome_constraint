@@ -1,0 +1,26 @@
+ENTRY       R02173                      Reaction
+NAME        tryptamine:oxygen oxidoreductase(deaminating)
+DEFINITION  Tryptamine + H2O + Oxygen <=> Indole-3-acetaldehyde + Ammonia + Hydrogen peroxide
+EQUATION    C00398 + C00001 + C00007 <=> C00637 + C00014 + C00027
+RCLASS      RC00062  C00398_C00637
+            RC02755  C00007_C00027
+ENZYME      1.4.3.4         1.4.3.22
+PATHWAY     rn00380  Tryptophan metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.4  Acting on the CH-NH2 group of donors
+               1.4.3  With oxygen as acceptor
+                1.4.3.4
+                 R02173  Tryptamine + H2O + Oxygen <=> Indole-3-acetaldehyde + Ammonia + Hydrogen peroxide
+                1.4.3.22
+                 R02173  Tryptamine + H2O + Oxygen <=> Indole-3-acetaldehyde + Ammonia + Hydrogen peroxide
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.4.3.4
+               R11354  RCH2NHR' <=> Aldehyde
+                R02173  Tryptamine <=> Indole-3-acetaldehyde
+ORTHOLOGY   K00274  monoamine oxidase [EC:1.4.3.4]
+            K11182  diamine oxidase [EC:1.4.3.22]
+DBLINKS     RHEA: 59419
+///

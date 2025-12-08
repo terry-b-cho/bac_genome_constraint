@@ -1,0 +1,19 @@
+ENTRY       map00220                    Pathway
+NAME        Arginine biosynthesis
+CLASS       Metabolism; Amino acid metabolism
+PATHWAY_MAP map00220  Arginine biosynthesis
+MODULE      M00028  Ornithine biosynthesis, glutamate => ornithine [PATH:map00220]
+            M00029  Urea cycle [PATH:map00220]
+            M00763  Ornithine biosynthesis, mediated by LysW, glutamate => ornithine [PATH:map00220]
+            M00844  Arginine biosynthesis, ornithine => arginine [PATH:map00220]
+            M00845  Arginine biosynthesis, glutamate => acetylcitrulline => arginine [PATH:map00220]
+            M00978  Ornithine-ammonia cycle [PATH:map00220]
+DBLINKS     GO: 0006526
+REL_PATHWAY map00020  Citrate cycle (TCA cycle)
+            map00240  Pyrimidine metabolism
+            map00250  Alanine, aspartate and glutamate metabolism
+            map00330  Arginine and proline metabolism
+            map00470  D-Amino acid metabolism
+            map00910  Nitrogen metabolism
+KO_PATHWAY  ko00220
+///

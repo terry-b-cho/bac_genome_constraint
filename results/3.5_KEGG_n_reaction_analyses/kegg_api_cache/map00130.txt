@@ -1,0 +1,107 @@
+ENTRY       map00130                    Pathway
+NAME        Ubiquinone and other terpenoid-quinone biosynthesis
+DESCRIPTION Ubiquinone (UQ), also called coenzyme Q, and plastoquinone (PQ) are electron carriers in oxidative phosphorylation and photosynthesis, respectively. The quinoid nucleus of ubiquinone is derived from the shikimate pathway; 4-hydroxybenzoate is directly formed from chorismate in bacteria, while it can be formed from either chorismate or tyrosine in yeast. The following biosynthesis of terpenoid moiety involves reactions of prenylation, decarboxylation, and three hydroxylations alternating with three methylations. The order of these reactions are somewhat different between bacteria and yeast. Phylloquinone (vitamin K1), menaquinone (vitamin K2), and tocopherol (vitamin E) are fat-soluble vitamins. Phylloquinone is a compound present in all photosynthetic plants serving as a cofactor for photosystem I-mediated electron transport. Menaquinone is an obligatory component of the electron-transfer pathway in bacteria.
+CLASS       Metabolism; Metabolism of cofactors and vitamins
+PATHWAY_MAP map00130  Ubiquinone and other terpenoid-quinone biosynthesis
+MODULE      M00112  Tocopherol/tocotorienol biosynthesis, homogentisate + phytyl/geranylgeranyl-PP => tocopherol/tocotorienol [PATH:map00130]
+            M00116  Menaquinone biosynthesis, chorismate (+ polyprenyl-PP) => menaquinol [PATH:map00130]
+            M00117  Ubiquinone biosynthesis, prokaryotes, chorismate (+ polyprenyl-PP) => ubiquinol [PATH:map00130]
+            M00128  Ubiquinone biosynthesis, eukaryotes, 4-hydroxybenzoate + polyprenyl-PP => ubiquinone [PATH:map00130]
+            M00930  Menaquinone biosynthesis, futalosine pathway [PATH:map00130]
+            M00931  Menaquinone biosynthesis, modified futalosine pathway [PATH:map00130]
+            M00932  Phylloquinone biosynthesis, chorismate (+ phytyl-PP) => phylloquinol [PATH:map00130]
+            M00933  Plastoquinone biosynthesis, homogentisate + solanesyl-PP => plastoquinol [PATH:map00130]
+            M00989  Ubiquinone biosynthesis, O2-independent, prokaryotes, chorismate (+ polyprenyl-PP) => ubiquinol [PATH:map00130]
+DBLINKS     GO: 0006744 0009234 0042372
+REFERENCE   PMID:12908086
+  AUTHORS   Ward MJ, Fu QS, Rhoads KR, Yeung CH, Spormann AM, Criddle CS.
+  TITLE     A derivative of the menaquinone precursor 1,4-dihydroxy-2-naphthoate is involved in the reductive transformation of carbon tetrachloride by aerobically grown Shewanella oneidensis MR-1.
+  JOURNAL   Appl Microbiol Biotechnol 63:571-7 (2004)
+            DOI:10.1007/s00253-003-1407-3
+REFERENCE   PMID:14499605
+  AUTHORS   Monzingo AF, Gao J, Qiu J, Georgiou G, Robertus JD.
+  TITLE     The X-ray structure of Escherichia coli RraA (MenG), A protein inhibitor of RNA processing.
+  JOURNAL   J Mol Biol 332:1015-24 (2003)
+            DOI:10.1016/S0022-2836(03)00970-7
+REFERENCE   PMID:11470786
+  AUTHORS   Johnson TW, Zybailov B, Jones AD, Bittl R, Zech S, Stehlik D, Golbeck JH, Chitnis PR.
+  TITLE     Recruitment of a foreign quinone into the A1 site of photosystem I. In vivo replacement of plastoquinone-9 by media-supplemented naphthoquinones in phylloquinone biosynthetic pathway mutants of Synechocystis sp. PCC 6803.
+  JOURNAL   J Biol Chem 276:39512-21 (2001)
+            DOI:10.1074/jbc.M104040200
+REFERENCE   PMID:12615349
+  AUTHORS   Wade Johnson T, Naithani S, Stewart C Jr, Zybailov B, Daniel Jones A, Golbeck JH, Chitnis PR.
+  TITLE     The menD and menE homologs code for 2-succinyl-6-hydroxyl-2,4-cyclohexadiene-1-carboxylate synthase and O-succinylbenzoic acid-CoA synthase in the phylloquinone biosynthetic pathway of Synechocystis sp. PCC 6803.
+  JOURNAL   Biochim Biophys Acta 1557:67-76 (2003)
+            DOI:10.1016/S0005-2728(02)00396-1
+REFERENCE   PMID:12721307
+  AUTHORS   Gin P, Hsu AY, Rothman SC, Jonassen T, Lee PT, Tzagoloff A, Clarke CF.
+  TITLE     The Saccharomyces cerevisiae COQ6 gene encodes a mitochondrial flavin-dependent monooxygenase required for coenzyme Q biosynthesis.
+  JOURNAL   J Biol Chem 278:25308-16 (2003)
+            DOI:10.1074/jbc.M303234200
+REFERENCE   PMID:18284213
+  AUTHORS   Jiang M, Chen X, Guo ZF, Cao Y, Chen M, Guo Z.
+  TITLE     Identification and Characterization of (1R,6R)-2-Succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate Synthase in the Menaquinone Biosynthesis of Escherichia coli.
+  JOURNAL   Biochemistry 47:3426-34 (2008)
+            DOI:10.1021/bi7023755
+REFERENCE   PMID:17760421
+  AUTHORS   Jiang M, Cao Y, Guo ZF, Chen M, Chen X, Guo Z.
+  TITLE     Menaquinone biosynthesis in Escherichia coli: identification of 2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate as a novel intermediate and re-evaluation of MenD activity.
+  JOURNAL   Biochemistry 46:10979-89 (2007)
+            DOI:10.1021/bi700810x
+REFERENCE   PMID:17956107
+  AUTHORS   Jiang M, Chen M, Cao Y, Yang Y, Sze KH, Chen X, Guo Z.
+  TITLE     Determination of the stereochemistry of 2-succinyl-5-enolpyruvyl-6-hydroxy-3- cyclohexene-1-carboxylate, a key intermediate in menaquinone biosynthesis.
+  JOURNAL   Org Lett 9:4765-7 (2007)
+            DOI:10.1021/ol702126m
+REFERENCE   PMID:18801996
+  AUTHORS   Hiratsuka T, Furihata K, Ishikawa J, Yamashita H, Itoh N, Seto H, Dairi T
+  TITLE     An alternative menaquinone biosynthetic pathway operating in microorganisms.
+  JOURNAL   Science 321:1670-3 (2008)
+            DOI:10.1126/science.1160446
+REFERENCE   PMID:12232327
+  AUTHORS   Loscher R, Heide L
+  TITLE     Biosynthesis of p-Hydroxybenzoate from p-Coumarate and p-Coumaroyl-Coenzyme A in Cell-Free Extracts of Lithospermum erythrorhizon Cell Cultures.
+  JOURNAL   Plant Physiol 106:271-279 (1994)
+            DOI:10.1104/pp.106.1.271
+REFERENCE   PMID:11583838
+  AUTHORS   Meganathan R
+  TITLE     Ubiquinone biosynthesis in microorganisms.
+  JOURNAL   FEMS Microbiol Lett 203:131-9 (2001)
+            DOI:10.1111/j.1574-6968.2001.tb10831.x
+REFERENCE   PMID:14508009
+  AUTHORS   Cheng Z, Sattler S, Maeda H, Sakuragi Y, Bryant DA, DellaPenna D
+  TITLE     Highly divergent methyltransferases catalyze a conserved reaction in tocopherol and plastoquinone synthesis in cyanobacteria and photosynthetic eukaryotes.
+  JOURNAL   Plant Cell 15:2343-56 (2003)
+            DOI:10.1105/tpc.013656
+REFERENCE   PMID:16989822
+  AUTHORS   Sadre R, Gruber J, Frentzen M
+  TITLE     Characterization of homogentisate prenyltransferases involved in plastoquinone-9 and tocochromanol biosynthesis.
+  JOURNAL   FEBS Lett 580:5357-62 (2006)
+            DOI:10.1016/j.febslet.2006.09.002
+REFERENCE   PMID:12523993
+  AUTHORS   Hofius D, Sonnewald U.
+  TITLE     Vitamin E biosynthesis: biochemistry meets cell biology.
+  JOURNAL   Trends Plant Sci 8:6-8 (2003)
+            DOI:10.1016/S1360-1385(02)00002-X
+REFERENCE   PMID:16233343
+  AUTHORS   Kawamukai M
+  TITLE     Biosynthesis, bioproduction and novel roles of ubiquinone.
+  JOURNAL   J Biosci Bioeng 94:511-7 (2002)
+            DOI:10.1016/S1389-1723(02)80188-8
+REFERENCE   PMID:21239697
+  AUTHORS   Tie JK, Jin DY, Straight DL, Stafford DW
+  TITLE     Functional study of the vitamin K cycle in mammalian cells.
+  JOURNAL   Blood 117:2967-74 (2011)
+            DOI:10.1182/blood-2010-08-304303
+REFERENCE   PMID:23113660
+  AUTHORS   Zhou L, Wang JY, Wu J, Wang J, Poplawsky A, Lin S, Zhu B, Chang C, Zhou T, Zhang LH, He YW
+  TITLE     The diffusible factor synthase XanB2 is a bifunctional chorismatase that links the shikimate pathway to ubiquinone and xanthomonadins biosynthetic pathways.
+  JOURNAL   Mol Microbiol 87:80-93 (2013)
+            DOI:10.1111/mmi.12084
+REL_PATHWAY map00190  Oxidative phosphorylation
+            map00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            map00900  Terpenoid backbone biosynthesis
+            map00940  Phenylpropanoid biosynthesis
+            map04610  Complement and coagulation cascades
+KO_PATHWAY  ko00130
+///

@@ -1,0 +1,50 @@
+ENTRY       rn00311                     Pathway
+NAME        Penicillin and cephalosporin biosynthesis
+DESCRIPTION Penicillins (Penams) and cephalosporins (cephems) are beta-lactam antibiotics containing 6-aminopenicillanate (6-APA) and 7-aminocephalosporanate (7-ACA) nuclei, respectively. 6-APA and 7-ACA are key intermediates for a variety of semisynthetic penicillin and cephalosporin derivatives. Penicillins are produced only by fungi, while cephalosporins (including cephamycins) are produced by fungi and bacteria. Both antibiotics are synthesized from L-2-aminoadipate, L-cysteine and L-valine through a common pathway. It starts with the condensation of these three amino acids by the non-ribosomal peptide synthetase to form the tripeptide delta-(L-2-aminoadipyl)-L-cysteinyl-D-valine (ACV). The linear ACV tripeptide is then converted to bicyclic isopenicillin N by isopenicillin N synthase, in which the beta-lactam ring is formed. Isopenicillin N is the branch point of penicillin [MD:M00672] and cephalosporin [MD:M00673] pathways.
+CLASS       Metabolism; Biosynthesis of other secondary metabolites
+PATHWAY_MAP rn00311  Penicillin and cephalosporin biosynthesis
+MODULE      M00672  Penicillin biosynthesis, aminoadipate + cycteine + valine => penicillin [PATH:rn00311]
+            M00673  Cephamycin C biosynthesis, aminoadipate + cycteine + valine => cephamycin C [PATH:rn00311]
+DBLINKS     GO: 0042318 0043646
+REACTION    R02170  penicillin amidohydrolase
+            R03062  cephalosporin-C acetylhdrolase
+            R03063  cephalosporin-C:2-oxoglutarate aminotransferase
+            R03064  acetyl-CoA:deacetylcephalosporin-C O-acetyltransferase
+            R04147  
+            R04870  L-2-aminohexanedioate:L-cysteine:L-valine ligase (AMP-forming, valine-inverting)
+            R04872  
+            R05229  
+            R05230  carbamoyl-phosphate:deacetylcephalosporin C carbamoyltransferase
+            R05301  penicillin-N,2-oxoglutarate:oxygen oxidoreductase (ring-expanding)
+            R05302  
+            R05303  
+            R06361  acyl-CoA:isopenicillin N N-acyltransferase
+            R06363  penicillin hydrolase
+            R07400  cephalosporin C:oxygen oxidoreductase (deaminating)
+            R07401  
+            R07402  (7R)-7-(4-carboxybutanamido)cephalosporanate amidohydrolase
+COMPOUND    C00097  L-Cysteine
+            C00183  L-Valine
+            C00395  Penicillin
+            C00916  Cephalosporin C
+            C00956  L-2-Aminoadipate
+            C02954  6-Aminopenicillanate
+            C03112  Deacetylcephalosporin C
+            C04712  (7R)-7-(5-Carboxy-5-oxopentanoyl)aminocephalosporinate
+            C05556  delta-(L-2-Aminoadipyl)-L-cysteinyl-D-valine
+            C05557  Isopenicillin N
+            C06564  Penicillin N
+            C06565  Deacetoxycephalosporin C
+            C06566  Cephamycin C
+            C06567  Penicilloic acid
+            C06568  O-Carbamoyl-deacetylcephalosporin C
+            C06569  7a-Hydroxy-O-carbamoyl-deacetylcephalosporin C
+            C07756  7-Aminocephalosporanic acid
+            C15666  (7R)-7-(4-Carboxybutanamido)cephalosporanate
+REFERENCE   
+  AUTHORS   Michal G.
+  TITLE     Biochemical Pathways
+  JOURNAL   Wiley (1999)
+REL_PATHWAY rn00310  Lysine degradation
+KO_PATHWAY  ko00311
+///

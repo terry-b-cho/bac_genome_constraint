@@ -1,0 +1,20 @@
+ENTRY       R03245                      Reaction
+NAME        ATP:(R)-5-phosphomevalonate phosphotransferase
+DEFINITION  ATP + (R)-5-Phosphomevalonate <=> ADP + (R)-5-Diphosphomevalonate
+EQUATION    C00002 + C01107 <=> C00008 + C01143
+RCLASS      RC00002  C00002_C00008  C01107_C01143
+ENZYME      2.7.4.2
+PATHWAY     rn00900  Terpenoid backbone biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00095  C5 isoprenoid biosynthesis, mevalonate pathway
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.4  Phosphotransferases with a phosphate group as acceptor
+                2.7.4.2
+                 R03245  ATP + (R)-5-Phosphomevalonate <=> ADP + (R)-5-Diphosphomevalonate
+ORTHOLOGY   K00938  phosphomevalonate kinase [EC:2.7.4.2]
+            K13273  phosphomevalonate kinase [EC:2.7.4.2]
+DBLINKS     RHEA: 16344
+///

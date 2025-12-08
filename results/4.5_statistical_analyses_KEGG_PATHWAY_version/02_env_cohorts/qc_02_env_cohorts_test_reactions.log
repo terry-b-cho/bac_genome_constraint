@@ -1,0 +1,42 @@
+================================================================================
+Script 02: Define Environment Cohorts - REACTIONS
+  TEST MODE: Processing small subset only
+================================================================================
+
+A. Verify Consistency with Script 01
+--------------------------------------------------------------------------------
+Loading master_table_high_quality_test_reactions.tsv...
+  ✓ File loaded successfully (TEST MODE: using up to 10 genomes per environment)
+  Total genomes in input: 12
+  ✓ No missing environments
+  Recomputing environment counts...
+  ✓ Environment counts match env_n_genomes column (within ±1 tolerance)
+
+B. Environment Threshold Filter
+--------------------------------------------------------------------------------
+  Threshold: ≥ 20 genomes per environment
+  Environments kept: 0
+  Environments dropped: 5
+
+  All environments with counts:
+    ✗ DROPPED: Aquatic: 5 genomes
+    ✗ DROPPED: Terrestrial: 3 genomes
+    ✗ DROPPED: Mammals: 2 genomes
+    ✗ DROPPED: Mammals: Human: 1 genomes
+    ✗ DROPPED: Wastewater: 1 genomes
+
+  Final retained environments:
+
+C. Optional Flexibility Check
+--------------------------------------------------------------------------------
+  ⚠ WARNING: Too few environments (0) for robust scaling analysis.
+    Consider lowering threshold to 15 or 10.
+    Created valid_environments_min10_reactions.tsv with 0 environments
+    NOTE: This file exists but is not used by default
+
+D. Writing Outputs
+--------------------------------------------------------------------------------
+  ✓ valid_environments_min20_test_reactions.tsv: 0 environments
+  ✓ master_table_env_filtered_test_reactions.tsv: 0 genomes, 485 reactions columns
+  ✓ master_table_env_filtered_test_reactions.parquet: 0 genomes
+  ✓ Row count verification: 0 genomes = sum of n_genomes

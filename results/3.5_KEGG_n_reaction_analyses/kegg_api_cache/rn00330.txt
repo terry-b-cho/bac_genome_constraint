@@ -1,0 +1,220 @@
+ENTRY       rn00330                     Pathway
+NAME        Arginine and proline metabolism
+CLASS       Metabolism; Amino acid metabolism
+PATHWAY_MAP rn00330  Arginine and proline metabolism
+MODULE      M00015  Proline biosynthesis, glutamate => proline [PATH:rn00330]
+            M00047  Creatine pathway [PATH:rn00330]
+            M00133  Polyamine biosynthesis, arginine => agmatine => putrescine => spermidine [PATH:rn00330]
+            M00134  Polyamine biosynthesis, arginine => ornithine => putrescine [PATH:rn00330]
+            M00135  GABA biosynthesis, eukaryotes, putrescine => GABA [PATH:rn00330]
+            M00136  GABA biosynthesis, prokaryotes, putrescine => GABA [PATH:rn00330]
+            M00879  Arginine succinyltransferase pathway, arginine => glutamate [PATH:rn00330]
+            M00970  Proline degradation, proline => glutamate [PATH:rn00330]
+            M00972  Proline metabolism [PATH:rn00330]
+DBLINKS     GO: 0006525 0006560
+REACTION    R00111  N-(omega)-hydroxyarginine,NADPH:oxygen oxidoreductase (nitric-oxide-forming)
+            R00135  
+            R00178  S-adenosyl-L-methionine carboxy-lyase [S-adenosyl 3-(methylsulfanyl)propylamine-forming]
+            R00239  ATP:L-glutamate 5-phosphotransferase
+            R00245  L-glutamate gamma-semialdehyde:NAD+ oxidoreductase
+            R00411  N-succinyl-L-glutamate amidohydrolase
+            R00471  4-hydroxy-2-oxoglutarate glyoxylate-lyase (pyruvate-forming)
+            R00551  L-arginine amidinohydrolase
+            R00554  ATP:L-arginine Nomega-phosphotransferase
+            R00558  L-arginine,NADPH:oxygen oxidoreductase (N-(omega)-hydroxyarginine-forming)
+            R00559  L-arginine:oxygen 2-oxidoreductase (decarboxylating)
+            R00562  N2-(D-1-carboxyethyl)-L-arginine:NAD+ oxidoreductase (L-arginine-forming)
+            R00563  N2-(D-1,3-dicarboxypropyl)-L-arginine:NADP+ oxidoreductase (L-arginine-forming); D-nopaline:NADP+ oxidoreductase (L-arginine-forming)
+            R00565  L-arginine:glycine amidinotransferase
+            R00566  L-arginine carboxy-lyase (agmatine-forming)
+            R00667  L-ornithine:2-oxo-acid aminotransferase
+            R00670  L-ornithine carboxy-lyase (putrescine-forming)
+            R00671  L-ornithine ammonia-lyase (cyclizing; L-proline-forming)
+            R00832  succinyl-CoA:L-arginine N2-succinyltransferase
+            R01151  putrescine:oxygen oxidoreductase (deaminating)
+            R01152  N-carbamoylputrescine amidohydrolase
+            R01154  acetyl-CoA:putrescine N-acetyltransferase
+            R01155  putrescine:2-oxoglutarate aminotransferase
+            R01156  N-acetylputrescine acetylhydrolase
+            R01157  agmatine amidinohydrolase
+            R01246  L-proline:NAD+ 2-oxidoreductase
+            R01248  L-proline:NAD+ 5-oxidoreductase
+            R01249  L-proline:NADP+ 2-oxidoreductase
+            R01251  L-proline:NADP+ 5-oxidoreductase
+            R01252  L-proline,2-oxoglutarate:oxygen oxidoreductase (4-hydroxylating)
+            R01253  L-proline:quinone oxidoreductase
+            R01255  proline racemase
+            R01416  agmatine iminohydrolase
+            R01563  N-carbamoylsarcosine amidohydrolase
+            R01566  creatine amidinohydrolase
+            R01881  ATP:creatine N-phosphotransferase
+            R01883  S-adenosyl-L-methionine:guanidinoacetate N-methyltransferase
+            R01884  creatinine amidohydrolase
+            R01914  spermidine:(acceptor) oxidoreductase
+            R01915  spermidine:(acceptor) oxidoreductase
+            R01920  S-adenosylmethioninamine:putrescine 3-aminopropyltransferase
+            R01986  4-aminobutyraldehyde:NAD+ oxidoreductase
+            R01987  4-acetamidobutanoate amidohydrolase
+            R01989  L-arginine:4-aminobutanoate amidinotransferase
+            R01990  4-guanidinobutanoate amidinohydrolase
+            R01991  L-histidine:4-aminobutanoate ligase (ADP-forming)
+            R01992  alpha-aminobutyryl histidine hydrolase
+            R02549  4-aminobutanal:NAD+ 1-oxidoreductase; 4-aminobutyraldehyde:NAD+ oxidoreductase
+            R02575  ATP:guanidoacetate N-phosphotransferase
+            R02825  
+            R02869  S-adenosylmethioninamine:spermidine 3-aminopropyltransferase
+            R02894  D-proline:oxygen oxidoreductase
+            R02922  creatinine iminohydrolase
+            R03177  4-guanidinobutanal:NAD+ 1-oxidoreductase
+            R03178  2-oxo-5-guanidinopentanoate carboxy-lyase
+            R03180  4-guanidinobutanamide amidohydrolase
+            R03187  N-methylimidazolidine-2,4-dione amidohydrolase (ATP-hydrolysing)
+            R03249  
+            R03291  trans-4-hydroxy-L-proline:NAD+ 5-oxidoreductase
+            R03293  trans-4-hydroxy-L-proline:NADP+ 5-oxidoreductase
+            R03295  trans-4-hydroxy-L-proline:quinone oxidoreductase
+            R03313  L-glutamate-5-semialdehyde:NADP+ 5-oxidoreductase (phosphorylating)
+            R03314  
+            R04025  N-acetylputrescine:oxygen oxidoreductase(deaminating)(flavin-containing)
+            R04189  N2-succinyl-L-arginine iminohydrolase (decarboxylating)
+            R04217  N2-succinyl-L-ornithine:2-oxoglutarate 5-aminotransferase
+            R04374  trans-3-hydroxy-L-proline hydro-lyase (1-pyrroline-2-carboxylate-forming)
+            R04443  
+            R04444  L-1-pyrroline-3-hydroxy-5-carboxylate:NAD+ oxidoreductase
+            R04445  L-1-pyrroline-3-hydroxy-5-carboxylate:NADP+ oxidoreductase
+            R05049  N-succinyl-L-glutamate 5-semialdehyde:NAD+ oxidoreductase
+            R05050  N4-acetylaminobutanal:NAD+ oxidoreductase
+            R05051  L-erythro-4-hydroxyglutamate:NAD+ oxidoreductase
+            R05052  L-erythro-4-hydroxyglutamate:2-oxoglutarate aminotransferase
+            R05053  D-aspartate:2-oxoglutarate aminotransferase
+            R07414  glutamate putrescine ligase
+            R07415  
+            R07417  4-(gamma-L-glutamylamino)butanal:NAD+ oxidoreductase
+            R07418  4-(gamma-L-glutamylamino)butanal:NADP+ oxidoreductase
+            R07419  4-(gamma-L-glutamylamino)butanoate amidohydrolase
+            R07420  
+            R08197  L-arginine:pyruvate aminotransferase
+            R08714  putrescine:pyruvate aminotransferase
+            R09076  spermidine:oxygen oxidoreductase (spermidine-forming)
+            R09077  spermidine:oxygen oxidoreductase (3-aminopropanal-forming)
+            R09079  carboxyspermidine:NADP+ oxidoreductase
+            R09080  carboxynorspermidine:NADP+ oxidoreductase
+            R09081  carboxyspermidine carboxy-lyase (spermidine-forming)
+            R09082  carboxynorspermidine carboxy-lyase (norspermidine-forming)
+            R09256  4-coumaroyl-CoA:putrescine N4-coumaroyltransferase
+            R09257  feruloyl-CoA:putrescine feruloyltransferase
+            R09496  D-proline:acceptor oxidoreductase
+            R10347  N1-aminopropylagmatine amidinohydrolase
+            R11604  L-arginine:oxygen oxidoreductase (deaminating)
+            R11625  cis-3-hydroxy-L-proline hydro-lyase (1-pyrroline-2-carboxylate-forming)
+            R11712  
+            R11713  
+            R11819  trans-4-hydroxy-L-proline hydro-lyase
+            R12085  acetyl-CoA:L-glutamate-5-semialdehyde N-acetyltransferase
+            R12706  
+            R12707  
+            R13148  
+            R13284  N1-[(S)-3-amino-3-carboxypropyl]agmatine carboxy-lyase
+            R13291  N1-[(S)-2-aminobutanoate]agmatine:NADP+ oxidoreductase (agmatine-forming)
+            R13308  L-arginine aminodihydrolase (L-ornithine-forming)
+COMPOUND    C00012  Peptide
+            C00019  S-Adenosyl-L-methionine
+            C00022  Pyruvate
+            C00025  L-Glutamate
+            C00048  Glyoxylate
+            C00062  L-Arginine
+            C00077  L-Ornithine
+            C00086  Urea
+            C00134  Putrescine
+            C00148  L-Proline
+            C00179  Agmatine
+            C00213  Sarcosine
+            C00223  p-Coumaroyl-CoA
+            C00300  Creatine
+            C00315  Spermidine
+            C00334  4-Aminobutanoate
+            C00406  Feruloyl-CoA
+            C00431  5-Aminopentanoate
+            C00436  N-Carbamoylputrescine
+            C00441  L-Aspartate 4-semialdehyde
+            C00533  Nitric oxide
+            C00555  4-Aminobutyraldehyde
+            C00581  Guanidinoacetate
+            C00750  Spermine
+            C00763  D-Proline
+            C00791  Creatinine
+            C00884  Homocarnosine
+            C00986  1,3-Diaminopropane
+            C01035  4-Guanidinobutanoate
+            C01043  N-Carbamoylsarcosine
+            C01110  5-Amino-2-oxopentanoic acid
+            C01137  S-Adenosylmethioninamine
+            C01157  Hydroxyproline
+            C01165  L-Glutamate 5-semialdehyde
+            C01250  N-Acetyl-L-glutamate 5-semialdehyde
+            C01682  Nopaline
+            C02305  Phosphocreatine
+            C02565  N-Methylhydantoin
+            C02647  4-Guanidinobutanal
+            C02714  N-Acetylputrescine
+            C02946  4-Acetamidobutanoate
+            C03078  4-Guanidinobutanamide
+            C03166  Phosphoguanidinoacetate
+            C03287  L-Glutamyl 5-phosphate
+            C03296  N2-Succinyl-L-arginine
+            C03375  Norspermidine
+            C03415  N2-Succinyl-L-ornithine
+            C03564  1-Pyrroline-2-carboxylate
+            C03771  5-Guanidino-2-oxopentanoate
+            C03912  (S)-1-Pyrroline-5-carboxylate
+            C04137  Octopine
+            C04281  L-1-Pyrroline-3-hydroxy-5-carboxylate
+            C05147  trans-3-Hydroxy-L-proline
+            C05931  N-Succinyl-L-glutamate
+            C05932  N-Succinyl-L-glutamate 5-semialdehyde
+            C05933  N(omega)-Hydroxyarginine
+            C05936  N4-Acetylaminobutanal
+            C05938  L-4-Hydroxyglutamate semialdehyde
+            C05945  L-Arginine phosphate
+            C05946  (4R)-4-Hydroxy-2-oxoglutarate
+            C05947  L-erythro-4-Hydroxyglutamate
+            C10497  Feruloylputrescine
+            C15699  gamma-L-Glutamylputrescine
+            C15700  gamma-Glutamyl-gamma-aminobutyraldehyde
+            C15767  4-(L-gamma-Glutamylamino)butanoate
+            C18172  Carboxyspermidine
+            C18174  Carboxynorspermidine
+            C18326  p-Coumaroylputrescine
+            C19706  cis-3-Hydroxy-L-proline
+            C20560  N1-(3-Aminopropyl)agmatine
+            C22886  N1-[(S)-3-amino-3-carboxypropyl]agmatine
+REFERENCE   PMID:5288244
+  AUTHORS   Haake P, Allen GW.
+  TITLE     Studies on phosphorylation by phosphoroguanidinates. The mechanism of action of creatine: ATP transphosphorylase (creatine kinase).
+  JOURNAL   Proc Natl Acad Sci U S A 68:2691-3 (1971)
+            DOI:10.1073/pnas.68.11.2691
+REFERENCE   PMID:16499623
+  AUTHORS   Kurihara S, Oda S, Kumagai H, Suzuki H.
+  TITLE     Gamma-glutamyl-gamma-aminobutyrate hydrolase in the putrescine utilization pathway of Escherichia coli K-12.
+  JOURNAL   FEMS Microbiol Lett 256:318-23 (2006)
+            DOI:10.1111/j.1574-6968.2006.00137.x
+REFERENCE   PMID:15590624
+  AUTHORS   Kurihara S, Oda S, Kato K, Kim HG, Koyanagi T, Kumagai H, Suzuki H.
+  TITLE     A novel putrescine utilization pathway involves gamma-glutamylated intermediates of Escherichia coli K-12.
+  JOURNAL   J Biol Chem 280:4602-8 (2005)
+            DOI:10.1074/jbc.M411114200
+REL_PATHWAY rn00020  Citrate cycle (TCA cycle)
+            rn00220  Arginine biosynthesis
+            rn00250  Alanine, aspartate and glutamate metabolism
+            rn00260  Glycine, serine and threonine metabolism
+            rn00270  Cysteine and methionine metabolism
+            rn00310  Lysine degradation
+            rn00410  beta-Alanine metabolism
+            rn00470  D-Amino acid metabolism
+            rn00480  Glutathione metabolism
+            rn00630  Glyoxylate and dicarboxylate metabolism
+            rn00650  Butanoate metabolism
+            rn00770  Pantothenate and CoA biosynthesis
+            rn00960  Tropane, piperidine and pyridine alkaloid biosynthesis
+KO_PATHWAY  ko00330
+///

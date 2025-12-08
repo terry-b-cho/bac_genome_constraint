@@ -1,0 +1,21 @@
+ENTRY       R01183                      Reaction
+NAME        myo-inositol:NAD+ 2-oxidoreductase
+DEFINITION  myo-Inositol + NAD+ <=> 2,4,6/3,5-Pentahydroxycyclohexanone + NADH + H+
+EQUATION    C00137 + C00003 <=> C00691 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00182  C00137_C00691
+ENZYME      1.1.1.18
+PATHWAY     rn00521  Streptomycin biosynthesis
+            rn00562  Inositol phosphate metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01120  Microbial metabolism in diverse environments
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.1  Acting on the CH-OH group of donors
+               1.1.1  With NAD+ or NADP+ as acceptor
+                1.1.1.18
+                 R01183  myo-Inositol + NAD+ <=> 2,4,6/3,5-Pentahydroxycyclohexanone + NADH + H+
+ORTHOLOGY   K00010  myo-inositol 2-dehydrogenase / D-chiro-inositol 1-dehydrogenase [EC:1.1.1.18 1.1.1.369]
+DBLINKS     RHEA: 16952
+///

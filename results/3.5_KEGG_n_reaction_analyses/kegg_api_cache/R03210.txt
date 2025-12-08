@@ -1,0 +1,22 @@
+ENTRY       R03210                      Reaction
+NAME        pimeloyl-CoA:L-alanine C-carboxyhexanoyltransferase (decarboxylating)
+DEFINITION  Pimeloyl-CoA + L-Alanine <=> 8-Amino-7-oxononanoate + CoA + CO2
+EQUATION    C01063 + C00041 <=> C01092 + C00010 + C00011
+RCLASS      RC00004  C00010_C01063
+            RC02725  C01063_C01092
+ENZYME      2.3.1.47
+PATHWAY     rn00780  Biotin metabolism
+            rn01100  Metabolic pathways
+            rn01240  Biosynthesis of cofactors
+MODULE      M00123  Biotin biosynthesis, pimeloyl-ACP/CoA => biotin
+            M00577  Biotin biosynthesis, BioW pathway, pimelate => pimeloyl-CoA => biotin
+            M00950  Biotin biosynthesis, BioU pathway, pimeloyl-ACP/CoA => biotin
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.47
+                 R03210  Pimeloyl-CoA + L-Alanine <=> 8-Amino-7-oxononanoate + CoA + CO2
+ORTHOLOGY   K00652  8-amino-7-oxononanoate synthase [EC:2.3.1.47]
+DBLINKS     RHEA: 20715 42291
+///

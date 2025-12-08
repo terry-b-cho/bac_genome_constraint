@@ -1,0 +1,275 @@
+ENTRY       K12447                      KO
+SYMBOL      USP
+NAME        UDP-sugar pyrophosphorylase [EC:2.7.7.64]
+PATHWAY     map00040  Pentose and glucuronate interconversions
+            map00052  Galactose metabolism
+            map00053  Ascorbate and aldarate metabolism
+            map00520  Amino sugar and nucleotide sugar metabolism
+            map00541  Biosynthesis of various nucleotide sugars
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01250  Biosynthesis of nucleotide sugars
+MODULE      M00014  Glucuronate pathway (uronate pathway)
+            M00549  UDP-Glc biosynthesis, Glc => UDP-Glc
+            M00994  UDP-GlcA biosynthesis, myo-inositol => GlcA => UDP-GlcA
+            M00998  UDP-L-Ara biosynthesis, L-Ala => UDP-L-Ala
+REACTION    R00289  UTP:alpha-D-glucose-1-phosphate uridylyltransferase
+            R00502  UTP:alpha-D-galactose-1-phosphate uridylyltransferase
+            R01381  UTP:1-phospho-alpha-D-glucuronate uridylyltransferase
+            R01471  UTP:alpha-D-xylose-1-phosphate uridylyltransferase
+            R03077  UTP:beta-L-arabinose-1-phosphate uridylyltransferase
+            R08845  UTP:monosaccharide-1-phosphate uridylyltransferase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09101 Carbohydrate metabolism
+               00040 Pentose and glucuronate interconversions
+                K12447  USP; UDP-sugar pyrophosphorylase
+               00052 Galactose metabolism
+                K12447  USP; UDP-sugar pyrophosphorylase
+               00053 Ascorbate and aldarate metabolism
+                K12447  USP; UDP-sugar pyrophosphorylase
+              09107 Glycan biosynthesis and metabolism
+               00520 Amino sugar and nucleotide sugar metabolism
+                K12447  USP; UDP-sugar pyrophosphorylase
+               00541 Biosynthesis of various nucleotide sugars
+                K12447  USP; UDP-sugar pyrophosphorylase
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.7  Transferring phosphorus-containing groups
+               2.7.7  Nucleotidyltransferases
+                2.7.7.64  UTP-monosaccharide-1-phosphate uridylyltransferase
+                 K12447  USP; UDP-sugar pyrophosphorylase
+DBLINKS     GO: 0051748
+GENES       ATH: AT5G52560(USP)
+            ALY: 9301995
+            CRB: 17875462
+            CSAT: 104725768 104727645 104761268
+            EUS: EUTSA_v10000457mg
+            BRP: 103842186
+            BNA: 106368564 106415929
+            BOE: 106307311
+            RSZ: 108805857
+            THJ: 104808371
+            CPAP: 110813513
+            CIT: 102628031
+            CIC: CICLE_v10000592mg
+            PVY: 116116047 116140087
+            MINC: 123203258 123206225
+            TCC: 18592423
+            GRA: 105783427 105792654
+            GHI: 107897588 107938693 107939552 107949516
+            GAB: 108462975 108467534
+            HSYR: 120207178
+            DZI: 111298632 111312249
+            EGR: 104450548
+            RARG: 115738167
+            GMX: 100793599 778158(USP1)
+            GSJ: 114410378 114415459
+            PVU: 137820402
+            VRA: 106762599
+            VAR: 108332148
+            VUN: 114164681
+            VUM: 124826520
+            CCAJ: 109796895
+            APRC: 113869536
+            MTR: 25489712
+            TPRA: 123909387
+            CAM: 101505137
+            PSAT: 127082747
+            VVO: 131626432 131661385
+            LJA: 130739242
+            ADU: 107460668
+            AIP: 107606001
+            AHF: 112706017 112764737 114927234
+            LANG: 109344323
+            PCIN: 129294265 129304189
+            QSA: O6P43_015120 O6P43_019795
+            FVE: 101297604
+            AANS: 126783217
+            RCN: 112172726
+            PPER: 18790905
+            PMUM: 103319759
+            PAVI: 110766413
+            PDUL: 117614229
+            MDM: 103456258
+            MSYL: 126604195
+            PXB: 103945204 103946766
+            PCOX: 137709482
+            ZJU: 107421126
+            MNT: 21387354
+            CSAV: 115698731 115709730
+            HLP: 133822955 133830004
+            CSV: 101202798
+            CMO: 103485690
+            BHJ: 120075699
+            MCHA: 111011819
+            CMAX: 111487149
+            CMOS: 111462581
+            CPEP: 111802306
+            RCU: 8270969
+            MEAN: 126673921 126676147
+            JCU: 105639006
+            HBR: 110632622 110647558
+            MESC: 110606169
+            POP: 7467856
+            PEU: 105127743
+            PALZ: 118061551
+            PNZ: 133692331
+            JRE: 109004826 109012130
+            CILL: 122296207 122299491
+            CAVE: 132185829
+            AGLU: 133866773
+            QSU: 111984090
+            QLO: 115960014
+            CSAA: 142620926
+            TWL: 119996987 120017142
+            VVI: 100259254
+            VRI: 117906610
+            SLY: 101247010
+            SPEN: 107018439
+            SOT: 102596087
+            SSTN: 125849909
+            SDUL: 129902203
+            SVER: 125834091
+            CANN: 107852493
+            LBB: 132627176
+            NTA: 107804078 107808766
+            NSY: 104232978
+            NTO: 104119089
+            NAU: 109234273
+            INI: 109170461
+            ITR: 116014919
+            SIND: 105180105
+            OEU: 111397495 111408714
+            EGT: 105963411
+            SSPL: 121783004 121785967 121810605
+            SMIL: 131011810
+            SHIS: 125208178 125218199
+            APAN: 127246463
+            HPUM: 140863665 140882278
+            PHUA: 140975141 140989960
+            PEBU: 140808038 140816404 140819662
+            PTAB: 142520852 142525317 142532939
+            CARB: 113713491
+            HAN: 110904244 110927044
+            BHW: 143582507 143593772 143605976 143618102 143633150
+            ECAD: 122603150 122609402
+            LSV: 111901456
+            CCAV: 112522223 112523107
+            DCR: 108204601
+            AGRV: 141671812
+            CSIN: 114267052
+            RVL: 131307323
+            AEW: 130758359 130776324
+            DLT: 127800286
+            BVG: 104894442
+            SOE: 110782013
+            CQI: 110685928 110725744
+            ATRI: 130818202
+            SLAF: 141605377
+            MOF: 131162338
+            NNU: 104606683
+            MING: 122072129 122094797
+            TSS: 122655413 122657876 122670080
+            PSOM: 113291734 113326815 113332494 113358220
+            OSA: 4341967(P0596H10.4)
+            DOSA: Os06g0701200
+            OBR: 102704348
+            OGL: 127777429
+            BDI: 100845164
+            ATS: 109751835
+            TDC: 119329157 119337370
+            TAES: 123148643 123157133 123163925
+            TUA: 125519710
+            HVG: 123413667 123443975
+            LPER: 127312522 127324064
+            LRD: 124684174 124692501 124692520 124697546
+            SBI: 8065566
+            ZMA: 100285949 100382378 103625925 109939773
+            MFLO: 136520317 136527325 136527568
+            SITA: 101760295 101768879
+            SVS: 117854042 117863004
+            PVIR: 120668692 120704388
+            PHAI: 112888690
+            PAUA: 133927331 133931365
+            TANG: 140778827
+            PDA: 103713110
+            EGU: 105049301
+            MUS: 135583452 135612865
+            ZOF: 121970675 121975759 121988662 121997589
+            DCT: 110114106
+            PEQ: 110033390
+            AOF: 109850719
+            MSIN: 131221063 131226735
+            ACAK: 137955660
+            NCOL: 116261024
+            ATR: 18424675
+            CJF: 131065414
+            SMO: SELMODRAFT_100378 SELMODRAFT_118485
+            PPP: 112284456 112291294
+            CRE: CHLRE_14g621751v5
+            VCN: VOLCADRAFT_120799
+            CSL: COCSUDRAFT_53808
+            CVR: CHLNCDRAFT_35169
+            APRO: F751_3978
+            OLU: OSTLU_51241 OSTLU_52106
+            OTA: OT_ostta13g02030
+            BPG: Bathy17g01210
+            MIS: MICPUN_106965
+            MPP: MICPUCDRAFT_60817
+            PFA: PF3D7_0517500
+            PFD: PFDG_01194
+            PFH: PFHG_00237
+            PREI: PRSY57_0008200
+            PGAB: PGSY75_0517500
+            PLAG: 39740480(PADL01_0516500)
+            PYO: PY17X_1235700
+            PCB: PCHAS_1232900
+            PBE: PBANKA_1232300
+            PVV: PVVCY_1203320
+            PKN: PKNH_1015800
+            PVX: PVX_080375
+            PCY: PCYB_102430
+            PMAL: PMUG01_10027200
+            PBRS: 92371307(MKS88_003220)
+            PREL: PRELSG_1014400
+            PCOT: PCOAH_00029880
+            CPV: cgd7_1830
+            CHO: Chro.70213
+            TGO: TGME49_218200
+            BBES: BESB_039100
+            TET: TTHERM_00929520 TTHERM_00951720
+            PTM: GSPATT00032995001
+            PTI: PHATRDRAFT_23639 PHATRDRAFT_54493
+            FCY: FRACYDRAFT_211962(USP2) FRACYDRAFT_237242(USP1)
+            TPS: THAPSDRAFT_13482 THAPSDRAFT_42326
+            AAF: AURANDRAFT_22705 AURANDRAFT_23667 AURANDRAFT_28944 AURANDRAFT_70780
+            PIF: PITG_10315
+            PSOJ: PHYSODRAFT_312734
+            TCR: 503493.10 511761.10
+            LMA: LMJF_17_1160(USP)
+            LIF: LINJ_17_1260(USP)
+            LDO: LDBPK_171260
+            LMI: LMXM_17_1160
+            LMAT: 92515557(LSCM1_05597)
+            LBZ: LBRM_17_1270(USP)
+            LPAN: LPMP_171130(USP)
+            LOI: 92362805(LSCM4_06964)
+            LEIS: 94182114(GH5_06833)
+            LENR: 94173279(CUR178_06095)
+            LEIN: 94190962(JIQ42_07376)
+            PHET: 94291540(JKF63_05505)
+            EHX: EMIHUDRAFT_426133 EMIHUDRAFT_427850 EMIHUDRAFT_454930 EMIHUDRAFT_51739 EMIHUDRAFT_68020 EMIHUDRAFT_74985
+            GTT: GUITHDRAFT_115181 GUITHDRAFT_157482 GUITHDRAFT_159419
+            CAA: Caka_1908
+            VBS: EGM51_17175
+            TAER: GT409_04725
+            LPRO: PQO03_10390
+            AG: BAD66876(USP)
+REFERENCE   PMID:15326166
+  AUTHORS   Kotake T, Yamaguchi D, Ohzono H, Hojo S, Kaneko S, Ishida HK, Tsumuraya Y
+  TITLE     UDP-sugar pyrophosphorylase with broad substrate specificity toward various monosaccharide 1-phosphates from pea sprouts.
+  JOURNAL   J Biol Chem 279:45728-36 (2004)
+            DOI:10.1074/jbc.M408716200
+  SEQUENCE  [ag:BAD66876]
+///

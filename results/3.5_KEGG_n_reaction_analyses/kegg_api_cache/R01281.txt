@@ -1,0 +1,21 @@
+ENTRY       R01281                      Reaction
+NAME        palmitoyl-CoA:L-serine C-palmitoyltransferase (decarboxylating)
+DEFINITION  Palmitoyl-CoA + L-Serine <=> 3-Dehydrosphinganine + CoA + CO2
+EQUATION    C00154 + C00065 <=> C02934 + C00010 + C00011
+RCLASS      RC00004  C00010_C00154
+            RC02725  C00154_C02934
+            RC02849  C00065_C02934
+ENZYME      2.3.1.50
+PATHWAY     rn00600  Sphingolipid metabolism
+            rn01100  Metabolic pathways
+MODULE      M00094  Ceramide biosynthesis
+            M00099  Sphingosine biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.50
+                 R01281  Palmitoyl-CoA + L-Serine <=> 3-Dehydrosphinganine + CoA + CO2
+ORTHOLOGY   K00654  serine palmitoyltransferase [EC:2.3.1.50]
+DBLINKS     RHEA: 14764
+///

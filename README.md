@@ -1,8 +1,8 @@
-# Constraints on Bacterial Genome Size
+# Constraints on Bacterial Genome Size  
 
-HST.508 Final Project (Fall 2025)
+HST.508 Final Project (Fall 2025)  
 
-**Authors:** Aidan Pavao, Terry Cho
+**Authors:** Aidan Pavao, Terry Cho  
 
 ## Project Overview
 
@@ -13,7 +13,7 @@ Bacterial genomes vary nearly an order of magnitude in size. Interestingly, bact
 - Do scaling relationships differ between environments?
 - What functional categories show environment-specific scaling patterns?
 
-## Data
+## Data  
 
 **Source:** NCBI Reference Genome Dataset  
 **Total Genomes:** 5,986 complete reference genomes (downloaded and organized)  
@@ -28,7 +28,7 @@ Bacterial genomes vary nearly an order of magnitude in size. Interestingly, bact
 
 **For detailed data documentation:** See `scripts/0_data_download/README.md`
 
-## Repository Structure
+## Repository Structure  
 
 ```
 bac_genome_constraint/
@@ -134,9 +134,9 @@ python3 scripts/4_statistical_analyses/03_fit_global_scaling.py --test-mode
 - **Aidan Pavao:** Primary data analysis, visualization, modeling
 - **Terry Cho:** Data setup, repository organization, documentation
 
-## Timeline
+## Timeline  
 
-- **Data criteria due:** Nov 7, 2025
-- **Preliminary analysis due:** Nov 17, 2025
-- **Presentation:** Dec 8–10, 2025
-- **Final paper due:** Dec 12, 2025
+- **Data criteria due:** Nov 7, 2025  
+- **Preliminary analysis due:** Nov 17, 2025  
+- **Presentation:** Dec 8–10, 2025  
+- **Final paper due:** Dec 12, 2025  

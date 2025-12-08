@@ -1,0 +1,238 @@
+ENTRY       rn00909                     Pathway
+NAME        Sesquiterpenoid and triterpenoid biosynthesis
+DESCRIPTION Sesquiterpenoids (C15 terpenoids) are a group of terpenoids consisting of three isoprene units. They are derive from farnesyl diphosphate (FPP) and can be cyclized to produce various skeletal structures. Sesquiterpenoid biosynthesis begins with the loss of diphosphate from FPP under the action of sesquiterpene synthesis enzymes, generating an allylic cation that is highly susceptible to intramolecular attacks. Cyclization of the farnesyl cation may take place onto either of the remaining double bonds with the result that 6-, 10-, or 11-membered rings may be formed. Many sesquiterpenoids have been isolated from plants, fungi, marine organisms, and Streptomyces species. This map shows a few examples of acyclic and cyclic sesquiterpenoids.
+CLASS       Metabolism; Metabolism of terpenoids and polyketides
+PATHWAY_MAP rn00909  Sesquiterpenoid and triterpenoid biosynthesis
+DBLINKS     GO: 0016106 0016104
+REACTION    R00702  farnesyl-diphosphate:farnesyl-diphosphate farnesyltransferase
+            R02305  2-trans,6-trans-farnesyldiphosphate diphosphate-lyase (cyclizing, pentalenene-forming)
+            R02306  trans,trans-farnesyl-diphosphate diphosphate-lyase (cyclizing, trichodiene-forming)
+            R02307  trans,trans-farnesyl-diphosphate farnesyltransferase (bicyclizing)
+            R02311  2-trans,6-trans-farnesyl-diphosphate diphosphate-lyase (cyclizing, (+)-delta-cadinene-forming)
+            R02872  presqualene-diphosphate diphosphate-lyase (reducing, squalene-forming)
+            R02874  squalene,NADPH-hemoprotein:oxygen oxidoreductase (2,3-epoxidizing)
+            R02875  squalene hydro-lyase (tetrahymanol forming)
+            R03265  (2E,6E)-farnesol 2-cis-trans-isomerase
+            R03740  
+            R03798  
+            R06466  (3S)-2,3-epoxy-2,3-dihydrosqualene mutase (cyclizing, lupeol-forming)
+            R06469  (3S)-2,3-epoxy-2,3-dihydrosqualene mutase (cyclizing, beta-amyrin-forming)
+            R06471  (3S)-2,3-epoxy-2,3-dihydrosqualene mutase (cyclizing, alpha-amyrin-forming)
+            R06523  trans,trans-farnesyl-diphosphate diphosphate-lyase (cyclizing, vetispiradiene-forming)
+            R07322  squalene mutase (cyclizing)
+            R07323  squalene mutase (cyclizing); hopan-22-ol hydro-lyase
+            R07630  2-trans,6-trans-farnesyl-diphosphate diphosphate-lyase (amorpha-4,11-diene-forming)
+            R07647  2-trans,6-trans-farnesyl-diphosphate diphosphate-lyase [(1E,4S,5E,7R)-germacra-1(10),5-dien-11-ol-forming]
+            R07648  2-trans,6-trans-farnesyl-diphosphate diphosphate-lyase [(-)-germacrene D-forming]
+            R07649  2-trans,6-trans-farnesyl-diphosphate diphosphate-lyase (germacrene-A-forming)
+            R07830  (2E,6E)-farnesyl-diphosphate diphosphate-lyase [(+)-epi-isozizaene-forming]
+            R08370  (2E,6E)-farnesyl-diphosphate diphosphate-lyase [(E)-alpha-bisabolene-forming]
+            R08371  
+            R08373  (2E,6E)-farnesyl-diphosphate diphosphate-lyase (alpha-humulene-forming)
+            R08374  (2E,6E)-farnesyl-diphosphate diphosphate-lyase [(3S,6E)-nerolidol-forming]
+            R08540  (2E,6E)-farnesyl-diphosphate diphosphate-lyase (gamma-humulene-forming)
+            R08541  (2E,6E)-farnesyl-diphosphate diphosphate-lyase (caryophyllene-forming)
+            R08542  (2E,6E)-farnesyl-diphosphate diphosphate-lyase (longifolene-forming)
+            R08545  (2E,6E)-farnesyl-diphosphate diphosphate-lyase (germacrene-B-forming)
+            R08546  (2E,6E)-farnesyl-diphosphate diphosphate-lyase (beta-selinene-forming)
+            R08691  trans,trans-farnesyl-diphosphate diphosphate-lyase [cyclizing, (+)-valencene-forming]; (2E,6E)-farnesyl-diphosphate diphosphate-lyase [cyclizing, (+)-valencene-forming]
+            R08695  (2E,6E)-farnesyl-diphosphate diphosphate-lyase [(E)-beta-farnesene-forming]; trans,trans-farnesyl-diphosphate diphosphate-lyase (beta-farnesene-forming)
+            R08696  (2E,6E)-farnesyl-diphosphate lyase [(3E,6E)-alpha-farnesene-forming]; trans,trans-farnesyl-diphosphate diphosphate-lyase (alpha-farnesene-forming)
+            R08697  trans,trans-farnesyl-diphosphate diphosphohydrolase; (2E,6E)-farnesyl-diphosphate diphosphohydrolase
+            R08851  (+)-epi-isozizaene,reduced-ferredoxin:oxygen oxidoreductase (5S-hydroxylating)
+            R08852  (5S)-albaflavenol,reduced-ferredoxin:oxygen oxidoreductase
+            R08853  (+)-epi-isozizaene,reduced-ferredoxin:oxygen oxidoreductase (5R-hydroxylating)
+            R08854  (5R)-albaflavenol,reduced-ferredoxin:oxygen oxidoreductase
+            R09140  (2E,6E)-farnesyl-diphosphate diphosphate-lyase (8-epi-cedrol-forming)
+            R09476  (S)-2,3-epoxysqualene mutase (cyclizing, taraxerol-forming)
+            R09487  germacradienol geosmin-lyase (acetone forming)
+            R09548  germacra-1(10),4,11(13)-trien-12-ol,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase
+            R09549  (+)-germacrene-A,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (12-hydroxylating)
+            R09573  5-epiaristolochene,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (1- and 3-hydroxylating)
+            R09574  (2E,6E)-farnesyl-diphosphate diphosphate-lyase [(+)-5-epiaristolochene-forming]
+            R09575  germacra-1(10),4,11(13)-trien-12-oate,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (6alpha-hydroxylating)
+            R09576  (-)-vetispiradiene,[reduced NADPH---hemoprotein reductase]:oxygen 2alpha-oxidoreductase
+            R09577  solavetivol,[reduced NADPH---hemoprotein reductase]:oxygen 2alpha-oxidoreductase
+            R09604  beta-amyrin,[reduced NADPH---hemoprotein reductase]:oxygen oxidoreductase (24-hydroxylating)
+            R09608  (2Z,6Z)-farnesyl diphosphate lyase (cyclizing;(+)-alpha-santalene-forming)
+            R09614  (2E,6E)-farnesyl-diphosphate diphosphate-lyase [(+)-alpha-barbatene-forming]
+            R09616  (2E,6E)-farnesyl-diphosphate diphosphate-lyase [(+)-delta-selinene-forming]
+            R09618  (2E,6E)-farnesyl-diphosphate diphosphate-lyase [(3R,6E)-nerolidol-forming]
+            R09619  (2E,6E)-farnesyl-diphosphate diphosphate-lyase [(E)-gamma-bisabolene-forming]
+            R09620  (2E,6E)-farnesyl-diphosphate diphosphate-lyase [(Z)-gamma-bisabolene-forming]
+            R09623  (2E,6E)-farnesyl-diphosphate diphosphate-lyase [(S)-beta-bisabolene-forming]
+            R09624  (2E,6E)-farnesyl-diphosphate diphosphate-lyase (germacrene-C-forming)
+            R09625  (S)-beta-macrocarpene lyase (decyclizing)
+            R09626  (2E,6E)-farnesyl-diphosphate diphosphate-lyase (cis-muuroladiene-forming)
+            R09629  (2E,6E)-farnesyl-diphosphate diphosphate-lyase (patchoulol-forming)
+            R09688  (S)-2,3-epoxysqualene mutase (cyclizing, cucurbitadienol-forming)
+            R09689  (S)-2,3-epoxysqualene mutase [cyclizing, (17Z)-protosta-17(20),24-dien-3beta-ol-forming]
+            R09700  (S)-squalene-2,3-epoxide hydro-lyase (arabidiol forming)
+            R09701  (S)-squalene-2,3-epoxide hydro-lyase (dammarenediol-II forming)
+            R09709  (S)-2,3-epoxysqualene mutase (cyclizing, thalianol-forming)
+            R09710  (S)-2,3-epoxysqualene mutase (cyclizing, germanicol-forming)
+            R09711  (S)-2,3-epoxysqualene mutase (cyclizing, isomultiflorenol-forming)
+            R09712  squalene mutase (cyclizing, dammara-20,24-diene-forming)
+            R09713  (3S)-2,3-epoxy-2,3-dihydrosqualene mutase (cyclizing, camelliol-C-forming)
+            R09743  (3S)-2,3-epoxy-2,3-dihydrosqualene hydro-lyase (lupan-3beta,20-diol forming)
+            R09814  pentalenene,reduced ferredoxin:oxygen 13-oxidoreductase
+            R09835  (+)-beta-caryophyllene hydrolase [cyclizing, (+)-caryolan-1-ol-forming]
+            R09886  (2E,6E)-farnesyl-diphosphate diphosphate-lyase (7-epi-alpha-selinene-forming)
+            R09889  (2E,6E)-farnesyl-diphosphate diphosphate-lyase [cyclizing, (+)-beta-caryophyllene-forming]
+            R09890  (2E,6E)-farnesyl-diphosphate diphosphate-lyase (cyclizing, 5-epi-alpha-selinene-forming)
+            R09896  (2E,6E)-farnesyl-diphosphate diphosphate-lyase (cyclizing, avermitilol-forming)
+            R09907  (3S)-2,3-epoxy-2,3-dihydrosqualene mutase (cyclizing, parkeol-forming)
+            R09908  (3S)-2,3-epoxy-2,3-dihydrosqualene mutase (cyclizing, achilleol-B-forming)
+            R09912  (3S)-2,3-epoxy-2,3-dihydrosqualene mutase (cyclizing, alpha-seco-amyrin-forming)
+            R09913  (3S)-2,3-epoxy-2,3-dihydrosqualene mutase (cyclizing, marneral-forming)
+            R09914  (3S)-2,3-epoxy-2,3-dihydrosqualene mutase (cyclizing, beta-seco-amyrin-forming)
+            R09916  (3S)-2,3-epoxy-2,3-dihydrosqualene mutase (cyclizing, tirucalla-7,24-dien-3beta-ol-forming)
+            R09917  (3S)-2,3-epoxy-2,3-dihydrosqualene mutase (cyclizing, baruol-forming)
+            R10273  (2E,6E)-farnesyl-diphosphate diphosphate-lyase (cyclizing, (E)-2-epi-beta-caryophyllene-forming)
+            R10274  (2E,6E)-farnesyl-diphosphate diphosphate-lyase (cyclizing, (+)-epi-alpha-bisabolol-forming)
+            R10412  (2E,6E)-farnesol:NAD+ 1-oxidoreductase
+            R10598  (2E,6E)-farnesyl diphosphate lyase (cyclizing, (+)-beta-chamigrene-forming)
+            R10599  (2E,6E)-farnesyl diphosphate lyase (cyclizing, (+)-thujopsene-forming)
+COMPOUND    C00448  trans,trans-Farnesyl diphosphate
+            C00751  Squalene
+            C01054  (S)-2,3-Epoxysqualene
+            C01126  (2E,6E)-Farnesol
+            C01841  Pentalenene
+            C01860  Trichodiene
+            C02004  Aristolochene
+            C03220  (2Z,6E)-Farnesol
+            C03428  Presqualene diphosphate
+            C03461  2-trans,6-trans-Farnesal
+            C06079  PR-toxin
+            C06080  Nivalenol
+            C06083  Tetrahymanol
+            C06309  Diplopterol
+            C06310  Diploptene
+            C06394  delta-Cadinene
+            C07667  Gossypol
+            C08615  alpha-Amyrin
+            C08616  beta-Amyrin
+            C08628  Lupeol
+            C08637  Taraxerol
+            C09382  Costunolide
+            C09627  Capsidiol
+            C09629  beta-Caryophyllene
+            C09665  alpha-Farnesene
+            C09666  beta-Farnesene
+            C09672  Germacrene B
+            C09684  Humulene
+            C09699  Longifolene
+            C09704  Nerolidol
+            C09723  beta-Selinene
+            C09737  Solavetivone
+            C12142  Vetispiradiene
+            C16028  Amorpha-4,11-diene
+            C16141  (+)-Germacrene A
+            C16142  (-)-Germacrene D
+            C16143  (1E,4S,5E,7R)-Germacra-1(10),5-dien-11-ol
+            C16269  (+)-epi-Isozizaene
+            C16286  Geosmin
+            C16775  (S)-beta-Bisabolene
+            C16814  gamma-Bisabolene
+            C16829  gamma-Humulene
+            C17277  (+)-Valencene
+            C17953  (5S)-Albaflavenol
+            C17954  Albaflavenone
+            C17955  (5R)-Albaflavenol
+            C18245  8-epi-Cedrol
+            C19676  Germacra-1(10),4,11(13)-trien-12-ol
+            C19678  Germacrene A acid
+            C19708  5-Epiaristolochene
+            C19711  Solavetivol
+            C19732  24-Hydroxy-beta-amyrin
+            C19736  (+)-alpha-Santalene
+            C19740  (+)-alpha-Barbatene
+            C19742  (+)-delta-Selinene
+            C19746  (3R,6E)-Nerolidol
+            C19747  Germacrene C
+            C19748  (E)-gamma-Bisabolene
+            C19749  (E)-alpha-Bisabolene
+            C19752  (S)-beta-Macrocarpene
+            C19753  cis-Muurola-3,5-diene
+            C19755  Patchoulol
+            C19801  Isomultiflorenol
+            C19819  Cucurbitadienol
+            C19820  Protostadienol
+            C19828  Arabidiol
+            C19829  Dammarenediol-II
+            C19832  Thalianol
+            C19833  Germanicol
+            C19834  Dammara-20,24-diene
+            C19835  Camelliol C
+            C19863  Lupan-3beta,20-diol
+            C19908  (+)-beta-Chamigrene
+            C19918  Parkeol
+            C19939  Pentalen-13-al
+            C19973  (+)-beta-Caryophyllene
+            C19974  (+)-Caryolan-1-ol
+            C20159  7-epi-alpha-Selinene
+            C20163  5-epi-alpha-Selinene
+            C20181  Avermitilol
+            C20187  Achilleol B
+            C20191  alpha-seco-Amyrin
+            C20192  Marneral
+            C20193  beta-seco-Amyrin
+            C20195  Tirucalla-7,24-dien-3beta-ol
+            C20200  Baruol
+            C20478  (E)-2-epi-beta-Caryophyllene
+            C20479  (+)-epi-alpha-Bisabolol
+            C20724  (+)-Thujopsene
+REFERENCE   PMID:9371761
+  AUTHORS   Crock J, Wildung M, Croteau R
+  TITLE     Isolation and bacterial expression of a sesquiterpene synthase cDNA clone from peppermint (Mentha x piperita, L.) that produces the aphid alarm pheromone (E)-beta-farnesene.
+  JOURNAL   Proc Natl Acad Sci U S A 94:12833-8 (1997)
+            DOI:10.1073/pnas.94.24.12833
+REFERENCE   PMID:18363779
+  AUTHORS   Nagegowda DA, Gutensohn M, Wilkerson CG, Dudareva N
+  TITLE     Two nearly identical terpene synthases catalyze the formation of nerolidol and linalool in snapdragon flowers.
+  JOURNAL   Plant J 55:224-39 (2008)
+            DOI:10.1111/j.1365-313X.2008.03496.x
+REFERENCE   PMID:16579958
+  AUTHORS   Bertea CM, Voster A, Verstappen FW, Maffei M, Beekwilder J, Bouwmeester HJ
+  TITLE     Isoprenoid biosynthesis in Artemisia annua: cloning and heterologous expression of a germacrene A synthase from a glandular trichome cDNA library.
+  JOURNAL   Arch Biochem Biophys 448:3-12 (2006)
+            DOI:10.1016/j.abb.2006.02.026
+REFERENCE   PMID:12011356
+  AUTHORS   de Kraker JW, Franssen MC, Joerink M, de Groot A, Bouwmeester HJ
+  TITLE     Biosynthesis of costunolide, dihydrocostunolide, and leucodin. Demonstration of cytochrome p450-catalyzed formation of the lactone ring present in sesquiterpene lactones of chicory.
+  JOURNAL   Plant Physiol 129:257-68 (2002)
+            DOI:10.1104/pp.010957
+REFERENCE   PMID:17226502
+  AUTHORS   Jaroszewski JW, Strom-Hansen T, Hansen SH, Thastrup O, Kofod H
+  TITLE     On the botanical distribution of chiral forms of gossypol.
+  JOURNAL   Planta Med 58:454-8 (1992)
+            DOI:10.1055/s-2006-961512
+REFERENCE   PMID:9442047
+  AUTHORS   Steele CL, Crock J, Bohlmann J, Croteau R
+  TITLE     Sesquiterpene synthases from grand fir (Abies grandis). Comparison of constitutive and wound-induced activities, and cDNA isolation, characterization, and bacterial expression of delta-selinene synthase and gamma-humulene synthase.
+  JOURNAL   J Biol Chem 273:2078-89 (1998)
+            DOI:10.1074/jbc.273.4.2078
+REFERENCE   PMID:19030608
+  AUTHORS   Fraga BM
+  TITLE     Natural sesquiterpenoids.
+  JOURNAL   Nat Prod Rep 25:1180-209 (2008)
+            DOI:10.1039/b806216c
+REFERENCE   PMID:21876149
+  AUTHORS   Field B, Fiston-Lavier AS, Kemen A, Geisler K, Quesneville H, Osbourn AE
+  TITLE     Formation of plant metabolic gene clusters within dynamic chromosomal regions.
+  JOURNAL   Proc Natl Acad Sci U S A 108:16116-21 (2011)
+            DOI:10.1073/pnas.1109273108
+REFERENCE   PMID:18356490
+  AUTHORS   Field B, Osbourn AE
+  TITLE     Metabolic diversification--independent assembly of operon-like gene clusters in different plants.
+  JOURNAL   Science 320:543-7 (2008)
+            DOI:10.1126/science.1154990
+REFERENCE   PMID:15148404
+  AUTHORS   Qi X, Bakht S, Leggett M, Maxwell C, Melton R, Osbourn A
+  TITLE     A gene cluster for secondary metabolism in oat: implications for the evolution of metabolic diversity in plants.
+  JOURNAL   Proc Natl Acad Sci U S A 101:8233-8 (2004)
+            DOI:10.1073/pnas.0401301101
+REL_PATHWAY rn00100  Steroid biosynthesis
+            rn00900  Terpenoid backbone biosynthesis
+KO_PATHWAY  ko00909
+///

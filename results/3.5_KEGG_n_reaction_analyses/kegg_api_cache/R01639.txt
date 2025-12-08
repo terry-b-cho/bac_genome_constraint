@@ -1,0 +1,19 @@
+ENTRY       R01639                      Reaction
+NAME        ATP:D-xylulose 5-phosphotransferase
+DEFINITION  ATP + D-Xylulose <=> ADP + D-Xylulose 5-phosphate
+EQUATION    C00002 + C00310 <=> C00008 + C00231
+RCLASS      RC00002  C00002_C00008
+            RC00538  C00231_C00310
+ENZYME      2.7.1.17
+PATHWAY     rn00040  Pentose and glucuronate interconversions
+            rn01100  Metabolic pathways
+MODULE      M00014  Glucuronate pathway (uronate pathway)
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.17
+                 R01639  ATP + D-Xylulose <=> ADP + D-Xylulose 5-phosphate
+ORTHOLOGY   K00854  xylulokinase [EC:2.7.1.17]
+DBLINKS     RHEA: 10967
+///

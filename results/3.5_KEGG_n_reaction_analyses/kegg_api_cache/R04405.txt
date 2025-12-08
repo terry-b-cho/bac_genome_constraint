@@ -1,0 +1,21 @@
+ENTRY       R04405                      Reaction
+NAME        5-methyltetrahydropteroyltri-L-glutamate:L-homocysteine S-methyltransferase
+DEFINITION  5-Methyltetrahydropteroyltri-L-glutamate + L-Homocysteine <=> Tetrahydropteroyltri-L-glutamate + L-Methionine
+EQUATION    C04489 + C00155 <=> C04144 + C00073
+RCLASS      RC00035  C00073_C00155
+            RC00113  C04144_C04489
+ENZYME      2.1.1.14
+PATHWAY     rn00270  Cysteine and methionine metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01230  Biosynthesis of amino acids
+MODULE      M00017  Methionine biosynthesis, aspartate => homoserine => methionine
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.14
+                 R04405  5-Methyltetrahydropteroyltri-L-glutamate + L-Homocysteine <=> Tetrahydropteroyltri-L-glutamate + L-Methionine
+ORTHOLOGY   K00549  5-methyltetrahydropteroyltriglutamate--homocysteine methyltransferase [EC:2.1.1.14]
+DBLINKS     RHEA: 21199
+///

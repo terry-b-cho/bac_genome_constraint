@@ -1,0 +1,18 @@
+ENTRY       R01174                      Reaction
+NAME        butanoyl-CoA:phosphate butanoyltransferase
+DEFINITION  Butanoyl-CoA + Orthophosphate <=> CoA + Butanoylphosphate
+EQUATION    C00136 + C00009 <=> C00010 + C02527
+RCLASS      RC00004  C00010_C00136
+            RC02816  C00136_C02527
+ENZYME      2.3.1.19
+PATHWAY     rn00650  Butanoate metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.3  Acyltransferases
+               2.3.1  Transferring groups other than aminoacyl groups
+                2.3.1.19
+                 R01174  Butanoyl-CoA + Orthophosphate <=> CoA + Butanoylphosphate
+ORTHOLOGY   K00634  phosphate butyryltransferase [EC:2.3.1.19]
+DBLINKS     RHEA: 20895
+///

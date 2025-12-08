@@ -1,0 +1,61 @@
+ENTRY       rn00710                     Pathway
+NAME        Carbon fixation by Calvin cycle
+CLASS       Metabolism; Energy metabolism
+PATHWAY_MAP rn00710  Carbon fixation by Calvin cycle
+MODULE      M00165  Reductive pentose phosphate cycle (Calvin cycle) [PATH:rn00710]
+            M00168  CAM (Crassulacean acid metabolism), dark [PATH:rn00710]
+            M00169  CAM (Crassulacean acid metabolism), light [PATH:rn00710]
+            M00170  C4-dicarboxylic acid cycle, phosphoenolpyruvate carboxykinase type [PATH:rn00710]
+            M00171  C4-dicarboxylic acid cycle, NAD - malic enzyme type [PATH:rn00710]
+            M00172  C4-dicarboxylic acid cycle, NADP - malic enzyme type [PATH:rn00710]
+REACTION    R00024  3-phospho-D-glycerate carboxy-lyase (dimerizing; D-ribulose-1,5-bisphosphate-forming)
+            R00206  ATP:pyruvate,phosphate phosphotransferase
+            R00214  (S)-malate:NAD+ oxidoreductase (decarboxylating)
+            R00216  (S)-malate:NADP+ oxidoreductase(oxaloacetate-decarboxylating)
+            R00258  L-alanine:2-oxoglutarate aminotransferase
+            R00341  ATP:oxaloacetate carboxy-lyase (transphosphorylating;phosphoenolpyruvate-forming)
+            R00342  (S)-malate:NAD+ oxidoreductase
+            R00343  (S)-malate:NADP+ oxidoreductase
+            R00345  phosphate:oxaloacetate carboxy-lyase (adding phosphate;phosphoenolpyruvate-forming)
+            R00355  L-aspartate:2-oxoglutarate aminotransferase
+            R00762  D-fructose-1,6-bisphosphate 1-phosphohydrolase
+            R01015  D-glyceraldehyde-3-phosphate aldose-ketose-isomerase
+            R01056  D-ribose-5-phosphate aldose-ketose-isomerase
+            R01061  D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating)
+            R01063  D-glyceraldehyde-3-phosphate:NADP+ oxidoreductase (phosphorylating)
+            R01067  D-fructose 6-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase
+            R01068  D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)
+            R01512  ATP:3-phospho-D-glycerate 1-phosphotransferase
+            R01523  ATP:D-ribulose-5-phosphate 1-phosphotransferase
+            R01529  D-ribulose-5-phosphate 3-epimerase
+            R01641  sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase
+            R01829  sedoheptulose 1,7-bisphosphate D-glyceraldehyde-3-phosphate-lyase
+            R01845  sedoheptulose 1,7-bisphosphate 1-phosphohydrolase
+            R08575  sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase
+COMPOUND    C00001  H2O
+            C00011  CO2
+            C00022  Pyruvate
+            C00036  Oxaloacetate
+            C00041  L-Alanine
+            C00049  L-Aspartate
+            C00074  Phosphoenolpyruvate
+            C00085  D-Fructose 6-phosphate
+            C00111  Glycerone phosphate
+            C00117  D-Ribose 5-phosphate
+            C00118  D-Glyceraldehyde 3-phosphate
+            C00149  (S)-Malate
+            C00197  3-Phospho-D-glycerate
+            C00199  D-Ribulose 5-phosphate
+            C00231  D-Xylulose 5-phosphate
+            C00236  3-Phospho-D-glyceroyl phosphate
+            C00279  D-Erythrose 4-phosphate
+            C00354  D-Fructose 1,6-bisphosphate
+            C00447  Sedoheptulose 1,7-bisphosphate
+            C01182  D-Ribulose 1,5-bisphosphate
+            C05382  Sedoheptulose 7-phosphate
+REL_PATHWAY rn00010  Glycolysis / Gluconeogenesis
+            rn00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            rn00630  Glyoxylate and dicarboxylate metabolism
+            rn00720  Other carbon fixation pathways
+KO_PATHWAY  ko00710
+///

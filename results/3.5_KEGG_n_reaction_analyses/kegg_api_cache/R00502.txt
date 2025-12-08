@@ -1,0 +1,25 @@
+ENTRY       R00502                      Reaction
+NAME        UTP:alpha-D-galactose-1-phosphate uridylyltransferase
+DEFINITION  UTP + alpha-D-Galactose 1-phosphate <=> Diphosphate + UDP-alpha-D-galactose
+EQUATION    C00075 + C00446 <=> C00013 + C00052
+RCLASS      RC00002  C00052_C00446
+ENZYME      2.7.7.10        2.7.7.64
+PATHWAY     rn00052  Galactose metabolism
+            rn00520  Amino sugar and nucleotide sugar metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.7  Transferring phosphorus-containing groups
+               2.7.7  Nucleotidyltransferases
+                2.7.7.10
+                 R00502  UTP + alpha-D-Galactose 1-phosphate <=> Diphosphate + UDP-alpha-D-galactose
+                2.7.7.64
+                 R00502  UTP + alpha-D-Galactose 1-phosphate <=> Diphosphate + UDP-alpha-D-galactose
+            IUBMB reaction hierarchy [BR:br08202]
+             2. Transferase reactions
+              2.7.7.64
+               R08845  alpha-D-Aldose 1-phosphate <=> UDP-sugar
+                R00502  alpha-D-Galactose 1-phosphate <=> UDP-alpha-D-galactose
+ORTHOLOGY   K12447  UDP-sugar pyrophosphorylase [EC:2.7.7.64]
+DBLINKS     RHEA: 14212
+///

@@ -1,0 +1,31 @@
+ENTRY       R02291                      Reaction
+NAME        L-aspartate-4-semialdehyde:NADP+ oxidoreductase (phosphorylating)
+DEFINITION  L-Aspartate 4-semialdehyde + Orthophosphate + NADP+ <=> 4-Phospho-L-aspartate + NADPH + H+
+EQUATION    C00441 + C00009 + C00006 <=> C03082 + C00005 + C00080
+RCLASS      RC00001  C00005_C00006
+            RC00684  C00441_C03082
+ENZYME      1.2.1.11
+PATHWAY     rn00260  Glycine, serine and threonine metabolism
+            rn00270  Cysteine and methionine metabolism
+            rn00300  Lysine biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01120  Microbial metabolism in diverse environments
+            rn01210  2-Oxocarboxylic acid metabolism
+            rn01230  Biosynthesis of amino acids
+MODULE      M00016  Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine
+            M00017  Methionine biosynthesis, aspartate => homoserine => methionine
+            M00018  Threonine biosynthesis, aspartate => homoserine => threonine
+            M00033  Ectoine biosynthesis, aspartate => ectoine
+            M00525  Lysine biosynthesis, acetyl-DAP pathway, aspartate => lysine
+            M00526  Lysine biosynthesis, DAP dehydrogenase pathway, aspartate => lysine
+            M00527  Lysine biosynthesis, DAP aminotransferase pathway, aspartate => lysine
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.2  Acting on the aldehyde or oxo group of donors
+               1.2.1  With NAD+ or NADP+ as acceptor
+                1.2.1.11
+                 R02291  L-Aspartate 4-semialdehyde + Orthophosphate + NADP+ <=> 4-Phospho-L-aspartate + NADPH + H+
+ORTHOLOGY   K00133  aspartate-semialdehyde dehydrogenase [EC:1.2.1.11]
+DBLINKS     RHEA: 24287
+///

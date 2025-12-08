@@ -1,0 +1,18 @@
+ENTRY       R05218                      Reaction
+NAME        cob(II)yrinic acid-a,c-diamide:FMN oxidoreductase
+DEFINITION  2 Cob(II)yrinate a,c diamide + Reduced FMN <=> 2 Cob(I)yrinate a,c diamide + FMN + 2 H+
+EQUATION    2 C06504 + C01847 <=> 2 C06505 + C00061 + 2 C00080
+RCLASS      RC00126  C00061_C01847
+            RC01010  C06504_C06505
+ENZYME      1.16.8.-
+PATHWAY     rn00860  Porphyrin metabolism
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.16  Oxidizing metal ions
+               1.16.8  
+                1.16.8.-
+                 R05218  2 Cob(II)yrinate a,c diamide + Reduced FMN <=> 2 Cob(I)yrinate a,c diamide + FMN + 2 H+
+ORTHOLOGY   K13786  cob(II)yrinic acid a,c-diamide reductase [EC:1.16.8.-]
+DBLINKS     RHEA: 24303
+///

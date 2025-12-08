@@ -1,0 +1,67 @@
+ENTRY       rn00290                     Pathway
+NAME        Valine, leucine and isoleucine biosynthesis
+CLASS       Metabolism; Amino acid metabolism
+PATHWAY_MAP rn00290  Valine, leucine and isoleucine biosynthesis
+MODULE      M00019  Valine/isoleucine biosynthesis, pyruvate => valine / 2-oxobutanoate => isoleucine [PATH:rn00290]
+            M00432  Leucine biosynthesis, 2-oxoisovalerate => 2-oxoisocaproate [PATH:rn00290]
+            M00535  Isoleucine biosynthesis, pyruvate => 2-oxobutanoate [PATH:rn00290]
+            M00570  Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine [PATH:rn00290]
+DBLINKS     GO: 0009097 0009098 0009099
+REACTION    R00226  pyruvate:pyruvate acetaldehydetransferase (decarboxylating); (S)-2-acetolactate pyruvate-lyase (carboxylating)
+            R00994  (2R,3S)-3-methylmalate:NAD+ oxidoreductase
+            R00996  L-threonine ammonia-lyase (2-oxobutanoate-forming)
+            R01088  L-leucine:NAD+ oxidoreductase (deaminating)
+            R01090  L-leucine:2-oxoglutarate aminotransferase
+            R01213  acetyl-CoA:3-methyl-2-oxobutanoate C-acetyltransferase (thioester-hydrolysing, carboxymethyl-forming); 3-carboxy-3-hydroxy-4-methylpentanoate 3-methyl-2-oxobutanoate-lyase (CoA-acetylating)
+            R01214  L-valine:2-oxoglutarate aminotransferase
+            R01215  L-valine:pyruvate aminotransferase
+            R01434  L-valine:NAD+ oxidoreductase(deaminating)
+            R01652  
+            R02196  L-isoleucine:NAD+ oxidoreductase(deaminating)
+            R02199  L-isoleucine:2-oxoglutarate aminotransferase
+            R03896  (R)-2-methylmalate hydro-lyase (2-methylmaleate-forming)
+            R03898  2-methylmaleate hydratase; D-erythro-3-methylmalate hydro-lyase (2-methylmaleate-forming)
+            R03968  2-isopropylmalate hydro-lyase
+            R04001  3-isopropylmalate hydro-lyase
+            R04426  (2R,3S)-3-isopropylmalate:NAD+ oxidoreductase
+            R04440  (R)-2,3-dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)
+            R04441  (R)-2,3-dihydroxy-3-methylbutanoate hydro-lyase
+            R05068  (R)-2,3-dihydroxy-3-methylpentanoate:NADP+ oxidoreductase (isomerizing)
+            R05069  (S)-2-aceto-2-hydroxybutanoate:NADP+ oxidoreductase (isomerizing)
+            R05070  (R)-2,3-dihydroxy-3-methylpentanoate hydro-lyase
+            R05071  (S)-2-acetolactate methylmutase
+            R07399  
+            R08648  pyruvate:2-oxobutanoate acetaldehydetransferase (decarboxylating)
+COMPOUND    C00022  Pyruvate
+            C00024  Acetyl-CoA
+            C00109  2-Oxobutanoate
+            C00123  L-Leucine
+            C00141  3-Methyl-2-oxobutanoic acid
+            C00183  L-Valine
+            C00188  L-Threonine
+            C00233  4-Methyl-2-oxopentanoate
+            C00407  L-Isoleucine
+            C00671  (S)-3-Methyl-2-oxopentanoic acid
+            C02226  2-Methylmaleate
+            C02504  alpha-Isopropylmalate
+            C02612  (R)-2-Methylmalate
+            C02631  2-Isopropylmaleate
+            C04181  3-Hydroxy-3-methyl-2-oxobutanoic acid
+            C04236  (2S)-2-Isopropyl-3-oxosuccinate
+            C04272  (R)-2,3-Dihydroxy-3-methylbutanoate
+            C04411  (2R,3S)-3-Isopropylmalate
+            C06006  (S)-2-Aceto-2-hydroxybutanoate
+            C06007  (R)-2,3-Dihydroxy-3-methylpentanoate
+            C06010  (S)-2-Acetolactate
+            C06032  D-erythro-3-Methylmalate
+            C14463  (R)-3-Hydroxy-3-methyl-2-oxopentanoate
+REFERENCE   PMID:15292141
+  AUTHORS   Xu H, Zhang Y, Guo X, Ren S, Staempfli AA, Chiao J, Jiang W, Zhao G.
+  TITLE     Isoleucine biosynthesis in Leptospira interrogans serotype lai strain 56601 proceeds via a threonine-independent pathway.
+  JOURNAL   J Bacteriol 186:5400-9 (2004)
+            DOI:10.1128/JB.186.16.5400-5409.2004
+REL_PATHWAY rn00260  Glycine, serine and threonine metabolism
+            rn00280  Valine, leucine and isoleucine degradation
+            rn00620  Pyruvate metabolism
+KO_PATHWAY  ko00290
+///

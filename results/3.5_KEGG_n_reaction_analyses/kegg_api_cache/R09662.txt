@@ -1,0 +1,19 @@
+ENTRY       R09662                      Reaction
+NAME        flavin:NAD+ oxidoreductase
+DEFINITION  Reduced flavin + NAD+ <=> Flavin + NADH + H+
+EQUATION    C19790 + C00003 <=> C00176 + C00004 + C00080
+RCLASS      RC00001  C00003_C00004
+            RC00126  C00176_C19790
+ENZYME      1.5.1.36
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.5  Acting on the CH-NH group of donors
+               1.5.1  With NAD+ or NADP+ as acceptor
+                1.5.1.36
+                 R09662  Reduced flavin + NAD+ <=> Flavin + NADH + H+
+            IUBMB reaction hierarchy [BR:br08202]
+             1. Oxidoreductase reactions
+              1.5.1.36
+               R09662  Reduced flavin <=> Flavin
+DBLINKS     RHEA: 31306
+///

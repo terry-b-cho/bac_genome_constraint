@@ -1,0 +1,47 @@
+================================================================================
+Script 04: Environment-Specific Fits & Z-Scores - KO
+================================================================================
+
+Loading data...
+  ✓ Loaded 2164 genomes from Parquet
+  ✓ Loaded 684 global scaling parameters
+  ✓ Loaded 8 valid environments
+  Using 8 environments and 739 ko categories
+
+A. Fitting Per-Environment Scaling Laws
+--------------------------------------------------------------------------------
+  Aquatic: 625 / 739 categories fitted
+  Terrestrial: 611 / 739 categories fitted
+  Mammals: Human: 601 / 739 categories fitted
+  Plants: 583 / 739 categories fitted
+  Mammals: 525 / 739 categories fitted
+  Food production: 490 / 739 categories fitted
+  Wastewater: 445 / 739 categories fitted
+  Birds: 298 / 739 categories fitted
+
+  Total env×category fits: 4178 / 5912
+  Skipped due to low sample size (<10): 1734
+  Skipped due to low variance: 0
+
+B. Computing Z-Scores
+--------------------------------------------------------------------------------
+  ⚠ Skipping Aquatic×K00211: invalid Z
+  ⚠ Skipping Aquatic×K00216: invalid Z
+  ⚠ Skipping Aquatic×K00364: invalid Z
+  ⚠ Skipping Aquatic×K00469: invalid Z
+  ⚠ Skipping Aquatic×K00634: invalid Z
+  ⚠ Skipping Aquatic×K00654: invalid Z
+  ⚠ Skipping Aquatic×K00793: invalid Z
+  ⚠ Skipping Aquatic×K00821: invalid Z
+  Computed 3281 valid Z-scores
+
+C. Category-Level Aggregation
+--------------------------------------------------------------------------------
+  Aggregated Z-scores for 547 categories
+  Z_alpha: min=0.2437, median=1.2582, max=7.8071
+
+D. Writing Outputs
+--------------------------------------------------------------------------------
+  ✓ env_scaling_params_ko.tsv: 4178 env×category fits
+  ✓ env_vs_global_Z_scores_ko.tsv: 3281 env×category Z-scores
+  ✓ category_Z_summary_ko.tsv: 547 categories

@@ -1,0 +1,20 @@
+ENTRY       R02422                      Reaction
+NAME        allantoate amidinohydrolase
+DEFINITION  Allantoate + H2O <=> (S)-Ureidoglycolate + Urea
+EQUATION    C00499 + C00001 <=> C00603 + C00086
+RCLASS      RC00379  C00086_C00499
+            RC00712  C00499_C00603
+ENZYME      3.5.3.4
+PATHWAY     rn00230  Purine metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+MODULE      M00546  Purine degradation, xanthine => urea
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.3  In linear amidines
+                3.5.3.4
+                 R02422  Allantoate + H2O <=> (S)-Ureidoglycolate + Urea
+ORTHOLOGY   K01477  allantoicase [EC:3.5.3.4]
+DBLINKS     RHEA: 11019
+///

@@ -1,0 +1,17 @@
+ENTRY       R03648                      Reaction
+NAME        L-asparagine:tRNA(Asn) ligase (AMP-forming)
+DEFINITION  ATP + L-Asparagine + tRNA(Asn) <=> AMP + Diphosphate + L-Asparaginyl-tRNA(Asn)
+EQUATION    C00002 + C00152 + C01637 <=> C00020 + C00013 + C03402
+RCLASS      RC00055  C01637_C03402
+            RC00523  C00152_C03402
+ENZYME      6.1.1.22
+PATHWAY     rn00970  Aminoacyl-tRNA biosynthesis
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.1  Forming carbon-oxygen bonds
+               6.1.1  Ligases forming aminoacyl-tRNA and related compounds
+                6.1.1.22
+                 R03648  ATP + L-Asparagine + tRNA(Asn) <=> AMP + Diphosphate + L-Asparaginyl-tRNA(Asn)
+ORTHOLOGY   K01893  asparaginyl-tRNA synthetase [EC:6.1.1.22]
+DBLINKS     RHEA: 11183
+///

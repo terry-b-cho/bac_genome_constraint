@@ -1,0 +1,995 @@
+ENTRY       K00301                      KO
+SYMBOL      E1.5.3.1
+NAME        sarcosine oxidase [EC:1.5.3.1]
+PATHWAY     map00260  Glycine, serine and threonine metabolism
+            map01100  Metabolic pathways
+MODULE      M00975  Betaine degradation, bacteria, betaine => pyruvate
+REACTION    R00610  sarcosine:oxygen oxidoreductase (demethylating)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09105 Amino acid metabolism
+               00260 Glycine, serine and threonine metabolism
+                K00301  E1.5.3.1; sarcosine oxidase
+            Enzymes [BR:ko01000]
+             1. Oxidoreductases
+              1.5  Acting on the CH-NH group of donors
+               1.5.3  With oxygen as acceptor
+                1.5.3.1  sarcosine oxidase (formaldehyde-forming)
+                 K00301  E1.5.3.1; sarcosine oxidase
+DBLINKS     COG: COG0665
+            GO: 0008115
+GENES       SOD: Sant_2216
+            TCI: A7K98_20675
+            XBA: C7S18_12025
+            VNA: PN96_22885
+            VEJ: VEJY3_22271(solA)
+            VFU: vfu_B00942
+            VFL: AL536_00120
+            VOS: KNV97_04685(solA)
+            VIB: VspSTUT11_30650(solA)
+            VID: DBX26_23245
+            PPU: PP_3775
+            PPW: PputW619_3166
+            PFV: Psefu_4366
+            POR: APT59_10435
+            PPSL: BJP27_01420
+            PALD: LU682_011305(solA)
+            PMOS: O165_007420
+            PST: PSPTO_3327
+            PSB: Psyr_3158
+            PSYR: N018_15860
+            PSP: PSPPH_3071
+            PSAV: PSA3335_13520
+            PAMG: BKM19_018495
+            PCI: PCH70_18770
+            PAVL: BKM03_12365
+            PVD: CFBP1590__3256
+            PCAB: JGS08_11125(solA)
+            PCOF: POR16_14125(solA)
+            PTRE: I9H09_10945(solA)
+            PSYI: MME58_16175(solA)
+            PAST: N015_11305(solA)
+            PLIJ: KQP88_09005(solA)
+            PFL: PFL_2333
+            PPRC: PFLCHA0_c23980(soxA2)
+            PPRO: PPC_2376(solA)
+            PFO: Pfl01_2285
+            PTV: AA957_23440
+            PAZO: AYR47_27860
+            PRX: HRH33_15630(solA)
+            PFX: A7318_17990
+            PPUU: PputUW4_03843
+            PCH: EY04_10765
+            PCZ: PCL1606_38280
+            PCP: JM49_19135
+            PCHP: C4K32_2316
+            PSES: PSCI_5387(solA)
+            PSEM: TO66_11590
+            PSOS: POS17_2321(solA)
+            PANR: A7J50_3914
+            PUM: HGP31_08390(solA)
+            PEZ: HWQ56_16735(solA)
+            PTZ: HU718_015025(solA)
+            PMAM: KSS90_15415(solA)
+            PAZE: KSS91_20790(solA)
+            PIZ: LAB08_R38490(solA)
+            PFIT: KJY40_13190(solA)
+            PNB: NK667_15535(solA)
+            PHOM: KJF94_15270(solA)
+            PSKU: KUIN1_31080(solA)
+            PBEN: V6W80_10430(solA)
+            PCAA: V6L78_16835(solA)
+            PSIV: LZ023_18975(solA)
+            PSNS: CI807_21380
+            PSRU: CCX46_14360
+            PMK: MDS_2848
+            FRL: FIP56_08305
+            HPRO: LMS44_21760
+            HAAH: HALA3H3_220027
+            HNP: SR894_19900
+            HAA: A5892_01555 A5892_09805
+            KUS: B9G99_11325
+            KMA: B9H00_03530
+            SAJS: QO259_13560(solA)
+            ENG: O2T12_14175
+            OCE: GU3_10940(solA)
+            ZDF: AN401_10885
+            ZOB: ACEVBK_08335(solA)
+            SALN: SALB1_2917
+            CSUT: U6115_10410
+            BUM: AXG89_37025
+            BUI: AX768_15570
+            PARA: BTO02_06135
+            PACP: FAZ97_31745(solA)
+            PACS: FAZ98_32560(solA)
+            PEW: KZJ38_17965(solA)
+            PBRY: NDK50_22135(solA)
+            BUO: BRPE64_CCDS02260 BRPE64_CCDS06170
+            RAND: ACQUFY_20325(solA)
+            ACHR: C2U31_06635
+            AMON: H9L24_13175(solA)
+            VBO: CKY39_18525
+            VAZ: H7F35_30635(solA)
+            VAV: IG196_15665(solA)
+            VAE: RZE79_16290(solA)
+            VAW: SFB74_15395(solA)
+            ATER: MW290_22985(solA)
+            UPL: DSM104440_02179(soxA_4)
+            MEAA: ACG873_14260(solA)
+            STEG: QA637_21815(solA)
+            REC: RHECIAT_PC0000818
+            RTR: RTCIAT899_PC06910
+            RHL: LPU83_pLPU83d1497
+            RGA: RGR602_PC01436
+            RJG: CCGE525_28775
+            RHR: CKA34_23520
+            RGR: FZ934_27640(solA)
+            RRHO: PR018_28090(solA)
+            RTU: PR017_26730(solA)
+            RHIB: I8E17_20595(solA)
+            RHIW: KQ933_23510(solA)
+            NEO: CYG48_09445
+            BJU: BJ6T_50490
+            BJP: RN69_24605
+            BRA: BRADO2168
+            BBT: BBta_2484
+            AOL: S58_53600
+            BRO: BRAD285_5087
+            BBAN: J4G43_028270(solA)
+            BCOU: IC761_02150
+            BOY: LQG66_13255(solA)
+            BLUP: AB3L03_27275
+            BGEP: ACP2YO_11960(solA) ACP2YO_46595
+            RHZ: RHPLAN_26160
+            BVV: BHK69_13960
+            BVES: QO058_25915(solA)
+            BOP: AXW83_02410
+            BOS: BSY19_173(soxA) BSY19_1918
+            BOI: BLM15_11470
+            BOW: NWE53_01350(solA) NWE53_04400(solA)
+            BOSE: RMR04_20395(solA)
+            LNE: FZC33_29965(solA)
+            SNO: Snov_1227
+            APRA: G3A50_13685(solA)
+            APOL: K9D25_22580(solA)
+            AQI: J5J86_23000(solA)
+            MRD: Mrad2831_3311
+            MET: M446_0118 M446_2677 M446_4751
+            MNO: Mnod_0115
+            MOR: MOC_3837
+            MAQU: Maq22A_c21820(dadA)
+            MPHY: MCBMB27_02826
+            MEE: DA075_25095
+            METX: A3862_14760
+            MMES: MMSR116_29815(solA)
+            MIND: mvi_53990(solA)
+            MTAD: M6G65_25775(solA)
+            MFUJ: ABC766_22660(solA)
+            MENS: LOK46_14300(solA) LOK46_17605(solA)
+            MOC: BB934_22440
+            MIV: C4E04_03150
+            MICO: GDR74_16655(solA)
+            MTEZ: HPT29_016275(solA) HPT29_022945(solA)
+            MLD: U0023_17815(solA)
+            CHEL: AL346_14325
+            CDQ: BOQ54_06960
+            HNI: W911_13805
+            DEA: FPZ08_18845(solA) FPZ08_19645
+            DNP: N8A98_22800(solA)
+            DRP: PSQ90_09325(solA)
+            DEVD: GHV40_18945(solA)
+            MMYR: MXMO3_01178
+            MPAR: F7D14_04430(solA)
+            CMET: K6K41_26145(solA)
+            AALA: IGS74_18140(solA)
+            AALM: LUX29_20150(solA)
+            AUZ: Sa4125_28040(solA)
+            JAV: OXU80_00530(solA)
+            PSIN: CAK95_15800
+            NOH: G5V57_10120
+            PHR: C6569_03870
+            PSTG: E8M01_22255(solA)
+            PAQT: E8L99_13940(solA)
+            LIZ: LGH83_01450(solA)
+            CAUB: AMEJIAPC_00605(soxA)
+            TSV: DSM104635_01149(soxA)
+            HYT: HXX25_12865(solA)
+            CBOT: ATE48_04540
+            NOG: GKE62_13925(solA) GKE62_14905(solA)
+            SPMS: ACO227_08825
+            ACOB: P0Y56_16215(solA)
+            BFW: B5J99_03520
+            ERQ: PS060_00940(solA)
+            RGI: RGI145_19795
+            RMUC: FOB66_02870(solA)
+            HTQ: FRZ44_45390
+            HADH: FRZ61_18820
+            THAC: CSC3H3_23395
+            HFL: PUV54_15595(solA)
+            DALK: DSCA_43080(solA)
+            SUR: STAUR_5258(soxA)
+            AGE: AA314_05533
+            CFUS: CYFUS_006178
+            PBRU: LZC95_12060 LZC95_26430(solA)
+            PRUE: LVJ94_12255 LVJ94_25565(solA)
+            TRO: trd_1773 trd_A0740
+            STI: Sthe_0190 Sthe_0401
+            PUO: RZN69_01355(solA)
+            MTAR: DF168_01026(soxA_1) DF168_01543(soxA_2)
+            ROO: G5S37_26510(solA)
+            LUO: HHL09_12265(solA)
+            LUP: ABWK72_15270(solA)
+            PSL: Psta_4654
+            MFF: MFFC18_36140(soxA)
+            LCRE: Pla8534_31930(soxA)
+            AAGG: ETAA8_67720(soxA)
+            BVO: Pan97_13280(soxA_1)
+            BREM: PSR63_04145(solA)
+            SMAM: Mal15_49280(soxA)
+            SMAE: TBK1r_32870(soxA)
+            LPAV: PLANPX_2201
+            LLH: I41_19600(soxA)
+            PND: Pla175_15610(soxA)
+            BGOK: Pr1d_13650(soxA)
+            PLS: VT03_09255(soxA)
+            PLH: VT85_03985(soxA)
+            GMR: GmarT_11840(soxA_1)
+            GIM: F1728_08845(solA)
+            GPN: Pan110_11630(soxA)
+            GFM: Enr17x_12660(soxA)
+            GAZ: Pan241w_12820(soxA_1)
+            GAW: V144x_46000(soxA)
+            GAX: Pan161_23250(soxA)
+            MRI: Mal4_18510(soxA)
+            SDYN: Mal52_18530(soxA)
+            PLON: Pla110_20890(soxA)
+            SVP: Pan189_34110(soxA)
+            TPOL: Mal48_22450(soxA)
+            CHYA: V22_28010(soxA)
+            CCOS: Pan44_55760(soxA)
+            PVAR: SH412_004281(solA)
+            SCHL: QJS52_10615(solA)
+            SSPE: ACGY09_18735(solA)
+            GES: VT84_22380(soxA)
+            GOG: C1280_16415
+            GMS: SOIL9_31800
+            TIM: GMBLW1_07660
+            LRS: PX52LOC_00047
+            FTJ: FTUN_2662
+            ULI: ETAA1_10080(soxA)
+            TSPH: KIH39_13280(solA)
+            SACI: Sinac_0839
+            SING: V5E97_01570(solA)
+            PBOR: BSF38_02375(soxA)
+            AGV: OJF2_26910(soxA)
+            TPLA: ElP_25570(soxA_2)
+            KNV: Pan216_56960(soxA)
+            HBS: IPV69_19980(solA)
+            UAM: UABAM_03088
+            UHL: UABHE_001944(solA) UABHE_006432(solA)
+            ADIN: H7849_18445(solA)
+            ORP: MOP44_22730(solA)
+            TPSC: RBB77_15750(solA)
+            SUS: Acid_5898
+            SCOR: J3U87_00065(solA)
+            GPH: GEMMAAP_12010
+            GGR: HKW67_02475(solA)
+            GBA: J421_5977
+            PSPC: Strain318_000349(solA)
+            GMT: V3331_04430(solA)
+            HHY: Halhy_2061
+            ALM: AO498_02135
+            ALGO: GYM62_16545(solA)
+            AHAP: V8V91_17320(solA)
+            MDA: IPZ59_05140(solA)
+            SLI: Slin_0149
+            SPIK: EXU85_20685(solA)
+            SPIB: G8759_25585(solA)
+            SFOL: H3H32_05480(solA)
+            SENF: GJR95_40765(solA)
+            SPIO: WBJ53_19915(solA) WBJ53_21750
+            DEND: ACN9ML_09240
+            ADD: HUW48_21245(solA)
+            ASWU: HUW51_15665(solA)
+            CLIT: OQ292_01590(solA)
+            TPOY: T19A14A_2320
+            BFD: NCTC4823_03404(soxA_1) NCTC4823_03409(soxA_2)
+            BCOH: BC6307_02310
+            NTX: NQZ71_11790(solA)
+            NIL: L8T27_010040(solA)
+            NTGC: AB3U99_05130(solA)
+            BMQ: BMQ_1540
+            BMD: BMD_1521
+            BMH: BMWSH_3689(solA)
+            BMEG: BG04_3832(soxA)
+            BEO: BEH_13970
+            BFX: BC359_11125
+            PARH: I5S86_11235(solA)
+            PKS: IE339_10690(solA)
+            BLE: BleG1_3437
+            SHUA: PQ477_04815(solA)
+            BKO: CKF48_07025
+            OIH: OB2802
+            OCN: CUC15_06315
+            OJD: NP439_08360(solA)
+            OKM: ACN6MR_14370(solA)
+            LSP: Bsph_1754
+            LGY: T479_06630
+            LFU: HR49_17465
+            LYS: LBYS11_06190
+            LYB: C3943_07480
+            LYG: C1N55_07380
+            LPAK: GDS87_06515(solA)
+            LAGR: FJQ98_07525(solA)
+            LMAC: I6G82_11900(solA)
+            LCAP: ICJ70_18030(solA)
+            LIU: OU989_06070(solA)
+            LYQ: MY533_05925(solA)
+            LYO: NV349_06215(solA)
+            HNZ: P9989_18150(solA)
+            TAP: GZ22_05610
+            TAID: KS242_06635(solA)
+            VIR: X953_16195
+            VIL: CFK37_09765
+            VNE: CFK40_12485 CFK40_15725 CFK40_15730
+            VNT: OLD84_07650(solA)
+            LAO: AOX59_03850 AOX59_16895
+            LEX: Len3610_10055
+            ACOP: RI196_06355(solA)
+            BSJ: UP17_09890
+            BMUR: ABE28_010550
+            PBUT: DTO10_23740
+            PFRI: L8956_10970(solA)
+            PERI: RE409_12000(solA)
+            PERJ: JNUCC41_19990(solA)
+            PERS: ACJ9PY_10630(solA)
+            GRC: GI584_05220(solA)
+            RUE: DT065_07385
+            SALE: EPH95_07880
+            SCIB: HUG20_14900(solA)
+            SCIA: HUG15_04725(solA) HUG15_17805(solA)
+            NMK: CHR53_14700 CHR53_15850
+            NCM: QNK12_28700(solA)
+            MLIT: KDJ21_005585(solA)
+            MENL: MVE64_13045(solA)
+            MEBZ: LPC09_12760(solA) LPC09_25200(solA)
+            BLEN: NCTC4824_00839(soxA_1) NCTC4824_03323(soxA_2)
+            BCK: BCO26_2139
+            BAG: Bcoa_2336
+            BCOA: BF29_1233(soxA)
+            BVJ: I5776_03925(solA)
+            HSPO: JGZ69_10745(solA)
+            SFOR: QNH23_12710(solA)
+            FAR: ABE41_018850
+            PUK: PU629_19080(solA)
+            SURY: MUA21_12895(solA)
+            SNL: BJD96_13465
+            SARL: SAP2_22140(solA)
+            SGAI: K3U27_11170(solA)
+            SBAH: RQP18_06495(solA)
+            SAHZ: ACKRAT_12880(solA)
+            EXM: U719_07010
+            EXU: ESP131_09125
+            EAP: KB235_01495(solA)
+            EACE: KKI46_06910(solA)
+            EAUR: NMQ00_15590(solA)
+            EMEX: ACNOIU_15230(solA)
+            BBE: BBR47_08620
+            BFM: BP422_29645
+            BAGR: BA6348_24405
+            BCHS: JNE38_04165(solA) JNE38_27635(solA)
+            BCOP: JD108_18880(solA)
+            BPAB: PSE45_04475(solA)
+            BAYD: BSPP4475_17515(solA)
+            BBOR: RFB14_21775(solA)
+            BRUM: NDK47_22645(solA)
+            BREH: HP435_04545(solA)
+            ASED: IRT44_08470(solA)
+            BREP: M655_023000(solA)
+            BGEL: AAFJ72_03875(solA)
+            PMS: KNP414_04974
+            PMQ: PM3016_4375
+            PMW: B2K_22665
+            PBD: PBOR_08120
+            POD: PODO_15245
+            PAEF: R50345_15395
+            PAEQ: R50912_07345
+            PAEA: R70723_07110
+            PAEE: R70331_06745
+            PAEJ: H70737_14865
+            PBJ: VN24_02210 VN24_05160 VN24_07410
+            PIH: UB51_20825
+            PRI: PRIO_1654(soxA)
+            POW: IJ21_03870 IJ21_05680
+            PXL: BS614_25955
+            PPSC: EHS13_10085
+            PALB: EJC50_25095
+            PCHI: PC41400_09300 PC41400_26380
+            PBK: Back11_29140(solA)
+            PPRT: ET464_07805
+            PLYC: GXP70_15855(solA)
+            PTRI: KDC22_06860(solA)
+            PTJ: JRJ22_05985(solA)
+            PUI: PUW25_09075(solA)
+            PMAH: PTQ21_23005(solA) PTQ21_28925(solA)
+            PAMY: P9222_14150(solA)
+            PSPN: L1F29_00995(solA)
+            PPAB: KET34_26140(solA)
+            PEZZ: HW560_13635(solA) HW560_20225(solA)
+            PELG: ACJ7K1_10800(solA)
+            PAYG: LDO05_01900(solA)
+            PTUN: V6W81_19420(solA)
+            PTAC: ACJYJG_17915(solA) ACJYJG_23790(solA)
+            TCO: Theco_3551
+            COH: EAV92_00550 EAV92_13195
+            COHN: KCTCHS21_16830(solA)
+            CHEB: HH215_33855(solA)
+            COHL: J4772_07545(solA)
+            ADAU: NZD86_13090(solA)
+            AFAS: NZD89_00900(solA)
+            ACYC: JI721_16885
+            PKU: AUO94_07410
+            PRT: AUC31_10600
+            PANA: BBH88_03425
+            PMAR: B0X71_04215
+            PFAE: AJGP001_09680
+            PLX: CW734_17795
+            PMAT: BBI11_00545
+            PLAY: DNR44_003905(solA)
+            PLIQ: QWY22_19320(solA)
+            PSHE: QWY16_05600(solA) QWY16_19125(solA)
+            PSHX: QWY21_19210(solA)
+            VIJ: JNUCC6_16255(solA)
+            NTR: B0W44_12785
+            THL: TEH_11830(sox)
+            TOO: C7K38_08640
+            TMR: Tmar_0598
+            THEF: E1B22_06655(solA)
+            THEP: DYI95_002775(solA)
+            TCP: Q5761_02850(solA)
+            EUZ: DVS28_a4329
+            MMAN: MMAN_16010(solA)
+            MMI: MMAR_4421
+            MMAE: MMARE11_42460
+            MLI: MULP_04641
+            MPSE: MPSD_45720(solA)
+            MSHO: MSHO_02130
+            MMC: Mmcs_2460
+            MKM: Mkms_2505
+            MJL: Mjls_2497
+            MYV: G155_08720
+            MBAI: MB901379_03870(soxA)
+            MYW: BVC93_03375 BVC93_13590
+            MYJ: BCA37_08425 BCA37_17665 BCA37_29065 BCA37_30165
+            MGI: Mflv_3081
+            MSP: Mspyr1_23960
+            MCB: Mycch_3086
+            MFT: XA26_17480
+            MVQ: MYVA_3365(solA)
+            MAUU: NCTC10437_03330(soxA)
+            MMAG: MMAD_22430(solA)
+            MTY: MTOK_13910(solA_1) MTOK_33420(solA_2) MTOK_51680
+            MPSC: MPSYJ_32530(solA)
+            MARZ: MARA_40740 MARA_42220(solA)
+            MPOF: MPOR_36240(solA)
+            MBOK: MBOE_57290
+            MSEI: MSEDJ_08730(solA_1) MSEDJ_25680(solA_2)
+            MMON: EWR22_12500
+            MGO: AFA91_09375
+            MRF: MJO55_15785(solA)
+            MGRO: FZ046_07900(solA) FZ046_12205
+            MYQ: TUM20985_05910(solA)
+            MYH: QU592_08290
+            MPAT: MPNTM1_03567(solA)
+            ASD: AS9A_2250 AS9A_3013
+            CGL: Cgl1581(Cgl1581)
+            CGB: cg1783(soxA')
+            CGU: WA5_1519(SoxA')
+            CGT: cgR_1629
+            CGS: C624_08660
+            CGG: C629_08670
+            CGJ: AR0_08410
+            CGQ: CGLAR1_08275
+            CGX: SB89_08110
+            CEF: CE1699
+            CKP: ckrop_1217
+            CVA: CVAR_1034(solA1) CVAR_2040(solA2)
+            CHN: A605_01125
+            CCN: H924_03150 H924_07475
+            CTER: A606_04025 A606_08160(solA)
+            CFN: CFAL_02445 CFAL_03275
+            CCG: CCASEI_00925 CCASEI_01105
+            CVT: B843_00645 B843_00670
+            CGY: CGLY_01360
+            CMQ: B840_09945
+            CDX: CDES_07895
+            CSTA: CSTAT_07520
+            CCJZ: ccrud_07635
+            CFC: CFLV_02755 CFLV_10240
+            CPRE: Csp1_04300(soxA_1) Csp1_08860(soxA_2) Csp1_17790(soxA_3)
+            CSUR: N24_1663
+            CCOE: CETAM_10590(soxA)
+            CORY: FQV43_07930
+            CPOY: GP475_02115(solA)
+            CHEI: CHEID_09600(soxA)
+            CFAC: CFAEC_07550(soxA)
+            CGF: CGUA_02325(soxA)
+            CPSK: Q0N40_06405
+            CORS: PAB09_00720(solA) PAB09_04125(solA)
+            BFV: C628_08630
+            NBR: O3I_018400(solA) O3I_022340
+            NOZ: DMB37_02145
+            NAH: F5544_24865(solA)
+            NYA: LTV02_18385(solA)
+            NVU: V7968_26105(solA) V7968_30050(solA)
+            RHA: RHA1_ro03302(soxA2)
+            RER: RER_14560
+            REY: O5Y_06895
+            REB: XU06_07140
+            RQI: C1M55_07385
+            ROP: ROP_28470 ROP_pROB01-03190
+            ROA: Pd630_LPD07560
+            RPY: Y013_10230 Y013_14350
+            RHB: NY08_3779
+            RAV: AAT18_25740
+            RRZ: CS378_15220
+            RHOD: AOT96_17780
+            RGO: KYT97_11305
+            RHOP: D8W71_26240
+            RHOO: RA302_07280
+            RHOU: KZJ41_27195
+            RHOW: A4U64_25470
+            RHOJ: JVH1_20895(solA)
+            RHOS: QWW67_16390
+            RHOQ: QWW98_16390
+            RHOY: QNA09_22740
+            RHOH: CPI83_21900
+            RHOX: RBB84_14960
+            RHJS: OYT95_21715(solA) OYT95_40345(solA)
+            RSF: OED52_16895 OED52_17105
+            RHZQ: GO592_33575(solA) GO592_38370(solA)
+            RHBH: A0W34_07180
+            RHPD: U9J23_18935
+            RHON: EHW12_07175
+            RHWB: FND50_33965(solA)
+            RHMM: ISO16_16330
+            RHRC: P0M12_19635
+            RHNY: ACBG85_07275
+            RHRD: RDE2_38770(solA)
+            WHR: OG579_01010(solA)
+            GPO: GPOL_c33290(soxA3)
+            GOR: KTR9_0614
+            GOM: D7316_03171(soxA_2)
+            GAM: GII34_13025(solA)
+            GOI: LK459_12655(solA)
+            SRT: Srot_2475
+            SMA: SAVERM_6950(soxA)
+            SFI: SFUL_709
+            SGRF: SGFS_037140 SGFS_097640 SGFS_098860
+            SCYE: R2B67_33030
+            SCB: SCAB_81021(solA) SCAB_81171(solA) SCAB_81271
+            SHY: SHJG_2830
+            SHO: SHJGH_2594
+            SMAL: SMALA_8132
+            SSOI: I1A49_44385(solA)
+            SALS: SLNWT_0092
+            STRE: GZL_07821 GZL_p00199
+            SLD: T261_7398
+            SPRI: SPRI_0286 SPRI_7067
+            SCZ: ABE83_32025
+            SRW: TUE45_01811(soxA)
+            SPAV: Spa2297_05220
+            STRT: A8713_23970
+            SCLF: BB341_19100
+            STSI: A4E84_02810 A4E84_03750
+            SALW: CP975_05115 CP975_27180
+            SGM: GCM10017557_69200(solA)
+            SCAD: DN051_31690 DN051_41820
+            SPHW: NFX46_27500(solA)
+            SLS: SLINC_0795 SLINC_0888 SLINC_1421 SLINC_8242
+            SNR: SNOUR_35735(soxA)
+            SALU: DC74_1377
+            SALL: SAZ_07400
+            SSIA: A7J05_30005
+            SGV: B1H19_07000
+            SALF: SMD44_01425
+            SALJ: SMD11_0207
+            SFK: KY5_1141
+            SGE: DWG14_00513(soxA_2)
+            SVQ: N6Q81_06420(solA)
+            SGD: ELQ87_32775
+            SCYA: EJ357_45695 EJ357_45775
+            SAST: CD934_07070
+            SKA: CP970_37110
+            SHAW: CEB94_03310 CEB94_03785 CEB94_04640 CEB94_38680
+            SGAL: CP966_05385
+            SPAD: DVK44_32245
+            SFY: GFH48_33550(solA)
+            SCAV: CVT27_02645
+            SSEO: D0Z67_03940
+            SRIM: CP984_35530
+            SFUG: CNQ36_29935
+            SPAC: B1H29_30595
+            SCHA: CP983_36215 CP983_39635
+            SCOE: CP976_01180
+            SBAT: G4Z16_31375(solA)
+            SSPB: CP982_08300
+            SNF: JYK04_00316(soxA_1)
+            SPLA: CP981_03555
+            SHUN: DWB77_04973(soxA)
+            SCYG: S1361_07770(soxA)
+            SFEU: IM697_16405(solA) IM697_30630(solA)
+            SLIA: HA039_32260
+            SDW: K7C20_03425(solA)
+            SXN: IAG42_07505(solA) IAG42_36375(solA)
+            SANU: K7396_32055(solA)
+            SMAO: CAG99_06140 CAG99_15105
+            SGOB: test1122_25610(solA)
+            SINE: KI385_05960(solA)
+            SLF: JEQ17_38795(solA)
+            SDEC: L3078_36625(solA)
+            SAOV: G3H79_31785(solA)
+            SAKB: K1J60_03375(solA) K1J60_42220(solA)
+            SNIG: HEK616_25480(solA)
+            SCAE: IHE65_08750(solA)
+            STUB: MMF93_02250(solA) MMF93_04645(solA) MMF93_29565(solA)
+            SLON: LGI35_10160(solA)
+            STUD: STRTU_006580(solA)
+            SYUN: MOV08_36315(solA)
+            SJN: RI060_39600(solA) RI060_40415(solA)
+            SCYN: N8I84_06050(solA) N8I84_06055(solA) N8I84_09855(solA) N8I84_14770
+            SHAU: K9S39_37530(solA)
+            SKG: KJK29_36495(solA)
+            SCOA: QU709_45365(solA)
+            SFP: QUY26_34155(solA)
+            KBU: Q4V64_08700(solA) Q4V64_51065
+            SPRF: K4G22_16250(solA)
+            STPB: QR97_30145
+            SRPA: HEP86_05070(solA)
+            SCAJ: O1G22_39875(solA)
+            SRPZ: HEP85_07735(solA)
+            SABD: N8I86_07775(solA)
+            STRV: EZV63_05230
+            SMOD: POD33_28625(solA)
+            SSOC: ABZO31_30695(solA)
+            SSLI: R2D22_04070(solA)
+            STYI: C9F11_07330(soxA)
+            SSIR: WAB15_05655(solA) WAB15_17575(solA)
+            SEXP: SLV14_007197(solA)
+            STGO: KBP30_33310(solA)
+            STCM: SCMC78_52830(solA)
+            STID: G7Z12_34155(solA)
+            STCZ: JHY03_05960
+            STHU: M1P56_18295(solA) M1P56_26370
+            SSEC: ABZO29_02385(solA) ABZO29_02435(solA) ABZO29_02550(solA) ABZO29_40025(solA)
+            SHUG: ABVG11_03300(solA) ABVG11_03310
+            STRK: R2B38_47870(solA)
+            KAB: B7C62_02480
+            YIA: LO772_01890(solA)
+            AREV: RVR_7023
+            LEIZ: IT072_19545
+            CMI: CMM_0225
+            CMH: VO01_00950
+            CMS: CMS0793
+            CMC: CMN_00163
+            CCAP: AES38_00715
+            CZH: H9X71_00705
+            CPHA: FGI33_12310
+            CCAF: FGD68_02990
+            CSEI: KYT88_00805
+            MTS: MTES_1276
+            MIM: AKG07_13525 AKG07_17050
+            MIX: AB663_000716
+            MPAL: BO218_14010
+            MICR: BMW26_00870 BMW26_04195
+            MHOS: CXR34_14775
+            MFOL: DXT68_04450
+            MLV: CVS47_00546(soxA)
+            MOY: CVS54_01039(soxA_1)
+            MICS: C1N74_13155
+            MELY: L2X98_24815(solA)
+            MSUW: GCM10025863_17490(solA)
+            MARK: QUC20_13120
+            MOJ: D7D94_05195 D7D94_06715
+            MPLN: VC184_13140
+            MLIY: RYJ27_12030
+            MBET: N8K70_01945(solA)
+            MICM: CHE218_18770(solA_1)
+            MPRL: AB0870_00985 AB0870_02185(solA)
+            MIMZ: OED01_11995
+            MIBD: P6897_13430
+            RTX: TI83_05870
+            RTC: APU90_00600
+            RFS: C1I64_13195
+            RTE: GSU10_02425
+            RATH: GSU68_03340
+            CUM: NI26_01950
+            CUB: BJK06_06060
+            CUG: C1N91_01720
+            CQF: GBG65_09080
+            CCIT: QPK07_02045
+            CUY: I8920_01915
+            CPOI: OE229_04850
+            CURT: LCG91_01945
+            CURZ: LQK89_01700
+            MVD: AWU67_08130 AWU67_15440
+            FSB: GCM10025867_02950(solA)
+            AGY: ATC03_02440
+            AGF: ET445_00570
+            AMAU: DSM26151_20900(soxA)
+            ASOI: MTP13_00520
+            ALAV: MTO99_18525(solA)
+            AIL: FLP10_04930(solA)
+            CART: PA27867_0749
+            CRY: B7495_03655
+            CPHY: B5808_08105
+            MYL: C3E77_13130
+            SALA: ESZ53_08100
+            HUM: DVJ78_12760
+            PLAP: EAO79_01860 EAO79_13100
+            PFLU: BWO91_09415 BWO91_17840
+            LEU: Leucomu_01335 Leucomu_13605
+            LTR: EVS81_08205 EVS81_10300
+            LVI: G7068_10960(solA) G7068_11320
+            LINS: G7067_01655(solA) G7067_03845
+            LLUT: K1X41_06865 K1X41_07960(solA) K1X41_10745
+            LALL: MUN78_01505(solA) MUN78_13370 MUN78_16260(solA)
+            LRP: MUN76_04245(solA) MUN76_08115(solA) MUN76_09590(solA) MUN76_12190
+            LTN: KVY00_07640 KVY00_08790(solA) KVY00_10815(solA) KVY00_14365
+            LEUC: AB3K78_06155 AB3K78_10180(solA) AB3K78_12160
+            AGG: C1N71_09730
+            AGRO: JSQ78_07735(solA)
+            FRN: F1C15_06810
+            AGX: AGREI_0642
+            GSD: M3M28_01240 M3M28_01655(solA) M3M28_08340
+            ART: Arth_0077
+            ARR: ARUE_c11380(soxA1) ARUE_c21130(soxA2)
+            ARL: AFL94_01155 AFL94_14960
+            ARE: AL755_03445
+            ARW: MB46_05975
+            ARH: AHiyo8_18930
+            ARY: ATC04_02985 ATC04_16865
+            ARQ: BWQ92_04565 BWQ92_04625 BWQ92_11635 BWQ92_22550
+            ARN: CGK93_06350
+            ARX: ARZXY2_2805 ARZXY2_4764 ARZXY2_4779
+            ARTH: C3B78_09255 C3B78_09315 C3B78_18465
+            ACIT: HPK19_22185(solA)
+            AWW: G8758_11415(solA)
+            AOD: Q8Z05_08435
+            ARTZ: FCN77_00410
+            ARTQ: CGQ24_01620 CGQ24_02040
+            ARTT: IG195_02610
+            ARTN: ABCW42_02455(solA) ABCW42_05660 ABCW42_19040
+            AAU: AAur_1202(soxA)
+            PUE: FV140_06080
+            PNV: JMY29_05685
+            PAYJ: HMI59_15615
+            PAGO: IRJ34_05815
+            PAYN: HMI60_02010 HMI60_02070(solA) HMI60_09865
+            PHRZ: QN084_17460
+            PANY: ACPFL9_06040 ACPFL9_10390(solA)
+            ARZ: AUT26_05295 AUT26_09120
+            ACH: Achl_3521 Achl_3678
+            APN: Asphe3_37420
+            PSUL: AU252_06390
+            PSNI: NIBR502771_06710 NIBR502771_07165
+            PSEY: GU243_03155
+            PDEL: JCQ34_17980
+            POK: SMD14_19055
+            PSLS: KTR40_17260 KTR40_17765
+            PSFE: NG819_04865
+            PQA: WHH00_00160 WHH00_00670
+            PSNB: NIBR502770_16145 NIBR502770_16605
+            AAI: AARI_30680
+            GAR: AOZ07_01220 AOZ07_15250
+            GLU: F0M17_14590
+            GPR: JQN66_01180 JQN66_15010
+            GMI: NMP99_01405 NMP99_15015
+            GMY: XH9_10685
+            GNC: QQS42_15030
+            GLM: N6V40_04905
+            GEY: QMQ05_01190
+            SATK: SA2016_0085 SA2016_3702
+            CCYC: SCMU_37790(solA)
+            CMUA: P8192_08940(solA) P8192_10495
+            PAEY: KUF55_16710 KUF55_17105
+            ACRY: AC20117_06675
+            JDE: Jden_2363
+            DNI: HX89_12190
+            YIM: J5M86_00240(solA)
+            CET: B8281_00825
+            CCEU: CBR64_11165
+            CPRT: FIC82_018770
+            PROZ: ACO229_05595(solA) ACO229_17355(solA)
+            SKE: Sked_34590
+            SBIL: SANBI_003369
+            CFI: Celf_0968 Celf_1195
+            CELH: GXP71_10350 GXP71_11565 GXP71_14005
+            CIRA: LFM56_03500
+            CCHE: NP064_13865
+            OEK: FFI11_006120
+            PSEK: GCM125_08980(solA)
+            OFA: NF556_05590(solA)
+            BLY: A2T55_13700
+            BLUT: EW640_06710
+            BCAU: I6G59_00105
+            BSPO: L1F31_03180(solA)
+            SEVR: LWF01_16470(solA)
+            HALT: IM660_17540(solA)
+            RHAL: LQF10_17360(solA)
+            RSUA: LQF12_14905(solA)
+            GYU: FE374_01765
+            MPH: MLP_06580
+            MIK: FOE78_18980(solA)
+            MICG: GJV80_11890(solA)
+            RAIN: Rai3103_04540(solA) Rai3103_10610
+            AEB: C6I20_16060
+            SGRG: L0C25_05045(solA) L0C25_09350(solA) L0C25_16445(solA)
+            KFL: Kfla_3321
+            KSL: OG809_21120 OG809_30225(solA)
+            KRI: OX958_10715
+            NDA: Ndas_3520
+            NAL: B005_1676
+            NEX: NE857_32850(solA)
+            NAKE: KGD83_07600(solA)
+            NCG: KGD84_07080(solA)
+            NOCB: UIS43_11280(solA)
+            STRR: EKD16_17070(soxA)
+            SNAH: OUQ99_06360(solA)
+            SAIU: J4H86_14215
+            AMAZ: LUW76_01075 LUW76_33675(solA)
+            ACIR: OG979_02465
+            ACTQ: OG417_00800(solA) OG417_13965 OG417_35670(solA) OG417_35675(solA) OG417_37135(solA) OG417_52575(solA)
+            NFS: OIE67_18510(solA) OIE67_23750
+            FAL: FRAAL4450
+            FRI: FraEuI1c_1271
+            NML: Namu_4345
+            BSD: BLASA_3540(soxA)
+            BBRG: U6N30_19655
+            KRA: Krad_4128
+            SEN: SACE_2963(soxA2)
+            SACG: FDZ84_24480(solA) FDZ84_26310(solA) FDZ84_26330
+            AOI: AORI_6810
+            AJA: AJAP_05065(soxA)
+            AMYC: CU254_32520
+            AMYB: BKN51_27320
+            AAB: A4R43_00890
+            AORI: SD37_06605
+            APRT: MUY14_44300(solA)
+            AROO: NQK81_31950(solA) NQK81_41825(solA)
+            ARHD: VSH64_20955(solA) VSH64_29355(solA)
+            AMOG: QRX60_19450(solA)
+            ACYN: ORV05_10885
+            ACOR: LCL61_13570(solA)
+            AMYZ: HUW46_01823(soxA_1) HUW46_05677(soxA_2)
+            ACAB: QRX50_15465(solA)
+            AMYD: K1T34_10230(solA)
+            ABAR: AMYBAR_000884(solA) AMYBAR_003071
+            AMYE: MJQ72_15580(solA)
+            AMYS: CVV72_35565
+            PDX: Psed_2681 Psed_4925
+            PSEA: WY02_05000
+            PSEE: FRP1_10345
+            PSEH: XF36_12285
+            PSEQ: AD006_02620 AD006_17895
+            PECQ: AD017_10435 AD017_25730
+            PHH: AFB00_25390 AFB00_27205
+            PAUT: Pdca_37260(solA_1)
+            PBRO: HOP40_32935(solA) HOP40_33595(solA)
+            PPEL: H6H00_30540(solA)
+            PSDS: K1T35_04520(solA) K1T35_17375(solA) K1T35_28555(solA)
+            PALQ: PaSha_18005(solA) PaSha_21565
+            APRE: CNX65_30490
+            AMI: Amir_3930 Amir_6193
+            SESP: BN6_74230
+            SSYI: EKG83_41475
+            LXR: ACRSBM_28505(solA)
+            AHM: TL08_10705
+            ACTI: UA75_11420
+            ACAD: UA74_11335
+            AHG: AHOG_10665(soxA)
+            ACAU: ACOJVX_10630
+            PMAD: BAY61_26190
+            CROS: N8J89_23385(solA)
+            ACTY: OG774_00160(solA)
+            UME: RM788_08475 RM788_37530(solA)
+            AMS: AMIS_66480
+            ACTN: L083_4085
+            ACTR: Asp14428_12630(solA)
+            ACTL: L3i22_092110(solA)
+            ACTE: ACTI_05240(solA)
+            AFS: AFR_18430(solA)
+            PRY: Prubr_09430(solA)
+            DVC: Dvina_04380(solA)
+            DFU: Dfulv_20460
+            DAUR: Daura_04070(solA)
+            DMAT: Dmats_03990(solA)
+            DACT: KZZ52_04460(solA) KZZ52_14505 KZZ52_28330(solA) KZZ52_35725
+            CCAZ: COUCH_21555(solA)
+            JTL: M6D93_01700(solA) M6D93_14280
+            JAT: SAMN05892883_4048
+            ABAI: IMCC26256_111799
+            RXY: Rxyl_0471 Rxyl_0768 Rxyl_2926
+            RRD: RradSPS_0633
+            RUB: GBA63_03840(solA)
+            RMAR: GBA65_08950(solA) GBA65_09855(solA)
+            PARQ: DSM112329_01824(soxA)
+            IAM: HC251_05525
+            DHI: LH044_19040
+            LEPT: JVX88_31175(solA)
+            CYC: PCC7424_5312
+            CYJ: Cyan7822_3859
+            LMAJ: GKN94_07430(solA)
+            RRS: RoseRS_2528
+            RCA: Rcas_3393
+            CAU: Caur_3716
+            CHL: Chy400_4004
+            CAG: Cagg_0304
+            CALL: OZ401_001712
+            TTR: Tter_1288
+            KBB: ccbrp13_16080(solA_1) ccbrp13_29180(solA_2)
+            CCZ: CCALI_01332
+            FGI: OP10G_1434
+            VAB: WPS_31580(solA)
+            DSW: QR90_03040
+            DEZ: DKM44_00870
+            DEIN: DAAJ005_04005(solA) DAAJ005_04210(solA)
+            DSC: ABOD76_02770(solA)
+            DEID: HLB42_03165(solA) HLB42_17050(solA)
+            MRB: Mrub_2708
+            MRE: K649_09005(solA)
+            MTAI: Mtai_v1c23130
+            MSV: Mesil_1596
+            HALR: EFA46_013950(solA)
+            HJE: HacjB3_10200(solA)
+            HDO: MUK72_16235(solA)
+            HALX: M0R89_12260(solA)
+            HAXZ: M0R88_12530(solA)
+            HAYC: NGM10_09265(solA)
+            HAXY: NGM07_13825(solA)
+            HRR: HZS55_18475(solA)
+            HPEL: HZS54_22030(solA)
+            HLT: I7X12_17220(solA)
+            HAAD: MW046_09175(solA)
+            HVO: HVO_B0011(soxA1) HVO_C0077(soxA2)
+            HALE: G3A49_07125(solA)
+            HLN: SVXHx_3461
+            HGI: ABY42_15515
+            HBO: Hbor_15680 Hbor_35180
+            HAQ: DU484_13790
+            HAJ: DU500_13815
+            HAER: DU502_15685
+            HRA: EI982_15315
+            HALP: DOS48_04665
+            HALU: HUG12_01575(solA)
+            HMP: K6T50_17515(solA)
+            HTU: Htur_0024
+            HSAL: JMJ58_09235(solA)
+            NMG: Nmag_1323(soxA) Nmag_2632
+            HXA: Halxa_1400 Halxa_3547
+            NVR: FEJ81_00100(solA)
+            NAY: HYG81_10500(solA)
+            NGE: Natgr_1962
+            HLC: CHINAEXTREME06345
+            NOU: Natoc_2313
+            HLR: HALLA_16490
+            NAJ: B1756_13350
+            NAG: AArcMg_2938
+            NAN: AArc1_0765
+            NBG: DV706_04755
+            NAS: GCU68_06355(solA)
+            HDA: BB347_14620
+            AG: BAA03967(soxA)
+REFERENCE   PMID:10220347
+  AUTHORS   Wagner MA, Khanna P, Jorns MS
+  TITLE     Structure of the flavocoenzyme of two homologous amine oxidases: monomeric sarcosine oxidase and N-methyltryptophan oxidase.
+  JOURNAL   Biochemistry 38:5588-95 (1999)
+            DOI:10.1021/bi982955o
+  SEQUENCE  [ag:BAA03967]
+REFERENCE   PMID:10913292
+  AUTHORS   Wagner MA, Trickey P, Chen ZW, Mathews FS, Jorns MS.
+  TITLE     Monomeric sarcosine oxidase: 1. Flavin reactivity and active site binding determinants.
+  JOURNAL   Biochemistry 39:8813-24 (2000)
+            DOI:10.1021/bi000349z
+  SEQUENCE  [ag:BAA03967]
+///

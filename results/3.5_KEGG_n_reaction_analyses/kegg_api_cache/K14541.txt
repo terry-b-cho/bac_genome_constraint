@@ -1,0 +1,108 @@
+ENTRY       K14541                      KO
+SYMBOL      DUR1
+NAME        urea carboxylase / allophanate hydrolase [EC:6.3.4.6 3.5.1.54]
+PATHWAY     map00220  Arginine biosynthesis
+            map00791  Atrazine degradation
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+            map01120  Microbial metabolism in diverse environments
+REACTION    R00005  urea-1-carboxylate amidohydrolase
+            R00774  urea:carbon-dioxide ligase (ADP-forming)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09105 Amino acid metabolism
+               00220 Arginine biosynthesis
+                K14541  DUR1; urea carboxylase / allophanate hydrolase
+              09111 Xenobiotics biodegradation and metabolism
+               00791 Atrazine degradation
+                K14541  DUR1; urea carboxylase / allophanate hydrolase
+            Enzymes [BR:ko01000]
+             3. Hydrolases
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.1  In linear amides
+                3.5.1.54  allophanate hydrolase
+                 K14541  DUR1; urea carboxylase / allophanate hydrolase
+             6. Ligases
+              6.3  Forming carbon-nitrogen bonds
+               6.3.4  Other carbon-nitrogen ligases
+                6.3.4.6  urea carboxylase
+                 K14541  DUR1; urea carboxylase / allophanate hydrolase
+DBLINKS     COG: COG0154 COG0439 COG1984
+            GO: 0004847 0004039
+GENES       CCRN: 123303801
+            SCE: YBR208C(DUR12)
+            SEUB: DI49_1233
+            SPAO: SPAR_B03070
+            AGO: AGOS_ADR051C
+            ERC: Ecym_1184
+            KLA: KLLA0_E08119g
+            KMX: KLMA_40362(DUR1)
+            LTH: KLTH0E12078g
+            VPO: Kpol_299p2
+            ZRO: ZYRO0F08976g
+            CGR: 2891634(DUR1)
+            NCS: NCAS_0B02280(NCAS0B02280)
+            NDI: NDAI_0C05400(NDAI0C05400)
+            TPF: TPHA_0L01560(TPHA0L01560)
+            TGB: HG536_0D01270
+            TDL: TDEL_0B03290(TDEL0B03290)
+            KNG: KNAG_0A03800(KNAG0A03800)
+            ZMK: HG535_0A07880
+            SLUD: SCDLUD_001994
+            DHA: DEHA2D07040g
+            PIC: PICST_28452(DUR1)
+            SPAA: SPAPADRAFT_48105
+            LEL: PVL30_001773(DUR1)
+            LBG: 92207816(LODBEIA_P26200)
+            CAL: CAALFM_C104660WA(DUR1)
+            CTP: CTRG_04692
+            COT: CORT_0B06740
+            CDU: CD36_04410
+            CTEN: 18250437(DUR1)
+            CLU: CLUG_00442
+            CLUS: A9F13_08g02497
+            CAUR: CJI96_0005011
+            ASAU: 88173788(PUMCH_002724)
+            PPA: PAS_chr4_0173
+            PKZ: C5L36_0B06440
+            BNN: FOA43_000511(DUR1)
+            BBRX: BRETT_003123(DUR1)
+            OPA: HPODL_01823
+            YLI: 2912284(YALI2_F00479g) 2912433(YALI2_E00159g)
+            SLB: AWJ20_5191(DUR1)
+            PPEI: PpBr36_00195
+            PGRI: PgNI_04931
+            FGR: FGSG_10913
+            FPU: FPSE_01375
+            FPOA: FPOAC1_009652
+            FVN: FVRRES_10292
+            FVR: FVEG_11593
+            FOX: FOXG_12848
+            NHE: NECHADRAFT_79968
+            FFC: NCS54_00648600
+            FKR: NCS57_00688700
+            FMU: J7337_009998
+            PLJ: 28884138(PLICBS_005409)
+            PTKZ: JDV02_003952
+            DCON: 63718716(DCS_06073)
+            VAL: VDBG_05273
+            VDA: VDAG_06924
+            CFJ: CFIO01_04268
+            CLUP: CLUP02_01485
+            CHIG: CH63R_10383
+            CDET: 87943489(CDEST_06986)
+            ELA: UCREL1_11217
+            PFY: PFICI_00808
+            NPA: UCRNP2_1608
+REFERENCE   PMID:3025621
+  AUTHORS   Genbauffe FS, Cooper TG
+  TITLE     Induction and repression of the urea amidolyase gene in Saccharomyces cerevisiae.
+  JOURNAL   Mol Cell Biol 6:3954-64 (1986)
+            DOI:10.1128/MCB.6.11.3954
+REFERENCE   PMID:1802034
+  AUTHORS   Genbauffe FS, Cooper TG
+  TITLE     The urea amidolyase (DUR1,2) gene of Saccharomyces cerevisiae.
+  JOURNAL   DNA Seq 2:19-32 (1991)
+            DOI:10.3109/10425179109008435
+  SEQUENCE  [sce:YBR208C]
+///

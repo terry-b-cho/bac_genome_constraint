@@ -1,0 +1,211 @@
+ENTRY       K11788                      KO
+SYMBOL      ADE5
+NAME        phosphoribosylamine--glycine ligase / phosphoribosylformylglycinamidine cyclo-ligase [EC:6.3.4.13 6.3.3.1]
+PATHWAY     map00230  Purine metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+MODULE      M00048  De novo purine biosynthesis, PRPP + glutamine => IMP
+REACTION    R04144  5-phospho-D-ribosylamine:glycine ligase (ADP-forming)
+            R04208  2-(formamido)-N1-(5-phosphoribosyl)acetamidine cyclo-ligase (ADP-forming)
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09104 Nucleotide metabolism
+               00230 Purine metabolism
+                K11788  ADE5; phosphoribosylamine--glycine ligase / phosphoribosylformylglycinamidine cyclo-ligase
+            Enzymes [BR:ko01000]
+             6. Ligases
+              6.3  Forming carbon-nitrogen bonds
+               6.3.3  Cyclo-ligases
+                6.3.3.1  phosphoribosylformylglycinamidine cyclo-ligase
+                 K11788  ADE5; phosphoribosylamine--glycine ligase / phosphoribosylformylglycinamidine cyclo-ligase
+               6.3.4  Other carbon-nitrogen ligases
+                6.3.4.13  phosphoribosylamine---glycine ligase
+                 K11788  ADE5; phosphoribosylamine--glycine ligase / phosphoribosylformylglycinamidine cyclo-ligase
+DBLINKS     GO: 0004637 0004641
+GENES       SCE: YGL234W(ADE57)
+            SEUB: DI49_1746
+            SPAO: SPAR_G00260
+            AGO: AGOS_AFR254C
+            ERC: Ecym_2586
+            KLA: KLLA0_A00957g
+            KMX: KLMA_30697(ADE5)
+            LTH: KLTH0G00946g
+            VPO: Kpol_460p16
+            ZRO: ZYRO0E09306g
+            CGR: 2888543(GVI51_H07799)
+            NCS: NCAS_0E00320(NCAS0E00320)
+            NDI: NDAI_0I03180(NDAI0I03180)
+            TPF: TPHA_0N01260(TPHA0N01260)
+            TBL: TBLA_0E00270(TBLA0E00270)
+            TGB: HG536_0D05870
+            TDL: TDEL_0D06250(TDEL0D06250)
+            KAF: KAFR_0J02820(KAFR0J02820)
+            KNG: KNAG_0B00350(KNAG0B00350)
+            ZMK: HG535_0G04900
+            SLUD: SCDLUD_002272
+            DHA: DEHA2F26070g
+            PIC: PICST_78660
+            PGU: PGUG_03123
+            SPAA: SPAPADRAFT_58377
+            LEL: PVL30_000826(PUR25)
+            LBG: 92205455(LODBEIA_P02590)
+            CAL: CAALFM_C107890CA(ADE5)
+            CTP: CTRG_03987
+            COT: CORT_0A07690
+            CDU: CD36_07420
+            CLU: CLUG_05871
+            CLUS: A9F13_05g00726
+            CAUR: CJI96_0000072
+            ASAU: 88173141(PUMCH_002076)
+            PPA: PAS_chr3_0770
+            PKZ: C5L36_0A10030
+            BNN: FOA43_004752(ADE1_3)
+            BBRX: BRETT_001649(ADE1_2)
+            OPA: HPODL_04258
+            YLI: 2907698(YALI2_E01096g)
+            SLB: AWJ20_310(ADE5)
+            NCR: NCU00177
+            SMP: 10808083(SMAC4_02248)
+            PAN: PODANSg5460
+            PBEL: QC761_710570(ade1)
+            PPSD: QC762_710570(ade1)
+            PPSP: QC763_710570(ade1)
+            PPSA: QC764_710570(ade1)
+            TTT: THITE_2120081
+            MTM: MYCTH_2303613
+            CTHR: CTHT_0070180
+            RTHE: 98122022(VTJ83DRAFT_1240)
+            MGR: MGG_11343
+            PPEI: PpBr36_00440
+            PGRI: PgNI_04640
+            TMN: UCRPA7_1630
+            SSCK: SPSK_02255
+            FGR: FGSG_02506
+            FPU: FPSE_08627
+            FPOA: FPOAC1_002643 FPOAC1_006707
+            FVN: FVRRES_02940 FVRRES_07328
+            FVR: FVEG_09182
+            FOX: FOXG_10535
+            NHE: NECHADRAFT_43084
+            FFC: NCS54_00580900 NCS54_00845900
+            FKR: NCS57_00618800 NCS57_00888800
+            FMU: J7337_005215 J7337_011716
+            TRE: TRIREDRAFT_80872
+            TRR: M419DRAFT_26214
+            TATV: 25777955(TrAtP1_003792)
+            TASP: 36618557(TrAFT101_007419)
+            MAW: 19251958(ade1_2)
+            MAJ: MAA_00557
+            MBRN: 26242346(ADE1_0) 26242757(ADE1_1)
+            PCHM: VFPPC_07062
+            UVI: 66067104(UV8b_06327)
+            CMT: CCM_05854
+            PLJ: 28887019(PLICBS_002322)
+            PTKZ: JDV02_002703(ade1) JDV02_005116
+            DCON: 63716286(DCS_03643)
+            VAL: VDBG_08642
+            VDA: VDAG_06304
+            CFJ: CFIO01_13165
+            CLUP: CLUP02_03508
+            CHIG: CH63R_02593 CH63R_10926
+            CDET: 87937334(CDEST_00831) 87944006(CDEST_07503)
+            ELA: UCREL1_2202
+            PFY: PFICI_11842
+            SSL: SS1G_00306
+            BFU: BCIN_03g05340(Bcade5)
+            MBE: MBM_03798
+            PSCO: LY89DRAFT_611674
+            GLZ: GLAREA_07080
+            ANI: ANIA_06541
+            AFM: AFUA_6G04730
+            ACT: ACLA_095810
+            NFI: NFIA_051280
+            AOR: AO090701000066
+            ANG: An15g00570
+            AFV: AFLA_004556
+            ALUC: AKAW2_60628S
+            ACHE: ACHE_50214S
+            APUU: APUU_10740S
+            PCS: N7525_009550
+            PDP: PDIP_18190
+            POU: POX_c04657
+            PPSF: 300788080(PFLUO_LOCUS2464)
+            TMF: EYB26_009715
+            TRG: TRUGW13939_07165
+            CIM: CIMG_02796
+            CPW: 9696572(D8B26_000665)
+            URE: UREG_03041
+            ABE: ARB_04090
+            TVE: TRV_03872
+            PBL: PAAG_03530
+            PBN: PADG_06297
+            AJE: HCAG_08689
+            BGH: BDBG_07763
+            PTRR: 6338611(PtrM4_016070)
+            ADAC: 96088806(ACET3X_008484)
+            ARAB: EKO05_0003148
+            SPO: 2541034(ade1)
+            SOM: SOMG_01045(ade1)
+            CNE: CNN00440
+            CNB: CNBN0420
+            CNG: CNAG_06314
+            CGI: CGB_N0360W
+            CDEU: CNBG_5137
+            CDEC: 89993216(IAS62_006448)
+            CTEG: 91993323(I308_106468)
+            CBAS: 91986632(I312_106589)
+            CDEP: 91090264(L203_106056)
+            KMG: 30167108(I203_101729)
+            KNE: 92180369(IAR55_003111)
+            KDJ: 28968758(I303_105498)
+            KBI: 30210061(I302_107073)
+            KPIN: 30170931(I206_105022)
+            KSH: 87957194(IL334_005063)
+            KER: 91102140(V865_003336)
+            KSN: 43585718(CI109_103227)
+            KBO: 90014546(L199_003562)
+            KEP: 91093940(L201_003270)
+            TMS: TREMEDRAFT_74449
+            TASA: A1Q1_03360
+            CCAC: CcaHIS019_0506400(CcaverHIS019_0506400)
+            PPL: POSPLDRAFT_90151
+            TVS: TRAVEDRAFT_33049
+            DSQ: DICSQDRAFT_95805
+            SHS: STEHIDRAFT_70955
+            HIR: HETIRDRAFT_468888
+            PSQ: PUNSTDRAFT_57250
+            ADL: AURDEDRAFT_120653
+            FME: FOMMEDRAFT_154778
+            RSX: RhiXN_11650
+            LBC: LACBIDRAFT_181423(ade8)
+            CCI: CC1G_01782
+            ABP: AGABI1DRAFT67458(AGABI1DRAFT_67458)
+            ABV: AGABI2DRAFT196703(AGABI2DRAFT_196703)
+            PCUB: JR316_0000624
+            MPR: MPER_11028
+            MRR: Moror_419
+            MORE: E1B28_000876
+            SCM: SCHCO_02610442(SCHCODRAFT_02610442)
+            CPUT: CONPUDRAFT_69268
+            SLA: SERLADRAFT_359758
+            UMA: UMAG_00812
+            PFP: PFL1_03446
+            SGRA: EX895_001048
+            MGL: MGL_4240
+            MRT: MRET_2050
+            MSYM: MSY001_0893
+            PGR: PGTG_07972
+            PTRC: PtA15_16A281
+            PSTR: Pst134EA_006962
+            MLR: MELLADRAFT_116735
+            RIE: OCT59_020793
+            DDI: DDB_G0290121(purD)
+            DFA: DFA_05064(purD)
+            TPS: THAPSDRAFT_20580
+REFERENCE   PMID:3097325
+  AUTHORS   Henikoff S
+  TITLE     The Saccharomyces cerevisiae ADE5,7 protein is homologous to overlapping Drosophila melanogaster Gart polypeptides.
+  JOURNAL   J Mol Biol 190:519-28 (1986)
+            DOI:10.1016/0022-2836(86)90238-X
+  SEQUENCE  [sce:YGL234W]
+///

@@ -1,0 +1,20 @@
+ENTRY       R06979                      Reaction
+NAME        ectoine hydro-lyase
+DEFINITION  N(gamma)-Acetyldiaminobutyrate <=> H2O + Ectoine
+EQUATION    C06442 <=> C00001 + C06231
+COMMENT     Ectoine biosynthesis reaction step3, EctC
+RCLASS      RC01729  C06231_C06442
+ENZYME      4.2.1.108
+PATHWAY     rn00260  Glycine, serine and threonine metabolism
+            rn01100  Metabolic pathways
+            rn01120  Microbial metabolism in diverse environments
+MODULE      M00033  Ectoine biosynthesis, aspartate => ectoine
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.2  Carbon-oxygen lyases
+               4.2.1  Hydro-lyases
+                4.2.1.108
+                 R06979  N(gamma)-Acetyldiaminobutyrate <=> H2O + Ectoine
+ORTHOLOGY   K06720  L-ectoine synthase [EC:4.2.1.108]
+DBLINKS     RHEA: 17284
+///

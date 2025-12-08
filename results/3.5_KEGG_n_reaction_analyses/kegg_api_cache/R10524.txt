@@ -1,0 +1,16 @@
+ENTRY       R10524                      Reaction
+NAME        S-adenosyl-L-methionine:Nalpha-methyl-L-histidine Nalpha-methyltransferase
+DEFINITION  S-Adenosyl-L-methionine + Nalpha-Methylhistidine <=> S-Adenosyl-L-homocysteine + N,N-Dimethylhistidine
+EQUATION    C00019 + C03298 <=> C00021 + C04259
+COMMENT     the second step of three-step reaction (see R01169, R10523+R10524+R04436)
+RCLASS      RC00003  C00019_C00021
+            RC02136  C03298_C04259
+ENZYME      2.1.1.44
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.44
+                 R10524  S-Adenosyl-L-methionine + Nalpha-Methylhistidine <=> S-Adenosyl-L-homocysteine + N,N-Dimethylhistidine
+DBLINKS     RHEA: 38482
+///

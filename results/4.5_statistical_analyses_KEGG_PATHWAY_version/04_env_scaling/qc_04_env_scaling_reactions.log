@@ -1,0 +1,47 @@
+================================================================================
+Script 04: Environment-Specific Fits & Z-Scores - REACTIONS
+================================================================================
+
+Loading data...
+  ✓ Loaded 2164 genomes from Parquet
+  ✓ Loaded 448 global scaling parameters
+  ✓ Loaded 8 valid environments
+  Using 8 environments and 485 reactions categories
+
+A. Fitting Per-Environment Scaling Laws
+--------------------------------------------------------------------------------
+  Aquatic: 402 / 485 categories fitted
+  Terrestrial: 393 / 485 categories fitted
+  Mammals: Human: 388 / 485 categories fitted
+  Plants: 366 / 485 categories fitted
+  Mammals: 324 / 485 categories fitted
+  Food production: 289 / 485 categories fitted
+  Wastewater: 263 / 485 categories fitted
+  Birds: 177 / 485 categories fitted
+
+  Total env×category fits: 2602 / 3880
+  Skipped due to low sample size (<10): 1278
+  Skipped due to low variance: 0
+
+B. Computing Z-Scores
+--------------------------------------------------------------------------------
+  ⚠ Skipping Aquatic×R00013: invalid Z
+  ⚠ Skipping Aquatic×R00066: invalid Z
+  ⚠ Skipping Aquatic×R00138: invalid Z
+  ⚠ Skipping Aquatic×R00182: invalid Z
+  ⚠ Skipping Aquatic×R00293: invalid Z
+  ⚠ Skipping Aquatic×R00294: invalid Z
+  ⚠ Skipping Aquatic×R00373: invalid Z
+  ⚠ Skipping Aquatic×R00405: invalid Z
+  Computed 1909 valid Z-scores
+
+C. Category-Level Aggregation
+--------------------------------------------------------------------------------
+  Aggregated Z-scores for 339 categories
+  Z_alpha: min=0.2437, median=1.2196, max=7.8071
+
+D. Writing Outputs
+--------------------------------------------------------------------------------
+  ✓ env_scaling_params_reactions.tsv: 2602 env×category fits
+  ✓ env_vs_global_Z_scores_reactions.tsv: 1909 env×category Z-scores
+  ✓ category_Z_summary_reactions.tsv: 339 categories

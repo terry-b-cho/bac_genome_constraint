@@ -1,0 +1,215 @@
+ENTRY       K00877                      KO
+SYMBOL      THI20
+NAME        hydroxymethylpyrimidine/phosphomethylpyrimidine kinase / thiaminase [EC:2.7.1.49 2.7.4.7 3.5.99.2]
+PATHWAY     map00730  Thiamine metabolism
+            map01100  Metabolic pathways
+            map01240  Biosynthesis of cofactors
+MODULE      M00898  Thiamine biosynthesis, pyridoxal-5P => TMP/thiamine/TPP
+REACTION    R02133  thiamin hydrolase
+            R03471  ATP:4-amino-5-hydroxymethyl-2-methylpyrimidine 5-phosphotransferase
+            R04509  ATP:4-amino-2-methyl-5-phosphomethylpyrimidine phosphotransferase
+            R09993  4-amino-5-aminomethyl-2-methylpyrimidine aminohydrolase
+BRITE       KEGG Orthology (KO) [BR:ko00001]
+             09100 Metabolism
+              09108 Metabolism of cofactors and vitamins
+               00730 Thiamine metabolism
+                K00877  THI20; hydroxymethylpyrimidine/phosphomethylpyrimidine kinase / thiaminase
+            Enzymes [BR:ko01000]
+             2. Transferases
+              2.7  Transferring phosphorus-containing groups
+               2.7.1  Phosphotransferases with an alcohol group as acceptor
+                2.7.1.49  hydroxymethylpyrimidine kinase
+                 K00877  THI20; hydroxymethylpyrimidine/phosphomethylpyrimidine kinase / thiaminase
+               2.7.4  Phosphotransferases with a phosphate group as acceptor
+                2.7.4.7  phosphooxymethylpyrimidine kinase
+                 K00877  THI20; hydroxymethylpyrimidine/phosphomethylpyrimidine kinase / thiaminase
+             3. Hydrolases
+              3.5  Acting on carbon-nitrogen bonds, other than peptide bonds
+               3.5.99  In other compounds
+                3.5.99.2  aminopyrimidine aminohydrolase
+                 K00877  THI20; hydroxymethylpyrimidine/phosphomethylpyrimidine kinase / thiaminase
+DBLINKS     COG: COG0351 COG0819
+            GO: 0008902 0008972 0050334
+GENES       SCE: YOL055C(THI20) YPL258C(THI21)
+            SEUB: DI49_2348 DI49_5212
+            SPAO: SPAR_O00970 SPAR_P00200
+            AGO: AGOS_AER226W
+            ERC: Ecym_5248
+            KLA: KLLA0_B13926g
+            KMX: KLMA_30047(THI20)
+            LTH: KLTH0F06732g
+            VPO: Kpol_1045p51
+            ZRO: ZYRO0A05280g
+            CGR: 2886798(GVI51_C04829)
+            NCS: NCAS_0C03670(NCAS0C03670)
+            NDI: NDAI_0G03010(NDAI0G03010)
+            TPF: TPHA_0P00590(TPHA0P00590)
+            TBL: TBLA_0B04160(TBLA0B04160) TBLA_0B04170(TBLA0B04170) TBLA_0G00850(TBLA0G00850)
+            TGB: HG536_0G02750
+            TDL: TDEL_0D04490(TDEL0D04490)
+            KAF: KAFR_0C00950(KAFR0C00950)
+            KNG: KNAG_0G02165(KNAG0G02165) KNAG_0G02170(KNAG0G02170) KNAG_0G02180(KNAG0G02180) KNAG_0K01220(KNAG0K01220)
+            ZMK: HG535_0C02640
+            SLUD: SCDLUD_001623
+            DHA: DEHA2E20878g
+            PIC: PICST_70077(THI20)
+            PGU: PGUG_05036
+            SPAA: SPAPADRAFT_60829
+            LEL: PVL30_001292(THI20)
+            LBG: 92209852(LODBEIA_P46560)
+            CAL: CAALFM_C203370WA(THI20)
+            CTP: CTRG_01185
+            COT: CORT_0A11240
+            CDU: CD36_18120
+            CTEN: 18246255(THI20)
+            CLU: CLUG_02764
+            CLUS: A9F13_07g00726
+            CAUR: CJI96_0005311
+            ASAU: 88175777(PUMCH_004717)
+            PPA: PAS_chr1-4_0141 PAS_chr3_0842
+            PKZ: C5L36_0B08980
+            BNN: FOA43_001759 FOA43_003954
+            BBRX: BRETT_000678 BRETT_001945 BRETT_004746
+            OPA: HPODL_01038
+            YLI: 2912185(YALI2_E01678g)
+            SLB: AWJ20_1019(THI22)
+            NCR: NCU07849(thi-4)
+            NTE: NEUTE1DRAFT80933(NEUTE1DRAFT_80933)
+            SMP: 10807963(SMAC4_02123)
+            PAN: PODANSg5541
+            PBEL: QC761_711350(THI20)
+            PPSD: QC762_711350(THI20)
+            PPSP: QC763_711350(THI20)
+            PPSA: QC764_711350(THI20)
+            TTT: THITE_2120167
+            MTM: MYCTH_2303459
+            RTHE: 98122091(VTJ83DRAFT_1302)
+            MGR: MGG_16900
+            PGRI: PgNI_09432
+            TMN: UCRPA7_3860
+            SSCK: SPSK_10761
+            FGR: FGSG_04128
+            FPU: FPSE_00148
+            FPOA: FPOAC1_006575
+            FVN: FVRRES_07184
+            FVR: FVEG_10314
+            FOX: FOXG_11509
+            NHE: NECHADRAFT_94485
+            FFC: NCS54_00833000
+            FKR: NCS57_00876200
+            FMU: J7337_011587
+            TRE: TRIREDRAFT_59068
+            TRR: M419DRAFT_74942
+            TATV: 25785129(TrAtP1_009418)
+            TASP: 36616956(TrAFT101_011698)
+            MAJ: MAA_02490
+            MBRN: 26240094(G6M90_00g041900)
+            PCHM: VFPPC_08238
+            UVI: 66068664(UV8b_07887)
+            CMT: CCM_09434
+            AMUS: LMH87_004284 LMH87_010803
+            PLJ: 28884498(PLICBS_005752)
+            PTKZ: JDV02_003611(THI20)
+            DCON: 63716303(DCS_03660)
+            VAL: VDBG_06636
+            VDA: VDAG_05690
+            CFJ: CFIO01_08677
+            CDET: 87936716(CDEST_00213)
+            SAPO: SAPIO_CDS2124
+            ELA: UCREL1_179
+            PFY: PFICI_05321
+            SSL: SS1G_00072
+            BFU: BCIN_03g07070
+            MBE: MBM_07084
+            GLZ: GLAREA_06915
+            ANI: ANIA_10762
+            AFM: AFUA_2G10740
+            ACT: ACLA_069750
+            NFI: NFIA_086080
+            AOR: AO090011000561
+            ANG: An02g02520
+            AFV: AFLA_007954
+            ALUC: AKAW2_21402A
+            ACHE: ACHE_40584S
+            APUU: APUU_10953A
+            PCS: N7525_004269
+            PDP: PDIP_63900
+            PPSF: 300789631(PFLUO_LOCUS3860)
+            TMF: EYB26_003522
+            CIM: CIMG_07892
+            CPW: 9693310(D8B26_004220)
+            ABE: ARB_05224
+            TVE: TRV_02263
+            PBL: PAAG_06485
+            AJE: HCAG_08708
+            BGH: BDBG_09241
+            PTE: PTT_11285
+            PTRR: 6346875(PtrM4_146380)
+            ADAC: 96081143(ACET3X_000821)
+            ARAB: EKO05_0005132
+            ZTR: MYCGRDRAFT_67878
+            PFJ: MYCFIDRAFT_43827
+            FFU: CLAFUR5_09972
+            CBET: CB0940_06241
+            BCOM: BAUCODRAFT_568824
+            TML: GSTUM_00001709001
+            SPO: 2539014(SPOM_SPCC18B5.05C) 2540207(thi20) 2541373(thi201)
+            SOM: SOMG_00640 SOMG_00641 SOMG_04351
+            CNE: CNG00130
+            CNB: CNBG4610
+            CNG: CNAG_03592
+            CGI: CGB_G6540C
+            CDEU: CNBG_2037
+            CDEC: 89992206(IAS62_005436)
+            CTEG: 91991346(I308_104490)
+            CBAS: 91984746(I312_104701)
+            CDEP: 91085479(L203_101266)
+            KMG: 30168217(I203_105057)
+            KNE: 92180494(IAR55_003236)
+            KDJ: 28969948(I303_106230)
+            KBI: 30211390(I302_107273)
+            KPIN: 30172275(I206_105185)
+            KSH: 87957851(IL334_005721)
+            KER: 91098861(V865_000057)
+            KEP: 91095960(L201_005290)
+            TASA: A1Q1_01213
+            CCAC: CcaHIS019_0206540(THI20)
+            TVS: TRAVEDRAFT_146719
+            DSQ: DICSQDRAFT_71741
+            PCO: PHACADRAFT_209595
+            SHS: STEHIDRAFT_171313
+            HIR: HETIRDRAFT_470181
+            PSQ: PUNSTDRAFT_144439
+            ADL: AURDEDRAFT_136012
+            FME: FOMMEDRAFT_104743
+            GTR: GLOTRDRAFT_82113
+            RSX: RhiXN_01466
+            LBC: LACBIDRAFT_232790
+            CCI: CC1G_01447
+            ABP: AGABI1DRAFT104926(AGABI1DRAFT_104926)
+            ABV: AGABI2DRAFT183659(AGABI2DRAFT_183659)
+            PCUB: JR316_0003042
+            MRR: Moror_11019
+            MORE: E1B28_002337
+            SCM: SCHCO_02510691(SCHCODRAFT_02510691)
+            CPUT: CONPUDRAFT_118575
+            SLA: SERLADRAFT_451941
+            WSE: WALSEDRAFT_59758
+            WIC: J056_000079
+            UMA: UMAG_03618
+            PFP: PFL1_02445
+            SGRA: EX895_006543
+            MGL: MGL_1338
+            MRT: MRET_4025
+            MSYM: MSY001_0301
+            PGR: PGTG_06172
+            PTRC: PtA15_8A185
+            PSTR: Pst134EA_015229 Pst134EA_032418
+            MLR: MELLADRAFT_24931
+REFERENCE   PMID:18028398
+  AUTHORS   Onozuka M, Konno H, Kawasaki Y, Akaji K, Nosaka K
+  TITLE     Involvement of thiaminase II encoded by the THI20 gene in thiamin salvage of Saccharomyces cerevisiae.
+  JOURNAL   FEMS Yeast Res 8:266-75 (2008)
+            DOI:10.1111/j.1567-1364.2007.00333.x
+  SEQUENCE  [sce:YOL055C]
+///

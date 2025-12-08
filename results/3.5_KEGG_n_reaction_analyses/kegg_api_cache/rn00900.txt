@@ -1,0 +1,149 @@
+ENTRY       rn00900                     Pathway
+NAME        Terpenoid backbone biosynthesis
+DESCRIPTION Terpenoids, also known as isoprenoids, are a large class of natural products consisting of isoprene (C5) units. There are two biosynthetic pathways, the mevalonate pathway [MD:M00095] and the non-mevalonate pathway or the MEP/DOXP pathway [MD:M00096], for the terpenoid building blocks: isopentenyl diphosphate (IPP) and dimethylallyl diphosphate (DMAPP). The action of prenyltransferases then generates higher-order building blocks: geranyl diphosphate (GPP), farsenyl diphosphate (FPP), and geranylgeranyl diphosphate (GGPP), which are the precursors of monoterpenoids (C10), sesquiterpenoids (C15), and diterpenoids (C20), respectively. Condensation of these building blocks gives rise to the precursors of sterols (C30) and carotenoids (C40). The MEP/DOXP pathway is absent in higher animals and fungi, but in green plants the MEP/DOXP and mevalonate pathways co-exist in separate cellular compartments. The MEP/DOXP pathway, operating in the plastids, is responsible for the formation of essential oil monoterpenes and linalyl acetate, some sesquiterpenes, diterpenes, and carotenoids and phytol. The mevalonate pathway, operating in the cytosol, gives rise to triterpenes, sterols, and most sesquiterpenes.
+CLASS       Metabolism; Metabolism of terpenoids and polyketides
+PATHWAY_MAP rn00900  Terpenoid backbone biosynthesis
+MODULE      M00095  C5 isoprenoid biosynthesis, mevalonate pathway [PATH:rn00900]
+            M00096  C5 isoprenoid biosynthesis, non-mevalonate pathway [PATH:rn00900]
+            M00364  C10-C20 isoprenoid biosynthesis, bacteria [PATH:rn00900]
+            M00365  C10-C20 isoprenoid biosynthesis, archaea [PATH:rn00900]
+            M00366  C10-C20 isoprenoid biosynthesis, plants [PATH:rn00900]
+            M00367  C10-C20 isoprenoid biosynthesis, non-plant eukaryotes [PATH:rn00900]
+            M00849  C5 isoprenoid biosynthesis, mevalonate pathway, archaea [PATH:rn00900]
+DBLINKS     GO: 0009240 0016091
+REACTION    R00238  acetyl-CoA:acetyl-CoA C-acetyltransferase
+            R01121  ATP:(R)-5-diphosphomevalonate carboxy-lyase (adding ATP; isopentenyl-diphosphate-forming); ATP:(R)-5-diphosphomevalonate carboxy-lyase (dehydrating)
+            R01123  isopentenyl-diphosphate Delta3-Delta2-isomerase
+            R01658  dimethylallyl-diphosphate:isopentenyl-diphosphate dimethylallyltranstransferase
+            R01978  acetyl-CoA:acetoacetyl-CoA C-acetyltransferase (thioester-hydrolysing, carboxymethyl-forming)
+            R02003  geranyl-diphosphate:isopentenyl-diphosphate geranyltrans-transferase
+            R02061  trans,trans-farnesyl-diphosphate:isopentenyl-diphosphate farnesyltranstransferase
+            R02063  geranylgeranyl reductase
+            R02081  (R)-mevalonate:NAD+ oxidoreductase (CoA-acetylating)
+            R02082  (R)-mevalonate:NADP+ oxidoreductase (CoA acylating)
+            R02245  ATP:(R)-mevalonate 5-phosphotransferase
+            R03245  ATP:(R)-5-phosphomevalonate phosphotransferase
+            R03264  2-trans,6-trans-farnesol:NADP+ 1-oxidoreductase
+            R03917  poly-cis-polyprenyl-diphosphate:isopentenyl-diphosphate polyprenylcistransferase
+            R04496  S-adenosyl-L-methionine:protein-C-terminal-S-farnesyl-L-cysteine O-methyltransferase
+            R05556  (2E,6E)-farnesyl-diphosphate:isopentenyl-diphosphate cistransferase (adding 10-55 isopentenyl units)
+            R05633  CTP: 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase
+            R05634  ATP:4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol 2-phosphotransferase
+            R05636  1-deoxy-D-xylulose-5-phosphate pyruvate-lyase (carboxylating)
+            R05637  2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol CMP-lyase (cyclizing)
+            R05688  1-deoxy-D-xylulose-5-phosphate isomeroreductase
+            R05884  isopentenyl-diphosphate:ferredoxin oxidoreductase
+            R06447  (2E,6E)-farnesyl-diphosphate:isopentenyl-diphosphate cistransferase (adding 8 isopentenyl units)
+            R07475  geranylgeranyl-diphosphate:isopentenyl-diphosphate transtransferase
+            R08199  dimethylallyl-diphosphate diphosphate-lyase (isoprene-forming)
+            R08210  dimethylallyl diphosphate:ferredoxin oxidoreductase
+            R08528  Z-farnesyl diphosphate synthase
+            R08689  (E)-4-hydroxy-3-methylbut-2-en-1-yl-diphosphate:oxidized ferredoxin oxidoreductase (hydrating)
+            R08697  trans,trans-farnesyl-diphosphate diphosphohydrolase; (2E,6E)-farnesyl-diphosphate diphosphohydrolase
+            R09244  (2Z,6E)-farnesyl-diphosphate:isopentenyl-diphosphate farnesylcistransferase (adding 7 isopentenyl units)
+            R09245  (2E,6E)-farnesyl-diphosphate:isopentenyl-diphosphate farnesyltranstransferase (adding 3 isopentenyl units)
+            R09246  geranylgeranyl-diphosphate:isopentenyl-diphosphate transferase (adding 2 isopentenyl units)
+            R09247  (2E,6E)-farnesyl-diphosphate:isopentenyl-diphosphate farnesyltranstransferase (adding 4 isopentenyl units)
+            R09248  (2E,6E)-farnesyl-diphosphate:isopentenyl-diphosphate farnesyltranstransferase (adding 5 isopentenyl units)
+            R09249  (2E,6E)-farnesyl-diphosphate:isopentenyl-diphosphate farnesyltranstransferase (adding 7 isopentenyl units)
+            R09250  geranyl-diphosphate:isopentenyl-diphosphate transtransferase (adding 7 isopentenyl units)
+            R09251  geranylgeranyl-diphosphate:isopentenyl-diphosphate transtransferase (adding 5 isopentenyl units)
+            R09562  S-(2E,6E)-farnesyl-L-cysteine oxidase
+            R09633  dimethylallyl-diphosphate:isopentenyl-diphosphate cistransferase (adding 2 isopentenyl units)
+            R09730  geranylgeranyl-diphosphate:isopentenyl-diphosphate cistransferase (adding 7 isopentenyl units)
+            R09731  (2Z,6E)-farnesyl-diphosphate:isopentenyl-diphosphate cistransferase (adding 9-11 isopentenyl units)
+            R09844  farnesyl-diphosphate:protein-cysteine farnesyltransferase
+            R09845  CAAX protease
+            R09846  prenylcycteine methylesterase
+            R09847  
+            R09849  CTP:2-trans,6-trans-farnesol O-phosphotransferase
+            R09850  CTP:farnesyl-phosphate phosphotransferase
+            R10093  ATP:isopentenyl phosphate phosphotransferase
+            R10412  (2E,6E)-farnesol:NAD+ 1-oxidoreductase
+            R10561  ATP:phosphomevalonate carboxy-lyase (adding ATP; isopentenyl-phosphate-forming)
+            R10779  ATP:(R)-mevalonate 3-phosphotransferase
+            R10780  ATP:(R)-3-phosphomevalonate 5-phosphotransferase
+            R10781  (R)-3,5-bisphosphomevalonate carboxy-lyase (isopentenyl-phosphate-forming)
+            R10859  (E)-4-hydroxy-3-methylbut-2-en-1-yl-diphosphate:oxidized flavodoxin oxidoreductase
+            R12894  (R)-5-phosphomevalonate hydro-lyase
+            R12895  trans-anhydromevalonate 5-phosphate carboxy-lyase; (2E)-3-methyl-5-phosphooxypent-2-enoate carboxy-lyase
+COMPOUND    C00022  Pyruvate
+            C00024  Acetyl-CoA
+            C00118  D-Glyceraldehyde 3-phosphate
+            C00129  Isopentenyl diphosphate
+            C00235  Dimethylallyl diphosphate
+            C00332  Acetoacetyl-CoA
+            C00341  Geranyl diphosphate
+            C00353  Geranylgeranyl diphosphate
+            C00356  (S)-3-Hydroxy-3-methylglutaryl-CoA
+            C00418  (R)-Mevalonate
+            C00448  trans,trans-Farnesyl diphosphate
+            C01107  (R)-5-Phosphomevalonate
+            C01126  (2E,6E)-Farnesol
+            C01143  (R)-5-Diphosphomevalonate
+            C01230  all-trans-Hexaprenyl diphosphate
+            C02321  cis-1,4-Polyisoprene
+            C03461  2-trans,6-trans-Farnesal
+            C04145  all-trans-Nonaprenyl diphosphate
+            C04146  all-trans-Octaprenyl diphosphate
+            C04216  all-trans-Heptaprenyl diphosphate
+            C04217  all-trans-Pentaprenyl diphosphate
+            C04506  Protein C-terminal S-farnesyl-L-cysteine
+            C04574  di-trans,poly-cis-Undecaprenyl diphosphate
+            C04748  Protein C-terminal S-farnesyl-L-cysteine methyl ester
+            C05427  Phytyl diphosphate
+            C05859  ditrans,polycis-Polyprenyl diphosphate
+            C06081  Polyprenol
+            C11434  2-C-Methyl-D-erythritol 4-phosphate
+            C11435  4-(Cytidine 5'-diphospho)-2-C-methyl-D-erythritol
+            C11436  2-Phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol
+            C11437  1-Deoxy-D-xylulose 5-phosphate
+            C11453  2-C-Methyl-D-erythritol 2,4-cyclodiphosphate
+            C11811  1-Hydroxy-2-methyl-2-butenyl 4-diphosphate
+            C16521  Isoprene
+            C16826  2-cis,6-trans-Farnesyl diphosphate
+            C17432  all-trans-Decaprenyl diphosphate
+            C18321  trans,octacis-Decaprenyl diphosphate
+            C19691  Farnesylcysteine
+            C19760  2-cis,6-cis-Farnesyl diphosphate
+            C19852  tritrans,heptacis-Undecaprenyl diphosphate
+            C19853  trans,polycis-Polyprenyl diphosphate
+            C20120  S-Farnesyl protein
+            C20121  trans,trans-Farnesyl phosphate
+            C20345  Isopentenyl phosphate
+            C20847  (R)-Mevalonate 3-phosphate
+            C20848  (R)-Mevalonate 3,5-bisphosphate
+            C22453  trans-Anhydromevalonate 5-phosphate
+REFERENCE   PMID:12777052
+  AUTHORS   Lange BM, Ghassemian M.
+  TITLE     Genome organization in Arabidopsis thaliana: a survey for genes involved in isoprenoid and chlorophyll metabolism.
+  JOURNAL   Plant Mol Biol 51:925-48 (2003)
+            DOI:10.1023/A:1023005504702
+REFERENCE   PMID:16262699
+  AUTHORS   Saiki R, Nagata A, Kainou T, Matsuda H, Kawamukai M
+  TITLE     Characterization of solanesyl and decaprenyl diphosphate synthases in mice and humans.
+  JOURNAL   FEBS J 272:5606-22 (2005)
+            DOI:10.1111/j.1742-4658.2005.04956.x
+REFERENCE   PMID:9858571
+  AUTHORS   Sato M, Sato K, Nishikawa S, Hirata A, Kato J, Nakano A
+  TITLE     The yeast RER2 gene, identified by endoplasmic reticulum protein localization mutations, encodes cis-prenyltransferase, a key enzyme in dolichol synthesis.
+  JOURNAL   Mol Cell Biol 19:471-83 (1999)
+            DOI:10.1128/MCB.19.1.471
+REFERENCE   PMID:24375100
+  AUTHORS   Vannice JC, Skaff DA, Keightley A, Addo JK, Wyckoff GJ, Miziorko HM
+  TITLE     Identification in Haloferax volcanii of phosphomevalonate decarboxylase and isopentenyl phosphate kinase as catalysts of the terminal enzyme reactions in an  archaeal alternate mevalonate pathway.
+  JOURNAL   J Bacteriol 196:1055-63 (2014)
+            DOI:10.1128/JB.01230-13
+REL_PATHWAY rn00010  Glycolysis / Gluconeogenesis
+            rn00100  Steroid biosynthesis
+            rn00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            rn00270  Cysteine and methionine metabolism
+            rn00403  Indole diterpene alkaloid biosynthesis
+            rn00510  N-Glycan biosynthesis
+            rn00902  Monoterpenoid biosynthesis
+            rn00904  Diterpenoid biosynthesis
+            rn00906  Carotenoid biosynthesis
+            rn00908  Zeatin biosynthesis
+            rn00909  Sesquiterpenoid and triterpenoid biosynthesis
+KO_PATHWAY  ko00900
+///

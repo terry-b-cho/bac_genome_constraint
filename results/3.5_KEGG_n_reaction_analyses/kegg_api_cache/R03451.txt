@@ -1,0 +1,17 @@
+ENTRY       R03451                      Reaction
+NAME        N6,N6,N6-trimethyl-L-lysine,2-oxoglutarate:oxygen oxidoreductase (3-hydroxylating)
+DEFINITION  N6,N6,N6-Trimethyl-L-lysine + 2-Oxoglutarate + Oxygen <=> (3S)-3-Hydroxy-N6,N6,N6-trimethyl-L-lysine + Succinate + CO2
+EQUATION    C03793 + C00026 + C00007 <=> C01259 + C00042 + C00011
+RCLASS      RC00773  C01259_C03793
+ENZYME      1.14.11.8
+PATHWAY     rn00310  Lysine degradation
+            rn01100  Metabolic pathways
+BRITE       Enzymatic reactions [BR:br08201]
+             1. Oxidoreductase reactions
+              1.14  Acting on paired donors, with incorporation or reduction of molecular oxygen
+               1.14.11  With 2-oxoglutarate as one donor, and incorporation of one atom of oxygen into each donor
+                1.14.11.8
+                 R03451  N6,N6,N6-Trimethyl-L-lysine + 2-Oxoglutarate + Oxygen <=> (3S)-3-Hydroxy-N6,N6,N6-trimethyl-L-lysine + Succinate + CO2
+ORTHOLOGY   K00474  trimethyllysine dioxygenase [EC:1.14.11.8]
+DBLINKS     RHEA: 14184
+///

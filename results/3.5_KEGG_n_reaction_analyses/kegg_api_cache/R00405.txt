@@ -1,0 +1,33 @@
+ENTRY       R00405                      Reaction
+NAME        succinate:CoA ligase (ADP-forming)
+DEFINITION  ATP + Succinate + CoA <=> ADP + Orthophosphate + Succinyl-CoA
+EQUATION    C00002 + C00042 + C00010 <=> C00008 + C00009 + C00091
+RCLASS      RC00002  C00002_C00008
+            RC00004  C00010_C00091
+            RC00014  C00042_C00091
+ENZYME      6.2.1.5
+PATHWAY     rn00020  Citrate cycle (TCA cycle)
+            rn00640  Propanoate metabolism
+            rn00720  Other carbon fixation pathways
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01120  Microbial metabolism in diverse environments
+            rn01200  Carbon metabolism
+MODULE      M00009  Citrate cycle (TCA cycle, Krebs cycle)
+            M00011  Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate
+            M00173  Reductive citrate cycle (Arnon-Buchanan cycle)
+            M00374  Dicarboxylate-hydroxybutyrate cycle
+            M00620  Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate
+BRITE       Enzymatic reactions [BR:br08201]
+             6. Ligase reactions
+              6.2  Forming carbon-sulfur bonds
+               6.2.1  Acid-thiol ligases
+                6.2.1.5
+                 R00405  ATP + Succinate + CoA <=> ADP + Orthophosphate + Succinyl-CoA
+            Overall reaction [br08210.html]
+             Carbon fixation
+              R00405
+ORTHOLOGY   K01902  succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]
+            K01903  succinyl-CoA synthetase beta subunit [EC:6.2.1.5]
+DBLINKS     RHEA: 17664
+///

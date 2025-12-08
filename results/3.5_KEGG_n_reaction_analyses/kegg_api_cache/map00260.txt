@@ -1,0 +1,80 @@
+ENTRY       map00260                    Pathway
+NAME        Glycine, serine and threonine metabolism
+DESCRIPTION Serine is derived from 3-phospho-D-glycerate, an intermediate of glycolysis [MD:M00020], and glycine is derived from serine. Threonine is an essential amino acid, which animals cannot synthesize. In bacteria and plants, threonine is derived from aspartate [MD:M00018].
+CLASS       Metabolism; Amino acid metabolism
+PATHWAY_MAP map00260  Glycine, serine and threonine metabolism
+MODULE      M00018  Threonine biosynthesis, aspartate => homoserine => threonine [PATH:map00260]
+            M00020  Serine biosynthesis, glycerate-3P => serine [PATH:map00260]
+            M00033  Ectoine biosynthesis, aspartate => ectoine [PATH:map00260]
+            M00047  Creatine pathway [PATH:map00260]
+            M00338  Cysteine biosynthesis, homocysteine + serine => cysteine [PATH:map00260]
+            M00555  Betaine biosynthesis, choline => betaine [PATH:map00260]
+            M00621  Glycine cleavage system [PATH:map00260]
+            M00919  Ectoine degradation, ectoine => aspartate [PATH:map00260]
+            M00974  Betaine metabolism, animals, betaine => glycine [PATH:map00260]
+            M00975  Betaine degradation, bacteria, betaine => pyruvate [PATH:map00260]
+DBLINKS     GO: 0006544 0006563 0070178 0006566
+REFERENCE   
+  AUTHORS   Nishizuka Y, Seyama Y, Ikai A, Ishimura Y, Kawaguchi A (eds).
+  TITLE     [Cellular Functions and Metabolic Maps] (In Japanese)
+  JOURNAL   Tokyo Kagaku Dojin (1997)
+REFERENCE   PMID:11823218
+  AUTHORS   Kuhlmann AU, Bremer E.
+  TITLE     Osmotically regulated synthesis of the compatible solute ectoine in Bacillus pasteurii and related Bacillus spp.
+  JOURNAL   Appl Environ Microbiol 68:772-83 (2002)
+            DOI:10.1128/AEM.68.2.772-783.2002
+REFERENCE   PMID:10473374
+  AUTHORS   Canovas D, Borges N, Vargas C, Ventosa A, Nieto JJ, Santos H.
+  TITLE     Role of Ngamma-acetyldiaminobutyrate as an enzyme stabilizer and an intermediate in the biosynthesis of hydroxyectoine.
+  JOURNAL   Appl Environ Microbiol 65:3774-9 (1999)
+            DOI:10.1128/AEM.65.9.3774-3779.1999
+REFERENCE   PMID:17636255
+  AUTHORS   Bursy J, Pierik AJ, Pica N, Bremer E.
+  TITLE     Osmotically induced synthesis of the compatible solute hydroxyectoine is mediated by an evolutionarily conserved ectoine hydroxylase.
+  JOURNAL   J Biol Chem 282:31147-55 (2007)
+            DOI:10.1074/jbc.M704023200
+REFERENCE   PMID:16707670
+  AUTHORS   Garcia-Estepa R, Argandona M, Reina-Bueno M, Capote N, Iglesias-Guerra F, Nieto JJ, Vargas C.
+  TITLE     The ectD gene, which is involved in the synthesis of the compatible solute hydroxyectoine, is essential for thermoprotection of the halophilic bacterium Chromohalobacter salexigens.
+  JOURNAL   J Bacteriol 188:3774-84 (2006)
+            DOI:10.1128/JB.00136-06
+REFERENCE   PMID:15470257
+  AUTHORS   Arevalo-Rodriguez M, Pan X, Boeke JD, Heitman J
+  TITLE     FKBP12 controls aspartate pathway flux in Saccharomyces cerevisiae to prevent toxic intermediate accumulation.
+  JOURNAL   Eukaryot Cell 3:1287-96 (2004)
+            DOI:10.1128/EC.3.5.1287-1296.2004
+REFERENCE   PMID:7639721
+  AUTHORS   Rees WD, Hay SM
+  TITLE     The biosynthesis of threonine by mammalian cells: expression of a complete bacterial biosynthetic pathway in an animal cell.
+  JOURNAL   Biochem J 309 ( Pt 3):999-1007 (1995)
+            DOI:10.1042/bj3090999
+REFERENCE   PMID:11341914
+  AUTHORS   Jacques SL, Nieman C, Bareich D, Broadhead G, Kinach R, Honek JF, Wright GD
+  TITLE     Characterization of yeast homoserine dehydrogenase, an antifungal target: the invariant histidine 309 is important for enzyme integrity.
+  JOURNAL   Biochim Biophys Acta 1544:28-41 (2001)
+            DOI:10.1016/S0167-4838(00)00203-X
+REFERENCE   PMID:15520012
+  AUTHORS   Chen X, Jhee KH, Kruger WD
+  TITLE     Production of the neuromodulator H2S by cystathionine beta-synthase via the condensation of cysteine and homocysteine.
+  JOURNAL   J Biol Chem 279:52082-6 (2004)
+            DOI:10.1074/jbc.C400481200
+REL_PATHWAY map00010  Glycolysis / Gluconeogenesis
+            map00020  Citrate cycle (TCA cycle)
+            map00230  Purine metabolism
+            map00250  Alanine, aspartate and glutamate metabolism
+            map00270  Cysteine and methionine metabolism
+            map00290  Valine, leucine and isoleucine biosynthesis
+            map00300  Lysine biosynthesis
+            map00330  Arginine and proline metabolism
+            map00460  Cyanoamino acid metabolism
+            map00470  D-Amino acid metabolism
+            map00564  Glycerophospholipid metabolism
+            map00600  Sphingolipid metabolism
+            map00620  Pyruvate metabolism
+            map00630  Glyoxylate and dicarboxylate metabolism
+            map00640  Propanoate metabolism
+            map00680  Methane metabolism
+            map00860  Porphyrin metabolism
+            map00920  Sulfur metabolism
+KO_PATHWAY  ko00260
+///

@@ -1,0 +1,23 @@
+ENTRY       R07281                      Reaction
+NAME        D-ribulose 5-phosphate formate-lyase (L-3,4-dihydroxybutan-2-one 4-phosphate-forming)
+DEFINITION  D-Ribulose 5-phosphate <=> L-3,4-Dihydroxybutan-2-one 4-phosphate + Formate
+EQUATION    C00199 <=> C15556 + C00058
+RCLASS      RC01792  C00058_C00199
+            RC01815  C00199_C15556
+ENZYME      4.1.99.12
+PATHWAY     rn00740  Riboflavin metabolism
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+            rn01240  Biosynthesis of cofactors
+MODULE      M00125  Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD
+            M00911  Riboflavin biosynthesis, fungi, GTP => riboflavin/FMN/FAD
+BRITE       Enzymatic reactions [BR:br08201]
+             4. Lyase reactions
+              4.1  Carbon-carbon lyases
+               4.1.99  Other carbon-carbon lyases
+                4.1.99.12
+                 R07281  D-Ribulose 5-phosphate <=> L-3,4-Dihydroxybutan-2-one 4-phosphate + Formate
+ORTHOLOGY   K02858  3,4-dihydroxy 2-butanone 4-phosphate synthase [EC:4.1.99.12]
+            K14652  3,4-dihydroxy 2-butanone 4-phosphate synthase / GTP cyclohydrolase II [EC:4.1.99.12 3.5.4.25]
+DBLINKS     RHEA: 18460
+///

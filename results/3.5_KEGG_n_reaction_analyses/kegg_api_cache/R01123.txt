@@ -1,0 +1,25 @@
+ENTRY       R01123                      Reaction
+NAME        isopentenyl-diphosphate Delta3-Delta2-isomerase
+DEFINITION  Isopentenyl diphosphate <=> Dimethylallyl diphosphate
+EQUATION    C00129 <=> C00235
+RCLASS      RC00455  C00129_C00235
+ENZYME      5.3.3.2
+PATHWAY     rn00900  Terpenoid backbone biosynthesis
+            rn01100  Metabolic pathways
+            rn01110  Biosynthesis of secondary metabolites
+MODULE      M00095  C5 isoprenoid biosynthesis, mevalonate pathway
+            M00096  C5 isoprenoid biosynthesis, non-mevalonate pathway
+            M00364  C10-C20 isoprenoid biosynthesis, bacteria
+            M00365  C10-C20 isoprenoid biosynthesis, archaea
+            M00366  C10-C20 isoprenoid biosynthesis, plants
+            M00367  C10-C20 isoprenoid biosynthesis, non-plant eukaryotes
+            M00849  C5 isoprenoid biosynthesis, mevalonate pathway, archaea
+BRITE       Enzymatic reactions [BR:br08201]
+             5. Isomerase reactions
+              5.3  Intramolecular oxidoreductases
+               5.3.3  Transposing C=C bonds
+                5.3.3.2
+                 R01123  Isopentenyl diphosphate <=> Dimethylallyl diphosphate
+ORTHOLOGY   K01823  isopentenyl-diphosphate Delta-isomerase [EC:5.3.3.2]
+DBLINKS     RHEA: 23287
+///

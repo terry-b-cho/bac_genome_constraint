@@ -1,0 +1,19 @@
+ENTRY       R03062                      Reaction
+NAME        cephalosporin-C acetylhdrolase
+DEFINITION  Cephalosporin C + H2O <=> Deacetylcephalosporin C + Acetate
+EQUATION    C00916 + C00001 <=> C03112 + C00033
+COMMENT     Ref.1 : Appl. Environ. Microbiol. June 1995, Vol61, No6, p2224-2229
+RCLASS      RC00020  C00033_C00916
+            RC00041  C00916_C03112
+ENZYME      3.1.1.41
+PATHWAY     rn00311  Penicillin and cephalosporin biosynthesis
+            rn01110  Biosynthesis of secondary metabolites
+BRITE       Enzymatic reactions [BR:br08201]
+             3. Hydrolase reactions
+              3.1  Acting on ester bonds
+               3.1.1  Carboxylic-ester hydrolases
+                3.1.1.41
+                 R03062  Cephalosporin C + H2O <=> Deacetylcephalosporin C + Acetate
+ORTHOLOGY   K01060  cephalosporin-C deacetylase [EC:3.1.1.41]
+DBLINKS     RHEA: 22599
+///

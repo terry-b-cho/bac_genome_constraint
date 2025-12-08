@@ -1,0 +1,16 @@
+ENTRY       R04436                      Reaction
+NAME        S-adenosyl-L-methionine:Nalpha,Nalpha-dimethyl-L-histidine Nalpha-methyltransferase
+DEFINITION  S-Adenosyl-L-methionine + N,N-Dimethylhistidine <=> S-Adenosyl-L-homocysteine + Hercynine
+EQUATION    C00019 + C04259 <=> C00021 + C05575
+COMMENT     the last step of three-step reaction (see R01169, R10523+R10524+R04436)
+RCLASS      RC00003  C00019_C00021
+            RC01155  C04259_C05575
+ENZYME      2.1.1.44
+BRITE       Enzymatic reactions [BR:br08201]
+             2. Transferase reactions
+              2.1  Transferring one-carbon groups
+               2.1.1  Methyltransferases
+                2.1.1.44
+                 R04436  S-Adenosyl-L-methionine + N,N-Dimethylhistidine <=> S-Adenosyl-L-homocysteine + Hercynine
+DBLINKS     RHEA: 11107
+///
