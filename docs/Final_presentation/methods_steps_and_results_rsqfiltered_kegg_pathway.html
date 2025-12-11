@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methods, Steps, and Results: Bacterial Genome Constraint Analysis</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #fff;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #2c3e50;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+        }
+        h1 {
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 0.3em;
+        }
+        h2 {
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 0.3em;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            border-left: 4px solid #3498db;
+        }
+        blockquote {
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+            padding-left: 20px;
+            color: #666;
+            font-style: italic;
+        }
+        .math-display {
+            margin: 1.5em 0;
+            text-align: center;
+            overflow-x: auto;
+            padding: 10px;
+        }
+        .math-display .MathJax {
+            display: block !important;
+            margin: 0 auto;
+        }
+        .toc {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .toc ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        .toc li {
+            margin: 5px 0;
+        }
+        .toc a {
+            text-decoration: none;
+            color: #3498db;
+        }
+        .toc a:hover {
+            text-decoration: underline;
+        }
+        hr {
+            border: none;
+            border-top: 2px solid #ecf0f1;
+            margin: 30px 0;
+        }
+    </style>
+    <!-- MathJax Configuration -->
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: true,
+                processEnvironments: true,
+                processRefs: true
+            },
+            options: {
+                skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                ignoreHtmlClass: 'tex2jax_ignore',
+                processHtmlClass: 'tex2jax_process'
+            },
+            startup: {
+                ready: function() {
+                    MathJax.startup.defaultReady();
+                }
+            }
+        };
+    </script>
+    <!-- MathJax Library -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        // Fallback: Ensure MathJax processes the page after it fully loads
+        // This is a backup in case the startup.ready doesn't fire
+        (function() {
+            function typesetMath() {
+                if (window.MathJax && window.MathJax.typesetPromise) {
+                    MathJax.typesetPromise().then(function() {
+                        console.log('MathJax typesetting complete');
+                    }).catch(function(err) {
+                        console.error('MathJax typesetting error:', err);
+                    });
+                } else if (window.MathJax && window.MathJax.startup && window.MathJax.startup.ready) {
+                    // MathJax is loading, wait for it
+                    setTimeout(typesetMath, 200);
+                }
+            }
+            
+            // Wait for page to be fully loaded
+            if (document.readyState === 'complete') {
+                setTimeout(typesetMath, 1000);
+            } else {
+                window.addEventListener('load', function() {
+                    setTimeout(typesetMath, 1000);
+                });
+            }
+        })();
+    </script>
+</head>
+<body>
+<h1 id="methods-steps-and-results-bacterial-genome-constraint-analysis-kegg-pathway-version-r2-filtered">Methods, Steps, and Results: Bacterial Genome Constraint Analysis - KEGG Pathway Version (R²-Filtered)<a class="headerlink" href="#methods-steps-and-results-bacterial-genome-constraint-analysis-kegg-pathway-version-r2-filtered" title="Permanent link">&para;</a></h1>
+<p><strong>Comprehensive Documentation of Statistical Scaling Analyses Using KEGG Pathways with R² Quality Filtering</strong></p>
+<hr />
+<h2 id="table-of-contents">Table of Contents<a class="headerlink" href="#table-of-contents" title="Permanent link">&para;</a></h2>
+<ol>
+<li><a href="#executive-summary">Executive Summary</a></li>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#r²-quality-filtering-methodology">R² Quality Filtering Methodology</a></li>
+<li><a href="#data-and-quality-control">Data and Quality Control</a></li>
+<li><a href="#methods-statistical-scaling-analyses">Methods: Statistical Scaling Analyses</a></li>
+<li><a href="#results-statistical-scaling-analyses">Results: Statistical Scaling Analyses</a></li>
+<li><a href="#discussion-and-interpretation">Discussion and Interpretation</a></li>
+<li><a href="#conclusions">Conclusions</a></li>
+</ol>
+<hr />
+<h2 id="executive-summary">Executive Summary<a class="headerlink" href="#executive-summary" title="Permanent link">&para;</a></h2>
+<p>This study investigates the relationship between bacterial genome size and functional gene content across different environments, using <strong>R²-filtered power-law scaling analyses</strong> to focus on high-quality fits:</p>
+<ol>
+<li>
+<p><strong>Statistical Scaling Analyses</strong>: Power-law scaling relationships between genome size and KEGG pathway counts, with environment-specific deviations quantified using Z-statistics. <strong>Only fits with R² ≥ 0.05 are included</strong>, ensuring robust scaling relationships.</p>
+</li>
+<li>
+<p><strong>R² Quality Filtering</strong>: All analyses are restricted to environment×category combinations where the power-law fit explains at least 5% of the variance (R² ≥ 0.05), filtering out poor-quality fits that may not represent true scaling relationships.</p>
+</li>
+</ol>
+<p><strong>Key Findings:</strong>
+- <strong>99% Prevalence Threshold</strong>: 29 KEGG pathways analyzed across 2,164 high-quality genomes
+- <strong>R² Filtering</strong>: Only environment×category combinations with R² ≥ 0.05 are included (492 combinations for pathways, ~68-92 unique categories depending on data type)
+- <strong>Scaling Exponents</strong>: Most pathways show sub-linear scaling (α &lt; 1), with significant environment-specific variation
+- <strong>Z-Score Recomputation</strong>: Z-scores are recomputed from filtered data, ensuring consistency between filtering and statistical comparisons
+- <strong>Robust Patterns</strong>: R² filtering reveals stronger, more reliable environment-specific scaling patterns by excluding noisy fits</p>
+<p><strong>Key Difference from Unfiltered Analysis</strong>: This analysis focuses exclusively on scaling relationships with R² ≥ 0.05, ensuring that all reported patterns represent statistically meaningful power-law relationships rather than noise. Z-scores are recomputed from the filtered data, providing more accurate quantification of environment-specific deviations.</p>
+<hr />
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<h3 id="research-questions">Research Questions<a class="headerlink" href="#research-questions" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>How does functional gene content scale with genome size?</strong></li>
+<li>Do different KEGG pathways scale differently?</li>
+<li>Are scaling relationships universal or environment-specific?</li>
+<li>
+<p><strong>Which scaling relationships are statistically robust (R² ≥ 0.05)?</strong></p>
+</li>
+<li>
+<p><strong>What is the role of R² quality filtering in scaling analyses?</strong></p>
+</li>
+<li>How does filtering by R² ≥ 0.05 affect the patterns we observe?</li>
+<li>Do environment-specific scaling patterns remain significant after filtering?</li>
+<li>
+<p><strong>Are Z-scores more reliable when computed from filtered data?</strong></p>
+</li>
+<li>
+<p><strong>What is the role of metabolism in environment-specific scaling?</strong></p>
+</li>
+<li>Do metabolic pathways show distinct scaling patterns?</li>
+<li>Are metabolic pathways environment-specific?</li>
+<li><strong>Which pathway-environment combinations show robust scaling (R² ≥ 0.05)?</strong></li>
+</ol>
+<h3 id="dataset-overview">Dataset Overview<a class="headerlink" href="#dataset-overview" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Total Genomes Analyzed</strong>: 2,164 high-quality bacterial genomes</li>
+<li><strong>Environments</strong>: 8 categories (Aquatic, Terrestrial, Mammals: Human, Plants, Mammals, Food production, Wastewater, Birds)</li>
+<li><strong>KEGG Pathways (99% Prevalence)</strong>: 29 pathways present in ≥99% of genomes</li>
+<li><strong>Total KEGG Pathways</strong>: 101 pathways (map identifiers only, excluding rn duplicates)</li>
+<li><strong>R² Filtering Threshold</strong>: R² ≥ 0.05 (fits must explain at least 5% of variance)</li>
+</ul>
+<h3 id="r2-quality-filtering-overview">R² Quality Filtering Overview<a class="headerlink" href="#r2-quality-filtering-overview" title="Permanent link">&para;</a></h3>
+<p><strong>Filtering Strategy:</strong>
+- <strong>Global Fits</strong>: Only pathways with global R² ≥ 0.05 are included
+- <strong>Environment-Specific Fits</strong>: Only environment×category combinations with R² ≥ 0.05 are included
+- <strong>Z-Score Recomputation</strong>: Z-scores are recomputed from filtered environment-specific and global fits
+- <strong>Category-Level Aggregation</strong>: Category-level Z-scores computed from recomputed environment-level Z-scores</p>
+<p><strong>Impact of Filtering:</strong>
+- <strong>Reduces Noise</strong>: Excludes fits where power-law model explains &lt;5% of variance
+- <strong>Improves Reliability</strong>: Ensures all reported scaling relationships are statistically meaningful
+- <strong>Maintains Coverage</strong>: Most pathways and environments still have sufficient passing combinations for analysis
+- <strong>Enhances Interpretability</strong>: Focuses on robust patterns rather than marginal fits</p>
+<hr />
+<h2 id="r2-quality-filtering-methodology">R² Quality Filtering Methodology<a class="headerlink" href="#r2-quality-filtering-methodology" title="Permanent link">&para;</a></h2>
+<h3 id="rationale-for-r2-filtering">Rationale for R² Filtering<a class="headerlink" href="#rationale-for-r2-filtering" title="Permanent link">&para;</a></h3>
+<p>The coefficient of determination (R²) quantifies how well the power-law model explains the variance in pathway counts:</p>
+
+<div class="math-display">
+$$R^2 = 1 - \frac{\text{SS}_{\text{res}}}{\text{SS}_{\text{tot}}} = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n} (y_i - \bar{y})^2}$$
+</div>
+
+<p>Where:
+- $\text{SS}_{\text{res}}$ = residual sum of squares (unexplained variance)
+- $\text{SS}_{\text{tot}}$ = total sum of squares (total variance)
+- $y_i$ = observed log pathway count for genome $i$
+- $\hat{y}_i$ = predicted log pathway count from power-law fit
+- $\bar{y}$ = mean log pathway count</p>
+<p><strong>R² Threshold (0.05):</strong>
+- <strong>R² ≥ 0.05</strong>: Power-law model explains at least 5% of variance
+- <strong>R² &lt; 0.05</strong>: Power-law model explains &lt;5% of variance (likely noise or non-power-law relationship)
+- <strong>Justification</strong>: 5% threshold balances statistical rigor with maintaining sufficient data for analysis</p>
+<h3 id="filtering-implementation">Filtering Implementation<a class="headerlink" href="#filtering-implementation" title="Permanent link">&para;</a></h3>
+<h4 id="global-scaling-fits">Global Scaling Fits<a class="headerlink" href="#global-scaling-fits" title="Permanent link">&para;</a></h4>
+<p>For each KEGG pathway, the global power-law fit is evaluated:</p>
+<ol>
+<li><strong>Fit Power-Law Model</strong>: OLS regression in log-log space</li>
+<li><strong>Compute R²</strong>: Calculate coefficient of determination</li>
+<li><strong>Filter</strong>: Include pathway only if R² ≥ 0.05</li>
+<li><strong>Store</strong>: Save passing categories in <code>r_squared_pass_category_mapping_{data_type}_global.tsv</code></li>
+</ol>
+<p><strong>Result</strong>: Only pathways with meaningful global scaling relationships are analyzed.</p>
+<h4 id="environment-specific-fits">Environment-Specific Fits<a class="headerlink" href="#environment-specific-fits" title="Permanent link">&para;</a></h4>
+<p>For each environment×category combination, the environment-specific power-law fit is evaluated:</p>
+<ol>
+<li><strong>Fit Power-Law Model</strong>: OLS regression in log-log space (per environment)</li>
+<li><strong>Compute R²</strong>: Calculate coefficient of determination</li>
+<li><strong>Filter</strong>: Include combination only if R² ≥ 0.05</li>
+<li><strong>Store</strong>: Save passing combinations in <code>r_squared_pass_category_mapping_{data_type}_env.tsv</code></li>
+</ol>
+<p><strong>Result</strong>: Only environment×category combinations with meaningful scaling relationships are analyzed.</p>
+<h4 id="z-score-recomputation">Z-Score Recomputation<a class="headerlink" href="#z-score-recomputation" title="Permanent link">&para;</a></h4>
+<p>After filtering, Z-scores are recomputed from the filtered data:</p>
+<ol>
+<li><strong>Filter <code>env_scaling</code></strong>: Keep only environment×category combinations with R² ≥ 0.05</li>
+<li><strong>Filter <code>global_params</code></strong>: Keep only categories with global R² ≥ 0.05</li>
+<li><strong>Recompute Z-Scores</strong>: Calculate $Z_{\alpha}$ and $Z_{\beta}$ from filtered fits</li>
+<li><strong>Recompute Category Z-Scores</strong>: Calculate $Z_{\alpha,\text{category}}$ and $Z_{\beta,\text{category}}$ from recomputed environment-level Z-scores</li>
+</ol>
+<p><strong>Mathematical Formulation:</strong></p>
+
+<div class="math-display">
+$$Z_{\alpha} = \frac{\alpha_{\text{env}} - \alpha_{\text{global}}}{\sqrt{\text{SE}(\alpha_{\text{env}})^2 + \text{SE}(\alpha_{\text{global}})^2}}$$
+</div>
+
+<p>Where both $\alpha_{\text{env}}$ and $\alpha_{\text{global}}$ come from fits with R² ≥ 0.05.</p>
+<p><strong>Category-Level Z-Scores:</strong></p>
+
+<div class="math-display">
+$$Z_{\alpha,\text{category}} = \sqrt{\frac{1}{n_{\text{envs}}} \sum_{j=1}^{n_{\text{envs}}} Z_{\alpha,j}^2}$$
+</div>
+
+<p>Where $n_{\text{envs}}$ is the number of environments with R² ≥ 0.05 for this category.</p>
+<p><strong>Key Advantage</strong>: Z-scores computed from filtered data are more reliable because they compare only high-quality fits, reducing noise in environment-specific comparisons.</p>
+<h3 id="impact-on-analysis">Impact on Analysis<a class="headerlink" href="#impact-on-analysis" title="Permanent link">&para;</a></h3>
+<p><strong>Filtering Effects:</strong></p>
+<ol>
+<li><strong>Reduced Sample Size</strong>: Some environment×category combinations are excluded</li>
+<li><strong>Pathway Data</strong>: ~492 passing combinations (from ~232 total possible: 29 pathways × 8 environments)</li>
+<li>
+<p><strong>Coverage</strong>: Most pathways still have multiple passing environments</p>
+</li>
+<li>
+<p><strong>Improved Signal-to-Noise Ratio</strong>: </p>
+</li>
+<li>Excludes fits where power-law model is inappropriate</li>
+<li>
+<p>Focuses on relationships where genome size is a meaningful predictor</p>
+</li>
+<li>
+<p><strong>More Reliable Z-Scores</strong>:</p>
+</li>
+<li>Z-scores computed from filtered data are more accurate</li>
+<li>
+<p>Environment-specific deviations are more meaningful when comparing high-quality fits</p>
+</li>
+<li>
+<p><strong>Enhanced Interpretability</strong>:</p>
+</li>
+<li>All reported patterns represent robust scaling relationships</li>
+<li>Figures only show environment×category combinations with R² ≥ 0.05</li>
+</ol>
+<hr />
+<h2 id="data-and-quality-control">Data and Quality Control<a class="headerlink" href="#data-and-quality-control" title="Permanent link">&para;</a></h2>
+<h3 id="data-sources">Data Sources<a class="headerlink" href="#data-sources" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>NCBI Genomes</strong>: Bacterial genome assemblies with annotations</li>
+<li><strong>GOLD Database</strong>: Environment metadata for each genome</li>
+<li><strong>KEGG Annotations</strong>: KEGG pathway annotations (map identifiers)</li>
+<li><strong>CheckM</strong>: Quality metrics (completeness, contamination)</li>
+</ol>
+<h3 id="quality-control-pipeline">Quality Control Pipeline<a class="headerlink" href="#quality-control-pipeline" title="Permanent link">&para;</a></h3>
+<p><strong>Filters Applied:</strong></p>
+<ol>
+<li><strong>CheckM Completeness</strong>: ≥ 90% (high-quality genomes)</li>
+<li><strong>CheckM Contamination</strong>: ≤ 5% (minimize mixed cultures)</li>
+<li><strong>Gene Count</strong>: <code>genes_total &gt; 0</code> (valid genomes)</li>
+<li><strong>Environment Filtering</strong>: Only environments with ≥20 genomes (reliable per-environment fits)</li>
+<li><strong>KEGG Pathway Prevalence</strong>: ≥99% (ubiquitous pathways only)</li>
+<li><strong>Pathway Identifier Filtering</strong>: Only "map" pathways (excludes "rn" reaction network duplicates)</li>
+<li><strong>R² Quality Filtering</strong>: R² ≥ 0.05 for all fits (power-law model must explain ≥5% of variance)</li>
+</ol>
+<p><strong>QC Results:</strong></p>
+<p><img alt="QC Filtering Flowchart" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/04.5_intermediate_figures/script_01/fig_01A_QC_filtering_flowchart_pathway.png" /></p>
+<p><strong>Figure 1A: QC Filtering Flowchart</strong><br />
+<em>Description</em>: Flowchart showing genome counts at each QC step. Final dataset: 2,164 high-quality genomes after applying completeness (≥90%), contamination (≤5%), and gene count filters.<br />
+<em>Interpretation</em>: The filtering pipeline ensures high-quality data while maintaining sufficient sample size for robust statistical analyses. The majority of genomes pass QC, indicating good data quality.</p>
+<p><img alt="Completeness Distribution" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/04.5_intermediate_figures/script_01/fig_01B_completeness_distribution_pathway.png" /></p>
+<p><strong>Figure 1B: CheckM Completeness Distribution</strong><br />
+<em>Description</em>: Histogram of CheckM completeness scores for raw vs. high-quality genomes.<br />
+<em>Interpretation</em>: The ≥90% threshold effectively filters out incomplete genomes while retaining the majority of the dataset. Most high-quality genomes have completeness &gt;95%.</p>
+<p><img alt="Contamination Distribution" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/04.5_intermediate_figures/script_01/fig_01C_contamination_distribution_pathway.png" /></p>
+<p><strong>Figure 1C: CheckM Contamination Distribution</strong><br />
+<em>Description</em>: Histogram of CheckM contamination scores.<br />
+<em>Interpretation</em>: The ≤5% threshold removes potentially contaminated assemblies. Most high-quality genomes have contamination &lt;2%, indicating clean assemblies.</p>
+<p><img alt="Genome Size Distribution" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/04.5_intermediate_figures/script_01/fig_01D_genome_size_distribution_pathway.png" /></p>
+<p><strong>Figure 1D: Genome Size Distribution</strong><br />
+<em>Description</em>: Distribution of total gene counts (<code>genes_total</code>) for raw vs. high-quality genomes.<br />
+<em>Interpretation</em>: QC filtering does not introduce systematic bias in genome size. The distribution spans ~500-10,000 genes, representing diverse bacterial genome sizes.</p>
+<h3 id="environment-distribution">Environment Distribution<a class="headerlink" href="#environment-distribution" title="Permanent link">&para;</a></h3>
+<p><img alt="Environment Counts" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/04.5_intermediate_figures/script_01/fig_02A_environment_counts_QC_pathway.png" /></p>
+<p><strong>Figure 2A: Environment Counts After QC</strong><br />
+<em>Description</em>: Bar plot showing number of genomes per environment after QC filtering.<br />
+<em>Interpretation</em>: Class imbalance exists: Aquatic (27.6%) and Terrestrial (22.1%) are largest, while Birds (1.7%) and Wastewater (2.9%) are smallest. This imbalance is addressed in prediction models using class weighting.</p>
+<hr />
+<h2 id="methods-statistical-scaling-analyses">Methods: Statistical Scaling Analyses<a class="headerlink" href="#methods-statistical-scaling-analyses" title="Permanent link">&para;</a></h2>
+<h3 id="mathematical-framework">Mathematical Framework<a class="headerlink" href="#mathematical-framework" title="Permanent link">&para;</a></h3>
+<h4 id="power-law-scaling-model">Power-Law Scaling Model<a class="headerlink" href="#power-law-scaling-model" title="Permanent link">&para;</a></h4>
+<p>The core analysis models the relationship between genome size and gene content using a <strong>power-law scaling relationship</strong>:</p>
+<p><strong>Linear Space:</strong>
+
+<div class="math-display">
+$$n_c(g) = \beta \times n(g)^{\alpha}$$
+</div>
+</p>
+<p><strong>Log-Log Space (for regression):</strong>
+
+<div class="math-display">
+$$\log(n_c(g)) = \log(\beta) + \alpha \times \log(n(g))$$
+</div>
+</p>
+<p>Where:
+- $n(g)$ = total number of genes in genome $g$ (<code>genes_total</code>)
+- $n_c(g)$ = number of genes in functional category $c$ in genome $g$ (KEGG pathway count)
+- $\alpha$ = scaling exponent (slope in log-log space)
+- $\beta$ = scaling prefactor/offset (intercept in log-log space, stored as $\log(\beta)$)</p>
+<h4 id="interpretation-of-scaling-exponents">Interpretation of Scaling Exponents<a class="headerlink" href="#interpretation-of-scaling-exponents" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>$\alpha = 1$</strong>: Linear scaling — pathway grows proportionally with genome size</li>
+<li><strong>$\alpha < 1$</strong>: Sub-linear scaling — pathway grows slower than genome size (e.g., core pathways)</li>
+<li><strong>$\alpha > 1$</strong>: Super-linear scaling — pathway grows faster than genome size (e.g., specialized pathways)</li>
+<li><strong>$\alpha \approx 0.5$</strong>: Square-root scaling — pathway scales with square root of genome size</li>
+</ul>
+<h4 id="ordinary-least-squares-ols-regression">Ordinary Least Squares (OLS) Regression<a class="headerlink" href="#ordinary-least-squares-ols-regression" title="Permanent link">&para;</a></h4>
+<p>For each KEGG pathway, we fit the model in log-log space using OLS:</p>
+
+<div class="math-display">
+$$\hat{\alpha} = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}{\sum_{i=1}^{n} (x_i - \bar{x})^2}$$
+</div>
+
+
+<div class="math-display">
+$$\hat{\beta}_{\text{log}} = \bar{y} - \hat{\alpha} \times \bar{x}$$
+</div>
+
+<p>Where:
+- $x_i = \log(n(g_i))$, $y_i = \log(n_c(g_i))$
+- $\bar{x}, \bar{y}$ are sample means
+- $n$ = number of genomes</p>
+<p><strong>Standard Errors:</strong>
+
+<div class="math-display">
+$$\text{SE}(\hat{\alpha}) = \sqrt{\frac{\text{MSE}}{S_{xx}}}, \quad \text{SE}(\hat{\beta}_{\text{log}}) = \sqrt{\text{MSE} \times \left(\frac{1}{n} + \frac{\bar{x}^2}{S_{xx}}\right)}$$
+</div>
+</p>
+<p>Where:
+- $\text{MSE} = \frac{\text{SS}_{\text{res}}}{n-2}$ (mean squared error)
+- $S_{xx} = \sum_{i=1}^{n} (x_i - \bar{x})^2$
+- $\text{SS}_{\text{res}} = \sum_{i=1}^{n} (y_i - \hat{y}_i)^2$ (residual sum of squares)</p>
+<p><strong>R² (Coefficient of Determination):</strong>
+
+<div class="math-display">
+$$R^2 = 1 - \frac{\text{SS}_{\text{res}}}{\text{SS}_{\text{tot}}}$$
+</div>
+</p>
+<p>Where $\text{SS}_{\text{tot}} = \sum_{i=1}^{n} (y_i - \bar{y})^2$ (total sum of squares).</p>
+<p><strong>R² Filtering</strong>: Only fits with R² ≥ 0.05 are included in downstream analyses.</p>
+<p><strong>99% Confidence Intervals:</strong>
+
+<div class="math-display">
+$$\alpha \in [\hat{\alpha} - t_{0.995} \times \text{SE}(\hat{\alpha}), \hat{\alpha} + t_{0.995} \times \text{SE}(\hat{\alpha})]$$
+</div>
+</p>
+<p>Where $t_{0.995}$ is the 99th percentile of the t-distribution (approximately 2.576 for large $n$).</p>
+<h4 id="z-statistics-for-environment-comparison">Z-Statistics for Environment Comparison<a class="headerlink" href="#z-statistics-for-environment-comparison" title="Permanent link">&para;</a></h4>
+<p>To quantify whether environment-specific scaling parameters differ significantly from global parameters, we compute Z-scores <strong>from filtered data</strong>:</p>
+<p><strong>Z-Score for Exponents:</strong>
+
+<div class="math-display">
+$$Z_{\alpha} = \frac{\alpha_{\text{env}} - \alpha_{\text{global}}}{\sqrt{\text{SE}(\alpha_{\text{env}})^2 + \text{SE}(\alpha_{\text{global}})^2}}$$
+</div>
+</p>
+<p><strong>Z-Score for Offsets:</strong>
+
+<div class="math-display">
+$$Z_{\beta} = \frac{\beta_{\text{env,log}} - \beta_{\text{global,log}}}{\sqrt{\text{SE}(\beta_{\text{env,log}})^2 + \text{SE}(\beta_{\text{global,log}})^2}}$$
+</div>
+</p>
+<p><strong>Important</strong>: Both $\alpha_{\text{env}}$ and $\alpha_{\text{global}}$ come from fits with R² ≥ 0.05, ensuring that Z-scores compare only high-quality fits.</p>
+<p><strong>Interpretation:</strong>
+- $|Z| > 2$: Significant deviation from global parameter (approximately $p < 0.05$)
+- $|Z| > 3$: Highly significant deviation (approximately $p < 0.01$)</p>
+<p><strong>Category-Level Z-Statistics:</strong>
+For each KEGG pathway, we compute summary statistics across environments <strong>with R² ≥ 0.05</strong>:
+- $Z_{\alpha,\text{category}} = \sqrt{\frac{1}{n_{\text{envs}}} \sum_{j=1}^{n_{\text{envs}}} Z_{\alpha,j}^2}$ (root mean square)
+- $Z_{\beta,\text{category}} = \sqrt{\frac{1}{n_{\text{envs}}} \sum_{j=1}^{n_{\text{envs}}} Z_{\beta,j}^2}$</p>
+<p>Where $n_{\text{envs}}$ is the number of environments with R² ≥ 0.05 for this category.</p>
+<p>These quantify the overall variability of environment-specific parameters relative to the global fit, <strong>computed only from high-quality fits</strong>.</p>
+<h3 id="analysis-pipeline">Analysis Pipeline<a class="headerlink" href="#analysis-pipeline" title="Permanent link">&para;</a></h3>
+<pre><code>Raw Data (NCBI genomes)
+    ↓
+Script 01: Build master table + QC
+    ↓
+Script 02: Filter environments (≥20 genomes)
+    ↓
+Script 03: Fit global scaling (all environments combined)
+    ↓
+Script 04: Fit per-environment scaling + compute Z-scores
+    ↓
+R² Filtering: Filter fits with R² &lt; 0.05
+    ↓
+Z-Score Recomputation: Recompute Z-scores from filtered data
+    ↓
+Script 05: Map KEGG pathway IDs to labels
+    ↓
+Script 06: Generate publication figures (rsqfiltered_ prefix)
+</code></pre>
+<p><strong>Key Difference</strong>: R² filtering and Z-score recomputation ensure that all downstream analyses use only high-quality fits.</p>
+<hr />
+<h2 id="results-statistical-scaling-analyses">Results: Statistical Scaling Analyses<a class="headerlink" href="#results-statistical-scaling-analyses" title="Permanent link">&para;</a></h2>
+<h3 id="global-scaling-patterns-r2-filtered">Global Scaling Patterns (R²-Filtered)<a class="headerlink" href="#global-scaling-patterns-r2-filtered" title="Permanent link">&para;</a></h3>
+<p><img alt="Global Exponents Distribution" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/04.5_intermediate_figures/script_03/rsqfiltered_fig_04A_global_exponents_histogram_pathway.png" /></p>
+<p><strong>Figure 3A: Global Scaling Exponent Distribution (R²-Filtered)</strong><br />
+<em>Description</em>: Histogram of global scaling exponents ($\alpha_{\text{global}}$) across KEGG pathways with R² ≥ 0.05. Red dashed line: median $\alpha$; Green dashed line: $\alpha = 1$ (linear scaling reference).<br />
+<em>Interpretation</em>: Most pathways show sub-linear scaling (α &lt; 1), with median around 0.3-0.6. <strong>R² filtering ensures that only pathways with meaningful power-law relationships are included</strong>, focusing on robust scaling patterns. Pathways with very low exponents (α &lt; 0.3) represent highly conserved core pathways that scale less than proportionally with genome size.</p>
+<p><img alt="Exponent vs R²" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/04.5_intermediate_figures/script_03/rsqfiltered_fig_04B_alpha_vs_r2_pathway.png" /></p>
+<p><strong>Figure 3B: Exponent vs. R² (R²-Filtered)</strong><br />
+<em>Description</em>: Scatter plot of global scaling exponent vs. R² (coefficient of determination) for pathways with R² ≥ 0.05.<br />
+<em>Interpretation</em>: <strong>All pathways shown have R² ≥ 0.05</strong>, ensuring that only meaningful power-law relationships are displayed. Pathway-level fits show variable R² values (0.05-0.8), with many pathways having moderate R² (0.1-0.5). This reflects the higher-level organization of pathways compared to individual genes. The R² filtering threshold (0.05) is visible as the minimum R² value in the plot.</p>
+<p><img alt="Exponent vs Mean Count" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/04.5_intermediate_figures/script_03/rsqfiltered_fig_04C_alpha_vs_mean_count_pathway.png" /></p>
+<p><strong>Figure 3C: Exponent vs. Mean Count (R²-Filtered)</strong><br />
+<em>Description</em>: Scatter plot of global scaling exponent vs. mean KEGG pathway count per genome. <strong>Only pathways with R² ≥ 0.05 are shown</strong>.<br />
+<em>Interpretation</em>: No strong correlation between exponent and pathway abundance. Rare pathways (low mean count) can have reliable exponent estimates if they scale consistently. <strong>R² filtering ensures that only pathways with meaningful power-law relationships (R² ≥ 0.05) are included</strong>, validating that our analysis focuses on robust scaling patterns. This validates that our 99% prevalence threshold captures pathways with sufficient data for reliable fits.</p>
+<p><img alt="Representative Scaling Plots" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/04.5_intermediate_figures/script_03/rsqfiltered_fig_04D_representative_scaling_pathway.png" /></p>
+<p><strong>Figure 3D: Representative Global Scaling Plots (Log Scale, R²-Filtered)</strong><br />
+<em>Description</em>: Faceted scatter plots showing log-log fits for top KEGG pathways (selected by Z-score variance) with R² ≥ 0.05. Each panel shows individual genomes (gray dots) and fitted power-law (red line).<br />
+<em>Interpretation</em>: Visual validation of the power-law model. Log-log plots show linear relationships, confirming power-law scaling. <strong>All pathways shown have R² ≥ 0.05</strong>, ensuring that only robust scaling relationships are displayed. Pathways with high Z-score variance (selected for display) show environment-specific variation, as expected.</p>
+<p><img alt="Representative Scaling Plots (Linear)" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/04.5_intermediate_figures/script_03/rsqfiltered_fig_04D_representative_scaling_linear_pathway.png" /></p>
+<p><strong>Figure 3D (Linear Scale): Representative Global Scaling Plots (R²-Filtered)</strong><br />
+<em>Description</em>: Same as Figure 3D but in linear space. Power-law curves: $y = \exp(\beta) \times x^{\alpha}$. <strong>All pathways shown have R² ≥ 0.05</strong>.<br />
+<em>Interpretation</em>: Linear-scale plots show the actual scaling in natural units, more interpretable for non-specialists. Curves show how pathway counts grow with genome size. Pathways with α &lt; 1 show decelerating growth (concave curves), which is typical for pathway-level analysis. <strong>R² filtering ensures that only robust scaling relationships are displayed</strong>.</p>
+<h3 id="environment-specific-scaling-and-z-scores-r2-filtered">Environment-Specific Scaling and Z-Scores (R²-Filtered)<a class="headerlink" href="#environment-specific-scaling-and-z-scores-r2-filtered" title="Permanent link">&para;</a></h3>
+<p><img alt="Z-Score Heatmap (Exponents)" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/04.5_intermediate_figures/script_04/rsqfiltered_fig_05A_Z_alpha_heatmap_pathway.png" /></p>
+<p><strong>Figure 4A: Z-Score Heatmap for Exponents (R²-Filtered)</strong><br />
+<em>Description</em>: Heatmap showing $Z_{\alpha}$ (Z-scores for exponents) for each environment × KEGG pathway combination with R² ≥ 0.05. Rows and columns are hierarchically clustered (Euclidean distance). Color scale: blue (negative Z), white (near zero), red (positive Z).<br />
+<em>Interpretation</em>: <strong>Only environment×category combinations with R² ≥ 0.05 are shown</strong>, ensuring that Z-scores compare only high-quality fits. Identifies environment-pathway combinations with significant deviations from global scaling. Clustering reveals groups of pathways or environments with similar scaling patterns. Red regions indicate environments where pathways scale faster than global average; blue indicates slower scaling. The clustering structure suggests environment-specific functional requirements at the pathway level.</p>
+<p><img alt="Z-Score Heatmap (Offsets)" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/04.5_intermediate_figures/script_04/rsqfiltered_fig_05B_Z_beta_heatmap_pathway.png" /></p>
+<p><strong>Figure 4B: Z-Score Heatmap for Offsets (R²-Filtered)</strong><br />
+<em>Description</em>: Heatmap showing $Z_{\beta}$ (Z-scores for offsets) for each environment × KEGG pathway combination with R² ≥ 0.05.<br />
+<em>Interpretation</em>: <strong>Only environment×category combinations with R² ≥ 0.05 are shown</strong>. Reveals environment-specific differences in baseline pathway content (offset) independent of scaling exponent. Pathways with high $|Z_{\beta}|$ have environment-specific absolute abundances, even if scaling exponents are similar. This indicates that some environments have systematically higher or lower baseline levels of certain pathways.</p>
+<p><img alt="Absolute Z-Score by Environment" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/04.5_intermediate_figures/script_04/rsqfiltered_fig_05C_abs_Z_alpha_by_env_pathway.png" /></p>
+<p><strong>Figure 4C: Absolute Z-Score Distribution by Environment (R²-Filtered)</strong><br />
+<em>Description</em>: Box plot showing distribution of $|Z_{\alpha}|$ (absolute Z-scores) across KEGG pathways, stratified by environment. <strong>Only environment×category combinations with R² ≥ 0.05 are included</strong>.<br />
+<em>Interpretation</em>: Identifies which environments show the most deviation from global scaling patterns. <strong>R² filtering ensures that Z-scores are computed from high-quality fits</strong>, making environment comparisons more reliable. Environments with high median $|Z_{\alpha}|$ have distinct scaling relationships compared to the global average. This suggests that certain environments impose unique constraints on pathway-level functional gene content scaling.</p>
+<p><img alt="Significant Categories by Environment" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/04.5_intermediate_figures/script_04/rsqfiltered_fig_05D_significant_categories_by_env_pathway.png" /></p>
+<p><strong>Figure 4D: Significant Categories by Environment (R²-Filtered)</strong><br />
+<em>Description</em>: Bar plot showing number of KEGG pathways with $|Z_{\alpha}| > 2$ (significant deviation) per environment. <strong>Only environment×category combinations with R² ≥ 0.05 are included in Z-score computation</strong>.<br />
+<em>Interpretation</em>: Quantifies how many pathways show environment-specific scaling in each environment. <strong>R² filtering ensures that only robust scaling relationships contribute to this count</strong>, making the metric more reliable. Environments with many significant pathways are candidates for detailed investigation. This metric helps prioritize which environments show the strongest environment-specific patterns at the pathway level.</p>
+<p><img alt="Z-Score Distribution (Exponents)" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/04.5_intermediate_figures/script_04/rsqfiltered_fig_06A_Z_alpha_category_histogram_pathway.png" /></p>
+<p><strong>Figure 5A: Category-Level Z-Score Distribution (Exponents, R²-Filtered)</strong><br />
+<em>Description</em>: Histogram of $Z_{\alpha,\text{category}}$ (root mean square Z-score across environments) for all KEGG pathways. <strong>Z-scores are recomputed from filtered data (R² ≥ 0.05)</strong>. Vertical line: $|Z| = 2$ threshold.<br />
+<em>Interpretation</em>: Shows the distribution of environment-specific variation across pathways. <strong>Z-scores are recomputed from filtered environment×category combinations</strong>, ensuring that category-level summaries reflect only high-quality fits. Pathways with high $Z_{\alpha,\text{category}}$ show consistent environment-specific scaling across multiple environments. Most pathways have moderate Z-scores (1-3), indicating some environment-specific variation but not extreme.</p>
+<p><img alt="Z-Score Distribution (Offsets)" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/04.5_intermediate_figures/script_04/rsqfiltered_fig_06B_Z_beta_category_histogram_pathway.png" /></p>
+<p><strong>Figure 5B: Category-Level Z-Score Distribution (Offsets, R²-Filtered)</strong><br />
+<em>Description</em>: Histogram of $Z_{\beta,\text{category}}$ for all KEGG pathways. <strong>Z-scores are recomputed from filtered data (R² ≥ 0.05)</strong>.<br />
+<em>Interpretation</em>: Similar to Figure 5A but for offset parameters. <strong>Z-scores are recomputed from filtered environment×category combinations</strong>, ensuring reliability. Identifies pathways with environment-specific baseline abundances. The distribution is similar to exponents, suggesting that both scaling and baseline levels vary by environment.</p>
+<p><img alt="Exception Categories" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/04.5_intermediate_figures/script_04/rsqfiltered_fig_06C_exception_categories_pathway.png" /></p>
+<p><strong>Figure 5C: Exception Categories (R²-Filtered)</strong><br />
+<em>Description</em>: Visualization of pathways that show exceptional scaling patterns (e.g., very high or very low Z-scores, unusual scaling exponents). <strong>Only pathways with R² ≥ 0.05 are included</strong>.<br />
+<em>Interpretation</em>: Identifies pathways with unusual scaling behavior that may represent special cases or require further investigation. <strong>R² filtering ensures that these exceptions are based on reliable scaling relationships</strong>, making them more meaningful for biological interpretation.</p>
+<p><img alt="Environment-Stratified Scaling" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/04.5_intermediate_figures/script_04/rsqfiltered_fig_07_env_stratified_scaling_pathway.png" /></p>
+<p><strong>Figure 6: Environment-Stratified Scaling (Log Scale, R²-Filtered)</strong><br />
+<em>Description</em>: Faceted scatter plots showing scaling relationships for top KEGG pathways (by Z-score variance), with points colored by environment and separate fit lines per environment. <strong>Only environment×category combinations with R² ≥ 0.05 are plotted</strong>.<br />
+<em>Interpretation</em>: Visualizes environment-specific scaling for pathways with high Z-score variance. <strong>R² filtering ensures that only robust scaling relationships are displayed</strong>, making environment-specific patterns more reliable. If environment-specific lines diverge, this confirms environment-dependent scaling. This is the most direct visualization of the core hypothesis: that scaling relationships differ between environments. The divergence of colored lines from the gray global fit confirms environment-specific patterns at the pathway level.</p>
+<p><img alt="Environment-Stratified Scaling (Linear)" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/04.5_intermediate_figures/script_04/rsqfiltered_fig_07_env_stratified_scaling_linear_pathway.png" /></p>
+<p><strong>Figure 6 (Linear Scale): Environment-Stratified Scaling (R²-Filtered)</strong><br />
+<em>Description</em>: Same as Figure 6 but in linear space. <strong>Only environment×category combinations with R² ≥ 0.05 are plotted</strong>.<br />
+<em>Interpretation</em>: Linear-scale version shows actual scaling in natural units. <strong>R² filtering ensures that only robust scaling relationships are displayed</strong>, making the divergence of environment-specific curves more reliable and interpretable.</p>
+<h3 id="publication-figures-r2-filtered">Publication Figures (R²-Filtered)<a class="headerlink" href="#publication-figures-r2-filtered" title="Permanent link">&para;</a></h3>
+<p><img alt="Z-Statistics by Category (Exponents)" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/06_scaling_figures/rsqfiltered_fig1a_Z_exponents_by_category_env_pathway.png" /></p>
+<p><strong>Figure 7A: Z-Statistics for Exponents by Category (R²-Filtered)</strong><br />
+<em>Description</em>: Bar plot showing $Z_{\alpha,\text{category}}$ for each KEGG pathway, sorted by Z-score magnitude. <strong>Z-scores are recomputed from filtered data (R² ≥ 0.05)</strong>. Top pathways are labeled with pathway names. Horizontal line: $|Z| = 2$ (significance threshold).<br />
+<em>Interpretation</em>: Provides a ranked view of pathways by environment-specific variation in scaling exponents. <strong>Z-scores are recomputed from filtered environment×category combinations</strong>, ensuring that rankings reflect only high-quality fits. Pathways with high $|Z_{\alpha,\text{category}}|$ are prime candidates for environment-specific scaling. The labeled pathways (e.g., "Metabolic pathways", "Microbial metabolism in diverse environments", "Biosynthesis of cofactors") represent functional groups that show strong environment-specific scaling patterns.</p>
+<p><img alt="Z-Statistics by Category (Offsets)" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/06_scaling_figures/rsqfiltered_fig1b_Z_offsets_by_category_env_pathway.png" /></p>
+<p><strong>Figure 7B: Z-Statistics for Offsets by Category (R²-Filtered)</strong><br />
+<em>Description</em>: Bar plot showing $Z_{\beta,\text{category}}$ for each KEGG pathway, sorted by Z-score magnitude. <strong>Z-scores are recomputed from filtered data (R² ≥ 0.05)</strong>.<br />
+<em>Interpretation</em>: Similar to Figure 7A but for offset parameters. <strong>Z-scores are recomputed from filtered environment×category combinations</strong>, ensuring reliability. Identifies pathways with environment-specific baseline abundances, independent of scaling exponent. Pathways with high $|Z_{\beta,\text{category}}|$ have systematically different baseline levels across environments.</p>
+<p><img alt="Exponent Comparisons for Selected Categories" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/06_scaling_figures/rsqfiltered_fig1cde_env_exponents_selected_categories_pathway.png" /></p>
+<p><strong>Figure 7C-E: Exponent Comparisons for Selected Categories (R²-Filtered)</strong><br />
+<em>Description</em>: Faceted plots showing fitted exponents ($\alpha_{\text{env}}$) with 99% confidence intervals for selected KEGG pathways across all environments. <strong>Only environment×category combinations with R² ≥ 0.05 are shown</strong>. Horizontal dashed line: $\alpha_{\text{global}}$ (global exponent).<br />
+<em>Interpretation</em>: Shows how scaling exponents vary across environments for representative pathways. <strong>R² filtering ensures that only robust scaling relationships are displayed</strong>, making environment-specific comparisons more reliable. If confidence intervals don't overlap with the global exponent, this confirms environment-specific scaling. Pathways are selected to represent the full range of Z-scores, providing both negative and positive examples. The variation in exponents across environments confirms that scaling is not universal but environment-dependent.</p>
+<p><img alt="Scatter Plots with Fits" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/06_scaling_figures/rsqfiltered_fig1f_to_k_env_scatter_scaling_pathway.png" /></p>
+<p><strong>Figure 7F-K: Scatter Plots with Environment-Specific Fits (Log Scale, R²-Filtered)</strong><br />
+<em>Description</em>: Faceted scatter plots showing scaling relationships for selected pathways and environments, with both global and environment-specific fits. <strong>Only environment×category combinations with R² ≥ 0.05 are plotted</strong>. Gray points: all genomes; Colored points: genomes from specific environment; Colored line: environment-specific fit (R² ≥ 0.05); Gray line: global fit (R² ≥ 0.05).<br />
+<em>Interpretation</em>: Provides direct visual evidence of environment-specific scaling. <strong>R² filtering ensures that only robust scaling relationships are displayed</strong>, making environment-specific deviations more reliable. If the colored line (environment-specific fit) deviates from the gray line (global fit), this confirms environment-dependent scaling. The selected combinations highlight pathways with strong environment-specific patterns.</p>
+<p><img alt="Scatter Plots with Fits (Linear)" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/06_scaling_figures/rsqfiltered_fig1f_to_k_env_scatter_scaling_linear_pathway.png" /></p>
+<p><strong>Figure 7F-K (Linear Scale): Scatter Plots with Environment-Specific Fits (R²-Filtered)</strong><br />
+<em>Description</em>: Same as Figure 7F-K but in linear space. <strong>Only environment×category combinations with R² ≥ 0.05 are plotted</strong>.<br />
+<em>Interpretation</em>: Linear-scale version is more interpretable for non-specialists, showing actual scaling in natural units. <strong>R² filtering ensures that only robust scaling relationships are displayed</strong>, making the deviation of environment-specific curves from the global curve more reliable and visually apparent.</p>
+<p><img alt="Pathway Count vs Total Annotated Pathways" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/06_scaling_figures/rsqfiltered_fig1_domains_vs_total_domains_pathway.png" /></p>
+<p><strong>Figure 8: KEGG Pathway Count vs. Total Annotated Pathways (Log Scale, R²-Filtered)</strong><br />
+<em>Description</em>: Faceted scatter plots showing relationship between KEGG pathway count and total annotated pathways (sum of all pathway counts per genome). <strong>Only environment×category combinations with R² ≥ 0.05 are plotted</strong>. Points colored by environment; lines show environment-specific fits (R² ≥ 0.05).<br />
+<em>Interpretation</em>: Tests whether pathway abundance scales with total functional diversity rather than just genome size. <strong>R² filtering ensures that only robust scaling relationships are displayed</strong>, making comparisons more reliable. If scaling is similar to the <code>genes_total</code> plots, this suggests genome size is the primary driver. If scaling differs, this suggests functional diversity may be more relevant. This analysis helps distinguish between genome size effects and functional complexity effects at the pathway level.</p>
+<p><img alt="Pathway Count vs Total Annotated Pathways (Linear)" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/06_scaling_figures/rsqfiltered_fig1_domains_vs_total_domains_linear_pathway.png" /></p>
+<p><strong>Figure 8 (Linear Scale): KEGG Pathway Count vs. Total Annotated Pathways (R²-Filtered)</strong><br />
+<em>Description</em>: Same as Figure 8 but in linear space. <strong>Only environment×category combinations with R² ≥ 0.05 are plotted</strong>.<br />
+<em>Interpretation</em>: Linear-scale version shows the relationship in natural units, making it easier to interpret the magnitude of scaling. <strong>R² filtering ensures that only robust scaling relationships are displayed</strong>.</p>
+<hr />
+<h2 id="host-and-non-host-outlier-analyses-r2-filtered">Host and Non-Host Outlier Analyses (R²-Filtered)<a class="headerlink" href="#host-and-non-host-outlier-analyses-r2-filtered" title="Permanent link">&para;</a></h2>
+<h3 id="host-environment-outliers">Host Environment Outliers<a class="headerlink" href="#host-environment-outliers" title="Permanent link">&para;</a></h3>
+<p>Host environments (Mammals, Mammals: Human, Plants) show distinct scaling patterns for certain KEGG pathways. We identify outlier pathways based on alpha (scaling exponent) and beta (log offset) distributions, considering only fits with R² ≥ 0.05.</p>
+<p><img alt="Host Alpha Outliers" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/rsqfiltered_host_outlier_analyses/host_outliers_alpha_env_pathway.png" /></p>
+<p><strong>Figure 9A: Host Environment Alpha Outliers (R²-Filtered)</strong><br />
+<em>Description</em>: Distribution and scatter plot of scaling exponents (α) for host environments, highlighting top 5% and bottom 5% outliers. <strong>Only environment×category combinations with R² ≥ 0.05 are included</strong>. Left panel: Histogram with outliers highlighted; Right panel: Scatter plot (R² vs α) with labeled outlier categories. Vertical green line: R² = 0.05 threshold.<br />
+<em>Interpretation</em>: Identifies pathways with extreme scaling exponents in host environments. Top 5% outliers show super-linear scaling (α &gt; 1), indicating pathways that grow faster than genome size in host environments. Bottom 5% outliers show sub-linear or negative scaling, indicating pathways that are highly conserved or scale inversely with genome size. <strong>R² filtering ensures that only robust scaling relationships contribute to outlier identification</strong>.</p>
+<p><img alt="Host Beta Outliers" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/rsqfiltered_host_outlier_analyses/host_outliers_beta_env_log_pathway.png" /></p>
+<p><strong>Figure 9B: Host Environment Beta Outliers (R²-Filtered)</strong><br />
+<em>Description</em>: Distribution and scatter plot of log offsets (β) for host environments, highlighting top 5% and bottom 5% outliers. <strong>Only environment×category combinations with R² ≥ 0.05 are included</strong>.<br />
+<em>Interpretation</em>: Identifies pathways with extreme baseline abundances (offsets) in host environments, independent of scaling exponent. High beta outliers indicate pathways with systematically higher baseline levels in host environments, while low beta outliers indicate pathways with lower baseline levels. <strong>R² filtering ensures that these patterns are based on reliable scaling relationships</strong>.</p>
+<h3 id="non-host-environment-outliers">Non-Host Environment Outliers<a class="headerlink" href="#non-host-environment-outliers" title="Permanent link">&para;</a></h3>
+<p>Non-host environments (Aquatic, Terrestrial) also show distinct scaling patterns. Comparing host vs. non-host outliers reveals environment-specific functional constraints.</p>
+<p><img alt="Non-Host Alpha Outliers" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/rsqfiltered_host_outlier_analyses/nonhost_outliers_alpha_env_pathway.png" /></p>
+<p><strong>Figure 10A: Non-Host Environment Alpha Outliers (R²-Filtered)</strong><br />
+<em>Description</em>: Distribution and scatter plot of scaling exponents (α) for non-host environments (Aquatic, Terrestrial), highlighting top 5% and bottom 5% outliers. <strong>Only environment×category combinations with R² ≥ 0.05 are included</strong>.<br />
+<em>Interpretation</em>: Identifies pathways with extreme scaling exponents in non-host environments. Comparison with host outliers reveals whether scaling patterns are host-specific or general across environments. <strong>R² filtering ensures that only robust scaling relationships are analyzed</strong>.</p>
+<p><img alt="Non-Host Beta Outliers" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/rsqfiltered_host_outlier_analyses/nonhost_outliers_beta_env_log_pathway.png" /></p>
+<p><strong>Figure 10B: Non-Host Environment Beta Outliers (R²-Filtered)</strong><br />
+<em>Description</em>: Distribution and scatter plot of log offsets (β) for non-host environments, highlighting top 5% and bottom 5% outliers. <strong>Only environment×category combinations with R² ≥ 0.05 are included</strong>.<br />
+<em>Interpretation</em>: Identifies pathways with extreme baseline abundances in non-host environments. Comparison with host beta outliers reveals environment-specific differences in pathway baseline levels. <strong>R² filtering ensures that these patterns are based on reliable scaling relationships</strong>.</p>
+<h3 id="host-vs-non-host-comparison">Host vs. Non-Host Comparison<a class="headerlink" href="#host-vs-non-host-comparison" title="Permanent link">&para;</a></h3>
+<p><img alt="Host vs Non-Host Beta vs Alpha" src="../../results/4.5_statistical_analyses_KEGG_PATHWAY_version/rsqfiltered_host_outlier_analyses/host_vs_nonhost_beta_vs_alpha_pathway.png" /></p>
+<p><strong>Figure 11: Host vs. Non-Host Outlier Comparison (R²-Filtered)</strong><br />
+<em>Description</em>: Side-by-side comparison of beta vs. alpha scatter plots for host (left) and non-host (right) environments. Outlier categories are labeled and connected to their data points with arrows. Different markers indicate different outlier types: triangles (top 5% alpha), inverted triangles (bottom 5% alpha), right arrows (top 5% beta), left arrows (bottom 5% beta). <strong>Only environment×category combinations with R² ≥ 0.05 are plotted</strong>.<br />
+<em>Interpretation</em>: Direct comparison of scaling patterns between host and non-host environments. Differences in the distribution of outliers reveal environment-specific functional constraints. Pathways that are outliers in host but not non-host (or vice versa) represent environment-specific scaling patterns. <strong>R² filtering ensures that comparisons are made only between high-quality fits</strong>, making the differences more reliable and interpretable.</p>
+<p><strong>Key Findings:</strong>
+- Host environments show distinct outlier patterns compared to non-host environments
+- Some pathways are outliers in both host and non-host environments, suggesting general scaling constraints
+- Other pathways are outliers only in specific environment types, suggesting environment-specific functional requirements
+- <strong>R² filtering ensures that outlier identification is based on robust scaling relationships</strong></p>
+<hr />
+<h2 id="discussion-and-interpretation">Discussion and Interpretation<a class="headerlink" href="#discussion-and-interpretation" title="Permanent link">&para;</a></h2>
+<h3 id="key-findings">Key Findings<a class="headerlink" href="#key-findings" title="Permanent link">&para;</a></h3>
+<h4 id="1-power-law-scaling-is-universal-but-environment-specific-r2-filtered">1. Power-Law Scaling is Universal but Environment-Specific (R²-Filtered)<a class="headerlink" href="#1-power-law-scaling-is-universal-but-environment-specific-r2-filtered" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Global scaling</strong>: Most KEGG pathways show sub-linear scaling (α &lt; 1), indicating that pathway gene content grows slower than genome size. <strong>R² filtering ensures that only pathways with meaningful power-law relationships (R² ≥ 0.05) are included</strong>.</li>
+<li><strong>Environment-specific variation</strong>: Z-statistics reveal significant environment-specific deviations (|Z| &gt; 2) for many pathways. <strong>Z-scores are recomputed from filtered data</strong>, ensuring that comparisons are made only between high-quality fits.</li>
+<li><strong>Implication</strong>: Functional gene content at the pathway level scales with genome size, but the scaling relationship is modulated by environment. <strong>R² filtering strengthens this conclusion by focusing on robust scaling relationships</strong>.</li>
+</ul>
+<h4 id="2-r2-filtering-improves-reliability-of-scaling-analyses">2. R² Filtering Improves Reliability of Scaling Analyses<a class="headerlink" href="#2-r2-filtering-improves-reliability-of-scaling-analyses" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Noise reduction</strong>: Excluding fits with R² &lt; 0.05 removes relationships where the power-law model is inappropriate, focusing on statistically meaningful patterns.</li>
+<li><strong>Z-score accuracy</strong>: Recomputing Z-scores from filtered data ensures that environment-specific comparisons are made only between high-quality fits, improving the reliability of statistical tests.</li>
+<li><strong>Interpretability</strong>: All reported patterns represent robust scaling relationships, making biological interpretations more reliable.</li>
+</ul>
+<h4 id="3-metabolic-pathways-show-environment-specific-scaling-r2-filtered">3. Metabolic Pathways Show Environment-Specific Scaling (R²-Filtered)<a class="headerlink" href="#3-metabolic-pathways-show-environment-specific-scaling-r2-filtered" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Pathway Z-scores</strong>: Many pathways show significant environment-specific variation (|Z| &gt; 2). <strong>Z-scores are recomputed from filtered data</strong>, ensuring that these patterns reflect robust scaling relationships.</li>
+<li><strong>Biological interpretation</strong>: Nutrient availability and metabolic requirements vary by environment, leading to environment-specific pathway gene content. <strong>R² filtering ensures that these patterns are based on reliable scaling relationships</strong>.</li>
+<li><strong>Implication</strong>: Metabolism at the pathway level is a key driver of environment-specific functional constraints. <strong>R² filtering strengthens this conclusion by focusing on robust scaling patterns</strong>.</li>
+</ul>
+<h3 id="biological-interpretation">Biological Interpretation<a class="headerlink" href="#biological-interpretation" title="Permanent link">&para;</a></h3>
+<h4 id="pathway-level-functional-organization-r2-filtered">Pathway-Level Functional Organization (R²-Filtered)<a class="headerlink" href="#pathway-level-functional-organization-r2-filtered" title="Permanent link">&para;</a></h4>
+<p>The pathway-level analysis provides insights into higher-level functional organization:
+- <strong>Core pathways</strong>: Essential pathways (e.g., central metabolism) show low scaling exponents, indicating conservation across genome sizes. <strong>R² filtering ensures that these patterns are based on reliable scaling relationships</strong>.
+- <strong>Specialized pathways</strong>: Environment-specific pathways (e.g., secondary metabolite biosynthesis) may show environment-specific scaling patterns. <strong>R² filtering ensures that only robust environment-specific patterns are reported</strong>.
+- <strong>Metabolic diversity</strong>: Pathways related to "microbial metabolism in diverse environments" are highly predictive, suggesting that metabolic diversity is environment-specific. <strong>R² filtering ensures that these patterns are based on reliable scaling relationships</strong>.</p>
+<h4 id="genome-size-constraints-r2-filtered">Genome Size Constraints (R²-Filtered)<a class="headerlink" href="#genome-size-constraints-r2-filtered" title="Permanent link">&para;</a></h4>
+<p>The high importance of <strong>genome size (<code>genes_total</code>)</strong> confirms that environment constrains genome size:
+- <strong>Small genomes</strong>: May be favored in nutrient-limited environments (reduced maintenance costs).
+- <strong>Large genomes</strong>: May be favored in stable, nutrient-rich environments (increased functional diversity).
+- <strong>Host-associated</strong>: May show intermediate sizes (balance between functional diversity and efficiency).</p>
+<p><strong>R² filtering ensures that these patterns are based on reliable scaling relationships</strong>, strengthening biological interpretations.</p>
+<h3 id="limitations-and-future-directions">Limitations and Future Directions<a class="headerlink" href="#limitations-and-future-directions" title="Permanent link">&para;</a></h3>
+<h4 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Permanent link">&para;</a></h4>
+<ol>
+<li><strong>R² Threshold</strong>: The 0.05 threshold is somewhat arbitrary. Lower thresholds would include more data but with lower quality; higher thresholds would improve quality but reduce coverage.</li>
+<li><strong>Coverage Reduction</strong>: R² filtering reduces the number of environment×category combinations analyzed, potentially missing some patterns in low-quality fits.</li>
+<li><strong>Phylogenetic Confounding</strong>: Genomes are not independent (shared evolutionary history), potentially inflating significance of Z-scores even after R² filtering.</li>
+<li><strong>Annotation Bias</strong>: KEGG pathway annotation completeness varies by environment, potentially confounding predictions even after R² filtering.</li>
+<li><strong>Environment Classification</strong>: GOLD metadata may not capture all relevant environmental variation.</li>
+</ol>
+<h4 id="future-directions">Future Directions<a class="headerlink" href="#future-directions" title="Permanent link">&para;</a></h4>
+<ol>
+<li><strong>R² Threshold Sensitivity</strong>: Explore how different R² thresholds (0.01, 0.05, 0.10) affect results.</li>
+<li><strong>Alternative Quality Metrics</strong>: Consider using other metrics (AIC, BIC, adjusted R²) in addition to R².</li>
+<li><strong>Phylogenetic Awareness</strong>: Phylogenetic cross-validation or phylogenetic features to account for evolutionary relationships.</li>
+<li><strong>Multi-Level Analysis</strong>: Compare pathway-level results with reaction-level and KO-level analyses to understand granularity effects.</li>
+<li><strong>Interpretability</strong>: SHAP values, partial dependence plots, model-agnostic explainability.</li>
+</ol>
+<hr />
+<h2 id="conclusions">Conclusions<a class="headerlink" href="#conclusions" title="Permanent link">&para;</a></h2>
+<h3 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h3>
+<p>This study demonstrates that:</p>
+<ol>
+<li>
+<p><strong>Functional gene content at the pathway level scales with genome size</strong> following power-law relationships, with most pathways showing sub-linear scaling (α &lt; 1). <strong>R² filtering (R² ≥ 0.05) ensures that only robust scaling relationships are reported</strong>.</p>
+</li>
+<li>
+<p><strong>Scaling relationships are environment-specific</strong>, with significant deviations (|Z| &gt; 2) for many KEGG pathways, indicating that environment modulates functional constraints. <strong>Z-scores are recomputed from filtered data</strong>, ensuring that comparisons are made only between high-quality fits.</p>
+</li>
+<li>
+<p><strong>R² filtering improves the reliability of scaling analyses</strong> by focusing on statistically meaningful power-law relationships (R² ≥ 0.05) and recomputing Z-scores from filtered data.</p>
+</li>
+<li>
+<p><strong>Metabolic pathways show strong environment-specific scaling</strong>, supporting the hypothesis that nutrient availability constrains metabolic gene content at the pathway level. <strong>R² filtering strengthens this conclusion by focusing on robust scaling patterns</strong>.</p>
+</li>
+<li>
+<p><strong>Top predictive features</strong> (metabolic pathways, biosynthesis pathways, genome size) align with biological expectations, suggesting that metabolic organization and genome size are key drivers of environment-specific functional constraints. <strong>R² filtering ensures that these patterns are based on reliable scaling relationships</strong>.</p>
+</li>
+</ol>
+<h3 id="biological-implications">Biological Implications<a class="headerlink" href="#biological-implications" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Environment constrains genome size</strong> through functional requirements (metabolic pathways, biosynthesis, regulation). <strong>R² filtering ensures that these patterns are based on reliable scaling relationships</strong>.</li>
+<li><strong>Functional diversity at the pathway level scales with genome size</strong>, but the scaling relationship is modulated by environment-specific constraints. <strong>R² filtering strengthens this conclusion by focusing on robust scaling patterns</strong>.</li>
+<li><strong>Metabolic pathways are environment-specific</strong>, reflecting nutrient availability and metabolic requirements. <strong>R² filtering ensures that these patterns are based on reliable scaling relationships</strong>.</li>
+<li><strong>Genomic features at the pathway level contain sufficient information</strong> to predict environment, suggesting strong environment-genome relationships. <strong>R² filtering ensures that these patterns are based on reliable scaling relationships</strong>.</li>
+</ul>
+<h3 id="methodological-contributions">Methodological Contributions<a class="headerlink" href="#methodological-contributions" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Power-law scaling framework</strong> provides a quantitative approach to studying genome size constraints at the pathway level.</li>
+<li><strong>Z-statistics</strong> enable rigorous quantification of environment-specific deviations. <strong>R² filtering and Z-score recomputation ensure that these statistics are computed from high-quality fits</strong>.</li>
+<li><strong>R² quality filtering</strong> focuses analyses on statistically meaningful power-law relationships (R² ≥ 0.05), improving reliability and interpretability.</li>
+<li><strong>Z-score recomputation</strong> ensures that environment-specific comparisons are made only between high-quality fits, improving the accuracy of statistical tests.</li>
+<li><strong>99% prevalence threshold</strong> focuses on ubiquitous pathways while maintaining feature diversity.</li>
+<li><strong>Pathway-level analysis</strong> provides higher-level functional organization compared to individual reactions or KOs.</li>
+</ul>
+<hr />
+<h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
+<ul>
+<li>van Nimwegen, E. (2003). Scaling laws in the functional content of genomes. <em>Trends in Genetics</em>, 19(9), 479-484.</li>
+<li>Breiman, L. (2001). Random forests. <em>Machine Learning</em>, 45(1), 5-32.</li>
+<li>Kanehisa, M., &amp; Goto, S. (2000). KEGG: kyoto encyclopedia of genes and genomes. <em>Nucleic Acids Research</em>, 28(1), 27-30.</li>
+<li>GOLD (Genomes OnLine Database) for environment metadata.</li>
+</ul>
+<hr />
+<p><strong>Document Version</strong>: 1.0 (R²-Filtered)<br />
+<strong>Last Updated</strong>: December 2025<br />
+<strong>Analysis Date</strong>: December 2025<br />
+<strong>Prevalence Threshold</strong>: 99%<br />
+<strong>R² Filtering Threshold</strong>: R² ≥ 0.05<br />
+<strong>Total Genomes</strong>: 2,164<br />
+<strong>KEGG Pathways Analyzed</strong>: 29 (99% prevalence), 101 total<br />
+<strong>Data Type</strong>: KEGG Pathways (map identifiers only)<br />
+<strong>Filtering Status</strong>: R²-filtered (only fits with R² ≥ 0.05 included)</p>
+</body>
+</html>

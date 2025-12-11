@@ -268,3 +268,4 @@ If using this pipeline, please cite:
 **Last Updated:** December 2025  
 **Script:** 5.5_environment_prediction_via_genomesize_KEGG_PATHWAY_version
 
+

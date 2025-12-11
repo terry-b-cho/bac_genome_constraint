@@ -29,11 +29,21 @@ echo ""
 for DATA_TYPE in reactions ko pathway; do
     echo ""
     echo "================================================================================"
-    echo "Processing: ${DATA_TYPE}"
+    echo "Processing: ${DATA_TYPE} (normal)"
     echo "================================================================================"
     python 06_make_scaling_figures_single.py --data-type ${DATA_TYPE} ${TEST_MODE} ${PREVALENCE}
     if [ $? -ne 0 ]; then
-        echo "ERROR: Failed to process ${DATA_TYPE}"
+        echo "ERROR: Failed to process ${DATA_TYPE} (normal)"
+        exit 1
+    fi
+    
+    echo ""
+    echo "================================================================================"
+    echo "Processing: ${DATA_TYPE} (r² filtered)"
+    echo "================================================================================"
+    python 06_make_scaling_figures_single.py --data-type ${DATA_TYPE} ${TEST_MODE} ${PREVALENCE} --rsq-filtered
+    if [ $? -ne 0 ]; then
+        echo "ERROR: Failed to process ${DATA_TYPE} (r² filtered)"
         exit 1
     fi
 done

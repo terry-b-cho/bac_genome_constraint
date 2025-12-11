@@ -32,6 +32,8 @@ parser.add_argument('--data-type', type=str, required=True, choices=['reactions'
                     help='Data type to process: reactions, ko, or pathway')
 parser.add_argument('--prevalence-threshold', type=float, default=None,
                     help='Prevalence threshold (0-100) for KEGG term filtering (e.g., 95 for 95%%)')
+parser.add_argument('--rsq-filtered', action='store_true',
+                    help='Filter by r_squared >= 0.05 and add rsqfiltered_ prefix to outputs')
 args = parser.parse_args()
 
 # Get data type suffix and prefix
@@ -65,13 +67,16 @@ def save_figure(fig, filename):
     if not HAS_MATPLOTLIB:
         log_message(f"  ✗ Cannot save {filename}: matplotlib not available")
         return
+    # Add rsqfiltered_ prefix if filtering is enabled
+    rsq_prefix = "rsqfiltered_" if args.rsq_filtered else ""
     # Add suffix to filename
     if "." in filename:
         name_part, ext_part = filename.rsplit(".", 1)
         filename_with_suffix = f"{name_part}{suffix}.{ext_part}"
     else:
         filename_with_suffix = f"{filename}{suffix}"
-    filename_final = f"{prefix}{filename_with_suffix}" if prefix else filename_with_suffix
+    # Combine prefixes: rsqfiltered_ + prevalence_prefix + filename
+    filename_final = f"{rsq_prefix}{prefix}{filename_with_suffix}" if prefix else f"{rsq_prefix}{filename_with_suffix}"
     png_path = OUTPUT_DIR / f"{filename_final}.png"
     pdf_path = OUTPUT_DIR / f"{filename_final}.pdf"
     fig.savefig(png_path, bbox_inches='tight', dpi=300)
@@ -99,6 +104,8 @@ if args.test_mode:
     log_message("  TEST MODE: Generating subset of figures")
 if args.prevalence_threshold is not None:
     log_message(f"  PREVALENCE FILTER: {args.prevalence_threshold}%% threshold")
+if args.rsq_filtered:
+    log_message("  R² FILTERED MODE: Filtering by r_squared >= 0.05")
 if not HAS_MATPLOTLIB:
     log_message("  ✗ ERROR: matplotlib/seaborn required")
     sys.exit(1)
@@ -131,16 +138,168 @@ def get_kegg_label(category_id, max_length=50):
         label = label[:max_length-3] + "..."
     return label
 
+
+# ============================================================================
+# R-squared Filtering Functions
+# ============================================================================
+
+def recompute_z_scores(env_scaling, global_params):
+    """
+    Recompute Z-scores from filtered env_scaling and global_params.
+    
+    Returns:
+        tuple: (z_scores_df, category_z_df)
+    """
+    z_scores = []
+    
+    # Ensure category columns are strings
+    env_scaling['category'] = env_scaling['category'].astype(str)
+    global_params['category'] = global_params['category'].astype(str)
+    
+    for _, row in env_scaling.iterrows():
+        env = row['environment']
+        category = str(row['category'])
+        
+        # Get global parameters for this category
+        global_row = global_params[global_params['category'] == category]
+        if len(global_row) == 0:
+            continue
+        
+        global_row = global_row.iloc[0]
+        
+        # Get environment-specific parameters
+        alpha_env = row['alpha_env']
+        alpha_env_se = row['alpha_env_se']
+        beta_env_log = row['beta_env_log']
+        beta_env_log_se = row['beta_env_log_se']
+        
+        # Get global parameters
+        alpha_global = global_row['alpha_global']
+        alpha_global_se = global_row['alpha_global_se']
+        beta_global_log = global_row['beta_global_log']
+        beta_global_log_se = global_row['beta_global_log_se']
+        
+        # Compute Z-scores
+        z_alpha = np.nan
+        z_beta = np.nan
+        
+        if alpha_env_se > 0 and alpha_global_se > 0:
+            denominator_alpha = np.sqrt(alpha_env_se**2 + alpha_global_se**2)
+            if denominator_alpha > 0:
+                z_alpha = (alpha_env - alpha_global) / denominator_alpha
+        
+        if beta_env_log_se > 0 and beta_global_log_se > 0:
+            denominator_beta = np.sqrt(beta_env_log_se**2 + beta_global_log_se**2)
+            if denominator_beta > 0:
+                z_beta = (beta_env_log - beta_global_log) / denominator_beta
+        
+        # Skip if invalid
+        if np.isnan(z_alpha) or np.isinf(z_alpha) or np.isnan(z_beta) or np.isinf(z_beta):
+            continue
+        
+        z_scores.append({
+            'environment': env,
+            'category': category,
+            'Z_alpha': z_alpha,
+            'Z_beta': z_beta,
+            'n_genomes_used': row['n_genomes_used']
+        })
+    
+    z_scores_df = pd.DataFrame(z_scores)
+    
+    # Compute category-level aggregated Z-scores
+    category_z_summary = []
+    if len(z_scores_df) > 0:
+        for category in z_scores_df['category'].unique():
+            cat_z_scores = z_scores_df[z_scores_df['category'] == category].copy()
+            
+            if len(cat_z_scores) < 2:
+                continue
+            
+            z_alpha_squared = cat_z_scores['Z_alpha'] ** 2
+            z_beta_squared = cat_z_scores['Z_beta'] ** 2
+            
+            z_alpha_category = np.sqrt(np.mean(z_alpha_squared))
+            z_beta_category = np.sqrt(np.mean(z_beta_squared))
+            
+            n_envs_used = len(cat_z_scores)
+            
+            category_z_summary.append({
+                'category': category,
+                'Z_alpha_category': z_alpha_category,
+                'Z_beta_category': z_beta_category,
+                'n_envs_used': n_envs_used
+            })
+    
+    category_z_df = pd.DataFrame(category_z_summary) if len(category_z_summary) > 0 else pd.DataFrame()
+    
+    return z_scores_df, category_z_df
+
+
+def load_r_squared_filtered_categories(data_type, suffix, prefix, filter_type='both'):
+    """
+    Load categories and environment×category combinations that pass r_squared threshold.
+    
+    Args:
+        filter_type: 'global', 'env', or 'both'
+    
+    Returns:
+        tuple: (global_categories_set, env_categories_set, env_category_combos_df)
+               where env_category_combos_df is a DataFrame with 'environment' and 'category' columns
+    """
+    BASE_DIR = Path("/n/scratch/users/b/byc014/github/bac_genome_constraint")
+    MAPPING_DIR = BASE_DIR / "results/4.5_statistical_analyses_KEGG_PATHWAY_version/04.5_intermediate_figures"
+    
+    global_categories = set()
+    env_categories = set()
+    env_category_combos_df = None
+    
+    if filter_type in ['global', 'both']:
+        mapping_file_global = MAPPING_DIR / f"r_squared_pass_category_mapping_{data_type}_global.tsv"
+        if mapping_file_global.exists():
+            try:
+                mapping_df = pd.read_csv(mapping_file_global, sep='\t')
+                global_categories = set(mapping_df['category'].astype(str).unique())
+            except Exception as e:
+                print(f"  ⚠ Could not load global mapping: {e}")
+    
+    if filter_type in ['env', 'both']:
+        mapping_file_env = MAPPING_DIR / f"r_squared_pass_category_mapping_{data_type}_env.tsv"
+        if mapping_file_env.exists():
+            try:
+                mapping_df = pd.read_csv(mapping_file_env, sep='\t')
+                if 'environment' in mapping_df.columns and 'category' in mapping_df.columns:
+                    # Return the full DataFrame for environment×category filtering
+                    env_category_combos_df = mapping_df[['environment', 'category']].copy()
+                    env_category_combos_df['category'] = env_category_combos_df['category'].astype(str)
+                    env_categories = set(mapping_df['category'].astype(str).unique())
+                else:
+                    # Fallback: old format without environment column
+                    env_categories = set(mapping_df['category'].astype(str).unique())
+            except Exception as e:
+                print(f"  ⚠ Could not load env mapping: {e}")
+    
+    return global_categories, env_categories, env_category_combos_df
+
+
 log_message("Loading data...")
 try:
     CATEGORY_Z_FILE = BASE_DIR / f"results/4.5_statistical_analyses_KEGG_PATHWAY_version/04_env_scaling/{prefix}category_Z_summary{suffix}.tsv"
     ENV_SCALING_FILE = BASE_DIR / f"results/4.5_statistical_analyses_KEGG_PATHWAY_version/04_env_scaling/{prefix}env_scaling_params{suffix}.tsv"
-    GLOBAL_PARAMS_FILE = BASE_DIR / f"results/4.5_statistical_analyses_KEGG_PATHWAY_version/03_global_scaling/{prefix}global_scaling_params{suffix}.tsv"
+    # Try .tsv first, then .parquet for global params
+    GLOBAL_PARAMS_FILE_TSV = BASE_DIR / f"results/4.5_statistical_analyses_KEGG_PATHWAY_version/03_global_scaling/{prefix}global_scaling_params{suffix}.tsv"
+    GLOBAL_PARAMS_FILE_PARQUET = BASE_DIR / f"results/4.5_statistical_analyses_KEGG_PATHWAY_version/03_global_scaling/{prefix}global_scaling_params{suffix}.parquet"
     MASTER_TABLE_FILE = BASE_DIR / f"results/4.5_statistical_analyses_KEGG_PATHWAY_version/02_env_cohorts/{prefix}master_table_env_filtered{suffix}.tsv"
     
     category_z = pd.read_csv(CATEGORY_Z_FILE, sep='\t')
     env_scaling = pd.read_csv(ENV_SCALING_FILE, sep='\t')
-    global_params = pd.read_csv(GLOBAL_PARAMS_FILE, sep='\t')
+    # Try .tsv first, then .parquet
+    if GLOBAL_PARAMS_FILE_TSV.exists():
+        global_params = pd.read_csv(GLOBAL_PARAMS_FILE_TSV, sep='\t')
+    elif GLOBAL_PARAMS_FILE_PARQUET.exists():
+        global_params = pd.read_parquet(GLOBAL_PARAMS_FILE_PARQUET)
+    else:
+        raise FileNotFoundError(f"Neither {GLOBAL_PARAMS_FILE_TSV} nor {GLOBAL_PARAMS_FILE_PARQUET} found")
     master_table = pd.read_csv(MASTER_TABLE_FILE, sep='\t')
     
     log_message(f"  ✓ Loaded {len(kegg_labels_dict)} KEGG labels")
@@ -150,6 +309,77 @@ try:
     env_scaling['category'] = env_scaling['category'].astype(str)
     global_params['category'] = global_params['category'].astype(str)
     # KEGG category IDs don't need zero-filling
+    
+    # Filter by r_squared if enabled
+    env_category_combos_df = None
+    if args.rsq_filtered:
+        global_categories_set, env_categories_set, env_category_combos_df = load_r_squared_filtered_categories(args.data_type, suffix, prefix, filter_type='both')
+        if env_category_combos_df is not None and global_params is not None:
+            # Filter env_scaling at environment×category level
+            env_scaling['category'] = env_scaling['category'].astype(str)
+            env_scaling['environment'] = env_scaling['environment'].astype(str)
+            env_category_combos_df['category'] = env_category_combos_df['category'].astype(str)
+            env_category_combos_df['environment'] = env_category_combos_df['environment'].astype(str)
+            
+            # Merge to filter env_scaling to only passing environment×category combinations
+            env_scaling = env_scaling.merge(
+                env_category_combos_df[['environment', 'category']],
+                on=['environment', 'category'],
+                how='inner'
+            ).copy()
+            
+            # Filter global_params
+            global_params = global_params[global_params['category'].astype(str).isin(global_categories_set)].copy()
+            
+            log_message(f"  ✓ Filtered to {len(env_scaling)} env×category combinations with r² >= 0.05")
+            log_message(f"  ✓ ({len(env_categories_set)} unique categories, {len(global_categories_set)} in global)")
+            
+            # Recompute Z-scores from filtered data
+            log_message("  ✓ Recomputing Z-scores from filtered data...")
+            z_scores, category_z = recompute_z_scores(env_scaling, global_params)
+            log_message(f"  ✓ Recomputed {len(z_scores)} Z-scores and {len(category_z)} category summaries")
+            
+            # Save recomputed Z-scores to disk
+            z_scores_output_dir = BASE_DIR / "results/4.5_statistical_analyses_KEGG_PATHWAY_version/04_env_scaling"
+            z_scores_output_dir.mkdir(parents=True, exist_ok=True)
+            
+            z_scores_file = z_scores_output_dir / f"rsqfiltered_env_vs_global_Z_scores{suffix}.tsv"
+            category_z_file = z_scores_output_dir / f"rsqfiltered_category_Z_summary{suffix}.tsv"
+            
+            z_scores.to_csv(z_scores_file, sep='\t', index=False)
+            log_message(f"  ✓ Saved recomputed Z-scores: {z_scores_file.name}")
+            
+            category_z.to_csv(category_z_file, sep='\t', index=False)
+            log_message(f"  ✓ Saved recomputed category Z-scores: {category_z_file.name}")
+            
+            # Also filter master_table columns to only include passing categories
+            kegg_cols = get_kegg_columns(master_table, args.data_type)
+            passing_kegg_cols = [col for col in kegg_cols if col in env_categories_set]
+            # Keep metadata columns and passing KEGG columns
+            metadata_cols = [col for col in master_table.columns if col not in kegg_cols]
+            master_table = master_table[metadata_cols + passing_kegg_cols].copy()
+        elif env_category_combos_df is not None:
+            # Fallback: filter without recomputing if global_params not available
+            env_scaling['category'] = env_scaling['category'].astype(str)
+            env_scaling['environment'] = env_scaling['environment'].astype(str)
+            env_category_combos_df['category'] = env_category_combos_df['category'].astype(str)
+            env_category_combos_df['environment'] = env_category_combos_df['environment'].astype(str)
+            
+            env_scaling = env_scaling.merge(
+                env_category_combos_df[['environment', 'category']],
+                on=['environment', 'category'],
+                how='inner'
+            ).copy()
+            
+            category_z = category_z[category_z['category'].astype(str).isin(env_categories_set)].copy()
+            log_message(f"  ✓ Filtered to {len(env_scaling)} env×category combinations (Z-scores not recomputed)")
+            # Also filter master_table columns
+            kegg_cols = get_kegg_columns(master_table, args.data_type)
+            passing_kegg_cols = [col for col in kegg_cols if col in env_categories_set]
+            metadata_cols = [col for col in master_table.columns if col not in kegg_cols]
+            master_table = master_table[metadata_cols + passing_kegg_cols].copy()
+        else:
+            log_message("  ⚠ No environment×category combinations passed r² threshold, using all data")
     
     # Load metabolic GO terms (with prevalence prefix if applicable)
     base_name_metabolic = "metabolic_go_terms.txt"
@@ -436,6 +666,17 @@ try:
         
         # Get env-specific exponents for this category
         cat_env_data = env_scaling[env_scaling['category'] == cat].copy()
+        
+        # If filtering is enabled, only show environments that passed the threshold
+        if args.rsq_filtered and env_category_combos_df is not None:
+            cat_str = str(cat)
+            passing_combos = env_category_combos_df[
+                (env_category_combos_df['category'] == cat_str)
+            ]
+            if len(passing_combos) > 0:
+                passing_envs = set(passing_combos['environment'].unique())
+                cat_env_data = cat_env_data[cat_env_data['environment'].isin(passing_envs)].copy()
+        
         cat_env_data = cat_env_data.sort_values('environment')
         
         # Get global exponent
@@ -541,12 +782,32 @@ try:
         
         # Get environments that have data for this category
         cat_envs = env_scaling[env_scaling['category'] == cat_str]['environment'].unique()
+        
+        # If filtering is enabled, only use environments that passed the threshold
+        if args.rsq_filtered and env_category_combos_df is not None:
+            passing_combos = env_category_combos_df[
+                (env_category_combos_df['category'] == cat_str) & 
+                (env_category_combos_df['environment'].isin(cat_envs))
+            ]
+            if len(passing_combos) > 0:
+                passing_envs = set(passing_combos['environment'].unique())
+                cat_envs = [e for e in cat_envs if e in passing_envs]
+        
         # Use top environments that have data
         envs_to_plot = [e for e in top_envs if e in cat_envs][:n_envs_per_cat]
         
         for env_idx, env in enumerate(envs_to_plot):
             if panel_idx >= n_panels:
                 break
+            
+            # Check if this environment×category combination passed (if filtering enabled)
+            if args.rsq_filtered and env_category_combos_df is not None:
+                combo_passed = len(env_category_combos_df[
+                    (env_category_combos_df['category'] == cat_str) & 
+                    (env_category_combos_df['environment'] == env)
+                ]) > 0
+                if not combo_passed:
+                    continue  # Skip this environment for this category
             
             ax = axes[panel_idx]
             
@@ -662,12 +923,32 @@ try:
         
         # Get environments that have data for this category
         cat_envs = env_scaling[env_scaling['category'] == cat_str]['environment'].unique()
+        
+        # If filtering is enabled, only use environments that passed the threshold
+        if args.rsq_filtered and env_category_combos_df is not None:
+            passing_combos = env_category_combos_df[
+                (env_category_combos_df['category'] == cat_str) & 
+                (env_category_combos_df['environment'].isin(cat_envs))
+            ]
+            if len(passing_combos) > 0:
+                passing_envs = set(passing_combos['environment'].unique())
+                cat_envs = [e for e in cat_envs if e in passing_envs]
+        
         # Use top environments that have data
         envs_to_plot = [e for e in top_envs if e in cat_envs][:n_envs_per_cat]
         
         for env_idx, env in enumerate(envs_to_plot):
             if panel_idx_linear >= n_panels:
                 break
+            
+            # Check if this environment×category combination passed (if filtering enabled)
+            if args.rsq_filtered and env_category_combos_df is not None:
+                combo_passed = len(env_category_combos_df[
+                    (env_category_combos_df['category'] == cat_str) & 
+                    (env_category_combos_df['environment'] == env)
+                ]) > 0
+                if not combo_passed:
+                    continue  # Skip this environment for this category
             
             ax = axes_linear[panel_idx_linear]
             
@@ -801,11 +1082,31 @@ try:
         
         # Get environments that have data for this category
         cat_envs = env_scaling[env_scaling['category'] == cat_str]['environment'].unique()
+        
+        # If filtering is enabled, only use environments that passed the threshold
+        if args.rsq_filtered and env_category_combos_df is not None:
+            passing_combos = env_category_combos_df[
+                (env_category_combos_df['category'] == cat_str) & 
+                (env_category_combos_df['environment'].isin(cat_envs))
+            ]
+            if len(passing_combos) > 0:
+                passing_envs = set(passing_combos['environment'].unique())
+                cat_envs = [e for e in cat_envs if e in passing_envs]
+        
         envs_to_plot = [e for e in top_envs if e in cat_envs][:n_envs_per_cat]
         
         for env_idx, env in enumerate(envs_to_plot):
             if panel_idx_domains >= n_panels:
                 break
+            
+            # Check if this environment×category combination passed (if filtering enabled)
+            if args.rsq_filtered and env_category_combos_df is not None:
+                combo_passed = len(env_category_combos_df[
+                    (env_category_combos_df['category'] == cat_str) & 
+                    (env_category_combos_df['environment'] == env)
+                ]) > 0
+                if not combo_passed:
+                    continue  # Skip this environment for this category
             
             ax = axes_domains[panel_idx_domains]
             
@@ -912,11 +1213,31 @@ try:
     for cat_idx, cat in enumerate(selected_cats[:n_cats_to_plot]):
         cat_str = str(cat)
         cat_envs = env_scaling[env_scaling['category'] == cat_str]['environment'].unique()
+        
+        # If filtering is enabled, only use environments that passed the threshold
+        if args.rsq_filtered and env_category_combos_df is not None:
+            passing_combos = env_category_combos_df[
+                (env_category_combos_df['category'] == cat_str) & 
+                (env_category_combos_df['environment'].isin(cat_envs))
+            ]
+            if len(passing_combos) > 0:
+                passing_envs = set(passing_combos['environment'].unique())
+                cat_envs = [e for e in cat_envs if e in passing_envs]
+        
         envs_to_plot = [e for e in top_envs if e in cat_envs][:n_envs_per_cat]
         
         for env_idx, env in enumerate(envs_to_plot):
             if panel_idx_domains_linear >= n_panels:
                 break
+            
+            # Check if this environment×category combination passed (if filtering enabled)
+            if args.rsq_filtered and env_category_combos_df is not None:
+                combo_passed = len(env_category_combos_df[
+                    (env_category_combos_df['category'] == cat_str) & 
+                    (env_category_combos_df['environment'] == env)
+                ]) > 0
+                if not combo_passed:
+                    continue  # Skip this environment for this category
             
             ax = axes_domains_linear[panel_idx_domains_linear]
             

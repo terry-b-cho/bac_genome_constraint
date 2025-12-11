@@ -29,6 +29,8 @@ parser.add_argument('--data-type', type=str, required=True, choices=['reactions'
                     help='Data type to process')
 parser.add_argument('--prevalence-threshold', type=float, default=None,
                     help='Prevalence threshold (0-100) for GO term filtering (e.g., 95 for 95%%)')
+parser.add_argument('--rsq-filtered', action='store_true',
+                    help='Filter by r_squared >= 0.05 and add rsqfiltered_ prefix to outputs')
 args = parser.parse_args()
 
 # Get data type suffix
@@ -104,6 +106,8 @@ if args.test_mode:
     log_message("  TEST MODE: Processing small subset only")
 if args.prevalence_threshold is not None:
     log_message(f"  PREVALENCE FILTER: {args.prevalence_threshold}%% threshold")
+if args.rsq_filtered:
+    log_message("  R² FILTERED MODE: Filtering by r_squared >= 0.05")
 log_message("=" * 80)
 log_message("")
 
@@ -409,15 +413,32 @@ log_message("=" * 80)
 
 # Write tf_mobile_scaling_params.tsv
 all_results_df = pd.DataFrame(global_results + env_results)
+
+# Filter by r_squared if enabled
+if args.rsq_filtered:
+    original_count = len(all_results_df)
+    all_results_df = all_results_df[all_results_df['r_squared'] >= 0.05].copy()
+    log_message(f"  ✓ Filtered from {original_count} to {len(all_results_df)} fits (r² >= 0.05)")
+    # Also filter z_scores_df to only include passing category+environment combinations
+    if 'category' in z_scores_df.columns and 'environment' in z_scores_df.columns:
+        # Create set of (category, environment) tuples that passed
+        passing_combos = set(zip(all_results_df['category'], all_results_df['environment']))
+        original_z_count = len(z_scores_df)
+        z_scores_df = z_scores_df[z_scores_df.apply(
+            lambda row: (row['category'], row['environment']) in passing_combos, axis=1
+        )].copy()
+        log_message(f"  ✓ Filtered Z-scores from {original_z_count} to {len(z_scores_df)}")
+
 prefix = get_prevalence_prefix(args.prevalence_threshold)
+rsq_prefix = "rsqfiltered_" if args.rsq_filtered else ""
 base_name_params = f"tf_mobile_scaling_params_test{suffix}.tsv" if args.test_mode else f"tf_mobile_scaling_params{suffix}.tsv"
-output_file_params = f"{prefix}{base_name_params}" if prefix else base_name_params
+output_file_params = f"{rsq_prefix}{prefix}{base_name_params}" if prefix else f"{rsq_prefix}{base_name_params}"
 all_results_df.to_csv(OUTPUT_DIR / output_file_params, sep='\t', index=False)
 log_message(f"  ✓ {output_file_params}: {len(all_results_df)} fits")
 
 # Write tf_mobile_env_Z_scores.tsv
 base_name_z = f"tf_mobile_env_Z_scores_test{suffix}.tsv" if args.test_mode else f"tf_mobile_env_Z_scores{suffix}.tsv"
-output_file_z = f"{prefix}{base_name_z}" if prefix else base_name_z
+output_file_z = f"{rsq_prefix}{prefix}{base_name_z}" if prefix else f"{rsq_prefix}{base_name_z}"
 z_scores_df.to_csv(OUTPUT_DIR / output_file_z, sep='\t', index=False)
 log_message(f"  ✓ {output_file_z}: {len(z_scores_df)} Z-scores")
 

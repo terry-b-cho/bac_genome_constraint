@@ -245,3 +245,4 @@ The pipeline supports two approaches:
 - Consider whether all intermediate figures are needed or if a subset would suffice
 - The plotting scripts may benefit from refactoring to reduce duplication
 
+
