@@ -166,3 +166,4 @@ ax.set_title(cat_label, fontsize=9, weight='bold')
 **The label lookup issue is now fully resolved. All figures display human-readable KEGG names in titles, row labels, and axis labels.**
 
 
+

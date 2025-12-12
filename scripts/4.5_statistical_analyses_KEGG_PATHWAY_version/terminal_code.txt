@@ -1,0 +1,455 @@
+Python 3.14.0 | packaged by conda-forge | (main, Oct  7 2025, 20:07:29) [GCC 14.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+Ctrl click to launch VS Code Native REPL
+>>> import pandas as pd
+>>> import numpy as np
+>>> df = pd.read_csv("/n/scratch/users/b/byc014/github/bac_genome_constraint/results/4.5_statistical_analyses_KEGG_PATHWAY_version/04_env_scaling/env_scaling_params_pathway.tsv", sep="\t")
+>>> df = df[df["r_squared"] > 0.05]
+>>> zdf = pd.read_csv("/n/scratch/users/b/byc014/github/bac_genome_constraint/results/4.5_statistical_analyses_KEGG_PATHWAY_version/04_env_scaling/category_Z_summary_pathway.tsv", sep="\t")
+>>> zdf = pd.read_csv("/n/scratch/users/b/byc014/github/bac_genome_constraint/results/4.5_statistical_analyses_KEGG_PATHWAY_version/04_env_scaling/category_Z_summary_pathway.tsv", sep="\t", index="category")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    zdf = pd.read_csv("/n/scratch/users/b/byc014/github/bac_genome_constraint/results/4.5_statistical_analyses_KEGG_PATHWAY_version/04_env_scaling/category_Z_summary_pathway.tsv", sep="\t", index="category")
+TypeError: read_csv() got an unexpected keyword argument 'index'
+>>> zdf = pd.read_csv("/n/scratch/users/b/byc014/github/bac_genome_constraint/results/4.5_statistical_analyses_KEGG_PATHWAY_version/04_env_scaling/category_Z_summary_pathway.tsv", sep="\t", index_col="category")
+>>> zdf
+          Z_alpha_category  Z_beta_category  n_envs_used
+category                                                
+map00010          2.498628         2.516339            8
+map00020          1.268877         1.274150            8
+map00030          2.120034         2.187119            8
+map00040          1.377181         1.422904            8
+map00051          1.672633         1.658104            8
+...                    ...              ...          ...
+map01232          1.780956         1.801648            8
+map01240          3.019989         3.037307            8
+map01250          1.835838         1.840289            8
+map01310          1.690240         1.717237            7
+map01320          1.638184         1.584926            7
+
+[95 rows x 3 columns]
+>>> zdf.sort_values("Z_alpha_category", ascending=False, inplace=True)
+>>> zs = []
+>>> alpha_avg_host = []
+>>> alpha_avg_envt = []
+>>> difference = []
+>>> for cat, Z in zdf.iterrows():
+...     dslice = df[df["category"] == cat]
+...     host_rows = dslice[dslice["environment"].isin(["Mammals: Human", "Mammals", "Plants"])]
+...     envt_rows = dslice[dslice["environment"].isin(["Aquatic", "Terrestrial"])]
+...     zs.append(Z.at[cat, "Z_alpha_category"])
+...     alpha_avg_host.append(host_rows["alpha_env"].mean())
+...     alpha_avg_envt.append(envt_rows["alpha_env"].mean())
+... 
+Traceback (most recent call last):
+  File "/home/aip485/.conda/envs/pangenome/lib/python3.14/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: ('map01110', 'Z_alpha_category')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<stdin>", line 5, in <module>
+    zs.append(Z.at[cat, "Z_alpha_category"])
+              ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aip485/.conda/envs/pangenome/lib/python3.14/site-packages/pandas/core/indexing.py", line 2576, in __getitem__
+    return super().__getitem__(key)
+           ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/home/aip485/.conda/envs/pangenome/lib/python3.14/site-packages/pandas/core/indexing.py", line 2528, in __getitem__
+    return self.obj._get_value(*key, takeable=self._takeable)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aip485/.conda/envs/pangenome/lib/python3.14/site-packages/pandas/core/series.py", line 1249, in _get_value
+    loc = self.index.get_loc(label)
+  File "/home/aip485/.conda/envs/pangenome/lib/python3.14/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: ('map01110', 'Z_alpha_category')
+>>> for cat, Z in zdf.iterrows():
+...     print(Z["Z_alpha_category"])
+... 
+5.157813258008972
+4.6206509845465416
+4.226052335988594
+4.105229310002646
+3.6431455394854746
+3.53284499901693
+3.308402013759236
+3.1052167159765345
+3.0499829166764574
+3.019989293907304
+2.8837294978823484
+2.7305110778298944
+2.7250287606125463
+2.669768545071681
+2.536749595290889
+2.5187533321561024
+2.5124699965888166
+2.498627800304825
+2.4080708854373927
+2.3746126513350183
+2.366330881838747
+2.323268681278274
+2.299703187402601
+2.260422669784083
+2.258391950492668
+2.248733204289165
+2.2350953554803894
+2.2004951057037103
+2.176081846628638
+2.1455695361884355
+2.1200341168354884
+2.0893377084376348
+2.081159396516348
+2.0637623742887943
+2.026876558399946
+1.9876430306255308
+1.98648869344834
+1.9815105433288345
+1.968670797030822
+1.968169683789306
+1.951447427178177
+1.9301430267410653
+1.8937857022543505
+1.8911866927417336
+1.8547639962531843
+1.8358383363603343
+1.8301964179855417
+1.8064251796261923
+1.7809562481822234
+1.734753884222138
+1.7332904481609603
+1.7221508946637911
+1.7001244390266592
+1.6902397475325914
+1.6726332660078995
+1.653079671356317
+1.6381838455238136
+1.5797414140532438
+1.5723113965424538
+1.547393298418106
+1.5345655652975485
+1.53332381616987
+1.5171859725568049
+1.508673622209168
+1.449952916681826
+1.4053756378169022
+1.381833340371926
+1.3771812270934043
+1.2688770508692229
+1.2581627090308158
+1.2448068854712029
+1.2185205772953187
+1.1607849310507206
+1.1549860001680452
+1.119374658051134
+1.047910816662084
+1.047910816662084
+1.029174820596048
+1.017048597528688
+0.9874701455874833
+0.9626993375289464
+0.9125531859001476
+0.9080641199039524
+0.8891994448468497
+0.8492930730379226
+0.8408817245798241
+0.7840982562893966
+0.7837637197421734
+0.7500435344812761
+0.7168555857264215
+0.7146733216294138
+0.7146733216294138
+0.7146733216294138
+0.7031567950188075
+0.6966894620115156
+>>> for cat, Z in zdf.iterrows():
+...     dslice = df[df["category"] == cat]
+...     host_rows = dslice[dslice["environment"].isin(["Mammals: Human", "Mammals", "Plants"])]
+...     envt_rows = dslice[dslice["environment"].isin(["Aquatic", "Terrestrial"])]
+...     zs.append(Z.at[cat, "Z_alpha_category"])
+...     alpha_avg_host.append(host_rows["alpha_env"].mean())
+...     alpha_avg_envt.append(envt_rows["alpha_env"].mean())
+... 
+Traceback (most recent call last):
+  File "/home/aip485/.conda/envs/pangenome/lib/python3.14/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: ('map01110', 'Z_alpha_category')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<stdin>", line 5, in <module>
+    zs.append(Z.at[cat, "Z_alpha_category"])
+              ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aip485/.conda/envs/pangenome/lib/python3.14/site-packages/pandas/core/indexing.py", line 2576, in __getitem__
+    return super().__getitem__(key)
+           ~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/home/aip485/.conda/envs/pangenome/lib/python3.14/site-packages/pandas/core/indexing.py", line 2528, in __getitem__
+    return self.obj._get_value(*key, takeable=self._takeable)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aip485/.conda/envs/pangenome/lib/python3.14/site-packages/pandas/core/series.py", line 1249, in _get_value
+    loc = self.index.get_loc(label)
+  File "/home/aip485/.conda/envs/pangenome/lib/python3.14/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: ('map01110', 'Z_alpha_category')
+>>> for cat, Z in zdf.iterrows():
+...     dslice = df[df["category"] == cat]
+...     host_rows = dslice[dslice["environment"].isin(["Mammals: Human", "Mammals", "Plants"])]
+...     envt_rows = dslice[dslice["environment"].isin(["Aquatic", "Terrestrial"])]
+...     zs.append(Z["Z_alpha_category"])
+...     alpha_avg_host.append(host_rows["alpha_env"].mean())
+...     alpha_avg_envt.append(envt_rows["alpha_env"].mean())
+... 
+>>> for i in range(len(alpha_avg_host)):
+...     difference.append(alpha_avg_host[i] - alpha_avg_envt[i])
+... 
+>>> import matplotlib.pyplot as plt
+>>> plt.scatter(zs, difference)
+<matplotlib.collections.PathCollection object at 0x7f26bd709a90>
+>>> plt.savefig("/home/aip485/test.png")
+>>> plt.close()
+>>> ax = plt.scatter(zs, difference)
+>>> ax.scatter(zs, alpha_avg_host)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    ax.scatter(zs, alpha_avg_host)
+    ^^^^^^^^^^
+AttributeError: 'PathCollection' object has no attribute 'scatter'
+>>> plt.close()
+>>> fig, ax = plt.subplots()
+>>> ax.scatter(zs, difference)
+<matplotlib.collections.PathCollection object at 0x7f26b53934d0>
+>>> ax.scatter(zs, alpha_avg_host)
+<matplotlib.collections.PathCollection object at 0x7f26b5393610>
+>>> ax.scatter(zs, alpha_avg_envt)
+<matplotlib.collections.PathCollection object at 0x7f26b5393750>
+>>> plt.savefig("/home/aip485/test2.png")
+>>> cats = []
+>>> for cat, Z in zdf.iterrows():
+...     cats.append(cat)
+... 
+>>> for cat, diff in zip(cats, difference):
+...     if diff < 0:
+...     print(cat)
+  File "<stdin>", line 3
+        print(cat)
+        ^^^^^
+IndentationError: expected an indented block after 'if' statement on line 2
+>>> 
+>>> for cat, diff, z in zip(cats, difference, zs):
+...     if diff < 0:
+...             print(cat, z)
+... 
+map00920 3.1052167159765345
+map00900 2.5187533321561024
+map00650 2.260422669784083
+map00561 2.248733204289165
+map00998 2.2004951057037103
+map00552 2.0893377084376348
+map00760 1.9815105433288345
+map00052 1.968670797030822
+map01055 1.8064251796261923
+map00053 1.7332904481609603
+map01310 1.6902397475325914
+map00280 1.53332381616987
+map00525 1.508673622209168
+map00440 1.2185205772953187
+map00350 1.1607849310507206
+map00521 1.029174820596048
+map00430 0.8492930730379226
+map00360 0.7837637197421734
+map00791 0.7500435344812761
+map00362 0.7168555857264215
+map00061 0.7146733216294138
+map01040 0.7146733216294138
+map01212 0.7146733216294138
+>>> namedf = pd.read_csv("/n/scratch/users/b/byc014/github/bac_genome_constraint/results/4.5_statistical_analyses_KEGG_PATHWAY_version/05_kegg_labels/kegg_term_labels_pathway.tsv", sep="\t")
+>>> namedf = pd.read_csv("/n/scratch/users/b/byc014/github/bac_genome_constraint/results/4.5_statistical_analyses_KEGG_PATHWAY_version/05_kegg_labels/kegg_term_labels_pathway.tsv", sep="\t", index_col="category", usecols=["category", "name"])
+>>> for cat, diff, z in zip(cats, difference, zs):
+...     if diff < 0:
+...             print(cat, z, namedf[cat])
+... 
+Traceback (most recent call last):
+  File "/home/aip485/.conda/envs/pangenome/lib/python3.14/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'map00920'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+    print(cat, z, namedf[cat])
+                  ~~~~~~^^^^^
+  File "/home/aip485/.conda/envs/pangenome/lib/python3.14/site-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/aip485/.conda/envs/pangenome/lib/python3.14/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'map00920'
+>>> print(namedf)
+                                              name
+category                                          
+map00010              Glycolysis / Gluconeogenesis
+map00020                 Citrate cycle (TCA cycle)
+map00030                 Pentose phosphate pathway
+map00040  Pentose and glucuronate interconversions
+map00051           Fructose and mannose metabolism
+...                                            ...
+map01232                     Nucleotide metabolism
+map01240                 Biosynthesis of cofactors
+map01250         Biosynthesis of nucleotide sugars
+map01310                            Nitrogen cycle
+map01320                              Sulfur cycle
+
+[101 rows x 1 columns]
+>>> for cat, diff, z in zip(cats, difference, zs):
+...     if diff < 0:
+...             print(cat, z, namedf.at[cat, "name"])
+... 
+map00920 3.1052167159765345 Sulfur metabolism
+map00900 2.5187533321561024 Terpenoid backbone biosynthesis
+map00650 2.260422669784083 Butanoate metabolism
+map00561 2.248733204289165 Glycerolipid metabolism
+map00998 2.2004951057037103 Biosynthesis of various antibiotics
+map00552 2.0893377084376348 Teichoic acid biosynthesis
+map00760 1.9815105433288345 Nicotinate and nicotinamide metabolism
+map00052 1.968670797030822 Galactose metabolism
+map01055 1.8064251796261923 Biosynthesis of vancomycin group antibiotics
+map00053 1.7332904481609603 Ascorbate and aldarate metabolism
+map01310 1.6902397475325914 Nitrogen cycle
+map00280 1.53332381616987 Valine, leucine and isoleucine degradation
+map00525 1.508673622209168 Acarbose and validamycin biosynthesis
+map00440 1.2185205772953187 Phosphonate and phosphinate metabolism
+map00350 1.1607849310507206 Tyrosine metabolism
+map00521 1.029174820596048 Streptomycin biosynthesis
+map00430 0.8492930730379226 Taurine and hypotaurine metabolism
+map00360 0.7837637197421734 Phenylalanine metabolism
+map00791 0.7500435344812761 Atrazine degradation
+map00362 0.7168555857264215 Benzoate degradation
+map00061 0.7146733216294138 Fatty acid biosynthesis
+map01040 0.7146733216294138 Biosynthesis of unsaturated fatty acids
+map01212 0.7146733216294138 Fatty acid metabolism
+>>> nzdf = pd.read_csv("/n/scratch/users/b/byc014/github/bac_genome_constraint/results/4.5_statistical_analyses_KEGG_PATHWAY_version/04_env_scaling/rsqfiltered_category_Z_summary_pathway.tsv", sep="\t", index_col="category")
+>>> nzdf.sort_values("Z_alpha_category", ascending=False, inplace=True)
+>>> nzs = []
+>>> navg_host = []
+>>> navg_envt = []
+>>> ndifference = []
+>>> for cat, Z in nzdf.iterrows():
+...     dslice = df[df["category"] == cat]
+...     host_rows = dslice[dslice["environment"].isin(["Mammals: Human", "Mammals", "Plants"])]
+...     envt_rows = dslice[dslice["environment"].isin(["Aquatic", "Terrestrial"])]
+...     nzs.append(Z["Z_alpha_category"])
+...     navg_host.append(host_rows["alpha_env"].mean())
+...     navg_envt.append(envt_rows["alpha_env"].mean())
+... 
+>>> for i in range(len(navg_host)):
+...     ndifference.append(navg_host[i] - navg_envt[i])
+... 
+>>> fig, ax = plt.subplots()
+>>> ax.scatter(nzs, navg_host)
+<matplotlib.collections.PathCollection object at 0x7f26b51211d0>
+>>> ax.scatter(nzs, navg_envt)
+<matplotlib.collections.PathCollection object at 0x7f26b5121310>
+>>> plt.savefig("/home/aip485/test3.png")
+>>> ncats = []
+>>> for cat, Z in nzs.iterrows():
+...     ncats.append(cat)
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    for cat, Z in nzs.iterrows():
+                  ^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'iterrows'
+>>> for cat, Z in nzdf.iterrows():
+...     ncats.append(cat)
+... 
+>>> for cat, diff, z in zip(ncats, ndifference, nzs):
+...     if diff < 0:
+...             print(cat, z, namedf.at[cat, "name"])
+... 
+map00052 3.071708797732708 Galactose metabolism
+map00900 2.719467663167312 Terpenoid backbone biosynthesis
+map00920 2.3391038804153825 Sulfur metabolism
+map00998 2.200495105703712 Biosynthesis of various antibiotics
+map00561 2.185165292328281 Glycerolipid metabolism
+map00650 2.06111600612854 Butanoate metabolism
+map00760 1.712719481342183 Nicotinate and nicotinamide metabolism
+map00280 1.5698167405327907 Valine, leucine and isoleucine degradation
+map00525 1.3743519635417214 Acarbose and validamycin biosynthesis
+map00053 1.293498545417436 Ascorbate and aldarate metabolism
+map00350 1.1328673510067362 Tyrosine metabolism
+map00552 1.0412079063510895 Teichoic acid biosynthesis
+map01310 0.9022194970801092 Nitrogen cycle
+map00061 0.7146733216294138 Fatty acid biosynthesis
+map01040 0.7146733216294138 Biosynthesis of unsaturated fatty acids
+map01212 0.7146733216294138 Fatty acid metabolism
+map00360 0.6391523358631599 Phenylalanine metabolism
+map00362 0.5671291471236531 Benzoate degradation
+map00521 0.527193650539341 Streptomycin biosynthesis
+>>> plt.close()
+>>> fig, ax = plt.subplots()
+>>> ax.plot(nzs, navg_host)
+[<matplotlib.lines.Line2D object at 0x7f26b51a4c20>]
+>>> ax.plot(nzs, navg_envt)
+[<matplotlib.lines.Line2D object at 0x7f26b51a4d70>]
+>>> plt.savefig("/home/aip485/test4.png")
+>>> plt.close()
+>>> fig, ax = plt.subplots()
+>>> ax.plot(nzs, ndifference)
+[<matplotlib.lines.Line2D object at 0x7f26b4dbd2b0>]
+>>> plt.savefig("/home/aip485/test5.png")
+>>> plt.close()
+>>> ax.scatter(nzs, ndifference)
+<matplotlib.collections.PathCollection object at 0x7f26b4ddf390>
+>>> plt.axhline(y=0)
+<matplotlib.lines.Line2D object at 0x7f26b4e0c980>
+>>> plt.savefig("/home/aip485/test6.png")
+>>> plt.close()
+>>> fig, ax = plt.subplots()
+>>> ax.scatter(nzs, ndifference)
+<matplotlib.collections.PathCollection object at 0x7f26b4e2d950>
+>>> ax.axhline(y=0)
+<matplotlib.lines.Line2D object at 0x7f26b4e0da90>
+>>> plt.savefig("/home/aip485/test6.png")
+>>> import scipy
+>>> regress_result = scipy.stats.linregress(nzs, ndifference)
+>>> print(regress_result)
+LinregressResult(slope=np.float64(nan), intercept=np.float64(nan), rvalue=np.float64(nan), pvalue=np.float64(nan), stderr=np.float64(nan), intercept_stderr=np.float64(nan))
+>>> plt.plot(nzs, [regress_result.slope*z + regress_result.intercept for z in nzs])
+[<matplotlib.lines.Line2D object at 0x7f26b19c0d70>]
+>>> plt.savefig("/home/aip485/test7.png")
+>>> ax.plot(nzs, [regress_result.slope*z + regress_result.intercept for z in nzs])
+[<matplotlib.lines.Line2D object at 0x7f26b19c0ec0>]
+>>> plt.savefig("/home/aip485/test7.png")
+>>> nzs2 = [z if d is not np.nan for z, d in zip(nzs, ndifference)]
+  File "<stdin>", line 1
+    nzs2 = [z if d is not np.nan for z, d in zip(nzs, ndifference)]
+            ^^^^^^^^^^^^^^^^^^^^
+SyntaxError: expected 'else' after 'if' expression
+>>> nzs2 = [z for z, d in zip(nzs, ndifference) if d is not np.nan]
+>>> ndifference2 = [d for z, d in zip(nzs, ndifference) if d is not np.nan]
+>>> regress_result = scipy.stats.linregress(nzs2, ndifference2)
+>>> print(regress_result)
+LinregressResult(slope=np.float64(nan), intercept=np.float64(nan), rvalue=np.float64(nan), pvalue=np.float64(nan), stderr=np.float64(nan), intercept_stderr=np.float64(nan))
+>>> print(ndifference2)
+[np.float64(0.3360906263264368), np.float64(0.3874529531966919), np.float64(0.27386186058080175), np.float64(0.34629823536756), np.float64(0.29396335232154824), np.float64(0.09901026068497912), np.float64(0.3038760054791657), np.float64(0.22650681787557303), np.float64(-0.2095516051392211), np.float64(0.1865862737398729), np.float64(0.14537384488049487), np.float64(-0.06662948162037458), np.float64(0.43673554567594963), np.float64(0.21495094306978713), np.float64(nan), np.float64(-0.032085790045386475), np.float64(0.12418647522414272), np.float64(-0.132707900670131), np.float64(-0.09171103988951124), np.float64(0.19059357269471683), np.float64(0.18744247749652698), np.float64(0.05458127805850682), np.float64(0.06798498599103403), np.float64(-0.02107900288208453), np.float64(0.19047784644715882), np.float64(0.054142013479181794), np.float64(0.009524653445845965), np.float64(nan), np.float64(0.19300737153473502), np.float64(0.13293012840066834), np.float64(0.04312924114960584), np.float64(0.2298502437236133), np.float64(0.14863463798014698), np.float64(0.15217020921821), np.float64(0.0633243803799225), np.float64(0.13579096032140558), np.float64(-0.013267463442279803), np.float64(0.09580074300391939), np.float64(nan), np.float64(0.18835716223259025), np.float64(0.1474727107098457), np.float64(-0.0586159168659619), np.float64(0.14694876259920675), np.float64(0.054820266248195526), np.float64(0.26049222895985613), np.float64(0.026283478715544817), np.float64(0.04234836650030016), np.float64(0.2098443642647697), np.float64(-0.033871304355492515), np.float64(0.27154851159727644), np.float64(-0.018112390975564496), np.float64(0.0008115103698671522), np.float64(0.1135865099420702), np.float64(nan), np.float64(-0.04148121485822742), np.float64(-0.014630772452730062), np.float64(0.14312782686152858), np.float64(0.09243749774905452), np.float64(-0.012929859925065013), np.float64(-0.1368178552947211), np.float64(-0.1368178552947211), np.float64(-0.1368178552947211), np.float64(-0.0023718552358088507), np.float64(nan), np.float64(-0.06807556834123885), np.float64(0.07896037693565044), np.float64(-0.03205199607157955), np.float64(0.001008145071943467)]
+>>> nzs2 = [z for z, d in zip(nzs, ndifference) if d is not np.float64(np.nan)]
+>>> ndifference2 = [d for z, d in zip(nzs, ndifference) if d is not np.float64(np.nan)]
+>>> print(len(nzs))
+68
+>>> print(len(nzs2))
+68

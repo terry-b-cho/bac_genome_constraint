@@ -386,3 +386,4 @@ After running the core pipeline (Scripts 01-04), you should have:
 - Script 05 can be run at any time after Script 01 (it only needs category IDs)
 - Scripts 04.5, 06, and 07 require Script 05 to be run first for human-readable labels in plots
 
+
